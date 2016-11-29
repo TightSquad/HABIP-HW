@@ -1,7 +1,7 @@
 [Eagle]
 Version="07 07 00"
 Platform="Windows"
-Serial="742F2D77FE-LSR-WLM-1ES"
+Serial="742E2B3CB2-LSR-WLM-1ES"
 Globals="Globals"
 Desktop="Desktop"
 
@@ -162,7 +162,6 @@ UsedLibrary="C:/EAGLE-7.7.0/lbr/ftdichip.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/fujitsu.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/fuse.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/gennum.lbr"
-UsedLibrary="C:/EAGLE-7.7.0/lbr/habip.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/halo-electronics.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/heatsink.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/holes.lbr"
@@ -351,10 +350,10 @@ UsedLibrary="C:/EAGLE-7.7.0/lbr/zilog.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="-8 -8 1357 697"
+Loc="0 0 1919 1000"
 State=1
 Number=0
 
 [Desktop]
-Screen="1366 768"
+Screen="1920 1080"
 Window="Win_1"
