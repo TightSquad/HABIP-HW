@@ -1917,6 +1917,16 @@
 <attribute name="VENDOR_PN" value="490-10474-1-ND" constant="no"/>
 <attribute name="VOLTAGE" value="10V" constant="no"/>
 </technology>
+<technology name="_22PF0">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GQM1885C1H220JB01D" constant="no"/>
+<attribute name="TEMP_COEFF" value="C0G" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+<attribute name="VALUE" value="22pF" constant="no"/>
+<attribute name="VENDOR" value="Digi-Key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-3575-2-ND" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
 <technology name="_2UF2">
 <attribute name="MANUFACTURER" value="Murata" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R61C225KE15D" constant="no"/>
