@@ -80,6 +80,8 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
@@ -1101,6 +1103,23 @@
 <wire x1="-0.8" y1="3.1" x2="0.8" y2="3.1" width="0.127" layer="21"/>
 <wire x1="-0.8" y1="-3.1" x2="0.8" y2="-3.1" width="0.127" layer="21"/>
 </package>
+<package name="IPEX-20279-001E">
+<circle x="0" y="0" radius="0.7" width="0.1016" layer="21"/>
+<circle x="0" y="0" radius="0.175" width="0.1016" layer="21"/>
+<wire x1="-1.2" y1="1" x2="-1" y2="1.2" width="0.2032" layer="51" curve="-90"/>
+<wire x1="-1" y1="1.2" x2="1" y2="1.2" width="0.2032" layer="51"/>
+<wire x1="1" y1="1.2" x2="1.2" y2="1" width="0.2032" layer="51" curve="-90"/>
+<wire x1="1.2" y1="1" x2="1.2" y2="-1" width="0.2032" layer="51"/>
+<wire x1="1.2" y1="-1" x2="1" y2="-1.2" width="0.2032" layer="51" curve="-90"/>
+<wire x1="1" y1="-1.2" x2="-1" y2="-1.2" width="0.2032" layer="51"/>
+<wire x1="-1" y1="-1.2" x2="-1.2" y2="-1" width="0.2032" layer="51" curve="-90"/>
+<wire x1="-1.2" y1="-1" x2="-1.2" y2="1" width="0.2032" layer="51"/>
+<wire x1="0.5" y1="-1.2" x2="-0.5" y2="-1.2" width="0.2032" layer="21"/>
+<rectangle x1="-0.3" y1="1.3" x2="0.3" y2="1.55" layer="51"/>
+<smd name="1" x="0" y="1.5275" dx="1" dy="1.05" layer="1"/>
+<smd name="2@1" x="-1.475" y="0" dx="1.05" dy="2.2" layer="1"/>
+<smd name="2@2" x="1.475" y="0" dx="1.05" dy="2.2" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TPS562209DDC">
@@ -1271,6 +1290,20 @@
 <pin name="18_RESERVED" x="-22.86" y="-25.4" visible="pin" length="middle"/>
 <text x="-3.556" y="19.05" size="1.778" layer="125">&gt;NAME</text>
 <text x="-5.08" y="-30.48" size="1.778" layer="127">&gt;VALUE</text>
+</symbol>
+<symbol name="BNC-F2">
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.508" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.762" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-0.508" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="0" y2="0.508" width="0.3048" layer="94" curve="-79.611142" cap="flat"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-0.508" width="0.3048" layer="94" curve="79.611142" cap="flat"/>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="GND@1" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1795,6 +1828,23 @@
 <attribute name="VENDOR" value="Digi-Key" constant="no"/>
 <attribute name="VENDOR_PN" value="672-1003-1-ND" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IPEX-20279-001E" prefix="J" uservalue="yes">
+<description>Ultra Miniature Coaxial SMT RF Receptacle (U.FL Connector)</description>
+<gates>
+<gate name="G$1" symbol="BNC-F2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="IPEX-20279-001E">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="GND@1" pad="2@1 2@2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
