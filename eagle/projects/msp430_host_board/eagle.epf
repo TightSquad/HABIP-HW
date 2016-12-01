@@ -10,6 +10,8 @@ AutoSaveProject=1
 UsedLibrary="C:/Users/stevy/OneDrive/Documents/Steven's Stuff/RIT 5/Senior Design/PCB/HW/eagle/libraries/habip/daqcs_host.lbr"
 UsedLibrary="C:/Users/stevy/OneDrive/Documents/Steven's Stuff/RIT 5/Senior Design/PCB/HW/eagle/libraries/SparkFun-Eagle-Libraries-master/SparkFun-Aesthetics.lbr"
 UsedLibrary="C:/Users/stevy/OneDrive/Documents/Steven's Stuff/RIT 5/Senior Design/PCB/HW/eagle/libraries/SparkFun-Eagle-Libraries-master/SparkFun-FreqCtrl.lbr"
+UsedLibrary="C:/Users/stevy/OneDrive/Documents/Steven's Stuff/RIT 5/Senior Design/PCB/HW/eagle/libraries/SparkFun-Eagle-Libraries-master/SparkFun-Connectors.lbr"
+UsedLibrary="C:/Users/stevy/OneDrive/Documents/Steven's Stuff/RIT 5/Senior Design/PCB/HW/eagle/libraries/eagle_install_lbr/con-molex.lbr"
 
 [Win_1]
 Type="Control Panel"
