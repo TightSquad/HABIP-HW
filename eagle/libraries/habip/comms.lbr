@@ -2140,6 +2140,16 @@ thin small outline package</description>
 <attribute name="VENDOR_PN" value="490-5422-1-ND" constant="no"/>
 <attribute name="VOLTAGE" value="25V" constant="no"/>
 </technology>
+<technology name="_620PF0">
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc." constant="no"/>
+<attribute name="MANUFACTURER_PN" value="CL21C621JBCNNNC" constant="no"/>
+<attribute name="TEMP_COEFF" value="C0G, NP0" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+<attribute name="VALUE" value="620pF" constant="no"/>
+<attribute name="VENDOR" value="Digi-Key" constant="no"/>
+<attribute name="VENDOR_PN" value="1276-2677-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_1206" package="C1206">
@@ -2185,6 +2195,16 @@ thin small outline package</description>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="490-3889-1-ND" constant="no"/>
 <attribute name="VOLTAGE" value="25V" constant="no"/>
+</technology>
+<technology name="_47UF0">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM32ER61C476ME15L" constant="no"/>
+<attribute name="TEMP_COEFF" value="X5R" constant="no"/>
+<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="VALUE" value="47uF" constant="no"/>
+<attribute name="VENDOR" value="Digi-Key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-3888-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
 </technology>
 </technologies>
 </device>
