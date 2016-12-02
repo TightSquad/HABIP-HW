@@ -2266,6 +2266,113 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
 <rectangle x1="-5.334" y1="-0.254" x2="-4.826" y2="0.254" layer="51"/>
 </package>
+<package name="7395-04">
+<description>&lt;b&gt;MOLEX 2.54mm KK RA CONNECTOR&lt;/b&gt;
+&lt;br&gt;Fixed Orientation</description>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="5.08" y1="-1.905" x2="4.445" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="4.445" y1="-1.905" x2="4.445" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="4.445" y1="-2.54" x2="3.175" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="3.175" y1="-2.54" x2="3.175" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="3.175" y1="-1.905" x2="1.905" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="1.905" y1="-1.905" x2="1.905" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="0.635" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="0.635" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="0.635" y1="-1.905" x2="-0.635" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="-1.905" x2="-0.635" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-1.905" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="-1.905" x2="-3.175" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="-1.905" x2="-3.175" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="-2.54" x2="-4.445" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="-4.445" y1="-2.54" x2="-4.445" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="-4.445" y1="-1.905" x2="-5.08" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="-5.08" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="-5.08" x2="-4.191" y2="-5.08" width="0.254" layer="21"/>
+<wire x1="-4.191" y1="-5.08" x2="3.81" y2="-5.08" width="0.254" layer="21"/>
+<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="21"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="-13.081" width="0.254" layer="21"/>
+<wire x1="3.81" y1="-13.081" x2="3.556" y2="-13.589" width="0.254" layer="21"/>
+<wire x1="3.556" y1="-13.589" x2="-0.0508" y2="-13.589" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="-5.08" x2="-3.81" y2="-13.081" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="-13.081" x2="-3.556" y2="-13.589" width="0.254" layer="21"/>
+<wire x1="-3.556" y1="-13.589" x2="0.0508" y2="-13.589" width="0.254" layer="21"/>
+<wire x1="1.27" y1="-5.08" x2="0.889" y2="-5.08" width="0.254" layer="51"/>
+<wire x1="-4.191" y1="-5.08" x2="-4.191" y2="-11.303" width="0.254" layer="21"/>
+<wire x1="-4.191" y1="-11.303" x2="-3.8608" y2="-11.6586" width="0.254" layer="21"/>
+<wire x1="4.191" y1="-5.08" x2="4.191" y2="-11.303" width="0.254" layer="21"/>
+<wire x1="4.191" y1="-11.303" x2="3.8608" y2="-11.6586" width="0.254" layer="21"/>
+<pad name="1" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="5.1801" y="2.9479" size="1.016" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="3.3259" y="-3.4021" size="1.27" layer="21" ratio="14" rot="R270">1</text>
+<text x="-4.2433" y="-3.2751" size="1.27" layer="21" ratio="14" rot="R270">4</text>
+<text x="5.9421" y="-2.4399" size="0.8128" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-2.5146" x2="4.064" y2="-0.2794" layer="51"/>
+<rectangle x1="1.016" y1="-2.5146" x2="1.524" y2="-0.2794" layer="51"/>
+<rectangle x1="-1.524" y1="-2.5146" x2="-1.016" y2="-0.2794" layer="51"/>
+<rectangle x1="-4.064" y1="-2.5146" x2="-3.556" y2="-0.2794" layer="51"/>
+</package>
+<package name="6410-04">
+<description>&lt;b&gt;MOLEX 2.54mm KK  CONNECTOR&lt;/b&gt;</description>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="2.921" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="2.921" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="2.921" x2="-3.81" y2="2.921" width="0.254" layer="21"/>
+<wire x1="-3.556" y1="2.921" x2="-3.81" y2="2.921" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="2.921" x2="-2.54" y2="2.921" width="0.254" layer="21"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.921" width="0.254" layer="21"/>
+<wire x1="5.08" y1="2.921" x2="-2.54" y2="2.921" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-2.921" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="-2.667" y2="-2.921" width="0.127" layer="21"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-2.921" width="0.254" layer="21"/>
+<wire x1="5.08" y1="-2.921" x2="-2.667" y2="-2.921" width="0.254" layer="21"/>
+<wire x1="-4.826" y1="-2.921" x2="-4.445" y2="-2.921" width="0.254" layer="21"/>
+<wire x1="-4.445" y1="-2.921" x2="-4.445" y2="-2.286" width="0.254" layer="21"/>
+<wire x1="-4.445" y1="-2.286" x2="-3.175" y2="-2.286" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="-2.286" x2="-3.175" y2="-2.921" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="-2.921" x2="-1.905" y2="-2.286" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="-2.286" x2="-0.635" y2="-2.286" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="-2.286" x2="-0.635" y2="-2.921" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="-2.921" x2="-4.445" y2="-2.921" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="-2.921" x2="-1.905" y2="-2.921" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="-2.921" x2="0.635" y2="-2.921" width="0.254" layer="21"/>
+<wire x1="0.635" y1="-2.921" x2="0.635" y2="-2.286" width="0.254" layer="21"/>
+<wire x1="0.635" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="21"/>
+<wire x1="1.905" y1="-2.286" x2="1.905" y2="-2.921" width="0.254" layer="21"/>
+<wire x1="1.905" y1="-2.921" x2="3.175" y2="-2.921" width="0.254" layer="21"/>
+<wire x1="3.175" y1="-2.921" x2="3.175" y2="-2.286" width="0.254" layer="21"/>
+<wire x1="3.175" y1="-2.286" x2="4.445" y2="-2.286" width="0.254" layer="21"/>
+<wire x1="4.445" y1="-2.286" x2="4.445" y2="-2.921" width="0.254" layer="21"/>
+<wire x1="4.445" y1="-2.921" x2="5.08" y2="-2.921" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="2.921" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="1.905" x2="-3.556" y2="1.905" width="0.254" layer="21"/>
+<wire x1="-3.556" y1="1.905" x2="3.556" y2="1.905" width="0.254" layer="21"/>
+<wire x1="3.556" y1="1.905" x2="3.81" y2="1.905" width="0.254" layer="21"/>
+<wire x1="3.81" y1="1.905" x2="3.81" y2="2.921" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="1.905" x2="-3.556" y2="1.397" width="0.254" layer="21"/>
+<wire x1="-3.556" y1="2.921" x2="-3.556" y2="1.905" width="0.254" layer="21"/>
+<wire x1="-3.556" y1="1.397" x2="3.556" y2="1.397" width="0.254" layer="21"/>
+<wire x1="3.556" y1="1.397" x2="3.81" y2="1.905" width="0.254" layer="21"/>
+<wire x1="3.556" y1="2.921" x2="3.556" y2="1.905" width="0.254" layer="21"/>
+<pad name="4" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.0531" y="3.2751" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="5.6881" y="-0.7381" size="1.27" layer="21" ratio="14">1</text>
+<text x="-6.2499" y="-0.6873" size="1.27" layer="21" ratio="14">4</text>
+<text x="-5.0531" y="-4.5989" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MV">
@@ -2357,6 +2464,50 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <connect gate="-3" pin="S" pad="3"/>
 <connect gate="-4" pin="S" pad="4"/>
 <connect gate="-5" pin="S" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="22-?-04" prefix="J">
+<description>&lt;b&gt;CONNECTOR&lt;/b&gt;&lt;p&gt;
+wire to board 2.54 mm (.1 inch) pitch header</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="5.08" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="M" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
+<gate name="-4" symbol="M" x="0" y="-10.16" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="05-7048" package="7395-04">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="27-2041" package="6410-04">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -3688,10 +3839,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="Y2" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="4MHZ" value="4MHz"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="UART_1_J1" library="con-molex" deviceset="22-?-03" device="05-7038"/>
-<part name="UART_2_J2" library="con-molex" deviceset="22-?-03" device="05-7038"/>
-<part name="UART_3_J3" library="con-molex" deviceset="22-?-03" device="05-7038"/>
-<part name="UART_4_J4" library="con-molex" deviceset="22-?-03" device="05-7038"/>
 <part name="SPI_COMMS_J5" library="con-molex" deviceset="22-?-05" device="05-7058"/>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="FRAME2" library="frames" deviceset="A3L-LOC" device=""/>
@@ -3704,6 +3851,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="3.3V" device="" value="3.3V"/>
 <part name="MOTOR_DIG_OUT_J7" library="con-molex" deviceset="22-?-05" device="05-7058"/>
 <part name="MOTOR_AN_IN_J8" library="con-molex" deviceset="22-?-03" device="05-7038"/>
+<part name="UART_1_J1" library="con-molex" deviceset="22-?-04" device="05-7048"/>
+<part name="UART_2_J2" library="con-molex" deviceset="22-?-04" device="05-7048"/>
+<part name="UART_3_J3" library="con-molex" deviceset="22-?-04" device="05-7048"/>
+<part name="UART_4_J4" library="con-molex" deviceset="22-?-04" device="05-7048"/>
 </parts>
 <sheets>
 <sheet>
@@ -4095,6 +4246,34 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="139.7" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="RST_PI_1" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="P4.4_TB0.5"/>
+<wire x1="129.54" y1="78.74" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
+<label x="139.7" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RST_PI_2" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="P4.5"/>
+<wire x1="129.54" y1="76.2" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
+<label x="139.7" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RST_PI_3" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="P4.6"/>
+<wire x1="129.54" y1="73.66" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
+<label x="139.7" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RST_PI_4" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="P4.7"/>
+<wire x1="129.54" y1="71.12" x2="147.32" y2="71.12" width="0.1524" layer="91"/>
+<label x="139.7" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -4110,18 +4289,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="76.2" y="22.86" size="1.778" layer="91">Header Connector for Motor In</text>
 </plain>
 <instances>
-<instance part="UART_1_J1" gate="-1" x="91.44" y="157.48"/>
-<instance part="UART_1_J1" gate="-2" x="91.44" y="152.4"/>
-<instance part="UART_1_J1" gate="-3" x="91.44" y="147.32"/>
-<instance part="UART_2_J2" gate="-1" x="154.94" y="157.48"/>
-<instance part="UART_2_J2" gate="-2" x="154.94" y="152.4"/>
-<instance part="UART_2_J2" gate="-3" x="154.94" y="147.32"/>
-<instance part="UART_3_J3" gate="-1" x="88.9" y="127"/>
-<instance part="UART_3_J3" gate="-2" x="88.9" y="121.92"/>
-<instance part="UART_3_J3" gate="-3" x="88.9" y="116.84"/>
-<instance part="UART_4_J4" gate="-1" x="154.94" y="127"/>
-<instance part="UART_4_J4" gate="-2" x="154.94" y="121.92"/>
-<instance part="UART_4_J4" gate="-3" x="154.94" y="116.84"/>
 <instance part="SPI_COMMS_J5" gate="-1" x="88.9" y="96.52"/>
 <instance part="SPI_COMMS_J5" gate="-2" x="88.9" y="91.44"/>
 <instance part="SPI_COMMS_J5" gate="-3" x="88.9" y="86.36"/>
@@ -4146,38 +4313,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="MOTOR_AN_IN_J8" gate="-1" x="88.9" y="17.78"/>
 <instance part="MOTOR_AN_IN_J8" gate="-2" x="88.9" y="12.7"/>
 <instance part="MOTOR_AN_IN_J8" gate="-3" x="88.9" y="7.62"/>
+<instance part="UART_1_J1" gate="-1" x="88.9" y="160.02"/>
+<instance part="UART_1_J1" gate="-2" x="88.9" y="154.94"/>
+<instance part="UART_1_J1" gate="-3" x="88.9" y="149.86"/>
+<instance part="UART_1_J1" gate="-4" x="88.9" y="144.78"/>
+<instance part="UART_2_J2" gate="-1" x="154.94" y="160.02"/>
+<instance part="UART_2_J2" gate="-2" x="154.94" y="154.94"/>
+<instance part="UART_2_J2" gate="-3" x="154.94" y="149.86"/>
+<instance part="UART_2_J2" gate="-4" x="154.94" y="144.78"/>
+<instance part="UART_3_J3" gate="-1" x="88.9" y="129.54"/>
+<instance part="UART_3_J3" gate="-2" x="88.9" y="124.46"/>
+<instance part="UART_3_J3" gate="-3" x="88.9" y="119.38"/>
+<instance part="UART_3_J3" gate="-4" x="88.9" y="114.3"/>
+<instance part="UART_4_J4" gate="-1" x="154.94" y="129.54"/>
+<instance part="UART_4_J4" gate="-2" x="154.94" y="124.46"/>
+<instance part="UART_4_J4" gate="-3" x="154.94" y="119.38"/>
+<instance part="UART_4_J4" gate="-4" x="154.94" y="114.3"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="UART_1_TX" class="0">
-<segment>
-<pinref part="UART_1_J1" gate="-1" pin="S"/>
-<wire x1="88.9" y1="157.48" x2="68.58" y2="157.48" width="0.1524" layer="91"/>
-<label x="68.58" y="157.48" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="GND" class="0">
-<segment>
-<pinref part="UART_1_J1" gate="-2" pin="S"/>
-<wire x1="88.9" y1="152.4" x2="68.58" y2="152.4" width="0.1524" layer="91"/>
-<label x="68.58" y="152.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="UART_2_J2" gate="-2" pin="S"/>
-<wire x1="152.4" y1="152.4" x2="132.08" y2="152.4" width="0.1524" layer="91"/>
-<label x="132.08" y="152.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="UART_3_J3" gate="-2" pin="S"/>
-<wire x1="86.36" y1="121.92" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
-<label x="66.04" y="121.92" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="UART_4_J4" gate="-2" pin="S"/>
-<wire x1="152.4" y1="121.92" x2="132.08" y2="121.92" width="0.1524" layer="91"/>
-<label x="132.08" y="121.92" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="SPI_COMMS_J5" gate="-5" pin="S"/>
 <wire x1="86.36" y1="76.2" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
@@ -4204,54 +4360,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="86.36" y1="7.62" x2="66.04" y2="7.62" width="0.1524" layer="91"/>
 <label x="66.04" y="7.62" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="UART_1_RX" class="0">
 <segment>
-<pinref part="UART_1_J1" gate="-3" pin="S"/>
-<wire x1="88.9" y1="147.32" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
-<label x="68.58" y="147.32" size="1.778" layer="95"/>
+<pinref part="UART_1_J1" gate="-2" pin="S"/>
+<wire x1="86.36" y1="154.94" x2="66.04" y2="154.94" width="0.1524" layer="91"/>
+<label x="66.04" y="154.94" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="UART_2_TX" class="0">
 <segment>
-<pinref part="UART_2_J2" gate="-1" pin="S"/>
-<wire x1="152.4" y1="157.48" x2="132.08" y2="157.48" width="0.1524" layer="91"/>
-<label x="132.08" y="157.48" size="1.778" layer="95"/>
+<pinref part="UART_2_J2" gate="-2" pin="S"/>
+<wire x1="152.4" y1="154.94" x2="132.08" y2="154.94" width="0.1524" layer="91"/>
+<label x="132.08" y="154.94" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="UART_2_RX" class="0">
 <segment>
-<pinref part="UART_2_J2" gate="-3" pin="S"/>
-<wire x1="152.4" y1="147.32" x2="132.08" y2="147.32" width="0.1524" layer="91"/>
-<label x="132.08" y="147.32" size="1.778" layer="95"/>
+<pinref part="UART_3_J3" gate="-2" pin="S"/>
+<wire x1="86.36" y1="124.46" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
+<label x="66.04" y="124.46" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="UART_3_RX" class="0">
 <segment>
-<pinref part="UART_3_J3" gate="-3" pin="S"/>
-<wire x1="86.36" y1="116.84" x2="66.04" y2="116.84" width="0.1524" layer="91"/>
-<label x="66.04" y="116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="UART_4_TX" class="0">
-<segment>
-<pinref part="UART_4_J4" gate="-1" pin="S"/>
-<wire x1="152.4" y1="127" x2="132.08" y2="127" width="0.1524" layer="91"/>
-<label x="132.08" y="127" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="UART_4_RX" class="0">
-<segment>
-<pinref part="UART_4_J4" gate="-3" pin="S"/>
-<wire x1="152.4" y1="116.84" x2="132.08" y2="116.84" width="0.1524" layer="91"/>
-<label x="132.08" y="116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="UART_3_TX" class="0">
-<segment>
-<pinref part="UART_3_J3" gate="-1" pin="S"/>
-<wire x1="86.36" y1="127" x2="66.04" y2="127" width="0.1524" layer="91"/>
-<label x="66.04" y="127" size="1.778" layer="95"/>
+<pinref part="UART_4_J4" gate="-2" pin="S"/>
+<wire x1="152.4" y1="124.46" x2="132.08" y2="124.46" width="0.1524" layer="91"/>
+<label x="132.08" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -4427,6 +4554,90 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="119.38" y1="22.86" x2="119.38" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="2.54" x2="60.96" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="2.54" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="UART_1_TX" class="0">
+<segment>
+<pinref part="UART_1_J1" gate="-1" pin="S"/>
+<wire x1="86.36" y1="160.02" x2="66.04" y2="160.02" width="0.1524" layer="91"/>
+<label x="66.04" y="160.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="UART_1_RX" class="0">
+<segment>
+<pinref part="UART_1_J1" gate="-3" pin="S"/>
+<wire x1="86.36" y1="149.86" x2="66.04" y2="149.86" width="0.1524" layer="91"/>
+<label x="66.04" y="149.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RST_PI_1" class="0">
+<segment>
+<pinref part="UART_1_J1" gate="-4" pin="S"/>
+<wire x1="86.36" y1="144.78" x2="66.04" y2="144.78" width="0.1524" layer="91"/>
+<label x="66.04" y="144.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="UART_2_TX" class="0">
+<segment>
+<pinref part="UART_2_J2" gate="-1" pin="S"/>
+<wire x1="152.4" y1="160.02" x2="132.08" y2="160.02" width="0.1524" layer="91"/>
+<label x="132.08" y="160.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="UART_2_RX" class="0">
+<segment>
+<pinref part="UART_2_J2" gate="-3" pin="S"/>
+<wire x1="152.4" y1="149.86" x2="132.08" y2="149.86" width="0.1524" layer="91"/>
+<label x="132.08" y="149.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RST_PI_2" class="0">
+<segment>
+<pinref part="UART_2_J2" gate="-4" pin="S"/>
+<wire x1="152.4" y1="144.78" x2="132.08" y2="144.78" width="0.1524" layer="91"/>
+<label x="132.08" y="144.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="UART_3_TX" class="0">
+<segment>
+<pinref part="UART_3_J3" gate="-1" pin="S"/>
+<wire x1="86.36" y1="129.54" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
+<label x="66.04" y="129.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="UART_3_RX" class="0">
+<segment>
+<pinref part="UART_3_J3" gate="-3" pin="S"/>
+<wire x1="86.36" y1="119.38" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
+<label x="66.04" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RST_PI_3" class="0">
+<segment>
+<pinref part="UART_3_J3" gate="-4" pin="S"/>
+<wire x1="86.36" y1="114.3" x2="66.04" y2="114.3" width="0.1524" layer="91"/>
+<label x="66.04" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="UART_4_TX" class="0">
+<segment>
+<pinref part="UART_4_J4" gate="-1" pin="S"/>
+<wire x1="152.4" y1="129.54" x2="132.08" y2="129.54" width="0.1524" layer="91"/>
+<label x="132.08" y="129.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="UART_4_RX" class="0">
+<segment>
+<pinref part="UART_4_J4" gate="-3" pin="S"/>
+<wire x1="152.4" y1="119.38" x2="132.08" y2="119.38" width="0.1524" layer="91"/>
+<label x="132.08" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RST_PI_4" class="0">
+<segment>
+<pinref part="UART_4_J4" gate="-4" pin="S"/>
+<wire x1="152.4" y1="114.3" x2="132.08" y2="114.3" width="0.1524" layer="91"/>
+<label x="132.08" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
