@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3702,6 +3702,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="3.3V" device="" value="3.3V"/>
+<part name="MOTOR_DIG_OUT_J7" library="con-molex" deviceset="22-?-05" device="05-7058"/>
+<part name="MOTOR_AN_IN_J8" library="con-molex" deviceset="22-?-03" device="05-7038"/>
 </parts>
 <sheets>
 <sheet>
@@ -4098,26 +4100,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="71.12" y="165.1" size="1.778" layer="91">Header Connector for UART_1</text>
-<text x="127" y="165.1" size="1.778" layer="91">Header Connector for UART_2</text>
+<text x="134.62" y="165.1" size="1.778" layer="91">Header Connector for UART_2</text>
 <text x="68.58" y="134.62" size="1.778" layer="91">Header Connector for UART_3</text>
-<text x="127" y="134.62" size="1.778" layer="91">Header Connector for UART_4</text>
+<text x="134.62" y="134.62" size="1.778" layer="91">Header Connector for UART_4</text>
 <text x="68.58" y="104.14" size="1.778" layer="91">Header Connector for SPI COMMS</text>
 <text x="213.36" y="165.1" size="1.778" layer="91">Header Connector for JTAG</text>
 <text x="322.58" y="165.1" size="1.778" layer="91">Reset Pushbutton</text>
+<text x="73.66" y="63.5" size="1.778" layer="91">Header Connector for Motor Out</text>
+<text x="76.2" y="22.86" size="1.778" layer="91">Header Connector for Motor In</text>
 </plain>
 <instances>
 <instance part="UART_1_J1" gate="-1" x="91.44" y="157.48"/>
 <instance part="UART_1_J1" gate="-2" x="91.44" y="152.4"/>
 <instance part="UART_1_J1" gate="-3" x="91.44" y="147.32"/>
-<instance part="UART_2_J2" gate="-1" x="147.32" y="157.48"/>
-<instance part="UART_2_J2" gate="-2" x="147.32" y="152.4"/>
-<instance part="UART_2_J2" gate="-3" x="147.32" y="147.32"/>
+<instance part="UART_2_J2" gate="-1" x="154.94" y="157.48"/>
+<instance part="UART_2_J2" gate="-2" x="154.94" y="152.4"/>
+<instance part="UART_2_J2" gate="-3" x="154.94" y="147.32"/>
 <instance part="UART_3_J3" gate="-1" x="88.9" y="127"/>
 <instance part="UART_3_J3" gate="-2" x="88.9" y="121.92"/>
 <instance part="UART_3_J3" gate="-3" x="88.9" y="116.84"/>
-<instance part="UART_4_J4" gate="-1" x="147.32" y="127"/>
-<instance part="UART_4_J4" gate="-2" x="147.32" y="121.92"/>
-<instance part="UART_4_J4" gate="-3" x="147.32" y="116.84"/>
+<instance part="UART_4_J4" gate="-1" x="154.94" y="127"/>
+<instance part="UART_4_J4" gate="-2" x="154.94" y="121.92"/>
+<instance part="UART_4_J4" gate="-3" x="154.94" y="116.84"/>
 <instance part="SPI_COMMS_J5" gate="-1" x="88.9" y="96.52"/>
 <instance part="SPI_COMMS_J5" gate="-2" x="88.9" y="91.44"/>
 <instance part="SPI_COMMS_J5" gate="-3" x="88.9" y="86.36"/>
@@ -4134,6 +4138,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND4" gate="1" x="294.64" y="129.54"/>
 <instance part="GND5" gate="1" x="337.82" y="119.38"/>
 <instance part="SUPPLY1" gate="G$1" x="337.82" y="157.48"/>
+<instance part="MOTOR_DIG_OUT_J7" gate="-1" x="88.9" y="58.42"/>
+<instance part="MOTOR_DIG_OUT_J7" gate="-2" x="88.9" y="53.34"/>
+<instance part="MOTOR_DIG_OUT_J7" gate="-3" x="88.9" y="48.26"/>
+<instance part="MOTOR_DIG_OUT_J7" gate="-4" x="88.9" y="43.18"/>
+<instance part="MOTOR_DIG_OUT_J7" gate="-5" x="88.9" y="38.1"/>
+<instance part="MOTOR_AN_IN_J8" gate="-1" x="88.9" y="17.78"/>
+<instance part="MOTOR_AN_IN_J8" gate="-2" x="88.9" y="12.7"/>
+<instance part="MOTOR_AN_IN_J8" gate="-3" x="88.9" y="7.62"/>
 </instances>
 <busses>
 </busses>
@@ -4153,8 +4165,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="UART_2_J2" gate="-2" pin="S"/>
-<wire x1="144.78" y1="152.4" x2="124.46" y2="152.4" width="0.1524" layer="91"/>
-<label x="124.46" y="152.4" size="1.778" layer="95"/>
+<wire x1="152.4" y1="152.4" x2="132.08" y2="152.4" width="0.1524" layer="91"/>
+<label x="132.08" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="UART_3_J3" gate="-2" pin="S"/>
@@ -4163,8 +4175,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="UART_4_J4" gate="-2" pin="S"/>
-<wire x1="144.78" y1="121.92" x2="124.46" y2="121.92" width="0.1524" layer="91"/>
-<label x="124.46" y="121.92" size="1.778" layer="95"/>
+<wire x1="152.4" y1="121.92" x2="132.08" y2="121.92" width="0.1524" layer="91"/>
+<label x="132.08" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SPI_COMMS_J5" gate="-5" pin="S"/>
@@ -4182,6 +4194,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="337.82" y1="127" x2="337.82" y2="121.92" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="MOTOR_DIG_OUT_J7" gate="-5" pin="S"/>
+<wire x1="86.36" y1="38.1" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
+<label x="66.04" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MOTOR_AN_IN_J8" gate="-3" pin="S"/>
+<wire x1="86.36" y1="7.62" x2="66.04" y2="7.62" width="0.1524" layer="91"/>
+<label x="66.04" y="7.62" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="UART_1_RX" class="0">
 <segment>
@@ -4193,15 +4215,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="UART_2_TX" class="0">
 <segment>
 <pinref part="UART_2_J2" gate="-1" pin="S"/>
-<wire x1="144.78" y1="157.48" x2="124.46" y2="157.48" width="0.1524" layer="91"/>
-<label x="124.46" y="157.48" size="1.778" layer="95"/>
+<wire x1="152.4" y1="157.48" x2="132.08" y2="157.48" width="0.1524" layer="91"/>
+<label x="132.08" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART_2_RX" class="0">
 <segment>
 <pinref part="UART_2_J2" gate="-3" pin="S"/>
-<wire x1="144.78" y1="147.32" x2="124.46" y2="147.32" width="0.1524" layer="91"/>
-<label x="124.46" y="147.32" size="1.778" layer="95"/>
+<wire x1="152.4" y1="147.32" x2="132.08" y2="147.32" width="0.1524" layer="91"/>
+<label x="132.08" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART_3_RX" class="0">
@@ -4214,15 +4236,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="UART_4_TX" class="0">
 <segment>
 <pinref part="UART_4_J4" gate="-1" pin="S"/>
-<wire x1="144.78" y1="127" x2="124.46" y2="127" width="0.1524" layer="91"/>
-<label x="124.46" y="127" size="1.778" layer="95"/>
+<wire x1="152.4" y1="127" x2="132.08" y2="127" width="0.1524" layer="91"/>
+<label x="132.08" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART_4_RX" class="0">
 <segment>
 <pinref part="UART_4_J4" gate="-3" pin="S"/>
-<wire x1="144.78" y1="116.84" x2="124.46" y2="116.84" width="0.1524" layer="91"/>
-<label x="124.46" y="116.84" size="1.778" layer="95"/>
+<wire x1="152.4" y1="116.84" x2="132.08" y2="116.84" width="0.1524" layer="91"/>
+<label x="132.08" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART_3_TX" class="0">
@@ -4234,34 +4256,34 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$5" class="0">
 <segment>
-<wire x1="60.96" y1="165.1" x2="111.76" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="165.1" x2="111.76" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="142.24" x2="60.96" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="165.1" x2="119.38" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="165.1" x2="119.38" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="142.24" x2="60.96" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="142.24" x2="60.96" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<wire x1="119.38" y1="165.1" x2="167.64" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="165.1" x2="167.64" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="142.24" x2="119.38" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="142.24" x2="119.38" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="127" y1="165.1" x2="180.34" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="165.1" x2="180.34" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="142.24" x2="127" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="127" y1="142.24" x2="127" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<wire x1="60.96" y1="134.62" x2="111.76" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="134.62" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="111.76" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="134.62" x2="119.38" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="134.62" x2="119.38" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="111.76" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="111.76" x2="60.96" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<wire x1="119.38" y1="134.62" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="134.62" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="111.76" x2="119.38" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="111.76" x2="119.38" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="127" y1="134.62" x2="180.34" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="134.62" x2="180.34" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="111.76" x2="127" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="127" y1="111.76" x2="127" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="COMMS_SS" class="0">
@@ -4294,9 +4316,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$9" class="0">
 <segment>
-<wire x1="60.96" y1="104.14" x2="111.76" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="104.14" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="71.12" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="104.14" x2="119.38" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="104.14" x2="119.38" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="71.12" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="71.12" x2="60.96" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4327,10 +4349,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$10" class="0">
 <segment>
-<wire x1="200.66" y1="165.1" x2="254" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="254" y1="165.1" x2="254" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="254" y1="142.24" x2="200.66" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="142.24" x2="200.66" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="165.1" x2="259.08" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="165.1" x2="259.08" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="142.24" x2="205.74" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="142.24" x2="205.74" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -4347,6 +4369,64 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="381" y1="165.1" x2="381" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="381" y1="111.76" x2="281.94" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="111.76" x2="281.94" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SPEED_PWM_OUT" class="0">
+<segment>
+<pinref part="MOTOR_DIG_OUT_J7" gate="-1" pin="S"/>
+<wire x1="86.36" y1="58.42" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
+<label x="66.04" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CURRENT_PWM_OUT" class="0">
+<segment>
+<pinref part="MOTOR_DIG_OUT_J7" gate="-2" pin="S"/>
+<wire x1="86.36" y1="53.34" x2="66.04" y2="53.34" width="0.1524" layer="91"/>
+<label x="66.04" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="EN_MOTOR_OUT" class="0">
+<segment>
+<pinref part="MOTOR_DIG_OUT_J7" gate="-3" pin="S"/>
+<wire x1="86.36" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
+<label x="66.04" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DIR_MOTOR_OUT" class="0">
+<segment>
+<pinref part="MOTOR_DIG_OUT_J7" gate="-4" pin="S"/>
+<wire x1="86.36" y1="43.18" x2="66.04" y2="43.18" width="0.1524" layer="91"/>
+<label x="66.04" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<wire x1="60.96" y1="63.5" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="63.5" x2="119.38" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="33.02" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="33.02" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ACT_SPEED_IN" class="0">
+<segment>
+<pinref part="MOTOR_AN_IN_J8" gate="-1" pin="S"/>
+<wire x1="86.36" y1="17.78" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
+<label x="66.04" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ACT_CURRENT_IN" class="0">
+<segment>
+<pinref part="MOTOR_AN_IN_J8" gate="-2" pin="S"/>
+<wire x1="86.36" y1="12.7" x2="66.04" y2="12.7" width="0.1524" layer="91"/>
+<label x="66.04" y="12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<wire x1="60.96" y1="22.86" x2="119.38" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="22.86" x2="119.38" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="2.54" x2="60.96" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="2.54" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
