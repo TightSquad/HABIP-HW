@@ -1345,6 +1345,70 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <wire x1="-2.14" y1="-1.32" x2="2.15" y2="-1.32" width="0.15" layer="21"/>
 <wire x1="3.52" y1="0.91" x2="3.52" y2="-0.95" width="0.15" layer="21"/>
 </package>
+<package name="UBLOX_MAX">
+<description>uBlox MAX</description>
+<circle x="2.85" y="-3.95" radius="0.6" width="0" layer="21"/>
+<wire x1="-4.65" y1="-4.9" x2="-4.65" y2="-5.15" width="0.15" layer="21"/>
+<wire x1="-4.65" y1="-5.15" x2="5.05" y2="-5.15" width="0.15" layer="21"/>
+<wire x1="5.05" y1="-4.9" x2="5.05" y2="-5.15" width="0.15" layer="21"/>
+<wire x1="-4.65" y1="4.95" x2="5.05" y2="4.95" width="0.15" layer="21"/>
+<wire x1="5.05" y1="4.95" x2="5.05" y2="4.8" width="0.15" layer="21"/>
+<wire x1="-4.65" y1="4.95" x2="-4.65" y2="4.8" width="0.15" layer="21"/>
+<smd name="1_GND" x="4.95" y="-4.4" dx="1.8" dy="0.7" layer="1"/>
+<smd name="2_TXD1" x="4.95" y="-3.35" dx="1.8" dy="0.8" layer="1"/>
+<smd name="3_RXD1" x="4.95" y="-2.25" dx="1.8" dy="0.8" layer="1"/>
+<smd name="4_TIMEPULSE" x="4.95" y="-1.15" dx="1.8" dy="0.8" layer="1"/>
+<smd name="5_EXTINT0" x="4.95" y="-0.05" dx="1.8" dy="0.8" layer="1"/>
+<smd name="6_V_BCKP" x="4.95" y="1.05" dx="1.8" dy="0.8" layer="1"/>
+<smd name="7_VCC_IO" x="4.95" y="2.15" dx="1.8" dy="0.8" layer="1"/>
+<smd name="8_VCC" x="4.95" y="3.25" dx="1.8" dy="0.8" layer="1"/>
+<smd name="9_V_RESET" x="4.95" y="4.3" dx="1.8" dy="0.7" layer="1"/>
+<smd name="10_GND" x="-4.55" y="4.3" dx="1.8" dy="0.7" layer="1"/>
+<smd name="11_RF_IN" x="-4.55" y="3.25" dx="1.8" dy="0.8" layer="1"/>
+<smd name="12_GND" x="-4.55" y="2.15" dx="1.8" dy="0.8" layer="1"/>
+<smd name="13_ANTON" x="-4.55" y="1.05" dx="1.8" dy="0.8" layer="1"/>
+<smd name="14_VCC_RF" x="-4.55" y="-0.05" dx="1.8" dy="0.8" layer="1"/>
+<smd name="15_RESERVED" x="-4.55" y="-1.15" dx="1.8" dy="0.8" layer="1"/>
+<smd name="16_SDA2" x="-4.55" y="-2.25" dx="1.8" dy="0.8" layer="1"/>
+<smd name="17_SCL2" x="-4.55" y="-3.35" dx="1.8" dy="0.8" layer="1"/>
+<smd name="18_RESERVED" x="-4.55" y="-4.4" dx="1.8" dy="0.7" layer="1"/>
+<text x="3.35875" y="-3.10625" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">ublox</text>
+</package>
+<package name="IPEX-20279-001E">
+<circle x="0" y="0" radius="0.7" width="0.15" layer="21"/>
+<circle x="0" y="0" radius="0.175" width="0.15" layer="21"/>
+<wire x1="-1.2" y1="1" x2="-1" y2="1.2" width="0.2032" layer="51" curve="-90"/>
+<wire x1="-1" y1="1.2" x2="1" y2="1.2" width="0.2032" layer="51"/>
+<wire x1="1" y1="1.2" x2="1.2" y2="1" width="0.2032" layer="51" curve="-90"/>
+<wire x1="1.2" y1="1" x2="1.2" y2="-1" width="0.2032" layer="51"/>
+<wire x1="1.2" y1="-1" x2="1" y2="-1.2" width="0.2032" layer="51" curve="-90"/>
+<wire x1="1" y1="-1.2" x2="-1" y2="-1.2" width="0.2032" layer="51"/>
+<wire x1="-1" y1="-1.2" x2="-1.2" y2="-1" width="0.2032" layer="51" curve="-90"/>
+<wire x1="-1.2" y1="-1" x2="-1.2" y2="1" width="0.2032" layer="51"/>
+<wire x1="0.5" y1="-1.2" x2="-0.5" y2="-1.2" width="0.2032" layer="21"/>
+<rectangle x1="-0.3" y1="1.3" x2="0.3" y2="1.55" layer="51"/>
+<smd name="1" x="0" y="1.5275" dx="1" dy="1.05" layer="1"/>
+<smd name="2@1" x="-1.475" y="0" dx="1.05" dy="2.2" layer="1"/>
+<smd name="2@2" x="1.475" y="0" dx="1.05" dy="2.2" layer="1"/>
+</package>
+<package name="L0603">
+<description>&lt;b&gt;0603 Chip Industor&lt;/b&gt;
+&lt;p&gt;&lt;b&gt;Author:&lt;/b&gt; Chris Schwab
+&lt;p&gt;&lt;b&gt;Notes:&lt;/b&gt; Modified from Adafruit</description>
+<wire x1="-0.4" y1="-0.36" x2="0.4" y2="-0.36" width="0.08" layer="51"/>
+<wire x1="0.4" y1="0.36" x2="-0.4" y2="0.36" width="0.08" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1" layer="1" stop="no"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1" layer="1" stop="no"/>
+<text x="0" y="0.85" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
+<text x="0" y="-0.75" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
+<rectangle x1="0.4" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
+<rectangle x1="-0.8" y1="-0.4" x2="-0.4" y2="0.4" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="-0.15" y1="0.5" x2="0.15" y2="0.5" width="0.15" layer="21"/>
+<wire x1="-0.15" y1="-0.5" x2="0.15" y2="-0.5" width="0.15" layer="21"/>
+<rectangle x1="-1.4" y1="-0.55" x2="-0.3" y2="0.55" layer="29"/>
+<rectangle x1="0.3" y1="-0.55" x2="1.4" y2="0.55" layer="29"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TPS562209DDC">
@@ -1530,6 +1594,46 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="UBLOX_MAX">
+<wire x1="-17.78" y1="17.78" x2="-17.78" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-27.94" x2="17.78" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-27.94" x2="17.78" y2="17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="17.78" x2="-17.78" y2="17.78" width="0.254" layer="94"/>
+<pin name="1_GND" x="22.86" y="-25.4" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="2_TXD1" x="22.86" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="3_RXD1" x="22.86" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="4_TIMEPULSE" x="22.86" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="5_EXTINT0" x="22.86" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="6_V_BCKP" x="22.86" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="7_VCC_IO" x="22.86" y="5.08" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="8_VCC" x="22.86" y="10.16" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="9_V_RESET" x="22.86" y="15.24" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="10_GND" x="-22.86" y="15.24" visible="pin" length="middle" direction="pwr"/>
+<pin name="11_RF_IN" x="-22.86" y="10.16" visible="pin" length="middle"/>
+<pin name="12_GND" x="-22.86" y="5.08" visible="pin" length="middle" direction="pwr"/>
+<pin name="13_ANTON" x="-22.86" y="0" visible="pin" length="middle"/>
+<pin name="14_VCC_RF" x="-22.86" y="-5.08" visible="pin" length="middle"/>
+<pin name="15_RESERVED" x="-22.86" y="-10.16" visible="pin" length="middle"/>
+<pin name="16_SDA2" x="-22.86" y="-15.24" visible="pin" length="middle"/>
+<pin name="17_SCL2" x="-22.86" y="-20.32" visible="pin" length="middle"/>
+<pin name="18_RESERVED" x="-22.86" y="-25.4" visible="pin" length="middle"/>
+<text x="-3.556" y="19.05" size="1.778" layer="125">&gt;NAME</text>
+<text x="-5.08" y="-30.48" size="1.778" layer="127">&gt;VALUE</text>
+</symbol>
+<symbol name="BNC-F2">
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.508" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.762" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-0.508" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="0" y2="0.508" width="0.3048" layer="94" curve="-79.611142" cap="flat"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-0.508" width="0.3048" layer="94" curve="79.611142" cap="flat"/>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="GND@1" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1890,6 +1994,27 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 </technology>
 </technologies>
 </device>
+<device name="_0603" package="L0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_27NH0">
+<attribute name="CURRENT_DC" value="300mA" constant="no"/>
+<attribute name="CURRENT_SAT" value="-" constant="no"/>
+<attribute name="DCR_MAX" value="0.550" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="LQG18HN27NJ00D" constant="no"/>
+<attribute name="SHIELDED" value="Unshielded" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+<attribute name="TYPE" value="CHIP" constant="no"/>
+<attribute name="VALUE" value="27nH" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VENDOR_PN" value="490-6579-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RES" prefix="R" uservalue="yes">
@@ -1912,6 +2037,15 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <attribute name="VALUE" value="0" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" constant="no"/>
+</technology>
+<technology name="_0R10">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF10R0V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="10" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P10.0HCT-ND" constant="no"/>
 </technology>
 <technology name="_0R100">
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
@@ -2337,6 +2471,68 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="UBLOX_MAX">
+<description>UBLOX MAX</description>
+<gates>
+<gate name="G$1" symbol="UBLOX_MAX" x="-2.54" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="UBLOX_MAX">
+<connects>
+<connect gate="G$1" pin="10_GND" pad="10_GND"/>
+<connect gate="G$1" pin="11_RF_IN" pad="11_RF_IN"/>
+<connect gate="G$1" pin="12_GND" pad="12_GND"/>
+<connect gate="G$1" pin="13_ANTON" pad="13_ANTON"/>
+<connect gate="G$1" pin="14_VCC_RF" pad="14_VCC_RF"/>
+<connect gate="G$1" pin="15_RESERVED" pad="15_RESERVED"/>
+<connect gate="G$1" pin="16_SDA2" pad="16_SDA2"/>
+<connect gate="G$1" pin="17_SCL2" pad="17_SCL2"/>
+<connect gate="G$1" pin="18_RESERVED" pad="18_RESERVED"/>
+<connect gate="G$1" pin="1_GND" pad="1_GND"/>
+<connect gate="G$1" pin="2_TXD1" pad="2_TXD1"/>
+<connect gate="G$1" pin="3_RXD1" pad="3_RXD1"/>
+<connect gate="G$1" pin="4_TIMEPULSE" pad="4_TIMEPULSE"/>
+<connect gate="G$1" pin="5_EXTINT0" pad="5_EXTINT0"/>
+<connect gate="G$1" pin="6_V_BCKP" pad="6_V_BCKP"/>
+<connect gate="G$1" pin="7_VCC_IO" pad="7_VCC_IO"/>
+<connect gate="G$1" pin="8_VCC" pad="8_VCC"/>
+<connect gate="G$1" pin="9_V_RESET" pad="9_V_RESET"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="u-blox" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="MAX-M8Q" constant="no"/>
+<attribute name="VALUE" value="MAX-M8Q" constant="no"/>
+<attribute name="VENDOR" value="Digi-Key" constant="no"/>
+<attribute name="VENDOR_PN" value="672-1003-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IPEX-20279-001E" prefix="J" uservalue="yes">
+<description>Ultra Miniature Coaxial SMT RF Receptacle (U.FL Connector)</description>
+<gates>
+<gate name="G$1" symbol="BNC-F2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="IPEX-20279-001E">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="GND@1" pad="2@1 2@2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Taoglas" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="RECE-20279-001E" constant="no"/>
+<attribute name="VALUE" value="RECE-20279-001E" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VENDOR_PN" value="931-1107-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply2">
@@ -2366,6 +2562,180 @@ In this library the device names are the same as the pin names of the symbols, t
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="daqcs">
+<packages>
+<package name="R0603">
+<description>&lt;b&gt;0603 Chip Resistor&lt;/b&gt;
+&lt;p&gt;&lt;b&gt;Author:&lt;/b&gt; Chris Schwab
+&lt;p&gt;&lt;b&gt;Notes:&lt;/b&gt; Modified from Adafruit</description>
+<wire x1="-0.4" y1="-0.36" x2="0.4" y2="-0.36" width="0.08" layer="51"/>
+<wire x1="0.4" y1="0.36" x2="-0.4" y2="0.36" width="0.08" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1" layer="1" stop="no"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1" layer="1" stop="no"/>
+<text x="0" y="0.85" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
+<text x="0" y="-0.75" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
+<rectangle x1="0.4" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
+<rectangle x1="-0.8" y1="-0.4" x2="-0.4" y2="0.4" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="-0.15" y1="0.5" x2="0.15" y2="0.5" width="0.15" layer="21"/>
+<wire x1="-0.15" y1="-0.5" x2="0.15" y2="-0.5" width="0.15" layer="21"/>
+<rectangle x1="-1.4" y1="-0.55" x2="-0.3" y2="0.55" layer="29"/>
+<rectangle x1="0.3" y1="-0.55" x2="1.4" y2="0.55" layer="29"/>
+</package>
+<package name="R0805">
+<description>&lt;b&gt;0805 Chip Resistor&lt;/b&gt;
+&lt;p&gt;&lt;b&gt;Author:&lt;/b&gt; Chris Schwab
+&lt;p&gt;&lt;b&gt;Notes:&lt;/b&gt; Modified from Adafruit</description>
+<wire x1="-0.55" y1="0.585" x2="0.55" y2="0.585" width="0.08" layer="51"/>
+<wire x1="-0.55" y1="-0.585" x2="0.55" y2="-0.585" width="0.08" layer="51"/>
+<smd name="1" x="-1" y="0" dx="1.1" dy="1.4" layer="1" stop="no"/>
+<smd name="2" x="1" y="0" dx="1.1" dy="1.4" layer="1" stop="no"/>
+<text x="0" y="1" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
+<text x="0" y="-1" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
+<rectangle x1="0.55" y1="-0.625" x2="1" y2="0.625" layer="51"/>
+<rectangle x1="-1" y1="-0.625" x2="-0.55" y2="0.625" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<wire x1="-0.25" y1="0.7" x2="0.25" y2="0.7" width="0.15" layer="21"/>
+<wire x1="-0.25" y1="-0.7" x2="0.25" y2="-0.7" width="0.15" layer="21"/>
+<rectangle x1="-1.6" y1="-0.75" x2="-0.4" y2="0.75" layer="29"/>
+<rectangle x1="0.4" y1="-0.75" x2="1.6" y2="0.75" layer="29"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RES">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RES" prefix="R" uservalue="yes">
+<description>&lt;b&gt;Chip Resistor&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="RES" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0603" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_0R0">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="JUMPER" constant="no"/>
+<attribute name="VALUE" value="0" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P0.0GCT-ND" constant="no"/>
+</technology>
+<technology name="_0RS075">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3BWFR075V" constant="no"/>
+<attribute name="POWER" value="1/3W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="0.075" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P17475CT-ND" constant="no"/>
+</technology>
+<technology name="_10R0">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1002V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="10k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P10.0KHCT-ND" constant="no"/>
+</technology>
+<technology name="_240R0">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF2403V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="240k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P240KHCT-ND" constant="no"/>
+</technology>
+<technology name="_2R0">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF2001V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="2k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P2.00KHCT-ND" constant="no"/>
+</technology>
+<technology name="_412R0">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF4123V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="412k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P412KHCT-ND" constant="no"/>
+</technology>
+<technology name="_4R7">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF4701V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="4.7k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P4.70KHCT-ND" constant="no"/>
+</technology>
+<technology name="_76R8">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF7682V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="76.8k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P76.8KHCT-ND" constant="no"/>
+</technology>
+<technology name="_7R15">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF7151V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="7.15k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P7.15KHCT-ND" constant="no"/>
+</technology>
+<technology name="_820R0">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-PA3F8203V" constant="no"/>
+<attribute name="POWER" value="1/4W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="820k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P820KBYCT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805" package="R0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -2438,6 +2808,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R13" library="comms" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
 <part name="C21" library="comms" deviceset="CAP" device="_1210" technology="_47UF0" value="47uF"/>
 <part name="L4" library="comms" deviceset="L" device="-680ML" technology="_68UH0" value="68uH"/>
+<part name="FRAME4" library="frames" deviceset="A4L-LOC" device=""/>
+<part name="U$1" library="comms" deviceset="UBLOX_MAX" device="" value="MAX-M8Q"/>
+<part name="R14" library="daqcs" deviceset="RES" device="_0603" technology="_4R7" value="4.7k"/>
+<part name="R15" library="daqcs" deviceset="RES" device="_0603" technology="_4R7" value="4.7k"/>
+<part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
+<part name="J1" library="comms" deviceset="IPEX-20279-001E" device="" value="RECE-20279-001E"/>
+<part name="R16" library="comms" deviceset="RES" device="_0603" technology="_0R10" value="10"/>
+<part name="C22" library="comms" deviceset="CAP" device="_0805" technology="_10NF0" value="10nF"/>
+<part name="L5" library="comms" deviceset="L" device="_0603" technology="_27NH0" value="27nH"/>
 </parts>
 <sheets>
 <sheet>
@@ -3171,6 +3550,126 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="U5" gate="A" pin="PH"/>
 <wire x1="101.6" y1="17.78" x2="96.52" y2="17.78" width="0.1524" layer="91"/>
 <junction x="96.52" y="17.78"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="FRAME4" gate="G$1" x="0" y="0"/>
+<instance part="U$1" gate="G$1" x="134.62" y="106.68"/>
+<instance part="R14" gate="G$1" x="50.8" y="101.6" rot="R90"/>
+<instance part="R15" gate="G$1" x="38.1" y="101.6" rot="R90"/>
+<instance part="SUPPLY6" gate="GND" x="99.06" y="68.58"/>
+<instance part="J1" gate="G$1" x="55.88" y="116.84"/>
+<instance part="R16" gate="G$1" x="91.44" y="96.52"/>
+<instance part="C22" gate="G$1" x="76.2" y="78.74"/>
+<instance part="L5" gate="G$1" x="76.2" y="104.14"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="3P3V_SENSORS" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="8_VCC"/>
+<wire x1="157.48" y1="116.84" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="7_VCC_IO"/>
+<wire x1="170.18" y1="116.84" x2="195.58" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="111.76" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="6_V_BCKP"/>
+<wire x1="157.48" y1="106.68" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="106.68" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
+<label x="175.26" y="116.84" size="1.778" layer="95"/>
+<wire x1="170.18" y1="116.84" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
+<junction x="170.18" y="116.84"/>
+<junction x="170.18" y="111.76"/>
+</segment>
+</net>
+<net name="3P3V_ACC" class="0">
+<segment>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="106.68" x2="38.1" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="109.22" x2="10.16" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="106.68" x2="50.8" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="109.22" x2="38.1" y2="109.22" width="0.1524" layer="91"/>
+<label x="12.7" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="SUPPLY6" gate="GND" pin="GND"/>
+<wire x1="99.06" y1="121.92" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="114.3" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="111.76" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="76.2" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="73.66" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="12_GND"/>
+<wire x1="111.76" y1="111.76" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
+<junction x="99.06" y="111.76"/>
+<wire x1="170.18" y1="81.28" x2="170.18" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="1_GND"/>
+<wire x1="157.48" y1="81.28" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="73.66" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
+<junction x="99.06" y="73.66"/>
+<pinref part="U$1" gate="G$1" pin="10_GND"/>
+<wire x1="111.76" y1="121.92" x2="99.06" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="GND@1"/>
+<wire x1="58.42" y1="114.3" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
+<junction x="99.06" y="114.3"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
+<junction x="99.06" y="76.2"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="U$1" gate="G$1" pin="11_RF_IN"/>
+<wire x1="58.42" y1="116.84" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="L5" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="116.84" x2="111.76" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="111.76" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
+<junction x="76.2" y="116.84"/>
+</segment>
+</net>
+<net name="GPS_SCL" class="0">
+<segment>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="96.52" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="17_SCL2"/>
+<wire x1="38.1" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="86.36" x2="10.16" y2="86.36" width="0.1524" layer="91"/>
+<junction x="38.1" y="86.36"/>
+<label x="12.7" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPS_SDA" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="16_SDA2"/>
+<wire x1="111.76" y1="91.44" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="91.44" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="91.44" x2="10.16" y2="91.44" width="0.1524" layer="91"/>
+<junction x="50.8" y="91.44"/>
+<label x="12.7" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="96.52" x2="76.2" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="96.52" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="U$1" gate="G$1" pin="15_RESERVED"/>
+<wire x1="96.52" y1="96.52" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
