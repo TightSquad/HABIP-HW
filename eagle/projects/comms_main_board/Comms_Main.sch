@@ -1345,35 +1345,6 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <wire x1="-2.14" y1="-1.32" x2="2.15" y2="-1.32" width="0.15" layer="21"/>
 <wire x1="3.52" y1="0.91" x2="3.52" y2="-0.95" width="0.15" layer="21"/>
 </package>
-<package name="UBLOX_MAX">
-<description>uBlox MAX</description>
-<circle x="2.85" y="-3.95" radius="0.6" width="0" layer="21"/>
-<wire x1="-4.65" y1="-4.9" x2="-4.65" y2="-5.15" width="0.15" layer="21"/>
-<wire x1="-4.65" y1="-5.15" x2="5.05" y2="-5.15" width="0.15" layer="21"/>
-<wire x1="5.05" y1="-4.9" x2="5.05" y2="-5.15" width="0.15" layer="21"/>
-<wire x1="-4.65" y1="4.95" x2="5.05" y2="4.95" width="0.15" layer="21"/>
-<wire x1="5.05" y1="4.95" x2="5.05" y2="4.8" width="0.15" layer="21"/>
-<wire x1="-4.65" y1="4.95" x2="-4.65" y2="4.8" width="0.15" layer="21"/>
-<smd name="1_GND" x="4.95" y="-4.4" dx="1.8" dy="0.7" layer="1"/>
-<smd name="2_TXD1" x="4.95" y="-3.35" dx="1.8" dy="0.8" layer="1"/>
-<smd name="3_RXD1" x="4.95" y="-2.25" dx="1.8" dy="0.8" layer="1"/>
-<smd name="4_TIMEPULSE" x="4.95" y="-1.15" dx="1.8" dy="0.8" layer="1"/>
-<smd name="5_EXTINT0" x="4.95" y="-0.05" dx="1.8" dy="0.8" layer="1"/>
-<smd name="6_V_BCKP" x="4.95" y="1.05" dx="1.8" dy="0.8" layer="1"/>
-<smd name="7_VCC_IO" x="4.95" y="2.15" dx="1.8" dy="0.8" layer="1"/>
-<smd name="8_VCC" x="4.95" y="3.25" dx="1.8" dy="0.8" layer="1"/>
-<smd name="9_V_RESET" x="4.95" y="4.3" dx="1.8" dy="0.7" layer="1"/>
-<smd name="10_GND" x="-4.55" y="4.3" dx="1.8" dy="0.7" layer="1"/>
-<smd name="11_RF_IN" x="-4.55" y="3.25" dx="1.8" dy="0.8" layer="1"/>
-<smd name="12_GND" x="-4.55" y="2.15" dx="1.8" dy="0.8" layer="1"/>
-<smd name="13_ANTON" x="-4.55" y="1.05" dx="1.8" dy="0.8" layer="1"/>
-<smd name="14_VCC_RF" x="-4.55" y="-0.05" dx="1.8" dy="0.8" layer="1"/>
-<smd name="15_RESERVED" x="-4.55" y="-1.15" dx="1.8" dy="0.8" layer="1"/>
-<smd name="16_SDA2" x="-4.55" y="-2.25" dx="1.8" dy="0.8" layer="1"/>
-<smd name="17_SCL2" x="-4.55" y="-3.35" dx="1.8" dy="0.8" layer="1"/>
-<smd name="18_RESERVED" x="-4.55" y="-4.4" dx="1.8" dy="0.7" layer="1"/>
-<text x="3.35875" y="-3.10625" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">ublox</text>
-</package>
 <package name="IPEX-20279-001E">
 <circle x="0" y="0" radius="0.7" width="0.15" layer="21"/>
 <circle x="0" y="0" radius="0.175" width="0.15" layer="21"/>
@@ -2343,6 +2314,35 @@ Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
 <circle x="0.4" y="1.25" radius="0.160075" width="0.15" layer="21"/>
 <circle x="-0.4" y="-1.25" radius="0.160075" width="0.15" layer="21"/>
 </package>
+<package name="UBLOX_MAX">
+<description>uBlox MAX</description>
+<circle x="2.85" y="-3.95" radius="0.6" width="0" layer="21"/>
+<wire x1="-4.65" y1="-4.9" x2="-4.65" y2="-5.15" width="0.15" layer="21"/>
+<wire x1="-4.65" y1="-5.15" x2="5.05" y2="-5.15" width="0.15" layer="21"/>
+<wire x1="5.05" y1="-4.9" x2="5.05" y2="-5.15" width="0.15" layer="21"/>
+<wire x1="-4.65" y1="4.95" x2="5.05" y2="4.95" width="0.15" layer="21"/>
+<wire x1="5.05" y1="4.95" x2="5.05" y2="4.8" width="0.15" layer="21"/>
+<wire x1="-4.65" y1="4.95" x2="-4.65" y2="4.8" width="0.15" layer="21"/>
+<smd name="1_GND" x="4.95" y="-4.4" dx="1.8" dy="0.7" layer="1"/>
+<smd name="2_TXD1" x="4.95" y="-3.35" dx="1.8" dy="0.8" layer="1"/>
+<smd name="3_RXD1" x="4.95" y="-2.25" dx="1.8" dy="0.8" layer="1"/>
+<smd name="4_TIMEPULSE" x="4.95" y="-1.15" dx="1.8" dy="0.8" layer="1"/>
+<smd name="5_EXTINT0" x="4.95" y="-0.05" dx="1.8" dy="0.8" layer="1"/>
+<smd name="6_V_BCKP" x="4.95" y="1.05" dx="1.8" dy="0.8" layer="1"/>
+<smd name="7_VCC_IO" x="4.95" y="2.15" dx="1.8" dy="0.8" layer="1"/>
+<smd name="8_VCC" x="4.95" y="3.25" dx="1.8" dy="0.8" layer="1"/>
+<smd name="9_V_RESET" x="4.95" y="4.3" dx="1.8" dy="0.7" layer="1"/>
+<smd name="10_GND" x="-4.55" y="4.3" dx="1.8" dy="0.7" layer="1"/>
+<smd name="11_RF_IN" x="-4.55" y="3.25" dx="1.8" dy="0.8" layer="1"/>
+<smd name="12_GND" x="-4.55" y="2.15" dx="1.8" dy="0.8" layer="1"/>
+<smd name="13_ANTON" x="-4.55" y="1.05" dx="1.8" dy="0.8" layer="1"/>
+<smd name="14_VCC_RF" x="-4.55" y="-0.05" dx="1.8" dy="0.8" layer="1"/>
+<smd name="15_RESERVED" x="-4.55" y="-1.15" dx="1.8" dy="0.8" layer="1"/>
+<smd name="16_SDA2" x="-4.55" y="-2.25" dx="1.8" dy="0.8" layer="1"/>
+<smd name="17_SCL2" x="-4.55" y="-3.35" dx="1.8" dy="0.8" layer="1"/>
+<smd name="18_RESERVED" x="-4.55" y="-4.4" dx="1.8" dy="0.7" layer="1"/>
+<text x="3.35875" y="-3.10625" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">ublox</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TPS562209DDC">
@@ -2529,32 +2529,6 @@ Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
 </symbol>
-<symbol name="UBLOX_MAX">
-<wire x1="-17.78" y1="17.78" x2="-17.78" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-27.94" x2="17.78" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-27.94" x2="17.78" y2="17.78" width="0.254" layer="94"/>
-<wire x1="17.78" y1="17.78" x2="-17.78" y2="17.78" width="0.254" layer="94"/>
-<pin name="1_GND" x="22.86" y="-25.4" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="2_TXD1" x="22.86" y="-20.32" visible="pin" length="middle" rot="R180"/>
-<pin name="3_RXD1" x="22.86" y="-15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="4_TIMEPULSE" x="22.86" y="-10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="5_EXTINT0" x="22.86" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="6_V_BCKP" x="22.86" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="7_VCC_IO" x="22.86" y="5.08" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="8_VCC" x="22.86" y="10.16" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="9_V_RESET" x="22.86" y="15.24" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="10_GND" x="-22.86" y="15.24" visible="pin" length="middle" direction="pwr"/>
-<pin name="11_RF_IN" x="-22.86" y="10.16" visible="pin" length="middle"/>
-<pin name="12_GND" x="-22.86" y="5.08" visible="pin" length="middle" direction="pwr"/>
-<pin name="13_ANTON" x="-22.86" y="0" visible="pin" length="middle"/>
-<pin name="14_VCC_RF" x="-22.86" y="-5.08" visible="pin" length="middle"/>
-<pin name="15_RESERVED" x="-22.86" y="-10.16" visible="pin" length="middle"/>
-<pin name="16_SDA2" x="-22.86" y="-15.24" visible="pin" length="middle"/>
-<pin name="17_SCL2" x="-22.86" y="-20.32" visible="pin" length="middle"/>
-<pin name="18_RESERVED" x="-22.86" y="-25.4" visible="pin" length="middle"/>
-<text x="-3.556" y="19.05" size="1.778" layer="125">&gt;NAME</text>
-<text x="-5.08" y="-30.48" size="1.778" layer="127">&gt;VALUE</text>
-</symbol>
 <symbol name="BNC-F2">
 <wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
@@ -2648,6 +2622,32 @@ Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
 <wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.4064" layer="94"/>
 <text x="-12.7" y="16.51" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="0" y="12.7" size="2.0828" layer="96" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="UBLOX_MAX">
+<wire x1="-17.78" y1="17.78" x2="-17.78" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-27.94" x2="17.78" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-27.94" x2="17.78" y2="17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="17.78" x2="-17.78" y2="17.78" width="0.254" layer="94"/>
+<pin name="1_GND" x="22.86" y="-25.4" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="2_TXD1" x="22.86" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="3_RXD1" x="22.86" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="4_TIMEPULSE" x="22.86" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="5_EXTINT0" x="22.86" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="6_V_BCKP" x="22.86" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="7_VCC_IO" x="22.86" y="5.08" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="8_VCC" x="22.86" y="10.16" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="9_V_RESET" x="22.86" y="15.24" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="10_GND" x="-22.86" y="15.24" visible="pin" length="middle" direction="pwr"/>
+<pin name="11_RF_IN" x="-22.86" y="10.16" visible="pin" length="middle"/>
+<pin name="12_GND" x="-22.86" y="5.08" visible="pin" length="middle" direction="pwr"/>
+<pin name="13_ANTON" x="-22.86" y="0" visible="pin" length="middle"/>
+<pin name="14_VCC_RF" x="-22.86" y="-5.08" visible="pin" length="middle"/>
+<pin name="15_RESERVED" x="-22.86" y="-10.16" visible="pin" length="middle"/>
+<pin name="16_SDA2" x="-22.86" y="-15.24" visible="pin" length="middle"/>
+<pin name="17_SCL2" x="-22.86" y="-20.32" visible="pin" length="middle"/>
+<pin name="18_RESERVED" x="-22.86" y="-25.4" visible="pin" length="middle"/>
+<text x="-3.556" y="19.05" size="1.778" layer="125">&gt;NAME</text>
+<text x="-5.08" y="-30.48" size="1.778" layer="127">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3494,45 +3494,6 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="UBLOX_MAX">
-<description>UBLOX MAX</description>
-<gates>
-<gate name="G$1" symbol="UBLOX_MAX" x="-2.54" y="7.62"/>
-</gates>
-<devices>
-<device name="" package="UBLOX_MAX">
-<connects>
-<connect gate="G$1" pin="10_GND" pad="10_GND"/>
-<connect gate="G$1" pin="11_RF_IN" pad="11_RF_IN"/>
-<connect gate="G$1" pin="12_GND" pad="12_GND"/>
-<connect gate="G$1" pin="13_ANTON" pad="13_ANTON"/>
-<connect gate="G$1" pin="14_VCC_RF" pad="14_VCC_RF"/>
-<connect gate="G$1" pin="15_RESERVED" pad="15_RESERVED"/>
-<connect gate="G$1" pin="16_SDA2" pad="16_SDA2"/>
-<connect gate="G$1" pin="17_SCL2" pad="17_SCL2"/>
-<connect gate="G$1" pin="18_RESERVED" pad="18_RESERVED"/>
-<connect gate="G$1" pin="1_GND" pad="1_GND"/>
-<connect gate="G$1" pin="2_TXD1" pad="2_TXD1"/>
-<connect gate="G$1" pin="3_RXD1" pad="3_RXD1"/>
-<connect gate="G$1" pin="4_TIMEPULSE" pad="4_TIMEPULSE"/>
-<connect gate="G$1" pin="5_EXTINT0" pad="5_EXTINT0"/>
-<connect gate="G$1" pin="6_V_BCKP" pad="6_V_BCKP"/>
-<connect gate="G$1" pin="7_VCC_IO" pad="7_VCC_IO"/>
-<connect gate="G$1" pin="8_VCC" pad="8_VCC"/>
-<connect gate="G$1" pin="9_V_RESET" pad="9_V_RESET"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="u-blox" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="MAX-M8Q" constant="no"/>
-<attribute name="VALUE" value="MAX-M8Q" constant="no"/>
-<attribute name="VENDOR" value="Digi-Key" constant="no"/>
-<attribute name="VENDOR_PN" value="672-1003-1-ND" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="IPEX-20279-001E" prefix="J" uservalue="yes">
 <description>Ultra Miniature Coaxial SMT RF Receptacle (U.FL Connector)</description>
 <gates>
@@ -4001,6 +3962,45 @@ Source: http://www.osram.convergy.de/</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="UBLOX_MAX" prefix="U" uservalue="yes">
+<description>UBLOX MAX</description>
+<gates>
+<gate name="G$1" symbol="UBLOX_MAX" x="-2.54" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="UBLOX_MAX">
+<connects>
+<connect gate="G$1" pin="10_GND" pad="10_GND"/>
+<connect gate="G$1" pin="11_RF_IN" pad="11_RF_IN"/>
+<connect gate="G$1" pin="12_GND" pad="12_GND"/>
+<connect gate="G$1" pin="13_ANTON" pad="13_ANTON"/>
+<connect gate="G$1" pin="14_VCC_RF" pad="14_VCC_RF"/>
+<connect gate="G$1" pin="15_RESERVED" pad="15_RESERVED"/>
+<connect gate="G$1" pin="16_SDA2" pad="16_SDA2"/>
+<connect gate="G$1" pin="17_SCL2" pad="17_SCL2"/>
+<connect gate="G$1" pin="18_RESERVED" pad="18_RESERVED"/>
+<connect gate="G$1" pin="1_GND" pad="1_GND"/>
+<connect gate="G$1" pin="2_TXD1" pad="2_TXD1"/>
+<connect gate="G$1" pin="3_RXD1" pad="3_RXD1"/>
+<connect gate="G$1" pin="4_TIMEPULSE" pad="4_TIMEPULSE"/>
+<connect gate="G$1" pin="5_EXTINT0" pad="5_EXTINT0"/>
+<connect gate="G$1" pin="6_V_BCKP" pad="6_V_BCKP"/>
+<connect gate="G$1" pin="7_VCC_IO" pad="7_VCC_IO"/>
+<connect gate="G$1" pin="8_VCC" pad="8_VCC"/>
+<connect gate="G$1" pin="9_V_RESET" pad="9_V_RESET"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="u-blox" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="MAX-M8Q" constant="no"/>
+<attribute name="VALUE" value="MAX-M8Q" constant="no"/>
+<attribute name="VENDOR" value="Digi-Key" constant="no"/>
+<attribute name="VENDOR_PN" value="672-1003-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply2">
@@ -4295,7 +4295,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C21" library="comms" deviceset="CAP" device="_1210" technology="_47UF0" value="47uF"/>
 <part name="L4" library="comms" deviceset="L" device="-680ML" technology="_68UH0" value="68uH"/>
 <part name="FRAME4" library="frames" deviceset="A4L-LOC" device=""/>
-<part name="U$1" library="comms" deviceset="UBLOX_MAX" device="" value="MAX-M8Q"/>
 <part name="R14" library="daqcs" deviceset="RES" device="_0603" technology="_4R7" value="4.7k"/>
 <part name="R15" library="daqcs" deviceset="RES" device="_0603" technology="_4R7" value="4.7k"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
@@ -4340,6 +4339,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R36" library="daqcs" deviceset="RES" device="_0603" technology="_4R7" value="4.7k"/>
 <part name="R37" library="daqcs" deviceset="RES" device="_0603" technology="_4R7" value="4.7k"/>
 <part name="C27" library="comms" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
+<part name="R38" library="comms" deviceset="RES" device="_0805" technology="_0R0" value="0.0"/>
+<part name="R39" library="comms" deviceset="RES" device="_0805" technology="_0R0" value="0.0"/>
+<part name="U9" library="comms" deviceset="UBLOX_MAX" device="" value="MAX-M8Q"/>
 </parts>
 <sheets>
 <sheet>
@@ -5083,12 +5085,11 @@ In this library the device names are the same as the pin names of the symbols, t
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
-<instance part="U$1" gate="G$1" x="134.62" y="106.68"/>
 <instance part="R14" gate="G$1" x="50.8" y="101.6" rot="R90"/>
 <instance part="R15" gate="G$1" x="38.1" y="101.6" rot="R90"/>
-<instance part="SUPPLY6" gate="GND" x="104.14" y="68.58"/>
+<instance part="SUPPLY6" gate="GND" x="109.22" y="68.58"/>
 <instance part="J1" gate="G$1" x="55.88" y="116.84"/>
-<instance part="R16" gate="G$1" x="96.52" y="101.6"/>
+<instance part="R16" gate="G$1" x="93.98" y="101.6"/>
 <instance part="C22" gate="G$1" x="76.2" y="78.74"/>
 <instance part="L5" gate="G$1" x="76.2" y="104.14"/>
 <instance part="R17" gate="G$1" x="177.8" y="96.52"/>
@@ -5097,17 +5098,17 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="R20" gate="G$1" x="177.8" y="86.36"/>
 <instance part="R18" gate="G$1" x="167.64" y="121.92"/>
 <instance part="C27" gate="G$1" x="220.98" y="109.22"/>
+<instance part="R38" gate="G$1" x="101.6" y="106.68"/>
+<instance part="R39" gate="G$1" x="167.64" y="101.6"/>
+<instance part="U9" gate="G$1" x="134.62" y="106.68"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="3P3V_SENSORS" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="8_VCC"/>
 <wire x1="157.48" y1="116.84" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="7_VCC_IO"/>
 <wire x1="157.48" y1="111.76" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="6_V_BCKP"/>
 <wire x1="157.48" y1="106.68" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="106.68" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
 <label x="203.2" y="116.84" size="1.778" layer="95"/>
@@ -5119,6 +5120,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="220.98" y1="116.84" x2="226.06" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="114.3" x2="220.98" y2="116.84" width="0.1524" layer="91"/>
 <junction x="220.98" y="116.84"/>
+<pinref part="U9" gate="G$1" pin="6_V_BCKP"/>
+<pinref part="U9" gate="G$1" pin="7_VCC_IO"/>
+<pinref part="U9" gate="G$1" pin="8_VCC"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
@@ -5133,27 +5137,24 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="GND" class="0">
 <segment>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
-<wire x1="104.14" y1="121.92" x2="104.14" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="114.3" x2="104.14" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="111.76" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="76.2" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="73.66" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="12_GND"/>
-<wire x1="111.76" y1="111.76" x2="104.14" y2="111.76" width="0.1524" layer="91"/>
-<junction x="104.14" y="111.76"/>
+<wire x1="109.22" y1="121.92" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="114.3" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="111.76" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="76.2" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="73.66" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="111.76" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
+<junction x="109.22" y="111.76"/>
 <wire x1="170.18" y1="81.28" x2="170.18" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="1_GND"/>
 <wire x1="157.48" y1="81.28" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="73.66" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
-<junction x="104.14" y="73.66"/>
-<pinref part="U$1" gate="G$1" pin="10_GND"/>
-<wire x1="111.76" y1="121.92" x2="104.14" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="73.66" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
+<junction x="109.22" y="73.66"/>
+<wire x1="111.76" y1="121.92" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="GND@1"/>
-<wire x1="58.42" y1="114.3" x2="104.14" y2="114.3" width="0.1524" layer="91"/>
-<junction x="104.14" y="114.3"/>
+<wire x1="58.42" y1="114.3" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
+<junction x="109.22" y="114.3"/>
 <pinref part="C22" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="76.2" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
-<junction x="104.14" y="76.2"/>
+<wire x1="76.2" y1="76.2" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
+<junction x="109.22" y="76.2"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="198.12" y1="96.52" x2="203.2" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="96.52" x2="203.2" y2="73.66" width="0.1524" layer="91"/>
@@ -5163,46 +5164,49 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="220.98" y1="106.68" x2="220.98" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="73.66" x2="203.2" y2="73.66" width="0.1524" layer="91"/>
 <junction x="203.2" y="73.66"/>
+<pinref part="U9" gate="G$1" pin="1_GND"/>
+<pinref part="U9" gate="G$1" pin="10_GND"/>
+<pinref part="U9" gate="G$1" pin="12_GND"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="11_RF_IN"/>
 <wire x1="58.42" y1="116.84" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="L5" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="116.84" x2="111.76" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="111.76" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
 <junction x="76.2" y="116.84"/>
+<pinref part="U9" gate="G$1" pin="11_RF_IN"/>
 </segment>
 </net>
 <net name="GPS_SCL" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="96.52" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="17_SCL2"/>
 <wire x1="38.1" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="86.36" x2="10.16" y2="86.36" width="0.1524" layer="91"/>
 <junction x="38.1" y="86.36"/>
 <label x="12.7" y="86.36" size="1.778" layer="95"/>
+<pinref part="U9" gate="G$1" pin="17_SCL2"/>
 </segment>
 </net>
 <net name="GPS_SDA" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="16_SDA2"/>
 <wire x1="111.76" y1="91.44" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="91.44" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="91.44" x2="10.16" y2="91.44" width="0.1524" layer="91"/>
 <junction x="50.8" y="91.44"/>
 <label x="12.7" y="91.44" size="1.778" layer="95"/>
+<pinref part="U9" gate="G$1" pin="16_SDA2"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="4_TIMEPULSE"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="96.52" x2="172.72" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="4_TIMEPULSE"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -5214,30 +5218,30 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="3_RXD1"/>
 <wire x1="157.48" y1="91.44" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="U9" gate="G$1" pin="3_RXD1"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="2_TXD1"/>
 <wire x1="157.48" y1="86.36" x2="172.72" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="U9" gate="G$1" pin="2_TXD1"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="9_V_RESET"/>
 <wire x1="157.48" y1="121.92" x2="162.56" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="U9" gate="G$1" pin="9_V_RESET"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="14_VCC_RF"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="101.6" x2="101.6" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="101.6" x2="99.06" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="14_VCC_RF"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -5247,10 +5251,24 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="76.2" y1="83.82" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="93.98" x2="76.2" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="101.6" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="101.6" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="101.6" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="93.98" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
 <junction x="76.2" y="93.98"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="R38" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="106.68" x2="111.76" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="13_ANTON"/>
+</segment>
+</net>
+<net name="N$45" class="0">
+<segment>
+<pinref part="R39" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="5_EXTINT0"/>
 </segment>
 </net>
 </nets>

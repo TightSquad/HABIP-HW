@@ -3960,7 +3960,7 @@ Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="UBLOX_MAX">
+<deviceset name="UBLOX_MAX" prefix="U" uservalue="yes">
 <description>UBLOX MAX</description>
 <gates>
 <gate name="G$1" symbol="UBLOX_MAX" x="-2.54" y="7.62"/>
