@@ -359,6 +359,38 @@ JST PH 2-pin thru-home side entry</description>
 <text x="0" y="4.5" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
 <text x="0" y="-4.5" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
 </package>
+<package name="RS1206">
+<description>&lt;b&gt;0805 Chip Resistor&lt;/b&gt;
+&lt;p&gt;&lt;b&gt;Author:&lt;/b&gt; Chris Schwab
+&lt;p&gt;&lt;b&gt;Notes:&lt;/b&gt; Modified from Adafruit</description>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.08" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="1.6" y2="-0.8" width="0.08" layer="51"/>
+<smd name="1V" x="-1.375" y="0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="2V" x="1.375" y="0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
+<text x="0" y="1.6" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
+<text x="0" y="-1.55" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<wire x1="-0.25" y1="0.8" x2="0.25" y2="0.8" width="0.15" layer="21"/>
+<wire x1="-0.25" y1="-0.8" x2="0.25" y2="-0.8" width="0.15" layer="21"/>
+<smd name="1A" x="-1.375" y="-0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="2A" x="1.375" y="-0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
+<rectangle x1="-2.25" y1="0.25" x2="-0.5" y2="1.25" layer="31"/>
+<rectangle x1="-2.25" y1="-1.25" x2="-0.5" y2="-0.25" layer="31"/>
+<rectangle x1="0.5" y1="-1.25" x2="2.25" y2="-0.25" layer="31"/>
+<rectangle x1="0.5" y1="0.25" x2="2.25" y2="1.25" layer="31"/>
+<rectangle x1="-2.3" y1="0.1" x2="-0.45" y2="1.3" layer="29"/>
+<rectangle x1="-2.3" y1="-1.3" x2="-0.45" y2="-0.1" layer="29"/>
+<rectangle x1="0.45" y1="-1.3" x2="2.3" y2="-0.1" layer="29"/>
+<rectangle x1="0.45" y1="0.1" x2="2.3" y2="1.3" layer="29"/>
+<wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.08" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.08" layer="51"/>
+<rectangle x1="-1.65" y1="-0.85" x2="-0.65" y2="-0.3" layer="51"/>
+<rectangle x1="0.65" y1="-0.85" x2="1.65" y2="-0.3" layer="51"/>
+<rectangle x1="-1.65" y1="0.3" x2="-0.65" y2="0.85" layer="51"/>
+<rectangle x1="0.65" y1="0.3" x2="1.65" y2="0.85" layer="51"/>
+<text x="0.05" y="1.3" size="0.6096" layer="21" ratio="25" align="center">V</text>
+<text x="0.05" y="-1.3" size="0.6096" layer="21" ratio="25" align="center">A</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME_B_L">
@@ -502,6 +534,25 @@ JST PH 2-pin thru-home side entry</description>
 <text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="RES_SNS">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-6.35" y="1.651" size="2.0828" layer="95">&gt;NAME</text>
+<text x="1.27" y="1.651" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2A" x="7.62" y="0" visible="off" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1A" x="-7.62" y="0" visible="off" length="middle" direction="pas" swaplevel="1"/>
+<pin name="1V" x="-2.54" y="-5.08" visible="off" length="middle" direction="pas" rot="R90"/>
+<pin name="2V" x="2.54" y="-5.08" visible="off" length="middle" direction="pas" rot="R90"/>
+<text x="-4.318" y="-2.286" size="1.778" layer="94">1</text>
+<text x="3.302" y="-2.286" size="1.778" layer="94">2</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -907,6 +958,34 @@ JST PH 2-pin thru-home side entry</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="RES_SNS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;Chip Resistor&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="RES_SNS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RS1206">
+<connects>
+<connect gate="G$1" pin="1A" pad="1A"/>
+<connect gate="G$1" pin="1V" pad="1V"/>
+<connect gate="G$1" pin="2A" pad="2A"/>
+<connect gate="G$1" pin="2V" pad="2V"/>
+</connects>
+<technologies>
+<technology name="_0RS050">
+<attribute name="MANUFACTURER" value="Ohmite" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="LVK12R050DER" constant="no"/>
+<attribute name="POWER" value="1/5W" constant="no"/>
+<attribute name="TERMINALS" value="4" constant="no"/>
+<attribute name="TOLERANCE" value="0.5%" constant="no"/>
+<attribute name="VALUE" value="0.05" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="LVK12R050DERCT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -924,7 +1003,6 @@ JST PH 2-pin thru-home side entry</description>
 <part name="FRAME3" library="daqcs" deviceset="FRAME_B_L" device=""/>
 <part name="FRAME4" library="daqcs" deviceset="FRAME_B_L" device=""/>
 <part name="J1" library="daqcs" deviceset="JST-PH-2" device="_2TH-RA" technology="TH-RA" value="JST-PH-2TH-RA"/>
-<part name="R1" library="daqcs" deviceset="RES" device="_0603" technology="_0RS075" value="0.075"/>
 <part name="GND1" library="daqcs" deviceset="GND" device=""/>
 <part name="U2" library="daqcs" deviceset="TPS61089" device="RNRR" value="TPS61089RNRR"/>
 <part name="FRAME5" library="daqcs" deviceset="FRAME_B_L" device=""/>
@@ -960,6 +1038,7 @@ JST PH 2-pin thru-home side entry</description>
 <part name="L1" library="daqcs" deviceset="L" device="_2SMD" technology="_4UH7" value="4.7uH"/>
 <part name="C11" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
 <part name="R8" library="daqcs" deviceset="RES" device="_0603" technology="_820R0" value="820k"/>
+<part name="R1" library="daqcs" deviceset="RES_SNS" device="" technology="_0RS050" value="0.05"/>
 </parts>
 <sheets>
 <sheet>
@@ -1103,7 +1182,6 @@ JST PH 2-pin thru-home side entry</description>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
 <instance part="FRAME4" gate="G$2" x="325.12" y="0"/>
 <instance part="J1" gate="G$1" x="50.8" y="162.56"/>
-<instance part="R1" gate="G$1" x="83.82" y="165.1"/>
 <instance part="GND1" gate="1" x="60.96" y="149.86"/>
 <instance part="U2" gate="A" x="243.84" y="139.7"/>
 <instance part="VBAT1" gate="G$1" x="60.96" y="180.34"/>
@@ -1137,18 +1215,17 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VALUE" x="296.799" y="161.544" size="1.778" layer="96" ratio="10" rot="R180"/>
 </instance>
 <instance part="R8" gate="G$1" x="312.42" y="175.26" rot="R90"/>
+<instance part="R1" gate="G$1" x="83.82" y="165.1" smashed="yes" rot="MR0">
+<attribute name="NAME" x="82.55" y="166.751" size="2.0828" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="90.17" y="166.751" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="VBAT_R" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="165.1" x2="91.44" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="165.1" x2="91.44" y2="142.24" width="0.1524" layer="91"/>
-<junction x="91.44" y="165.1"/>
 <label x="121.92" y="165.1" size="1.778" layer="95"/>
-<wire x1="91.44" y1="142.24" x2="109.22" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="VIN"/>
 <wire x1="91.44" y1="165.1" x2="139.7" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -1172,6 +1249,7 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="220.98" y1="165.1" x2="220.98" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="193.04" x2="236.22" y2="193.04" width="0.1524" layer="91"/>
 <junction x="220.98" y="165.1"/>
+<pinref part="R1" gate="G$1" pin="1A"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1244,16 +1322,12 @@ JST PH 2-pin thru-home side entry</description>
 <net name="VBAT" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
-<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="165.1" x2="60.96" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="165.1" x2="76.2" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="165.1" x2="78.74" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="165.1" x2="60.96" y2="177.8" width="0.1524" layer="91"/>
 <junction x="60.96" y="165.1"/>
-<wire x1="76.2" y1="165.1" x2="76.2" y2="134.62" width="0.1524" layer="91"/>
-<junction x="76.2" y="165.1"/>
-<wire x1="76.2" y1="134.62" x2="109.22" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="VBAT1" gate="G$1" pin="VBAT"/>
+<pinref part="R1" gate="G$1" pin="2A"/>
 </segment>
 </net>
 <net name="BOOST_VCC" class="0">
@@ -1367,6 +1441,22 @@ JST PH 2-pin thru-home side entry</description>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="165.1" x2="292.1" y2="165.1" width="0.1524" layer="91"/>
 <label x="266.7" y="165.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBAT_SNS_P" class="0">
+<segment>
+<wire x1="81.28" y1="134.62" x2="109.22" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="160.02" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2V"/>
+<label x="91.44" y="134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBAT_SNS_N" class="0">
+<segment>
+<wire x1="86.36" y1="142.24" x2="109.22" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="160.02" x2="86.36" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1V"/>
+<label x="91.44" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
