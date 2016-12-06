@@ -48,7 +48,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="61" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
@@ -59,7 +59,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -141,8 +141,8 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <packages>
@@ -163,6 +163,27 @@
 <text x="-3.025" y="1.723" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.695" y="-3.061" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="MOLKK_POW_2_RA">
+<text x="-3.5449" y="4.1029" size="0.3048" layer="25" ratio="6" rot="R180">&gt;NAME</text>
+<text x="5.2309" y="0.0879" size="1.27" layer="21" font="vector" ratio="14" align="center">1</text>
+<text x="-5.0983" y="0.0249" size="1.27" layer="21" ratio="14" align="center">2</text>
+<text x="3.1921" y="3.9251" size="0.254" layer="27" font="fixed" ratio="6">&gt;VALUE</text>
+<pad name="2" x="-1.98" y="0" drill="1.7" shape="long" rot="R90"/>
+<pad name="1" x="1.98" y="0" drill="1.7" shape="long" rot="R90"/>
+<wire x1="1.98" y1="0" x2="1.98" y2="-5.41" width="0.127" layer="51"/>
+<wire x1="-1.98" y1="0" x2="-1.98" y2="-5.41" width="0.127" layer="51"/>
+<wire x1="-3.885" y1="-5.41" x2="3.885" y2="-5.41" width="0.15" layer="21"/>
+<wire x1="3.885" y1="-5.41" x2="3.885" y2="-8.71" width="0.15" layer="21"/>
+<wire x1="-3.885" y1="-5.41" x2="-3.885" y2="-8.71" width="0.15" layer="21"/>
+<wire x1="-3.885" y1="-8.71" x2="3.885" y2="-8.71" width="0.15" layer="21"/>
+<wire x1="-3.175" y1="-5.41" x2="-3" y2="-16.74" width="0.127" layer="51"/>
+<wire x1="3.175" y1="-5.41" x2="3" y2="-16.74" width="0.127" layer="51"/>
+<wire x1="-3" y1="-16.74" x2="3" y2="-16.74" width="0.127" layer="51"/>
+<wire x1="-3.885" y1="0" x2="-3.885" y2="-20.14" width="0.127" layer="51"/>
+<wire x1="3.885" y1="0" x2="3.885" y2="-20.14" width="0.127" layer="51"/>
+<wire x1="-3.885" y1="-20.14" x2="3.885" y2="-20.14" width="0.127" layer="51"/>
+<wire x1="-3.885" y1="0" x2="3.885" y2="0" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TPS562209DDCR">
@@ -178,6 +199,16 @@
 <pin name="VFB" x="12.7" y="-5.08" length="middle" direction="in" rot="R180"/>
 <text x="-7.62" y="8.128" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-12.192" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MOLKK_POW_2PIN">
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<pin name="1" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="2" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<text x="-5.334" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.096" y="-9.906" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -197,6 +228,35 @@
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOLKK_POW_2PIN" prefix="J" uservalue="yes">
+<description>Molex KK Series 2-Position Connector for Power</description>
+<gates>
+<gate name="G$1" symbol="MOLKK_POW_2PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLKK_POW_2_RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FINISH" value="Gold" constant="no"/>
+<attribute name="LOCKING" value="Yes" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="0026615020" constant="no"/>
+<attribute name="MAX_CURRENT" value="7A" constant="no"/>
+<attribute name="MOUNT_ANGLE" value="Right" constant="no"/>
+<attribute name="MOUNT_TYPE" value="TH" constant="no"/>
+<attribute name="POSITIONS" value="2" constant="no"/>
+<attribute name="VALUE" value="MOLKK_POW_2_RA" constant="no"/>
+<attribute name="VENDOR" value="Digi-Key" constant="no"/>
+<attribute name="VENDOR_PN" value="WM5235-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
