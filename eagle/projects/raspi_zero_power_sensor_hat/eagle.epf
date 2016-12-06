@@ -11,10 +11,10 @@ UsedLibrary="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/H
 
 [Win_1]
 Type="Control Panel"
-Loc="340 105 1777 821"
+Loc="169 101 1606 769"
 State=2
 Number=0
 
 [Desktop]
-Screen="640 480"
+Screen="1920 1200"
 Window="Win_1"
