@@ -1089,7 +1089,7 @@
 <smd name="18_RESERVED" x="-4.55" y="-4.4" dx="1.8" dy="0.7" layer="1"/>
 <text x="3.35875" y="-3.10625" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">ublox</text>
 </package>
-<package name="SRN6045-4R7Y">
+<package name="SRN6045">
 <text x="-0.03" y="3.41" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
 <text x="0.02" y="-3.47" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
 <smd name="2" x="2.15" y="0" dx="2" dy="6" layer="1"/>
@@ -3505,6 +3505,15 @@ Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
 <attribute name="VENDOR" value="Digi-Key" constant="no"/>
 <attribute name="VENDOR_PN" value="P30.1KHCT-ND" constant="no"/>
 </technology>
+<technology name="_33R2">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF3322V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="33.2k" constant="no"/>
+<attribute name="VENDOR" value="Digi-Key" constant="no"/>
+<attribute name="VENDOR_PN" value="P33.2KHCT-ND" constant="no"/>
+</technology>
 <technology name="_412R0">
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF4123V" constant="no"/>
@@ -3874,12 +3883,25 @@ Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
 </technology>
 </technologies>
 </device>
-<device name="" package="SRN6045-4R7Y">
+<device name="" package="SRN6045">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="_3UH3">
+<attribute name="CURRENT_DC" value="3.2A" constant="no"/>
+<attribute name="CURRENT_SAT" value="5A" constant="no"/>
+<attribute name="DCR_MAX" value="30.2mOHM" constant="no"/>
+<attribute name="MANUFACTURER" value="Bourns Inc." constant="no"/>
+<attribute name="MANUFACTURER_PN" value="SRN6045-3R3Y" constant="no"/>
+<attribute name="SHIELDED" value="Yes" constant="no"/>
+<attribute name="TOLERANCE" value="30%" constant="no"/>
+<attribute name="TYPE" value="Wirewound" constant="no"/>
+<attribute name="VALUE" value="3.3uH" constant="no"/>
+<attribute name="VENDOR" value="Digi-Key" constant="no"/>
+<attribute name="VENDOR_PN" value="SRN6045-3R3YTR-ND" constant="no"/>
+</technology>
 <technology name="_4UH7">
 <attribute name="CURRENT_DC" value="3A" constant="no"/>
 <attribute name="CURRENT_SAT" value="4A" constant="no"/>
@@ -4022,7 +4044,7 @@ Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX232" prefix="U">
+<deviceset name="MAX232" prefix="U" uservalue="yes">
 <description>&lt;b&gt;RS232 Transceiver&lt;/b&gt;
 Very common IC. This is generically called 'MAX232', but works with the 3V equivalent MAX3232 generic ICs. Field tested and mother approved. Spark Fun Electronics SKU : COM-00316 (DIP) and COM-00589 (SMD)</description>
 <gates>
@@ -4112,7 +4134,7 @@ Very common IC. This is generically called 'MAX232', but works with the 3V equiv
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX4311" prefix="IC">
+<deviceset name="MAX4311" prefix="U" uservalue="yes">
 <description>&lt;b&gt;Video Multiplexer-Amplifier&lt;/b&gt;&lt;p&gt;
 High-Speed, Low-Power, Single-Supply, Multichannel</description>
 <gates>
@@ -4626,7 +4648,7 @@ Source: http://www.osram.convergy.de/</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP4541-103E/MS">
+<deviceset name="MCP4541-103E/MS" prefix="U" uservalue="yes">
 <description>Digital POT</description>
 <gates>
 <gate name="A" symbol="MCP4541-103E/MS" x="0" y="0"/>
@@ -4729,7 +4751,7 @@ Source: http://www.osram.convergy.de/</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PRT-12639">
+<deviceset name="PRT-12639" prefix="J" uservalue="yes">
 <description>Audio jack - 3.5mm TRRS</description>
 <gates>
 <gate name="G$1" symbol="AUDIO-JACK3-TRRS" x="0" y="0"/>
