@@ -5028,7 +5028,12 @@ push-push type</description>
 <connect gate="G$1" pin="VSS" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUFACTURER_PN" value="2908-05WB-MG" constant="no"/>
+<attribute name="MAUNFACTURER" value="3M" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="3M5607CT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -5508,8 +5513,13 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="XTAL-13062"/>
-<attribute name="VALUE" value="32.768kHz"/>
+<attribute name="FREQUENCY" value="32.768kHz"/>
+<attribute name="LOAD_CAP" value="12.5pF" constant="no"/>
+<attribute name="MANUFACTURER" value="Epson" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="FC-135R" constant="no"/>
+<attribute name="TOLERANCE" value="20ppm" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="SER4071CT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5581,8 +5591,14 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
+<attribute name="CAPACITANCE" value="39pF" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="CSTCR4M00G15L99-R0" constant="no"/>
+<attribute name="MAUNFACTURER" value="Murata" constant="no"/>
 <attribute name="PROD_ID" value="XTAL-12492"/>
+<attribute name="TYPE" value="Ceramic" constant="no"/>
 <attribute name="VALUE" value="4MHz"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-7861-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5601,7 +5617,11 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="Omron Electronics" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="B3F-1000" constant="no"/>
 <attribute name="PROD_ID" value=" SWCH-08441" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="SW400-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5769,11 +5789,13 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="TPS61240DRVR" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="TPS61240DRVR" constant="no"/>
 <attribute name="OC_FARNELL" value="-" constant="no"/>
 <attribute name="OC_NEWARK" value="25R0113" constant="no"/>
 <attribute name="PACKAGE" value="SON-6" constant="no"/>
-<attribute name="SUPPLIER" value="Texas Instruments" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="296-39437-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5794,8 +5816,13 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
+<attribute name="IOUT" value="250mA" constant="no"/>
+<attribute name="MANFACTURER" value="Texas Instruments" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="lp5907_dbv_5" constant="no"/>
-<attribute name="VENDOR" value="Texas Instruments" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="296-38557-1-ND" constant="no"/>
+<attribute name="VIN" value="5.5V" constant="no"/>
+<attribute name="VOUT" value="3.3V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6104,7 +6131,12 @@ Updated  by  Dan Xu 2014-07-08&lt;br&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUFACTURER" value="Molex" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="0901200122" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="WM8072-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="POLAR" package="MOLEX-1X2">
@@ -6379,6 +6411,8 @@ Updated  by  Dan Xu 2014-07-08&lt;br&gt;
 <attribute name="MANUFACTURER" value="MPD" constant="no"/>
 <attribute name="MANUFACTURE_PN" value="BH9VPC" constant="no"/>
 <attribute name="PROD_ID" value="BATT-10855" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="BH9V-PC-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
