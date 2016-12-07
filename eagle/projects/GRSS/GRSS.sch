@@ -357,6 +357,78 @@
 <wire x1="2.465" y1="-3.175" x2="-2.465" y2="-3.175" width="0.05" layer="51"/>
 <wire x1="-2.465" y1="-3.175" x2="-2.465" y2="3.175" width="0.05" layer="51"/>
 </package>
+<package name="R0603">
+<description>&lt;b&gt;0603 Chip Resistor&lt;/b&gt;
+&lt;p&gt;&lt;b&gt;Author:&lt;/b&gt; Chris Schwab
+&lt;p&gt;&lt;b&gt;Notes:&lt;/b&gt; Modified from Adafruit</description>
+<wire x1="-0.4" y1="-0.36" x2="0.4" y2="-0.36" width="0.08" layer="51"/>
+<wire x1="0.4" y1="0.36" x2="-0.4" y2="0.36" width="0.08" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1" layer="1" stop="no"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1" layer="1" stop="no"/>
+<text x="0" y="0.85" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
+<text x="0" y="-0.75" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
+<rectangle x1="0.4" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
+<rectangle x1="-0.8" y1="-0.4" x2="-0.4" y2="0.4" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="-0.15" y1="0.5" x2="0.15" y2="0.5" width="0.15" layer="21"/>
+<wire x1="-0.15" y1="-0.5" x2="0.15" y2="-0.5" width="0.15" layer="21"/>
+<rectangle x1="-1.4" y1="-0.55" x2="-0.3" y2="0.55" layer="29"/>
+<rectangle x1="0.3" y1="-0.55" x2="1.4" y2="0.55" layer="29"/>
+</package>
+<package name="R0805">
+<description>&lt;b&gt;0805 Chip Resistor&lt;/b&gt;
+&lt;p&gt;&lt;b&gt;Author:&lt;/b&gt; Chris Schwab
+&lt;p&gt;&lt;b&gt;Notes:&lt;/b&gt; Modified from Adafruit</description>
+<wire x1="-0.55" y1="0.585" x2="0.55" y2="0.585" width="0.08" layer="51"/>
+<wire x1="-0.55" y1="-0.585" x2="0.55" y2="-0.585" width="0.08" layer="51"/>
+<smd name="1" x="-1" y="0" dx="1.1" dy="1.4" layer="1" stop="no"/>
+<smd name="2" x="1" y="0" dx="1.1" dy="1.4" layer="1" stop="no"/>
+<text x="0" y="1" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
+<text x="0" y="-1" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
+<rectangle x1="0.55" y1="-0.625" x2="1" y2="0.625" layer="51"/>
+<rectangle x1="-1" y1="-0.625" x2="-0.55" y2="0.625" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<wire x1="-0.25" y1="0.7" x2="0.25" y2="0.7" width="0.15" layer="21"/>
+<wire x1="-0.25" y1="-0.7" x2="0.25" y2="-0.7" width="0.15" layer="21"/>
+<rectangle x1="-1.6" y1="-0.75" x2="-0.4" y2="0.75" layer="29"/>
+<rectangle x1="0.4" y1="-0.75" x2="1.6" y2="0.75" layer="29"/>
+</package>
+<package name="C0603">
+<description>&lt;b&gt;0603 Chip Resistor&lt;/b&gt;
+&lt;p&gt;&lt;b&gt;Author:&lt;/b&gt; Chris Schwab
+&lt;p&gt;&lt;b&gt;Notes:&lt;/b&gt; Modified from Adafruit</description>
+<wire x1="-0.4" y1="-0.36" x2="0.4" y2="-0.36" width="0.08" layer="51"/>
+<wire x1="0.4" y1="0.36" x2="-0.4" y2="0.36" width="0.08" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1" layer="1" stop="no"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1" layer="1" stop="no"/>
+<text x="0" y="0.85" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
+<text x="0" y="-0.75" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
+<rectangle x1="0.4" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
+<rectangle x1="-0.8" y1="-0.4" x2="-0.4" y2="0.4" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="-0.15" y1="0.5" x2="0.15" y2="0.5" width="0.15" layer="21"/>
+<wire x1="-0.15" y1="-0.5" x2="0.15" y2="-0.5" width="0.15" layer="21"/>
+<rectangle x1="-1.4" y1="-0.55" x2="-0.3" y2="0.55" layer="29"/>
+<rectangle x1="0.3" y1="-0.55" x2="1.4" y2="0.55" layer="29"/>
+</package>
+<package name="C0805">
+<description>&lt;b&gt;0805 Chip Resistor&lt;/b&gt;
+&lt;p&gt;&lt;b&gt;Author:&lt;/b&gt; Chris Schwab
+&lt;p&gt;&lt;b&gt;Notes:&lt;/b&gt; Modified from Adafruit</description>
+<wire x1="-0.55" y1="0.585" x2="0.55" y2="0.585" width="0.08" layer="51"/>
+<wire x1="-0.55" y1="-0.585" x2="0.55" y2="-0.585" width="0.08" layer="51"/>
+<smd name="1" x="-1" y="0" dx="1.1" dy="1.4" layer="1" stop="no"/>
+<smd name="2" x="1" y="0" dx="1.1" dy="1.4" layer="1" stop="no"/>
+<text x="0" y="1" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
+<text x="0" y="-0.95" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
+<rectangle x1="0.55" y1="-0.625" x2="1" y2="0.625" layer="51"/>
+<rectangle x1="-1" y1="-0.625" x2="-0.55" y2="0.625" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<wire x1="-0.25" y1="0.7" x2="0.25" y2="0.7" width="0.15" layer="21"/>
+<wire x1="-0.25" y1="-0.7" x2="0.25" y2="-0.7" width="0.15" layer="21"/>
+<rectangle x1="-1.6" y1="-0.75" x2="-0.4" y2="0.75" layer="29"/>
+<rectangle x1="0.4" y1="-0.75" x2="1.6" y2="0.75" layer="29"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BC9VPC">
@@ -457,6 +529,31 @@
 <wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
 <text x="-5.08" y="7.62" size="2.0828" layer="95" align="center-left">&gt;NAME</text>
 <text x="0" y="-7.62" size="1.778" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="RES">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="CAP">
+<wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="0.508" width="0.1524" layer="94"/>
+<text x="1.524" y="2.921" size="1.778" layer="95" ratio="10">&gt;NAME</text>
+<text x="1.524" y="-2.159" size="1.778" layer="96" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.032" y1="0.508" x2="2.032" y2="1.016" layer="94"/>
+<rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -646,6 +743,290 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
+<deviceset name="RES" prefix="R" uservalue="yes">
+<description>&lt;b&gt;Chip Resistor&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="RES" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0603" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_0R0">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="JUMPER" constant="no"/>
+<attribute name="VALUE" value="0" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P0.0GCT-ND" constant="no"/>
+</technology>
+<technology name="_0RS075">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3BWFR075V" constant="no"/>
+<attribute name="POWER" value="1/3W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="0.075" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P17475CT-ND" constant="no"/>
+</technology>
+<technology name="_100R">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1000V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="100" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P100HCT-ND" constant="no"/>
+</technology>
+<technology name="_100R0">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1003V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="100k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P100KHCT-ND" constant="no"/>
+</technology>
+<technology name="_10R0">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1002V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="10k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P10.0KHCT-ND" constant="no"/>
+</technology>
+<technology name="_240R0">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF2403V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="240k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P240KHCT-ND" constant="no"/>
+</technology>
+<technology name="_27R0">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF2702V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="27k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P27.0KHDKR-ND" constant="no"/>
+</technology>
+<technology name="_2R0">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF2001V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="2k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P2.00KHCT-ND" constant="no"/>
+</technology>
+<technology name="_2R61">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF2611V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="2.61k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P2.61KHTR-ND" constant="no"/>
+</technology>
+<technology name="_412R0">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF4123V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="412k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P412KHCT-ND" constant="no"/>
+</technology>
+<technology name="_47R0">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF4702V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="47k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P47.0KHTR-ND" constant="no"/>
+</technology>
+<technology name="_4R0">
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="RL0603FR-070R4L " constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="4" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="311-.4QCT-ND" constant="no"/>
+</technology>
+<technology name="_76R8">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF7682V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="76.8k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P76.8KHCT-ND" constant="no"/>
+</technology>
+<technology name="_7R15">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF7151V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="7.15k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P7.15KHCT-ND" constant="no"/>
+</technology>
+<technology name="_820R0">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-PA3F8203V" constant="no"/>
+<attribute name="POWER" value="1/4W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="820k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P820KBYCT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805" package="R0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAP" prefix="C" uservalue="yes">
+<description>&lt;b&gt;Chip Capacitor&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0603" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_1000PF0">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM188R71H102KA01D" constant="no"/>
+<attribute name="TEMP_COEFF" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="1000pF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-1494-2-ND" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="_100NF0">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM188R71C104KA01D" constant="no"/>
+<attribute name="TEMP_COEFF" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="100nF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-1532-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
+</technology>
+<technology name="_10UF0">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM188R61A106KE69D" constant="no"/>
+<attribute name="TEMP_COEFF" value="X5R" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-10474-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="10V" constant="no"/>
+</technology>
+<technology name="_1UF0">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM033R61A105ME15D" constant="no"/>
+<attribute name="TEMP_COEFF" value="X5R" constant="no"/>
+<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="VALUE" value="1uF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-13226-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="10V" constant="no"/>
+</technology>
+<technology name="_22PF0">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GQM1885C1H220JB01D" constant="no"/>
+<attribute name="TEMP_COEFF" value="C0G" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+<attribute name="VALUE" value="22pF" constant="no"/>
+<attribute name="VENDOR" value="Digi-Key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-3575-2-ND" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="_2UF2">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM188R61C225KE15D" constant="no"/>
+<attribute name="TEMP_COEFF" value="X5R" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="2.2uF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-3296-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
+</technology>
+<technology name="_300PF0">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM1885C1H301JA01D" constant="no"/>
+<attribute name="TEMP_COEFF" value="C0G" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+<attribute name="VALUE" value="300pF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-1438-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="_4UF7">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM188R61A475KE15D" constant="no"/>
+<attribute name="TEMP_COEFF" value="X5R" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-10477-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="10V" constant="no"/>
+</technology>
+<technology name="_5NF6">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM188R71H562KA01D" constant="no"/>
+<attribute name="TEMP_COEFF" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="5.6nF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-1507-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805" package="C0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_22UF0">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM21BR61A226ME51L" constant="no"/>
+<attribute name="TEMP_COEFF" value="X5R" constant="no"/>
+<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="VALUE" value="22uF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-10511-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -672,6 +1053,14 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="J8" library="grss" deviceset="MOLKK_2PIN" device="_2RA" technology="_2RA" value="MOL-KK-2-RA"/>
 <part name="J9" library="grss" deviceset="MOLKK_2PIN" device="_2RA" technology="_2RA" value="MOL-KK-2-RA"/>
 <part name="J10" library="grss" deviceset="MOLKK_2PIN" device="_2RA" technology="_2RA" value="MOL-KK-2-RA"/>
+<part name="R1" library="grss" deviceset="RES" device="_0603" technology="_100R" value="100"/>
+<part name="R2" library="grss" deviceset="RES" device="_0603" technology="_100R" value="100"/>
+<part name="R3" library="grss" deviceset="RES" device="_0603" technology="_100R" value="100"/>
+<part name="R4" library="grss" deviceset="RES" device="_0603" technology="_76R8" value="76.8k"/>
+<part name="C1" library="grss" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
+<part name="C2" library="grss" deviceset="CAP" device="_0603" technology="_10UF0" value="10uF"/>
+<part name="C3" library="grss" deviceset="CAP" device="_0603" technology="_2UF2" value="2.2uF"/>
+<part name="C4" library="grss" deviceset="CAP" device="_0603" technology="_1UF0" value="1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -692,6 +1081,14 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="J8" gate="G$1" x="93.98" y="170.18"/>
 <instance part="J9" gate="G$1" x="93.98" y="149.86"/>
 <instance part="J10" gate="G$1" x="129.54" y="170.18"/>
+<instance part="R1" gate="G$1" x="22.86" y="132.08" rot="R90"/>
+<instance part="R2" gate="G$1" x="50.8" y="132.08" rot="R90"/>
+<instance part="R3" gate="G$1" x="93.98" y="132.08" rot="R90"/>
+<instance part="R4" gate="G$1" x="-119.38" y="114.3" rot="R90"/>
+<instance part="C1" gate="G$1" x="-132.08" y="99.06"/>
+<instance part="C2" gate="G$1" x="-119.38" y="99.06"/>
+<instance part="C3" gate="G$1" x="-22.86" y="147.32"/>
+<instance part="C4" gate="G$1" x="-99.06" y="147.32"/>
 </instances>
 <busses>
 </busses>
