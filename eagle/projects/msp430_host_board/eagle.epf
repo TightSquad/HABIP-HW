@@ -341,6 +341,7 @@ UsedLibrary="C:/Users/stevy/OneDrive/Documents/Steven's Stuff/RIT 5/Senior Desig
 UsedLibrary="C:/Users/stevy/OneDrive/Documents/Steven's Stuff/RIT 5/Senior Design/PCB/HW/eagle/libraries/eagle_install_lbr/zetex.lbr"
 UsedLibrary="C:/Users/stevy/OneDrive/Documents/Steven's Stuff/RIT 5/Senior Design/PCB/HW/eagle/libraries/eagle_install_lbr/zilog.lbr"
 UsedLibrary="C:/Users/stevy/OneDrive/Documents/Steven's Stuff/RIT 5/Senior Design/PCB/HW/eagle/libraries/element14/SAMTEC-BCS-CES-CLx_By_element14_Batch_1.lbr"
+UsedLibrary="C:/Users/stevy/OneDrive/Documents/Steven's Stuff/RIT 5/Senior Design/PCB/HW/eagle/libraries/habip/daqcs.lbr"
 
 [Win_1]
 Type="Control Panel"
@@ -349,5 +350,5 @@ State=1
 Number=0
 
 [Desktop]
-Screen="1920 1080"
+Screen="3840 1080"
 Window="Win_1"
