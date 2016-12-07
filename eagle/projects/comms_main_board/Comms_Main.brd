@@ -2625,7 +2625,7 @@ design rules under a new name.</description>
 <attribute name="VENDOR" value="Digi-Key" x="-72.39" y="62.23" size="1.778" layer="27" display="off"/>
 <attribute name="DCR_MAX" value="30.2mOHM" x="-72.39" y="62.23" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="-72.39" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR_PN" value="SRN6045-3R3YTR-ND" x="-72.39" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="SRN6045-3R3YCT-ND" x="-72.39" y="62.23" size="1.778" layer="27" display="off"/>
 <attribute name="CURRENT_SAT" value="5A" x="-72.39" y="62.23" size="1.778" layer="27" display="off"/>
 <attribute name="SHIELDED" value="Yes" x="-72.39" y="62.23" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="30%" x="-72.39" y="62.23" size="1.778" layer="27" display="off"/>

@@ -3803,7 +3803,7 @@ thin small outline package</description>
 <attribute name="TYPE" value="Wirewound" constant="no"/>
 <attribute name="VALUE" value="3.3uH" constant="no"/>
 <attribute name="VENDOR" value="Digi-Key" constant="no"/>
-<attribute name="VENDOR_PN" value="SRN6045-3R3YTR-ND" constant="no"/>
+<attribute name="VENDOR_PN" value="SRN6045-3R3YCT-ND" constant="no"/>
 </technology>
 <technology name="_4UH7">
 <attribute name="CURRENT_DC" value="3A" constant="no"/>
