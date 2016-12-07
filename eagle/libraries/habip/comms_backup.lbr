@@ -163,27 +163,6 @@
 <text x="-3.025" y="1.723" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.695" y="-3.061" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="MOLKK_POW_2_RA">
-<text x="-3.5449" y="4.1029" size="0.3048" layer="25" ratio="6" rot="R180">&gt;NAME</text>
-<text x="5.2309" y="0.0879" size="1.27" layer="21" font="vector" ratio="14" align="center">1</text>
-<text x="-5.0983" y="0.0249" size="1.27" layer="21" ratio="14" align="center">2</text>
-<text x="3.1921" y="3.9251" size="0.254" layer="27" font="fixed" ratio="6">&gt;VALUE</text>
-<pad name="2" x="-1.98" y="0" drill="1.7" shape="long" rot="R90"/>
-<pad name="1" x="1.98" y="0" drill="1.7" shape="long" rot="R90"/>
-<wire x1="1.98" y1="0" x2="1.98" y2="-5.41" width="0.127" layer="51"/>
-<wire x1="-1.98" y1="0" x2="-1.98" y2="-5.41" width="0.127" layer="51"/>
-<wire x1="-3.885" y1="-5.41" x2="3.885" y2="-5.41" width="0.15" layer="21"/>
-<wire x1="3.885" y1="-5.41" x2="3.885" y2="-8.71" width="0.15" layer="21"/>
-<wire x1="-3.885" y1="-5.41" x2="-3.885" y2="-8.71" width="0.15" layer="21"/>
-<wire x1="-3.885" y1="-8.71" x2="3.885" y2="-8.71" width="0.15" layer="21"/>
-<wire x1="-3.175" y1="-5.41" x2="-3" y2="-16.74" width="0.127" layer="51"/>
-<wire x1="3.175" y1="-5.41" x2="3" y2="-16.74" width="0.127" layer="51"/>
-<wire x1="-3" y1="-16.74" x2="3" y2="-16.74" width="0.127" layer="51"/>
-<wire x1="-3.885" y1="0" x2="-3.885" y2="-20.14" width="0.127" layer="51"/>
-<wire x1="3.885" y1="0" x2="3.885" y2="-20.14" width="0.127" layer="51"/>
-<wire x1="-3.885" y1="-20.14" x2="3.885" y2="-20.14" width="0.127" layer="51"/>
-<wire x1="-3.885" y1="0" x2="3.885" y2="0" width="0.127" layer="51"/>
-</package>
 </packages>
 <symbols>
 <symbol name="TPS562209DDCR">
@@ -199,22 +178,6 @@
 <pin name="VFB" x="12.7" y="-5.08" length="middle" direction="in" rot="R180"/>
 <text x="-7.62" y="8.128" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-12.192" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="MOLKK_POW_2PIN">
-<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<pin name="1" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="2" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<text x="-5.334" y="8.382" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.096" y="-9.906" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="NO_CONNECT">
-<text x="-4.572" y="3.556" size="1.778" layer="94">&gt;NAME</text>
-<pin name="NC" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -234,21 +197,6 @@
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="NO_CONNECT" prefix="NC" uservalue="yes">
-<description>No Connect</description>
-<gates>
-<gate name="G$1" symbol="NO_CONNECT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
