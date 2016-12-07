@@ -7430,12 +7430,14 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <pinref part="U13" gate="G$1" pin="GND"/>
 <wire x1="-43.18" y1="-17.78" x2="-43.18" y2="-59.944" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="-59.944" x2="-5.08" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="-59.944" x2="-24.638" y2="-59.944" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="-59.944" x2="-35.56" y2="-59.944" width="0.1524" layer="91"/>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
+<wire x1="-35.56" y1="-59.944" x2="-24.638" y2="-59.944" width="0.1524" layer="91"/>
 <wire x1="-24.638" y1="-59.944" x2="-5.08" y2="-59.944" width="0.1524" layer="91"/>
 <junction x="-24.638" y="-59.944"/>
 <pinref part="C32" gate="G$1" pin="2"/>
-<wire x1="-5.08" y1="-59.944" x2="38.1" y2="-59.944" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-59.944" x2="25.4" y2="-59.944" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-59.944" x2="38.1" y2="-59.944" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-59.944" x2="38.1" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="-5.08" y="-59.944"/>
 <pinref part="C34" gate="G$1" pin="2"/>
@@ -7443,6 +7445,16 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <wire x1="50.8" y1="-59.944" x2="50.8" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="38.1" y="-59.944"/>
 <pinref part="C33" gate="G$1" pin="2"/>
+<pinref part="U13" gate="G$1" pin="T2IN"/>
+<wire x1="-22.86" y1="-45.72" x2="-35.56" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="-45.72" x2="-35.56" y2="-59.944" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="R1IN"/>
+<wire x1="12.7" y1="-48.26" x2="25.4" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-48.26" x2="25.4" y2="-50.8" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="R2IN"/>
+<wire x1="25.4" y1="-50.8" x2="25.4" y2="-59.944" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-50.8" x2="25.4" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="-50.8"/>
 </segment>
 <segment>
 <pinref part="C35" gate="G$1" pin="2"/>
@@ -7584,42 +7596,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <pinref part="R54" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="35.56" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
 <label x="83.82" y="35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$62" class="0">
-<segment>
-<pinref part="U13" gate="G$1" pin="T2OUT"/>
-<wire x1="12.7" y1="-45.72" x2="22.86" y2="-45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$65" class="0">
-<segment>
-<pinref part="U13" gate="G$1" pin="R1IN"/>
-<wire x1="12.7" y1="-48.26" x2="22.86" y2="-48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$66" class="0">
-<segment>
-<pinref part="U13" gate="G$1" pin="R2IN"/>
-<wire x1="12.7" y1="-50.8" x2="22.86" y2="-50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$67" class="0">
-<segment>
-<pinref part="U13" gate="G$1" pin="T2IN"/>
-<wire x1="-22.86" y1="-45.72" x2="-35.56" y2="-45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$68" class="0">
-<segment>
-<pinref part="U13" gate="G$1" pin="R1OUT"/>
-<wire x1="-22.86" y1="-48.26" x2="-35.56" y2="-48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$69" class="0">
-<segment>
-<pinref part="U13" gate="G$1" pin="R2OUT"/>
-<wire x1="-22.86" y1="-50.8" x2="-35.56" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
