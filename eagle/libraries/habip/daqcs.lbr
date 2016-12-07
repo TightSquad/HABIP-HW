@@ -1323,10 +1323,10 @@ JST PH 2-pin thru-home side entry</description>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 <symbol name="MCP73831T-2ATI/OT">
-<pin name="STAT" x="-17.78" y="-10.16" length="middle" direction="in"/>
+<pin name="STAT" x="17.78" y="0" length="middle" direction="in" rot="R180"/>
 <pin name="VSS" x="17.78" y="-10.16" length="middle" direction="pwr" rot="R180"/>
 <pin name="VBAT" x="17.78" y="7.62" length="middle" direction="in" rot="R180"/>
-<pin name="PROG" x="17.78" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="PROG" x="-17.78" y="0" length="middle" direction="in"/>
 <pin name="VDD" x="-17.78" y="7.62" length="middle" direction="pwr"/>
 <wire x1="-12.7" y1="15.24" x2="-12.7" y2="-15.24" width="0.4064" layer="94"/>
 <wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.4064" layer="94"/>
@@ -1681,7 +1681,7 @@ JST PH 2-pin thru-home side entry</description>
 <pin name="3V3" x="-35.56" y="15.24" length="middle"/>
 <pin name="GPIO2/SDA1" x="-35.56" y="10.16" length="middle"/>
 <pin name="GPIO3/SCL1" x="-35.56" y="5.08" length="middle"/>
-<pin name="GPIO4/GPIO_GCLK" x="-35.56" y="0" length="middle"/>
+<pin name="GPIO4/GPIO_GCLK/1-WIRE" x="-35.56" y="0" length="middle"/>
 <pin name="GND@1" x="-35.56" y="-5.08" length="middle"/>
 <pin name="GPIO17/GPIO_GEN0" x="-35.56" y="-10.16" length="middle"/>
 <pin name="GPIO27/GPIO_GEN2" x="-35.56" y="-15.24" length="middle"/>
@@ -2923,7 +2923,7 @@ This device is fully specified for partial power-down applications using IOFF. T
 <connect gate="G$1" pin="GPIO2/SDA1" pad="3"/>
 <connect gate="G$1" pin="GPIO27/GPIO_GEN2" pad="13"/>
 <connect gate="G$1" pin="GPIO3/SCL1" pad="5"/>
-<connect gate="G$1" pin="GPIO4/GPIO_GCLK" pad="7"/>
+<connect gate="G$1" pin="GPIO4/GPIO_GCLK/1-WIRE" pad="7"/>
 </connects>
 <technologies>
 <technology name="_2X7_254MM">
