@@ -935,6 +935,16 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <attribute name="VENDOR_PN" value="490-1532-1-ND" constant="no"/>
 <attribute name="VOLTAGE" value="16V" constant="no"/>
 </technology>
+<technology name="_10PF0">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM1885C1H100JA01D" constant="no"/>
+<attribute name="TEMP_COEFF" value="C0G, NP0" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+<attribute name="VALUE" value="10pF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-1403-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
 <technology name="_10UF0">
 <attribute name="MANUFACTURER" value="Murata" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R61A106KE69D" constant="no"/>
@@ -1039,7 +1049,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </class>
 </classes>
 <parts>
-<part name="BAT1" library="grss" deviceset="BC9VPC" device=""/>
+<part name="9VBAT" library="grss" deviceset="BC9VPC" device=""/>
 <part name="U$1" library="grss" deviceset="LMC555CMX/NOPB" device=""/>
 <part name="U$2" library="grss" deviceset="LP2985AIM5-4.5/NOPB" device=""/>
 <part name="U1" library="grss" deviceset="STD12NF06LT4" device=""/>
@@ -1061,14 +1071,15 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="C2" library="grss" deviceset="CAP" device="_0603" technology="_10UF0" value="10uF"/>
 <part name="C3" library="grss" deviceset="CAP" device="_0603" technology="_2UF2" value="2.2uF"/>
 <part name="C4" library="grss" deviceset="CAP" device="_0603" technology="_1UF0" value="1uF"/>
+<part name="C5" library="grss" deviceset="CAP" device="_0603" technology="_10PF0" value="10pF"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="BAT1" gate="G$1" x="-147.32" y="121.92"/>
-<instance part="U$1" gate="A" x="-93.98" y="124.46"/>
+<instance part="9VBAT" gate="G$1" x="-149.86" y="119.38"/>
+<instance part="U$1" gate="A" x="-109.22" y="121.92"/>
 <instance part="U$2" gate="A" x="-91.44" y="160.02"/>
 <instance part="U1" gate="A" x="15.24" y="116.84"/>
 <instance part="J1" gate="G$1" x="17.78" y="190.5"/>
@@ -1084,15 +1095,76 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="R1" gate="G$1" x="22.86" y="132.08" rot="R90"/>
 <instance part="R2" gate="G$1" x="50.8" y="132.08" rot="R90"/>
 <instance part="R3" gate="G$1" x="93.98" y="132.08" rot="R90"/>
-<instance part="R4" gate="G$1" x="-119.38" y="114.3" rot="R90"/>
-<instance part="C1" gate="G$1" x="-132.08" y="99.06"/>
-<instance part="C2" gate="G$1" x="-119.38" y="99.06"/>
-<instance part="C3" gate="G$1" x="-22.86" y="147.32"/>
+<instance part="R4" gate="G$1" x="-119.38" y="104.14" rot="R90"/>
+<instance part="C1" gate="G$1" x="-10.16" y="119.38"/>
+<instance part="C2" gate="G$1" x="-119.38" y="88.9"/>
+<instance part="C3" gate="G$1" x="0" y="139.7"/>
 <instance part="C4" gate="G$1" x="-99.06" y="147.32"/>
+<instance part="C5" gate="G$1" x="-10.16" y="139.7"/>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U$2" gate="A" pin="VOUT"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="-35.56" y1="160.02" x2="-25.4" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="160.02" x2="0" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="0" y1="160.02" x2="0" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="A" pin="V+"/>
+<wire x1="-43.18" y1="121.92" x2="-25.4" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="121.92" x2="-25.4" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="A" pin="DIS"/>
+<wire x1="-43.18" y1="119.38" x2="-25.4" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="119.38" x2="-25.4" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="A" pin="*RST"/>
+<wire x1="-109.22" y1="114.3" x2="-109.22" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="104.14" x2="-25.4" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="104.14" x2="-25.4" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U$2" gate="A" pin="BP"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="-35.56" y1="157.48" x2="-10.16" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="157.48" x2="-10.16" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U$2" gate="A" pin="VIN"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="-91.44" y1="160.02" x2="-99.06" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="160.02" x2="-99.06" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="A" pin="ON"/>
+<wire x1="-35.56" y1="154.94" x2="-30.48" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="154.94" x2="-30.48" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="175.26" x2="-99.06" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="175.26" x2="-99.06" y2="160.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U$2" gate="A" pin="GND"/>
+<wire x1="-91.44" y1="157.48" x2="-91.44" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="-91.44" y1="144.78" x2="-99.06" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="THRTRIG" class="0">
+<segment>
+<pinref part="U$1" gate="A" pin="*TRIG"/>
+<wire x1="-109.22" y1="119.38" x2="-114.3" y2="119.38" width="0.1524" layer="91"/>
+<label x="-119.38" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="A" pin="THR"/>
+<wire x1="-43.18" y1="116.84" x2="-40.64" y2="116.84" width="0.1524" layer="91"/>
+<label x="-38.1" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
