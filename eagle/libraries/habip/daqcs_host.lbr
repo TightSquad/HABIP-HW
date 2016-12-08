@@ -4763,7 +4763,7 @@ part number 2062-2P from STA</description>
 <attribute name="TOLERANCE" value="10%" constant="no"/>
 <attribute name="VALUE" value="1000pF" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="490-1494-2-ND" constant="no"/>
+<attribute name="VENDOR_PN" value="490-1494-1-ND" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_100NF0">
@@ -4803,7 +4803,7 @@ part number 2062-2P from STA</description>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 <attribute name="VALUE" value="22pF" constant="no"/>
 <attribute name="VENDOR" value="Digi-Key" constant="no"/>
-<attribute name="VENDOR_PN" value="490-3575-2-ND" constant="no"/>
+<attribute name="VENDOR_PN" value="490-3575-1-ND" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_2UF2">
@@ -4932,7 +4932,7 @@ part number 2062-2P from STA</description>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 <attribute name="VALUE" value="27k" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="P27.0KHDKR-ND" constant="no"/>
+<attribute name="VENDOR_PN" value="P27.0KHCT-ND" constant="no"/>
 </technology>
 <technology name="_2R0">
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
@@ -4950,7 +4950,7 @@ part number 2062-2P from STA</description>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 <attribute name="VALUE" value="2.61k" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="P2.61KHTR-ND" constant="no"/>
+<attribute name="VENDOR_PN" value="P2.61KHCT-ND" constant="no"/>
 </technology>
 <technology name="_412R0">
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
@@ -4968,7 +4968,7 @@ part number 2062-2P from STA</description>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 <attribute name="VALUE" value="47k" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="P47.0KHTR-ND" constant="no"/>
+<attribute name="VENDOR_PN" value="P47.0KHCT-ND" constant="no"/>
 </technology>
 <technology name="_4R0">
 <attribute name="MANUFACTURER" value="Yageo" constant="no"/>
@@ -6479,7 +6479,7 @@ Updated  by  Dan Xu 2014-07-08&lt;br&gt;
 <attribute name="QUANTITY_AVAILABLE" value="0" constant="no"/>
 <attribute name="SUPPLIERDEVICEPACKAGE" value="D-Pak" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="497-2487-2-ND" constant="no"/>
+<attribute name="VENDOR_PN" value="497-2487-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
