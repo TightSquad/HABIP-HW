@@ -8,10 +8,11 @@ Desktop="Desktop"
 [Globals]
 AutoSaveProject=1
 UsedLibrary="C:/Users/lglau_000/Google Drive/College/1-MSD/HW/eagle/libraries/habip/grss.lbr"
+UsedLibrary="C:/Users/lglau_000/Google Drive/College/1-MSD/HW/eagle/libraries/eagle_install_lbr/frames.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="-8 -31 591 368"
+Loc="605 287 1204 686"
 State=2
 Number=0
 

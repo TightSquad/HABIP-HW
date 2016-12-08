@@ -1020,8 +1020,8 @@ part number 2062-2P from STA</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LMC555CMX/NOPB">
-<description>Imported from Ultra Librarian</description>
+<deviceset name="LMC555CMX/NOPB" prefix="U" uservalue="yes">
+<description>555 Timer</description>
 <gates>
 <gate name="A" symbol="LMC555CM/NOPB" x="0" y="0"/>
 </gates>
@@ -1039,10 +1039,11 @@ part number 2062-2P from STA</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="3D_LIBRARY_NAME" value="National_9-26-2011" constant="no"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2015 Accelerated Designs. All rights reserved" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LMC555CMX/NOPB" constant="no"/>
-<attribute name="VENDOR" value="National Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="LMC555CMX/NOPB" constant="no"/>
+<attribute name="VALUE" value="LMC555CMX/NOPB" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="LMC555CMX/NOPBCT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1126,7 +1127,11 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="BATT-10855" constant="no"/>
+<attribute name="MANUFACTURER" value="MPD (Memory Protection Devices)" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="BC9VPC" constant="no"/>
+<attribute name="VALUE" value="9V" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="BC9VPC-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1143,7 +1148,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
-<deviceset name="STD12NF06LT4" prefix="U">
+<deviceset name="STD12NF06LT4" prefix="Q" uservalue="yes">
 <gates>
 <gate name="A" symbol="TRANS_S" x="0" y="0"/>
 </gates>
@@ -1156,26 +1161,18 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CATEGORY" value="" constant="no"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2015 Accelerated Designs. All rights reserved" constant="no"/>
-<attribute name="DATASHEET" value="http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00002633.pdf" constant="no"/>
-<attribute name="DESCRIPTION" value="MOSFET N-CH 60V 12A DPAK" constant="no"/>
-<attribute name="DIGIKEYPARTNUMBER" value="497-2487-2-ND" constant="no"/>
-<attribute name="FETFEATURE" value="Logic Level Gate" constant="no"/>
-<attribute name="FETTYPE" value="MOSFET N-Channel, Metal Oxide" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="STD12NF06LT4" constant="no"/>
-<attribute name="MOUNTINGTYPE" value="Surface Mount" constant="no"/>
-<attribute name="PACKAGING" value="Tape &amp;amp Reel (TR)" constant="no"/>
-<attribute name="POWER-MAX" value="30W" constant="no"/>
-<attribute name="QUANTITY_AVAILABLE" value="0" constant="no"/>
-<attribute name="SUPPLIERDEVICEPACKAGE" value="D-Pak" constant="no"/>
-<attribute name="VENDOR" value="ST Microelectronics" constant="no"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="STD12NF06LT4" constant="no"/>
+<attribute name="VALUE" value="STD12NF06LT4" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="497-2487-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LP2985AIM5-4.5/NOPB">
+<deviceset name="LP2985AIM5-4.5/NOPB" prefix="U" uservalue="yes">
+<description>4.5V LDO</description>
 <gates>
 <gate name="A" symbol="LP2985AIM5-4.5" x="0" y="0"/>
 </gates>
@@ -1190,17 +1187,11 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="">
-<attribute name="3D_LIBRARY_NAME" value="National_LDO" constant="no"/>
-<attribute name="BASE_PN" value="LP2985" constant="no"/>
-<attribute name="COMP" value="TypeLDO" constant="no"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2015 Accelerated Designs. All rights reserved" constant="no"/>
-<attribute name="LIBRARY" value="ReferenceLP2985AIM5" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LP2985AIM5-4.5/NOPB" constant="no"/>
-<attribute name="PIN" value="Count5" constant="no"/>
-<attribute name="SYMBOL" value="NameLP2985AIM5-45" constant="no"/>
-<attribute name="TYPE" value="LP2985AIM5-4.5" constant="no"/>
-<attribute name="VENDOR" value="National Semiconductor" constant="no"/>
-<attribute name="VERSION" value="1" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="LP2985AIM5-4.5/NOPB" constant="no"/>
+<attribute name="VALUE" value="LP2985AIM5-4.5/NOPB" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="LP2985AIM5-4.5/NOPBCT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
