@@ -3181,7 +3181,7 @@ part number 2062-2P from STA</description>
 <pin name="L" x="-17.78" y="-5.08" length="middle" direction="in"/>
 <pin name="GND" x="-17.78" y="-10.16" length="middle" direction="pas"/>
 <pin name="EP" x="-17.78" y="-12.7" length="middle" direction="pas"/>
-<pin name="VOUT" x="17.78" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="VOUT" x="17.78" y="5.08" length="middle" direction="sup" rot="R180"/>
 <wire x1="-12.7" y1="10.16" x2="-12.7" y2="-17.78" width="0.4064" layer="94"/>
 <wire x1="-12.7" y1="-17.78" x2="12.7" y2="-17.78" width="0.4064" layer="94"/>
 <wire x1="12.7" y1="-17.78" x2="12.7" y2="10.16" width="0.4064" layer="94"/>
@@ -3193,7 +3193,7 @@ part number 2062-2P from STA</description>
 <pin name="EN" x="0" y="0" direction="in"/>
 <pin name="VIN" x="0" y="-5.08" direction="in"/>
 <pin name="NC" x="0" y="-10.16" direction="nc"/>
-<pin name="VOUT" x="40.64" y="-5.08" direction="out" rot="R180"/>
+<pin name="VOUT" x="40.64" y="-5.08" direction="sup" rot="R180"/>
 <pin name="GND" x="40.64" y="-10.16" direction="pwr" rot="R180"/>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-15.24" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-15.24" x2="33.02" y2="-15.24" width="0.1524" layer="94"/>
@@ -3623,7 +3623,7 @@ part number 2062-2P from STA</description>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 <attribute name="VALUE" value="27k" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="P27.0KHDKR-ND" constant="no"/>
+<attribute name="VENDOR_PN" value="P27.0KHCT-ND" constant="no"/>
 </technology>
 <technology name="_2R0">
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
@@ -3641,7 +3641,7 @@ part number 2062-2P from STA</description>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 <attribute name="VALUE" value="2.61k" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="P2.61KHTR-ND" constant="no"/>
+<attribute name="VENDOR_PN" value="P2.61KHCT-ND" constant="no"/>
 </technology>
 <technology name="_412R0">
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
@@ -3659,7 +3659,7 @@ part number 2062-2P from STA</description>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 <attribute name="VALUE" value="47k" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="P47.0KHTR-ND" constant="no"/>
+<attribute name="VENDOR_PN" value="P47.0KHCT-ND" constant="no"/>
 </technology>
 <technology name="_4R0">
 <attribute name="MANUFACTURER" value="Yageo" constant="no"/>
@@ -3729,7 +3729,7 @@ part number 2062-2P from STA</description>
 <attribute name="TOLERANCE" value="10%" constant="no"/>
 <attribute name="VALUE" value="1000pF" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="490-1494-2-ND" constant="no"/>
+<attribute name="VENDOR_PN" value="490-1494-1-ND" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_100NF0">
@@ -3769,7 +3769,7 @@ part number 2062-2P from STA</description>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 <attribute name="VALUE" value="22pF" constant="no"/>
 <attribute name="VENDOR" value="Digi-Key" constant="no"/>
-<attribute name="VENDOR_PN" value="490-3575-2-ND" constant="no"/>
+<attribute name="VENDOR_PN" value="490-3575-1-ND" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_2UF2">
@@ -5157,7 +5157,7 @@ Updated  by  Dan Xu 2014-07-08&lt;br&gt;
 <attribute name="QUANTITY_AVAILABLE" value="0" constant="no"/>
 <attribute name="SUPPLIERDEVICEPACKAGE" value="D-Pak" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="497-2487-2-ND" constant="no"/>
+<attribute name="VENDOR_PN" value="497-2487-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5753,6 +5753,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
 <part name="J17" library="daqcs_host" deviceset="CLM-112-02-L-D" device=""/>
 <part name="J11" library="daqcs_host" deviceset="M02" device="PTH"/>
+<part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7631,6 +7632,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VALUE" x="257.302" y="166.37" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="J15" gate="G$1" x="86.36" y="198.12" rot="R270"/>
+<instance part="+3V14" gate="G$1" x="327.66" y="193.04"/>
 </instances>
 <busses>
 </busses>
@@ -7773,6 +7775,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="327.66" y1="182.88" x2="345.44" y2="182.88" width="0.1524" layer="91"/>
 <junction x="327.66" y="182.88"/>
 <label x="327.66" y="182.88" size="1.778" layer="95"/>
+<pinref part="+3V14" gate="G$1" pin="+3V3"/>
+<wire x1="327.66" y1="182.88" x2="327.66" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V13" gate="G$1" pin="+3V3"/>
