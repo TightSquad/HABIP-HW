@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2994,6 +2994,20 @@ part number 2062-2P from STA</description>
 <vertex x="-2.8575" y="5.8738"/>
 </polygon>
 </package>
+<package name="2,75_HOLE_RASPI">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.8 mm with drill center</description>
+<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2.1875" width="1.625" layer="40"/>
+<circle x="0" y="0" radius="2.1875" width="1.625" layer="39"/>
+<circle x="0" y="0" radius="2.1875" width="1.625" layer="41"/>
+<circle x="0" y="0" radius="2.1875" width="1.625" layer="42"/>
+<circle x="0" y="0" radius="2.1875" width="1.625" layer="43"/>
+<hole x="0" y="0" drill="2.75"/>
+<circle x="0" y="0" radius="1.5" width="3" layer="29"/>
+<circle x="0" y="0" radius="1.5" width="3" layer="30"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MSP430FR5994PN">
@@ -3544,6 +3558,16 @@ part number 2062-2P from STA</description>
 <text x="-5.08" y="12.7" size="2.0828" layer="95" align="center-left">&gt;NAME</text>
 <text x="0" y="-12.7" size="1.778" layer="96" align="center">&gt;VALUE</text>
 <pin name="4" x="12.7" y="-7.62" rot="R180"/>
+</symbol>
+<symbol name="MOUNT-HOLE">
+<wire x1="0" y1="1.27" x2="1.27" y2="0" width="1.524" layer="94" curve="-90" cap="flat"/>
+<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="1.524" layer="94" curve="90" cap="flat"/>
+<wire x1="-0.508" y1="0" x2="0.508" y2="0" width="0.0508" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.0508" layer="94"/>
+<circle x="0" y="0" radius="2.032" width="0.0508" layer="94"/>
+<circle x="0" y="0" radius="0.508" width="0.0508" layer="94"/>
+<text x="2.032" y="0.5842" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.032" y="-2.4638" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5391,6 +5415,19 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
+<deviceset name="MOUNT-HOLE" prefix="H">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; with drill center marker</description>
+<gates>
+<gate name="G$1" symbol="MOUNT-HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_2.75" package="2,75_HOLE_RASPI">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply1">
@@ -5838,6 +5875,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="J8" library="daqcs_host" deviceset="MOLSL_3PIN" device="_RA" technology="_SL3RA" value="MOL-SL-3-RA"/>
 <part name="J9" library="daqcs_host" deviceset="MOLSL_3PIN" device="_V" technology="_SL3V" value="MOL-SL-3-V"/>
 <part name="J10" library="daqcs_host" deviceset="MOLSL_3PIN" device="_V" technology="_SL3V" value="MOL-SL-3-V"/>
+<part name="H1" library="daqcs_host" deviceset="MOUNT-HOLE" device="_2.75"/>
+<part name="H2" library="daqcs_host" deviceset="MOUNT-HOLE" device="_2.75"/>
+<part name="H3" library="daqcs_host" deviceset="MOUNT-HOLE" device="_2.75"/>
+<part name="H4" library="daqcs_host" deviceset="MOUNT-HOLE" device="_2.75"/>
 </parts>
 <sheets>
 <sheet>
@@ -7044,6 +7085,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="213.36" y="142.24" size="2.54" layer="91">Header Connector for Spi-Bi-Wire</text>
 <text x="228.6" y="215.9" size="2.54" layer="91">Reset Pushbutton </text>
 <text x="101.6" y="231.14" size="6.4516" layer="91">Motor MSP430 Connectors</text>
+<text x="228.6" y="81.28" size="2.54" layer="91">Mounting Holes</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="-35.56" y="-7.62"/>
@@ -7057,6 +7099,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="J8" gate="G$1" x="55.88" y="134.62"/>
 <instance part="J9" gate="G$1" x="55.88" y="66.04"/>
 <instance part="J10" gate="G$1" x="218.44" y="127"/>
+<instance part="H1" gate="G$1" x="213.36" y="71.12"/>
+<instance part="H2" gate="G$1" x="256.54" y="71.12"/>
+<instance part="H3" gate="G$1" x="213.36" y="55.88"/>
+<instance part="H4" gate="G$1" x="256.54" y="55.88"/>
 </instances>
 <busses>
 </busses>
@@ -7220,6 +7266,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="281.94" y1="142.24" x2="281.94" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="109.22" x2="195.58" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="109.22" x2="195.58" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$55" class="0">
+<segment>
+<wire x1="195.58" y1="81.28" x2="284.48" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="81.28" x2="284.48" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="48.26" x2="195.58" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="48.26" x2="195.58" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
