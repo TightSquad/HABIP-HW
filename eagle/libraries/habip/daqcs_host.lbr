@@ -6310,7 +6310,7 @@ part number 2062-2P from STA</description>
 <technologies>
 <technology name="">
 <attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
-<attribute name="PARTNUMBER" value="MSP430FR5994IPNR" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="MSP430FR5994IPNR" constant="no"/>
 <attribute name="REFDES" value="RefDes" constant="no"/>
 <attribute name="TYPE" value="TYPE" constant="no"/>
 <attribute name="VALUE" value="Value" constant="no"/>
@@ -6694,8 +6694,8 @@ push-push type</description>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="3M" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="2908-05WB-MG" constant="no"/>
-<attribute name="MAUNFACTURER" value="3M" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="3M5607CT-ND" constant="no"/>
 </technology>
@@ -7257,8 +7257,8 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <technologies>
 <technology name="">
 <attribute name="CAPACITANCE" value="39pF" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="CSTCR4M00G15L99-R0" constant="no"/>
-<attribute name="MAUNFACTURER" value="Murata" constant="no"/>
 <attribute name="PROD_ID" value="XTAL-12492"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
 <attribute name="VALUE" value="4MHz"/>
@@ -7482,8 +7482,8 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <technologies>
 <technology name="">
 <attribute name="IOUT" value="250mA" constant="no"/>
-<attribute name="MANFACTURER" value="Texas Instruments" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="lp5907_dbv_5" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="lp5907_dbv_5" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="296-38557-1-ND" constant="no"/>
 <attribute name="VIN" value="5.5V" constant="no"/>
@@ -8047,7 +8047,8 @@ Updated  by  Dan Xu 2014-07-08&lt;br&gt;
 <attribute name="DESCRIPTION" value="MOSFET N-CH 60V 12A DPAK" constant="no"/>
 <attribute name="FETFEATURE" value="Logic Level Gate" constant="no"/>
 <attribute name="FETTYPE" value="MOSFET N-Channel, Metal Oxide" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="STD12NF06LT4" constant="no"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="STD12NF06LT4" constant="no"/>
 <attribute name="MOUNTINGTYPE" value="Surface Mount" constant="no"/>
 <attribute name="PACKAGING" value="Tape &amp;amp Reel (TR)" constant="no"/>
 <attribute name="POWER-MAX" value="30W" constant="no"/>
@@ -8074,7 +8075,7 @@ Updated  by  Dan Xu 2014-07-08&lt;br&gt;
 <technologies>
 <technology name="">
 <attribute name="MANUFACTURER" value="MPD" constant="no"/>
-<attribute name="MANUFACTURE_PN" value="BH9VPC" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="BH9VPC" constant="no"/>
 <attribute name="PROD_ID" value="BATT-10855" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="BH9V-PC-ND" constant="no"/>
