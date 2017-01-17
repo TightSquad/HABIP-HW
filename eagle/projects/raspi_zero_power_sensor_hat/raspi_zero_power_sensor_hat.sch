@@ -33926,7 +33926,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <text x="317.5" y="121.92" size="1.778" layer="91">Vt+: 2.79V (MAX)</text>
 <text x="317.5" y="119.38" size="1.778" layer="91">Vt-: 1.58V (MIN)</text>
 <text x="238.76" y="109.22" size="1.778" layer="91">MSP430 I/O is 3.3V logic</text>
-<text x="182.88" y="45.72" size="3.81" layer="91">ADD WATCHDOG</text>
+<text x="167.64" y="83.82" size="3.81" layer="91">WATCHDOG TIMER</text>
 <text x="20.32" y="83.82" size="3.81" layer="91">3.3V LDO (No RasPi Operation)</text>
 <text x="38.1" y="76.2" size="1.778" layer="91">Placeholder for 3.3V rail supply if the</text>
 <text x="38.1" y="73.66" size="1.778" layer="91">board is used without a RasPi, since the</text>
@@ -35057,6 +35057,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <text x="35.56" y="71.12" size="1.778" layer="91">This allows for easier routing of the</text>
 <text x="35.56" y="68.58" size="1.778" layer="91">boost output to the Pi's 5V0 pin.</text>
 <text x="284.48" y="111.76" size="3.81" layer="91">I2C DEBUG HEADER</text>
+<text x="134.62" y="86.36" size="3.81" layer="91">RASPI CAM MOUNTING HOLES</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
