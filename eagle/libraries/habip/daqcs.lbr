@@ -33160,7 +33160,7 @@ JST PH 2-pin thru-home side entry</description>
 <pin name="SET2" x="-17.78" y="-7.62" length="middle" direction="in"/>
 <pin name="NC" x="17.78" y="-10.16" length="middle" direction="nc" rot="R180"/>
 <pin name="GND" x="17.78" y="-15.24" length="middle" direction="pwr" rot="R180"/>
-<pin name="WDO" x="17.78" y="10.16" length="middle" direction="oc" rot="R180"/>
+<pin name="WDO" x="17.78" y="2.54" length="middle" direction="oc" rot="R180"/>
 <wire x1="-12.7" y1="17.78" x2="-12.7" y2="-20.32" width="0.4064" layer="94"/>
 <wire x1="-12.7" y1="-20.32" x2="12.7" y2="-20.32" width="0.4064" layer="94"/>
 <wire x1="12.7" y1="-20.32" x2="12.7" y2="17.78" width="0.4064" layer="94"/>
@@ -33256,6 +33256,15 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VALUE" value="0" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" constant="no"/>
+</technology>
+<technology name="_0R249">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF2490V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="249" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P249HCT-ND" constant="no"/>
 </technology>
 <technology name="_0R499">
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
