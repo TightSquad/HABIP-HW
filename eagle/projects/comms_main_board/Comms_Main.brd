@@ -997,10 +997,8 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 </package>
 <package name="QSOP16">
 <description>&lt;b&gt;Small Outline Package&lt;/b&gt;</description>
-<wire x1="-2.47" y1="-1.85" x2="-2.47" y2="1.85" width="0.2032" layer="21"/>
-<wire x1="2.47" y1="1.85" x2="2.47" y2="-1.85" width="0.2032" layer="21"/>
-<wire x1="-2.47" y1="-1.85" x2="2.47" y2="-1.85" width="0.2032" layer="21"/>
-<wire x1="2.47" y1="1.85" x2="-2.47" y2="1.85" width="0.2032" layer="21"/>
+<wire x1="-2.47" y1="-1.7" x2="-2.47" y2="1.7" width="0.2032" layer="21"/>
+<wire x1="2.47" y1="1.7" x2="2.47" y2="-1.7" width="0.2032" layer="21"/>
 <circle x="-1.65" y="-1.05" radius="0.3" width="0" layer="21"/>
 <smd name="1" x="-2.2225" y="-2.69" dx="0.45" dy="1.5" layer="1"/>
 <smd name="2" x="-1.5875" y="-2.69" dx="0.45" dy="1.5" layer="1"/>
@@ -1020,22 +1018,6 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 <smd name="16" x="-2.2225" y="2.69" dx="0.45" dy="1.5" layer="1"/>
 <text x="4.384" y="-2.87" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="-2.818" y="-2.838" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.3725" y1="-3.1" x2="-2.0725" y2="-1.8" layer="51"/>
-<rectangle x1="-1.7375" y1="-3.1" x2="-1.4375" y2="-1.8" layer="51"/>
-<rectangle x1="-1.1025" y1="-3.1" x2="-0.8025" y2="-1.8" layer="51"/>
-<rectangle x1="-0.4675" y1="-3.1" x2="-0.1675" y2="-1.8" layer="51"/>
-<rectangle x1="0.1675" y1="-3.1" x2="0.4675" y2="-1.8" layer="51"/>
-<rectangle x1="0.8025" y1="-3.1" x2="1.1025" y2="-1.8" layer="51"/>
-<rectangle x1="1.4375" y1="-3.1" x2="1.7375" y2="-1.8" layer="51"/>
-<rectangle x1="2.0725" y1="-3.1" x2="2.3725" y2="-1.8" layer="51"/>
-<rectangle x1="2.0725" y1="1.8" x2="2.3725" y2="3.1" layer="51"/>
-<rectangle x1="1.4375" y1="1.8" x2="1.7375" y2="3.1" layer="51"/>
-<rectangle x1="0.8025" y1="1.8" x2="1.1025" y2="3.1" layer="51"/>
-<rectangle x1="0.1675" y1="1.8" x2="0.4675" y2="3.1" layer="51"/>
-<rectangle x1="-0.4675" y1="1.8" x2="-0.1675" y2="3.1" layer="51"/>
-<rectangle x1="-1.1025" y1="1.8" x2="-0.8025" y2="3.1" layer="51"/>
-<rectangle x1="-1.7375" y1="1.8" x2="-1.4375" y2="3.1" layer="51"/>
-<rectangle x1="-2.3725" y1="1.8" x2="-2.0725" y2="3.1" layer="51"/>
 </package>
 <package name="DBV5">
 <smd name="1" x="-1.1938" y="0.95" dx="1.4732" dy="0.5588" layer="1"/>
@@ -3367,6 +3349,15 @@ design rules under a new name.</description>
 <attribute name="MOUNT_TYPE" value="TH" x="-311.15" y="-22.86" size="1.778" layer="27" display="off"/>
 <attribute name="POSITIONS" value="2" x="-311.15" y="-22.86" size="1.778" layer="27" display="off"/>
 </element>
+<element name="C36" library="comms" package="C0603" value="100nF" x="-321.31" y="-39.37">
+<attribute name="MANUFACTURER_PN" value="GRM188R71C104KA01D" x="-321.31" y="-39.37" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP_COEFF" value="X7R" x="-321.31" y="-39.37" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="16V" x="-321.31" y="-39.37" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="-321.31" y="-39.37" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="-321.31" y="-39.37" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="490-1532-1-ND" x="-321.31" y="-39.37" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Murata" x="-321.31" y="-39.37" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="N$2">
@@ -4072,9 +4063,11 @@ design rules under a new name.</description>
 <contactref element="J18" pad="2"/>
 <contactref element="J19" pad="2"/>
 <contactref element="J16" pad="2"/>
+<contactref element="C36" pad="2"/>
 <wire x1="-260.35" y1="-17.3482" x2="-234.95" y2="-17.3482" width="0" layer="19" extent="1-1"/>
 <wire x1="-285.75" y1="-17.3482" x2="-260.35" y2="-17.3482" width="0" layer="19" extent="1-1"/>
 <wire x1="-311.15" y1="-17.3482" x2="-285.75" y2="-17.3482" width="0" layer="19" extent="1-1"/>
+<wire x1="-320.46" y1="-39.37" x2="-311.15" y2="-17.3482" width="0" layer="19" extent="1-1"/>
 <wire x1="-182.88" y1="-29.21" x2="-234.95" y2="-17.3482" width="0" layer="19" extent="1-1"/>
 <wire x1="-161.29" y1="-29.21" x2="-182.88" y2="-29.21" width="0" layer="19" extent="1-1"/>
 <wire x1="-139.7" y1="-29.21" x2="-161.29" y2="-29.21" width="0" layer="19" extent="1-1"/>
@@ -8994,6 +8987,7 @@ design rules under a new name.</description>
 <contactref element="U15" pad="8"/>
 <contactref element="R20" pad="2"/>
 <contactref element="R25" pad="1"/>
+<contactref element="C36" pad="1"/>
 <wire x1="117.72" y1="63.5" x2="99.8" y2="86.36" width="0" layer="19" extent="1-1"/>
 <wire x1="4.985" y1="-1.565" x2="16.002" y2="46.4058" width="0" layer="19" extent="1-16"/>
 <wire x1="4.985" y1="-3.515" x2="4.985" y2="-1.565" width="0" layer="19" extent="1-1"/>
@@ -9002,6 +8996,7 @@ design rules under a new name.</description>
 <wire x1="3.39" y1="-13.97" x2="3.39" y2="-10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.38" y1="-13.7" x2="3.39" y2="-13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.62" y1="-12.7" x2="-1.38" y2="-13.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-322.16" y1="-39.37" x2="-8.62" y2="-12.7" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
