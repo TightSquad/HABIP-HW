@@ -18,7 +18,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="50" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -1203,33 +1203,33 @@ JST PH 2-pin thru-home side entry</description>
 <pad name="3" x="-1.27" y="0" drill="1" diameter="1.5"/>
 <pad name="4" x="-3.81" y="0" drill="1" diameter="1.5"/>
 </package>
-<package name="2,8_3,0_HOLE_RASPI">
-<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.75mm diameter drill center, 3mm keep-out radius</description>
+<package name="2,75_3,0_HOLE_RASPI">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.75mm diameter drill center, 3mm keep-out radius. For Raspberry Pi Zero four corner standoffs</description>
 <wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
 <wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
 <circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
-<circle x="0" y="0" radius="2.1875" width="1.625" layer="40"/>
-<circle x="0" y="0" radius="2.1875" width="1.625" layer="39"/>
-<circle x="0" y="0" radius="2.1875" width="1.625" layer="41"/>
-<circle x="0" y="0" radius="2.1875" width="1.625" layer="42"/>
-<circle x="0" y="0" radius="2.1875" width="1.625" layer="43"/>
+<circle x="0" y="0" radius="3" width="0" layer="40"/>
+<circle x="0" y="0" radius="3" width="0" layer="39"/>
+<circle x="0" y="0" radius="3" width="0" layer="41"/>
+<circle x="0" y="0" radius="3" width="0" layer="42"/>
+<circle x="0" y="0" radius="3" width="0" layer="43"/>
 <hole x="0" y="0" drill="2.75"/>
-<circle x="0" y="0" radius="1.5" width="3" layer="29"/>
-<circle x="0" y="0" radius="1.5" width="3" layer="30"/>
+<circle x="0" y="0" radius="3" width="0" layer="29"/>
+<circle x="0" y="0" radius="3" width="0" layer="30"/>
 </package>
-<package name="2,2_HOLE_RASPI_CAM">
-<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.8 mm with drill center</description>
-<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
-<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<package name="2,2_2,0_HOLE_RASPI_CAM">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.2mm diameter drill center, 2mm keep-out radius. For Raspberry Pi Camera v2.1 four standoffs</description>
+<wire x1="-1.4" y1="0" x2="0" y2="-1.4" width="1.2" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.4" x2="1.4" y2="0" width="1.2" layer="51" curve="-90" cap="flat"/>
 <circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
-<circle x="0" y="0" radius="2.1875" width="1.625" layer="40"/>
-<circle x="0" y="0" radius="2.1875" width="1.625" layer="39"/>
-<circle x="0" y="0" radius="2.1875" width="1.625" layer="41"/>
-<circle x="0" y="0" radius="2.1875" width="1.625" layer="42"/>
-<circle x="0" y="0" radius="2.1875" width="1.625" layer="43"/>
-<hole x="0" y="0" drill="2.75"/>
-<circle x="0" y="0" radius="1.5" width="3" layer="29"/>
-<circle x="0" y="0" radius="1.5" width="3" layer="30"/>
+<circle x="0" y="0" radius="2" width="0" layer="40"/>
+<circle x="0" y="0" radius="2" width="0" layer="39"/>
+<circle x="0" y="0" radius="2" width="0" layer="41"/>
+<circle x="0" y="0" radius="2" width="0" layer="42"/>
+<circle x="0" y="0" radius="2" width="0" layer="43"/>
+<hole x="0" y="0" drill="2.2"/>
+<circle x="0" y="0" radius="2" width="0" layer="29"/>
+<circle x="0" y="0" radius="2" width="0" layer="30"/>
 </package>
 <package name="HEADER-1X5-254MM">
 <pad name="1" x="5.08" y="0" drill="1" diameter="1.5" shape="square" first="yes"/>
@@ -34668,15 +34668,26 @@ This device is fully specified for partial power-down applications using IOFF. T
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOUNT-HOLE" prefix="H">
+<deviceset name="MOUNT-HOLE" prefix="H" uservalue="yes">
 <description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; with drill center marker</description>
 <gates>
 <gate name="G$1" symbol="MOUNT-HOLE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_2.75" package="2,8_3,0_HOLE_RASPI">
+<device name="_2.75_3.0" package="2,75_3,0_HOLE_RASPI">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-zero-v1_2_dimensions.pdf" constant="no"/>
+<attribute name="VALUE" value="2.75mm_drill_3.00mm_radius" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2.2_2.0" package="2,2_2,0_HOLE_RASPI_CAM">
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-cam-v2_1-dimensions.pdf" constant="no"/>
+<attribute name="VALUE" value="2.2mm_drill_2.0mm_radius" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

@@ -530,20 +530,6 @@
 <text x="-1.92" y="1.73" size="0.4064" layer="25" ratio="6">&gt;NAME</text>
 <text x="-1.92" y="-1.73" size="0.254" layer="27" ratio="6">&gt;VALUE</text>
 </package>
-<package name="2,8_3,0_HOLE_RASPI">
-<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.75mm diameter drill center, 3mm keep-out radius</description>
-<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
-<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
-<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
-<circle x="0" y="0" radius="2.1875" width="1.625" layer="40"/>
-<circle x="0" y="0" radius="2.1875" width="1.625" layer="39"/>
-<circle x="0" y="0" radius="2.1875" width="1.625" layer="41"/>
-<circle x="0" y="0" radius="2.1875" width="1.625" layer="42"/>
-<circle x="0" y="0" radius="2.1875" width="1.625" layer="43"/>
-<hole x="0" y="0" drill="2.75"/>
-<circle x="0" y="0" radius="1.5" width="3" layer="29"/>
-<circle x="0" y="0" radius="1.5" width="3" layer="30"/>
-</package>
 <package name="TP10R">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
 <smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
@@ -1189,6 +1175,34 @@
 <text x="-5.73" y="-3" size="0.254" layer="27" ratio="6">&gt;VALUE</text>
 <text x="-0.73" y="-3" size="0.254" layer="28" ratio="6" rot="MR0">&gt;VALUE</text>
 </package>
+<package name="2,75_3,0_HOLE_RASPI">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.75mm diameter drill center, 3mm keep-out radius. For Raspberry Pi Zero four corner standoffs</description>
+<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3" width="0" layer="40"/>
+<circle x="0" y="0" radius="3" width="0" layer="39"/>
+<circle x="0" y="0" radius="3" width="0" layer="41"/>
+<circle x="0" y="0" radius="3" width="0" layer="42"/>
+<circle x="0" y="0" radius="3" width="0" layer="43"/>
+<hole x="0" y="0" drill="2.75"/>
+<circle x="0" y="0" radius="3" width="0" layer="29"/>
+<circle x="0" y="0" radius="3" width="0" layer="30"/>
+</package>
+<package name="2,2_2,0_HOLE_RASPI_CAM">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.2mm diameter drill center, 2mm keep-out radius. For Raspberry Pi Camera v2.1 four standoffs</description>
+<wire x1="-1.4" y1="0" x2="0" y2="-1.4" width="1.2" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.4" x2="1.4" y2="0" width="1.2" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2" width="0" layer="40"/>
+<circle x="0" y="0" radius="2" width="0" layer="39"/>
+<circle x="0" y="0" radius="2" width="0" layer="41"/>
+<circle x="0" y="0" radius="2" width="0" layer="42"/>
+<circle x="0" y="0" radius="2" width="0" layer="43"/>
+<hole x="0" y="0" drill="2.2"/>
+<circle x="0" y="0" radius="2" width="0" layer="29"/>
+<circle x="0" y="0" radius="2" width="0" layer="30"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME_B_L">
@@ -1519,16 +1533,6 @@
 <wire x1="5.08" y1="0" x2="3.81" y2="0" width="0.254" layer="94"/>
 <circle x="-2.54" y="0" radius="0.127" width="0.254" layer="94"/>
 <circle x="2.54" y="0" radius="0.127" width="0.254" layer="94"/>
-</symbol>
-<symbol name="MOUNT-HOLE">
-<wire x1="0" y1="1.27" x2="1.27" y2="0" width="1.524" layer="94" curve="-90" cap="flat"/>
-<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="1.524" layer="94" curve="90" cap="flat"/>
-<wire x1="-0.508" y1="0" x2="0.508" y2="0" width="0.0508" layer="94"/>
-<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.0508" layer="94"/>
-<circle x="0" y="0" radius="2.032" width="0.0508" layer="94"/>
-<circle x="0" y="0" radius="0.508" width="0.0508" layer="94"/>
-<text x="2.032" y="0.5842" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.032" y="-2.4638" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="TP">
 <text x="0" y="3.81" size="1.778" layer="95" align="center">&gt;NAME</text>
@@ -32219,6 +32223,16 @@
 <circle x="5.842" y="-2.54" radius="0.762" width="0.254" layer="94"/>
 <wire x1="6.604" y1="-2.54" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
+<symbol name="MOUNT-HOLE">
+<wire x1="0" y1="1.27" x2="1.27" y2="0" width="1.524" layer="94" curve="-90" cap="flat"/>
+<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="1.524" layer="94" curve="90" cap="flat"/>
+<wire x1="-0.508" y1="0" x2="0.508" y2="0" width="0.0508" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.0508" layer="94"/>
+<circle x="0" y="0" radius="2.032" width="0.0508" layer="94"/>
+<circle x="0" y="0" radius="0.508" width="0.0508" layer="94"/>
+<text x="2.032" y="0.5842" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.032" y="-2.4638" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME_B_L" prefix="FRAME" uservalue="yes">
@@ -32908,19 +32922,6 @@
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="S1011EC-02-ND" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MOUNT-HOLE" prefix="H">
-<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; with drill center marker</description>
-<gates>
-<gate name="G$1" symbol="MOUNT-HOLE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_2.75" package="2,8_3,0_HOLE_RASPI">
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -33616,6 +33617,30 @@ The output of the device is an open drain and can be connected to other open-dra
 </device>
 </devices>
 </deviceset>
+<deviceset name="MOUNT-HOLE" prefix="H" uservalue="yes">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; with drill center marker</description>
+<gates>
+<gate name="G$1" symbol="MOUNT-HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_2.75_3.0" package="2,75_3,0_HOLE_RASPI">
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-zero-v1_2_dimensions.pdf" constant="no"/>
+<attribute name="VALUE" value="2.75mm_drill_3.00mm_radius" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2.2_2.0" package="2,2_2,0_HOLE_RASPI_CAM">
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-cam-v2_1-dimensions.pdf" constant="no"/>
+<attribute name="VALUE" value="2.2mm_drill_2.0mm_radius" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -33723,9 +33748,6 @@ The output of the device is an open drain and can be connected to other open-dra
 <part name="PP3V3_RASPI11" library="daqcs" deviceset="PP3V3_RASPI" device=""/>
 <part name="C20" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
 <part name="GND46" library="daqcs" deviceset="GND" device=""/>
-<part name="H4" library="daqcs" deviceset="MOUNT-HOLE" device="_2.75"/>
-<part name="H5" library="daqcs" deviceset="MOUNT-HOLE" device="_2.75"/>
-<part name="H6" library="daqcs" deviceset="MOUNT-HOLE" device="_2.75"/>
 <part name="TP9" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP11" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP12" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
@@ -33829,6 +33851,13 @@ The output of the device is an open drain and can be connected to other open-dra
 <part name="GND50" library="daqcs" deviceset="GND" device=""/>
 <part name="NC9" library="daqcs" deviceset="NO_CONNECT" device="" value="NC"/>
 <part name="PP3V3_RASPI14" library="daqcs" deviceset="PP3V3_RASPI" device=""/>
+<part name="H1" library="daqcs" deviceset="MOUNT-HOLE" device="_2.75_3.0" value="2.75mm_drill_3.00mm_radius"/>
+<part name="H2" library="daqcs" deviceset="MOUNT-HOLE" device="_2.75_3.0" value="2.75mm_drill_3.00mm_radius"/>
+<part name="H3" library="daqcs" deviceset="MOUNT-HOLE" device="_2.75_3.0" value="2.75mm_drill_3.00mm_radius"/>
+<part name="H4" library="daqcs" deviceset="MOUNT-HOLE" device="_2.2_2.0" value="2.2mm_drill_2.0mm_radius"/>
+<part name="H5" library="daqcs" deviceset="MOUNT-HOLE" device="_2.2_2.0" value="2.2mm_drill_2.0mm_radius"/>
+<part name="H6" library="daqcs" deviceset="MOUNT-HOLE" device="_2.2_2.0" value="2.2mm_drill_2.0mm_radius"/>
+<part name="H7" library="daqcs" deviceset="MOUNT-HOLE" device="_2.2_2.0" value="2.2mm_drill_2.0mm_radius"/>
 </parts>
 <sheets>
 <sheet>
@@ -34006,12 +34035,16 @@ The output of the device is an open drain and can be connected to other open-dra
 <instance part="R25" gate="G$1" x="91.44" y="154.94" rot="R90"/>
 <instance part="GND59" gate="1" x="91.44" y="142.24"/>
 <instance part="R33" gate="G$1" x="106.68" y="172.72" rot="R180"/>
-<instance part="U13" gate="G$1" x="340.36" y="198.12"/>
+<instance part="U13" gate="G$1" x="340.36" y="198.12">
+<attribute name="OUTPUT_TYPE" x="335.28" y="180.34" size="1.778" layer="96"/>
+</instance>
 <instance part="R35" gate="G$1" x="297.18" y="182.88" rot="R90"/>
 <instance part="GND60" gate="1" x="297.18" y="170.18"/>
 <instance part="GND61" gate="1" x="325.12" y="180.34"/>
 <instance part="NC8" gate="G$1" x="358.14" y="187.96" rot="R180"/>
-<instance part="U1" gate="G$1" x="360.68" y="121.92"/>
+<instance part="U1" gate="G$1" x="360.68" y="121.92">
+<attribute name="OUTPUT_TYPE" x="355.6" y="104.14" size="1.778" layer="96"/>
+</instance>
 <instance part="C22" gate="G$1" x="332.74" y="137.16"/>
 <instance part="GND39" gate="1" x="332.74" y="127"/>
 <instance part="GND50" gate="1" x="342.9" y="101.6"/>
@@ -35495,6 +35528,8 @@ The output of the device is an open drain and can be connected to other open-dra
 <text x="50.8" y="210.82" size="1.778" layer="91" rot="R90">NOSTUFF</text>
 <text x="71.12" y="210.82" size="1.778" layer="91" rot="R90">NOSTUFF</text>
 <text x="175.26" y="149.86" size="2.54" layer="91">DEBUG LED</text>
+<text x="66.04" y="17.78" size="3.81" layer="91">MAKE A TEMPLATE PART</text>
+<text x="66.04" y="12.7" size="3.81" layer="91">WHICH HAS HAT OUTLINE AND MOUNTING HOLES</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -35517,9 +35552,6 @@ The output of the device is an open drain and can be connected to other open-dra
 <attribute name="VOLTAGE" x="312.039" y="161.544" size="1.778" layer="95" ratio="10" rot="R90"/>
 </instance>
 <instance part="GND46" gate="1" x="317.5" y="154.94"/>
-<instance part="H4" gate="G$1" x="43.18" y="58.42"/>
-<instance part="H5" gate="G$1" x="43.18" y="50.8"/>
-<instance part="H6" gate="G$1" x="43.18" y="43.18"/>
 <instance part="TP9" gate="G$1" x="38.1" y="182.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.75" y="182.88" size="1.778" layer="95" rot="R180" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="39.37" y="186.69" size="1.778" layer="97" rot="R90"/>
@@ -35553,6 +35585,13 @@ The output of the device is an open drain and can be connected to other open-dra
 </instance>
 <instance part="GND20" gate="1" x="205.74" y="142.24"/>
 <instance part="J8" gate="G$1" x="137.16" y="195.58"/>
+<instance part="H1" gate="G$1" x="40.64" y="55.88"/>
+<instance part="H2" gate="G$1" x="40.64" y="48.26"/>
+<instance part="H3" gate="G$1" x="40.64" y="40.64"/>
+<instance part="H4" gate="G$1" x="160.02" y="58.42"/>
+<instance part="H5" gate="G$1" x="160.02" y="50.8"/>
+<instance part="H6" gate="G$1" x="160.02" y="43.18"/>
+<instance part="H7" gate="G$1" x="160.02" y="35.56"/>
 </instances>
 <busses>
 </busses>
