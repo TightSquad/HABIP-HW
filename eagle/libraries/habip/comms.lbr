@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -4044,6 +4044,33 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <text x="4.699" y="-13.7541" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <rectangle x1="-1.25" y1="-13.7441" x2="1.25" y2="-12.2441" layer="21"/>
 <hole x="0" y="-7.3" drill="3"/>
+</package>
+<package name="MAX_S16-1">
+<text x="-6.053" y="-1.633" size="0.6096" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="6.486" y="-1.6" size="0.6096" layer="27" rot="R90">&gt;VALUE</text>
+<smd name="P$1" x="-0.635" y="-2.464" dx="1.981" dy="0.533" layer="1" rot="R90"/>
+<smd name="P$2" x="0.635" y="-2.464" dx="1.981" dy="0.533" layer="1" rot="R90"/>
+<smd name="P$3" x="1.905" y="-2.464" dx="1.981" dy="0.533" layer="1" rot="R90"/>
+<smd name="P$4" x="3.175" y="-2.464" dx="1.981" dy="0.533" layer="1" rot="R90"/>
+<smd name="P$5" x="4.445" y="-2.464" dx="1.981" dy="0.533" layer="1" rot="R90"/>
+<smd name="P$6" x="-1.905" y="-2.464" dx="1.981" dy="0.533" layer="1" rot="R90"/>
+<smd name="P$7" x="-3.175" y="-2.464" dx="1.981" dy="0.533" layer="1" rot="R90"/>
+<smd name="P$8" x="-4.445" y="-2.464" dx="1.981" dy="0.533" layer="1" rot="R90"/>
+<smd name="P$9" x="-0.635" y="2.464" dx="1.981" dy="0.533" layer="1" rot="R90"/>
+<smd name="P$10" x="0.635" y="2.464" dx="1.981" dy="0.533" layer="1" rot="R90"/>
+<smd name="P$11" x="1.905" y="2.464" dx="1.981" dy="0.533" layer="1" rot="R90"/>
+<smd name="P$12" x="3.175" y="2.464" dx="1.981" dy="0.533" layer="1" rot="R90"/>
+<smd name="P$13" x="4.445" y="2.464" dx="1.981" dy="0.533" layer="1" rot="R90"/>
+<smd name="P$14" x="-1.905" y="2.464" dx="1.981" dy="0.533" layer="1" rot="R90"/>
+<smd name="P$15" x="-3.175" y="2.464" dx="1.981" dy="0.533" layer="1" rot="R90"/>
+<smd name="P$16" x="-4.445" y="2.464" dx="1.981" dy="0.533" layer="1" rot="R90"/>
+<wire x1="5" y1="2" x2="5" y2="-2" width="0.127" layer="51"/>
+<wire x1="-5" y1="2" x2="5" y2="2" width="0.127" layer="51"/>
+<wire x1="-5" y1="-2" x2="5" y2="-2" width="0.127" layer="51"/>
+<wire x1="-5" y1="2" x2="-5" y2="-2" width="0.127" layer="51"/>
+<circle x="-4.441" y="-0.695" radius="0.304528125" width="0.127" layer="21"/>
+<wire x1="-5.135" y1="1.363" x2="-5.135" y2="-1.288" width="0.127" layer="21"/>
+<wire x1="5.123" y1="1.363" x2="5.123" y2="-1.288" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
