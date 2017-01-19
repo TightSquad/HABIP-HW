@@ -2230,18 +2230,20 @@ JST PH 2-pin thru-home side entry</description>
 <text x="0" y="12.7" size="2.0828" layer="96" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="INDUCTOR">
-<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90" cap="flat"/>
-<text x="2.54" y="5.08" size="2.0828" layer="95">&gt;NAME</text>
-<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<wire x1="-5.08" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-2.54" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="5.08" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<text x="-10.16" y="1.905" size="2.0828" layer="95">&gt;NAME</text>
+<text x="5.08" y="1.905" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-10.16" y="-2.54" size="1.778" layer="96">&gt;DCR_MAX</text>
+<text x="5.08" y="-2.54" size="1.778" layer="96">&gt;CURRENT_DC</text>
 </symbol>
 <symbol name="MCP73831T-2ATI/OT">
 <pin name="STAT" x="17.78" y="0" length="middle" direction="in" rot="R180"/>
@@ -33376,6 +33378,7 @@ JST PH 2-pin thru-home side entry</description>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/boost/tps61089.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="TPS61089RNRR" constant="no"/>
 <attribute name="VALUE" value="TPS61089RNRR" constant="no"/>
@@ -33399,6 +33402,7 @@ JST PH 2-pin thru-home side entry</description>
 </connects>
 <technologies>
 <technology name="_0R0">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C281.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" constant="no"/>
 <attribute name="POWER" value="1/10W" constant="no"/>
@@ -33408,6 +33412,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" constant="no"/>
 </technology>
 <technology name="_0R249">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF2490V" constant="no"/>
 <attribute name="POWER" value="1/10W" constant="no"/>
@@ -33417,6 +33422,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VENDOR_PN" value="P249HCT-ND" constant="no"/>
 </technology>
 <technology name="_0R499">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF49R9V" constant="no"/>
 <attribute name="POWER" value="1/10W" constant="no"/>
@@ -33426,6 +33432,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VENDOR_PN" value="P49.9HCT-ND" constant="no"/>
 </technology>
 <technology name="_0RS075">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C295.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3BWFR075V" constant="no"/>
 <attribute name="POWER" value="1/3W" constant="no"/>
@@ -33435,6 +33442,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VENDOR_PN" value="P17475CT-ND" constant="no"/>
 </technology>
 <technology name="_10R0">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF1002V" constant="no"/>
 <attribute name="POWER" value="1/10W" constant="no"/>
@@ -33444,6 +33452,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VENDOR_PN" value="P10.0KHCT-ND" constant="no"/>
 </technology>
 <technology name="_1R0">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF1001V" constant="no"/>
 <attribute name="POWER" value="1/10W" constant="no"/>
@@ -33453,6 +33462,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VENDOR_PN" value="P1.00KHCT-ND" constant="no"/>
 </technology>
 <technology name="_240R0">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF2403V" constant="no"/>
 <attribute name="POWER" value="1/10W" constant="no"/>
@@ -33462,6 +33472,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VENDOR_PN" value="P240KHCT-ND" constant="no"/>
 </technology>
 <technology name="_2R0">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF2001V" constant="no"/>
 <attribute name="POWER" value="1/10W" constant="no"/>
@@ -33471,6 +33482,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VENDOR_PN" value="P2.00KHCT-ND" constant="no"/>
 </technology>
 <technology name="_412R0">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF4123V" constant="no"/>
 <attribute name="POWER" value="1/10W" constant="no"/>
@@ -33480,6 +33492,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VENDOR_PN" value="P412KHCT-ND" constant="no"/>
 </technology>
 <technology name="_49R9">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF4992V" constant="no"/>
 <attribute name="POWER" value="1/10W" constant="no"/>
@@ -33489,6 +33502,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VENDOR_PN" value="P49.9KHCT-ND" constant="no"/>
 </technology>
 <technology name="_4R7">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF4701V" constant="no"/>
 <attribute name="POWER" value="1/10W" constant="no"/>
@@ -33498,6 +33512,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VENDOR_PN" value="P4.70KHCT-ND" constant="no"/>
 </technology>
 <technology name="_76R8">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF7682V" constant="no"/>
 <attribute name="POWER" value="1/10W" constant="no"/>
@@ -33507,6 +33522,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VENDOR_PN" value="P76.8KHCT-ND" constant="no"/>
 </technology>
 <technology name="_7R15">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF7151V" constant="no"/>
 <attribute name="POWER" value="1/10W" constant="no"/>
@@ -33516,6 +33532,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VENDOR_PN" value="P7.15KHCT-ND" constant="no"/>
 </technology>
 <technology name="_820R0">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C243.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-PA3F8203V" constant="no"/>
 <attribute name="POWER" value="1/4W" constant="no"/>
@@ -33550,6 +33567,7 @@ JST PH 2-pin thru-home side entry</description>
 </connects>
 <technologies>
 <technology name="_100NF0">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/c02e.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Murata" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R71C104KA01D" constant="no"/>
 <attribute name="TEMP_COEFF" value="X7R" constant="no"/>
@@ -33560,6 +33578,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VOLTAGE" value="16V" constant="no"/>
 </technology>
 <technology name="_10UF0">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/c02e.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Murata" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R61A106KE69D" constant="no"/>
 <attribute name="TEMP_COEFF" value="X5R" constant="no"/>
@@ -33570,6 +33589,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VOLTAGE" value="10V" constant="no"/>
 </technology>
 <technology name="_2UF2">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/c02e.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Murata" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R61C225KE15D" constant="no"/>
 <attribute name="TEMP_COEFF" value="X5R" constant="no"/>
@@ -33580,6 +33600,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VOLTAGE" value="16V" constant="no"/>
 </technology>
 <technology name="_300PF0">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/c02e.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Murata" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="GRM1885C1H301JA01D" constant="no"/>
 <attribute name="TEMP_COEFF" value="C0G" constant="no"/>
@@ -33590,6 +33611,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 <technology name="_5NF6">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/c02e.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Murata" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R71H562KA01D" constant="no"/>
 <attribute name="TEMP_COEFF" value="X7R" constant="no"/>
@@ -33608,6 +33630,7 @@ JST PH 2-pin thru-home side entry</description>
 </connects>
 <technologies>
 <technology name="_22UF0">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/c02e.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Murata" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="GRM21BR61A226ME51L" constant="no"/>
 <attribute name="TEMP_COEFF" value="X5R" constant="no"/>
@@ -33640,6 +33663,7 @@ JST PH 2-pin thru-home side entry</description>
 </connects>
 <technologies>
 <technology name="AIDCNR">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/sensors/ina219.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="INA219AIDCNR" constant="no"/>
 <attribute name="VALUE" value="INA219AIDCNR" constant="no"/>
@@ -33669,6 +33693,7 @@ JST PH 2-pin thru-home side entry</description>
 </connects>
 <technologies>
 <technology name="D,118">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/sensors/PCT2075.pdf" constant="no"/>
 <attribute name="INTERFACE" value="I2C" constant="no"/>
 <attribute name="MANUFACTURER" value="NXP" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="PCT2075D,118" constant="no"/>
@@ -33694,8 +33719,9 @@ JST PH 2-pin thru-home side entry</description>
 </connects>
 <technologies>
 <technology name="_4UH7">
+<attribute name="CURRENT_DC" value="8.0A" constant="no"/>
 <attribute name="CURRENT_SAT" value="8.7A" constant="no"/>
-<attribute name="CURREN_DC" value="8.0A" constant="no"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/ihlp3232dz11.pdf" constant="no"/>
 <attribute name="DCR_MAX" value="22.6mOHM" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="IHLP3232DZER4R7M11" constant="no"/>
@@ -33726,6 +33752,7 @@ JST PH 2-pin thru-home side entry</description>
 </connects>
 <technologies>
 <technology name="T-2ATI/OT">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/charger/20001984g.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Microchip" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="MCP73831T-2ATI/OT" constant="no"/>
 <attribute name="VALUE" value="MCP73831T" constant="no"/>
@@ -33749,6 +33776,7 @@ JST PH 2-pin thru-home side entry</description>
 </connects>
 <technologies>
 <technology name="_B3V2WURTH">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/charger/150060BS75000.pdf" constant="no"/>
 <attribute name="FORWARD_CURRENT" value="20mA" constant="no"/>
 <attribute name="FORWARD_VOLTAGE" value="3.2V" constant="no"/>
 <attribute name="MANUFACTURER" value="Wurth" constant="no"/>
@@ -33758,6 +33786,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VENDOR_PN" value="732-4966-1-ND" constant="no"/>
 </technology>
 <technology name="_G3V2WURTH">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/charger/150060GS75000.pdf" constant="no"/>
 <attribute name="FORWARD_CURRENT" value="20mA" constant="no"/>
 <attribute name="FORWARD_VOLTAGE" value="3.2V" constant="no"/>
 <attribute name="MANUFACTURER" value="Wurth" constant="no"/>
@@ -33767,6 +33796,7 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VENDOR_PN" value="732-4971-1-ND" constant="no"/>
 </technology>
 <technology name="_Y2V0WURTH">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/charger/150060YS75000.pdf" constant="no"/>
 <attribute name="FORWARD_CURRENT" value="20mA" constant="no"/>
 <attribute name="FORWARD_VOLTAGE" value="2.0V" constant="no"/>
 <attribute name="MANUFACTURER" value="Wurth" constant="no"/>
@@ -33803,6 +33833,7 @@ JST PH 2-pin thru-home side entry</description>
 </connects>
 <technologies>
 <technology name="EUA+">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/extras/MAX11612-MAX11617.pdf" constant="no"/>
 <attribute name="INTERNAL_REF" value="2.048V" constant="no"/>
 <attribute name="MANUFACTURER" value="Maxim" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="MAX11613EUA+" constant="no"/>
@@ -33846,6 +33877,7 @@ JST PH 2-pin thru-home side entry</description>
 </connects>
 <technologies>
 <technology name="-02BA03">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/sensors/ENG_DS_MS5607-02BA03_B.pdf" constant="no"/>
 <attribute name="INTERFACE" value="I2C,SPI" constant="no"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="MS560702BA03-50" constant="no"/>
@@ -34412,6 +34444,7 @@ This device is fully specified for partial power-down applications using IOFF. T
 </connects>
 <technologies>
 <technology name="_BUF1">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/wdt_reset/74LVC1G17.pdf" constant="no"/>
 <attribute name="ELEMENTS" value="1" constant="no"/>
 <attribute name="INPUT_TYPE" value="Schmitt Trigger" constant="no"/>
 <attribute name="LOGIC_TYPE" value="Buffer, Non-Inverting" constant="no"/>
@@ -34445,6 +34478,7 @@ This device is fully specified for partial power-down applications using IOFF. T
 <technologies>
 <technology name="_PMOS-6P">
 <attribute name="CONTINUOUS_DRAIN_CURRENT" value="8.0A" constant="no"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/wdt_reset/si3421dv.pdf" constant="no"/>
 <attribute name="FET_TYPE" value="PMOS, ENHANCEMENT" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="SI3421DV-T1-GE3" constant="no"/>
@@ -34485,6 +34519,7 @@ This device is fully specified for partial power-down applications using IOFF. T
 </connects>
 <technologies>
 <technology name="_2X7_254MM">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/raspi_header/78_P\(N\)PxCxxxLFBN-RC\,_10492-H.pdf" constant="no"/>
 <attribute name="FINISH" value="GOLD" constant="no"/>
 <attribute name="MANUFACTURER" value="Sullins" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="PPPC072LFBN-RC" constant="no"/>
@@ -34583,6 +34618,7 @@ This device is fully specified for partial power-down applications using IOFF. T
 </connects>
 <technologies>
 <technology name="_0RS050">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/res_lvk.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Ohmite" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="LVK12R050DER" constant="no"/>
 <attribute name="POWER" value="1/5W" constant="no"/>
@@ -34635,6 +34671,7 @@ This device is fully specified for partial power-down applications using IOFF. T
 </connects>
 <technologies>
 <technology name="_1X2_254MM">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/power_jumper/xRxCzzzSxxN-RC_ST_11635-B.pdf" constant="no"/>
 <attribute name="FINISH" value="GOLD" constant="no"/>
 <attribute name="MANUFACTURER" value="Sullins" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="PRPC002SAAN-RC" constant="no"/>
@@ -34667,6 +34704,7 @@ This device is fully specified for partial power-down applications using IOFF. T
 </connects>
 <technologies>
 <technology name="_1X4_254MM">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/power_jumper/xRxCzzzSxxN-RC_ST_11635-B.pdf" constant="no"/>
 <attribute name="FINISH" value="GOLD" constant="no"/>
 <attribute name="MANUFACTURER" value="Sullins" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="PRPC004SAAN-RC" constant="no"/>
@@ -34805,6 +34843,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="_SL2V">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/705430001_sd.pdf" constant="no"/>
 <attribute name="FINISH" value="GOLD" constant="no"/>
 <attribute name="LOCKING" value="YES" constant="no"/>
 <attribute name="MANUFACTURER" value="Molex" constant="no"/>
@@ -34826,6 +34865,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="_SL2RA">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/705530001_sd.pdf" constant="no"/>
 <attribute name="FINISH" value="GOLD" constant="no"/>
 <attribute name="LOCKING" value="YES" constant="no"/>
 <attribute name="MANUFACTURER" value="Molex" constant="no"/>
@@ -34870,6 +34910,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="_SL3V">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/705430001_sd.pdf" constant="no"/>
 <attribute name="FINISH" value="GOLD" constant="no"/>
 <attribute name="LOCKING" value="YES" constant="no"/>
 <attribute name="MANUFACTURER" value="Molex" constant="no"/>
@@ -34892,6 +34933,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="_SL3RA">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/705530001_sd.pdf" constant="no"/>
 <attribute name="FINISH" value="GOLD" constant="no"/>
 <attribute name="LOCKING" value="YES" constant="no"/>
 <attribute name="MANUFACTURER" value="Molex" constant="no"/>
@@ -34937,6 +34979,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="_SL4V">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/705430001_sd.pdf" constant="no"/>
 <attribute name="FINISH" value="GOLD" constant="no"/>
 <attribute name="LOCKING" value="YES" constant="no"/>
 <attribute name="MANUFACTURER" value="Molex" constant="no"/>
@@ -34960,6 +35003,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="_SL4RA">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/705530001_sd.pdf" constant="no"/>
 <attribute name="FINISH" value="GOLD" constant="no"/>
 <attribute name="LOCKING" value="YES" constant="no"/>
 <attribute name="MANUFACTURER" value="Molex" constant="no"/>
@@ -35006,6 +35050,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="_SL4V">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/705430001_sd.pdf" constant="no"/>
 <attribute name="FINISH" value="GOLD" constant="no"/>
 <attribute name="LOCKING" value="YES" constant="no"/>
 <attribute name="MANUFACTURER" value="Molex" constant="no"/>
@@ -35030,6 +35075,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="_SL4RA">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/705530001_sd.pdf" constant="no"/>
 <attribute name="FINISH" value="GOLD" constant="no"/>
 <attribute name="LOCKING" value="YES" constant="no"/>
 <attribute name="MANUFACTURER" value="Molex" constant="no"/>
@@ -35077,6 +35123,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="_SL6V">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/705430001_sd.pdf" constant="no"/>
 <attribute name="FINISH" value="GOLD" constant="no"/>
 <attribute name="LOCKING" value="YES" constant="no"/>
 <attribute name="MANUFACTURER" value="Molex" constant="no"/>
@@ -35102,6 +35149,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="_SL6RA">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/705530001_sd.pdf" constant="no"/>
 <attribute name="FINISH" value="GOLD" constant="no"/>
 <attribute name="LOCKING" value="YES" constant="no"/>
 <attribute name="MANUFACTURER" value="Molex" constant="no"/>
@@ -35149,6 +35197,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="-05BA">
+<attribute name="DATASHEET" value="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/sensors/ENG_DS_MS5803-05BA_B.pdf" constant="no"/>
 <attribute name="INTERFACE" value="I2C,SPI" constant="no"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="MS580305BA01-00" constant="no"/>
@@ -35178,6 +35227,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="33PDBVR">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/extras/tlv713p.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="TLV71333PDBVR" constant="no"/>
 <attribute name="OUTPUT_CURRENT" value="150mA" constant="no"/>
@@ -35210,6 +35260,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="71KA">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/wdt_reset/MAX6369-MAX6374.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Maxim" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="MAX6371KA+T" constant="no"/>
 <attribute name="OUTPUT_ACTIVE" value="Low" constant="no"/>
@@ -35287,6 +35338,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="_2X3_254MM">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/raspi_header/78_P\(N\)PxCxxxLFBN-RC\,_10492-H.pdf" constant="no"/>
 <attribute name="FINISH" value="GOLD" constant="no"/>
 <attribute name="MANUFACTURER" value="Sullins" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="PPPC032LFBN-RC" constant="no"/>
@@ -35323,6 +35375,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <technologies>
 <technology name="-A20-IM">
 <attribute name="ACCURACY" value="3%_RH" constant="no"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/sensors/Si7021-A20.pdf" constant="no"/>
 <attribute name="INTERFACE" value="I2C" constant="no"/>
 <attribute name="MANUFACTURER" value="Silicon Labs" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="SI7021-A20-IM" constant="no"/>
