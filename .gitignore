@@ -13,4 +13,4 @@
 *.lck
 
 # ignore generated schematic pdf
-*.pdf
+#*.pdf
