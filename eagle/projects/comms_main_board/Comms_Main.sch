@@ -2327,14 +2327,14 @@ Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
 <text x="3.35875" y="-3.10625" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">ublox</text>
 </package>
 <package name="SOP65P490X110-8N">
-<smd name="1" x="-2.032" y="0.9652" dx="1.524" dy="0.4572" layer="1"/>
+<smd name="1" x="-2.032" y="0.9802" dx="1.524" dy="0.4572" layer="1"/>
 <smd name="2" x="-2.032" y="0.3302" dx="1.524" dy="0.4572" layer="1"/>
 <smd name="3" x="-2.032" y="-0.3302" dx="1.524" dy="0.4572" layer="1"/>
-<smd name="4" x="-2.032" y="-0.9652" dx="1.524" dy="0.4572" layer="1"/>
-<smd name="5" x="2.032" y="-0.9652" dx="1.524" dy="0.4572" layer="1"/>
+<smd name="4" x="-2.032" y="-0.9802" dx="1.524" dy="0.4572" layer="1"/>
+<smd name="5" x="2.032" y="-0.9802" dx="1.524" dy="0.4572" layer="1"/>
 <smd name="6" x="2.032" y="-0.3302" dx="1.524" dy="0.4572" layer="1"/>
 <smd name="7" x="2.032" y="0.3302" dx="1.524" dy="0.4572" layer="1"/>
-<smd name="8" x="2.032" y="0.9652" dx="1.524" dy="0.4572" layer="1"/>
+<smd name="8" x="2.032" y="0.9802" dx="1.524" dy="0.4572" layer="1"/>
 <wire x1="-1.4986" y1="-1.4986" x2="1.4986" y2="-1.4986" width="0.1524" layer="51"/>
 <wire x1="-1.143" y1="-1.4986" x2="1.143" y2="-1.4986" width="0.1524" layer="21"/>
 <text x="-2.8702" y="1.2954" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
