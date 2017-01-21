@@ -4496,10 +4496,10 @@ thin small outline package</description>
 <devices>
 <device name="" package="TLA04BCA">
 <connects>
-<connect gate="A" pin="GND" pad="4"/>
-<connect gate="A" pin="VEN" pad="3"/>
-<connect gate="A" pin="VIN" pad="1"/>
-<connect gate="A" pin="VOUT" pad="2"/>
+<connect gate="A" pin="GND" pad="3"/>
+<connect gate="A" pin="VEN" pad="1"/>
+<connect gate="A" pin="VIN" pad="2"/>
+<connect gate="A" pin="VOUT" pad="4"/>
 </connects>
 <technologies>
 <technology name="TLX-3.3/NOPB">

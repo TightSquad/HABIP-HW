@@ -3540,7 +3540,7 @@ design rules under a new name.</description>
 <contactref element="L4" pad="2"/>
 <contactref element="R13" pad="1"/>
 <contactref element="C21" pad="2"/>
-<contactref element="U3" pad="4"/>
+<contactref element="U3" pad="3"/>
 <contactref element="C8" pad="2"/>
 <contactref element="C9" pad="2"/>
 <contactref element="U5" pad="11"/>
@@ -3948,7 +3948,7 @@ design rules under a new name.</description>
 <wire x1="131.445" y1="87.3252" x2="132.1308" y2="86.6394" width="0.254" layer="1"/>
 <wire x1="127.3302" y1="87.3252" x2="131.445" y2="87.3252" width="0.254" layer="1"/>
 <wire x1="132.1308" y1="81.3816" x2="132.08" y2="81.28" width="0.254" layer="1"/>
-<wire x1="127.3302" y1="87.3252" x2="127.25" y2="87.3799375" width="0.254" layer="1"/>
+<wire x1="127.3302" y1="87.3252" x2="126.75" y2="87.3799375" width="0.254" layer="1"/>
 <wire x1="140.589" y1="60.3504" x2="143.3322" y2="60.3504" width="0.254" layer="1"/>
 <wire x1="135.3312" y1="65.6082" x2="138.9888" y2="61.9506" width="0.254" layer="1"/>
 <wire x1="138.9888" y1="61.9506" x2="140.589" y2="60.3504" width="0.254" layer="1"/>
@@ -5104,8 +5104,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="5V_BOARD">
 <contactref element="C8" pad="1"/>
-<contactref element="U3" pad="3"/>
 <contactref element="U3" pad="1"/>
+<contactref element="U3" pad="2"/>
 <contactref element="R3" pad="2"/>
 <contactref element="L2" pad="2"/>
 <contactref element="C12" pad="1"/>
@@ -5134,7 +5134,7 @@ design rules under a new name.</description>
 <wire x1="112.6998" y1="93.0402" x2="114.0714" y2="91.6686" width="0.254" layer="1"/>
 <wire x1="100.1268" y1="93.0402" x2="112.6998" y2="93.0402" width="0.254" layer="1"/>
 <wire x1="93.4974" y1="86.4108" x2="100.1268" y2="93.0402" width="0.254" layer="1"/>
-<wire x1="126.6444" y1="87.3252" x2="126.75" y2="87.3799375" width="0.254" layer="1"/>
+<wire x1="126.6444" y1="87.3252" x2="127.25" y2="87.8800625" width="0.254" layer="1"/>
 <wire x1="93.4974" y1="86.4108" x2="93.45" y2="86.36" width="0.254" layer="1"/>
 <wire x1="83.2104" y1="85.0392" x2="82.296" y2="84.1248" width="0.254" layer="1"/>
 <wire x1="83.2104" y1="87.5538" x2="83.2104" y2="85.0392" width="0.254" layer="1"/>
@@ -5314,11 +5314,11 @@ design rules under a new name.</description>
 <wire x1="-142.24" y1="-29.21" x2="-163.83" y2="-29.21" width="0" layer="19" extent="1-1"/>
 <wire x1="-120.65" y1="-29.21" x2="-142.24" y2="-29.21" width="0" layer="19" extent="1-1"/>
 <wire x1="13.0302" y1="22.6314" x2="-120.65" y2="-29.21" width="0" layer="19" extent="1-1"/>
-<wire x1="126.75" y1="87.8800625" x2="126.75" y2="87.3799375" width="0" layer="19" extent="1-1"/>
+<wire x1="127.25" y1="87.8800625" x2="127.25" y2="87.8800625" width="0" layer="19" extent="1-1"/>
 <wire x1="115.4684" y1="72.39" x2="125.5014" y2="87.3252" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3P3V_RS232">
-<contactref element="U3" pad="2"/>
+<contactref element="U3" pad="4"/>
 <contactref element="C9" pad="1"/>
 <contactref element="U13" pad="16"/>
 <contactref element="C32" pad="1"/>
@@ -5384,7 +5384,7 @@ design rules under a new name.</description>
 <via x="63.3222" y="78.4098" extent="1-16" drill="0.6096"/>
 <via x="85.0392" y="75.6666" extent="1-16" drill="0.6096"/>
 <via x="91.2114" y="75.8952" extent="1-16" drill="0.6096"/>
-<wire x1="91.44" y1="78.867" x2="127.25" y2="87.8800625" width="0" layer="19" extent="1-1"/>
+<wire x1="91.44" y1="78.867" x2="127.25" y2="87.3799375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="U4" pad="6"/>
