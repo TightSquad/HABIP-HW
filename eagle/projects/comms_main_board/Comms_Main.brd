@@ -1838,13 +1838,13 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 </package>
 <package name="39-30-?02?">
 <description>&lt;b&gt;HEADER&lt;/b&gt;</description>
-<wire x1="-1.709" y1="-1.0441" x2="-2.809" y2="-1.0441" width="0.2032" layer="21"/>
-<wire x1="-2.809" y1="-1.0441" x2="-2.809" y2="-13.8441" width="0.2032" layer="21"/>
+<wire x1="-1.9884" y1="-1.2441" x2="-2.809" y2="-1.2441" width="0.2032" layer="21"/>
+<wire x1="-2.809" y1="-1.2441" x2="-2.809" y2="-13.8441" width="0.2032" layer="21"/>
 <wire x1="-2.809" y1="-13.8441" x2="2.809" y2="-13.8441" width="0.2032" layer="21"/>
 <wire x1="2.809" y1="-13.8441" x2="2.809" y2="-1.2441" width="0.2032" layer="21"/>
-<wire x1="2.809" y1="-1.2441" x2="1.709" y2="-1.2441" width="0.2032" layer="21"/>
-<pad name="2" x="0" y="5.5118" drill="1.4224" diameter="2.54" shape="octagon" rot="R90"/>
-<pad name="1" x="0" y="0" drill="1.4224" diameter="2.54" shape="square" rot="R90"/>
+<wire x1="2.809" y1="-1.2441" x2="1.9884" y2="-1.2441" width="0.2032" layer="21"/>
+<pad name="2" x="0" y="5.5118" drill="1.8" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="1" x="0" y="0" drill="1.8" diameter="3.5" shape="square" rot="R90"/>
 <text x="-3.429" y="-13.7541" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
 <text x="4.699" y="-13.7541" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <rectangle x1="-1.25" y1="-13.7441" x2="1.25" y2="-12.2441" layer="21"/>
@@ -2432,16 +2432,16 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PN" value="GRM188R61C105KA93D" x="15.24" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="15.24" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D1" library="comms" package="DO-214AC" value="B340A-13-F" x="7.62" y="13.97" rot="R270">
+<element name="D1" library="comms" package="DO-214AC" value="CDBA340-HF" x="7.62" y="13.97" rot="R270">
 <attribute name="VOLTAGE_DC_REV" value="40V" x="7.62" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="7.62" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CURRENT_AVG_RECT" value="3A" x="7.62" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE_FWD" value="500mV @3A" x="7.62" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CAP_REV_V" value="200pF @4V, 1MHz" x="7.62" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Incorporated" x="7.62" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VENDOR_PN" value="B340A-FDICT-ND" x="7.62" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Comchip" x="7.62" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR_PN" value="641-1748-1-ND" x="7.62" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CURRENT_REV_LEAK" value="500uA @40V" x="7.62" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PN" value="B340A-13-F" x="7.62" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PN" value="CDBA340-HF" x="7.62" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J1" library="comms" package="SMA-EDGE" value="WRL-00593" x="153.67" y="88.9">
 <attribute name="VENDOR" value="Sparkfun" x="153.67" y="88.9" size="1.778" layer="27" display="off"/>

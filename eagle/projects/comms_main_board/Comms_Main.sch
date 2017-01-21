@@ -3221,13 +3221,13 @@ thin small outline package</description>
 </package>
 <package name="39-30-?02?">
 <description>&lt;b&gt;HEADER&lt;/b&gt;</description>
-<wire x1="-1.709" y1="-1.0441" x2="-2.809" y2="-1.0441" width="0.2032" layer="21"/>
-<wire x1="-2.809" y1="-1.0441" x2="-2.809" y2="-13.8441" width="0.2032" layer="21"/>
+<wire x1="-1.9884" y1="-1.2441" x2="-2.809" y2="-1.2441" width="0.2032" layer="21"/>
+<wire x1="-2.809" y1="-1.2441" x2="-2.809" y2="-13.8441" width="0.2032" layer="21"/>
 <wire x1="-2.809" y1="-13.8441" x2="2.809" y2="-13.8441" width="0.2032" layer="21"/>
 <wire x1="2.809" y1="-13.8441" x2="2.809" y2="-1.2441" width="0.2032" layer="21"/>
-<wire x1="2.809" y1="-1.2441" x2="1.709" y2="-1.2441" width="0.2032" layer="21"/>
-<pad name="2" x="0" y="5.5118" drill="1.4224" diameter="2.54" shape="octagon" rot="R90"/>
-<pad name="1" x="0" y="0" drill="1.4224" diameter="2.54" shape="square" rot="R90"/>
+<wire x1="2.809" y1="-1.2441" x2="1.9884" y2="-1.2441" width="0.2032" layer="21"/>
+<pad name="2" x="0" y="5.5118" drill="1.8" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="1" x="0" y="0" drill="1.8" diameter="3.5" shape="square" rot="R90"/>
 <text x="-3.429" y="-13.7541" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
 <text x="4.699" y="-13.7541" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <rectangle x1="-1.25" y1="-13.7441" x2="1.25" y2="-12.2441" layer="21"/>
@@ -4710,11 +4710,11 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <attribute name="CAP_REV_V" value="200pF @4V, 1MHz" constant="no"/>
 <attribute name="CURRENT_AVG_RECT" value="3A" constant="no"/>
 <attribute name="CURRENT_REV_LEAK" value="500uA @40V" constant="no"/>
-<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="B340A-13-F" constant="no"/>
-<attribute name="VALUE" value="B340A-13-F" constant="no"/>
+<attribute name="MANUFACTURER" value="Comchip" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="CDBA340-HF" constant="no"/>
+<attribute name="VALUE" value="CDBA340-HF" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="B340A-FDICT-ND" constant="no"/>
+<attribute name="VENDOR_PN" value="641-1748-1-ND" constant="no"/>
 <attribute name="VOLTAGE_DC_REV" value="40V" constant="no"/>
 <attribute name="VOLTAGE_FWD" value="500mV @3A" constant="no"/>
 </technology>
@@ -6494,7 +6494,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C19" library="comms" deviceset="CAP" device="_0805" technology="_620PF0" value="620pF"/>
 <part name="L3" library="comms" deviceset="L" device="-180ML" technology="_18UH0" value="18uH"/>
 <part name="C20" library="comms" deviceset="CAP" device="_0805" technology="_4UH7" value="4.7uF"/>
-<part name="D1" library="comms" deviceset="DIODE-SCHOTTKY" device="-214AC" technology="_DO" value="B340A-13-F"/>
+<part name="D1" library="comms" deviceset="DIODE-SCHOTTKY" device="-214AC" technology="_DO" value="CDBA340-HF"/>
 <part name="R12" library="comms" deviceset="RES" device="_0603" technology="_84R5" value="84.5k"/>
 <part name="R13" library="comms" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
 <part name="C21" library="comms" deviceset="CAP" device="_1210" technology="_47UF0" value="47uF"/>
