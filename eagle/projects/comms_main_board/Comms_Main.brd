@@ -3084,6 +3084,7 @@ design rules under a new name.</description>
 <attribute name="VENDOR_PN" value="MAX6371KA+TCT-ND" x="3.81" y="-2.54" size="1.778" layer="27" display="off"/>
 <attribute name="TIMEOUT" value="Adjustable (up to 60s)" x="3.81" y="-2.54" size="1.778" layer="27" display="off"/>
 <attribute name="OUTPUT_TYPE" value="Open Drain" x="3.81" y="-2.54" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/wdt_reset/MAX6369-MAX6374.pdf" x="3.81" y="-2.54" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J6" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="-20.32" y="1.27">
 <attribute name="FINISH" value="GOLD" x="-20.32" y="1.27" size="1.778" layer="27" display="off"/>
@@ -5773,6 +5774,8 @@ design rules under a new name.</description>
 <via x="65.151" y="40.9194" extent="1-16" drill="0.6096"/>
 <via x="60.3504" y="67.437" extent="1-16" drill="0.6096"/>
 <via x="54.864" y="71.0946" extent="1-16" drill="0.6096"/>
+<contactref element="TP36" pad="TP"/>
+<wire x1="15.0876" y1="69.4944" x2="-325.12" y2="-100.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="R7" pad="2"/>
