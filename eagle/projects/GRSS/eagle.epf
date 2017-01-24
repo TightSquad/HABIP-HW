@@ -7,12 +7,11 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="C:/Users/lglau_000/Google Drive/College/1-MSD/HW/eagle/libraries/habip/grss.lbr"
-UsedLibrary="C:/Users/lglau_000/Google Drive/College/1-MSD/HW/eagle/libraries/eagle_install_lbr/frames.lbr"
+UsedLibrary="C:/Users/Lincster/Google Drive/College/1-MSD/Lincster-HW/eagle/libraries/habip/grss.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="605 287 1204 686"
+Loc="435 356 1034 755"
 State=2
 Number=0
 

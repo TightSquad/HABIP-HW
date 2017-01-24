@@ -965,6 +965,11 @@ part number 2062-2P from STA</description>
 <text x="11.43" y="-6.35" size="2.54" layer="96" ratio="10" rot="SR0">&gt;Value</text>
 <text x="11.43" y="0.635" size="2.54" layer="95" ratio="10" rot="SR0">&gt;Name</text>
 </symbol>
+<symbol name="GND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="0" y="-2.54" size="2.1844" layer="96" align="center">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BC9VPC" prefix="BAT" uservalue="yes">
@@ -1695,6 +1700,19 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
+<deviceset name="GND" prefix="GND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="frames">
@@ -1778,6 +1796,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="U2" library="grss" deviceset="LMC555CMX/NOPB" device="" value="LMC555CMX/NOPB"/>
 <part name="U3" library="grss" deviceset="LP2985AIM5-4.5/NOPB" device="" value="LP2985AIM5-4.5/NOPB"/>
 <part name="Q1" library="grss" deviceset="STD12NF06LT4" device="" value="STD12NF06LT4"/>
+<part name="GND1" library="grss" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1821,6 +1840,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="U2" gate="A" x="-149.86" y="134.62"/>
 <instance part="U3" gate="A" x="-149.86" y="172.72"/>
 <instance part="Q1" gate="A" x="-33.02" y="104.14"/>
+<instance part="GND1" gate="1" x="-177.8" y="88.9"/>
 </instances>
 <busses>
 </busses>
@@ -1932,6 +1952,8 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="-53.34" y1="91.44" x2="-25.908" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-25.908" y1="91.44" x2="-25.908" y2="99.06" width="0.1524" layer="91"/>
 <junction x="-53.34" y="91.44"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<junction x="-177.8" y="91.44"/>
 </segment>
 </net>
 <net name="THRTRIG" class="0">
