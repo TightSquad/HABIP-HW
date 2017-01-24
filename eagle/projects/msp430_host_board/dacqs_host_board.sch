@@ -5879,6 +5879,25 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="H2" library="daqcs_host" deviceset="MOUNT-HOLE" device="_2.75"/>
 <part name="H3" library="daqcs_host" deviceset="MOUNT-HOLE" device="_2.75"/>
 <part name="H4" library="daqcs_host" deviceset="MOUNT-HOLE" device="_2.75"/>
+<part name="FRAME7" library="frames" deviceset="A3L-LOC" device=""/>
+<part name="R30" library="daqcs_host" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
+<part name="R31" library="daqcs_host" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
+<part name="R32" library="daqcs_host" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
+<part name="R33" library="daqcs_host" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
+<part name="R34" library="daqcs_host" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
+<part name="R35" library="daqcs_host" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
+<part name="R36" library="daqcs_host" deviceset="RES" device="_0603" technology="_27R0" value="27k"/>
+<part name="R37" library="daqcs_host" deviceset="RES" device="_0603" technology="_27R0" value="27k"/>
+<part name="R38" library="daqcs_host" deviceset="RES" device="_0603" technology="_27R0" value="27k"/>
+<part name="R39" library="daqcs_host" deviceset="RES" device="_0603" technology="_27R0" value="27k"/>
+<part name="R40" library="daqcs_host" deviceset="RES" device="_0603" technology="_27R0" value="27k"/>
+<part name="R41" library="daqcs_host" deviceset="RES" device="_0603" technology="_27R0" value="27k"/>
+<part name="SUPPLY31" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY33" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY34" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY35" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY36" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY37" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8123,6 +8142,190 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="353.06" y1="215.9" x2="353.06" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="137.16" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="137.16" x2="45.72" y2="215.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="96.52" y="213.36" size="2.54" layer="91">Reaction Wheel Battery Voltage Sense</text>
+</plain>
+<instances>
+<instance part="FRAME7" gate="G$1" x="0" y="0"/>
+<instance part="R30" gate="G$1" x="132.08" y="187.96" rot="R90"/>
+<instance part="R31" gate="G$1" x="182.88" y="187.96" rot="R90"/>
+<instance part="R32" gate="G$1" x="76.2" y="121.92" rot="R90"/>
+<instance part="R33" gate="G$1" x="132.08" y="121.92" rot="R90"/>
+<instance part="R34" gate="G$1" x="182.88" y="119.38" rot="R90"/>
+<instance part="R35" gate="G$1" x="76.2" y="187.96" rot="R270"/>
+<instance part="R36" gate="G$1" x="76.2" y="167.64" rot="R270"/>
+<instance part="R37" gate="G$1" x="132.08" y="167.64" rot="R270"/>
+<instance part="R38" gate="G$1" x="182.88" y="165.1" rot="R270"/>
+<instance part="R39" gate="G$1" x="76.2" y="96.52" rot="R270"/>
+<instance part="R40" gate="G$1" x="132.08" y="96.52" rot="R270"/>
+<instance part="R41" gate="G$1" x="182.88" y="96.52" rot="R270"/>
+<instance part="SUPPLY31" gate="GND" x="76.2" y="154.94"/>
+<instance part="SUPPLY33" gate="GND" x="132.08" y="154.94"/>
+<instance part="SUPPLY34" gate="GND" x="182.88" y="152.4"/>
+<instance part="SUPPLY35" gate="GND" x="182.88" y="83.82"/>
+<instance part="SUPPLY36" gate="GND" x="132.08" y="83.82"/>
+<instance part="SUPPLY37" gate="GND" x="76.2" y="83.82"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="VBAT_CELL_1" class="0">
+<segment>
+<pinref part="R35" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="193.04" x2="76.2" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="200.66" x2="99.06" y2="200.66" width="0.1524" layer="91"/>
+<label x="81.28" y="200.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBAT_MOD_CELL_1" class="0">
+<segment>
+<pinref part="R35" gate="G$1" pin="2"/>
+<pinref part="R36" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="182.88" x2="76.2" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="177.8" x2="76.2" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="177.8" x2="50.8" y2="177.8" width="0.1524" layer="91"/>
+<junction x="76.2" y="177.8"/>
+<label x="50.8" y="177.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBAT_CELL_2" class="0">
+<segment>
+<pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="193.04" x2="132.08" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="200.66" x2="152.4" y2="200.66" width="0.1524" layer="91"/>
+<label x="137.16" y="200.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBAT_MOD_CELL_2" class="0">
+<segment>
+<pinref part="R30" gate="G$1" pin="1"/>
+<pinref part="R37" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="182.88" x2="132.08" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="177.8" x2="132.08" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="177.8" x2="106.68" y2="177.8" width="0.1524" layer="91"/>
+<junction x="132.08" y="177.8"/>
+<label x="106.68" y="177.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBAT_MOD_CELL_3" class="0">
+<segment>
+<pinref part="R31" gate="G$1" pin="1"/>
+<pinref part="R38" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="182.88" x2="182.88" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="177.8" x2="182.88" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="177.8" x2="157.48" y2="177.8" width="0.1524" layer="91"/>
+<junction x="182.88" y="177.8"/>
+<label x="157.48" y="177.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBAT_CELL_3" class="0">
+<segment>
+<pinref part="R31" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="193.04" x2="182.88" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="200.66" x2="205.74" y2="200.66" width="0.1524" layer="91"/>
+<label x="187.96" y="200.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBAT_CELL_4" class="0">
+<segment>
+<pinref part="R32" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="127" x2="76.2" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
+<label x="83.82" y="134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBAT_MOD_CELL_4" class="0">
+<segment>
+<pinref part="R32" gate="G$1" pin="1"/>
+<pinref part="R39" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="116.84" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="109.22" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="109.22" x2="50.8" y2="109.22" width="0.1524" layer="91"/>
+<junction x="76.2" y="109.22"/>
+<label x="50.8" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBAT_CELL_5" class="0">
+<segment>
+<pinref part="R33" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="127" x2="132.08" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="132.08" x2="152.4" y2="132.08" width="0.1524" layer="91"/>
+<label x="137.16" y="132.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBAT_MOD_CELL_5" class="0">
+<segment>
+<pinref part="R33" gate="G$1" pin="1"/>
+<pinref part="R40" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="116.84" x2="132.08" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="109.22" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
+<junction x="132.08" y="109.22"/>
+<label x="106.68" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBAT_CELL_6" class="0">
+<segment>
+<pinref part="R34" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="124.46" x2="182.88" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="132.08" x2="205.74" y2="132.08" width="0.1524" layer="91"/>
+<label x="187.96" y="132.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBAT_MOD_CELL_6" class="0">
+<segment>
+<pinref part="R34" gate="G$1" pin="1"/>
+<pinref part="R41" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="114.3" x2="182.88" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="106.68" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="106.68" x2="154.94" y2="106.68" width="0.1524" layer="91"/>
+<junction x="182.88" y="106.68"/>
+<label x="154.94" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="R36" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="162.56" x2="76.2" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY31" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R37" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="162.56" x2="132.08" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY33" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R38" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="160.02" x2="182.88" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="SUPPLY34" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R41" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="91.44" x2="182.88" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="SUPPLY35" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R40" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="91.44" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="SUPPLY36" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R39" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="91.44" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="SUPPLY37" gate="GND" pin="GND"/>
+</segment>
+</net>
+<net name="N$56" class="0">
+<segment>
+<wire x1="35.56" y1="213.36" x2="218.44" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="213.36" x2="218.44" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="76.2" x2="35.56" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="76.2" x2="35.56" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
