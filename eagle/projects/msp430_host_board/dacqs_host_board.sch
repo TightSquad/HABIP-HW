@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5873,7 +5873,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="J16" library="daqcs_host" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
 <part name="J7" library="daqcs_host" deviceset="MOLSL_5PIN" device="_V" technology="_SL4V" value="MOL-SL-5-V"/>
 <part name="J8" library="daqcs_host" deviceset="MOLSL_3PIN" device="_RA" technology="_SL3RA" value="MOL-SL-3-RA"/>
-<part name="J9" library="daqcs_host" deviceset="MOLSL_3PIN" device="_V" technology="_SL3V" value="MOL-SL-3-V"/>
 <part name="J10" library="daqcs_host" deviceset="MOLSL_3PIN" device="_V" technology="_SL3V" value="MOL-SL-3-V"/>
 <part name="H1" library="daqcs_host" deviceset="MOUNT-HOLE" device="_2.75"/>
 <part name="H2" library="daqcs_host" deviceset="MOUNT-HOLE" device="_2.75"/>
@@ -5898,6 +5897,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY35" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY36" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY37" library="supply2" deviceset="GND" device=""/>
+<part name="J9" library="daqcs_host" deviceset="MOLSL_4PIN" device="_RA" technology="_SL4RA" value="MOL-SL-4-RA"/>
+<part name="C27" library="daqcs_host" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -7116,12 +7117,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="+3V8" gate="G$1" x="246.38" y="210.82"/>
 <instance part="J7" gate="G$1" x="55.88" y="195.58"/>
 <instance part="J8" gate="G$1" x="55.88" y="134.62"/>
-<instance part="J9" gate="G$1" x="55.88" y="66.04"/>
 <instance part="J10" gate="G$1" x="218.44" y="127"/>
 <instance part="H1" gate="G$1" x="213.36" y="71.12"/>
 <instance part="H2" gate="G$1" x="256.54" y="71.12"/>
 <instance part="H3" gate="G$1" x="213.36" y="55.88"/>
 <instance part="H4" gate="G$1" x="256.54" y="55.88"/>
+<instance part="J9" gate="G$1" x="55.88" y="63.5"/>
+<instance part="C27" gate="G$1" x="106.68" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -7166,11 +7168,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="J8" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="60.96" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
-<label x="81.28" y="60.96" size="1.778" layer="95"/>
-<pinref part="J9" gate="G$1" pin="3"/>
-</segment>
-<segment>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 <wire x1="195.58" y1="182.88" x2="195.58" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="S2" gate="G$1" pin="1"/>
@@ -7185,6 +7182,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="231.14" y1="121.92" x2="256.54" y2="121.92" width="0.1524" layer="91"/>
 <label x="241.3" y="121.92" size="1.778" layer="95"/>
 <pinref part="J10" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<pinref part="J9" gate="G$1" pin="4"/>
+<wire x1="68.58" y1="55.88" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
+<label x="81.28" y="55.88" size="1.778" layer="95"/>
+<pinref part="C27" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="60.96" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ACT_SPEED_IN" class="0">
@@ -7203,16 +7207,17 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="SENSE_SDA_2" class="0">
 <segment>
-<wire x1="68.58" y1="71.12" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
-<label x="81.28" y="71.12" size="1.778" layer="95"/>
-<pinref part="J9" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="66.04" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
+<label x="81.28" y="66.04" size="1.778" layer="95"/>
+<pinref part="J9" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SENSE_SCL_2" class="0">
 <segment>
-<wire x1="68.58" y1="66.04" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
-<label x="81.28" y="66.04" size="1.778" layer="95"/>
-<pinref part="J9" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="60.96" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
+<label x="81.28" y="60.96" size="1.778" layer="95"/>
+<pinref part="J9" gate="G$1" pin="3"/>
+<label x="81.28" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RST_SBWTDIO_MOTOR" class="0">
@@ -7238,6 +7243,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 <wire x1="246.38" y1="203.2" x2="246.38" y2="208.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
+<label x="81.28" y="71.12" size="1.778" layer="95"/>
+<pinref part="J9" gate="G$1" pin="1"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="71.12" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SBWTCK_MOTOR" class="0">
@@ -7265,10 +7277,10 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="N$18" class="0">
 <segment>
-<wire x1="43.18" y1="81.28" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="81.28" x2="109.22" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="48.26" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="81.28" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="81.28" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="33.02" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="33.02" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
