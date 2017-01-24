@@ -1203,6 +1203,103 @@
 <circle x="0" y="0" radius="2" width="0" layer="29"/>
 <circle x="0" y="0" radius="2" width="0" layer="30"/>
 </package>
+<package name="RASPI_ZERO_3STANDOFFS">
+<wire x1="1.722" y1="3.5" x2="3.5" y2="1.722" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="3.5" y1="5.278" x2="5.278" y2="3.5" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="3.5" y="3.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="40"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="39"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="41"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="42"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="43"/>
+<hole x="3.5" y="3.5" drill="2.75"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="29"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="30"/>
+<wire x1="3.5" y1="0" x2="0" y2="3.5" width="0" layer="20" curve="-90"/>
+<wire x1="61.5" y1="1.722" x2="63.278" y2="3.5" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="59.722" y1="3.5" x2="61.5" y2="5.278" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="61.5" y="3.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="40"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="39"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="41"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="42"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="43"/>
+<hole x="61.5" y="3.5" drill="2.75"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="29"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="30"/>
+<wire x1="65" y1="3.5" x2="61.5" y2="0" width="0" layer="20" curve="-90"/>
+<wire x1="63.278" y1="26.5" x2="61.5" y2="28.278" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="61.5" y1="24.722" x2="59.722" y2="26.5" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="61.5" y="26.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="40"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="39"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="41"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="42"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="43"/>
+<hole x="61.5" y="26.5" drill="2.75"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="29"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="30"/>
+<wire x1="61.5" y1="30" x2="65" y2="26.5" width="0" layer="20" curve="-90"/>
+<wire x1="0" y1="26.5" x2="3.5" y2="30" width="0" layer="20" curve="-90"/>
+<wire x1="3.5" y1="30" x2="61.5" y2="30" width="0" layer="20"/>
+<wire x1="65" y1="26.5" x2="65" y2="3.5" width="0" layer="20"/>
+<wire x1="61.5" y1="0" x2="3.5" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="3.5" x2="0" y2="26.5" width="0" layer="20"/>
+</package>
+<package name="RASPI_ZERO_4STANDOFFS">
+<wire x1="1.722" y1="3.5" x2="3.5" y2="1.722" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="3.5" y1="5.278" x2="5.278" y2="3.5" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="3.5" y="3.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="40"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="39"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="41"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="42"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="43"/>
+<hole x="3.5" y="3.5" drill="2.75"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="29"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="30"/>
+<wire x1="3.5" y1="0" x2="0" y2="3.5" width="0" layer="20" curve="-90"/>
+<wire x1="61.5" y1="1.722" x2="63.278" y2="3.5" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="59.722" y1="3.5" x2="61.5" y2="5.278" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="61.5" y="3.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="40"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="39"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="41"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="42"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="43"/>
+<hole x="61.5" y="3.5" drill="2.75"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="29"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="30"/>
+<wire x1="65" y1="3.5" x2="61.5" y2="0" width="0" layer="20" curve="-90"/>
+<wire x1="63.278" y1="26.5" x2="61.5" y2="28.278" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="61.5" y1="24.722" x2="59.722" y2="26.5" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="61.5" y="26.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="40"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="39"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="41"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="42"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="43"/>
+<hole x="61.5" y="26.5" drill="2.75"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="29"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="30"/>
+<wire x1="61.5" y1="30" x2="65" y2="26.5" width="0" layer="20" curve="-90"/>
+<wire x1="3.5" y1="28.278" x2="1.722" y2="26.5" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="5.278" y1="26.5" x2="3.5" y2="24.722" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="3.5" y="26.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="3.5" y="26.5" radius="3" width="0" layer="40"/>
+<circle x="3.5" y="26.5" radius="3" width="0" layer="39"/>
+<circle x="3.5" y="26.5" radius="3" width="0" layer="41"/>
+<circle x="3.5" y="26.5" radius="3" width="0" layer="42"/>
+<circle x="3.5" y="26.5" radius="3" width="0" layer="43"/>
+<hole x="3.5" y="26.5" drill="2.75"/>
+<circle x="3.5" y="26.5" radius="3" width="0" layer="29"/>
+<circle x="3.5" y="26.5" radius="3" width="0" layer="30"/>
+<wire x1="0" y1="26.5" x2="3.5" y2="30" width="0" layer="20" curve="-90"/>
+<wire x1="3.5" y1="30" x2="61.5" y2="30" width="0" layer="20"/>
+<wire x1="65" y1="26.5" x2="65" y2="3.5" width="0" layer="20"/>
+<wire x1="61.5" y1="0" x2="3.5" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="3.5" x2="0" y2="26.5" width="0" layer="20"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME_B_L">
@@ -32233,6 +32330,18 @@
 <text x="0" y="2.54" size="1.778" layer="96" rot="R180" align="center">&gt;VALUE</text>
 <pin name="PP3V3_HAT" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="RASPI_ZERO_OUTLINE">
+<text x="2.54" y="13.97" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="0" y1="2.54" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="2.54" y2="17.78" width="0.254" layer="94" curve="-90"/>
+<wire x1="2.54" y1="17.78" x2="33.02" y2="17.78" width="0.254" layer="94"/>
+<wire x1="33.02" y1="17.78" x2="35.56" y2="15.24" width="0.254" layer="94" curve="-90"/>
+<wire x1="35.56" y1="15.24" x2="35.56" y2="2.54" width="0.254" layer="94"/>
+<wire x1="35.56" y1="2.54" x2="33.02" y2="0" width="0.254" layer="94" curve="-90"/>
+<wire x1="33.02" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.254" layer="94" curve="-90"/>
+<text x="2.54" y="19.05" size="1.27" layer="96">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME_B_L" prefix="FRAME" uservalue="yes">
@@ -33641,6 +33750,27 @@ The output of the device is an open drain and can be connected to other open-dra
 </device>
 </devices>
 </deviceset>
+<deviceset name="RASPI_ZERO_OUTLINE" prefix="OUTLINE">
+<gates>
+<gate name="G$1" symbol="RASPI_ZERO_OUTLINE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_4S0C" package="RASPI_ZERO_4STANDOFFS">
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="RASPI-ZERO-4STANDOFFS-0CAM" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_3S0C" package="RASPI_ZERO_3STANDOFFS">
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="RASPI-ZERO-3STANDOFFS-0CAM" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -33836,13 +33966,6 @@ The output of the device is an open drain and can be connected to other open-dra
 <part name="GND39" library="daqcs" deviceset="GND" device=""/>
 <part name="GND50" library="daqcs" deviceset="GND" device=""/>
 <part name="NC9" library="daqcs" deviceset="NO_CONNECT" device="" value="NC"/>
-<part name="H1" library="daqcs" deviceset="MOUNT-HOLE" device="_2.75_3.0" value="2.75mm_drill_3.00mm_radius"/>
-<part name="H2" library="daqcs" deviceset="MOUNT-HOLE" device="_2.75_3.0" value="2.75mm_drill_3.00mm_radius"/>
-<part name="H3" library="daqcs" deviceset="MOUNT-HOLE" device="_2.75_3.0" value="2.75mm_drill_3.00mm_radius"/>
-<part name="H4" library="daqcs" deviceset="MOUNT-HOLE" device="_2.2_2.0" value="2.2mm_drill_2.0mm_radius"/>
-<part name="H5" library="daqcs" deviceset="MOUNT-HOLE" device="_2.2_2.0" value="2.2mm_drill_2.0mm_radius"/>
-<part name="H6" library="daqcs" deviceset="MOUNT-HOLE" device="_2.2_2.0" value="2.2mm_drill_2.0mm_radius"/>
-<part name="H7" library="daqcs" deviceset="MOUNT-HOLE" device="_2.2_2.0" value="2.2mm_drill_2.0mm_radius"/>
 <part name="R11" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0"/>
 <part name="PP3V3_RASPI7" library="daqcs" deviceset="PP3V3_RASPI" device=""/>
 <part name="PP3V3_HAT1" library="daqcs" deviceset="PP3V3_HAT" device=""/>
@@ -33862,6 +33985,11 @@ The output of the device is an open drain and can be connected to other open-dra
 <part name="PP3V3_HAT15" library="daqcs" deviceset="PP3V3_HAT" device=""/>
 <part name="PP3V3_HAT16" library="daqcs" deviceset="PP3V3_HAT" device=""/>
 <part name="PP5V0_CHG_IN3" library="daqcs" deviceset="PP5V0_CHG_IN" device=""/>
+<part name="OUTLINE1" library="daqcs" deviceset="RASPI_ZERO_OUTLINE" device="_3S0C" value="RASPI-ZERO-3STANDOFFS-0CAM"/>
+<part name="H1" library="daqcs" deviceset="MOUNT-HOLE" device="_2.2_2.0" value="2.2mm_drill_2.0mm_radius"/>
+<part name="H2" library="daqcs" deviceset="MOUNT-HOLE" device="_2.2_2.0" value="2.2mm_drill_2.0mm_radius"/>
+<part name="H3" library="daqcs" deviceset="MOUNT-HOLE" device="_2.2_2.0" value="2.2mm_drill_2.0mm_radius"/>
+<part name="H4" library="daqcs" deviceset="MOUNT-HOLE" device="_2.2_2.0" value="2.2mm_drill_2.0mm_radius"/>
 </parts>
 <sheets>
 <sheet>
@@ -35509,9 +35637,9 @@ The output of the device is an open drain and can be connected to other open-dra
 <text x="248.92" y="180.34" size="3.81" layer="91">EXTERNAL TEMPERATURE</text>
 <text x="248.92" y="175.26" size="3.81" layer="91">SENSOR CONNECTOR</text>
 <text x="27.94" y="154.94" size="2.54" layer="91">DEBUG LED</text>
-<text x="30.48" y="86.36" size="3.81" layer="91">RASPI SBC MOUNTING HOLES</text>
+<text x="30.48" y="86.36" size="3.81" layer="91">RASPI ZERO HAT OUTLINE</text>
 <text x="35.56" y="81.28" size="1.778" layer="91">Only using 3 mounting holes since</text>
-<text x="35.56" y="78.74" size="1.778" layer="91">the 2x7 pin connector stabilizes</text>
+<text x="35.56" y="78.74" size="1.778" layer="91">the 2x6 pin connector stabilizes</text>
 <text x="35.56" y="76.2" size="1.778" layer="91">the upper left board quadrant.</text>
 <text x="35.56" y="71.12" size="1.778" layer="91">This allows for easier routing of the</text>
 <text x="35.56" y="68.58" size="1.778" layer="91">boost output to the Pi's 5V0 pin.</text>
@@ -35531,8 +35659,7 @@ The output of the device is an open drain and can be connected to other open-dra
 <text x="25.4" y="210.82" size="1.778" layer="91" rot="R90">NOSTUFF</text>
 <text x="45.72" y="210.82" size="1.778" layer="91" rot="R90">NOSTUFF</text>
 <text x="175.26" y="149.86" size="2.54" layer="91">DEBUG LED</text>
-<text x="66.04" y="17.78" size="3.81" layer="91">MAKE A TEMPLATE PART</text>
-<text x="66.04" y="12.7" size="3.81" layer="91">WHICH HAS HAT OUTLINE AND MOUNTING HOLES</text>
+<text x="149.86" y="81.28" size="1.778" layer="91">Mounting holes for the Raspi Camera</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -35584,19 +35711,17 @@ The output of the device is an open drain and can be connected to other open-dra
 </instance>
 <instance part="GND20" gate="1" x="205.74" y="142.24"/>
 <instance part="J8" gate="G$1" x="137.16" y="195.58"/>
-<instance part="H1" gate="G$1" x="40.64" y="55.88"/>
-<instance part="H2" gate="G$1" x="40.64" y="48.26"/>
-<instance part="H3" gate="G$1" x="40.64" y="40.64"/>
-<instance part="H4" gate="G$1" x="160.02" y="58.42"/>
-<instance part="H5" gate="G$1" x="160.02" y="50.8"/>
-<instance part="H6" gate="G$1" x="160.02" y="43.18"/>
-<instance part="H7" gate="G$1" x="160.02" y="35.56"/>
 <instance part="R11" gate="G$1" x="83.82" y="208.28"/>
 <instance part="PP3V3_RASPI7" gate="G$1" x="93.98" y="231.14"/>
 <instance part="PP3V3_HAT1" gate="G$1" x="68.58" y="231.14"/>
 <instance part="PP3V3_HAT2" gate="G$1" x="30.48" y="231.14"/>
 <instance part="PP3V3_HAT3" gate="G$1" x="284.48" y="167.64"/>
 <instance part="PP3V3_HAT4" gate="G$1" x="378.46" y="167.64"/>
+<instance part="OUTLINE1" gate="G$1" x="43.18" y="40.64"/>
+<instance part="H1" gate="G$1" x="160.02" y="66.04"/>
+<instance part="H2" gate="G$1" x="160.02" y="55.88"/>
+<instance part="H3" gate="G$1" x="160.02" y="45.72"/>
+<instance part="H4" gate="G$1" x="160.02" y="35.56"/>
 </instances>
 <busses>
 </busses>

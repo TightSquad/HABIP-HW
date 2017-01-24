@@ -146,10 +146,6 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="65" y2="0" width="0" layer="20"/>
-<wire x1="65" y1="0" x2="65" y2="30" width="0" layer="20"/>
-<wire x1="65" y1="30" x2="0" y2="30" width="0" layer="20"/>
-<wire x1="0" y1="30" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="daqcs">
@@ -950,20 +946,6 @@
 <text x="-5.73" y="-3" size="0.254" layer="27" ratio="6">&gt;VALUE</text>
 <text x="-0.73" y="-3" size="0.254" layer="28" ratio="6" rot="MR0">&gt;VALUE</text>
 </package>
-<package name="2,75_3,0_HOLE_RASPI">
-<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.75mm diameter drill center, 3mm keep-out radius. For Raspberry Pi Zero four corner standoffs</description>
-<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
-<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
-<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
-<circle x="0" y="0" radius="3" width="0" layer="40"/>
-<circle x="0" y="0" radius="3" width="0" layer="39"/>
-<circle x="0" y="0" radius="3" width="0" layer="41"/>
-<circle x="0" y="0" radius="3" width="0" layer="42"/>
-<circle x="0" y="0" radius="3" width="0" layer="43"/>
-<hole x="0" y="0" drill="2.75"/>
-<circle x="0" y="0" radius="3" width="0" layer="29"/>
-<circle x="0" y="0" radius="3" width="0" layer="30"/>
-</package>
 <package name="2,2_2,0_HOLE_RASPI_CAM">
 <description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.2mm diameter drill center, 2mm keep-out radius. For Raspberry Pi Camera v2.1 four standoffs</description>
 <wire x1="-1.4" y1="0" x2="0" y2="-1.4" width="1.2" layer="51" curve="90" cap="flat"/>
@@ -977,6 +959,49 @@
 <hole x="0" y="0" drill="2.2"/>
 <circle x="0" y="0" radius="2" width="0" layer="29"/>
 <circle x="0" y="0" radius="2" width="0" layer="30"/>
+</package>
+<package name="RASPI_ZERO_3STANDOFFS">
+<wire x1="1.722" y1="3.5" x2="3.5" y2="1.722" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="3.5" y1="5.278" x2="5.278" y2="3.5" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="3.5" y="3.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="40"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="39"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="41"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="42"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="43"/>
+<hole x="3.5" y="3.5" drill="2.75"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="29"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="30"/>
+<wire x1="3.5" y1="0" x2="0" y2="3.5" width="0" layer="20" curve="-90"/>
+<wire x1="61.5" y1="1.722" x2="63.278" y2="3.5" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="59.722" y1="3.5" x2="61.5" y2="5.278" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="61.5" y="3.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="40"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="39"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="41"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="42"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="43"/>
+<hole x="61.5" y="3.5" drill="2.75"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="29"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="30"/>
+<wire x1="65" y1="3.5" x2="61.5" y2="0" width="0" layer="20" curve="-90"/>
+<wire x1="63.278" y1="26.5" x2="61.5" y2="28.278" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="61.5" y1="24.722" x2="59.722" y2="26.5" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="61.5" y="26.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="40"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="39"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="41"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="42"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="43"/>
+<hole x="61.5" y="26.5" drill="2.75"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="29"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="30"/>
+<wire x1="61.5" y1="30" x2="65" y2="26.5" width="0" layer="20" curve="-90"/>
+<wire x1="0" y1="26.5" x2="3.5" y2="30" width="0" layer="20" curve="-90"/>
+<wire x1="3.5" y1="30" x2="61.5" y2="30" width="0" layer="20"/>
+<wire x1="65" y1="26.5" x2="65" y2="3.5" width="0" layer="20"/>
+<wire x1="61.5" y1="0" x2="3.5" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="3.5" x2="0" y2="26.5" width="0" layer="20"/>
 </package>
 </packages>
 </library>
@@ -2064,34 +2089,6 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Murata" x="-20.65" y="-157.87" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R71C104KA01D" x="-20.65" y="-157.87" size="1.778" layer="27" display="off"/>
 </element>
-<element name="H1" library="daqcs" package="2,75_3,0_HOLE_RASPI" value="2.75mm_drill_3.00mm_radius" x="-20.16" y="-162.13">
-<attribute name="VALUE" value="2.75mm_drill_3.00mm_radius" x="-20.16" y="-162.13" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-zero-v1_2_dimensions.pdf" x="-20.16" y="-162.13" size="1.778" layer="27" display="off"/>
-</element>
-<element name="H2" library="daqcs" package="2,75_3,0_HOLE_RASPI" value="2.75mm_drill_3.00mm_radius" x="-20.16" y="-168.13">
-<attribute name="VALUE" value="2.75mm_drill_3.00mm_radius" x="-20.16" y="-168.13" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-zero-v1_2_dimensions.pdf" x="-20.16" y="-168.13" size="1.778" layer="27" display="off"/>
-</element>
-<element name="H3" library="daqcs" package="2,75_3,0_HOLE_RASPI" value="2.75mm_drill_3.00mm_radius" x="-20.16" y="-174.13">
-<attribute name="VALUE" value="2.75mm_drill_3.00mm_radius" x="-20.16" y="-174.13" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-zero-v1_2_dimensions.pdf" x="-20.16" y="-174.13" size="1.778" layer="27" display="off"/>
-</element>
-<element name="H4" library="daqcs" package="2,2_2,0_HOLE_RASPI_CAM" value="2.2mm_drill_2.0mm_radius" x="-21.16" y="-179.13">
-<attribute name="VALUE" value="2.2mm_drill_2.0mm_radius" x="-21.16" y="-179.13" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-cam-v2_1-dimensions.pdf" x="-21.16" y="-179.13" size="1.778" layer="27" display="off"/>
-</element>
-<element name="H5" library="daqcs" package="2,2_2,0_HOLE_RASPI_CAM" value="2.2mm_drill_2.0mm_radius" x="-21.16" y="-183.13">
-<attribute name="VALUE" value="2.2mm_drill_2.0mm_radius" x="-21.16" y="-183.13" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-cam-v2_1-dimensions.pdf" x="-21.16" y="-183.13" size="1.778" layer="27" display="off"/>
-</element>
-<element name="H6" library="daqcs" package="2,2_2,0_HOLE_RASPI_CAM" value="2.2mm_drill_2.0mm_radius" x="-21.16" y="-187.13">
-<attribute name="VALUE" value="2.2mm_drill_2.0mm_radius" x="-21.16" y="-187.13" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-cam-v2_1-dimensions.pdf" x="-21.16" y="-187.13" size="1.778" layer="27" display="off"/>
-</element>
-<element name="H7" library="daqcs" package="2,2_2,0_HOLE_RASPI_CAM" value="2.2mm_drill_2.0mm_radius" x="-21.16" y="-191.13">
-<attribute name="VALUE" value="2.2mm_drill_2.0mm_radius" x="-21.16" y="-191.13" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-cam-v2_1-dimensions.pdf" x="-21.16" y="-191.13" size="1.778" layer="27" display="off"/>
-</element>
 <element name="R11" library="daqcs" package="R0603" value="0" x="-20.65" y="-194.49">
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C281.pdf" x="-20.65" y="-194.49" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="-20.65" y="-194.49" size="1.778" layer="27" display="off"/>
@@ -2100,6 +2097,19 @@ design rules under a new name.</description>
 <attribute name="TOLERANCE" value="" x="-20.65" y="-194.49" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="-20.65" y="-194.49" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="-20.65" y="-194.49" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OUTLINE1" library="daqcs" package="RASPI_ZERO_3STANDOFFS" value="RASPI-ZERO-3STANDOFFS-0CAM" x="0" y="0"/>
+<element name="H1" library="daqcs" package="2,2_2,0_HOLE_RASPI_CAM" value="2.2mm_drill_2.0mm_radius" x="-21.16" y="-197.75">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-cam-v2_1-dimensions.pdf" x="-21.16" y="-197.75" size="1.778" layer="27" display="off"/>
+</element>
+<element name="H2" library="daqcs" package="2,2_2,0_HOLE_RASPI_CAM" value="2.2mm_drill_2.0mm_radius" x="-21.16" y="-201.75">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-cam-v2_1-dimensions.pdf" x="-21.16" y="-201.75" size="1.778" layer="27" display="off"/>
+</element>
+<element name="H3" library="daqcs" package="2,2_2,0_HOLE_RASPI_CAM" value="2.2mm_drill_2.0mm_radius" x="-21.16" y="-205.75">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-cam-v2_1-dimensions.pdf" x="-21.16" y="-205.75" size="1.778" layer="27" display="off"/>
+</element>
+<element name="H4" library="daqcs" package="2,2_2,0_HOLE_RASPI_CAM" value="2.2mm_drill_2.0mm_radius" x="-21.16" y="-209.75">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-cam-v2_1-dimensions.pdf" x="-21.16" y="-209.75" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
