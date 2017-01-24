@@ -2542,64 +2542,6 @@ part number 2062-2P from STA</description>
 <rectangle x1="51.562" y1="19.812" x2="54.61" y2="22.86" layer="30"/>
 <rectangle x1="51.562" y1="6.858" x2="54.61" y2="9.906" layer="30"/>
 </package>
-<package name="SAMTEC_CLM-112-02-L-D">
-<smd name="1" x="5.5118" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="2" x="5.5118" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="3" x="4.4958" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="4" x="4.4958" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="5" x="3.5052" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="6" x="3.5052" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="7" x="2.4892" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="8" x="2.4892" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="9" x="1.4986" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="10" x="1.4986" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="11" x="0.508" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="12" x="0.508" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="13" x="-0.508" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="14" x="-0.508" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="15" x="-1.4986" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="16" x="-1.4986" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="17" x="-2.4892" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="18" x="-2.4892" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="19" x="-3.5052" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="20" x="-3.5052" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="21" x="-4.4958" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="22" x="-4.4958" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="23" x="-5.5118" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<smd name="24" x="-5.5118" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
-<wire x1="-5.9944" y1="1.27" x2="-6.1468" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="5.9944" y1="-1.27" x2="6.1468" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.5118" y1="-2.8448" x2="4.8768" y2="-4.1148" width="0.1524" layer="21"/>
-<wire x1="4.8768" y1="-4.1148" x2="6.1468" y2="-4.1148" width="0.1524" layer="21"/>
-<wire x1="6.1468" y1="-4.1148" x2="5.5118" y2="-2.8448" width="0.1524" layer="21"/>
-<wire x1="-6.1468" y1="-1.27" x2="-5.9944" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="6.1468" y1="-1.27" x2="6.1468" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="6.1468" y1="1.27" x2="5.9944" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-6.1468" y1="1.27" x2="-6.1468" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.3716" y1="3.0734" x2="1.3716" y2="2.6924" width="0.1524" layer="21"/>
-<wire x1="1.3716" y1="2.6924" x2="1.6256" y2="2.6924" width="0.1524" layer="21"/>
-<wire x1="1.6256" y1="2.6924" x2="1.6256" y2="3.0734" width="0.1524" layer="21"/>
-<wire x1="-3.6322" y1="3.0734" x2="-3.6322" y2="2.6924" width="0.1524" layer="21"/>
-<wire x1="-3.6322" y1="2.6924" x2="-3.3782" y2="2.6924" width="0.1524" layer="21"/>
-<wire x1="-3.3782" y1="2.6924" x2="-3.3782" y2="3.0734" width="0.1524" layer="21"/>
-<text x="6.6548" y="0.889" size="1.27" layer="21" ratio="6" rot="SR0">2</text>
-<text x="6.6548" y="-2.159" size="1.27" layer="21" ratio="6" rot="SR0">1</text>
-<text x="-8.9662" y="0.889" size="1.27" layer="21" ratio="6" rot="SR0">24</text>
-<text x="-8.9662" y="-2.159" size="1.27" layer="21" ratio="6" rot="SR0">23</text>
-<wire x1="5.5118" y1="-2.8448" x2="4.8768" y2="-4.1148" width="0.1524" layer="51"/>
-<wire x1="4.8768" y1="-4.1148" x2="6.1468" y2="-4.1148" width="0.1524" layer="51"/>
-<wire x1="6.1468" y1="-4.1148" x2="5.5118" y2="-2.8448" width="0.1524" layer="51"/>
-<wire x1="-6.1468" y1="-1.27" x2="6.1468" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="6.1468" y1="-1.27" x2="6.1468" y2="1.27" width="0.1524" layer="51"/>
-<wire x1="6.1468" y1="1.27" x2="-6.1468" y2="1.27" width="0.1524" layer="51"/>
-<wire x1="-6.1468" y1="1.27" x2="-6.1468" y2="-1.27" width="0.1524" layer="51"/>
-<text x="6.6548" y="0.889" size="1.27" layer="51" ratio="6" rot="SR0">2</text>
-<text x="6.6548" y="-2.159" size="1.27" layer="51" ratio="6" rot="SR0">1</text>
-<text x="-8.9662" y="0.889" size="1.27" layer="51" ratio="6" rot="SR0">24</text>
-<text x="-8.9662" y="-2.159" size="1.27" layer="51" ratio="6" rot="SR0">23</text>
-<text x="-4.5974" y="3.3782" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.8674" y="-5.3086" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-</package>
 <package name="MOLSL-4-V">
 <description>&lt;b&gt;C-Grid SL Connector&lt;/b&gt;&lt;p&gt;
  vertical, 4 pin</description>
@@ -3142,6 +3084,179 @@ part number 2062-2P from STA</description>
 <wire x1="-9.145" y1="1.525" x2="-9.145" y2="-1.525" width="0.05" layer="51"/>
 <wire x1="9.145" y1="1.525" x2="9.145" y2="-1.525" width="0.05" layer="51"/>
 </package>
+<package name="SAMTEC_CLM-112-02-L-D">
+<smd name="1" x="5.5118" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="2" x="5.5118" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="3" x="4.4958" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="4" x="4.4958" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="5" x="3.5052" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="6" x="3.5052" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="7" x="2.4892" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="8" x="2.4892" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="9" x="1.4986" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="10" x="1.4986" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="11" x="0.508" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="12" x="0.508" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="13" x="-0.508" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="14" x="-0.508" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="15" x="-1.4986" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="16" x="-1.4986" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="17" x="-2.4892" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="18" x="-2.4892" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="19" x="-3.5052" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="20" x="-3.5052" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="21" x="-4.4958" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="22" x="-4.4958" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="23" x="-5.5118" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="24" x="-5.5118" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<wire x1="-5.9944" y1="1.27" x2="-6.1468" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="5.9944" y1="-1.27" x2="6.1468" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.5118" y1="-2.8448" x2="4.8768" y2="-4.1148" width="0.1524" layer="21"/>
+<wire x1="4.8768" y1="-4.1148" x2="6.1468" y2="-4.1148" width="0.1524" layer="21"/>
+<wire x1="6.1468" y1="-4.1148" x2="5.5118" y2="-2.8448" width="0.1524" layer="21"/>
+<wire x1="-6.1468" y1="-1.27" x2="-5.9944" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="6.1468" y1="-1.27" x2="6.1468" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="6.1468" y1="1.27" x2="5.9944" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-6.1468" y1="1.27" x2="-6.1468" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.3716" y1="3.0734" x2="1.3716" y2="2.6924" width="0.1524" layer="21"/>
+<wire x1="1.3716" y1="2.6924" x2="1.6256" y2="2.6924" width="0.1524" layer="21"/>
+<wire x1="1.6256" y1="2.6924" x2="1.6256" y2="3.0734" width="0.1524" layer="21"/>
+<wire x1="-3.6322" y1="3.0734" x2="-3.6322" y2="2.6924" width="0.1524" layer="21"/>
+<wire x1="-3.6322" y1="2.6924" x2="-3.3782" y2="2.6924" width="0.1524" layer="21"/>
+<wire x1="-3.3782" y1="2.6924" x2="-3.3782" y2="3.0734" width="0.1524" layer="21"/>
+<text x="6.6548" y="0.889" size="1.27" layer="21" ratio="6" rot="SR0">2</text>
+<text x="6.6548" y="-2.159" size="1.27" layer="21" ratio="6" rot="SR0">1</text>
+<text x="-8.9662" y="0.889" size="1.27" layer="21" ratio="6" rot="SR0">24</text>
+<text x="-8.9662" y="-2.159" size="1.27" layer="21" ratio="6" rot="SR0">23</text>
+<wire x1="5.5118" y1="-2.8448" x2="4.8768" y2="-4.1148" width="0.1524" layer="51"/>
+<wire x1="4.8768" y1="-4.1148" x2="6.1468" y2="-4.1148" width="0.1524" layer="51"/>
+<wire x1="6.1468" y1="-4.1148" x2="5.5118" y2="-2.8448" width="0.1524" layer="51"/>
+<wire x1="-6.1468" y1="-1.27" x2="6.1468" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="6.1468" y1="-1.27" x2="6.1468" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="6.1468" y1="1.27" x2="-6.1468" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-6.1468" y1="1.27" x2="-6.1468" y2="-1.27" width="0.1524" layer="51"/>
+<text x="6.6548" y="0.889" size="1.27" layer="51" ratio="6" rot="SR0">2</text>
+<text x="6.6548" y="-2.159" size="1.27" layer="51" ratio="6" rot="SR0">1</text>
+<text x="-8.9662" y="0.889" size="1.27" layer="51" ratio="6" rot="SR0">24</text>
+<text x="-8.9662" y="-2.159" size="1.27" layer="51" ratio="6" rot="SR0">23</text>
+<text x="-4.5974" y="3.3782" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.8674" y="-5.3086" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="SAMTEC_CLM-112-02-L-D-IMU-MOUNT">
+<smd name="1" x="5.5118" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="2" x="5.5118" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="3" x="4.4958" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="4" x="4.4958" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="5" x="3.5052" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="6" x="3.5052" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="7" x="2.4892" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="8" x="2.4892" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="9" x="1.4986" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="10" x="1.4986" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="11" x="0.508" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="12" x="0.508" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="13" x="-0.508" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="14" x="-0.508" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="15" x="-1.4986" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="16" x="-1.4986" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="17" x="-2.4892" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="18" x="-2.4892" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="19" x="-3.5052" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="20" x="-3.5052" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="21" x="-4.4958" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="22" x="-4.4958" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="23" x="-5.5118" y="-1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<smd name="24" x="-5.5118" y="1.524" dx="0.3302" dy="1.7272" layer="1"/>
+<wire x1="-5.9944" y1="1.27" x2="-6.1468" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="5.9944" y1="-1.27" x2="6.1468" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.5118" y1="-2.8448" x2="4.8768" y2="-4.1148" width="0.1524" layer="21"/>
+<wire x1="4.8768" y1="-4.1148" x2="6.1468" y2="-4.1148" width="0.1524" layer="21"/>
+<wire x1="6.1468" y1="-4.1148" x2="5.5118" y2="-2.8448" width="0.1524" layer="21"/>
+<wire x1="-6.1468" y1="-1.27" x2="-5.9944" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="6.1468" y1="-1.27" x2="6.1468" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="6.1468" y1="1.27" x2="5.9944" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-6.1468" y1="1.27" x2="-6.1468" y2="-1.27" width="0.1524" layer="21"/>
+<text x="6.6548" y="0.889" size="1.27" layer="21" ratio="6" rot="SR0">2</text>
+<text x="6.6548" y="-2.159" size="1.27" layer="21" ratio="6" rot="SR0">1</text>
+<text x="-8.9662" y="0.889" size="1.27" layer="21" ratio="6" rot="SR0">24</text>
+<text x="-8.9662" y="-2.159" size="1.27" layer="21" ratio="6" rot="SR0">23</text>
+<wire x1="5.5118" y1="-2.8448" x2="4.8768" y2="-4.1148" width="0.1524" layer="51"/>
+<wire x1="4.8768" y1="-4.1148" x2="6.1468" y2="-4.1148" width="0.1524" layer="51"/>
+<wire x1="6.1468" y1="-4.1148" x2="5.5118" y2="-2.8448" width="0.1524" layer="51"/>
+<wire x1="-6.1468" y1="-1.27" x2="6.1468" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="6.1468" y1="-1.27" x2="6.1468" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="6.1468" y1="1.27" x2="-6.1468" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-6.1468" y1="1.27" x2="-6.1468" y2="-1.27" width="0.1524" layer="51"/>
+<text x="6.6548" y="0.889" size="1.27" layer="51" ratio="6" rot="SR0">2</text>
+<text x="6.6548" y="-2.159" size="1.27" layer="51" ratio="6" rot="SR0">1</text>
+<text x="-8.9662" y="0.889" size="1.27" layer="51" ratio="6" rot="SR0">24</text>
+<text x="-8.9662" y="-2.159" size="1.27" layer="51" ratio="6" rot="SR0">23</text>
+<text x="-4.5974" y="3.3782" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.8674" y="-5.3086" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<wire x1="-6.15" y1="-3.25" x2="6.15" y2="-3.25" width="0.127" layer="51"/>
+<wire x1="-6.15" y1="-3.25" x2="-6.15" y2="3.93" width="0.127" layer="51"/>
+<wire x1="-6.15" y1="3.93" x2="6.15" y2="3.93" width="0.127" layer="51"/>
+<wire x1="6.15" y1="3.93" x2="6.15" y2="-3.25" width="0.127" layer="51"/>
+<wire x1="0" y1="11.5" x2="5.25" y2="11.5" width="0.127" layer="51"/>
+<wire x1="0" y1="11.5" x2="-5.25" y2="11.5" width="0.127" layer="51"/>
+<wire x1="-5.25" y1="11.5" x2="-5.25" y2="4" width="0.127" layer="51"/>
+<wire x1="5.25" y1="11.5" x2="5.25" y2="4" width="0.127" layer="51"/>
+<wire x1="5.25" y1="11.5" x2="11.473" y2="11.5" width="0.127" layer="51"/>
+<wire x1="-5.25" y1="11.5" x2="-11.473" y2="11.5" width="0.127" layer="51"/>
+<wire x1="-11.473" y1="11.5" x2="-11.473" y2="16.756" width="0.127" layer="51"/>
+<wire x1="-11.473" y1="16.756" x2="-11.473" y2="21.756" width="0.127" layer="51"/>
+<wire x1="-11.473" y1="21.756" x2="-11.473" y2="24.756" width="0.127" layer="51"/>
+<wire x1="-11.473" y1="24.756" x2="-11.473" y2="29.756" width="0.127" layer="51"/>
+<wire x1="-11.473" y1="29.756" x2="-11.473" y2="33.956" width="0.127" layer="51"/>
+<wire x1="11.473" y1="11.5" x2="11.473" y2="21.756" width="0.127" layer="51"/>
+<wire x1="11.473" y1="21.756" x2="11.473" y2="24.756" width="0.127" layer="51"/>
+<wire x1="11.473" y1="24.756" x2="11.473" y2="29.756" width="0.127" layer="51"/>
+<wire x1="11.473" y1="29.756" x2="11.473" y2="33.956" width="0.127" layer="51"/>
+<wire x1="-11.473" y1="33.956" x2="11.473" y2="33.956" width="0.127" layer="51"/>
+<wire x1="-11.473" y1="29.756" x2="-16.473" y2="29.756" width="0.127" layer="51"/>
+<wire x1="-16.473" y1="24.756" x2="-16.473" y2="29.756" width="0.127" layer="51"/>
+<wire x1="-16.473" y1="24.756" x2="-11.473" y2="24.756" width="0.127" layer="51"/>
+<wire x1="-11.473" y1="21.756" x2="-16.473" y2="21.756" width="0.127" layer="51"/>
+<wire x1="-16.473" y1="16.756" x2="-16.473" y2="21.756" width="0.127" layer="51"/>
+<wire x1="-16.473" y1="16.756" x2="-11.473" y2="16.756" width="0.127" layer="51"/>
+<wire x1="11.473" y1="29.756" x2="16.473" y2="29.756" width="0.127" layer="51"/>
+<wire x1="16.473" y1="24.756" x2="16.473" y2="29.756" width="0.127" layer="51"/>
+<wire x1="16.473" y1="24.756" x2="11.473" y2="24.756" width="0.127" layer="51"/>
+<wire x1="16.473" y1="21.756" x2="11.473" y2="21.756" width="0.127" layer="51"/>
+<wire x1="16.473" y1="21.756" x2="16.473" y2="16.756" width="0.127" layer="51"/>
+<wire x1="11.475" y1="16.756" x2="16.473" y2="16.756" width="0.127" layer="51"/>
+<hole x="13.973" y="27.256" drill="2.4"/>
+<hole x="-13.973" y="19.256" drill="2"/>
+<wire x1="5.3" y1="3.9" x2="5.3" y2="11.5" width="0.127" layer="21"/>
+<wire x1="-5.3" y1="3.9" x2="-5.3" y2="11.4" width="0.127" layer="21"/>
+<wire x1="-11.5" y1="11.5" x2="11.5" y2="11.5" width="0.127" layer="21"/>
+<wire x1="11.5" y1="11.5" x2="11.5" y2="16.7" width="0.127" layer="21"/>
+<wire x1="11.5" y1="16.7" x2="11.5" y2="21.8" width="0.127" layer="21"/>
+<wire x1="11.5" y1="21.8" x2="11.5" y2="24.7" width="0.127" layer="21"/>
+<wire x1="11.5" y1="24.7" x2="11.5" y2="29.8" width="0.127" layer="21"/>
+<wire x1="11.5" y1="29.8" x2="11.5" y2="33.9" width="0.127" layer="21"/>
+<wire x1="11.5" y1="33.9" x2="-11.5" y2="33.9" width="0.127" layer="21"/>
+<wire x1="-11.5" y1="33.9" x2="-11.5" y2="29.8" width="0.127" layer="21"/>
+<wire x1="-11.5" y1="29.8" x2="-11.5" y2="24.8" width="0.127" layer="21"/>
+<wire x1="-11.5" y1="24.8" x2="-11.5" y2="21.8" width="0.127" layer="21"/>
+<wire x1="-11.5" y1="21.8" x2="-11.5" y2="16.8" width="0.127" layer="21"/>
+<wire x1="-11.5" y1="16.8" x2="-11.5" y2="11.5" width="0.127" layer="21"/>
+<wire x1="11.5" y1="29.8" x2="16.5" y2="29.8" width="0.127" layer="21"/>
+<wire x1="16.5" y1="29.8" x2="16.5" y2="24.7" width="0.127" layer="21"/>
+<wire x1="16.5" y1="24.7" x2="11.5" y2="24.7" width="0.127" layer="21"/>
+<wire x1="11.5" y1="21.8" x2="16.5" y2="21.8" width="0.127" layer="21"/>
+<wire x1="16.5" y1="21.8" x2="16.5" y2="16.7" width="0.127" layer="21"/>
+<wire x1="16.5" y1="16.7" x2="11.5" y2="16.7" width="0.127" layer="21"/>
+<wire x1="-11.5" y1="21.8" x2="-16.5" y2="21.8" width="0.127" layer="21"/>
+<wire x1="-16.5" y1="21.8" x2="-16.5" y2="16.8" width="0.127" layer="21"/>
+<wire x1="-16.5" y1="16.8" x2="-11.5" y2="16.8" width="0.127" layer="21"/>
+<wire x1="-11.5" y1="29.8" x2="-16.5" y2="29.8" width="0.127" layer="21"/>
+<wire x1="-16.5" y1="29.8" x2="-16.5" y2="24.8" width="0.127" layer="21"/>
+<wire x1="-16.5" y1="24.8" x2="-11.5" y2="24.8" width="0.127" layer="21"/>
+<wire x1="5.5" y1="-2.9" x2="4.9" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="4.9" y1="-4.1" x2="6.1" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="6.1" y1="-4.1" x2="5.5" y2="-2.9" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MSP430FR5994PN">
@@ -3649,38 +3764,6 @@ part number 2062-2P from STA</description>
 <text x="-5.08" y="7.62" size="2.0828" layer="95" align="center-left">&gt;NAME</text>
 <text x="0" y="-7.62" size="1.778" layer="96" align="center">&gt;VALUE</text>
 </symbol>
-<symbol name="CLM-112-02-L-D">
-<pin name="1" x="-17.78" y="10.16" length="middle" direction="pas"/>
-<pin name="3" x="-17.78" y="7.62" length="middle" direction="pas"/>
-<pin name="5" x="-17.78" y="5.08" length="middle" direction="pas"/>
-<pin name="7" x="-17.78" y="2.54" length="middle" direction="pas"/>
-<pin name="9" x="-17.78" y="0" length="middle" direction="pas"/>
-<pin name="11" x="-17.78" y="-2.54" length="middle" direction="pas"/>
-<pin name="13" x="-17.78" y="-5.08" length="middle" direction="pas"/>
-<pin name="15" x="-17.78" y="-7.62" length="middle" direction="pas"/>
-<pin name="17" x="-17.78" y="-10.16" length="middle" direction="pas"/>
-<pin name="19" x="-17.78" y="-12.7" length="middle" direction="pas"/>
-<pin name="21" x="-17.78" y="-15.24" length="middle" direction="pas"/>
-<pin name="23" x="-17.78" y="-17.78" length="middle" direction="pas"/>
-<pin name="2" x="17.78" y="10.16" length="middle" direction="pas" rot="R180"/>
-<pin name="4" x="17.78" y="7.62" length="middle" direction="pas" rot="R180"/>
-<pin name="6" x="17.78" y="5.08" length="middle" direction="pas" rot="R180"/>
-<pin name="8" x="17.78" y="2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="10" x="17.78" y="0" length="middle" direction="pas" rot="R180"/>
-<pin name="12" x="17.78" y="-2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="14" x="17.78" y="-5.08" length="middle" direction="pas" rot="R180"/>
-<pin name="16" x="17.78" y="-7.62" length="middle" direction="pas" rot="R180"/>
-<pin name="18" x="17.78" y="-10.16" length="middle" direction="pas" rot="R180"/>
-<pin name="20" x="17.78" y="-12.7" length="middle" direction="pas" rot="R180"/>
-<pin name="22" x="17.78" y="-15.24" length="middle" direction="pas" rot="R180"/>
-<pin name="24" x="17.78" y="-17.78" length="middle" direction="pas" rot="R180"/>
-<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-22.86" width="0.4064" layer="94"/>
-<wire x1="-12.7" y1="-22.86" x2="12.7" y2="-22.86" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="-22.86" x2="12.7" y2="15.24" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.4064" layer="94"/>
-<text x="-4.7244" y="19.2786" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.588" y="-27.7622" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-</symbol>
 <symbol name="MOL-4">
 <pin name="2" x="12.7" y="2.54" rot="R180"/>
 <pin name="3" x="12.7" y="-2.54" rot="R180"/>
@@ -3717,6 +3800,38 @@ part number 2062-2P from STA</description>
 <pin name="5" x="12.7" y="-5.08" rot="R180"/>
 <pin name="6" x="12.7" y="-10.16" rot="R180"/>
 <pin name="7" x="12.7" y="-15.24" rot="R180"/>
+</symbol>
+<symbol name="CLM-112-02-L-D">
+<pin name="1" x="-17.78" y="10.16" length="middle" direction="pas"/>
+<pin name="3" x="-17.78" y="7.62" length="middle" direction="pas"/>
+<pin name="5" x="-17.78" y="5.08" length="middle" direction="pas"/>
+<pin name="7" x="-17.78" y="2.54" length="middle" direction="pas"/>
+<pin name="9" x="-17.78" y="0" length="middle" direction="pas"/>
+<pin name="11" x="-17.78" y="-2.54" length="middle" direction="pas"/>
+<pin name="13" x="-17.78" y="-5.08" length="middle" direction="pas"/>
+<pin name="15" x="-17.78" y="-7.62" length="middle" direction="pas"/>
+<pin name="17" x="-17.78" y="-10.16" length="middle" direction="pas"/>
+<pin name="19" x="-17.78" y="-12.7" length="middle" direction="pas"/>
+<pin name="21" x="-17.78" y="-15.24" length="middle" direction="pas"/>
+<pin name="23" x="-17.78" y="-17.78" length="middle" direction="pas"/>
+<pin name="2" x="17.78" y="10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="4" x="17.78" y="7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="6" x="17.78" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="8" x="17.78" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="10" x="17.78" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="12" x="17.78" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="14" x="17.78" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="16" x="17.78" y="-7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="18" x="17.78" y="-10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="20" x="17.78" y="-12.7" length="middle" direction="pas" rot="R180"/>
+<pin name="22" x="17.78" y="-15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="24" x="17.78" y="-17.78" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-22.86" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-22.86" x2="12.7" y2="-22.86" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-22.86" x2="12.7" y2="15.24" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.4064" layer="94"/>
+<text x="-4.7244" y="19.2786" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.588" y="-27.7622" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5251,51 +5366,6 @@ Updated  by  Dan Xu 2014-07-08&lt;br&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="CLM-112-02-L-D" prefix="J">
-<description>MICRO SOCKET, 1.0MM, SMD, 2X12WAY</description>
-<gates>
-<gate name="A" symbol="CLM-112-02-L-D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SAMTEC_CLM-112-02-L-D">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="10" pad="10"/>
-<connect gate="A" pin="11" pad="11"/>
-<connect gate="A" pin="12" pad="12"/>
-<connect gate="A" pin="13" pad="13"/>
-<connect gate="A" pin="14" pad="14"/>
-<connect gate="A" pin="15" pad="15"/>
-<connect gate="A" pin="16" pad="16"/>
-<connect gate="A" pin="17" pad="17"/>
-<connect gate="A" pin="18" pad="18"/>
-<connect gate="A" pin="19" pad="19"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="20" pad="20"/>
-<connect gate="A" pin="21" pad="21"/>
-<connect gate="A" pin="22" pad="22"/>
-<connect gate="A" pin="23" pad="23"/>
-<connect gate="A" pin="24" pad="24"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
-<connect gate="A" pin="7" pad="7"/>
-<connect gate="A" pin="8" pad="8"/>
-<connect gate="A" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="SAMTEC" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="CLM-112-02-L-D" constant="no"/>
-<attribute name="PACKAGE" value="MICRO SOCKET, 1.0MM, SMD, 2X12WAY" constant="no"/>
-<attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="SAM1129-12-ND" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MOLSL_4PIN" prefix="J" uservalue="yes">
 <description>&lt;b&gt;Molex SL Series 4-Position Connector&lt;/b&gt;&lt;p&gt;
 Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
@@ -5646,6 +5716,88 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <attribute name="VALUE" value="MOLSL-7_V" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="WM4805-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CLM-112-02-L-D-IMU-MOUNT" prefix="J">
+<description>MICRO SOCKET, 1.0MM, SMD, 2X12WAY</description>
+<gates>
+<gate name="A" symbol="CLM-112-02-L-D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_CONNECTOR" package="SAMTEC_CLM-112-02-L-D">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="10" pad="10"/>
+<connect gate="A" pin="11" pad="11"/>
+<connect gate="A" pin="12" pad="12"/>
+<connect gate="A" pin="13" pad="13"/>
+<connect gate="A" pin="14" pad="14"/>
+<connect gate="A" pin="15" pad="15"/>
+<connect gate="A" pin="16" pad="16"/>
+<connect gate="A" pin="17" pad="17"/>
+<connect gate="A" pin="18" pad="18"/>
+<connect gate="A" pin="19" pad="19"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="20" pad="20"/>
+<connect gate="A" pin="21" pad="21"/>
+<connect gate="A" pin="22" pad="22"/>
+<connect gate="A" pin="23" pad="23"/>
+<connect gate="A" pin="24" pad="24"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+<connect gate="A" pin="6" pad="6"/>
+<connect gate="A" pin="7" pad="7"/>
+<connect gate="A" pin="8" pad="8"/>
+<connect gate="A" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="SAMTEC" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="CLM-112-02-L-D" constant="no"/>
+<attribute name="PACKAGE" value="MICRO SOCKET, 1.0MM, SMD, 2X12WAY" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="SAM1129-12-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_IMU" package="SAMTEC_CLM-112-02-L-D-IMU-MOUNT">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="10" pad="10"/>
+<connect gate="A" pin="11" pad="11"/>
+<connect gate="A" pin="12" pad="12"/>
+<connect gate="A" pin="13" pad="13"/>
+<connect gate="A" pin="14" pad="14"/>
+<connect gate="A" pin="15" pad="15"/>
+<connect gate="A" pin="16" pad="16"/>
+<connect gate="A" pin="17" pad="17"/>
+<connect gate="A" pin="18" pad="18"/>
+<connect gate="A" pin="19" pad="19"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="20" pad="20"/>
+<connect gate="A" pin="21" pad="21"/>
+<connect gate="A" pin="22" pad="22"/>
+<connect gate="A" pin="23" pad="23"/>
+<connect gate="A" pin="24" pad="24"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+<connect gate="A" pin="6" pad="6"/>
+<connect gate="A" pin="7" pad="7"/>
+<connect gate="A" pin="8" pad="8"/>
+<connect gate="A" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="SAMTEC" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="CLM-112-02-L-D" constant="no"/>
+<attribute name="PACKAGE" value="MICRO SOCKET, 1.0MM, SMD, 2x12WAY" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="SAM1129-12-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6083,7 +6235,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R28" library="daqcs_host" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
 <part name="R29" library="daqcs_host" deviceset="RES" device="_0603" technology="_27R0" value="27k"/>
 <part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
-<part name="J17" library="daqcs_host" deviceset="CLM-112-02-L-D" device=""/>
 <part name="J11" library="daqcs_host" deviceset="M02" device="PTH"/>
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
 <part name="J1" library="daqcs_host" deviceset="MOLSL_4PIN" device="_RA" technology="_SL4RA" value="MOL-SL-4-RA"/>
@@ -6117,6 +6268,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="J9" library="daqcs_host" deviceset="MOLSL_4PIN" device="_RA" technology="_SL4RA" value="MOL-SL-4-RA"/>
 <part name="C27" library="daqcs_host" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
 <part name="J18" library="daqcs_host" deviceset="MOLSL_7PIN" device="_RA" value="MOLSL-7-RA"/>
+<part name="J17" library="daqcs_host" deviceset="CLM-112-02-L-D-IMU-MOUNT" device="_IMU"/>
 </parts>
 <sheets>
 <sheet>
@@ -7573,8 +7725,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="SUPPLY17" gate="GND" x="243.84" y="43.18"/>
 <instance part="SUPPLY18" gate="GND" x="269.24" y="43.18"/>
 <instance part="SUPPLY19" gate="GND" x="271.78" y="99.06" rot="R180"/>
-<instance part="J17" gate="A" x="93.98" y="78.74"/>
 <instance part="J11" gate="G$1" x="172.72" y="93.98" rot="R180"/>
+<instance part="J17" gate="A" x="93.98" y="78.74"/>
 </instances>
 <busses>
 </busses>
@@ -7876,8 +8028,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="111.76" y1="81.28" x2="139.7" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="81.28" x2="139.7" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="J17" gate="A" pin="8"/>
 <pinref part="J11" gate="G$1" pin="1"/>
+<pinref part="J17" gate="A" pin="8"/>
 </segment>
 </net>
 <net name="IMU_RST" class="0">
