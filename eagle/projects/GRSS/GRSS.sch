@@ -172,72 +172,6 @@
 <rectangle x1="51.562" y1="19.812" x2="54.61" y2="22.86" layer="30"/>
 <rectangle x1="51.562" y1="6.858" x2="54.61" y2="9.906" layer="30"/>
 </package>
-<package name="MOLKK-2-RA">
-<description>&lt;b&gt;MOLEX 3-Position 2.54mm KK RA CONNECTOR&lt;/b&gt;
-&lt;br&gt;Fixed Orientation</description>
-<wire x1="2.465" y1="-6.23" x2="2.465" y2="-3.05" width="0.15" layer="21"/>
-<wire x1="2.465" y1="-3.05" x2="1.27" y2="-3.05" width="0.15" layer="21"/>
-<wire x1="1.27" y1="-3.05" x2="-1.27" y2="-3.05" width="0.15" layer="21"/>
-<wire x1="-1.27" y1="-3.05" x2="-2.465" y2="-3.05" width="0.15" layer="21"/>
-<wire x1="-2.465" y1="-3.05" x2="-2.465" y2="-6.23" width="0.15" layer="21"/>
-<wire x1="-2.465" y1="-6.23" x2="2.465" y2="-6.23" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-6.23" x2="1.27" y2="-10.73" width="0.15" layer="51"/>
-<wire x1="1.27" y1="-10.73" x2="1.016" y2="-11.23" width="0.15" layer="51"/>
-<wire x1="1.016" y1="-11.23" x2="-1.016" y2="-11.23" width="0.15" layer="51"/>
-<wire x1="-1.27" y1="-6.23" x2="-1.27" y2="-10.73" width="0.15" layer="51"/>
-<wire x1="-1.27" y1="-10.73" x2="-1.016" y2="-11.23" width="0.15" layer="51"/>
-<wire x1="-1.651" y1="-6.23" x2="-1.651" y2="-10.25" width="0.15" layer="51"/>
-<wire x1="-1.651" y1="-10.25" x2="-1.2908" y2="-10.5" width="0.15" layer="51"/>
-<wire x1="1.651" y1="-6.23" x2="1.651" y2="-10.25" width="0.15" layer="51"/>
-<wire x1="1.651" y1="-10.25" x2="1.3208" y2="-10.5" width="0.15" layer="51"/>
-<pad name="1" x="1.27" y="0" drill="1.02" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="0" drill="1.02" shape="long" rot="R90"/>
-<text x="-1.6399" y="2.1979" size="0.3048" layer="25" ratio="6" rot="R180">&gt;NAME</text>
-<text x="3.3259" y="0.0879" size="1.27" layer="21" font="vector" ratio="14" align="center">1</text>
-<text x="-3.1933" y="0.0249" size="1.27" layer="21" ratio="14" align="center">2</text>
-<text x="1.9221" y="2.0201" size="0.254" layer="27" font="fixed" ratio="6">&gt;VALUE</text>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-2.5146" x2="1.524" y2="-0.2794" layer="51"/>
-<rectangle x1="-1.524" y1="-2.5146" x2="-1.016" y2="-0.2794" layer="51"/>
-<wire x1="-2.465" y1="0" x2="-2.465" y2="-12.94" width="0.05" layer="51"/>
-<wire x1="-2.465" y1="-12.94" x2="2.465" y2="-12.94" width="0.05" layer="51"/>
-<wire x1="2.465" y1="-12.94" x2="2.465" y2="0" width="0.05" layer="51"/>
-<wire x1="2.465" y1="0" x2="-2.465" y2="0" width="0.05" layer="51"/>
-<wire x1="-1.27" y1="-3.05" x2="-1.27" y2="-2.05" width="0.15" layer="21"/>
-<wire x1="1.27" y1="-3.05" x2="1.27" y2="-2.05" width="0.15" layer="21"/>
-</package>
-<package name="MOLKK-2-V">
-<description>&lt;b&gt;MOLEX 2.54mm KK  CONNECTOR&lt;/b&gt;</description>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="3.175" width="0.127" layer="21"/>
-<wire x1="-2.465" y1="3.175" x2="-1.27" y2="3.175" width="0.15" layer="21"/>
-<wire x1="-1.126" y1="3.161" x2="-1.27" y2="3.175" width="0.127" layer="21"/>
-<wire x1="2.465" y1="3.175" x2="1.27" y2="3.175" width="0.15" layer="21"/>
-<wire x1="1.27" y1="3.175" x2="-1.27" y2="3.175" width="0.15" layer="21"/>
-<wire x1="-2.465" y1="3.175" x2="-2.465" y2="-3.175" width="0.15" layer="21"/>
-<wire x1="-2.465" y1="-3.175" x2="2.465" y2="-3.175" width="0.15" layer="21"/>
-<wire x1="2.465" y1="3.175" x2="2.465" y2="-3.175" width="0.15" layer="21"/>
-<wire x1="-1.26" y1="2.475" x2="-1.27" y2="3.175" width="0.15" layer="21"/>
-<wire x1="-1.26" y1="2.475" x2="-1.116" y2="2.475" width="0.15" layer="21"/>
-<wire x1="-1.116" y1="2.475" x2="1.136" y2="2.475" width="0.15" layer="21"/>
-<wire x1="1.136" y1="2.475" x2="1.26" y2="2.475" width="0.15" layer="21"/>
-<wire x1="1.26" y1="2.475" x2="1.27" y2="3.175" width="0.15" layer="21"/>
-<wire x1="-1.26" y1="2.475" x2="-1.006" y2="1.997" width="0.15" layer="21"/>
-<wire x1="-1.126" y1="3.161" x2="-1.116" y2="2.475" width="0.15" layer="21"/>
-<wire x1="-1.006" y1="1.997" x2="1.026" y2="1.997" width="0.15" layer="21"/>
-<wire x1="1.026" y1="1.997" x2="1.26" y2="2.475" width="0.15" layer="21"/>
-<wire x1="1.136" y1="3.131" x2="1.136" y2="2.475" width="0.15" layer="21"/>
-<pad name="2" x="-1.27" y="0" drill="1.02" shape="long" rot="R90"/>
-<pad name="1" x="1.27" y="0" drill="1.02" shape="long" rot="R90"/>
-<text x="-1.1631" y="3.4351" size="0.4064" layer="25" ratio="6">&gt;NAME</text>
-<text x="3.1481" y="-0.7381" size="1.27" layer="21" ratio="14">1</text>
-<text x="-3.7099" y="-0.6873" size="1.27" layer="21" font="vector" ratio="14">2</text>
-<text x="-1.1831" y="-3.7689" size="0.3048" layer="27" ratio="4">&gt;VALUE</text>
-<wire x1="-2.465" y1="3.175" x2="2.465" y2="3.175" width="0.05" layer="51"/>
-<wire x1="2.465" y1="3.175" x2="2.465" y2="-3.175" width="0.05" layer="51"/>
-<wire x1="2.465" y1="-3.175" x2="-2.465" y2="-3.175" width="0.05" layer="51"/>
-<wire x1="-2.465" y1="-3.175" x2="-2.465" y2="3.175" width="0.05" layer="51"/>
-</package>
 <package name="R0603">
 <description>&lt;b&gt;0603 Chip Resistor&lt;/b&gt;
 &lt;p&gt;&lt;b&gt;Author:&lt;/b&gt; Chris Schwab
@@ -827,6 +761,88 @@ part number 2062-2P from STA</description>
 <text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
+<package name="MOLSL-2-V">
+<description>&lt;b&gt;C-Grid SL Connector&lt;/b&gt;&lt;p&gt;
+ vertical, 2 pin</description>
+<wire x1="3.685" y1="-2.54" x2="3.685" y2="2.54" width="0.15" layer="21"/>
+<wire x1="3.685" y1="2.54" x2="-3.685" y2="2.54" width="0.15" layer="21"/>
+<wire x1="-3.685" y1="2.54" x2="-3.685" y2="-2.54" width="0.15" layer="21"/>
+<wire x1="-3.685" y1="-2.54" x2="-1.27" y2="-2.54" width="0.15" layer="21"/>
+<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="-4.06" width="0.15" layer="51"/>
+<wire x1="-1.27" y1="-4.06" x2="1.27" y2="-4.06" width="0.15" layer="51"/>
+<wire x1="1.27" y1="-4.06" x2="1.27" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="1.27" y1="-2.54" x2="3.685" y2="-2.54" width="0.15" layer="21"/>
+<wire x1="-2.665" y1="1.395" x2="-2.665" y2="-1.395" width="0.05" layer="51"/>
+<wire x1="2.665" y1="1.395" x2="2.665" y2="-1.395" width="0.05" layer="51"/>
+<wire x1="-2.665" y1="1.395" x2="2.665" y2="1.395" width="0.05" layer="51"/>
+<wire x1="-2.665" y1="-1.395" x2="-1" y2="-1.395" width="0.05" layer="51"/>
+<wire x1="-1" y1="-1.395" x2="1" y2="-1.395" width="0.05" layer="51"/>
+<wire x1="1" y1="-1.395" x2="2.665" y2="-1.395" width="0.05" layer="51"/>
+<wire x1="1" y1="-2.925" x2="-1" y2="-2.925" width="0.05" layer="51"/>
+<wire x1="-1" y1="-1.395" x2="-1" y2="-2.925" width="0.05" layer="51"/>
+<wire x1="1" y1="-1.395" x2="1" y2="-2.925" width="0.05" layer="51"/>
+<pad name="2" x="1.27" y="0" drill="1.09" shape="long" rot="R90"/>
+<pad name="1" x="-1.27" y="0" drill="1.09" shape="long" rot="R90"/>
+<text x="-4.445" y="-2.54" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.4925" y="3.4925" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.048" y="-1.5875" size="1.016" layer="21" ratio="10">1</text>
+<rectangle x1="1.0319" y1="-0.2381" x2="1.5081" y2="0.2381" layer="51"/>
+<rectangle x1="-1.5081" y1="-0.2381" x2="-1.0319" y2="0.2381" layer="51"/>
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.15" layer="21"/>
+</package>
+<package name="MOLSL-2-RA">
+<description>&lt;b&gt;C-Grid SL Connector&lt;/b&gt;&lt;p&gt;
+ right angle, 2 pin</description>
+<wire x1="3.9688" y1="5.8738" x2="-3.9688" y2="5.8738" width="0.15" layer="21"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-3.175" width="0.15" layer="21"/>
+<wire x1="-1.27" y1="-3.175" x2="1.27" y2="-3.175" width="0.15" layer="21"/>
+<wire x1="1.27" y1="-3.175" x2="1.27" y2="2.54" width="0.15" layer="21"/>
+<wire x1="-3.9688" y1="5.8738" x2="-3.9688" y2="2.54" width="0.15" layer="21"/>
+<wire x1="-3.9688" y1="2.54" x2="-3.175" y2="2.54" width="0.15" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-1.27" y2="2.54" width="0.15" layer="21"/>
+<wire x1="1.27" y1="2.54" x2="3.175" y2="2.54" width="0.15" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="3.9688" y2="2.54" width="0.15" layer="21"/>
+<wire x1="3.9688" y1="2.54" x2="3.9688" y2="5.8738" width="0.15" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-3.175" y2="3.175" width="0.15" layer="21"/>
+<wire x1="-3.175" y1="3.175" x2="-1.905" y2="4.445" width="0.15" layer="21" curve="-90"/>
+<wire x1="-1.905" y1="4.445" x2="1.905" y2="4.445" width="0.15" layer="21"/>
+<wire x1="1.905" y1="4.445" x2="3.175" y2="3.175" width="0.15" layer="21" curve="-90"/>
+<wire x1="3.175" y1="3.175" x2="3.175" y2="2.54" width="0.15" layer="21"/>
+<wire x1="-3.9688" y1="2.54" x2="-3.9688" y2="-5.715" width="0.15" layer="21"/>
+<wire x1="-3.9688" y1="-5.715" x2="3.9688" y2="-5.715" width="0.15" layer="21"/>
+<wire x1="3.9688" y1="-5.715" x2="3.9688" y2="2.54" width="0.15" layer="21"/>
+<wire x1="-2.8575" y1="-5.715" x2="-2.8575" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-2.8575" y1="-6.35" x2="-2.8575" y2="-7.9375" width="0.05" layer="51"/>
+<wire x1="2.8575" y1="-7.9375" x2="2.8575" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="2.8575" y1="-6.35" x2="2.8575" y2="-5.715" width="0.05" layer="51"/>
+<wire x1="-2.8575" y1="-6.35" x2="-1.905" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-1.905" y1="-6.35" x2="-0.635" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-0.635" y1="-6.35" x2="0.635" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="0.635" y1="-6.35" x2="1.905" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="1.905" y1="-6.35" x2="2.8575" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-1.905" y1="-6.35" x2="-1.905" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="-1.905" y1="-7.6835" x2="-2.159" y2="-7.9375" width="0.05" layer="51" curve="-90"/>
+<wire x1="-2.159" y1="-7.9375" x2="-2.8575" y2="-7.9375" width="0.05" layer="51"/>
+<wire x1="-0.635" y1="-6.35" x2="-0.635" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="-0.635" y1="-7.6835" x2="-0.381" y2="-7.9375" width="0.05" layer="51" curve="90"/>
+<wire x1="0.635" y1="-6.35" x2="0.635" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="0.635" y1="-7.6835" x2="0.381" y2="-7.9375" width="0.05" layer="51" curve="-90"/>
+<wire x1="0.381" y1="-7.9375" x2="-0.381" y2="-7.9375" width="0.05" layer="51"/>
+<wire x1="1.905" y1="-6.35" x2="1.905" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="1.905" y1="-7.6835" x2="2.159" y2="-7.9375" width="0.05" layer="51" curve="90"/>
+<wire x1="2.159" y1="-7.9375" x2="2.8575" y2="-7.9375" width="0.05" layer="51"/>
+<pad name="2" x="1.27" y="-7.62" drill="1.09" shape="long" rot="R90"/>
+<pad name="1" x="-1.27" y="-7.62" drill="1.09" shape="long" rot="R90"/>
+<text x="-4.445" y="-5.715" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-5.715" size="0.8128" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.5875" y1="-7.62" x2="-0.9525" y2="-6.35" layer="51"/>
+<rectangle x1="0.9525" y1="-7.62" x2="1.5875" y2="-6.35" layer="51"/>
+<polygon width="0.15" layer="21">
+<vertex x="-3.81" y="5.8738"/>
+<vertex x="-3.3338" y="3.9689"/>
+<vertex x="-2.8575" y="5.8738"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="BC9VPC">
@@ -840,16 +856,6 @@ part number 2062-2P from STA</description>
 <text x="-10.16" y="3.556" size="1.778" layer="94">&gt;NAME</text>
 <pin name="V+" x="0" y="7.62" visible="off" length="middle" rot="R270"/>
 <pin name="V-" x="0" y="-10.16" visible="off" length="middle" rot="R90"/>
-</symbol>
-<symbol name="MOL-2">
-<pin name="2" x="12.7" y="-2.54" rot="R180"/>
-<pin name="1" x="12.7" y="2.54" rot="R180"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
-<text x="-5.08" y="7.62" size="2.0828" layer="95" align="center-left">&gt;NAME</text>
-<text x="0" y="-7.62" size="1.778" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="RES">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
@@ -970,6 +976,16 @@ part number 2062-2P from STA</description>
 <text x="0" y="-2.54" size="2.1844" layer="96" align="center">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
+<symbol name="MOL-2">
+<pin name="2" x="12.7" y="-2.54" rot="R180"/>
+<pin name="1" x="12.7" y="2.54" rot="R180"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-5.08" y="7.62" size="2.0828" layer="95" align="center-left">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.778" layer="96" align="center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BC9VPC" prefix="BAT" uservalue="yes">
@@ -1001,71 +1017,6 @@ part number 2062-2P from STA</description>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="BATT-10855" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MOLKK_2PIN" prefix="J" uservalue="yes">
-<description>&lt;b&gt;Molex KK Series 2-Position Connector&lt;/b&gt;&lt;p&gt;
-Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
-
-&lt;p&gt;&lt;b&gt;Housing:&lt;/b&gt; Vendor=Molex, Vendor_PN=0010112023
-
-&lt;p&gt;&lt;b&gt;Crimp:&lt;/b&gt; Vendor=Molex, Vendor_PN=0008550124
-
-&lt;p&gt;&lt;b&gt;Wires:&lt;/b&gt;
-&lt;ul&gt;
-&lt;p&gt;AWG,Amps (Max)
-&lt;p&gt;&lt;li&gt;22, 4.00
-&lt;p&gt;&lt;li&gt;24, 3.75
-&lt;p&gt;&lt;li&gt;26, 3.50
-&lt;p&gt;&lt;li&gt;28, 3.00
-&lt;p&gt;&lt;li&gt;30, 2.50
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="MOL-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_2RA" package="MOLKK-2-RA">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="_2RA">
-<attribute name="FINISH" value="GOLD" constant="no"/>
-<attribute name="LOCKING" value="YES" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="0022122024" constant="no"/>
-<attribute name="MAX_CURRENT" value="4.0A" constant="no"/>
-<attribute name="MOUNT_ANGLE" value="RIGHT" constant="no"/>
-<attribute name="MOUNT_TYPE" value="TH" constant="no"/>
-<attribute name="POSITIONS" value="2" constant="no"/>
-<attribute name="VALUE" value="MOL-KK-2-RA" constant="no"/>
-<attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="WM2711-ND" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_2V" package="MOLKK-2-V">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="2V">
-<attribute name="FINISH" value="GOLD" constant="no"/>
-<attribute name="LOCKING" value="YES" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="0022112022" constant="no"/>
-<attribute name="MAX_CURRENT" value="4.0A" constant="no"/>
-<attribute name="MOUNT_ANGLE" value="VERTICAL" constant="no"/>
-<attribute name="MOUNT_TYPE" value="TH" constant="no"/>
-<attribute name="POSITIONS" value="2" constant="no"/>
-<attribute name="VALUE" value="MOL-KK-2-V" constant="no"/>
-<attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="WM2700-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1713,6 +1664,70 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
+<deviceset name="MOLSL_2PIN" prefix="J" uservalue="yes">
+<description>&lt;b&gt;Molex SL Series 2-Position Connector&lt;/b&gt;&lt;p&gt;
+Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
+
+&lt;p&gt;&lt;b&gt;Housing:&lt;/b&gt; Vendor=Molex, Vendor_PN=0050579402
+
+&lt;p&gt;&lt;b&gt;22-24 AWG Crimp:&lt;/b&gt; Vendor=Molex, Vendor_PN=0016020087
+
+&lt;p&gt;&lt;b&gt;Wires:&lt;/b&gt;
+&lt;ul&gt;
+&lt;p&gt;AWG,Amps (Max)
+&lt;p&gt;&lt;li&gt;22, 3.0
+&lt;p&gt;&lt;li&gt;24, 3.0
+&lt;p&gt;&lt;li&gt;26, 1.8
+&lt;p&gt;&lt;li&gt;28, 1.2
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOL-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_V" package="MOLSL-2-V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_SL2V">
+<attribute name="FINISH" value="GOLD" constant="no"/>
+<attribute name="LOCKING" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="0705430001" constant="no"/>
+<attribute name="MAX_CURRENT" value="3.0A" constant="no"/>
+<attribute name="MOUNT_ANGLE" value="VERTICAL" constant="no"/>
+<attribute name="MOUNT_TYPE" value="TH" constant="no"/>
+<attribute name="POSITIONS" value="2" constant="no"/>
+<attribute name="VALUE" value="MOL-SL-2-V" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="WM4800-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_RA" package="MOLSL-2-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_SL2RA">
+<attribute name="FINISH" value="GOLD" constant="no"/>
+<attribute name="LOCKING" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="0705530001" constant="no"/>
+<attribute name="MAX_CURRENT" value="3.0A" constant="no"/>
+<attribute name="MOUNT_ANGLE" value="RIGHT" constant="no"/>
+<attribute name="MOUNT_TYPE" value="TH" constant="no"/>
+<attribute name="POSITIONS" value="2" constant="no"/>
+<attribute name="VALUE" value="MOL-SL-2-RA" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="WM4900-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="frames">
@@ -1772,16 +1787,6 @@ DIN A4, landscape with location and doc. field</description>
 </classes>
 <parts>
 <part name="BATT" library="grss" deviceset="BC9VPC" device="" value="9V"/>
-<part name="J1" library="grss" deviceset="MOLKK_2PIN" device="_2RA" technology="_2RA" value="MOL-KK-2-RA"/>
-<part name="J2" library="grss" deviceset="MOLKK_2PIN" device="_2RA" technology="_2RA" value="MOL-KK-2-RA"/>
-<part name="J3" library="grss" deviceset="MOLKK_2PIN" device="_2RA" technology="_2RA" value="MOL-KK-2-RA"/>
-<part name="J4" library="grss" deviceset="MOLKK_2PIN" device="_2RA" technology="_2RA" value="MOL-KK-2-RA"/>
-<part name="J5" library="grss" deviceset="MOLKK_2PIN" device="_2RA" technology="_2RA" value="MOL-KK-2-RA"/>
-<part name="J6" library="grss" deviceset="MOLKK_2PIN" device="_2RA" technology="_2RA" value="MOL-KK-2-RA"/>
-<part name="J7" library="grss" deviceset="MOLKK_2PIN" device="_2RA" technology="_2RA" value="MOL-KK-2-RA"/>
-<part name="J8" library="grss" deviceset="MOLKK_2PIN" device="_2RA" technology="_2RA" value="MOL-KK-2-RA"/>
-<part name="J9" library="grss" deviceset="MOLKK_2PIN" device="_2RA" technology="_2RA" value="MOL-KK-2-RA"/>
-<part name="J10" library="grss" deviceset="MOLKK_2PIN" device="_2RA" technology="_2RA" value="MOL-KK-2-RA"/>
 <part name="R1" library="grss" deviceset="RES" device="_0603" technology="_100R" value="100"/>
 <part name="R2" library="grss" deviceset="RES" device="_0603" technology="_100R" value="100"/>
 <part name="R3" library="grss" deviceset="RES" device="_0603" technology="_100R" value="100"/>
@@ -1797,6 +1802,16 @@ DIN A4, landscape with location and doc. field</description>
 <part name="U3" library="grss" deviceset="LP2985AIM5-4.5/NOPB" device="" value="LP2985AIM5-4.5/NOPB"/>
 <part name="Q1" library="grss" deviceset="STD12NF06LT4" device="" value="STD12NF06LT4"/>
 <part name="GND1" library="grss" deviceset="GND" device=""/>
+<part name="J1" library="grss" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
+<part name="J2" library="grss" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
+<part name="J3" library="grss" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
+<part name="J4" library="grss" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
+<part name="J5" library="grss" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
+<part name="J6" library="grss" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
+<part name="J7" library="grss" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
+<part name="J8" library="grss" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
+<part name="J9" library="grss" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
+<part name="J10" library="grss" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
 </parts>
 <sheets>
 <sheet>
@@ -1816,16 +1831,6 @@ DIN A4, landscape with location and doc. field</description>
 </plain>
 <instances>
 <instance part="BATT" gate="G$1" x="-177.8" y="132.08"/>
-<instance part="J1" gate="G$1" x="-38.1" y="177.8"/>
-<instance part="J2" gate="G$1" x="-38.1" y="157.48"/>
-<instance part="J3" gate="G$1" x="-38.1" y="137.16"/>
-<instance part="J4" gate="G$1" x="-10.16" y="177.8"/>
-<instance part="J5" gate="G$1" x="-10.16" y="157.48"/>
-<instance part="J6" gate="G$1" x="-10.16" y="137.16"/>
-<instance part="J7" gate="G$1" x="17.78" y="177.8"/>
-<instance part="J8" gate="G$1" x="17.78" y="157.48"/>
-<instance part="J9" gate="G$1" x="17.78" y="137.16"/>
-<instance part="J10" gate="G$1" x="45.72" y="157.48"/>
 <instance part="R1" gate="G$1" x="-25.4" y="119.38" rot="R90"/>
 <instance part="R2" gate="G$1" x="2.54" y="119.38" rot="R90"/>
 <instance part="R3" gate="G$1" x="30.48" y="119.38" rot="R90"/>
@@ -1841,6 +1846,16 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="U3" gate="A" x="-149.86" y="172.72"/>
 <instance part="Q1" gate="A" x="-32.385" y="104.14"/>
 <instance part="GND1" gate="1" x="-177.8" y="88.9"/>
+<instance part="J1" gate="G$1" x="-38.1" y="177.8"/>
+<instance part="J2" gate="G$1" x="-38.1" y="157.48"/>
+<instance part="J3" gate="G$1" x="-38.1" y="137.16"/>
+<instance part="J4" gate="G$1" x="-10.16" y="177.8"/>
+<instance part="J5" gate="G$1" x="-10.16" y="157.48"/>
+<instance part="J6" gate="G$1" x="-10.16" y="137.16"/>
+<instance part="J7" gate="G$1" x="17.78" y="177.8"/>
+<instance part="J8" gate="G$1" x="17.78" y="157.48"/>
+<instance part="J9" gate="G$1" x="17.78" y="137.16"/>
+<instance part="J10" gate="G$1" x="45.72" y="157.48"/>
 </instances>
 <busses>
 </busses>
@@ -1898,17 +1913,13 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="-170.18" y1="187.96" x2="-177.8" y2="187.96" width="0.1524" layer="91"/>
 <junction x="-170.18" y="172.72"/>
 <junction x="-170.18" y="187.96"/>
-<pinref part="J10" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="187.96" x2="58.42" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="-25.4" y1="180.34" x2="-25.4" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="187.96" x2="2.54" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="180.34" x2="2.54" y2="187.96" width="0.1524" layer="91"/>
 <junction x="2.54" y="187.96"/>
 <wire x1="2.54" y1="187.96" x2="30.48" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="187.96" x2="58.42" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="J7" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="180.34" x2="30.48" y2="187.96" width="0.1524" layer="91"/>
 <junction x="30.48" y="187.96"/>
 <wire x1="-88.9" y1="187.96" x2="-25.4" y2="187.96" width="0.1524" layer="91"/>
@@ -1917,6 +1928,10 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="U3" gate="A" pin="VIN"/>
 <pinref part="U3" gate="A" pin="ON"/>
 <label x="-122.174" y="188.722" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="J7" gate="G$1" pin="1"/>
+<pinref part="J10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1995,7 +2010,6 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="-25.4" y1="114.3" x2="2.54" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="J10" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="114.3" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="114.3" x2="58.42" y2="154.94" width="0.1524" layer="91"/>
@@ -2005,78 +2019,79 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="-25.4" y1="109.22" x2="-25.4" y2="114.3" width="0.1524" layer="91"/>
 <junction x="-25.4" y="114.3"/>
 <label x="-25.146" y="110.998" size="1.778" layer="95"/>
+<pinref part="J10" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="RES789" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="J9" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="124.46" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
 <label x="30.226" y="124.968" size="1.778" layer="95" rot="R90"/>
+<pinref part="J9" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="RES456" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="J6" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="124.46" x2="2.54" y2="134.62" width="0.1524" layer="91"/>
 <label x="2.286" y="125.222" size="1.778" layer="95" rot="R90"/>
+<pinref part="J6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="LED89" class="0">
 <segment>
-<pinref part="J9" gate="G$1" pin="1"/>
-<pinref part="J8" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="139.7" x2="30.48" y2="154.94" width="0.1524" layer="91"/>
 <label x="30.226" y="143.764" size="1.778" layer="95" rot="R90"/>
+<pinref part="J8" gate="G$1" pin="2"/>
+<pinref part="J9" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="LED56" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="1"/>
-<pinref part="J5" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="139.7" x2="2.54" y2="154.94" width="0.1524" layer="91"/>
 <label x="2.286" y="143.764" size="1.778" layer="95" rot="R90"/>
+<pinref part="J5" gate="G$1" pin="2"/>
+<pinref part="J6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="RES123" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="-25.4" y1="124.46" x2="-25.4" y2="134.62" width="0.1524" layer="91"/>
 <label x="-25.654" y="125.222" size="1.778" layer="95" rot="R90"/>
+<pinref part="J3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="LED23" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="-25.4" y1="139.7" x2="-25.4" y2="154.94" width="0.1524" layer="91"/>
 <label x="-25.654" y="143.764" size="1.778" layer="95" rot="R90"/>
+<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="LED12" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
-<pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="-25.4" y1="160.02" x2="-25.4" y2="175.26" width="0.1524" layer="91"/>
 <label x="-27.432" y="171.45" size="1.778" layer="95" rot="R270"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="LED45" class="0">
 <segment>
-<pinref part="J5" gate="G$1" pin="1"/>
-<pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="160.02" x2="2.54" y2="175.26" width="0.1524" layer="91"/>
 <label x="2.286" y="164.592" size="1.778" layer="95" rot="R90"/>
+<pinref part="J4" gate="G$1" pin="2"/>
+<pinref part="J5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="LED78" class="0">
 <segment>
-<pinref part="J8" gate="G$1" pin="1"/>
-<pinref part="J7" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="160.02" x2="30.48" y2="175.26" width="0.1524" layer="91"/>
 <label x="30.226" y="164.592" size="1.778" layer="95" rot="R90"/>
+<pinref part="J7" gate="G$1" pin="2"/>
+<pinref part="J8" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="9V0SRC" class="0">
