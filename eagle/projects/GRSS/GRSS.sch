@@ -1862,7 +1862,7 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="-160.02" y1="127" x2="-160.02" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="-149.86" y1="106.68" x2="-149.86" y2="116.84" width="0.1524" layer="91"/>
-<label x="-63.5" y="172.72" size="1.778" layer="95"/>
+<label x="-53.086" y="172.72" size="1.778" layer="95"/>
 <junction x="-149.86" y="116.84"/>
 <junction x="-66.04" y="132.08"/>
 <junction x="-66.04" y="172.72"/>
@@ -1875,12 +1875,13 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="U3" gate="A" pin="VOUT"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="BP" class="0">
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="-93.98" y1="170.18" x2="-60.96" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="170.18" x2="-60.96" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="BP"/>
+<label x="-60.452" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="9V0" class="0">
@@ -1915,6 +1916,7 @@ DIN A4, landscape with location and doc. field</description>
 <junction x="-25.4" y="187.96"/>
 <pinref part="U3" gate="A" pin="VIN"/>
 <pinref part="U3" gate="A" pin="ON"/>
+<label x="-122.174" y="188.722" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1965,7 +1967,7 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="-160.02" y1="111.76" x2="-160.02" y2="106.68" width="0.1524" layer="91"/>
 <junction x="-160.02" y="111.76"/>
-<label x="-165.1" y="119.38" size="1.778" layer="95" rot="R90"/>
+<label x="-165.354" y="119.38" size="1.778" layer="95" rot="R90"/>
 <pinref part="U2" gate="A" pin="*TRIG"/>
 </segment>
 <segment>
@@ -1976,7 +1978,7 @@ DIN A4, landscape with location and doc. field</description>
 </net>
 <net name="555OUT" class="0">
 <segment>
-<label x="-162.56" y="129.54" size="1.778" layer="95"/>
+<label x="-162.56" y="129.794" size="1.778" layer="95"/>
 <wire x1="-149.86" y1="129.54" x2="-162.56" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="OUT"/>
 </segment>
@@ -1986,7 +1988,7 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="Q1" gate="A" pin="1"/>
 </segment>
 </net>
-<net name="VDS" class="0">
+<net name="VD" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -2001,76 +2003,87 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="-25.4" y1="114.3" x2="-25.908" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-25.908" y1="114.3" x2="-25.908" y2="108.966" width="0.1524" layer="91"/>
 <junction x="-25.4" y="114.3"/>
+<label x="-24.892" y="110.236" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="RES789" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="J9" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="124.46" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
+<label x="30.226" y="124.968" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="RES456" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="J6" gate="G$1" pin="2"/>
 <wire x1="5.08" y1="124.46" x2="5.08" y2="134.62" width="0.1524" layer="91"/>
+<label x="4.826" y="125.222" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="LED89" class="0">
 <segment>
 <pinref part="J9" gate="G$1" pin="1"/>
 <pinref part="J8" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="139.7" x2="30.48" y2="154.94" width="0.1524" layer="91"/>
+<label x="30.226" y="143.764" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="LED56" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="1"/>
 <pinref part="J5" gate="G$1" pin="2"/>
 <wire x1="5.08" y1="139.7" x2="5.08" y2="154.94" width="0.1524" layer="91"/>
+<label x="4.826" y="143.764" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="RES123" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="-25.4" y1="124.46" x2="-25.4" y2="134.62" width="0.1524" layer="91"/>
+<label x="-25.654" y="125.222" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="LED23" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
 <pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="-25.4" y1="139.7" x2="-25.4" y2="154.94" width="0.1524" layer="91"/>
+<label x="-25.654" y="143.764" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="LED12" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="-25.4" y1="160.02" x2="-25.4" y2="175.26" width="0.1524" layer="91"/>
+<label x="-27.432" y="171.45" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="LED45" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="1"/>
 <pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="5.08" y1="160.02" x2="5.08" y2="175.26" width="0.1524" layer="91"/>
+<label x="4.826" y="164.592" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="LED78" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="1"/>
 <pinref part="J7" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="160.02" x2="30.48" y2="175.26" width="0.1524" layer="91"/>
+<label x="30.226" y="164.592" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="9V0SRC" class="0">
 <segment>
 <pinref part="BATT" gate="G$1" pin="V+"/>
 <pinref part="J11" gate="G$1" pin="1"/>
 <wire x1="-177.8" y1="139.7" x2="-177.8" y2="154.94" width="0.1524" layer="91"/>
+<label x="-178.054" y="139.7" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
