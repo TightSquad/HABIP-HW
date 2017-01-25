@@ -1839,7 +1839,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="FRAME1" gate="G$1" x="-195.58" y="48.26"/>
 <instance part="U2" gate="A" x="-149.86" y="134.62"/>
 <instance part="U3" gate="A" x="-149.86" y="172.72"/>
-<instance part="Q1" gate="A" x="-33.02" y="104.14"/>
+<instance part="Q1" gate="A" x="-32.385" y="104.14"/>
 <instance part="GND1" gate="1" x="-177.8" y="88.9"/>
 </instances>
 <busses>
@@ -1951,11 +1951,12 @@ DIN A4, landscape with location and doc. field</description>
 <junction x="-170.18" y="160.02"/>
 <pinref part="U2" gate="A" pin="GND"/>
 <pinref part="U3" gate="A" pin="GND"/>
-<wire x1="-53.34" y1="91.44" x2="-25.908" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-25.908" y1="91.44" x2="-25.908" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="91.44" x2="-25.4" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-53.34" y="91.44"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <junction x="-177.8" y="91.44"/>
+<pinref part="Q1" gate="A" pin="3"/>
+<wire x1="-25.4" y1="91.44" x2="-25.4" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="THRTRIG" class="0">
@@ -1983,7 +1984,7 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="U2" gate="A" pin="OUT"/>
 </segment>
 <segment>
-<wire x1="-33.02" y1="104.14" x2="-43.18" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-32.385" y1="104.14" x2="-43.18" y2="104.14" width="0.1524" layer="91"/>
 <label x="-43.18" y="104.14" size="1.778" layer="95"/>
 <pinref part="Q1" gate="A" pin="1"/>
 </segment>
@@ -2000,10 +2001,10 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="58.42" y1="114.3" x2="58.42" y2="154.94" width="0.1524" layer="91"/>
 <junction x="30.48" y="114.3"/>
 <junction x="5.08" y="114.3"/>
-<wire x1="-25.4" y1="114.3" x2="-25.908" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="-25.908" y1="114.3" x2="-25.908" y2="108.966" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="A" pin="2"/>
+<wire x1="-25.4" y1="109.22" x2="-25.4" y2="114.3" width="0.1524" layer="91"/>
 <junction x="-25.4" y="114.3"/>
-<label x="-24.892" y="110.236" size="1.778" layer="95"/>
+<label x="-25.146" y="110.998" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RES789" class="0">
