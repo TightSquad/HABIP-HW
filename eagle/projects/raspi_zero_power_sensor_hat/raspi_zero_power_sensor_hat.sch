@@ -1322,15 +1322,13 @@
 </package>
 <package name="LGA043P045X033-24N">
 <smd name="2" x="-1.505" y="0.645" dx="0.45" dy="0.33" layer="1" stop="no"/>
-<wire x1="-1.5" y1="-2.5" x2="1.5" y2="-2.5" width="0.15" layer="21"/>
-<wire x1="1.5" y1="2.5" x2="-1.5" y2="2.5" width="0.15" layer="21"/>
 <text x="0" y="2.875" size="0.4064" layer="25" ratio="6" rot="SR0" align="center">&gt;NAME</text>
 <text x="0" y="-2.825" size="0.254" layer="27" ratio="6" rot="SR0" align="center">&gt;VALUE</text>
-<wire x1="-1.5" y1="-2.5" x2="-1.5" y2="2.5" width="0.05" layer="51"/>
-<wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.05" layer="51"/>
-<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.05" layer="51"/>
-<wire x1="1.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.05" layer="51"/>
-<circle x="-1.5" y="2.775" radius="0.070709375" width="0.15" layer="21"/>
+<wire x1="-1.75" y1="-1.5" x2="-1.75" y2="1.5" width="0.05" layer="51"/>
+<wire x1="-1.75" y1="1.5" x2="1.75" y2="1.5" width="0.05" layer="51"/>
+<wire x1="1.75" y1="1.5" x2="1.75" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="1.75" y1="-1.5" x2="-1.75" y2="-1.5" width="0.05" layer="51"/>
+<circle x="-1.5" y="1.775" radius="0.070709375" width="0.15" layer="21"/>
 <rectangle x1="-1.78" y1="0.43" x2="-1.23" y2="0.86" layer="29"/>
 <smd name="3" x="-1.505" y="0.215" dx="0.45" dy="0.33" layer="1" stop="no"/>
 <rectangle x1="-1.78" y1="0" x2="-1.23" y2="0.43" layer="29"/>
