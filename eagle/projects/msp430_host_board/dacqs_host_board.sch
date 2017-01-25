@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6232,9 +6232,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="J15" library="daqcs_host" deviceset="M02" device="PTH"/>
 <part name="U9" library="daqcs_host" deviceset="STD12NF06LT4" device=""/>
 <part name="BAT1" library="daqcs_host" deviceset="BC9VPC" device="" value="9V"/>
-<part name="R28" library="daqcs_host" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
-<part name="R29" library="daqcs_host" deviceset="RES" device="_0603" technology="_27R0" value="27k"/>
-<part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
 <part name="J11" library="daqcs_host" deviceset="M02" device="PTH"/>
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
 <part name="J1" library="daqcs_host" deviceset="MOLSL_4PIN" device="_RA" technology="_SL4RA" value="MOL-SL-4-RA"/>
@@ -6243,7 +6240,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="J4" library="daqcs_host" deviceset="MOLSL_4PIN" device="_RA" technology="_SL4RA" value="MOL-SL-4-RA"/>
 <part name="J5" library="daqcs_host" deviceset="MOLSL_5PIN" device="_RA" technology="_SL4RA" value="MOL-SL-5-RA"/>
 <part name="J6" library="daqcs_host" deviceset="MOLSL_3PIN" device="_V" technology="_SL3V" value="MOL-SL-3-V"/>
-<part name="J12" library="daqcs_host" deviceset="MOLSL_2PIN" device="_V" technology="_SL2V" value="MOL-SL-2-V"/>
 <part name="J16" library="daqcs_host" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
 <part name="J7" library="daqcs_host" deviceset="MOLSL_5PIN" device="_V" technology="_SL4V" value="MOL-SL-5-V"/>
 <part name="J8" library="daqcs_host" deviceset="MOLSL_3PIN" device="_RA" technology="_SL3RA" value="MOL-SL-3-RA"/>
@@ -6675,32 +6671,25 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="241.3" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MOTOR_BAT_VSENSE_1" class="0">
+<net name="VBAT_MOD_CELL_1" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="P3.0_A12_C12"/>
 <wire x1="55.88" y1="149.86" x2="30.48" y2="149.86" width="0.1524" layer="91"/>
-<label x="27.94" y="149.86" size="1.778" layer="95"/>
+<label x="30.48" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VBAT_MOD_CELL_1" class="0">
+<net name="VBAT_MOD_CELL_2" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="P3.1_A13_C13"/>
 <wire x1="55.88" y1="147.32" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
 <label x="30.48" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VBAT_MOD_CELL_2" class="0">
+<net name="VBAT_MOD_CELL_3" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="P3.2_A14_C14"/>
 <wire x1="55.88" y1="144.78" x2="30.48" y2="144.78" width="0.1524" layer="91"/>
 <label x="30.48" y="144.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VBAT_MOD_CELL_3" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="P3.3_A15_C15"/>
-<wire x1="55.88" y1="142.24" x2="30.48" y2="142.24" width="0.1524" layer="91"/>
-<label x="30.48" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBAT_MOD_CELL_4" class="0">
@@ -7273,7 +7262,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="91.44" y="99.06" size="2.54" layer="91">Header Connector for Spi-Bi-Wire</text>
 <text x="231.14" y="152.4" size="2.54" layer="91">Cutdown Switch and Connector</text>
 <text x="111.76" y="233.68" size="6.4516" layer="91">Host MSP430 Connectors</text>
-<text x="236.22" y="81.28" size="2.54" layer="91">Motor Battery Voltage Sense</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="-33.02" y="-7.62"/>
@@ -7285,16 +7273,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="+3V5" gate="G$1" x="259.08" y="208.28"/>
 <instance part="U9" gate="A" x="236.22" y="114.3"/>
 <instance part="BAT1" gate="G$1" x="287.02" y="111.76"/>
-<instance part="R28" gate="G$1" x="251.46" y="71.12"/>
-<instance part="R29" gate="G$1" x="264.16" y="60.96" rot="R90"/>
-<instance part="SUPPLY32" gate="GND" x="264.16" y="43.18"/>
 <instance part="J1" gate="G$1" x="20.32" y="195.58"/>
 <instance part="J2" gate="G$1" x="99.06" y="195.58"/>
 <instance part="J3" gate="G$1" x="20.32" y="142.24"/>
 <instance part="J4" gate="G$1" x="99.06" y="142.24"/>
 <instance part="J5" gate="G$1" x="20.32" y="78.74"/>
 <instance part="J6" gate="G$1" x="99.06" y="83.82"/>
-<instance part="J12" gate="G$1" x="218.44" y="68.58"/>
 <instance part="J16" gate="G$1" x="266.7" y="142.24" rot="R270"/>
 </instances>
 <busses>
@@ -7348,17 +7332,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="111.76" y1="78.74" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
 <label x="121.92" y="78.74" size="1.778" layer="95"/>
 <pinref part="J6" gate="G$1" pin="3"/>
-</segment>
-<segment>
-<wire x1="231.14" y1="66.04" x2="236.22" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="66.04" x2="236.22" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R29" gate="G$1" pin="1"/>
-<wire x1="236.22" y1="50.8" x2="264.16" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="50.8" x2="264.16" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="SUPPLY32" gate="GND" pin="GND"/>
-<wire x1="264.16" y1="45.72" x2="264.16" y2="50.8" width="0.1524" layer="91"/>
-<junction x="264.16" y="50.8"/>
-<pinref part="J12" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="UART_1_RX" class="0">
@@ -7599,33 +7572,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="304.8" y1="152.4" x2="304.8" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="91.44" x2="205.74" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="91.44" x2="205.74" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="4V2_BAT" class="0">
-<segment>
-<pinref part="R28" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="71.12" x2="246.38" y2="71.12" width="0.1524" layer="91"/>
-<label x="231.14" y="71.12" size="1.778" layer="95"/>
-<pinref part="J12" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="MOTOR_BAT_VSENSE_1" class="0">
-<segment>
-<pinref part="R28" gate="G$1" pin="2"/>
-<pinref part="R29" gate="G$1" pin="2"/>
-<wire x1="256.54" y1="71.12" x2="264.16" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="71.12" x2="264.16" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="71.12" x2="279.4" y2="71.12" width="0.1524" layer="91"/>
-<junction x="264.16" y="71.12"/>
-<label x="271.78" y="71.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$54" class="0">
-<segment>
-<wire x1="205.74" y1="81.28" x2="304.8" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="81.28" x2="304.8" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="35.56" x2="205.74" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="35.56" x2="205.74" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
