@@ -6577,7 +6577,7 @@ part number 2062-2P from STA</description>
 <attribute name="MANUFACTURER_PN" value="MSP430FR5994IPNR" constant="no"/>
 <attribute name="REFDES" value="RefDes" constant="no"/>
 <attribute name="TYPE" value="TYPE" constant="no"/>
-<attribute name="VALUE" value="Value" constant="no"/>
+<attribute name="VALUE" value="MSP430FR4994" constant="no"/>
 </technology>
 </technologies>
 </device>
