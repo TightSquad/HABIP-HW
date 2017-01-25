@@ -986,6 +986,36 @@ part number 2062-2P from STA</description>
 <text x="-5.08" y="7.62" size="2.0828" layer="95" align="center-left">&gt;NAME</text>
 <text x="0" y="-7.62" size="1.778" layer="96" align="center">&gt;VALUE</text>
 </symbol>
+<symbol name="TOC">
+<text x="-0.508" y="1.016" size="2.54" layer="94">SHEET_NAME</text>
+<text x="-15.24" y="1.27" size="2.54" layer="94">SHEET</text>
+<wire x1="-17.78" y1="5.08" x2="-17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-17.78" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="91.44" y2="5.08" width="0.254" layer="94"/>
+<wire x1="91.44" y1="5.08" x2="91.44" y2="0" width="0.254" layer="94"/>
+<wire x1="91.44" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<text x="-10.414" y="-3.556" size="1.778" layer="94">1</text>
+<wire x1="-17.78" y1="0" x2="-17.78" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-5.08" x2="-17.78" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-10.16" x2="-17.78" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-15.24" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="91.44" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="91.44" y1="-5.08" x2="91.44" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="91.44" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="91.44" y1="-10.16" x2="91.44" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="91.44" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="91.44" y1="-15.24" x2="91.44" y2="-10.16" width="0.254" layer="94"/>
+<text x="-10.414" y="-8.128" size="1.778" layer="94">2</text>
+<text x="-10.414" y="-13.462" size="1.778" layer="94">3</text>
+<text x="11.938" y="8.89" size="3.81" layer="94">TABLE OF CONTENTS</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BC9VPC" prefix="BAT" uservalue="yes">
@@ -1728,6 +1758,21 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
+<deviceset name="TOC">
+<gates>
+<gate name="G$1" symbol="TOC" x="-33.02" y="30.48"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="TOC" constant="no"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="frames">
@@ -1812,8 +1857,27 @@ DIN A4, landscape with location and doc. field</description>
 <part name="J8" library="grss" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
 <part name="J9" library="grss" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
 <part name="J10" library="grss" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
+<part name="FRAME2" library="frames" deviceset="A4L-LOC" device=""/>
+<part name="U$1" library="grss" deviceset="TOC" device="" value="TOC"/>
 </parts>
 <sheets>
+<sheet>
+<plain>
+<text x="65.786" y="90.17" size="2.54" layer="91">TITLE_TOC</text>
+<text x="65.786" y="85.09" size="2.54" layer="91">BLOCK_DIAGRAM</text>
+<text x="65.786" y="80.01" size="2.54" layer="91">SCHEMATIC</text>
+<text x="22.86" y="154.94" size="6.4516" layer="91">Global Recovery Signalling System (GRSS)</text>
+<text x="191.262" y="12.7" size="2.54" layer="91">TITLE_TOC</text>
+</plain>
+<instances>
+<instance part="FRAME2" gate="G$1" x="-25.4" y="-7.62"/>
+<instance part="U$1" gate="G$1" x="66.04" y="93.98"/>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
 <sheet>
 <plain>
 <text x="-50.8" y="177.8" size="1.778" layer="91">LED1</text>
@@ -1828,6 +1892,7 @@ DIN A4, landscape with location and doc. field</description>
 <text x="33.02" y="157.48" size="1.778" layer="91">Buzzer</text>
 <text x="-124.46" y="129.54" size="1.778" layer="91">555 Timer - ~1Hz</text>
 <text x="-129.54" y="170.18" size="1.778" layer="91">LDO 9V -&gt; 4.5V</text>
+<text x="21.59" y="68.58" size="2.54" layer="91">SCHEMATIC</text>
 </plain>
 <instances>
 <instance part="BATT" gate="G$1" x="-177.8" y="132.08"/>
