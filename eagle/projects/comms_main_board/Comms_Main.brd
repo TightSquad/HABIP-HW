@@ -2954,6 +2954,24 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Murata Electronics North America" x="-427.99" y="-132.08" size="1.778" layer="27" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="-427.99" y="-132.08" size="1.778" layer="27" display="off"/>
 </element>
+<element name="C14" library="comms" package="C1206" value="22uF" x="-434.34" y="-132.08">
+<attribute name="MANUFACTURER_PN" value="GRM31CR61A226ME19L" x="-434.34" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP_COEFF" value="X5R" x="-434.34" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="490-4738-1-ND" x="-434.34" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America" x="-434.34" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="20%" x="-434.34" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-434.34" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-434.34" y="-132.08" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C37" library="comms" package="C1206" value="22uF" x="-440.69" y="-132.08">
+<attribute name="MANUFACTURER_PN" value="GRM31CR61A226ME19L" x="-440.69" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP_COEFF" value="X5R" x="-440.69" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="490-4738-1-ND" x="-440.69" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America" x="-440.69" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="20%" x="-440.69" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-440.69" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-440.69" y="-132.08" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="PI_BUCK_SW">
@@ -3670,6 +3688,8 @@ design rules under a new name.</description>
 <contactref element="C27" pad="2"/>
 <contactref element="LED1" pad="C"/>
 <contactref element="LED2" pad="C"/>
+<contactref element="C37" pad="2"/>
+<contactref element="C14" pad="2"/>
 <wire x1="-260.35" y1="-17.3482" x2="-234.95" y2="-17.3482" width="0" layer="19" extent="1-1"/>
 <wire x1="-285.75" y1="-17.3482" x2="-260.35" y2="-17.3482" width="0" layer="19" extent="1-1"/>
 <wire x1="-311.15" y1="-17.3482" x2="-285.75" y2="-17.3482" width="0" layer="19" extent="1-1"/>
@@ -3707,6 +3727,8 @@ design rules under a new name.</description>
 <wire x1="156.3624" y1="81.8388" x2="153.6192" y2="85.4964" width="0" layer="19" extent="1-1"/>
 <wire x1="129.54" y1="46.77" x2="136.4742" y2="56.4642" width="0" layer="19" extent="1-16"/>
 <wire x1="-426.19" y1="-132.08" x2="-372.11" y2="-124.46" width="0" layer="19" extent="1-1"/>
+<wire x1="-432.54" y1="-132.08" x2="-426.19" y2="-132.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-438.89" y1="-132.08" x2="-432.54" y2="-132.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="7P4V_IN">
 <contactref element="C4" pad="1"/>
@@ -4844,6 +4866,8 @@ design rules under a new name.</description>
 <contactref element="TP34" pad="TP"/>
 <contactref element="L2" pad="2"/>
 <contactref element="C12" pad="1"/>
+<contactref element="C14" pad="1"/>
+<wire x1="-436.14" y1="-132.08" x2="-382.66" y2="-125.73" width="0" layer="19" extent="1-1"/>
 <wire x1="-325.12" y1="-92.71" x2="-382.66" y2="-125.73" width="0" layer="19" extent="1-1"/>
 <wire x1="-185.42" y1="-29.21" x2="-325.12" y2="-92.71" width="0" layer="19" extent="1-1"/>
 <wire x1="-163.83" y1="-29.21" x2="-185.42" y2="-29.21" width="0" layer="19" extent="1-1"/>
@@ -5091,7 +5115,9 @@ design rules under a new name.</description>
 <via x="74.0664" y="45.9486" extent="1-16" drill="0.6096"/>
 <contactref element="TP38" pad="TP"/>
 <contactref element="L6" pad="2"/>
+<contactref element="C37" pad="1"/>
 <wire x1="-400.44" y1="-125.73" x2="-325.12" y2="-107.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-442.49" y1="-132.08" x2="-400.44" y2="-125.73" width="0" layer="19" extent="1-1"/>
 <wire x1="17.8308" y1="26.9748" x2="-325.12" y2="-107.95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BUCK_POT_VFB">
