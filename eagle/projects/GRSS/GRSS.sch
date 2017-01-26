@@ -151,11 +151,13 @@
 <wire x1="54.864" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
 <pad name="V+" x="53.086" y="21.336" drill="2.032" shape="square"/>
 <pad name="V-" x="53.086" y="8.382" drill="2.032" shape="square"/>
-<text x="49.276" y="20.828" size="1.27" layer="21">V+</text>
+<text x="49.022" y="20.828" size="1.27" layer="21">V+</text>
 <text x="49.276" y="7.874" size="1.27" layer="21">V-</text>
 <hole x="27.178" y="3.81" drill="2.286"/>
 <hole x="13.716" y="26.162" drill="2.286"/>
 <hole x="40.64" y="26.162" drill="2.286"/>
+<text x="0" y="30.48" size="1.27" layer="25">&gt;NAME</text>
+<text x="26.035" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="BC9VPC_KIT">
 <wire x1="0" y1="0" x2="0" y2="29.972" width="0.127" layer="21"/>
@@ -1020,6 +1022,12 @@ part number 2062-2P from STA</description>
 <text x="-10.414" y="-13.462" size="1.778" layer="94">3</text>
 <text x="11.938" y="8.89" size="3.81" layer="94">TABLE OF CONTENTS</text>
 </symbol>
+<symbol name="NO_CONNECT">
+<text x="-7.366" y="-0.762" size="1.778" layer="94">&gt;NAME</text>
+<pin name="NC" x="0" y="0" visible="off" length="point" rot="R180"/>
+<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BC9VPC" prefix="BAT" uservalue="yes">
@@ -1777,6 +1785,22 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
+<deviceset name="NO_CONNECT" prefix="NC" uservalue="yes">
+<description>No Connect</description>
+<gates>
+<gate name="G$1" symbol="NO_CONNECT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="NC" constant="no"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="frames">
@@ -1863,6 +1887,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="J10" library="grss" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
 <part name="FRAME2" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="U$1" library="grss" deviceset="TOC" device="" value="TOC"/>
+<part name="NC1" library="grss" deviceset="NO_CONNECT" device="" value="NC"/>
 </parts>
 <sheets>
 <sheet>
@@ -1925,6 +1950,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="J8" gate="G$1" x="17.78" y="157.48"/>
 <instance part="J9" gate="G$1" x="17.78" y="137.16"/>
 <instance part="J10" gate="G$1" x="45.72" y="157.48"/>
+<instance part="NC1" gate="G$1" x="-78.74" y="127" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -2169,6 +2195,13 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J11" gate="G$1" pin="1"/>
 <wire x1="-177.8" y1="139.7" x2="-177.8" y2="154.94" width="0.1524" layer="91"/>
 <label x="-178.054" y="139.7" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="CVOLT"/>
+<pinref part="NC1" gate="G$1" pin="NC"/>
+<wire x1="-78.74" y1="127" x2="-83.82" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
