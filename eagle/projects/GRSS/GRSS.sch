@@ -1839,7 +1839,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="R1" library="grss" deviceset="RES" device="_0603" technology="_100R" value="100"/>
 <part name="R2" library="grss" deviceset="RES" device="_0603" technology="_100R" value="100"/>
 <part name="R3" library="grss" deviceset="RES" device="_0603" technology="_100R" value="100"/>
-<part name="R4" library="grss" deviceset="RES" device="_0603" technology="_76R8" value="76.8k"/>
+<part name="R4" library="grss" deviceset="RES" device="_0603" technology="_240R0" value="240k"/>
 <part name="C1" library="grss" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
 <part name="C2" library="grss" deviceset="CAP" device="_0603" technology="_10UF0" value="10uF"/>
 <part name="C3" library="grss" deviceset="CAP" device="_0603" technology="_2UF2" value="2.2uF"/>
@@ -1867,11 +1867,11 @@ DIN A4, landscape with location and doc. field</description>
 <sheets>
 <sheet>
 <plain>
-<text x="65.786" y="90.17" size="2.54" layer="91">TITLE_TOC</text>
-<text x="65.786" y="85.09" size="2.54" layer="91">BLOCK_DIAGRAM</text>
-<text x="65.786" y="80.01" size="2.54" layer="91">SCHEMATIC</text>
-<text x="22.86" y="154.94" size="6.4516" layer="91">Global Recovery Signalling System (GRSS)</text>
-<text x="191.262" y="12.7" size="2.54" layer="91">TITLE_TOC</text>
+<text x="65.786" y="90.17" size="2.54" layer="95">TITLE_TOC</text>
+<text x="65.786" y="85.09" size="2.54" layer="95">BLOCK_DIAGRAM</text>
+<text x="65.786" y="80.01" size="2.54" layer="95">SCHEMATIC</text>
+<text x="22.86" y="154.94" size="6.4516" layer="95">Global Recovery Signalling System (GRSS)</text>
+<text x="191.262" y="12.7" size="2.54" layer="95">TITLE_TOC</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="-25.4" y="-7.62"/>
@@ -1884,19 +1884,19 @@ DIN A4, landscape with location and doc. field</description>
 </sheet>
 <sheet>
 <plain>
-<text x="-50.8" y="177.8" size="1.778" layer="91">LED1</text>
-<text x="-50.8" y="157.48" size="1.778" layer="91">LED2</text>
-<text x="-50.8" y="137.16" size="1.778" layer="91">LED3</text>
-<text x="-22.86" y="177.8" size="1.778" layer="91">LED4</text>
-<text x="-22.86" y="157.48" size="1.778" layer="91">LED5</text>
-<text x="-22.86" y="137.16" size="1.778" layer="91">LED6</text>
-<text x="5.08" y="177.8" size="1.778" layer="91">LED7</text>
-<text x="5.08" y="157.48" size="1.778" layer="91">LED8</text>
-<text x="5.08" y="137.16" size="1.778" layer="91">LED9</text>
-<text x="33.02" y="157.48" size="1.778" layer="91">Buzzer</text>
-<text x="-124.46" y="129.54" size="1.778" layer="91">555 Timer - ~1Hz</text>
-<text x="-129.54" y="170.18" size="1.778" layer="91">LDO 9V -&gt; 4.5V</text>
-<text x="21.59" y="68.58" size="2.54" layer="91">SCHEMATIC</text>
+<text x="-50.8" y="177.8" size="1.778" layer="97">LED1</text>
+<text x="-50.8" y="157.48" size="1.778" layer="97">LED2</text>
+<text x="-50.8" y="137.16" size="1.778" layer="97">LED3</text>
+<text x="-22.86" y="177.8" size="1.778" layer="97">LED4</text>
+<text x="-22.86" y="157.48" size="1.778" layer="97">LED5</text>
+<text x="-22.86" y="137.16" size="1.778" layer="97">LED6</text>
+<text x="5.08" y="177.8" size="1.778" layer="97">LED7</text>
+<text x="5.08" y="157.48" size="1.778" layer="97">LED8</text>
+<text x="5.08" y="137.16" size="1.778" layer="97">LED9</text>
+<text x="33.02" y="157.48" size="1.778" layer="97">Buzzer</text>
+<text x="-124.46" y="129.54" size="1.778" layer="97">555 Timer - ~3s</text>
+<text x="-129.54" y="170.18" size="1.778" layer="97">LDO 9V -&gt; 4.5V</text>
+<text x="21.59" y="68.58" size="2.54" layer="95">SCHEMATIC</text>
 </plain>
 <instances>
 <instance part="BATT" gate="G$1" x="-177.8" y="132.08"/>
