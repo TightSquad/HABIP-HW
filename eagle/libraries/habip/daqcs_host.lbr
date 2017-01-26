@@ -6760,6 +6760,16 @@ part number 2062-2P from STA</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="_10000PF0">
+<attribute name="MANUFACTURER" value="AVX Corporation" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="06035C103KAT4A" constant="no"/>
+<attribute name="TEMP_COEFF" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="10000pF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="478-10055-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
 <technology name="_1000PF0">
 <attribute name="MANUFACTURER" value="Murata" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R71H102KA01D" constant="no"/>
@@ -9520,8 +9530,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <attribute name="MANUFACTURER_PN" value="LSM9DS1TR" constant="no"/>
 <attribute name="PROD_ID" value="IC-12536" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="497-14946-1-ND
-" constant="no"/>
+<attribute name="VENDOR_PN" value="497-14946-1-ND " constant="no"/>
 </technology>
 </technologies>
 </device>
