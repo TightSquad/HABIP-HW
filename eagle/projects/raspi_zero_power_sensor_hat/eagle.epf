@@ -10,6 +10,8 @@ AutoSaveProject=1
 UsedLibrary="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/eagle/libraries/habip/daqcs.lbr"
 UsedLibrary="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/eagle/libraries/eagle_install_lbr/testpad.lbr"
 UsedLibrary="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/eagle/libraries/SparkFun-Eagle-Libraries-master/SparkFun-Sensors.lbr"
+UsedLibrary="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/eagle/libraries/Adafruit-Eagle-Library-master/adafruit.lbr"
+UsedLibrary="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/eagle/libraries/SparkFun-Eagle-Libraries-master/SparkFun-Electromechanical.lbr"
 
 [Desktop]
-Screen="1920 1200"
+Screen="640 480"
