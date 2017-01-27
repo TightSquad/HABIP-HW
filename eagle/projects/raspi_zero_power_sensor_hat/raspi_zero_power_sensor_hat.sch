@@ -1045,39 +1045,6 @@
 <vertex x="-6.0325" y="5.8737"/>
 </polygon>
 </package>
-<package name="DFN-100P085X045-T-6N">
-<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.05" layer="51"/>
-<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.05" layer="51"/>
-<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.05" layer="51"/>
-<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.05" layer="51"/>
-<smd name="1" x="-1.45" y="1" dx="0.45" dy="0.85" layer="1" roundness="100" rot="R90" stop="no"/>
-<text x="-0.942" y="1.674" size="0.4064" layer="27" ratio="6">&gt;Value</text>
-<text x="-0.56" y="-1.902" size="0.254" layer="25" ratio="6">&gt;Name</text>
-<wire x1="-1" y1="1.5" x2="1" y2="1.5" width="0.15" layer="21"/>
-<wire x1="-1" y1="-1.5" x2="1" y2="-1.5" width="0.15" layer="21"/>
-<circle x="-1.81" y="1.525" radius="0.07615625" width="0.15" layer="21"/>
-<rectangle x1="-1.925" y1="0.725" x2="-0.975" y2="1.275" layer="29"/>
-<smd name="4" x="1.45" y="-1" dx="0.45" dy="0.85" layer="1" roundness="100" rot="R90" stop="no"/>
-<rectangle x1="0.975" y1="-1.275" x2="1.925" y2="-0.725" layer="29"/>
-<smd name="PAD" x="0" y="0" dx="2.5" dy="1.6" layer="1" rot="R90" stop="no" cream="no"/>
-<rectangle x1="-0.85" y1="-1.3" x2="0.85" y2="1.3" layer="29"/>
-<rectangle x1="-1.875" y1="0.775" x2="-1.475" y2="1.225" layer="1"/>
-<smd name="2" x="-1.45" y="0" dx="0.45" dy="0.85" layer="1" roundness="100" rot="R90" stop="no"/>
-<rectangle x1="-1.925" y1="-0.275" x2="-0.975" y2="0.275" layer="29"/>
-<rectangle x1="-1.875" y1="-0.225" x2="-1.475" y2="0.225" layer="1"/>
-<smd name="3" x="-1.45" y="-1" dx="0.45" dy="0.85" layer="1" roundness="100" rot="R90" stop="no"/>
-<rectangle x1="-1.925" y1="-1.275" x2="-0.975" y2="-0.725" layer="29"/>
-<rectangle x1="-1.875" y1="-1.225" x2="-1.475" y2="-0.775" layer="1"/>
-<rectangle x1="1.45" y1="-1.225" x2="1.875" y2="-0.775" layer="1"/>
-<smd name="5" x="1.45" y="0" dx="0.45" dy="0.85" layer="1" roundness="100" rot="R90" stop="no"/>
-<rectangle x1="0.975" y1="-0.275" x2="1.925" y2="0.275" layer="29"/>
-<rectangle x1="1.45" y1="-0.225" x2="1.875" y2="0.225" layer="1"/>
-<smd name="6" x="1.45" y="1" dx="0.45" dy="0.85" layer="1" roundness="100" rot="R90" stop="no"/>
-<rectangle x1="0.975" y1="0.725" x2="1.925" y2="1.275" layer="29"/>
-<rectangle x1="1.45" y1="0.775" x2="1.875" y2="1.225" layer="1"/>
-<rectangle x1="-0.7" y1="0.1" x2="0.7" y2="1.15" layer="31"/>
-<rectangle x1="-0.7" y1="-1.15" x2="0.7" y2="-0.1" layer="31"/>
-</package>
 <package name="RECEPTACLE-2X6-254MM">
 <pad name="8" x="1.27" y="1.27" drill="1" diameter="1.5"/>
 <pad name="7" x="1.27" y="-1.27" drill="1" diameter="1.5"/>
@@ -1384,6 +1351,39 @@
 <pad name="3" x="-3.25" y="-2.25" drill="1.016" diameter="1.8796"/>
 <pad name="4" x="3.25" y="-2.25" drill="1.016" diameter="1.8796"/>
 <text x="-2.54" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+</package>
+<package name="DFN-100P085X045-T-6N">
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.05" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.05" layer="51"/>
+<smd name="1" x="-1.45" y="1" dx="0.45" dy="0.85" layer="1" roundness="100" rot="R90" stop="no"/>
+<text x="-0.942" y="1.674" size="0.4064" layer="27" ratio="6">&gt;Value</text>
+<text x="-0.56" y="-1.902" size="0.254" layer="25" ratio="6">&gt;Name</text>
+<wire x1="-1" y1="1.5" x2="1" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-1" y1="-1.5" x2="1" y2="-1.5" width="0.15" layer="21"/>
+<circle x="-1.81" y="1.525" radius="0.07615625" width="0.15" layer="21"/>
+<rectangle x1="-1.925" y1="0.725" x2="-0.975" y2="1.275" layer="29"/>
+<smd name="4" x="1.45" y="-1" dx="0.45" dy="0.85" layer="1" roundness="100" rot="R90" stop="no"/>
+<rectangle x1="0.975" y1="-1.275" x2="1.925" y2="-0.725" layer="29"/>
+<smd name="PAD" x="0" y="0" dx="2.5" dy="1.6" layer="1" rot="R90" stop="no" cream="no"/>
+<rectangle x1="-0.85" y1="-1.3" x2="0.85" y2="1.3" layer="29"/>
+<rectangle x1="-1.875" y1="0.775" x2="-1.475" y2="1.225" layer="1"/>
+<smd name="2" x="-1.45" y="0" dx="0.45" dy="0.85" layer="1" roundness="100" rot="R90" stop="no"/>
+<rectangle x1="-1.925" y1="-0.275" x2="-0.975" y2="0.275" layer="29"/>
+<rectangle x1="-1.875" y1="-0.225" x2="-1.475" y2="0.225" layer="1"/>
+<smd name="3" x="-1.45" y="-1" dx="0.45" dy="0.85" layer="1" roundness="100" rot="R90" stop="no"/>
+<rectangle x1="-1.925" y1="-1.275" x2="-0.975" y2="-0.725" layer="29"/>
+<rectangle x1="-1.875" y1="-1.225" x2="-1.475" y2="-0.775" layer="1"/>
+<rectangle x1="1.45" y1="-1.225" x2="1.875" y2="-0.775" layer="1"/>
+<smd name="5" x="1.45" y="0" dx="0.45" dy="0.85" layer="1" roundness="100" rot="R90" stop="no"/>
+<rectangle x1="0.975" y1="-0.275" x2="1.925" y2="0.275" layer="29"/>
+<rectangle x1="1.45" y1="-0.225" x2="1.875" y2="0.225" layer="1"/>
+<smd name="6" x="1.45" y="1" dx="0.45" dy="0.85" layer="1" roundness="100" rot="R90" stop="no"/>
+<rectangle x1="0.975" y1="0.725" x2="1.925" y2="1.275" layer="29"/>
+<rectangle x1="1.45" y1="0.775" x2="1.875" y2="1.225" layer="1"/>
+<rectangle x1="-0.7" y1="0.1" x2="0.7" y2="1.15" layer="31"/>
+<rectangle x1="-0.7" y1="-1.15" x2="0.7" y2="-0.1" layer="31"/>
 </package>
 </packages>
 <symbols>
@@ -32194,21 +32194,6 @@
 <pin name="4" x="12.7" y="-5.08" rot="R180"/>
 <pin name="5" x="12.7" y="-10.16" rot="R180"/>
 </symbol>
-<symbol name="SI7021">
-<pin name="VDD" x="-17.78" y="7.62" length="middle" direction="pwr"/>
-<pin name="SCL" x="17.78" y="2.54" length="middle" direction="in" rot="R180"/>
-<pin name="NC@1" x="17.78" y="-5.08" length="middle" direction="nc" rot="R180"/>
-<pin name="PAD" x="-17.78" y="-10.16" length="middle" direction="pwr"/>
-<pin name="SDA" x="17.78" y="7.62" length="middle" rot="R180"/>
-<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-15.24" width="0.4064" layer="94"/>
-<wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="-15.24" x2="12.7" y2="15.24" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.4064" layer="94"/>
-<text x="-12.7" y="16.51" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="0" y="12.7" size="2.0828" layer="96" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
-<pin name="NC@2" x="17.78" y="-10.16" length="middle" direction="nc" rot="R180"/>
-<pin name="GND" x="-17.78" y="-5.08" length="middle" direction="pwr"/>
-</symbol>
 <symbol name="HEADER-2X6-254MM-PIZERO">
 <pin name="3V3" x="-35.56" y="12.7" length="middle"/>
 <pin name="GPIO2/SDA1" x="-35.56" y="7.62" length="middle"/>
@@ -32501,6 +32486,21 @@
 <pin name="3" x="0" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="4" x="2.54" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
+</symbol>
+<symbol name="SI7021">
+<pin name="VDD" x="-17.78" y="7.62" length="middle" direction="pwr"/>
+<pin name="SCL" x="17.78" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="NC@1" x="17.78" y="-5.08" length="middle" direction="nc" rot="R180"/>
+<pin name="PAD" x="-17.78" y="-10.16" length="middle" direction="pwr"/>
+<pin name="SDA" x="17.78" y="7.62" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="12.7" y2="15.24" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.4064" layer="94"/>
+<text x="-12.7" y="16.51" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="0" y="12.7" size="2.0828" layer="96" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
+<pin name="NC@2" x="17.78" y="-10.16" length="middle" direction="nc" rot="R180"/>
+<pin name="GND" x="-17.78" y="-5.08" length="middle" direction="pwr"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -33651,38 +33651,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
-<deviceset name="SI7021" prefix="J" uservalue="yes">
-<description>&lt;b&gt;I2C HUMIDITY AND TEMPERATURE SENSOR&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="SI7021" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_DFN6" package="DFN-100P085X045-T-6N">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="NC@1" pad="3"/>
-<connect gate="G$1" pin="NC@2" pad="4"/>
-<connect gate="G$1" pin="PAD" pad="PAD"/>
-<connect gate="G$1" pin="SCL" pad="6"/>
-<connect gate="G$1" pin="SDA" pad="1"/>
-<connect gate="G$1" pin="VDD" pad="5"/>
-</connects>
-<technologies>
-<technology name="-A20-IM">
-<attribute name="ACCURACY" value="3%_RH" constant="no"/>
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/sensors/Si7021-A20.pdf" constant="no"/>
-<attribute name="INTERFACE" value="I2C" constant="no"/>
-<attribute name="MANUFACTURER" value="Silicon Labs" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="SI7021-A20-IM" constant="no"/>
-<attribute name="RESPONSE_TIME" value="18s" constant="no"/>
-<attribute name="VALUE" value="SI7021" constant="no"/>
-<attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="336-3142-5-ND" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="RECEPTICAL-2X6-254MM-PIZERO" prefix="J" uservalue="yes">
 <description>&lt;b&gt;.100” [2.54 mm] Contact Centers, Female Headers, Straight/Right Angle/SMT&lt;/b&gt;</description>
 <gates>
@@ -34001,6 +33969,38 @@ The output of the device is an open drain and can be connected to other open-dra
 </device>
 </devices>
 </deviceset>
+<deviceset name="SI7021" prefix="U" uservalue="yes">
+<description>&lt;b&gt;I2C HUMIDITY AND TEMPERATURE SENSOR&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="SI7021" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_DFN6" package="DFN-100P085X045-T-6N">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="NC@1" pad="3"/>
+<connect gate="G$1" pin="NC@2" pad="4"/>
+<connect gate="G$1" pin="PAD" pad="PAD"/>
+<connect gate="G$1" pin="SCL" pad="6"/>
+<connect gate="G$1" pin="SDA" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+</connects>
+<technologies>
+<technology name="-A20-IM">
+<attribute name="ACCURACY" value="3%_RH" constant="no"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/sensors/Si7021-A20.pdf" constant="no"/>
+<attribute name="INTERFACE" value="I2C" constant="no"/>
+<attribute name="MANUFACTURER" value="Silicon Labs" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="SI7021-A20-IM" constant="no"/>
+<attribute name="RESPONSE_TIME" value="18s" constant="no"/>
+<attribute name="VALUE" value="SI7021" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="336-3142-5-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -34158,7 +34158,6 @@ The output of the device is an open drain and can be connected to other open-dra
 <part name="TP604" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="J501" library="daqcs" deviceset="MOLSL_5PIN" device="_V" technology="_SL4V" value="MOL-SL-5-V"/>
 <part name="C505" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
-<part name="J502" library="daqcs" deviceset="SI7021" device="_DFN6" technology="-A20-IM" value="SI7021"/>
 <part name="C512" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
 <part name="GND523" library="daqcs" deviceset="GND" device=""/>
 <part name="GND521" library="daqcs" deviceset="GND" device=""/>
@@ -34229,6 +34228,7 @@ The output of the device is an open drain and can be connected to other open-dra
 <part name="TP402" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP405" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP403" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="U508" library="daqcs" deviceset="SI7021" device="_DFN6" technology="-A20-IM" value="SI7021"/>
 </parts>
 <sheets>
 <sheet>
@@ -35244,7 +35244,6 @@ The output of the device is an open drain and can be connected to other open-dra
 <attribute name="TOLERANCE" x="182.499" y="214.884" size="1.778" layer="95" ratio="10" rot="R90"/>
 <attribute name="VOLTAGE" x="185.039" y="214.884" size="1.778" layer="95" ratio="10" rot="R90"/>
 </instance>
-<instance part="J502" gate="G$1" x="358.14" y="73.66"/>
 <instance part="C512" gate="G$1" x="325.12" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="322.199" y="85.344" size="2.0828" layer="95" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="327.279" y="82.804" size="1.778" layer="96" ratio="10" rot="R90"/>
@@ -35276,6 +35275,7 @@ The output of the device is an open drain and can be connected to other open-dra
 <instance part="C507" gate="G$1" x="182.88" y="66.04"/>
 <instance part="GND513" gate="1" x="172.72" y="50.8"/>
 <instance part="C504" gate="G$1" x="172.72" y="66.04"/>
+<instance part="U508" gate="G$1" x="358.14" y="73.66"/>
 </instances>
 <busses>
 </busses>
@@ -35395,14 +35395,14 @@ The output of the device is an open drain and can be connected to other open-dra
 <wire x1="314.96" y1="81.28" x2="320.04" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J502" gate="G$1" pin="GND"/>
 <wire x1="340.36" y1="68.58" x2="335.28" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="GND523" gate="1" pin="GND"/>
 <wire x1="335.28" y1="68.58" x2="335.28" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="J502" gate="G$1" pin="PAD"/>
 <wire x1="335.28" y1="63.5" x2="335.28" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="63.5" x2="335.28" y2="63.5" width="0.1524" layer="91"/>
 <junction x="335.28" y="63.5"/>
+<pinref part="U508" gate="G$1" pin="PAD"/>
+<pinref part="U508" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND517" gate="1" pin="GND"/>
@@ -35508,9 +35508,9 @@ The output of the device is an open drain and can be connected to other open-dra
 <pinref part="U507" gate="G$1" pin="SDI/SDA"/>
 </segment>
 <segment>
-<pinref part="J502" gate="G$1" pin="SDA"/>
 <wire x1="375.92" y1="81.28" x2="408.94" y2="81.28" width="0.1524" layer="91"/>
 <label x="381" y="81.28" size="1.778" layer="95"/>
+<pinref part="U508" gate="G$1" pin="SDA"/>
 </segment>
 <segment>
 <pinref part="U505" gate="G$1" pin="SDA/SDI/SDO"/>
@@ -35550,9 +35550,9 @@ The output of the device is an open drain and can be connected to other open-dra
 <pinref part="U507" gate="G$1" pin="SCLK"/>
 </segment>
 <segment>
-<pinref part="J502" gate="G$1" pin="SCL"/>
 <wire x1="375.92" y1="76.2" x2="408.94" y2="76.2" width="0.1524" layer="91"/>
 <label x="381" y="76.2" size="1.778" layer="95"/>
+<pinref part="U508" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
 <pinref part="U505" gate="G$1" pin="SCL/SPC"/>
@@ -35733,12 +35733,12 @@ The output of the device is an open drain and can be connected to other open-dra
 </segment>
 <segment>
 <pinref part="C512" gate="G$1" pin="2"/>
-<pinref part="J502" gate="G$1" pin="VDD"/>
 <wire x1="327.66" y1="81.28" x2="335.28" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="81.28" x2="340.36" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="96.52" x2="335.28" y2="81.28" width="0.1524" layer="91"/>
 <junction x="335.28" y="81.28"/>
 <pinref part="PP3V3_HAT509" gate="G$1" pin="PP3V3_HAT"/>
+<pinref part="U508" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="U506" gate="G$1" pin="VDD"/>
