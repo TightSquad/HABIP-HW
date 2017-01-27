@@ -209,13 +209,13 @@
 <wire x1="0.4" y1="0.36" x2="-0.4" y2="0.36" width="0.08" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1" dy="1" layer="1" stop="no"/>
 <smd name="2" x="0.85" y="0" dx="1" dy="1" layer="1" stop="no"/>
-<text x="0" y="0.85" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
+<text x="0" y="0.9262" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
 <text x="0" y="-0.75" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
 <rectangle x1="0.4" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
 <rectangle x1="-0.8" y1="-0.4" x2="-0.4" y2="0.4" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<wire x1="-0.15" y1="0.5" x2="0.15" y2="0.5" width="0.15" layer="21"/>
-<wire x1="-0.15" y1="-0.5" x2="0.15" y2="-0.5" width="0.15" layer="21"/>
+<wire x1="-0.2008" y1="0.5" x2="0.2008" y2="0.5" width="0.15" layer="21"/>
+<wire x1="-0.2008" y1="-0.5" x2="0.2008" y2="-0.5" width="0.15" layer="21"/>
 <rectangle x1="-1.4" y1="-0.55" x2="-0.3" y2="0.55" layer="29"/>
 <rectangle x1="0.3" y1="-0.55" x2="1.4" y2="0.55" layer="29"/>
 </package>
@@ -244,9 +244,9 @@
 <wire x1="3.52" y1="0.91" x2="3.52" y2="-0.95" width="0.15" layer="21"/>
 </package>
 <package name="AUDIO-JACK-TRRS-SMD">
-<wire x1="0.5" y1="-3.3" x2="10.5" y2="-3.3" width="0.254" layer="21"/>
-<wire x1="12.2" y1="3.3" x2="12.2" y2="-3.3" width="0.254" layer="21"/>
-<wire x1="12.2" y1="3.3" x2="11" y2="3.3" width="0.254" layer="21"/>
+<wire x1="0.5" y1="-3.3" x2="10.3984" y2="-3.2873" width="0.381" layer="21"/>
+<wire x1="12.2" y1="3.3" x2="12.2" y2="-3.3" width="0.381" layer="21"/>
+<wire x1="12.2" y1="3.3" x2="11.1397" y2="3.3" width="0.381" layer="21"/>
 <wire x1="0.5" y1="3.3" x2="0" y2="3.3" width="0.254" layer="51"/>
 <wire x1="0" y1="3.3" x2="0" y2="2.8" width="0.254" layer="51"/>
 <wire x1="0" y1="2.8" x2="0" y2="-2.8" width="0.254" layer="51"/>
@@ -261,9 +261,9 @@
 <smd name="RING2" x="3.2" y="3.25" dx="1.2" dy="2.5" layer="1" rot="R180"/>
 <hole x="1.6" y="0" drill="1.2"/>
 <hole x="8.6" y="0" drill="1.2"/>
-<wire x1="7" y1="3.3" x2="9.4" y2="3.3" width="0.254" layer="21"/>
-<wire x1="4" y1="3.3" x2="5.4" y2="3.3" width="0.254" layer="21"/>
-<wire x1="0.5" y1="3.3" x2="2.4" y2="3.3" width="0.254" layer="21"/>
+<wire x1="7.1143" y1="3.3" x2="9.2857" y2="3.3" width="0.381" layer="21"/>
+<wire x1="4.1143" y1="3.3" x2="5.2857" y2="3.3" width="0.381" layer="21"/>
+<wire x1="0.5" y1="3.3" x2="2.2603" y2="3.3" width="0.381" layer="21"/>
 <text x="0.635" y="-3.937" size="0.4064" layer="25">&gt;NAME</text>
 </package>
 <package name="HEADER-2X20-254MM">
@@ -1357,11 +1357,11 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 </package>
 <package name="39-30-?02?">
 <description>&lt;b&gt;HEADER&lt;/b&gt;</description>
-<wire x1="-1.9884" y1="-1.2441" x2="-2.809" y2="-1.2441" width="0.2032" layer="21"/>
-<wire x1="-2.809" y1="-1.2441" x2="-2.809" y2="-13.8441" width="0.2032" layer="21"/>
-<wire x1="-2.809" y1="-13.8441" x2="2.809" y2="-13.8441" width="0.2032" layer="21"/>
-<wire x1="2.809" y1="-13.8441" x2="2.809" y2="-1.2441" width="0.2032" layer="21"/>
-<wire x1="2.809" y1="-1.2441" x2="1.9884" y2="-1.2441" width="0.2032" layer="21"/>
+<wire x1="-2.1281" y1="-1.2441" x2="-2.809" y2="-1.2441" width="0.381" layer="21"/>
+<wire x1="-2.809" y1="-1.2441" x2="-2.809" y2="-13.8441" width="0.381" layer="21"/>
+<wire x1="-2.809" y1="-13.8441" x2="2.809" y2="-13.8441" width="0.381" layer="21"/>
+<wire x1="2.809" y1="-13.8441" x2="2.809" y2="-1.2441" width="0.381" layer="21"/>
+<wire x1="2.809" y1="-1.2441" x2="2.0646" y2="-1.2441" width="0.381" layer="21"/>
 <pad name="2" x="0" y="5.5118" drill="1.8" diameter="3.5" shape="octagon" rot="R90"/>
 <pad name="1" x="0" y="0" drill="1.8" diameter="3.5" shape="square" rot="R90"/>
 <text x="-3.429" y="-13.7541" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
@@ -1382,16 +1382,16 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 <wire x1="2.79" y1="2.54" x2="2.79" y2="-2.54" width="0.127" layer="51"/>
 <wire x1="-2.79" y1="2.54" x2="-2.79" y2="-2.54" width="0.127" layer="51"/>
 <wire x1="-2.79" y1="-2.54" x2="2.79" y2="-2.54" width="0.127" layer="51"/>
-<wire x1="-2.79" y1="2.54" x2="-2.79" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="2.79" y1="2.54" x2="2.79" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-2.79" y1="2.54" x2="2.79" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-2.79" y1="-2.54" x2="2.79" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.79" y1="2.54" x2="-2.79" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="2.79" y1="2.54" x2="2.79" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-2.79" y1="2.54" x2="2.79" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-2.79" y1="-2.54" x2="2.79" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="-2.79" y1="2.54" x2="-2.79" y2="-2.54" width="0.127" layer="22"/>
 <wire x1="-2.79" y1="-2.54" x2="2.79" y2="-2.54" width="0.127" layer="22"/>
 <wire x1="2.79" y1="-2.54" x2="2.79" y2="2.54" width="0.127" layer="22"/>
 <wire x1="-2.79" y1="2.54" x2="2.79" y2="2.54" width="0.127" layer="22"/>
-<circle x="-2.92" y="-2.547" radius="0.36226875" width="0.127" layer="21"/>
-<circle x="-2.908" y="-2.547" radius="0.36226875" width="0.127" layer="22"/>
+<circle x="-2.92" y="-2.547" radius="0.36226875" width="0.1524" layer="21"/>
+<circle x="-2.908" y="-2.547" radius="0.36226875" width="0.1524" layer="22"/>
 </package>
 <package name="SMA-EDGE">
 <description>&lt;b&gt;SMA Antenna Connector&lt;/b&gt;&lt;p&gt;
@@ -1521,8 +1521,8 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <wire x1="-8.89" y1="-1.27" x2="-6.35" y2="-1.27" width="0.127" layer="51"/>
 <wire x1="6.35" y1="1.27" x2="8.89" y2="1.27" width="0.127" layer="51"/>
 <wire x1="8.89" y1="-1.27" x2="6.35" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="-6.212" y1="7.791" x2="6.356" y2="7.791" width="0.15" layer="21"/>
-<wire x1="-6.024" y1="-7.758" x2="6.544" y2="-7.758" width="0.15" layer="21"/>
+<wire x1="-6.212" y1="7.791" x2="6.356" y2="7.791" width="0.381" layer="21"/>
+<wire x1="-6.024" y1="-7.758" x2="6.544" y2="-7.758" width="0.381" layer="21"/>
 <text x="-4.445" y="-9.525" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-3.175" y="8.255" size="1.27" layer="25">&gt;NAME</text>
 </package>
