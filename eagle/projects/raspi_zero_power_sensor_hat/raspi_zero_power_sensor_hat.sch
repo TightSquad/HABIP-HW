@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -59,7 +59,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -103,38 +103,38 @@
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
-<layer number="209" name="209bmp" color="10" fill="10" visible="no" active="yes"/>
-<layer number="210" name="210bmp" color="11" fill="10" visible="no" active="yes"/>
-<layer number="211" name="211bmp" color="12" fill="10" visible="no" active="yes"/>
-<layer number="212" name="212bmp" color="13" fill="10" visible="no" active="yes"/>
-<layer number="213" name="213bmp" color="14" fill="10" visible="no" active="yes"/>
-<layer number="214" name="214bmp" color="15" fill="10" visible="no" active="yes"/>
-<layer number="215" name="215bmp" color="16" fill="10" visible="no" active="yes"/>
-<layer number="216" name="216bmp" color="17" fill="10" visible="no" active="yes"/>
-<layer number="217" name="217bmp" color="18" fill="10" visible="no" active="yes"/>
-<layer number="218" name="218bmp" color="19" fill="10" visible="no" active="yes"/>
-<layer number="219" name="219bmp" color="20" fill="10" visible="no" active="yes"/>
-<layer number="220" name="220bmp" color="21" fill="10" visible="no" active="yes"/>
-<layer number="221" name="221bmp" color="22" fill="10" visible="no" active="yes"/>
-<layer number="222" name="222bmp" color="23" fill="10" visible="no" active="yes"/>
-<layer number="223" name="223bmp" color="24" fill="10" visible="no" active="yes"/>
-<layer number="224" name="224bmp" color="25" fill="10" visible="no" active="yes"/>
-<layer number="225" name="225bmp" color="26" fill="10" visible="no" active="yes"/>
-<layer number="226" name="226bmp" color="27" fill="10" visible="no" active="yes"/>
-<layer number="227" name="227bmp" color="28" fill="10" visible="no" active="yes"/>
-<layer number="228" name="228bmp" color="29" fill="10" visible="no" active="yes"/>
-<layer number="229" name="229bmp" color="30" fill="10" visible="no" active="yes"/>
-<layer number="230" name="230bmp" color="31" fill="10" visible="no" active="yes"/>
-<layer number="231" name="231bmp" color="32" fill="10" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="10" fill="10" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="11" fill="10" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="12" fill="10" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="13" fill="10" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="14" fill="10" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="15" fill="10" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="16" fill="10" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="17" fill="10" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="10" visible="yes" active="yes"/>
+<layer number="218" name="218bmp" color="19" fill="10" visible="yes" active="yes"/>
+<layer number="219" name="219bmp" color="20" fill="10" visible="yes" active="yes"/>
+<layer number="220" name="220bmp" color="21" fill="10" visible="yes" active="yes"/>
+<layer number="221" name="221bmp" color="22" fill="10" visible="yes" active="yes"/>
+<layer number="222" name="222bmp" color="23" fill="10" visible="yes" active="yes"/>
+<layer number="223" name="223bmp" color="24" fill="10" visible="yes" active="yes"/>
+<layer number="224" name="224bmp" color="25" fill="10" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="26" fill="10" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="27" fill="10" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="28" fill="10" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="29" fill="10" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="30" fill="10" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="31" fill="10" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="32" fill="10" visible="yes" active="yes"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
@@ -36041,7 +36041,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="-05BA">
-<attribute name="DATASHEET" value="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/sensors/ENG_DS_MS5803-05BA_B.pdf" constant="no"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/sensors/ENG_DS_MS5803-05BA_B.pdf" constant="no"/>
 <attribute name="INTERFACE" value="I2C,SPI" constant="no"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="MS580305BA01-00" constant="no"/>
@@ -36608,6 +36608,7 @@ The output of the device is an open drain and can be connected to other open-dra
 <technologies>
 <technology name="_B">
 <attribute name="CONTACTS" value="5" constant="no"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/charger_power/10118193.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Amphenol" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="10118193-0001LF" constant="no"/>
 <attribute name="MOUNT_ANGLE" value="RIGHT" constant="no"/>
@@ -36626,6 +36627,7 @@ The output of the device is an open drain and can be connected to other open-dra
 <attributes>
 </attributes>
 <variantdefs>
+<variantdef name="POR" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -36671,7 +36673,9 @@ The output of the device is an open drain and can be connected to other open-dra
 <part name="GND413" library="daqcs" deviceset="GND" device=""/>
 <part name="U506" library="daqcs" deviceset="MS5607" device="_8SMD" technology="-02BA03" value="MS560702BA03-50"/>
 <part name="U501" library="daqcs" deviceset="PCT2075" device="SOIC8" technology="D,118" value="PCT2075D,118"/>
-<part name="U503" library="daqcs" deviceset="MAX11613" device="" technology="EUA+" value="MAX11613EUA+"/>
+<part name="U503" library="daqcs" deviceset="MAX11613" device="" technology="EUA+" value="MAX11613EUA+">
+<variant name="POR" populate="no"/>
+</part>
 <part name="R507" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="C511" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
 <part name="GND520" library="daqcs" deviceset="GND" device=""/>
@@ -36682,7 +36686,9 @@ The output of the device is an open drain and can be connected to other open-dra
 <part name="GND504" library="daqcs" deviceset="GND" device=""/>
 <part name="GND509" library="daqcs" deviceset="GND" device=""/>
 <part name="GND501" library="daqcs" deviceset="GND" device=""/>
-<part name="C503" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
+<part name="C503" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF">
+<variant name="POR" populate="no"/>
+</part>
 <part name="GND505" library="daqcs" deviceset="GND" device=""/>
 <part name="GND511" library="daqcs" deviceset="GND" device=""/>
 <part name="R401" library="daqcs" deviceset="RES" device="_0603" technology="_0R499" value="49.9"/>
@@ -36703,8 +36709,12 @@ The output of the device is an open drain and can be connected to other open-dra
 <part name="GND602" library="daqcs" deviceset="GND" device=""/>
 <part name="GND603" library="daqcs" deviceset="GND" device=""/>
 <part name="PP5V0_BOOST_SW601" library="daqcs" deviceset="PP5V0_BOOST_SW" device=""/>
-<part name="R601" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
-<part name="R602" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
+<part name="R601" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k">
+<variant name="POR" populate="no"/>
+</part>
+<part name="R602" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k">
+<variant name="POR" populate="no"/>
+</part>
 <part name="GND607" library="daqcs" deviceset="GND" device=""/>
 <part name="R606" library="daqcs" deviceset="RES" device="_0603" technology="_4R7" value="4.7k"/>
 <part name="GND605" library="daqcs" deviceset="GND" device=""/>
@@ -36726,7 +36736,9 @@ The output of the device is an open drain and can be connected to other open-dra
 <part name="GND502" library="daqcs" deviceset="GND" device=""/>
 <part name="GND508" library="daqcs" deviceset="GND" device=""/>
 <part name="TP502" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="J605" library="daqcs" deviceset="HEADER-1X4-254MM" device="_TH" technology="_1X4_254MM" value="HEADER-1x4-2.54mm"/>
+<part name="J605" library="daqcs" deviceset="HEADER-1X4-254MM" device="_TH" technology="_1X4_254MM" value="HEADER-1x4-2.54mm">
+<variant name="POR" populate="no"/>
+</part>
 <part name="GND610" library="daqcs" deviceset="GND" device=""/>
 <part name="R506" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="C510" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
@@ -36748,15 +36760,23 @@ The output of the device is an open drain and can be connected to other open-dra
 <part name="GND304" library="daqcs" deviceset="GND" device=""/>
 <part name="J301" library="daqcs" deviceset="MOLSL_2PIN" device="_V" technology="_SL2V" value="MOL-SL-2-V"/>
 <part name="R304" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
-<part name="U401" library="daqcs" deviceset="TLV713" device="_SOT23" technology="33PDBVR" value="TLV71333P"/>
-<part name="R404" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
+<part name="U401" library="daqcs" deviceset="TLV713" device="_SOT23" technology="33PDBVR" value="TLV71333P">
+<variant name="POR" populate="no"/>
+</part>
+<part name="R404" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0">
+<variant name="POR" populate="no"/>
+</part>
 <part name="PP5V0_BOOST_SW401" library="daqcs" deviceset="PP5V0_BOOST_SW" device=""/>
 <part name="GND401" library="daqcs" deviceset="GND" device=""/>
-<part name="C402" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
+<part name="C402" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF">
+<variant name="POR" populate="no"/>
+</part>
 <part name="GND404" library="daqcs" deviceset="GND" device=""/>
 <part name="PP5V0_CHG_IN301" library="daqcs" deviceset="PP5V0_CHG_IN" device=""/>
 <part name="U303" library="daqcs" deviceset="MAX63XX" device="_SOT23" technology="71KA" value="MAX6371"/>
-<part name="R308" library="daqcs" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
+<part name="R308" library="daqcs" deviceset="RES" device="_0603" technology="_10R0" value="10k">
+<variant name="POR" populate="no"/>
+</part>
 <part name="PP5V0_BOOST301" library="daqcs" deviceset="PP5V0_BOOST" device=""/>
 <part name="GND312" library="daqcs" deviceset="GND" device=""/>
 <part name="C302" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
@@ -36775,7 +36795,9 @@ The output of the device is an open drain and can be connected to other open-dra
 <part name="GND609" library="daqcs" deviceset="GND" device=""/>
 <part name="TP603" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP604" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="J501" library="daqcs" deviceset="MOLSL_5PIN" device="_V" technology="_SL4V" value="MOL-SL-5-V"/>
+<part name="J501" library="daqcs" deviceset="MOLSL_5PIN" device="_V" technology="_SL4V" value="MOL-SL-5-V">
+<variant name="POR" populate="no"/>
+</part>
 <part name="C505" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
 <part name="C512" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
 <part name="GND523" library="daqcs" deviceset="GND" device=""/>
@@ -36831,7 +36853,9 @@ The output of the device is an open drain and can be connected to other open-dra
 <part name="C504" library="daqcs" deviceset="CAP" device="_0603" technology="_10NF0" value="10nF"/>
 <part name="R411" library="daqcs" deviceset="RES" device="_0805" technology="_0R0_0805" value="0.0"/>
 <part name="TOC101" library="daqcs" deviceset="TOC-10" device=""/>
-<part name="R402" library="daqcs" deviceset="RES" device="_0805" technology="_0R0_0805" value="0.0"/>
+<part name="R402" library="daqcs" deviceset="RES" device="_0805" technology="_0R0_0805" value="0.0">
+<variant name="POR" populate="no"/>
+</part>
 <part name="TP301" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP302" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="Q401" library="daqcs" deviceset="PMOS-1G-1S-4D_2" device="_6N" technology="_PCH" value="PMOS-4A"/>
@@ -36839,7 +36863,9 @@ The output of the device is an open drain and can be connected to other open-dra
 <part name="TP609" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP605" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="R309" library="daqcs" deviceset="RES" device="_0603" technology="_0R499" value="49.9"/>
-<part name="C602" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
+<part name="C602" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF">
+<variant name="POR" populate="no"/>
+</part>
 <part name="GND611" library="daqcs" deviceset="GND" device=""/>
 <part name="S301" library="daqcs" deviceset="PB-TACTILE-4P" device="_PTH" technology="_B3F-1000" value="PB"/>
 <part name="GND313" library="daqcs" deviceset="GND" device=""/>
@@ -36920,7 +36946,7 @@ The output of the device is an open drain and can be connected to other open-dra
 <text x="248.92" y="175.26" size="1.778" layer="91">FROM</text>
 <text x="248.92" y="172.72" size="1.778" layer="91">RASPI</text>
 <text x="73.66" y="195.58" size="3.81" layer="91">1-cell LiPo Battery Charger</text>
-<text x="347.98" y="200.66" size="1.778" layer="91">NOSTUFF</text>
+<text x="337.82" y="193.04" size="1.778" layer="91" rot="R90">NOSTUFF</text>
 <text x="416.56" y="195.58" size="1.778" layer="91">TO</text>
 <text x="416.56" y="193.04" size="1.778" layer="91">RASPI</text>
 <text x="241.3" y="93.98" size="1.778" layer="91">FROM</text>
