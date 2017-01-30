@@ -1413,40 +1413,11 @@
 <wire x1="4.43" y1="3.2" x2="4.43" y2="-1.45" width="0.05" layer="51"/>
 <wire x1="4.43" y1="-1.45" x2="-4.43" y2="-1.45" width="0.05" layer="51"/>
 </package>
+<package name="BLANK">
+<text x="0" y="0" size="1.27" layer="51">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
-<symbol name="FRAME_B_L">
-<frame x1="0" y1="0" x2="431.8" y2="279.4" columns="9" rows="6" layer="94" border-bottom="no"/>
-</symbol>
-<symbol name="DOCFIELD">
-<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
-<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
-<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
-<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
-<text x="88.9" y="11.43" size="2.54" layer="94">REV:</text>
-<text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
-<text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
-<text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
-</symbol>
 <symbol name="RES">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
 <wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
@@ -35091,22 +35062,59 @@
 <vertex x="-5.3975" y="-2.286" curve="-90"/>
 </polygon>
 </symbol>
+<symbol name="FRAME_B_L">
+<frame x1="0" y1="0" x2="431.8" y2="279.4" columns="9" rows="6" layer="94" border-bottom="no"/>
+</symbol>
+<symbol name="DOCFIELD">
+<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
+<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
+<text x="88.9" y="11.43" size="2.54" layer="94">REV:</text>
+<text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
+<text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
+<text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+</symbol>
+<symbol name="BOM_LINE_ITEM">
+<text x="12.7" y="0.635" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+<text x="0" y="0.635" size="1.27" layer="96">&gt;NAME</text>
+<text x="38.1" y="0.635" size="1.27" layer="96" ratio="10">&gt;VENDOR</text>
+<text x="53.34" y="0.635" size="1.27" layer="96" ratio="10">&gt;VENDOR_PN</text>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="12.192" y2="2.54" width="0.254" layer="94"/>
+<wire x1="12.192" y1="2.54" x2="37.592" y2="2.54" width="0.254" layer="94"/>
+<wire x1="37.592" y1="2.54" x2="52.832" y2="2.54" width="0.254" layer="94"/>
+<wire x1="52.832" y1="2.54" x2="71.12" y2="2.54" width="0.254" layer="94"/>
+<wire x1="71.12" y1="2.54" x2="71.12" y2="0" width="0.254" layer="94"/>
+<wire x1="71.12" y1="0" x2="52.832" y2="0" width="0.254" layer="94"/>
+<wire x1="52.832" y1="0" x2="37.592" y2="0" width="0.254" layer="94"/>
+<wire x1="37.592" y1="0" x2="12.192" y2="0" width="0.254" layer="94"/>
+<wire x1="12.192" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="37.592" y1="2.54" x2="37.592" y2="0" width="0.254" layer="94" style="shortdash"/>
+<wire x1="52.832" y1="2.54" x2="52.832" y2="0" width="0.254" layer="94" style="shortdash"/>
+<wire x1="12.192" y1="2.54" x2="12.192" y2="0" width="0.254" layer="94" style="shortdash"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="FRAME_B_L" prefix="FRAME" uservalue="yes">
-<description>&lt;b&gt;FRAME&lt;/b&gt; B Size , 11 x 17 INCH, Landscape&lt;p&gt;</description>
-<gates>
-<gate name="G$1" symbol="FRAME_B_L" x="0" y="0" addlevel="always"/>
-<gate name="G$2" symbol="DOCFIELD" x="325.12" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="RES" prefix="R" uservalue="yes">
 <description>&lt;b&gt;Chip Resistor&lt;/b&gt;</description>
 <gates>
@@ -36621,24 +36629,55 @@ The output of the device is an open drain and can be connected to other open-dra
 </device>
 </devices>
 </deviceset>
+<deviceset name="FRAME_B_L" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt; B Size , 11 x 17 INCH, Landscape&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FRAME_B_L" x="0" y="0" addlevel="always"/>
+<gate name="G$2" symbol="DOCFIELD" x="325.12" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BOM_LINE_ITEM" prefix="BOM" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="BOM_LINE_ITEM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BLANK">
+<technologies>
+<technology name="_BLI0">
+<attribute name="MANUFACTURER" value="Harwin" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="M20-9980645" constant="no"/>
+<attribute name="VALUE" value="HEADER-MALE-2X6" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="952-2125-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="POR" current="yes"/>
+<variantdef name="POR"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
 <parts>
-<part name="FRAME101" library="daqcs" deviceset="FRAME_B_L" device=""/>
-<part name="FRAME401" library="daqcs" deviceset="FRAME_B_L" device=""/>
 <part name="GND402" library="daqcs" deviceset="GND" device=""/>
 <part name="U402" library="daqcs" deviceset="TPS61089" device="RNRR" value="TPS61089RNRR"/>
-<part name="FRAME501" library="daqcs" deviceset="FRAME_B_L" device=""/>
 <part name="U504" library="daqcs" deviceset="INA219" device="" technology="AIDCNR" value="INA219AIDCNR"/>
 <part name="GND516" library="daqcs" deviceset="GND" device=""/>
 <part name="R504" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
@@ -36701,11 +36740,9 @@ The output of the device is an open drain and can be connected to other open-dra
 <part name="GND506" library="daqcs" deviceset="GND" device=""/>
 <part name="TP501" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP404" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="FRAME201" library="daqcs" deviceset="FRAME_B_L" device=""/>
 <part name="DIAGRAM201" library="daqcs" deviceset="BLOCK_DIAGRAM" device=""/>
 <part name="J401" library="daqcs" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
 <part name="R412" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
-<part name="FRAME601" library="daqcs" deviceset="FRAME_B_L" device=""/>
 <part name="GND602" library="daqcs" deviceset="GND" device=""/>
 <part name="GND603" library="daqcs" deviceset="GND" device=""/>
 <part name="PP5V0_BOOST_SW601" library="daqcs" deviceset="PP5V0_BOOST_SW" device=""/>
@@ -36745,7 +36782,6 @@ The output of the device is an open drain and can be connected to other open-dra
 <part name="GND519" library="daqcs" deviceset="GND" device=""/>
 <part name="GND525" library="daqcs" deviceset="GND" device=""/>
 <part name="U507" library="daqcs" deviceset="MS5803" device="_8SMD" technology="-05BA" value="MS580305BA01"/>
-<part name="FRAME301" library="daqcs" deviceset="FRAME_B_L" device=""/>
 <part name="U301" library="daqcs" deviceset="MCP73831" device="" technology="T-2ATI/OT" value="MCP73831T"/>
 <part name="R302" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
 <part name="DS302" library="daqcs" deviceset="LED" device="_0603" technology="_G3V2WURTH" value="GREEN"/>
@@ -36877,6 +36913,13 @@ The output of the device is an open drain and can be connected to other open-dra
 <part name="J302" library="daqcs" deviceset="USB" device="_MICRO_RIGHT" technology="_B" value="USB_MICROB_RECPT"/>
 <part name="GND302" library="daqcs" deviceset="GND" device=""/>
 <part name="R301" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
+<part name="FRAME101" library="daqcs" deviceset="FRAME_B_L" device=""/>
+<part name="FRAME201" library="daqcs" deviceset="FRAME_B_L" device=""/>
+<part name="FRAME301" library="daqcs" deviceset="FRAME_B_L" device=""/>
+<part name="FRAME401" library="daqcs" deviceset="FRAME_B_L" device=""/>
+<part name="FRAME501" library="daqcs" deviceset="FRAME_B_L" device=""/>
+<part name="FRAME601" library="daqcs" deviceset="FRAME_B_L" device=""/>
+<part name="BOM601" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI0" value="HEADER-MALE-2X6"/>
 </parts>
 <sheets>
 <sheet>
@@ -36895,9 +36938,9 @@ The output of the device is an open drain and can be connected to other open-dra
 <text x="81.28" y="167.64" size="3.81" layer="91">POWER_ENTRY_BOOST_LDO</text>
 </plain>
 <instances>
+<instance part="TOC101" gate="G$1" x="40.64" y="119.38"/>
 <instance part="FRAME101" gate="G$1" x="0" y="0"/>
 <instance part="FRAME101" gate="G$2" x="325.12" y="0"/>
-<instance part="TOC101" gate="G$1" x="40.64" y="119.38"/>
 </instances>
 <busses>
 </busses>
@@ -36911,9 +36954,9 @@ The output of the device is an open drain and can be connected to other open-dra
 <text x="421.64" y="7.62" size="3.81" layer="91">A</text>
 </plain>
 <instances>
-<instance part="FRAME201" gate="G$1" x="0" y="0"/>
-<instance part="FRAME201" gate="G$2" x="325.8312" y="0.4572"/>
 <instance part="DIAGRAM201" gate="G$1" x="37.846" y="43.8785"/>
+<instance part="FRAME201" gate="G$1" x="0" y="0"/>
+<instance part="FRAME201" gate="G$2" x="325.12" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -36958,8 +37001,6 @@ The output of the device is an open drain and can be connected to other open-dra
 <text x="20.32" y="157.48" size="1.778" layer="91">(ONLY USE ONE)</text>
 </plain>
 <instances>
-<instance part="FRAME301" gate="G$1" x="0" y="0"/>
-<instance part="FRAME301" gate="G$2" x="325.12" y="0"/>
 <instance part="U301" gate="A" x="134.62" y="137.16"/>
 <instance part="R302" gate="G$1" x="99.06" y="121.92" rot="R90"/>
 <instance part="DS302" gate="G$1" x="195.58" y="129.54"/>
@@ -37003,6 +37044,8 @@ The output of the device is an open drain and can be connected to other open-dra
 <instance part="J302" gate="G$1" x="33.02" y="101.6"/>
 <instance part="GND302" gate="1" x="45.72" y="66.04"/>
 <instance part="R301" gate="G$1" x="53.34" y="81.28" rot="R90"/>
+<instance part="FRAME301" gate="G$1" x="0" y="0"/>
+<instance part="FRAME301" gate="G$2" x="325.12" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -37325,8 +37368,6 @@ The output of the device is an open drain and can be connected to other open-dra
 <text x="50.8" y="119.38" size="1.778" layer="91">(if this is not desired, remove Q401 and stuff R402)</text>
 </plain>
 <instances>
-<instance part="FRAME401" gate="G$1" x="0" y="0"/>
-<instance part="FRAME401" gate="G$2" x="325.12" y="0"/>
 <instance part="GND402" gate="1" x="33.02" y="195.58"/>
 <instance part="U402" gate="A" x="220.98" y="187.96"/>
 <instance part="VBAT401" gate="G$1" x="33.02" y="228.6"/>
@@ -37396,6 +37437,8 @@ The output of the device is an open drain and can be connected to other open-dra
 <instance part="TP402" gate="G$1" x="124.46" y="226.06"/>
 <instance part="TP405" gate="G$1" x="368.3" y="200.66"/>
 <instance part="TP403" gate="G$1" x="134.62" y="68.58"/>
+<instance part="FRAME401" gate="G$1" x="0" y="0"/>
+<instance part="FRAME401" gate="G$2" x="325.12" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -37854,8 +37897,6 @@ The output of the device is an open drain and can be connected to other open-dra
 <text x="200.66" y="129.54" size="2.54" layer="91">Mag I2C Addr: 0x38/0x39 (W/R)</text>
 </plain>
 <instances>
-<instance part="FRAME501" gate="G$1" x="0" y="0"/>
-<instance part="FRAME501" gate="G$2" x="325.12" y="0"/>
 <instance part="U504" gate="A" x="218.44" y="193.04"/>
 <instance part="GND516" gate="1" x="195.58" y="167.64"/>
 <instance part="R504" gate="G$1" x="185.42" y="198.12" rot="R90"/>
@@ -37956,6 +37997,8 @@ The output of the device is an open drain and can be connected to other open-dra
 <instance part="GND513" gate="1" x="172.72" y="50.8"/>
 <instance part="C504" gate="G$1" x="172.72" y="66.04"/>
 <instance part="U508" gate="G$1" x="358.14" y="73.66"/>
+<instance part="FRAME501" gate="G$1" x="0" y="0"/>
+<instance part="FRAME501" gate="G$2" x="325.12" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -38575,8 +38618,6 @@ The output of the device is an open drain and can be connected to other open-dra
 <text x="307.34" y="43.18" size="1.778" layer="91">Harwin PN: M20-9980345 </text>
 <text x="304.8" y="48.26" size="1.778" layer="91">across the RUN header and 40-pin header</text>
 <text x="106.68" y="162.56" size="1.778" layer="91">Mates with 2x6 pin header on RasPi</text>
-<text x="109.22" y="157.48" size="1.778" layer="91">Digi-Key PN: 952-2125-ND</text>
-<text x="109.22" y="154.94" size="1.778" layer="91">Harwin PN: M20-9980645 </text>
 <text x="106.68" y="160.02" size="1.778" layer="91">across 40-pin header pins 1-14</text>
 <text x="25.4" y="210.82" size="1.778" layer="91" rot="R90">NOSTUFF</text>
 <text x="45.72" y="210.82" size="1.778" layer="91" rot="R90">NOSTUFF</text>
@@ -38591,8 +38632,6 @@ The output of the device is an open drain and can be connected to other open-dra
 <text x="254" y="175.26" size="1.778" layer="91">Maxim PN: DS18B20+  </text>
 </plain>
 <instances>
-<instance part="FRAME601" gate="G$1" x="0" y="0"/>
-<instance part="FRAME601" gate="G$2" x="325.12" y="0"/>
 <instance part="GND602" gate="1" x="96.52" y="165.1"/>
 <instance part="GND603" gate="1" x="177.8" y="165.1"/>
 <instance part="PP5V0_BOOST_SW601" gate="G$1" x="177.8" y="231.14"/>
@@ -38656,6 +38695,9 @@ The output of the device is an open drain and can be connected to other open-dra
 <instance part="TP605" gate="G$1" x="355.6" y="241.3"/>
 <instance part="C602" gate="G$1" x="383.54" y="58.42"/>
 <instance part="GND611" gate="1" x="383.54" y="45.72"/>
+<instance part="FRAME601" gate="G$1" x="0" y="0"/>
+<instance part="FRAME601" gate="G$2" x="325.12" y="0"/>
+<instance part="BOM601" gate="G$1" x="99.06" y="154.94"/>
 </instances>
 <busses>
 </busses>
@@ -38971,23 +39013,26 @@ The output of the device is an open drain and can be connected to other open-dra
 </sheet>
 </sheets>
 <errors>
-<approved hash="113,1,215.796,139.596,FRAME101,,,,,"/>
-<approved hash="113,4,215.796,139.596,FRAME401,,,,,"/>
-<approved hash="113,5,215.796,139.596,FRAME501,,,,,"/>
 <approved hash="113,5,122.407,228.6,TP501,,,,,"/>
-<approved hash="113,4,309.88,198.607,TP401,,,,,"/>
-<approved hash="113,2,215.796,139.596,FRAME201,,,,,"/>
-<approved hash="113,2,219.686,152.059,DIAGRAM201,,,,,"/>
-<approved hash="113,6,215.796,139.596,FRAME601,,,,,"/>
+<approved hash="113,4,309.88,198.607,TP404,,,,,"/>
+<approved hash="113,2,215.355,156.318,DIAGRAM201,,,,,"/>
 <approved hash="113,6,37.2812,182.88,TP601,,,,,"/>
-<approved hash="113,6,365.76,236.707,TP606,,,,,"/>
-<approved hash="113,6,358.14,236.707,TP605,,,,,"/>
+<approved hash="113,6,375.92,239.247,TP607,,,,,"/>
+<approved hash="113,6,365.76,239.247,TP606,,,,,"/>
 <approved hash="113,5,122.407,149.86,TP502,,,,,"/>
-<approved hash="113,3,215.796,139.596,FRAME301,,,,,"/>
 <approved hash="113,6,260.801,78.74,TP603,,,,,"/>
 <approved hash="113,6,260.801,73.66,TP604,,,,,"/>
 <approved hash="113,6,226.879,182.88,TP602,,,,,"/>
-<approved hash="113,1,123.19,170.561,TOC1,,,,,"/>
+<approved hash="113,1,123.19,170.561,TOC101,,,,,"/>
+<approved hash="113,3,88.9,157.967,TP301,,,,,"/>
+<approved hash="113,3,175.26,147.807,TP302,,,,,"/>
+<approved hash="113,6,398.78,86.8468,TP608,,,,,"/>
+<approved hash="113,6,408.94,86.8468,TP609,,,,,"/>
+<approved hash="113,6,355.6,239.247,TP605,,,,,"/>
+<approved hash="113,4,48.26,224.007,TP401,,,,,"/>
+<approved hash="113,4,124.46,224.007,TP402,,,,,"/>
+<approved hash="113,4,368.3,198.607,TP405,,,,,"/>
+<approved hash="113,4,134.62,66.5268,TP403,,,,,"/>
 </errors>
 </schematic>
 </drawing>
