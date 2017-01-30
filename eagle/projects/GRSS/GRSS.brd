@@ -146,10 +146,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="76" y2="0" width="0" layer="20"/>
-<wire x1="76" y1="0" x2="76" y2="39" width="0" layer="20"/>
-<wire x1="76" y1="39" x2="0" y2="39" width="0" layer="20"/>
-<wire x1="0" y1="39" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="85" y2="0" width="0" layer="20"/>
+<wire x1="85" y1="0" x2="85" y2="47" width="0" layer="20"/>
+<wire x1="85" y1="47" x2="0" y2="47" width="0" layer="20"/>
+<wire x1="0" y1="47" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="grss">
@@ -614,23 +614,23 @@ design rules under a new name.</description>
 <attribute name="TEMP_COEFF" value="X7R" x="69.704" y="25.944" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="69.704" y="25.944" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C2" library="grss" package="C0603" value="10uF" x="69.756" y="5.072">
-<attribute name="VENDOR_PN" value="490-10474-1-ND" x="69.756" y="5.072" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="69.756" y="5.072" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Murata" x="69.756" y="5.072" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="10V" x="69.756" y="5.072" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="GRM188R61A106KE69D" x="69.756" y="5.072" size="1.778" layer="27" display="off"/>
-<attribute name="TEMP_COEFF" value="X5R" x="69.756" y="5.072" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="10%" x="69.756" y="5.072" size="1.778" layer="27" display="off"/>
+<element name="C2" library="grss" package="C0603" value="10uF" x="60.756" y="8.072">
+<attribute name="VENDOR_PN" value="490-10474-1-ND" x="60.756" y="8.072" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="60.756" y="8.072" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Murata" x="60.756" y="8.072" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="60.756" y="8.072" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="GRM188R61A106KE69D" x="60.756" y="8.072" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP_COEFF" value="X5R" x="60.756" y="8.072" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="60.756" y="8.072" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C3" library="grss" package="C0603" value="2.2uF" x="69.74" y="7.342">
-<attribute name="VENDOR_PN" value="490-3296-1-ND" x="69.74" y="7.342" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="69.74" y="7.342" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Murata" x="69.74" y="7.342" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="16V" x="69.74" y="7.342" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="GRM188R61C225KE15D" x="69.74" y="7.342" size="1.778" layer="27" display="off"/>
-<attribute name="TEMP_COEFF" value="X5R" x="69.74" y="7.342" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="10%" x="69.74" y="7.342" size="1.778" layer="27" display="off"/>
+<element name="C3" library="grss" package="C0603" value="2.2uF" x="60.74" y="6.342">
+<attribute name="VENDOR_PN" value="490-3296-1-ND" x="60.74" y="6.342" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="60.74" y="6.342" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Murata" x="60.74" y="6.342" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="16V" x="60.74" y="6.342" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="GRM188R61C225KE15D" x="60.74" y="6.342" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP_COEFF" value="X5R" x="60.74" y="6.342" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="60.74" y="6.342" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C4" library="grss" package="C0603" value="1uF" x="69.74" y="9.628">
 <attribute name="VENDOR_PN" value="490-13226-1-ND" x="69.74" y="9.628" size="1.778" layer="27" display="off"/>
@@ -814,11 +814,11 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF2403V" x="69.66" y="14.184" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="69.66" y="14.184" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U2" library="grss" package="M08A" value="LMC555CMX/NOPB" x="63.09" y="7.39">
-<attribute name="VENDOR_PN" value="LMC555CMX/NOPBCT-ND" x="63.09" y="7.39" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="63.09" y="7.39" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Texas Instruments" x="63.09" y="7.39" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="LMC555CMX/NOPB" x="63.09" y="7.39" size="1.778" layer="27" display="off"/>
+<element name="U2" library="grss" package="M08A" value="LMC555CMX/NOPB" x="66.09" y="7.39">
+<attribute name="VENDOR_PN" value="LMC555CMX/NOPBCT-ND" x="66.09" y="7.39" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="66.09" y="7.39" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="66.09" y="7.39" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="LMC555CMX/NOPB" x="66.09" y="7.39" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U3" library="grss" package="MF05A" value="LP2985AIM5-4.5/NOPB" x="62.77" y="31.12">
 <attribute name="VENDOR_PN" value="LP2985AIM5-4.5/NOPBCT-ND" x="62.77" y="31.12" size="1.778" layer="27" display="off"/>
@@ -836,11 +836,11 @@ design rules under a new name.</description>
 <contactref element="U2" pad="7"/>
 <contactref element="U2" pad="8"/>
 <contactref element="U3" pad="5"/>
-<wire x1="65.5538" y1="9.295" x2="68.89" y2="7.342" width="0" layer="19" extent="1-1"/>
-<wire x1="65.5538" y1="8.025" x2="65.5538" y2="9.295" width="0" layer="19" extent="1-1"/>
-<wire x1="60.6262" y1="5.485" x2="65.5538" y2="8.025" width="0" layer="19" extent="1-1"/>
-<wire x1="70.51" y1="14.184" x2="65.5538" y2="9.295" width="0" layer="19" extent="1-1"/>
-<wire x1="63.9892" y1="32.0725" x2="60.6262" y2="5.485" width="0" layer="19" extent="1-1"/>
+<wire x1="68.5538" y1="9.295" x2="59.89" y2="6.342" width="0" layer="19" extent="1-1"/>
+<wire x1="68.5538" y1="8.025" x2="68.5538" y2="9.295" width="0" layer="19" extent="1-1"/>
+<wire x1="63.6262" y1="5.485" x2="68.5538" y2="8.025" width="0" layer="19" extent="1-1"/>
+<wire x1="70.51" y1="14.184" x2="68.5538" y2="9.295" width="0" layer="19" extent="1-1"/>
+<wire x1="63.9892" y1="32.0725" x2="63.6262" y2="5.485" width="0" layer="19" extent="1-1"/>
 <wire x1="68.854" y1="25.944" x2="63.9892" y2="32.0725" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BP">
@@ -875,12 +875,12 @@ design rules under a new name.</description>
 <contactref element="U2" pad="1"/>
 <contactref element="U3" pad="2"/>
 <contactref element="Q1" pad="2"/>
-<wire x1="70.59" y1="7.342" x2="70.606" y2="5.072" width="0" layer="19" extent="1-1"/>
-<wire x1="70.59" y1="9.628" x2="70.59" y2="7.342" width="0" layer="19" extent="1-1"/>
+<wire x1="61.59" y1="6.342" x2="61.606" y2="8.072" width="0" layer="19" extent="1-1"/>
+<wire x1="70.59" y1="9.628" x2="61.59" y2="6.342" width="0" layer="19" extent="1-1"/>
 <wire x1="70.59" y1="11.66" x2="70.59" y2="9.628" width="0" layer="19" extent="1-1"/>
 <wire x1="65.39" y1="11.8213" x2="70.59" y2="9.628" width="0" layer="19" extent="1-1"/>
-<wire x1="60.6262" y1="9.295" x2="70.59" y2="11.66" width="0" layer="19" extent="1-1"/>
-<wire x1="61.5508" y1="31.12" x2="60.6262" y2="9.295" width="0" layer="19" extent="1-1"/>
+<wire x1="63.6262" y1="9.295" x2="70.59" y2="11.66" width="0" layer="19" extent="1-1"/>
+<wire x1="61.5508" y1="31.12" x2="63.6262" y2="9.295" width="0" layer="19" extent="1-1"/>
 <wire x1="70.554" y1="25.944" x2="61.5508" y2="31.12" width="0" layer="19" extent="1-1"/>
 <wire x1="56.506" y1="11.922" x2="65.39" y2="11.8213" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -889,14 +889,14 @@ design rules under a new name.</description>
 <contactref element="C2" pad="1"/>
 <contactref element="U2" pad="2"/>
 <contactref element="U2" pad="6"/>
-<wire x1="65.5538" y1="6.755" x2="68.906" y2="5.072" width="0" layer="19" extent="1-1"/>
-<wire x1="60.6262" y1="8.025" x2="65.5538" y2="6.755" width="0" layer="19" extent="1-1"/>
-<wire x1="68.81" y1="14.184" x2="60.6262" y2="8.025" width="0" layer="19" extent="1-1"/>
+<wire x1="68.5538" y1="6.755" x2="59.906" y2="8.072" width="0" layer="19" extent="1-1"/>
+<wire x1="63.6262" y1="8.025" x2="68.5538" y2="6.755" width="0" layer="19" extent="1-1"/>
+<wire x1="68.81" y1="14.184" x2="63.6262" y2="8.025" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="555OUT">
 <contactref element="U2" pad="3"/>
 <contactref element="Q1" pad="1"/>
-<wire x1="60.6262" y1="6.755" x2="60.89" y2="11.8213" width="0" layer="19" extent="1-1"/>
+<wire x1="63.6262" y1="6.755" x2="60.89" y2="11.8213" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VD">
 <contactref element="R1" pad="1"/>
