@@ -8,6 +8,7 @@ Desktop="Desktop"
 [Globals]
 AutoSaveProject=1
 UsedLibrary="/Users/mattzachary/Dropbox/School/2016-2017Spring/MSD/HW/eagle/libraries/habip/comms.lbr"
+UsedLibrary="/Users/mattzachary/Dropbox/School/2016-2017Spring/MSD/HW/eagle/libraries/eagle_install_lbr/supply2.lbr"
 
 [Win_1]
 Type="Control Panel"
