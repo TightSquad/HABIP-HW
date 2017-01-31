@@ -3070,10 +3070,10 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="75.2365125" y="35.48586875" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="75.2365125" y="35.48586875" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U12" library="comms" package="SOT103P240X110-3N" value="MMBT3904-7-F" x="81.504734375" y="71.1496125">
-<attribute name="VENDOR_PN" value="MMBT3904-FDICT-ND" x="81.504734375" y="71.1496125" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="MMBT3904-7-F" x="81.504734375" y="71.1496125" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes, Inc" x="81.504734375" y="71.1496125" size="1.778" layer="27" display="off"/>
+<element name="U12" library="comms" package="SOT103P240X110-3N" value="MMBT3904-HF" x="81.504734375" y="71.1496125">
+<attribute name="VENDOR_PN" value="641-1683-1-ND" x="81.504734375" y="71.1496125" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="MMBT3904-HF" x="81.504734375" y="71.1496125" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Comchip" x="81.504734375" y="71.1496125" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digikey" x="81.504734375" y="71.1496125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U13" library="comms" package="SO016" value="MAX3232CSE+" x="80.96899375" y="83.755409375" rot="MR90">
