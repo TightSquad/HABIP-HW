@@ -1689,6 +1689,7 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 <attributes>
 </attributes>
 <variantdefs>
+<variantdef name="POR" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -2608,7 +2609,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Panasonic" x="95.609096875" y="13.490184375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="95.609096875" y="13.490184375" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R15" library="comms" package="R0603" value="0" x="95.6318625" y="15.678475" rot="MR0">
+<element name="R15" library="comms" package="R0603" value="0" x="95.6318625" y="15.678475" populate="no" rot="MR0">
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="95.6318625" y="15.678475" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="95.6318625" y="15.678475" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POWER" value="1/10W" x="95.6318625" y="15.678475" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2656,7 +2657,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Panasonic" x="32.831990625" y="28.757325" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="32.831990625" y="28.757325" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R20" library="comms" package="R0603" value="10k" x="31.856203125" y="76.851334375" rot="MR0">
+<element name="R20" library="comms" package="R0603" value="10k" x="31.856203125" y="76.851334375" populate="no" rot="MR0">
 <attribute name="VENDOR_PN" value="P10.0KHCT-ND" x="31.856203125" y="76.851334375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF1002V" x="31.856203125" y="76.851334375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POWER" value="1/10W" x="31.856203125" y="76.851334375" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2848,7 +2849,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Panasonic" x="18.918459375" y="36.007771875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="18.918459375" y="36.007771875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R47" library="comms" package="R0603" value="0" x="18.70040625" y="40.48303125" rot="MR0">
+<element name="R47" library="comms" package="R0603" value="0" x="18.70040625" y="40.48303125" populate="no" rot="MR0">
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="18.70040625" y="40.48303125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="18.70040625" y="40.48303125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POWER" value="1/10W" x="18.70040625" y="40.48303125" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2920,7 +2921,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Panasonic" x="18.992075" y="25.333253125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="18.992075" y="25.333253125" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R55" library="comms" package="R0805" value="0.0" x="39.84961875" y="68.887096875" rot="MR0">
+<element name="R55" library="comms" package="R0805" value="0.0" x="39.84961875" y="68.887096875" populate="no" rot="MR0">
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="39.84961875" y="68.887096875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="39.84961875" y="68.887096875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POWER" value="1/8W" x="39.84961875" y="68.887096875" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2928,7 +2929,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Panasonic" x="39.84961875" y="68.887096875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="39.84961875" y="68.887096875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R56" library="comms" package="R0805" value="0.0" x="54.45951875" y="69.015196875" rot="MR0">
+<element name="R56" library="comms" package="R0805" value="0.0" x="54.45951875" y="69.015196875" populate="no" rot="MR0">
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="54.45951875" y="69.015196875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="54.45951875" y="69.015196875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POWER" value="1/8W" x="54.45951875" y="69.015196875" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3242,7 +3243,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PN" value="2N7002P,215" x="27.960040625" y="14.95311875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR_PN" value="568-5818-1-ND" x="27.960040625" y="14.95311875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R10" library="comms" package="R0805" value="0.0" x="31.463203125" y="13.299940625" rot="MR0">
+<element name="R10" library="comms" package="R0805" value="0.0" x="31.463203125" y="13.299940625" populate="no" rot="MR0">
 <attribute name="POWER" value="1/8W" x="31.463203125" y="13.299940625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="31.463203125" y="13.299940625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="31.463203125" y="13.299940625" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3250,12 +3251,12 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="31.463203125" y="13.299940625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="31.463203125" y="13.299940625" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="U5" library="comms" package="SOT230P700X180-4N" value="NDT2955" x="-132.375821875" y="0.4259625">
-<attribute name="VENDOR_PN" value="NDT2955CT-ND" x="-132.375821875" y="0.4259625" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digi-Key" x="-132.375821875" y="0.4259625" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Fairchild" x="-132.375821875" y="0.4259625" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="NDT2955" x="-132.375821875" y="0.4259625" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="SOT-223-4" x="-132.375821875" y="0.4259625" size="1.778" layer="27" display="off"/>
+<element name="U5" library="comms" package="SOT230P700X180-4N" value="NDT2955" x="21.41910625" y="16.024090625" rot="MR0">
+<attribute name="VENDOR_PN" value="NDT2955CT-ND" x="21.41910625" y="16.024090625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="21.41910625" y="16.024090625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="Fairchild" x="21.41910625" y="16.024090625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PN" value="NDT2955" x="21.41910625" y="16.024090625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="SOT-223-4" x="21.41910625" y="16.024090625" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 </elements>
 <signals>
@@ -3671,13 +3672,13 @@ design rules under a new name.</description>
 <contactref element="R10" pad="2"/>
 <contactref element="R8" pad="2"/>
 <contactref element="U5" pad="3"/>
-<wire x1="-24.13" y1="114.3" x2="-135.375821875" y2="-1.8740375" width="0" layer="19" extent="1-1"/>
-<wire x1="55.43383125" y1="59.4553" x2="-24.13" y2="114.3" width="0" layer="19" extent="1-1"/>
-<wire x1="65.582725" y1="55.370571875" x2="55.43383125" y2="59.4553" width="0" layer="19" extent="1-1"/>
-<wire x1="69.892540625" y1="54.175978125" x2="65.582725" y2="55.370571875" width="0" layer="19" extent="1-1"/>
+<wire x1="65.582725" y1="55.370571875" x2="69.892540625" y2="54.175978125" width="0" layer="19" extent="1-1"/>
+<wire x1="55.43383125" y1="59.4553" x2="65.582725" y2="55.370571875" width="0" layer="19" extent="1-1"/>
 <wire x1="71.755" y1="13.97" x2="69.892540625" y2="54.175978125" width="0" layer="19" extent="1-1"/>
 <wire x1="30.713996875" y1="17.52249375" x2="71.755" y2="13.97" width="0" layer="19" extent="16-16"/>
 <wire x1="30.463203125" y1="13.299940625" x2="30.713996875" y2="17.52249375" width="0" layer="19" extent="16-16"/>
+<wire x1="24.41910625" y1="13.724090625" x2="30.463203125" y2="13.299940625" width="0" layer="19" extent="16-16"/>
+<wire x1="-24.13" y1="114.3" x2="55.43383125" y2="59.4553" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DCDC_STEPUP_ISENSE_RES">
 <contactref element="Q1" pad="1"/>
@@ -4369,16 +4370,16 @@ design rules under a new name.</description>
 <contactref element="R10" pad="1"/>
 <contactref element="U5" pad="2"/>
 <contactref element="U5" pad="4"/>
-<wire x1="-129.275821875" y1="0.4259625" x2="-135.375821875" y2="0.4259625" width="0" layer="19" extent="1-1"/>
-<wire x1="32.463203125" y1="13.299940625" x2="-129.275821875" y2="0.4259625" width="0" layer="19" extent="1-16"/>
-<wire x1="39.37" y1="10.16" x2="32.463203125" y2="13.299940625" width="0" layer="19" extent="16-16"/>
+<wire x1="32.463203125" y1="13.299940625" x2="39.37" y2="10.16" width="0" layer="19" extent="16-16"/>
+<wire x1="24.41910625" y1="16.024090625" x2="32.463203125" y2="13.299940625" width="0" layer="19" extent="16-16"/>
+<wire x1="18.31910625" y1="16.024090625" x2="24.41910625" y2="16.024090625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="12V_PMOS_G">
 <contactref element="R8" pad="1"/>
 <contactref element="U16" pad="3"/>
 <contactref element="U5" pad="1"/>
-<wire x1="26.867840625" y1="14.95311875" x2="-135.375821875" y2="2.7259625" width="0" layer="19" extent="1-16"/>
-<wire x1="32.413996875" y1="17.52249375" x2="26.867840625" y2="14.95311875" width="0" layer="19" extent="16-16"/>
+<wire x1="26.867840625" y1="14.95311875" x2="32.413996875" y2="17.52249375" width="0" layer="19" extent="16-16"/>
+<wire x1="24.41910625" y1="18.324090625" x2="26.867840625" y2="14.95311875" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 </board>
