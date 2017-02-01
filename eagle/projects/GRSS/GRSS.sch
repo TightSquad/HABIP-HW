@@ -858,6 +858,14 @@ part number 2062-2P from STA</description>
 <vertex x="-2.8575" y="5.8738"/>
 </polygon>
 </package>
+<package name="TP10R">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<text x="-0.4001" y="0.7499" size="0.4064" layer="25" ratio="6">&gt;NAME</text>
+<text x="0.519" y="-0.808" size="0.254" layer="27" ratio="6">&gt;VALUE</text>
+<text x="0" y="-1.405" size="0.4064" layer="37" ratio="6">&gt;TP_SIGNAL_NAME</text>
+<circle x="0" y="0" radius="0.25" width="0.6" layer="29"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BC9VPC">
@@ -29149,6 +29157,12 @@ part number 2062-2P from STA</description>
 <rectangle x1="124.52858125" y1="137.32941875" x2="164.62501875" y2="137.39698125" layer="200"/>
 <text x="0" y="-0.33781875" size="0.13461875" layer="200" font="vector">C:/Users/Lincster/Google Drive/College/1-MSD/Lincster-HW/docs/projects/GRSS/docs/GRSS_revD.bmp</text>
 </symbol>
+<symbol name="TP">
+<text x="0" y="3.81" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="3.81" y="-1.27" size="1.778" layer="97">&gt;TP_SIGNAL_NAME</text>
+<pin name="TP" x="0" y="-5.08" visible="off" length="middle" direction="in" rot="R90"/>
+<circle x="0" y="0" radius="0.762" width="2.54" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BC9VPC" prefix="BAT" uservalue="yes">
@@ -29935,6 +29949,24 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
+<deviceset name="TEST_POINT" prefix="TP" uservalue="yes">
+<description>&lt;b&gt;Test Point (various sizes)&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="TP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_10R_SMD" package="TP10R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="_TP10R_SMD">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="frames">
@@ -30024,6 +30056,9 @@ DIN A4, landscape with location and doc. field</description>
 <part name="NC1" library="grss" deviceset="NO_CONNECT" device="" value="NC"/>
 <part name="FRAME3" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="U$2" library="grss" deviceset="BLOCK_DIAGRAM" device=""/>
+<part name="TP1" library="grss" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP2" library="grss" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP3" library="grss" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 </parts>
 <sheets>
 <sheet>
@@ -30068,7 +30103,9 @@ DIN A4, landscape with location and doc. field</description>
 <text x="5.08" y="157.48" size="1.778" layer="97">LED8</text>
 <text x="5.08" y="137.16" size="1.778" layer="97">LED9</text>
 <text x="33.02" y="157.48" size="1.778" layer="97">Buzzer</text>
-<text x="-124.46" y="129.54" size="1.778" layer="97">555 Timer - ~3s</text>
+<text x="-129.54" y="127" size="1.778" layer="97">555 Timer - ~3s Period
+ - 50%DC - Cycles from
+1.5V(off) to 3V(on)</text>
 <text x="-129.54" y="170.18" size="1.778" layer="97">LDO 9V -&gt; 4.5V</text>
 <text x="21.59" y="68.58" size="2.54" layer="95">SCHEMATIC</text>
 </plain>
@@ -30100,6 +30137,9 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="J9" gate="G$1" x="17.78" y="137.16"/>
 <instance part="J10" gate="G$1" x="45.72" y="157.48"/>
 <instance part="NC1" gate="G$1" x="-78.74" y="127" rot="R180"/>
+<instance part="TP1" gate="G$1" x="-81.28" y="177.8"/>
+<instance part="TP2" gate="G$1" x="-43.18" y="109.22"/>
+<instance part="TP3" gate="G$1" x="-10.16" y="119.38"/>
 </instances>
 <busses>
 </busses>
@@ -30107,7 +30147,8 @@ DIN A4, landscape with location and doc. field</description>
 <net name="4V5" class="0">
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="-93.98" y1="172.72" x2="-66.04" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="172.72" x2="-81.28" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="172.72" x2="-66.04" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="172.72" x2="-53.34" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="172.72" x2="-53.34" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="132.08" x2="-66.04" y2="134.62" width="0.1524" layer="91"/>
@@ -30132,6 +30173,8 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="U2" gate="A" pin="DIS"/>
 <pinref part="U2" gate="A" pin="V+"/>
 <pinref part="U3" gate="A" pin="VOUT"/>
+<pinref part="TP1" gate="G$1" pin="TP"/>
+<junction x="-81.28" y="172.72"/>
 </segment>
 </net>
 <net name="BP" class="0">
@@ -30244,8 +30287,9 @@ DIN A4, landscape with location and doc. field</description>
 </segment>
 <segment>
 <wire x1="-32.385" y1="104.14" x2="-43.18" y2="104.14" width="0.1524" layer="91"/>
-<label x="-43.18" y="104.14" size="1.778" layer="95"/>
+<label x="-42.164" y="104.14" size="1.778" layer="95"/>
 <pinref part="Q1" gate="A" pin="1"/>
+<pinref part="TP2" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="VD" class="0">
@@ -30253,7 +30297,8 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-25.4" y1="114.3" x2="2.54" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="114.3" x2="-10.16" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="114.3" x2="2.54" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="114.3" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="114.3" x2="58.42" y2="154.94" width="0.1524" layer="91"/>
@@ -30264,6 +30309,8 @@ DIN A4, landscape with location and doc. field</description>
 <junction x="-25.4" y="114.3"/>
 <label x="-25.146" y="110.998" size="1.778" layer="95"/>
 <pinref part="J10" gate="G$1" pin="2"/>
+<pinref part="TP3" gate="G$1" pin="TP"/>
+<junction x="-10.16" y="114.3"/>
 </segment>
 </net>
 <net name="RES789" class="0">
@@ -30358,4 +30405,10 @@ DIN A4, landscape with location and doc. field</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
