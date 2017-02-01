@@ -38192,7 +38192,7 @@ JST PH 2-pin thru-home side entry</description>
 <text x="-12.7" y="8.89" size="2.0828" layer="95">&gt;NAME</text>
 <text x="0" y="-10.16" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 <pin name="EN" x="-17.78" y="0" length="middle" direction="in"/>
-<pin name="OUT" x="17.78" y="5.08" length="middle" direction="sup" rot="R180"/>
+<pin name="OUT" x="17.78" y="5.08" length="middle" direction="pwr" rot="R180"/>
 <pin name="NC" x="17.78" y="-5.08" length="middle" direction="nc" rot="R180"/>
 <pin name="GND" x="-17.78" y="-5.08" length="middle" direction="pwr"/>
 <pin name="IN" x="-17.78" y="5.08" length="middle" direction="pwr"/>
@@ -38665,7 +38665,7 @@ JST PH 2-pin thru-home side entry</description>
 </symbol>
 <symbol name="TPS61253">
 <pin name="GND@1" x="17.78" y="-22.86" length="middle" direction="pwr" rot="R180"/>
-<pin name="VOUT@1" x="17.78" y="7.62" length="middle" direction="sup" rot="R180"/>
+<pin name="VOUT@1" x="17.78" y="7.62" length="middle" direction="pwr" rot="R180"/>
 <pin name="EN" x="-17.78" y="-22.86" length="middle" direction="in"/>
 <pin name="SW@1" x="-17.78" y="15.24" length="middle"/>
 <wire x1="-12.7" y1="-27.94" x2="12.7" y2="-27.94" width="0.4064" layer="94"/>
@@ -38678,7 +38678,7 @@ JST PH 2-pin thru-home side entry</description>
 <pin name="GND@2" x="17.78" y="-17.78" length="middle" direction="pwr" rot="R180"/>
 <pin name="VIN" x="-17.78" y="7.62" length="middle" direction="pwr"/>
 <pin name="SW@2" x="-17.78" y="20.32" length="middle"/>
-<pin name="VOUT@2" x="17.78" y="2.54" length="middle" direction="sup" rot="R180"/>
+<pin name="VOUT@2" x="17.78" y="2.54" length="middle" direction="pwr" rot="R180"/>
 </symbol>
 <symbol name="PP5V0_BOOST_R">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
@@ -41281,7 +41281,7 @@ The output of the device is an open drain and can be connected to other open-dra
 <attribute name="MANUFACTURER_PN" value="SSM6N7002KFU,LF" constant="no"/>
 <attribute name="POWER_MAX" value="285mW" constant="no"/>
 <attribute name="RDS_ON_MAX" value="1.5 Ohm @ 100mA, 10V" constant="no"/>
-<attribute name="VALUE" value="NMOS-DUAL" constant="no"/>
+<attribute name="VALUE" value="SSM6N7002KFU" constant="no"/>
 <attribute name="VDS" value="60V" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="SSM6N7002KFULFCT-ND" constant="no"/>

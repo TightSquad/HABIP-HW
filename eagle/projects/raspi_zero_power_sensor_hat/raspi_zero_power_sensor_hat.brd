@@ -1063,7 +1063,7 @@
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="POR" current="yes"/>
+<variantdef name="POR"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -1269,7 +1269,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PN" value="GRM188R71C104KA01D" x="111.87" y="89.56" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/c02e.pdf" x="111.87" y="89.56" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C503" library="daqcs" package="C0603" value="100nF" x="119.72" y="61.29" populate="no">
+<element name="C503" library="daqcs" package="C0603" value="100nF" x="119.72" y="61.29">
 <attribute name="VENDOR" value="Digi-key" x="119.72" y="61.29" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="119.72" y="61.29" size="1.778" layer="27" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="119.72" y="61.29" size="1.778" layer="27" display="off"/>
@@ -1374,7 +1374,7 @@ design rules under a new name.</description>
 <attribute name="INTERFACE" value="I2C" x="117.22" y="88.29" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/sensors/PCT2075.pdf" x="117.22" y="88.29" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U503" library="daqcs" package="SOP65P135X040-8N" value="MAX11613EUA+" x="120.22" y="65.98" populate="no" rot="R90">
+<element name="U503" library="daqcs" package="SOP65P135X040-8N" value="MAX11613EUA+" x="120.22" y="65.98" rot="R90">
 <attribute name="VENDOR" value="Digi-key" x="120.22" y="65.98" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR_PN" value="MAX11613EUA+-ND" x="120.22" y="65.98" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Maxim" x="120.22" y="65.98" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1413,7 +1413,7 @@ design rules under a new name.</description>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" x="87.79" y="80.88" size="1.778" layer="27" display="off"/>
 <attribute name="RATED_CURRENT" value="1.0A" x="87.79" y="80.88" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R601" library="daqcs" package="R0603" value="2k" x="5.31" y="52.16" populate="no">
+<element name="R601" library="daqcs" package="R0603" value="2k" x="5.31" y="52.16">
 <attribute name="POWER" value="1/10W" x="-15.81" y="84.87" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="-15.81" y="84.87" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF2001V" x="-15.81" y="84.87" size="1.778" layer="27" display="off"/>
@@ -1423,7 +1423,7 @@ design rules under a new name.</description>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" x="5.31" y="52.16" size="1.778" layer="27" display="off"/>
 <attribute name="RATED_CURRENT" value="1.0A" x="5.31" y="52.16" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R602" library="daqcs" package="R0603" value="2k" x="5.31" y="48.98" populate="no">
+<element name="R602" library="daqcs" package="R0603" value="2k" x="5.31" y="48.98">
 <attribute name="POWER" value="1/10W" x="-20.85" y="79.07" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="-20.85" y="79.07" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF2001V" x="-20.85" y="79.07" size="1.778" layer="27" display="off"/>
@@ -1540,7 +1540,7 @@ design rules under a new name.</description>
 <element name="TP502" library="daqcs" package="TP10R" value="" x="130.22" y="84.37">
 <attribute name="TP_SIGNAL_NAME" value="" x="130.22" y="81.75" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J602" library="daqcs" package="HEADER-1X4-254MM" value="HEADER-1x4-2.54mm" x="72.09" y="57.29" populate="no" rot="R270">
+<element name="J602" library="daqcs" package="HEADER-1X4-254MM" value="HEADER-1x4-2.54mm" x="72.09" y="57.29" rot="R270">
 <attribute name="MOUNT_ANGLE" value="VERTICAL" x="72.09" y="57.29" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="ROWS" value="1" x="72.09" y="57.29" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FINISH" value="GOLD" x="72.09" y="57.29" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1662,7 +1662,7 @@ design rules under a new name.</description>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" x="121" y="34.87" size="1.778" layer="27" display="off"/>
 <attribute name="RATED_CURRENT" value="1.0A" x="121" y="34.87" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U401" library="daqcs" package="SOT23P105X060-5N" value="TLV71333P" x="44.85" y="71.74" populate="no">
+<element name="U401" library="daqcs" package="SOT23P105X060-5N" value="TLV71333P" x="44.85" y="71.74">
 <attribute name="VENDOR_PN" value="296-35591-1-ND" x="44.85" y="71.74" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="TLV71333PDBVR" x="44.85" y="71.74" size="1.778" layer="27" display="off"/>
 <attribute name="OUTPUT_VOLTAGE" value="3.3V" x="44.85" y="71.74" size="1.778" layer="27" display="off"/>
@@ -1672,17 +1672,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="44.85" y="71.74" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/extras/tlv713p.pdf" x="44.85" y="71.74" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R402" library="daqcs" package="R0603" value="0.0" x="49.57" y="70.27" populate="no">
-<attribute name="VENDOR_PN" value="P0.0GCT-ND" x="49.57" y="70.27" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="49.57" y="70.27" size="1.778" layer="27" display="off"/>
-<attribute name="POWER" value="1/10W" x="49.57" y="70.27" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="Jumper" x="49.57" y="70.27" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="49.57" y="70.27" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic" x="49.57" y="70.27" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C281.pdf" x="49.57" y="70.27" size="1.778" layer="27" display="off"/>
-<attribute name="RATED_CURRENT" value="1.0A" x="49.57" y="70.27" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C402" library="daqcs" package="C0603" value="100nF" x="49.28" y="72.92" populate="no">
+<element name="C402" library="daqcs" package="C0603" value="100nF" x="49.28" y="72.92">
 <attribute name="TEMP_COEFF" value="X7R" x="49.28" y="72.92" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="49.28" y="72.92" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R71C104KA01D" x="49.28" y="72.92" size="1.778" layer="27" display="off"/>
@@ -1704,7 +1694,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PN" value="MAX6371KA+T" x="133.72" y="49.06" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/wdt_reset/MAX6369-MAX6374.pdf" x="133.72" y="45.35" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R309" library="daqcs" package="R0603" value="10k" x="133.29" y="34.61" populate="no">
+<element name="R309" library="daqcs" package="R0603" value="10k" x="133.29" y="34.61">
 <attribute name="VENDOR_PN" value="P10.0KHCT-ND" x="133.29" y="38.32" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="133.29" y="38.32" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="133.29" y="38.32" size="1.778" layer="27" display="off"/>
@@ -1783,7 +1773,7 @@ design rules under a new name.</description>
 <element name="TP605" library="daqcs" package="TP10R" value="" x="32.77" y="49.68">
 <attribute name="TP_SIGNAL_NAME" value="" x="32.77" y="49.68" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J501" library="daqcs" package="MOLSL-5-V" value="MOL-SL-5-V" x="112.76" y="61" populate="no" rot="R90">
+<element name="J501" library="daqcs" package="MOLSL-5-V" value="MOL-SL-5-V" x="112.76" y="61" rot="R90">
 <attribute name="VENDOR_PN" value="WM4803-ND" x="112.76" y="61" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LOCKING" value="YES" x="112.76" y="61" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Molex" x="112.76" y="61" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1832,16 +1822,6 @@ design rules under a new name.</description>
 <attribute name="VENDOR_PN" value="S7109-ND" x="11.51" y="60.11" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="PPPC062LFBN-RC" x="11.51" y="60.11" size="1.778" layer="27" display="off"/>
 <attribute name="MAX_CURRENT" value="3.0A" x="11.51" y="60.11" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R607" library="daqcs" package="R0603" value="0.0" x="5.31" y="54.99">
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C281.pdf" x="5.31" y="54.99" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="5.31" y="54.99" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR_PN" value="P0.0GCT-ND" x="5.31" y="54.99" size="1.778" layer="27" display="off"/>
-<attribute name="POWER" value="1/10W" x="5.31" y="54.99" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="Jumper" x="5.31" y="54.99" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic" x="5.31" y="54.99" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="5.31" y="54.99" size="1.778" layer="27" display="off"/>
-<attribute name="RATED_CURRENT" value="1.0A" x="5.31" y="54.99" size="1.778" layer="27" display="off"/>
 </element>
 <element name="OUTLINE601" library="daqcs" package="RASPI_ZERO_3STANDOFFS" value="RASPI-ZERO-3STANDOFFS-0CAM" x="0" y="0"/>
 <element name="H601" library="daqcs" package="2,2_2,0_HOLE_RASPI_CAM" value="2.2mm_drill_2.0mm_radius" x="84.27" y="8.79">
@@ -1988,7 +1968,7 @@ design rules under a new name.</description>
 <attribute name="TOLERANCE" value="1%" x="149.58" y="35.97" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="149.58" y="35.97" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C601" library="daqcs" package="C0603" value="100nF" x="36.84" y="51.98" populate="no">
+<element name="C601" library="daqcs" package="C0603" value="100nF" x="36.84" y="51.98">
 <attribute name="VOLTAGE" value="16V" x="36.84" y="51.98" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/c02e.pdf" x="36.84" y="51.98" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata" x="36.84" y="51.98" size="1.778" layer="27" display="off"/>
@@ -2095,42 +2075,42 @@ design rules under a new name.</description>
 <attribute name="VENDOR_PN" value="WM2512CT-ND" x="-109.9" y="-153.37" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Molex" x="-109.9" y="-153.37" size="1.778" layer="27" display="off"/>
 </element>
-<element name="BOM708" library="daqcs" package="BLANK" value="SL 70058 GOLD CRIMP" x="-108.4" y="-158.79" populate="no">
+<element name="BOM708" library="daqcs" package="BLANK" value="SL 70058 GOLD CRIMP" x="-108.4" y="-158.79">
 <attribute name="MANUFACTURER_PN" value="0016020087" x="-109.4" y="-158.79" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="-109.4" y="-158.79" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/016020087_sd.pdf" x="-109.4" y="-158.79" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="WM2512CT-ND" x="-109.4" y="-158.79" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Molex" x="-109.4" y="-158.79" size="1.778" layer="27" display="off"/>
 </element>
-<element name="BOM709" library="daqcs" package="BLANK" value="SL 70058 GOLD CRIMP" x="-108.4" y="-161.5" populate="no">
+<element name="BOM709" library="daqcs" package="BLANK" value="SL 70058 GOLD CRIMP" x="-108.4" y="-161.5">
 <attribute name="MANUFACTURER_PN" value="0016020087" x="-109.9" y="-161.5" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="-109.9" y="-161.5" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/016020087_sd.pdf" x="-109.9" y="-161.5" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="WM2512CT-ND" x="-109.9" y="-161.5" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Molex" x="-109.9" y="-161.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="BOM707" library="daqcs" package="BLANK" value="SL 70066 5PIN HOUSING" x="-108.9" y="-164.21" populate="no">
+<element name="BOM707" library="daqcs" package="BLANK" value="SL 70066 5PIN HOUSING" x="-108.9" y="-164.21">
 <attribute name="MANUFACTURER_PN" value="0050579405" x="-108.9" y="-164.21" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="-108.9" y="-164.21" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/050579402_sd.pdf" x="-108.9" y="-164.21" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="WM2903-ND" x="-108.9" y="-164.21" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Molex" x="-108.9" y="-164.21" size="1.778" layer="27" display="off"/>
 </element>
-<element name="BOM710" library="daqcs" package="BLANK" value="SL 70058 GOLD CRIMP" x="-109.4" y="-166.92" populate="no">
+<element name="BOM710" library="daqcs" package="BLANK" value="SL 70058 GOLD CRIMP" x="-109.4" y="-166.92">
 <attribute name="MANUFACTURER_PN" value="0016020087" x="-109.4" y="-166.92" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="-109.4" y="-166.92" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/016020087_sd.pdf" x="-109.4" y="-166.92" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="WM2512CT-ND" x="-109.4" y="-166.92" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Molex" x="-109.4" y="-166.92" size="1.778" layer="27" display="off"/>
 </element>
-<element name="BOM711" library="daqcs" package="BLANK" value="SL 70058 GOLD CRIMP" x="-109.9" y="-169.63" populate="no">
+<element name="BOM711" library="daqcs" package="BLANK" value="SL 70058 GOLD CRIMP" x="-109.9" y="-169.63">
 <attribute name="MANUFACTURER_PN" value="0016020087" x="-109.9" y="-169.63" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="-109.9" y="-169.63" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/016020087_sd.pdf" x="-109.9" y="-169.63" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="WM2512CT-ND" x="-109.9" y="-169.63" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Molex" x="-109.9" y="-169.63" size="1.778" layer="27" display="off"/>
 </element>
-<element name="BOM712" library="daqcs" package="BLANK" value="SL 70058 GOLD CRIMP" x="-110.4" y="-172.34" populate="no">
+<element name="BOM712" library="daqcs" package="BLANK" value="SL 70058 GOLD CRIMP" x="-110.4" y="-172.34">
 <attribute name="MANUFACTURER_PN" value="0016020087" x="-110.4" y="-172.34" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="-110.4" y="-172.34" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/016020087_sd.pdf" x="-110.4" y="-172.34" size="1.778" layer="27" display="off"/>
@@ -2228,7 +2208,7 @@ design rules under a new name.</description>
 <attribute name="VENDOR_PN" value="952-2120-ND" x="-115.4" y="-212.99" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Harwin" x="-115.4" y="-212.99" size="1.778" layer="27" display="off"/>
 </element>
-<element name="BOM726" library="daqcs" package="BLANK" value="HEADER-RECT-MALE-1X4" x="-115.9" y="-215.7" populate="no">
+<element name="BOM726" library="daqcs" package="BLANK" value="HEADER-RECT-MALE-1X4" x="-115.9" y="-215.7">
 <attribute name="MANUFACTURER_PN" value="PRPC004SAAN-RC" x="-115.9" y="-215.7" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="-115.9" y="-215.7" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/power_jumper/xRxCzzzSxxN-RC_ST_11635-B.pdf" x="-115.9" y="-215.7" size="1.778" layer="27" display="off"/>
@@ -2268,7 +2248,7 @@ design rules under a new name.</description>
 <attribute name="TOLERANCE" value="20%" x="34.08" y="89.29" size="1.778" layer="27" display="off"/>
 <attribute name="CURRENT_DC" value="11.5A" x="34.08" y="89.29" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R611" library="daqcs" package="R0603" value="0.0" x="32.48" y="84.82" populate="no">
+<element name="R611" library="daqcs" package="R0603" value="0.0" x="32.48" y="84.82">
 <attribute name="POWER" value="1/10W" x="32.48" y="84.82" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="32.48" y="84.82" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="32.48" y="84.82" size="1.778" layer="27" display="off"/>
@@ -2305,7 +2285,7 @@ design rules under a new name.</description>
 <attribute name="VENDOR_PN" value="296-36818-1-ND" x="41.55" y="90.81" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="41.55" y="90.81" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R404" library="daqcs" package="R0603" value="0.0" x="39.64" y="88.41" populate="no">
+<element name="R404" library="daqcs" package="R0603" value="0.0" x="39.64" y="88.41">
 <attribute name="POWER" value="1/10W" x="39.64" y="88.41" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="39.64" y="88.41" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="39.64" y="88.41" size="1.778" layer="27" display="off"/>
@@ -2345,7 +2325,7 @@ design rules under a new name.</description>
 <attribute name="TOLERANCE" value="10%" x="39.99" y="86.09" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="39.99" y="86.09" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q401" library="daqcs" package="SOT363P080X040-6N" value="NMOS-DUAL" x="45.16" y="91.11">
+<element name="Q401" library="daqcs" package="SOT363P080X040-6N" value="SSM6N7002KFU" x="45.16" y="91.11">
 <attribute name="CONTINUOUS_DRAIN_CURRENT" value="0.3A" x="45.16" y="91.11" size="1.778" layer="27" display="off"/>
 <attribute name="FET_TYPE" value="2 N-Channel (Dual)" x="45.16" y="91.11" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Toshiba" x="45.16" y="91.11" size="1.778" layer="27" display="off"/>
@@ -2378,17 +2358,7 @@ design rules under a new name.</description>
 <attribute name="VENDOR" value="Digi-key" x="44.09" y="86.36" size="1.778" layer="27" display="off"/>
 <attribute name="RATED_CURRENT" value="1.0A" x="44.09" y="86.36" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R403" library="daqcs" package="R0603" value="49.9k" x="43.97" y="83.94">
-<attribute name="POWER" value="1/10W" x="43.97" y="83.94" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic" x="43.97" y="83.94" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-3EKF4992V" x="43.97" y="83.94" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" x="43.97" y="83.94" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR_PN" value="P49.9KHCT-ND" x="43.97" y="83.94" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="43.97" y="83.94" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="43.97" y="83.94" size="1.778" layer="27" display="off"/>
-<attribute name="RATED_CURRENT" value="1.0A" x="43.97" y="83.94" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C404" library="daqcs" package="C0603" value="2.2uF" x="-114.39" y="-218.08" populate="no">
+<element name="C404" library="daqcs" package="C0603" value="2.2uF" x="-114.39" y="-218.08">
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/c02e.pdf" x="-114.39" y="-218.08" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="490-3296-1-ND" x="-114.39" y="-218.08" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R61C225KE15D" x="-114.39" y="-218.08" size="1.778" layer="27" display="off"/>
@@ -2438,7 +2408,7 @@ design rules under a new name.</description>
 <attribute name="RATED_CURRENT" value="1.0A" x="-114.39" y="-228.56" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="-114.39" y="-228.56" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q301" library="daqcs" package="SOT363P080X040-6N" value="NMOS-DUAL" x="-114.63" y="-231.59">
+<element name="Q301" library="daqcs" package="SOT363P080X040-6N" value="SSM6N7002KFU" x="-114.63" y="-231.59">
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/wdt_reset/SSM6N7002KFU_datasheet_en_20170112.pdf" x="-114.63" y="-231.59" size="1.778" layer="27" display="off"/>
 <attribute name="FET_TYPE" value="2 N-Channel (Dual)" x="-114.63" y="-231.59" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="SSM6N7002KFULFCT-ND" x="-114.63" y="-231.59" size="1.778" layer="27" display="off"/>
@@ -2500,6 +2470,36 @@ design rules under a new name.</description>
 <element name="TP603" library="daqcs" package="TP10R" value="" x="-118.45" y="-262.47">
 <attribute name="TP_SIGNAL_NAME" value="" x="-118.45" y="-262.47" size="1.778" layer="27" display="off"/>
 </element>
+<element name="R403" library="daqcs" package="R0603" value="49.9" x="-117.6" y="-264.85">
+<attribute name="MANUFACTURER" value="Panasonic" x="-117.6" y="-264.85" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="-117.6" y="-264.85" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" x="-117.6" y="-264.85" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF49R9V" x="-117.6" y="-264.85" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="P49.9HCT-ND" x="-117.6" y="-264.85" size="1.778" layer="27" display="off"/>
+<attribute name="RATED_CURRENT" value="1.0A" x="-117.6" y="-264.85" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="-117.6" y="-264.85" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="1/10W" x="-117.6" y="-264.85" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R402" library="daqcs" package="R0805" value="0.0" x="-121.72" y="-263.77">
+<attribute name="MANUFACTURER" value="Panasonic" x="-121.72" y="-263.77" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="-121.72" y="-263.77" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C281.pdf" x="-121.72" y="-263.77" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="-121.72" y="-263.77" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="P0.0ACT-ND" x="-121.72" y="-263.77" size="1.778" layer="27" display="off"/>
+<attribute name="RATED_CURRENT" value="2.0A" x="-121.72" y="-263.77" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="Jumper" x="-121.72" y="-263.77" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="1/8W" x="-121.72" y="-263.77" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R607" library="daqcs" package="R0805" value="0.0" x="-124.92" y="-263.77">
+<attribute name="MANUFACTURER" value="Panasonic" x="-124.92" y="-263.77" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="-124.92" y="-263.77" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C281.pdf" x="-124.92" y="-263.77" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="-124.92" y="-263.77" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="P0.0ACT-ND" x="-124.92" y="-263.77" size="1.778" layer="27" display="off"/>
+<attribute name="RATED_CURRENT" value="2.0A" x="-124.92" y="-263.77" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="Jumper" x="-124.92" y="-263.77" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="1/8W" x="-124.92" y="-263.77" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="VBAT_R">
@@ -2533,7 +2533,6 @@ design rules under a new name.</description>
 <contactref element="U501" pad="5"/>
 <contactref element="R411" pad="1"/>
 <contactref element="J603" pad="3"/>
-<contactref element="J605" pad="2"/>
 <contactref element="C602" pad="2"/>
 <contactref element="R605" pad="1"/>
 <contactref element="U502" pad="4"/>
@@ -2606,6 +2605,7 @@ design rules under a new name.</description>
 <contactref element="TP612" pad="TP"/>
 <contactref element="TP609" pad="TP"/>
 <contactref element="TP603" pad="TP"/>
+<contactref element="J605" pad="3"/>
 <wire x1="146.1" y1="88.685" x2="148.7" y2="89.985" width="0" layer="19" extent="1-1"/>
 <wire x1="143.99" y1="86.1" x2="146.1" y2="88.685" width="0" layer="19" extent="1-1"/>
 <wire x1="143.81" y1="78.55" x2="143.99" y2="86.1" width="0" layer="19" extent="1-1"/>
@@ -2657,8 +2657,8 @@ design rules under a new name.</description>
 <wire x1="87.14" y1="55.66" x2="87.09" y2="78.23" width="0" layer="19" extent="1-1"/>
 <wire x1="72.09" y1="61.1" x2="87.14" y2="55.66" width="0" layer="19" extent="1-1"/>
 <wire x1="56.47" y1="53.75" x2="72.09" y2="61.1" width="0" layer="19" extent="1-1"/>
-<wire x1="54.73" y1="59.76" x2="56.47" y2="53.75" width="0" layer="19" extent="1-1"/>
-<wire x1="50.13" y1="72.92" x2="54.73" y2="59.76" width="0" layer="19" extent="1-1"/>
+<wire x1="52.19" y1="59.76" x2="56.47" y2="53.75" width="0" layer="19" extent="1-1"/>
+<wire x1="50.13" y1="72.92" x2="52.19" y2="59.76" width="0" layer="19" extent="1-1"/>
 <wire x1="43.5" y1="71.74" x2="50.13" y2="72.92" width="0" layer="19" extent="1-1"/>
 <wire x1="39.39" y1="83.72" x2="43.5" y2="71.74" width="0" layer="19" extent="1-1"/>
 <wire x1="40.99" y1="86.09" x2="39.39" y2="83.72" width="0" layer="19" extent="1-1"/>
@@ -2715,7 +2715,7 @@ design rules under a new name.</description>
 <contactref element="U504" pad="2"/>
 <wire x1="16.845" y1="91.07" x2="146.1" y2="89.335" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="BOOST_SW_PG">
+<signal name="5V0_BST_PG">
 <contactref element="DS401" pad="1"/>
 <contactref element="R411" pad="2"/>
 <wire x1="82.81" y1="80.88" x2="88.64" y2="80.88" width="0" layer="19" extent="1-1"/>
@@ -2752,9 +2752,9 @@ design rules under a new name.</description>
 <wire x1="117.81" y1="38.06" x2="121.74" y2="40.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PP3V3_RASPI">
-<contactref element="R607" pad="2"/>
 <contactref element="J601" pad="1"/>
-<wire x1="6.16" y1="54.99" x2="5.16" y2="58.84" width="0" layer="19" extent="1-1"/>
+<contactref element="R607" pad="2"/>
+<wire x1="5.16" y1="58.84" x2="-123.92" y2="-263.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C1_RASPI_SDA">
 <contactref element="U504" pad="6"/>
@@ -2835,9 +2835,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="TEMP_1WIRE_BI">
 <contactref element="R613" pad="1"/>
-<contactref element="J605" pad="3"/>
 <contactref element="R606" pad="1"/>
-<wire x1="49.81" y1="53.75" x2="52.19" y2="59.76" width="0" layer="19" extent="1-1"/>
+<contactref element="J605" pad="2"/>
+<wire x1="49.81" y1="53.75" x2="54.73" y2="59.76" width="0" layer="19" extent="1-1"/>
 <wire x1="-115.24" y1="-220.7" x2="49.81" y2="53.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TEMP1_I2C_ALERT">
@@ -2884,10 +2884,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="PP3V3_LDO">
 <contactref element="U401" pad="5"/>
-<contactref element="R402" pad="1"/>
 <contactref element="C402" pad="1"/>
-<wire x1="48.72" y1="70.27" x2="48.43" y2="72.92" width="0" layer="19" extent="1-1"/>
-<wire x1="46.2" y1="72.69" x2="48.72" y2="70.27" width="0" layer="19" extent="1-1"/>
+<contactref element="R402" pad="1"/>
+<wire x1="46.2" y1="72.69" x2="-122.72" y2="-263.77" width="0" layer="19" extent="1-1"/>
+<wire x1="48.43" y1="72.92" x2="46.2" y2="72.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="WDT_PET">
 <contactref element="U302" pad="1"/>
@@ -2903,15 +2903,15 @@ design rules under a new name.</description>
 <contactref element="R303" pad="2"/>
 <contactref element="TP301" pad="TP"/>
 <contactref element="J302" pad="1"/>
-<contactref element="R403" pad="2"/>
+<contactref element="R403" pad="1"/>
 <wire x1="119.51" y1="38.06" x2="122.15" y2="43.5" width="0" layer="19" extent="1-1"/>
 <wire x1="113.13" y1="41.09" x2="119.51" y2="38.06" width="0" layer="19" extent="1-1"/>
 <wire x1="109.94" y1="36.34" x2="113.13" y2="41.09" width="0" layer="19" extent="1-1"/>
 <wire x1="111.91" y1="34.99" x2="109.94" y2="36.34" width="0" layer="19" extent="1-1"/>
 <wire x1="8.12" y1="76.365" x2="109.94" y2="36.34" width="0" layer="19" extent="1-1"/>
-<wire x1="44.82" y1="83.94" x2="8.12" y2="76.365" width="0" layer="19" extent="1-1"/>
+<wire x1="-118.45" y1="-264.85" x2="8.12" y2="76.365" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="3V3_PG">
+<signal name="3V3_HAT_PG">
 <contactref element="R412" pad="2"/>
 <contactref element="DS402" pad="1"/>
 <wire x1="88.79" y1="78.23" x2="82.81" y2="78.08" width="0" layer="19" extent="1-1"/>
@@ -2949,14 +2949,12 @@ design rules under a new name.</description>
 <wire x1="112.76" y1="63.54" x2="119.245" y2="63.83" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PP3V3_HAT">
-<contactref element="R607" pad="1"/>
 <contactref element="R601" pad="2"/>
 <contactref element="R602" pad="2"/>
 <contactref element="C602" pad="1"/>
 <contactref element="R613" pad="2"/>
 <contactref element="J605" pad="1"/>
 <contactref element="J602" pad="1"/>
-<contactref element="R402" pad="2"/>
 <contactref element="C501" pad="2"/>
 <contactref element="U501" pad="8"/>
 <contactref element="C502" pad="2"/>
@@ -2994,6 +2992,8 @@ design rules under a new name.</description>
 <contactref element="C302" pad="1"/>
 <contactref element="R306" pad="2"/>
 <contactref element="TP503" pad="TP"/>
+<contactref element="R402" pad="2"/>
+<contactref element="R607" pad="1"/>
 <wire x1="146.1" y1="88.035" x2="143.8" y2="89.93" width="0" layer="19" extent="1-1"/>
 <wire x1="145.69" y1="86.1" x2="146.1" y2="88.035" width="0" layer="19" extent="1-1"/>
 <wire x1="147.29" y1="79.4" x2="145.69" y2="86.1" width="0" layer="19" extent="1-1"/>
@@ -3032,12 +3032,12 @@ design rules under a new name.</description>
 <wire x1="57.27" y1="59.76" x2="72.09" y2="53.48" width="0" layer="19" extent="1-1"/>
 <wire x1="54.77" y1="53.75" x2="57.27" y2="59.76" width="0" layer="19" extent="1-1"/>
 <wire x1="51.51" y1="53.75" x2="54.77" y2="53.75" width="0" layer="19" extent="1-1"/>
-<wire x1="50.42" y1="70.27" x2="57.27" y2="59.76" width="0" layer="19" extent="1-1"/>
-<wire x1="52.82" y1="72.63" x2="50.42" y2="70.27" width="0" layer="19" extent="1-1"/>
+<wire x1="52.82" y1="72.63" x2="57.27" y2="59.76" width="0" layer="19" extent="1-1"/>
 <wire x1="6.16" y1="52.16" x2="51.51" y2="53.75" width="0" layer="19" extent="1-1"/>
 <wire x1="6.16" y1="48.98" x2="6.16" y2="52.16" width="0" layer="19" extent="1-1"/>
-<wire x1="4.46" y1="54.99" x2="6.16" y2="52.16" width="0" layer="19" extent="1-1"/>
 <wire x1="-118.45" y1="-246.3" x2="6.16" y2="48.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-120.72" y1="-263.77" x2="-118.45" y2="-246.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-125.92" y1="-263.77" x2="-120.72" y2="-263.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="WDT_SET2">
 <contactref element="U302" pad="6"/>
@@ -3086,7 +3086,7 @@ design rules under a new name.</description>
 <wire x1="132.44" y1="34.61" x2="134.895" y2="45.675" width="0" layer="19" extent="1-1"/>
 <wire x1="-113.68" y1="-230.94" x2="132.44" y2="34.61" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$4">
+<signal name="USB_SHD">
 <contactref element="J302" pad="S6"/>
 <contactref element="J302" pad="S3"/>
 <contactref element="J302" pad="S2"/>
@@ -3111,7 +3111,7 @@ design rules under a new name.</description>
 <contactref element="J601" pad="5"/>
 <wire x1="10.24" y1="58.84" x2="10.64" y2="55.33" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MCU_TO_BOOST_RESET">
+<signal name="MCU_TO_BST_RESET">
 <contactref element="R611" pad="2"/>
 <contactref element="Q401" pad="5"/>
 <contactref element="R408" pad="2"/>
@@ -3150,17 +3150,19 @@ design rules under a new name.</description>
 <wire x1="42.35" y1="88.38" x2="46.11" y2="91.76" width="0" layer="19" extent="1-1"/>
 <wire x1="41.95" y1="90.81" x2="42.35" y2="88.38" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$1">
+<signal name="CHG_DISABLE_GATE">
 <contactref element="R406" pad="2"/>
 <contactref element="Q401" pad="2"/>
-<contactref element="R403" pad="1"/>
 <contactref element="C404" pad="1"/>
-<wire x1="43.12" y1="83.94" x2="44.21" y2="91.11" width="0" layer="19" extent="1-1"/>
-<wire x1="41.09" y1="83.72" x2="43.12" y2="83.94" width="0" layer="19" extent="1-1"/>
+<contactref element="R403" pad="2"/>
+<wire x1="41.09" y1="83.72" x2="44.21" y2="91.11" width="0" layer="19" extent="1-1"/>
 <wire x1="-115.24" y1="-218.08" x2="41.09" y2="83.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-116.75" y1="-264.85" x2="-115.24" y2="-218.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TEMP_1WIRE_BI_R">
 <contactref element="J601" pad="7"/>
+<contactref element="R606" pad="2"/>
+<wire x1="12.78" y1="58.84" x2="-113.54" y2="-220.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART_RASPI_TXD_MCU_RXD_R">
 <contactref element="J601" pad="8"/>
