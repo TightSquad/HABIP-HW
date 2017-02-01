@@ -1,14 +1,12 @@
 [Eagle]
 Version="07 07 00"
 Platform="Mac OS X"
-Serial="74302DE771-LSR-WLM-1ES"
+Serial="74302E55C0-LSR-WLM-1ES"
 Globals="Globals"
 Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="/Users/mattzachary/Dropbox/School/2016-2017Spring/MSD/HW/eagle/libraries/habip/comms.lbr"
-UsedLibrary="/Users/mattzachary/Dropbox/School/2016-2017Spring/MSD/HW/eagle/libraries/eagle_install_lbr/supply2.lbr"
 
 [Win_1]
 Type="Control Panel"
