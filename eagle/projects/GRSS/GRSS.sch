@@ -866,6 +866,20 @@ part number 2062-2P from STA</description>
 <text x="0" y="-1.405" size="0.4064" layer="37" ratio="6">&gt;TP_SIGNAL_NAME</text>
 <circle x="0" y="0" radius="0.25" width="0.6" layer="29"/>
 </package>
+<package name="2,75_HOLE_RASPI">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.8 mm with drill center</description>
+<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2.1875" width="1.625" layer="40"/>
+<circle x="0" y="0" radius="2.1875" width="1.625" layer="39"/>
+<circle x="0" y="0" radius="2.1875" width="1.625" layer="41"/>
+<circle x="0" y="0" radius="2.1875" width="1.625" layer="42"/>
+<circle x="0" y="0" radius="2.1875" width="1.625" layer="43"/>
+<hole x="0" y="0" drill="2.75"/>
+<circle x="0" y="0" radius="1.5" width="3" layer="29"/>
+<circle x="0" y="0" radius="1.5" width="3" layer="30"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BC9VPC">
@@ -29163,6 +29177,16 @@ part number 2062-2P from STA</description>
 <pin name="TP" x="0" y="-5.08" visible="off" length="middle" direction="in" rot="R90"/>
 <circle x="0" y="0" radius="0.762" width="2.54" layer="94"/>
 </symbol>
+<symbol name="MOUNT-HOLE">
+<wire x1="0" y1="1.27" x2="1.27" y2="0" width="1.524" layer="94" curve="-90" cap="flat"/>
+<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="1.524" layer="94" curve="90" cap="flat"/>
+<wire x1="-0.508" y1="0" x2="0.508" y2="0" width="0.0508" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.0508" layer="94"/>
+<circle x="0" y="0" radius="2.032" width="0.0508" layer="94"/>
+<circle x="0" y="0" radius="0.508" width="0.0508" layer="94"/>
+<text x="2.032" y="0.5842" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.032" y="-2.4638" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BC9VPC" prefix="BAT" uservalue="yes">
@@ -29967,6 +29991,19 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
+<deviceset name="MOUNT-HOLE" prefix="H">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; with drill center marker</description>
+<gates>
+<gate name="G$1" symbol="MOUNT-HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_2.75" package="2,75_HOLE_RASPI">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="frames">
@@ -30059,6 +30096,10 @@ DIN A4, landscape with location and doc. field</description>
 <part name="TP1" library="grss" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP2" library="grss" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP3" library="grss" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="H1" library="grss" deviceset="MOUNT-HOLE" device="_2.75"/>
+<part name="H2" library="grss" deviceset="MOUNT-HOLE" device="_2.75"/>
+<part name="H3" library="grss" deviceset="MOUNT-HOLE" device="_2.75"/>
+<part name="H4" library="grss" deviceset="MOUNT-HOLE" device="_2.75"/>
 </parts>
 <sheets>
 <sheet>
@@ -30108,6 +30149,7 @@ DIN A4, landscape with location and doc. field</description>
 1.5V(off) to 3V(on)</text>
 <text x="-129.54" y="170.18" size="1.778" layer="97">LDO 9V -&gt; 4.5V</text>
 <text x="21.59" y="68.58" size="2.54" layer="95">SCHEMATIC</text>
+<text x="-130.556" y="82.042" size="1.778" layer="91">MOUNTING HOLES</text>
 </plain>
 <instances>
 <instance part="BATT" gate="G$1" x="-177.8" y="132.08"/>
@@ -30140,6 +30182,10 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="TP1" gate="G$1" x="-81.28" y="177.8"/>
 <instance part="TP2" gate="G$1" x="-43.18" y="109.22"/>
 <instance part="TP3" gate="G$1" x="-10.16" y="119.38"/>
+<instance part="H1" gate="G$1" x="-144.78" y="73.66"/>
+<instance part="H2" gate="G$1" x="-144.78" y="66.04"/>
+<instance part="H3" gate="G$1" x="-116.84" y="73.66"/>
+<instance part="H4" gate="G$1" x="-116.84" y="66.04"/>
 </instances>
 <busses>
 </busses>
@@ -30398,6 +30444,14 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="U2" gate="A" pin="CVOLT"/>
 <pinref part="NC1" gate="G$1" pin="NC"/>
 <wire x1="-78.74" y1="127" x2="-83.82" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<wire x1="-150.876" y1="81.28" x2="-150.876" y2="59.436" width="0.1524" layer="91"/>
+<wire x1="-150.876" y1="59.436" x2="-89.916" y2="59.436" width="0.1524" layer="91"/>
+<wire x1="-89.916" y1="59.436" x2="-89.916" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-89.916" y1="81.28" x2="-150.876" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
