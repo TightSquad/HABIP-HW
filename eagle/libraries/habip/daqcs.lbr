@@ -2284,6 +2284,74 @@ JST PH 2-pin thru-home side entry</description>
 <package name="BLANK">
 <text x="0" y="0" size="1.27" layer="51">&gt;NAME</text>
 </package>
+<package name="BGA040D023-9N">
+<text x="1" y="0.1" size="0.4064" layer="25" ratio="6" rot="SR90" align="center">&gt;NAME</text>
+<text x="0" y="-0.9" size="0.254" layer="27" ratio="6" rot="SR0" align="center">&gt;VALUE</text>
+<wire x1="-0.653" y1="-0.603" x2="-0.653" y2="0.603" width="0.05" layer="51"/>
+<wire x1="-0.653" y1="0.603" x2="0.653" y2="0.603" width="0.05" layer="51"/>
+<wire x1="0.653" y1="0.603" x2="0.653" y2="-0.603" width="0.05" layer="51"/>
+<wire x1="0.653" y1="-0.603" x2="-0.653" y2="-0.603" width="0.05" layer="51"/>
+<circle x="-0.85" y="0.78" radius="0.0728" width="0.15" layer="21"/>
+<smd name="B2" x="0" y="0" dx="0.23" dy="0.23" layer="1" roundness="100" stop="no"/>
+<smd name="A1" x="-0.4" y="0.4" dx="0.23" dy="0.23" layer="1" roundness="100" stop="no"/>
+<smd name="A2" x="0" y="0.4" dx="0.23" dy="0.23" layer="1" roundness="100" stop="no"/>
+<smd name="A3" x="0.4" y="0.4" dx="0.23" dy="0.23" layer="1" roundness="100" stop="no"/>
+<smd name="B1" x="-0.4" y="0" dx="0.23" dy="0.23" layer="1" roundness="100" stop="no"/>
+<smd name="B3" x="0.4" y="0" dx="0.23" dy="0.23" layer="1" roundness="100" stop="no"/>
+<smd name="C1" x="-0.4" y="-0.4" dx="0.23" dy="0.23" layer="1" roundness="100" stop="no"/>
+<smd name="C2" x="0" y="-0.4" dx="0.23" dy="0.23" layer="1" roundness="100" stop="no"/>
+<smd name="C3" x="0.4" y="-0.4" dx="0.23" dy="0.23" layer="1" roundness="100" stop="no"/>
+<circle x="0" y="0" radius="0.165" width="0" layer="29"/>
+<circle x="0" y="0.4" radius="0.165" width="0" layer="29"/>
+<circle x="0.4" y="0.4" radius="0.165" width="0" layer="29"/>
+<circle x="0.4" y="0" radius="0.165" width="0" layer="29"/>
+<circle x="0.4" y="-0.4" radius="0.165" width="0" layer="29"/>
+<circle x="0" y="-0.4" radius="0.165" width="0" layer="29"/>
+<circle x="-0.4" y="-0.4" radius="0.165" width="0" layer="29"/>
+<circle x="-0.4" y="0" radius="0.165" width="0" layer="29"/>
+<circle x="-0.4" y="0.4" radius="0.165" width="0" layer="29"/>
+</package>
+<package name="SMD410P190X160-2N">
+<smd name="1" x="-2.05" y="0" dx="1.6" dy="1.9" layer="1" rot="R90" stop="no"/>
+<smd name="2" x="2.05" y="0" dx="1.6" dy="1.9" layer="1" rot="R90" stop="no"/>
+<wire x1="-2.8" y1="-2.65" x2="-2.8" y2="2.65" width="0.05" layer="51"/>
+<wire x1="-2.8" y1="2.65" x2="2.8" y2="2.65" width="0.05" layer="51"/>
+<wire x1="2.8" y1="2.65" x2="2.8" y2="-2.65" width="0.05" layer="51"/>
+<wire x1="2.8" y1="-2.65" x2="-2.8" y2="-2.65" width="0.05" layer="51"/>
+<wire x1="-2.8" y1="2.06" x2="-2.8" y2="2.65" width="0.15" layer="21"/>
+<wire x1="-2.8" y1="2.65" x2="-2.21" y2="2.65" width="0.15" layer="21"/>
+<wire x1="2.21" y1="2.65" x2="2.8" y2="2.65" width="0.15" layer="21"/>
+<wire x1="2.8" y1="2.65" x2="2.8" y2="2.06" width="0.15" layer="21"/>
+<wire x1="2.8" y1="-2.06" x2="2.8" y2="-2.65" width="0.15" layer="21"/>
+<wire x1="2.8" y1="-2.65" x2="2.21" y2="-2.65" width="0.15" layer="21"/>
+<wire x1="-2.8" y1="-2.06" x2="-2.8" y2="-2.65" width="0.15" layer="21"/>
+<wire x1="-2.8" y1="-2.65" x2="-2.21" y2="-2.65" width="0.15" layer="21"/>
+<text x="-0.1" y="3.15" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
+<text x="0" y="-3.09" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
+<rectangle x1="-3.05" y1="-0.85" x2="-1.05" y2="0.85" layer="29"/>
+<rectangle x1="1.05" y1="-0.85" x2="3.05" y2="0.85" layer="29"/>
+</package>
+<package name="SOT363P080X040-6N">
+<wire x1="-0.625" y1="-1" x2="0.625" y2="-1" width="0.05" layer="51"/>
+<wire x1="0.625" y1="-1" x2="0.625" y2="1" width="0.05" layer="51"/>
+<wire x1="0.625" y1="1" x2="-0.625" y2="1" width="0.05" layer="51"/>
+<wire x1="-0.625" y1="1" x2="-0.625" y2="-1" width="0.05" layer="51"/>
+<smd name="1" x="-0.95" y="0.65" dx="0.4" dy="0.8" layer="1" rot="R90" stop="no"/>
+<text x="-0.942" y="1.224" size="0.4064" layer="27" ratio="6">&gt;Value</text>
+<text x="-0.56" y="-1.352" size="0.254" layer="25" ratio="6">&gt;Name</text>
+<circle x="-0.86" y="1.225" radius="0.07615625" width="0.15" layer="21"/>
+<rectangle x1="-1.4" y1="0.4" x2="-0.5" y2="0.9" layer="29"/>
+<smd name="2" x="-0.95" y="0" dx="0.4" dy="0.8" layer="1" rot="R90" stop="no"/>
+<rectangle x1="-1.4" y1="-0.25" x2="-0.5" y2="0.25" layer="29"/>
+<smd name="3" x="-0.95" y="-0.65" dx="0.4" dy="0.8" layer="1" rot="R90" stop="no"/>
+<rectangle x1="-1.4" y1="-0.9" x2="-0.5" y2="-0.4" layer="29"/>
+<smd name="4" x="0.95" y="-0.65" dx="0.4" dy="0.8" layer="1" rot="R90" stop="no"/>
+<rectangle x1="0.5" y1="-0.9" x2="1.4" y2="-0.4" layer="29"/>
+<smd name="5" x="0.95" y="0" dx="0.4" dy="0.8" layer="1" rot="R90" stop="no"/>
+<rectangle x1="0.5" y1="-0.25" x2="1.4" y2="0.25" layer="29"/>
+<smd name="6" x="0.95" y="0.65" dx="0.4" dy="0.8" layer="1" rot="R90" stop="no"/>
+<rectangle x1="0.5" y1="0.4" x2="1.4" y2="0.9" layer="29"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TPS61089RNR">
@@ -36362,6 +36430,72 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="85.852" y1="2.54" x2="85.852" y2="0" width="0.254" layer="94" style="shortdash"/>
 <wire x1="12.192" y1="2.54" x2="12.192" y2="0" width="0.254" layer="94" style="shortdash"/>
 </symbol>
+<symbol name="TPS61253">
+<pin name="GND@1" x="17.78" y="-22.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="VOUT@1" x="17.78" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="EN" x="-17.78" y="-22.86" length="middle" direction="in"/>
+<pin name="SW@1" x="-17.78" y="15.24" length="middle"/>
+<wire x1="-12.7" y1="-27.94" x2="12.7" y2="-27.94" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-27.94" x2="12.7" y2="30.48" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="30.48" x2="-12.7" y2="30.48" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="30.48" x2="-12.7" y2="-27.94" width="0.4064" layer="94"/>
+<text x="-12.3444" y="31.9786" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+<text x="0" y="26.8986" size="2.0828" layer="96" ratio="10" rot="SR0" align="center">&gt;Value</text>
+<pin name="BP" x="-17.78" y="-17.78" length="middle" direction="in"/>
+<pin name="GND@2" x="17.78" y="-17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="VIN" x="-17.78" y="7.62" length="middle" direction="in"/>
+<pin name="SW@2" x="-17.78" y="20.32" length="middle"/>
+<pin name="VOUT@2" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
+</symbol>
+<symbol name="PP5V0_BOOST_R">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.778" layer="96" rot="R180" align="center">&gt;VALUE</text>
+<pin name="PP5V0_BOOST_R" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="N-MOSFET-1G1D1S">
+<wire x1="-2.54" y1="-2.54" x2="-1.2192" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.762" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0" y1="3.683" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.397" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.397" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.683" width="0.254" layer="94"/>
+<wire x1="-1.143" y1="2.54" x2="-1.143" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="4.572" y1="0.762" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.508" x2="3.048" y2="0.254" width="0.1524" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
+<text x="5.588" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="5.588" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<pin name="S" x="2.54" y="-7.62" visible="pad" length="middle" direction="pas" rot="R90"/>
+<pin name="G" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="3.302" y="-0.254"/>
+<vertex x="4.318" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0.254" y="0"/>
+<vertex x="1.27" y="0.762"/>
+<vertex x="1.27" y="-0.762"/>
+</polygon>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<text x="-4.318" y="-4.318" size="1.27" layer="94">G</text>
+<text x="3.81" y="-6.604" size="1.27" layer="94">S</text>
+<text x="3.81" y="5.334" size="1.27" layer="94">D</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TPS61089" prefix="U" uservalue="yes">
@@ -36683,6 +36817,17 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VENDOR_PN" value="490-10511-1-ND" constant="no"/>
 <attribute name="VOLTAGE" value="10V" constant="no"/>
 </technology>
+<technology name="_4UF7_0805">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/c02e.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM21BR61A475KA73L" constant="no"/>
+<attribute name="TEMP_COEFF" value="X5R" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-9750-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="10V" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -36796,6 +36941,28 @@ JST PH 2-pin thru-home side entry</description>
 <attribute name="VALUE" value="4.7uH" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="445-174746-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2SMD3" package="SMD410P190X160-2N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_1UH0">
+<attribute name="CURRENT_DC" value="11.5A" constant="no"/>
+<attribute name="CURRENT_SAT" value="11.5A" constant="no"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/744316100.pdf" constant="no"/>
+<attribute name="DCR_MAX" value="4.75mOHM" constant="no"/>
+<attribute name="MANUFACTURER" value="Wurth Electronics" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="744316100" constant="no"/>
+<attribute name="SHIELDED" value="YES" constant="no"/>
+<attribute name="SRF" value="158MHz" constant="no"/>
+<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="VALUE" value="1.0uH" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="732-6176-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -38795,6 +38962,85 @@ The output of the device is an open drain and can be connected to other open-dra
 <attribute name="VALUE" value="1-Cell 2000mAh Li-Ion Battery" constant="no"/>
 <attribute name="VENDOR" value="Adafruit" constant="no"/>
 <attribute name="VENDOR_PN" value="2011" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS61253" prefix="U" uservalue="yes">
+<description>Boost Switching Regulator IC Positive Fixed 5V 1 Output 3.3A (Switch) 9-UFBGA, DSBGA</description>
+<gates>
+<gate name="G$1" symbol="TPS61253" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BGA040D023-9N">
+<connects>
+<connect gate="G$1" pin="BP" pad="C3"/>
+<connect gate="G$1" pin="EN" pad="B3"/>
+<connect gate="G$1" pin="GND@1" pad="C1"/>
+<connect gate="G$1" pin="GND@2" pad="C2"/>
+<connect gate="G$1" pin="SW@1" pad="B1"/>
+<connect gate="G$1" pin="SW@2" pad="B2"/>
+<connect gate="G$1" pin="VIN" pad="A3"/>
+<connect gate="G$1" pin="VOUT@1" pad="A1"/>
+<connect gate="G$1" pin="VOUT@2" pad="A2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/boost_main/tps612592.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="TPS61253YFFR" constant="no"/>
+<attribute name="VALUE" value="TPS61253YFFR" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="296-36818-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PP5V0_BOOST_R" prefix="PP5V0_BOOST_R">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PP5V0_BOOST_R" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOSFET-NCHANNEL_DUAL" prefix="Q" uservalue="yes">
+<description>Mosfet Array 2 N-Channel (Dual) 60V 300mA 285mW Surface Mount US6</description>
+<gates>
+<gate name="A" symbol="N-MOSFET-1G1D1S" x="0" y="10.16"/>
+<gate name="B" symbol="N-MOSFET-1G1D1S" x="0" y="-10.16"/>
+</gates>
+<devices>
+<device name="_SOT363" package="SOT363P080X040-6N">
+<connects>
+<connect gate="A" pin="D" pad="6"/>
+<connect gate="A" pin="G" pad="2"/>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="D" pad="3"/>
+<connect gate="B" pin="G" pad="5"/>
+<connect gate="B" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="_DUAL">
+<attribute name="CONTINUOUS_DRAIN_CURRENT" value="0.3A" constant="no"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/wdt_reset/SSM6N7002KFU_datasheet_en_20170112.pdf" constant="no"/>
+<attribute name="FET_TYPE" value="2 N-Channel (Dual)" constant="no"/>
+<attribute name="MANUFACTURER" value="Toshiba" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="SSM6N7002KFU,LF" constant="no"/>
+<attribute name="POWER_MAX" value="285mW" constant="no"/>
+<attribute name="RDS_ON_MAX" value="1.5 Ohm @ 100mA, 10V" constant="no"/>
+<attribute name="VALUE" value="NMOS-DUAL" constant="no"/>
+<attribute name="VDS" value="60V" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="SSM6N7002KFULFCT-ND" constant="no"/>
+<attribute name="VGS_MAX" value="2.1V @ 250µA" constant="no"/>
 </technology>
 </technologies>
 </device>
