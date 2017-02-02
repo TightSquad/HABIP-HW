@@ -38949,15 +38949,15 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="GND404" library="daqcs" deviceset="GND" device=""/>
 <part name="PP5V0_CHG_IN301" library="daqcs" deviceset="PP5V0_CHG_IN" device=""/>
 <part name="U302" library="daqcs" deviceset="MAX63XX" device="_SOT23" technology="71KA" value="MAX6371"/>
-<part name="R309" library="daqcs" deviceset="RES" device="_0603" technology="_10R0" value="10k">
+<part name="R311" library="daqcs" deviceset="RES" device="_0603" technology="_10R0" value="10k">
 <variant name="POR" populate="no"/>
 </part>
 <part name="GND312" library="daqcs" deviceset="GND" device=""/>
 <part name="C302" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
-<part name="GND308" library="daqcs" deviceset="GND" device=""/>
-<part name="R307" library="daqcs" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
 <part name="GND309" library="daqcs" deviceset="GND" device=""/>
-<part name="R306" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
+<part name="R309" library="daqcs" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
+<part name="GND310" library="daqcs" deviceset="GND" device=""/>
+<part name="R308" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="GND414" library="daqcs" deviceset="GND" device=""/>
 <part name="R412" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
 <part name="DS402" library="daqcs" deviceset="LED" device="_0603" technology="_Y2V0WURTH" value="YELLOW"/>
@@ -39022,7 +39022,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="TP610" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP611" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP606" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="R310" library="daqcs" deviceset="RES" device="_0603" technology="_0R499" value="49.9"/>
+<part name="R312" library="daqcs" deviceset="RES" device="_0603" technology="_0R499" value="49.9"/>
 <part name="C601" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF">
 <variant name="POR" populate="no"/>
 </part>
@@ -39091,7 +39091,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <variant name="POR" populate="no"/>
 </part>
 <part name="R612" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
-<part name="R308" library="daqcs" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
+<part name="R310" library="daqcs" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
 <part name="U402" library="daqcs" deviceset="TPS61253" device="" value="TPS61253YFFR"/>
 <part name="R404" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0">
 <variant name="POR" populate="no"/>
@@ -39114,10 +39114,10 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="R606" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="R609" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="R610" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
-<part name="R305" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
+<part name="R307" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="Q301" library="daqcs" deviceset="MOSFET-NCHANNEL_DUAL" device="_SOT363" technology="_DUAL" value="SSM6N7002KFU"/>
 <part name="GND311" library="daqcs" deviceset="GND" device=""/>
-<part name="GND310" library="daqcs" deviceset="GND" device=""/>
+<part name="GND308" library="daqcs" deviceset="GND" device=""/>
 <part name="PP3V3_HAT301" library="daqcs" deviceset="PP3V3_HAT" device=""/>
 <part name="R410" library="daqcs" deviceset="RES" device="_0805" technology="_0R0_0805" value="0.0"/>
 <part name="PP5V0_BST402" library="daqcs" deviceset="PP5V0_BST" device=""/>
@@ -39151,6 +39151,8 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <variant name="POR" populate="no"/>
 </part>
 <part name="R607" library="daqcs" deviceset="RES" device="_0805" technology="_0R0_0805" value="0.0"/>
+<part name="R305" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
+<part name="R306" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 </parts>
 <sheets>
 <sheet>
@@ -39232,8 +39234,8 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <text x="20.32" y="157.48" size="1.778" layer="91">(ONLY USE ONE)</text>
 <text x="322.58" y="83.82" size="1.778" layer="91">Vth = 1.1V to 2.1V</text>
 <text x="302.26" y="111.76" size="3.81" layer="91">MCU RESET</text>
-<text x="238.76" y="38.1" size="3.81" layer="91">UNUSED MOSFET</text>
-<text x="238.76" y="33.02" size="3.81" layer="91">IN DUAL ARRAY</text>
+<text x="238.76" y="58.42" size="3.81" layer="91">UNUSED MOSFET</text>
+<text x="238.76" y="53.34" size="3.81" layer="91">IN DUAL ARRAY</text>
 </plain>
 <instances>
 <instance part="U301" gate="A" x="134.62" y="137.16"/>
@@ -39252,18 +39254,18 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="R304" gate="G$1" x="195.58" y="101.6" rot="R90"/>
 <instance part="PP5V0_CHG_IN301" gate="G$1" x="60.96" y="165.1"/>
 <instance part="U302" gate="G$1" x="317.5" y="182.88"/>
-<instance part="R309" gate="G$1" x="342.9" y="198.12" rot="R90"/>
+<instance part="R311" gate="G$1" x="342.9" y="198.12" rot="R90"/>
 <instance part="GND312" gate="1" x="342.9" y="160.02"/>
 <instance part="C302" gate="G$1" x="281.94" y="205.74"/>
-<instance part="GND308" gate="1" x="281.94" y="195.58"/>
-<instance part="R307" gate="G$1" x="292.1" y="157.48" rot="R90"/>
-<instance part="GND309" gate="1" x="292.1" y="144.78"/>
-<instance part="R306" gate="G$1" x="279.4" y="182.88"/>
+<instance part="GND309" gate="1" x="281.94" y="195.58"/>
+<instance part="R309" gate="G$1" x="292.1" y="157.48" rot="R90"/>
+<instance part="GND310" gate="1" x="292.1" y="144.78"/>
+<instance part="R308" gate="G$1" x="279.4" y="182.88"/>
 <instance part="PP3V3_HAT302" gate="G$1" x="342.9" y="218.44"/>
 <instance part="PP5V0_CHG_IN302" gate="G$1" x="195.58" y="182.88"/>
 <instance part="TP301" gate="G$1" x="88.9" y="160.02"/>
 <instance part="TP302" gate="G$1" x="175.26" y="149.86"/>
-<instance part="R310" gate="G$1" x="383.54" y="185.42"/>
+<instance part="R312" gate="G$1" x="383.54" y="185.42"/>
 <instance part="S301" gate="G$1" x="370.84" y="73.66"/>
 <instance part="GND313" gate="1" x="370.84" y="60.96"/>
 <instance part="J302" gate="G$1" x="33.02" y="101.6"/>
@@ -39271,18 +39273,20 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="R301" gate="G$1" x="58.42" y="81.28" rot="R90"/>
 <instance part="FRAME301" gate="G$1" x="0" y="0"/>
 <instance part="FRAME301" gate="G$2" x="325.12" y="0"/>
-<instance part="R308" gate="G$1" x="297.18" y="76.2" rot="R90"/>
-<instance part="R305" gate="G$1" x="266.7" y="167.64"/>
+<instance part="R310" gate="G$1" x="297.18" y="76.2" rot="R90"/>
+<instance part="R307" gate="G$1" x="266.7" y="167.64"/>
 <instance part="Q301" gate="A" x="312.42" y="88.9"/>
-<instance part="Q301" gate="B" x="294.64" y="35.56"/>
+<instance part="Q301" gate="B" x="271.78" y="30.48"/>
 <instance part="GND311" gate="1" x="314.96" y="60.96"/>
-<instance part="GND310" gate="1" x="297.18" y="20.32"/>
+<instance part="GND308" gate="1" x="274.32" y="15.24"/>
 <instance part="PP3V3_HAT301" gate="G$1" x="294.64" y="218.44"/>
 <instance part="GND306" gate="1" x="165.1" y="78.74"/>
 <instance part="TP303" gate="G$1" x="175.26" y="86.36" smashed="yes" rot="R270">
 <attribute name="NAME" x="182.88" y="87.63" size="1.778" layer="95" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="173.99" y="82.55" size="1.778" layer="97" rot="R270"/>
 </instance>
+<instance part="R305" gate="G$1" x="259.08" y="43.18"/>
+<instance part="R306" gate="G$1" x="259.08" y="20.32"/>
 </instances>
 <busses>
 </busses>
@@ -39323,12 +39327,12 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </segment>
 <segment>
 <pinref part="C302" gate="G$1" pin="2"/>
-<pinref part="GND308" gate="1" pin="GND"/>
+<pinref part="GND309" gate="1" pin="GND"/>
 <wire x1="281.94" y1="203.2" x2="281.94" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND309" gate="1" pin="GND"/>
-<pinref part="R307" gate="G$1" pin="1"/>
+<pinref part="GND310" gate="1" pin="GND"/>
+<pinref part="R309" gate="G$1" pin="1"/>
 <wire x1="292.1" y1="147.32" x2="292.1" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -39353,7 +39357,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <wire x1="58.42" y1="71.12" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R308" gate="G$1" pin="1"/>
+<pinref part="R310" gate="G$1" pin="1"/>
 <wire x1="297.18" y1="71.12" x2="297.18" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="66.04" x2="314.96" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="Q301" gate="A" pin="S"/>
@@ -39363,20 +39367,13 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <junction x="314.96" y="66.04"/>
 </segment>
 <segment>
-<pinref part="Q301" gate="B" pin="D"/>
-<wire x1="297.18" y1="43.18" x2="297.18" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="45.72" x2="287.02" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="45.72" x2="287.02" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="Q301" gate="B" pin="G"/>
-<wire x1="287.02" y1="33.02" x2="289.56" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="33.02" x2="287.02" y2="25.4" width="0.1524" layer="91"/>
-<junction x="287.02" y="33.02"/>
-<wire x1="287.02" y1="25.4" x2="297.18" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="Q301" gate="B" pin="S"/>
-<wire x1="297.18" y1="27.94" x2="297.18" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="GND310" gate="1" pin="GND"/>
-<wire x1="297.18" y1="22.86" x2="297.18" y2="25.4" width="0.1524" layer="91"/>
-<junction x="297.18" y="25.4"/>
+<pinref part="GND308" gate="1" pin="GND"/>
+<wire x1="274.32" y1="17.78" x2="274.32" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="R306" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="20.32" x2="274.32" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="20.32" x2="274.32" y2="20.32" width="0.1524" layer="91"/>
+<junction x="274.32" y="20.32"/>
 </segment>
 <segment>
 <pinref part="GND306" gate="1" pin="GND"/>
@@ -39468,18 +39465,18 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <pinref part="U302" gate="G$1" pin="WDI"/>
 <wire x1="299.72" y1="167.64" x2="292.1" y2="167.64" width="0.1524" layer="91"/>
 <label x="279.4" y="167.64" size="1.778" layer="95"/>
-<pinref part="R307" gate="G$1" pin="2"/>
+<pinref part="R309" gate="G$1" pin="2"/>
 <wire x1="292.1" y1="167.64" x2="271.78" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="162.56" x2="292.1" y2="167.64" width="0.1524" layer="91"/>
 <junction x="292.1" y="167.64"/>
-<pinref part="R305" gate="G$1" pin="2"/>
+<pinref part="R307" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="MCU_TO_RASPI_RESET" class="0">
 <segment>
 <label x="264.16" y="86.36" size="1.778" layer="95"/>
 <wire x1="307.34" y1="86.36" x2="297.18" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R308" gate="G$1" pin="2"/>
+<pinref part="R310" gate="G$1" pin="2"/>
 <wire x1="297.18" y1="86.36" x2="259.08" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="81.28" x2="297.18" y2="86.36" width="0.1524" layer="91"/>
 <junction x="297.18" y="86.36"/>
@@ -39488,7 +39485,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </net>
 <net name="PP3V3_HAT" class="0">
 <segment>
-<pinref part="R309" gate="G$1" pin="2"/>
+<pinref part="R311" gate="G$1" pin="2"/>
 <wire x1="342.9" y1="203.2" x2="342.9" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="PP3V3_HAT302" gate="G$1" pin="PP3V3_HAT"/>
 </segment>
@@ -39510,7 +39507,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <wire x1="281.94" y1="210.82" x2="281.94" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="213.36" x2="294.64" y2="213.36" width="0.1524" layer="91"/>
 <junction x="294.64" y="213.36"/>
-<pinref part="R306" gate="G$1" pin="2"/>
+<pinref part="R308" gate="G$1" pin="2"/>
 <wire x1="284.48" y1="182.88" x2="294.64" y2="182.88" width="0.1524" layer="91"/>
 <junction x="294.64" y="182.88"/>
 <pinref part="PP3V3_HAT301" gate="G$1" pin="PP3V3_HAT"/>
@@ -39522,7 +39519,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <wire x1="299.72" y1="175.26" x2="269.24" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="175.26" x2="269.24" y2="182.88" width="0.1524" layer="91"/>
 <label x="284.48" y="175.26" size="1.778" layer="95"/>
-<pinref part="R306" gate="G$1" pin="1"/>
+<pinref part="R308" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="182.88" x2="269.24" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -39533,7 +39530,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </net>
 <net name="RASPI_RESET_N" class="0">
 <segment>
-<pinref part="R310" gate="G$1" pin="2"/>
+<pinref part="R312" gate="G$1" pin="2"/>
 <wire x1="388.62" y1="185.42" x2="419.1" y2="185.42" width="0.1524" layer="91"/>
 <label x="396.24" y="185.42" size="1.778" layer="95"/>
 </segment>
@@ -39542,7 +39539,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <segment>
 <pinref part="U302" gate="G$1" pin="WDO"/>
 <wire x1="335.28" y1="185.42" x2="342.9" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="R309" gate="G$1" pin="1"/>
+<pinref part="R311" gate="G$1" pin="1"/>
 <wire x1="342.9" y1="185.42" x2="370.84" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="185.42" x2="378.46" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="193.04" x2="342.9" y2="185.42" width="0.1524" layer="91"/>
@@ -39551,7 +39548,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <wire x1="314.96" y1="104.14" x2="370.84" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="104.14" x2="370.84" y2="185.42" width="0.1524" layer="91"/>
 <junction x="370.84" y="185.42"/>
-<pinref part="R310" gate="G$1" pin="1"/>
+<pinref part="R312" gate="G$1" pin="1"/>
 <pinref part="S301" gate="G$1" pin="3"/>
 <wire x1="370.84" y1="78.74" x2="370.84" y2="81.28" width="0.1524" layer="91"/>
 <junction x="370.84" y="104.14"/>
@@ -39575,9 +39572,30 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </net>
 <net name="WDT_PET_R" class="0">
 <segment>
-<pinref part="R305" gate="G$1" pin="1"/>
+<pinref part="R307" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="167.64" x2="236.22" y2="167.64" width="0.1524" layer="91"/>
 <label x="241.3" y="167.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="Q301" gate="B" pin="D"/>
+<pinref part="R305" gate="G$1" pin="2"/>
+<wire x1="264.16" y1="43.18" x2="274.32" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="43.18" x2="274.32" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="Q301" gate="B" pin="G"/>
+<pinref part="R306" gate="G$1" pin="1"/>
+<wire x1="254" y1="20.32" x2="246.38" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="20.32" x2="246.38" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="27.94" x2="266.7" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="27.94" x2="246.38" y2="43.18" width="0.1524" layer="91"/>
+<junction x="246.38" y="27.94"/>
+<pinref part="R305" gate="G$1" pin="1"/>
+<wire x1="246.38" y1="43.18" x2="254" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -39589,8 +39607,8 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <text x="243.84" y="243.84" size="3.81" layer="91">5V Boost SMPS</text>
 <text x="17.78" y="238.76" size="1.778" layer="91">LiPo Battery: ~3.0V-4.2V or</text>
 <text x="17.78" y="236.22" size="1.778" layer="91">3xAA Battery: ~3.7V to 4.6V</text>
-<text x="17.78" y="233.68" size="1.778" layer="91">Battery Current: ~400mA (AVG)</text>
-<text x="17.78" y="231.14" size="1.778" layer="91">               ~775mA (PEAK)</text>
+<text x="17.78" y="233.68" size="1.778" layer="91">Battery Current: ~425mA (AVG)</text>
+<text x="17.78" y="231.14" size="1.778" layer="91">               ~900mA (PEAK)</text>
 <text x="375.92" y="236.22" size="1.778" layer="91">System Current: ~275mA (AVG)</text>
 <text x="375.92" y="233.68" size="1.778" layer="91">               ~575mA (PEAK)</text>
 <text x="378.46" y="246.38" size="3.81" layer="91">POWER TO</text>
