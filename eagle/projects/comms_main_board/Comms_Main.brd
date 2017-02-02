@@ -3273,6 +3273,12 @@ design rules under a new name.</description>
 <attribute name="TOLERANCE" value="20%" x="60.81888125" y="44.432390625" size="1.778" layer="27" display="off"/>
 <attribute name="CURRENT_SAT" value="6.5A" x="60.81888125" y="44.432390625" size="1.778" layer="27" display="off"/>
 </element>
+<element name="TP56" library="comms" package="TP15R" value="TPTP15R" x="-123.19" y="-7.0619625">
+<attribute name="TP_SIGNAL_NAME" value="" x="-123.19" y="-7.0619625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP57" library="comms" package="TP15R" value="TPTP15R" x="-123.19" y="-10.82539375">
+<attribute name="TP_SIGNAL_NAME" value="" x="-123.19" y="-10.82539375" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="PI_BUCK_SW">
@@ -3396,6 +3402,8 @@ design rules under a new name.</description>
 <contactref element="J22" pad="1"/>
 <contactref element="U16" pad="2"/>
 <contactref element="L4" pad="2"/>
+<contactref element="TP56" pad="TP"/>
+<contactref element="TP57" pad="TP"/>
 <wire x1="83.52305625" y1="80.316190625" x2="91.44" y2="80.645" width="0" layer="19" extent="16-16"/>
 <wire x1="83.52305625" y1="77.776190625" x2="83.52305625" y2="80.316190625" width="0" layer="19" extent="16-16"/>
 <wire x1="83.52305625" y1="84.126190625" x2="83.52305625" y2="80.316190625" width="0" layer="19" extent="16-16"/>
@@ -3501,6 +3509,8 @@ design rules under a new name.</description>
 <wire x1="88.395" y1="52.78" x2="96.495" y2="46.28" width="0" layer="19" extent="1-1"/>
 <wire x1="96.495" y1="34.85" x2="88.395" y2="41.35" width="0" layer="19" extent="1-1"/>
 <wire x1="-119.38" y1="110.49" x2="2.0787125" y2="81.892746875" width="0" layer="19" extent="1-16"/>
+<wire x1="-123.19" y1="-7.0619625" x2="-119.38" y2="110.49" width="0" layer="19" extent="1-1"/>
+<wire x1="-123.19" y1="-10.82539375" x2="-123.19" y2="-7.0619625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="7P4V_IN">
 <contactref element="C4" pad="1"/>

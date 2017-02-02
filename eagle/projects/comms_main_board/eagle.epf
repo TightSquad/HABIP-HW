@@ -9,12 +9,5 @@ Desktop="Desktop"
 AutoSaveProject=1
 UsedLibrary="/Users/mattzachary/Dropbox/School/2016-2017Spring/MSD/HW/eagle/libraries/habip/comms.lbr"
 
-[Win_1]
-Type="Control Panel"
-Loc="43 23 642 422"
-State=2
-Number=0
-
 [Desktop]
-Screen="640 480"
-Window="Win_1"
+Screen="1280 800"
