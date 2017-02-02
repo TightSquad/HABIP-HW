@@ -282,31 +282,6 @@
 <text x="0.05" y="1.3" size="0.6096" layer="21" ratio="25" align="center">V</text>
 <text x="0.05" y="-1.3" size="0.6096" layer="21" ratio="25" align="center">A</text>
 </package>
-<package name="SOT23P110X060-5N">
-<smd name="1" x="-1.4" y="0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
-<smd name="2" x="-1.4" y="0" dx="1.1" dy="0.6" layer="1" stop="no"/>
-<smd name="3" x="-1.4" y="-0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
-<smd name="4" x="1.4" y="-0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
-<smd name="5" x="1.4" y="0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
-<wire x1="-0.6" y1="-1.5" x2="0.6" y2="-1.5" width="0.15" layer="21"/>
-<wire x1="0.8" y1="-0.35" x2="0.8" y2="0.35" width="0.15" layer="21"/>
-<wire x1="0.6" y1="1.5" x2="0.3" y2="1.5" width="0.15" layer="21"/>
-<wire x1="0.3" y1="1.5" x2="-0.3" y2="1.5" width="0.15" layer="21"/>
-<wire x1="-0.3" y1="1.5" x2="-0.6" y2="1.5" width="0.15" layer="21"/>
-<wire x1="0.3" y1="1.5" x2="-0.3" y2="1.5" width="0.15" layer="21" curve="-180"/>
-<text x="0" y="1.9" size="0.4064" layer="25" ratio="6" rot="SR0" align="center">&gt;NAME</text>
-<text x="0" y="-1.9" size="0.254" layer="27" rot="SR0" align="center">&gt;VALUE</text>
-<rectangle x1="-2" y1="0.6" x2="-0.8" y2="1.3" layer="29"/>
-<rectangle x1="-2" y1="-0.35" x2="-0.8" y2="0.35" layer="29"/>
-<rectangle x1="-2" y1="-1.3" x2="-0.8" y2="-0.6" layer="29"/>
-<rectangle x1="0.8" y1="0.6" x2="2" y2="1.3" layer="29"/>
-<rectangle x1="0.8" y1="-1.3" x2="2" y2="-0.6" layer="29"/>
-<wire x1="-0.775" y1="1.45" x2="0.775" y2="1.45" width="0.05" layer="51"/>
-<wire x1="0.775" y1="1.45" x2="0.775" y2="-1.45" width="0.05" layer="51"/>
-<wire x1="0.775" y1="-1.45" x2="-0.775" y2="-1.45" width="0.05" layer="51"/>
-<wire x1="-0.775" y1="-1.45" x2="-0.775" y2="1.45" width="0.05" layer="51"/>
-<circle x="-1.01" y="1.56" radius="0.072109375" width="0.15" layer="21"/>
-</package>
 <package name="LED0603">
 <description>&lt;b&gt;0603 Chip Resistor&lt;/b&gt;
 &lt;p&gt;&lt;b&gt;Author:&lt;/b&gt; Chris Schwab
@@ -1370,6 +1345,31 @@
 <smd name="6" x="0.95" y="0.65" dx="0.4" dy="0.8" layer="1" rot="R90" stop="no"/>
 <rectangle x1="0.5" y1="0.4" x2="1.4" y2="0.9" layer="29"/>
 </package>
+<package name="SOT23P110X060-5N">
+<smd name="1" x="-1.4" y="0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
+<smd name="2" x="-1.4" y="0" dx="1.1" dy="0.6" layer="1" stop="no"/>
+<smd name="3" x="-1.4" y="-0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
+<smd name="4" x="1.4" y="-0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
+<smd name="5" x="1.4" y="0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
+<wire x1="-0.6" y1="-1.5" x2="0.6" y2="-1.5" width="0.15" layer="21"/>
+<wire x1="0.8" y1="-0.35" x2="0.8" y2="0.35" width="0.15" layer="21"/>
+<wire x1="0.6" y1="1.5" x2="0.3" y2="1.5" width="0.15" layer="21"/>
+<wire x1="0.3" y1="1.5" x2="-0.3" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-0.3" y1="1.5" x2="-0.6" y2="1.5" width="0.15" layer="21"/>
+<wire x1="0.3" y1="1.5" x2="-0.3" y2="1.5" width="0.15" layer="21" curve="-180"/>
+<text x="0" y="1.9" size="0.4064" layer="25" ratio="6" rot="SR0" align="center">&gt;NAME</text>
+<text x="0" y="-1.9" size="0.254" layer="27" rot="SR0" align="center">&gt;VALUE</text>
+<rectangle x1="-2" y1="0.6" x2="-0.8" y2="1.3" layer="29"/>
+<rectangle x1="-2" y1="-0.35" x2="-0.8" y2="0.35" layer="29"/>
+<rectangle x1="-2" y1="-1.3" x2="-0.8" y2="-0.6" layer="29"/>
+<rectangle x1="0.8" y1="0.6" x2="2" y2="1.3" layer="29"/>
+<rectangle x1="0.8" y1="-1.3" x2="2" y2="-0.6" layer="29"/>
+<wire x1="-0.775" y1="1.45" x2="0.775" y2="1.45" width="0.05" layer="51"/>
+<wire x1="0.775" y1="1.45" x2="0.775" y2="-1.45" width="0.05" layer="51"/>
+<wire x1="0.775" y1="-1.45" x2="-0.775" y2="-1.45" width="0.05" layer="51"/>
+<wire x1="-0.775" y1="-1.45" x2="-0.775" y2="1.45" width="0.05" layer="51"/>
+<circle x="-1.01" y="1.56" radius="0.072109375" width="0.15" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RES">
@@ -1454,19 +1454,6 @@
 <text x="3.302" y="-2.286" size="1.778" layer="94">2</text>
 <text x="1.27" y="4.191" size="1.778" layer="96">&gt;POWER</text>
 <text x="1.27" y="6.731" size="1.778" layer="96">&gt;TOLERANCE</text>
-</symbol>
-<symbol name="MCP73831T-2ATI/OT">
-<pin name="STAT" x="17.78" y="0" length="middle" direction="in" rot="R180"/>
-<pin name="VSS" x="17.78" y="-10.16" length="middle" direction="pwr" rot="R180"/>
-<pin name="VBAT" x="17.78" y="7.62" length="middle" direction="in" rot="R180"/>
-<pin name="PROG" x="-17.78" y="0" length="middle" direction="in"/>
-<pin name="VDD" x="-17.78" y="7.62" length="middle" direction="pwr"/>
-<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-15.24" width="0.4064" layer="94"/>
-<wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="-15.24" x2="12.7" y2="15.24" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.4064" layer="94"/>
-<text x="-12.3444" y="16.7386" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="0" y="12.7" size="1.9304" layer="96" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="LED">
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
@@ -37217,6 +37204,19 @@
 <text x="0" y="2.54" size="1.778" layer="96" rot="R180" align="center">&gt;VALUE</text>
 <pin name="PP5V0_BST_HAT" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="MCP73831T-2ATI/OT">
+<pin name="STAT" x="17.78" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="VSS" x="17.78" y="-10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="VBAT" x="17.78" y="7.62" length="middle" direction="in" rot="R180"/>
+<pin name="PROG" x="-17.78" y="0" length="middle" direction="in"/>
+<pin name="VDD" x="-17.78" y="7.62" length="middle" direction="pwr"/>
+<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="12.7" y2="15.24" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.4064" layer="94"/>
+<text x="-12.3444" y="16.7386" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="0" y="12.7" size="1.9304" layer="96" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RES" prefix="R" uservalue="yes">
@@ -37613,33 +37613,6 @@
 <attribute name="VALUE" value="0.05" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="LVK12R050DERCT-ND" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MCP73831" prefix="U" uservalue="yes">
-<description>IC, BATT CHARGER, Li-Ion Li-Polymer, 500 mA</description>
-<gates>
-<gate name="A" symbol="MCP73831T-2ATI/OT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23P110X060-5N">
-<connects>
-<connect gate="A" pin="PROG" pad="5"/>
-<connect gate="A" pin="STAT" pad="1"/>
-<connect gate="A" pin="VBAT" pad="3"/>
-<connect gate="A" pin="VDD" pad="4"/>
-<connect gate="A" pin="VSS" pad="2"/>
-</connects>
-<technologies>
-<technology name="T-2ATI/OT">
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/charger/20001984g.pdf" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="MCP73831T-2ATI/OT" constant="no"/>
-<attribute name="VALUE" value="MCP73831T" constant="no"/>
-<attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="MCP73831T-2ATI/OTCT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -38834,6 +38807,41 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
+<deviceset name="MCP73831" prefix="U" uservalue="yes">
+<description>IC, BATT CHARGER, Li-Ion Li-Polymer, 500 mA</description>
+<gates>
+<gate name="A" symbol="MCP73831T-2ATI/OT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23P110X060-5N">
+<connects>
+<connect gate="A" pin="PROG" pad="5"/>
+<connect gate="A" pin="STAT" pad="1"/>
+<connect gate="A" pin="VBAT" pad="3"/>
+<connect gate="A" pin="VDD" pad="4"/>
+<connect gate="A" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name="T-2ACI/OT">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/charger/20001984g.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="MCP73831T-2ACI/OT" constant="no"/>
+<attribute name="VALUE" value="MCP73831T-2AC" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="MCP73831T-2ACI/OTCT-ND" constant="no"/>
+</technology>
+<technology name="T-2ATI/OT">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/charger/20001984g.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="MCP73831T-2ATI/OT" constant="no"/>
+<attribute name="VALUE" value="MCP73831T-2AT" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="MCP73831T-2ATI/OTCT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -38925,7 +38933,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="GND520" library="daqcs" deviceset="GND" device=""/>
 <part name="GND526" library="daqcs" deviceset="GND" device=""/>
 <part name="U507" library="daqcs" deviceset="MS5803" device="_8SMD" technology="-05BA" value="MS580305BA01"/>
-<part name="U301" library="daqcs" deviceset="MCP73831" device="" technology="T-2ATI/OT" value="MCP73831T"/>
 <part name="R302" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
 <part name="DS302" library="daqcs" deviceset="LED" device="_0603" technology="_G3V2WURTH" value="GREEN"/>
 <part name="DS301" library="daqcs" deviceset="LED" device="_0603" technology="_Y2V0WURTH" value="YELLOW"/>
@@ -39153,6 +39160,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="R607" library="daqcs" deviceset="RES" device="_0805" technology="_0R0_0805" value="0.0"/>
 <part name="R305" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="R306" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
+<part name="U301" library="daqcs" deviceset="MCP73831" device="" technology="T-2ACI/OT" value="MCP73831T-2AC"/>
 </parts>
 <sheets>
 <sheet>
@@ -39238,7 +39246,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <text x="238.76" y="53.34" size="3.81" layer="91">IN DUAL ARRAY</text>
 </plain>
 <instances>
-<instance part="U301" gate="A" x="134.62" y="137.16"/>
 <instance part="R302" gate="G$1" x="99.06" y="121.92" rot="R90"/>
 <instance part="DS302" gate="G$1" x="195.58" y="129.54"/>
 <instance part="DS301" gate="G$1" x="195.58" y="147.32"/>
@@ -39287,6 +39294,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </instance>
 <instance part="R305" gate="G$1" x="259.08" y="43.18"/>
 <instance part="R306" gate="G$1" x="259.08" y="20.32"/>
+<instance part="U301" gate="A" x="134.62" y="137.16"/>
 </instances>
 <busses>
 </busses>
@@ -39299,9 +39307,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </segment>
 <segment>
 <pinref part="GND305" gate="1" pin="GND"/>
-<pinref part="U301" gate="A" pin="VSS"/>
 <wire x1="152.4" y1="127" x2="157.48" y2="127" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="127" x2="157.48" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U301" gate="A" pin="VSS"/>
 </segment>
 <segment>
 <pinref part="C301" gate="G$1" pin="2"/>
@@ -39384,15 +39392,14 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </net>
 <net name="VBAT" class="0">
 <segment>
-<pinref part="U301" gate="A" pin="VBAT"/>
 <wire x1="152.4" y1="144.78" x2="157.48" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="VBAT301" gate="G$1" pin="VBAT"/>
 <wire x1="157.48" y1="144.78" x2="157.48" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="U301" gate="A" pin="VBAT"/>
 </segment>
 </net>
 <net name="CHG_STAT" class="0">
 <segment>
-<pinref part="U301" gate="A" pin="STAT"/>
 <wire x1="152.4" y1="137.16" x2="175.26" y2="137.16" width="0.1524" layer="91"/>
 <label x="157.48" y="137.16" size="1.778" layer="95"/>
 <pinref part="DS301" gate="G$1" pin="C"/>
@@ -39404,6 +39411,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <pinref part="TP302" gate="G$1" pin="TP"/>
 <wire x1="175.26" y1="137.16" x2="175.26" y2="144.78" width="0.1524" layer="91"/>
 <junction x="175.26" y="137.16"/>
+<pinref part="U301" gate="A" pin="STAT"/>
 </segment>
 </net>
 <net name="CHG_DONE" class="0">
@@ -39416,11 +39424,11 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </net>
 <net name="CHG_PROG" class="0">
 <segment>
-<pinref part="U301" gate="A" pin="PROG"/>
 <wire x1="116.84" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R302" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="137.16" x2="99.06" y2="127" width="0.1524" layer="91"/>
 <label x="101.6" y="137.16" size="1.778" layer="95"/>
+<pinref part="U301" gate="A" pin="PROG"/>
 </segment>
 </net>
 <net name="CHG_ON" class="0">
@@ -39435,7 +39443,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <segment>
 <pinref part="C301" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="142.24" x2="76.2" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="U301" gate="A" pin="VDD"/>
 <wire x1="60.96" y1="144.78" x2="76.2" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="144.78" x2="88.9" y2="144.78" width="0.1524" layer="91"/>
 <junction x="76.2" y="144.78"/>
@@ -39453,6 +39460,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <wire x1="40.64" y1="111.76" x2="53.34" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="111.76" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
 <junction x="53.34" y="144.78"/>
+<pinref part="U301" gate="A" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="R303" gate="G$1" pin="2"/>

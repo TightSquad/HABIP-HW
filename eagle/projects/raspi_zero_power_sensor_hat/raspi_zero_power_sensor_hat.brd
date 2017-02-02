@@ -294,31 +294,6 @@
 <rectangle x1="0.7" y1="0.05" x2="1.9" y2="0.6" layer="29"/>
 <rectangle x1="0.7" y1="0.7" x2="1.9" y2="1.25" layer="29"/>
 </package>
-<package name="SOT23P110X060-5N">
-<smd name="1" x="-1.4" y="0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
-<smd name="2" x="-1.4" y="0" dx="1.1" dy="0.6" layer="1" stop="no"/>
-<smd name="3" x="-1.4" y="-0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
-<smd name="4" x="1.4" y="-0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
-<smd name="5" x="1.4" y="0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
-<wire x1="-0.6" y1="-1.5" x2="0.6" y2="-1.5" width="0.15" layer="21"/>
-<wire x1="0.8" y1="-0.35" x2="0.8" y2="0.35" width="0.15" layer="21"/>
-<wire x1="0.6" y1="1.5" x2="0.3" y2="1.5" width="0.15" layer="21"/>
-<wire x1="0.3" y1="1.5" x2="-0.3" y2="1.5" width="0.15" layer="21"/>
-<wire x1="-0.3" y1="1.5" x2="-0.6" y2="1.5" width="0.15" layer="21"/>
-<wire x1="0.3" y1="1.5" x2="-0.3" y2="1.5" width="0.15" layer="21" curve="-180"/>
-<text x="0" y="1.9" size="0.4064" layer="25" ratio="6" rot="SR0" align="center">&gt;NAME</text>
-<text x="0" y="-1.9" size="0.254" layer="27" rot="SR0" align="center">&gt;VALUE</text>
-<rectangle x1="-2" y1="0.6" x2="-0.8" y2="1.3" layer="29"/>
-<rectangle x1="-2" y1="-0.35" x2="-0.8" y2="0.35" layer="29"/>
-<rectangle x1="-2" y1="-1.3" x2="-0.8" y2="-0.6" layer="29"/>
-<rectangle x1="0.8" y1="0.6" x2="2" y2="1.3" layer="29"/>
-<rectangle x1="0.8" y1="-1.3" x2="2" y2="-0.6" layer="29"/>
-<wire x1="-0.775" y1="1.45" x2="0.775" y2="1.45" width="0.05" layer="51"/>
-<wire x1="0.775" y1="1.45" x2="0.775" y2="-1.45" width="0.05" layer="51"/>
-<wire x1="0.775" y1="-1.45" x2="-0.775" y2="-1.45" width="0.05" layer="51"/>
-<wire x1="-0.775" y1="-1.45" x2="-0.775" y2="1.45" width="0.05" layer="51"/>
-<circle x="-1.01" y="1.56" radius="0.072109375" width="0.15" layer="21"/>
-</package>
 <package name="SMD125P110X060-8N">
 <smd name="1" x="-1.1" y="1.875" dx="1.1" dy="0.6" layer="1" stop="no"/>
 <smd name="2" x="-1.1" y="0.625" dx="1.1" dy="0.6" layer="1" stop="no"/>
@@ -1057,6 +1032,31 @@
 <smd name="6" x="0.95" y="0.65" dx="0.4" dy="0.8" layer="1" rot="R90" stop="no"/>
 <rectangle x1="0.5" y1="0.4" x2="1.4" y2="0.9" layer="29"/>
 </package>
+<package name="SOT23P110X060-5N">
+<smd name="1" x="-1.4" y="0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
+<smd name="2" x="-1.4" y="0" dx="1.1" dy="0.6" layer="1" stop="no"/>
+<smd name="3" x="-1.4" y="-0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
+<smd name="4" x="1.4" y="-0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
+<smd name="5" x="1.4" y="0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
+<wire x1="-0.6" y1="-1.5" x2="0.6" y2="-1.5" width="0.15" layer="21"/>
+<wire x1="0.8" y1="-0.35" x2="0.8" y2="0.35" width="0.15" layer="21"/>
+<wire x1="0.6" y1="1.5" x2="0.3" y2="1.5" width="0.15" layer="21"/>
+<wire x1="0.3" y1="1.5" x2="-0.3" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-0.3" y1="1.5" x2="-0.6" y2="1.5" width="0.15" layer="21"/>
+<wire x1="0.3" y1="1.5" x2="-0.3" y2="1.5" width="0.15" layer="21" curve="-180"/>
+<text x="0" y="1.9" size="0.4064" layer="25" ratio="6" rot="SR0" align="center">&gt;NAME</text>
+<text x="0" y="-1.9" size="0.254" layer="27" rot="SR0" align="center">&gt;VALUE</text>
+<rectangle x1="-2" y1="0.6" x2="-0.8" y2="1.3" layer="29"/>
+<rectangle x1="-2" y1="-0.35" x2="-0.8" y2="0.35" layer="29"/>
+<rectangle x1="-2" y1="-1.3" x2="-0.8" y2="-0.6" layer="29"/>
+<rectangle x1="0.8" y1="0.6" x2="2" y2="1.3" layer="29"/>
+<rectangle x1="0.8" y1="-1.3" x2="2" y2="-0.6" layer="29"/>
+<wire x1="-0.775" y1="1.45" x2="0.775" y2="1.45" width="0.05" layer="51"/>
+<wire x1="0.775" y1="1.45" x2="0.775" y2="-1.45" width="0.05" layer="51"/>
+<wire x1="0.775" y1="-1.45" x2="-0.775" y2="-1.45" width="0.05" layer="51"/>
+<wire x1="-0.775" y1="-1.45" x2="-0.775" y2="1.45" width="0.05" layer="51"/>
+<circle x="-1.01" y="1.56" radius="0.072109375" width="0.15" layer="21"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -1583,13 +1583,6 @@ design rules under a new name.</description>
 <attribute name="PRESSURE_TYPE" value="Absolute" x="128.47" y="76.76" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="128.47" y="76.76" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/sensors/ENG_DS_MS5803-05BA_B.pdf" x="128.47" y="76.76" size="1.778" layer="27" display="off"/>
-</element>
-<element name="U301" library="daqcs" package="SOT23P110X060-5N" value="MCP73831T" x="120.75" y="44.45">
-<attribute name="VENDOR_PN" value="MCP73831T-2ATI/OTCT-ND" x="101.86" y="62.45" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="101.86" y="62.45" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="MCP73831T-2ATI/OT" x="101.86" y="62.45" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Microchip" x="101.86" y="62.45" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/charger/20001984g.pdf" x="120.75" y="44.45" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R302" library="daqcs" package="R0603" value="2k" x="117.06" y="35.73">
 <attribute name="VENDOR_PN" value="P2.00KHCT-ND" x="101.94" y="65.27" size="1.778" layer="27" display="off"/>
@@ -2520,6 +2513,13 @@ design rules under a new name.</description>
 <attribute name="TOLERANCE" value="Jumper" x="-124" y="-270.09" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="-124" y="-270.09" size="1.778" layer="27" display="off"/>
 </element>
+<element name="U301" library="daqcs" package="SOT23P110X060-5N" value="MCP73831T-2AC" x="-123.28" y="-273.76">
+<attribute name="VENDOR" value="Digi-key" x="-123.28" y="-273.76" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/charger/20001984g.pdf" x="-123.28" y="-273.76" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="MCP73831T-2ACI/OTCT-ND" x="-123.28" y="-273.76" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="MCP73831T-2ACI/OT" x="-123.28" y="-273.76" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Microchip" x="-123.28" y="-273.76" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="VBAT_R">
@@ -2562,7 +2562,6 @@ design rules under a new name.</description>
 <contactref element="J602" pad="4"/>
 <contactref element="U507" pad="2"/>
 <contactref element="R304" pad="1"/>
-<contactref element="U301" pad="2"/>
 <contactref element="C301" pad="2"/>
 <contactref element="J301" pad="2"/>
 <contactref element="R302" pad="1"/>
@@ -2625,6 +2624,7 @@ design rules under a new name.</description>
 <contactref element="TP603" pad="TP"/>
 <contactref element="J605" pad="3"/>
 <contactref element="R306" pad="2"/>
+<contactref element="U301" pad="2"/>
 <wire x1="146.1" y1="88.685" x2="148.7" y2="89.985" width="0" layer="19" extent="1-1"/>
 <wire x1="143.99" y1="86.1" x2="146.1" y2="88.685" width="0" layer="19" extent="1-1"/>
 <wire x1="143.81" y1="78.55" x2="143.99" y2="86.1" width="0" layer="19" extent="1-1"/>
@@ -2668,7 +2668,6 @@ design rules under a new name.</description>
 <wire x1="116.21" y1="35.73" x2="120.15" y2="34.87" width="0" layer="19" extent="1-1"/>
 <wire x1="113.61" y1="34.99" x2="116.21" y2="35.73" width="0" layer="19" extent="1-1"/>
 <wire x1="113.13" y1="43.63" x2="116.21" y2="35.73" width="0" layer="19" extent="1-1"/>
-<wire x1="119.35" y1="44.45" x2="113.13" y2="43.63" width="0" layer="19" extent="1-1"/>
 <wire x1="152" y1="40.74" x2="134.14" y2="42.2" width="0" layer="19" extent="1-1"/>
 <wire x1="152" y1="47.24" x2="152" y2="40.74" width="0" layer="19" extent="1-1"/>
 <wire x1="87.09" y1="78.23" x2="111.68" y2="75.345" width="0" layer="19" extent="1-1"/>
@@ -2711,17 +2710,18 @@ design rules under a new name.</description>
 <wire x1="-118.45" y1="-260.16" x2="-118.45" y2="-257.85" width="0" layer="19" extent="1-1"/>
 <wire x1="-118.45" y1="-262.47" x2="-118.45" y2="-260.16" width="0" layer="19" extent="1-1"/>
 <wire x1="-123.15" y1="-270.09" x2="-118.45" y2="-262.47" width="0" layer="19" extent="1-1"/>
+<wire x1="-124.68" y1="-273.76" x2="-123.15" y2="-270.09" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBAT">
 <contactref element="C401" pad="1"/>
 <contactref element="J401" pad="1"/>
-<contactref element="U301" pad="3"/>
 <contactref element="TP401" pad="TP"/>
 <contactref element="R401" pad="2A"/>
-<wire x1="19.46" y1="82.41" x2="119.35" y2="43.5" width="0" layer="19" extent="1-1"/>
+<contactref element="U301" pad="3"/>
+<wire x1="13.75" y1="12.18" x2="-124.68" y2="-274.71" width="0" layer="19" extent="1-1"/>
+<wire x1="19.46" y1="82.41" x2="13.75" y2="12.18" width="0" layer="19" extent="1-1"/>
 <wire x1="19.99" y1="87.68" x2="19.46" y2="82.41" width="0" layer="19" extent="1-1"/>
 <wire x1="19.595" y1="89.67" x2="19.99" y2="87.68" width="0" layer="19" extent="1-1"/>
-<wire x1="13.75" y1="12.18" x2="19.46" y2="82.41" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBAT_SNS_P">
 <contactref element="R401" pad="2V"/>
@@ -2739,13 +2739,13 @@ design rules under a new name.</description>
 <wire x1="82.81" y1="80.88" x2="88.64" y2="80.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CHG_STAT">
-<contactref element="U301" pad="1"/>
 <contactref element="DS301" pad="1"/>
 <contactref element="DS302" pad="2"/>
 <contactref element="TP302" pad="TP"/>
-<wire x1="119.35" y1="45.4" x2="123.44" y2="40.4" width="0" layer="19" extent="1-1"/>
-<wire x1="123.2" y1="37.45" x2="119.35" y2="45.4" width="0" layer="19" extent="1-1"/>
-<wire x1="119.28" y1="40.64" x2="123.2" y2="37.45" width="0" layer="19" extent="1-1"/>
+<contactref element="U301" pad="1"/>
+<wire x1="123.2" y1="37.45" x2="123.44" y2="40.4" width="0" layer="19" extent="1-1"/>
+<wire x1="119.28" y1="40.64" x2="123.44" y2="40.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-124.68" y1="-272.81" x2="123.2" y2="37.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CHG_DONE">
 <contactref element="DS302" pad="1"/>
@@ -2753,9 +2753,9 @@ design rules under a new name.</description>
 <wire x1="121.5" y1="37.45" x2="121.85" y2="34.87" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CHG_PROG">
-<contactref element="U301" pad="5"/>
 <contactref element="R302" pad="2"/>
-<wire x1="122.15" y1="45.4" x2="117.91" y2="35.73" width="0" layer="19" extent="1-1"/>
+<contactref element="U301" pad="5"/>
+<wire x1="-121.88" y1="-272.81" x2="117.91" y2="35.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MCU_TO_RASPI_RESET">
 <contactref element="R612" pad="2"/>
@@ -2916,18 +2916,18 @@ design rules under a new name.</description>
 </signal>
 <signal name="PP5V0_CHG_IN">
 <contactref element="C301" pad="1"/>
-<contactref element="U301" pad="4"/>
 <contactref element="J301" pad="1"/>
 <contactref element="R303" pad="2"/>
 <contactref element="TP301" pad="TP"/>
 <contactref element="J302" pad="1"/>
 <contactref element="R403" pad="1"/>
-<wire x1="119.51" y1="38.06" x2="122.15" y2="43.5" width="0" layer="19" extent="1-1"/>
+<contactref element="U301" pad="4"/>
 <wire x1="113.13" y1="41.09" x2="119.51" y2="38.06" width="0" layer="19" extent="1-1"/>
 <wire x1="109.94" y1="36.34" x2="113.13" y2="41.09" width="0" layer="19" extent="1-1"/>
 <wire x1="111.91" y1="34.99" x2="109.94" y2="36.34" width="0" layer="19" extent="1-1"/>
 <wire x1="8.12" y1="76.365" x2="109.94" y2="36.34" width="0" layer="19" extent="1-1"/>
 <wire x1="-118.45" y1="-264.85" x2="8.12" y2="76.365" width="0" layer="19" extent="1-1"/>
+<wire x1="-121.88" y1="-274.71" x2="-118.45" y2="-264.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V3_HAT_PG">
 <contactref element="R412" pad="2"/>
