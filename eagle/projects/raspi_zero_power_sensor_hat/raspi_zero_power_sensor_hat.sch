@@ -38895,7 +38895,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="POR"/>
+<variantdef name="POR" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -38950,13 +38950,13 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <variant name="POR" populate="no"/>
 </part>
 <part name="GND607" library="daqcs" deviceset="GND" device=""/>
-<part name="R611" library="daqcs" deviceset="RES" device="_0603" technology="_4R7" value="4.7k"/>
-<part name="GND610" library="daqcs" deviceset="GND" device=""/>
+<part name="R613" library="daqcs" deviceset="RES" device="_0603" technology="_4R7" value="4.7k"/>
+<part name="GND609" library="daqcs" deviceset="GND" device=""/>
 <part name="TP601" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP608" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP607" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="J603" library="daqcs" deviceset="MOLSL_4PIN" device="_V" technology="_SL4V" value="MOL-SL-4-V"/>
-<part name="J605" library="daqcs" deviceset="MOLSL_3PIN" device="_V" technology="_SL3V" value="MOL-SL-3-V"/>
+<part name="J604" library="daqcs" deviceset="MOLSL_3PIN" device="_V" technology="_SL3V" value="MOL-SL-3-V"/>
 <part name="R605" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
 <part name="R608" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
 <part name="GND601" library="daqcs" deviceset="GND" device=""/>
@@ -39012,9 +39012,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="GND414" library="daqcs" deviceset="GND" device=""/>
 <part name="R412" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
 <part name="DS402" library="daqcs" deviceset="LED" device="_0603" technology="_Y2V0WURTH" value="YELLOW"/>
-<part name="J604" library="daqcs" deviceset="RECEPTICAL-2X3-254MM-PIZERO-RUN" device="_TH" technology="_2X3_254MM" value="RECEPTACLE-2x3-2.54MM"/>
+<part name="J605" library="daqcs" deviceset="RECEPTICAL-2X3-254MM-PIZERO-RUN" device="_TH" technology="_2X3_254MM" value="RECEPTACLE-2x3-2.54MM"/>
 <part name="GND608" library="daqcs" deviceset="GND" device=""/>
-<part name="GND611" library="daqcs" deviceset="GND" device=""/>
+<part name="GND613" library="daqcs" deviceset="GND" device=""/>
 <part name="TP604" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP605" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="J501" library="daqcs" deviceset="MOLSL_5PIN" device="_V" technology="_SL4V" value="MOL-SL-5-V">
@@ -39074,7 +39074,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="TP606" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="R312" library="daqcs" deviceset="RES" device="_0603" technology="_0R499" value="49.9"/>
 <part name="C601" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
-<part name="GND612" library="daqcs" deviceset="GND" device=""/>
+<part name="GND614" library="daqcs" deviceset="GND" device=""/>
 <part name="S301" library="daqcs" deviceset="PB-TACTILE-4P" device="_PTH" technology="_B3F-1000" value="PB"/>
 <part name="GND313" library="daqcs" deviceset="GND" device=""/>
 <part name="TP401" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
@@ -39135,10 +39135,10 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="R603" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="R604" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="L401" library="daqcs" deviceset="L" device="_2SMD3" technology="_1UH0" value="1.0uH"/>
-<part name="R612" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0">
+<part name="R611" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0">
 <variant name="POR" populate="no"/>
 </part>
-<part name="R613" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
+<part name="R612" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="R310" library="daqcs" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
 <part name="U402" library="daqcs" deviceset="TPS61253" device="" value="TPS61253YFFR"/>
 <part name="R404" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0">
@@ -39188,9 +39188,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="TP406" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="GND405" library="daqcs" deviceset="GND" device=""/>
 <part name="TP404" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="GND614" library="daqcs" deviceset="GND" device=""/>
+<part name="GND616" library="daqcs" deviceset="GND" device=""/>
 <part name="TP612" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="GND609" library="daqcs" deviceset="GND" device=""/>
+<part name="GND611" library="daqcs" deviceset="GND" device=""/>
 <part name="TP609" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="GND605" library="daqcs" deviceset="GND" device=""/>
 <part name="TP603" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
@@ -39206,7 +39206,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="F601" library="daqcs" deviceset="FUSE" device="_0603" technology="_CHIP" value="FUSE-50MA"/>
 <part name="PP3V3_HAT604" library="daqcs" deviceset="PP3V3_HAT" device=""/>
 <part name="C602" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
-<part name="GND613" library="daqcs" deviceset="GND" device=""/>
+<part name="GND615" library="daqcs" deviceset="GND" device=""/>
 <part name="BOM727" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI2" value="SL 70066 2PIN HOUSING"/>
 <part name="BOM728" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
 <part name="BOM729" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
@@ -39693,8 +39693,8 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <text x="248.92" y="129.54" size="1.778" layer="91">             -&gt;STUFF R405, NOSTUFF R404</text>
 <text x="248.92" y="114.3" size="1.778" layer="91">             -&gt;STUFF R405 OR R404</text>
 <text x="248.92" y="121.92" size="1.778" layer="91">             -&gt;NOSTUFF R405, STUFF R404</text>
-<text x="177.8" y="162.56" size="1.778" layer="91">Shutdown enabled,</text>
-<text x="177.8" y="160.02" size="1.778" layer="91">Pre-bias disabled</text>
+<text x="180.34" y="162.56" size="1.778" layer="91">Shutdown enabled,</text>
+<text x="180.34" y="160.02" size="1.778" layer="91">Pre-bias disabled</text>
 <text x="165.1" y="83.82" size="3.81" layer="91">CHARGER ATTACH</text>
 <text x="165.1" y="78.74" size="3.81" layer="91">BOOST DISABLE</text>
 <text x="269.24" y="96.52" size="3.81" layer="91">MCU TRIGGER</text>
@@ -40977,8 +40977,8 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <text x="116.84" y="220.98" size="1.778" layer="91">from Raspi</text>
 <text x="198.12" y="208.28" size="1.778" layer="91">to Raspi</text>
 <text x="266.7" y="248.92" size="3.81" layer="91">HOST MCU CONNECTOR</text>
-<text x="302.26" y="170.18" size="3.81" layer="91">EXTERNAL TEMPERATURE</text>
-<text x="302.26" y="165.1" size="3.81" layer="91">SENSOR CONNECTOR</text>
+<text x="292.1" y="172.72" size="3.81" layer="91">EXTERNAL TEMPERATURE</text>
+<text x="292.1" y="167.64" size="3.81" layer="91">SENSOR CONNECTOR</text>
 <text x="43.18" y="154.94" size="2.54" layer="91">DEBUG LED</text>
 <text x="17.78" y="86.36" size="3.81" layer="91">RASPI ZERO HAT OUTLINE</text>
 <text x="22.86" y="81.28" size="1.778" layer="91">Only using 3 mounting holes since</text>
@@ -41011,8 +41011,8 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="R601" gate="G$1" x="40.64" y="215.9" rot="R90"/>
 <instance part="R602" gate="G$1" x="50.8" y="215.9" rot="R90"/>
 <instance part="GND607" gate="1" x="281.94" y="205.74"/>
-<instance part="R611" gate="G$1" x="373.38" y="152.4" rot="R90"/>
-<instance part="GND610" gate="1" x="363.22" y="124.46"/>
+<instance part="R613" gate="G$1" x="378.46" y="160.02" rot="R90"/>
+<instance part="GND609" gate="1" x="330.2" y="132.08"/>
 <instance part="TP601" gate="G$1" x="53.34" y="182.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.99" y="182.88" size="1.778" layer="95" rot="R180" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="54.61" y="186.69" size="1.778" layer="97" rot="R90"/>
@@ -41020,15 +41020,15 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="TP608" gate="G$1" x="337.82" y="238.76"/>
 <instance part="TP607" gate="G$1" x="327.66" y="238.76"/>
 <instance part="J603" gate="G$1" x="266.7" y="220.98"/>
-<instance part="J605" gate="G$1" x="330.2" y="137.16"/>
+<instance part="J604" gate="G$1" x="312.42" y="144.78"/>
 <instance part="R605" gate="G$1" x="76.2" y="154.94" rot="R90"/>
 <instance part="R608" gate="G$1" x="220.98" y="154.94" rot="R90"/>
 <instance part="GND601" gate="1" x="76.2" y="142.24"/>
 <instance part="J602" gate="G$1" x="228.6" y="35.56"/>
 <instance part="GND606" gate="1" x="248.92" y="17.78"/>
-<instance part="J604" gate="G$1" x="327.66" y="86.36"/>
+<instance part="J605" gate="G$1" x="327.66" y="86.36"/>
 <instance part="GND608" gate="1" x="287.02" y="58.42"/>
-<instance part="GND611" gate="1" x="368.3" y="58.42"/>
+<instance part="GND613" gate="1" x="368.3" y="58.42"/>
 <instance part="TP604" gate="G$1" x="256.54" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="250.19" y="91.44" size="1.778" layer="95" rot="R180" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="257.81" y="95.25" size="1.778" layer="97" rot="R90"/>
@@ -41058,26 +41058,26 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="TP611" gate="G$1" x="403.86" y="101.6"/>
 <instance part="TP606" gate="G$1" x="317.5" y="238.76"/>
 <instance part="C601" gate="G$1" x="378.46" y="71.12"/>
-<instance part="GND612" gate="1" x="378.46" y="58.42"/>
+<instance part="GND614" gate="1" x="378.46" y="58.42"/>
 <instance part="FRAME601" gate="G$1" x="0" y="0"/>
 <instance part="FRAME601" gate="G$2" x="325.12" y="0"/>
 <instance part="R603" gate="G$1" x="55.88" y="198.12"/>
 <instance part="R604" gate="G$1" x="73.66" y="203.2"/>
-<instance part="R612" gate="G$1" x="375.92" y="238.76"/>
-<instance part="R613" gate="G$1" x="375.92" y="228.6"/>
+<instance part="R611" gate="G$1" x="375.92" y="238.76"/>
+<instance part="R612" gate="G$1" x="375.92" y="228.6"/>
 <instance part="R606" gate="G$1" x="78.74" y="193.04"/>
 <instance part="R609" gate="G$1" x="248.92" y="193.04"/>
 <instance part="R610" gate="G$1" x="271.78" y="187.96"/>
 <instance part="PP5V0_BST_HAT601" gate="G$1" x="193.04" y="231.14"/>
-<instance part="GND614" gate="1" x="403.86" y="48.26"/>
+<instance part="GND616" gate="1" x="403.86" y="48.26"/>
 <instance part="TP612" gate="G$1" x="414.02" y="55.88" smashed="yes" rot="R270">
 <attribute name="NAME" x="421.64" y="57.15" size="1.778" layer="95" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="412.75" y="52.07" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="GND609" gate="1" x="337.82" y="200.66"/>
-<instance part="TP609" gate="G$1" x="347.98" y="208.28" smashed="yes" rot="R270">
-<attribute name="NAME" x="353.06" y="209.55" size="1.778" layer="95" align="center"/>
-<attribute name="TP_SIGNAL_NAME" x="346.71" y="204.47" size="1.778" layer="97" rot="R270"/>
+<instance part="GND611" gate="1" x="347.98" y="248.92"/>
+<instance part="TP609" gate="G$1" x="358.14" y="256.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="363.22" y="257.81" size="1.778" layer="95" align="center"/>
+<attribute name="TP_SIGNAL_NAME" x="356.87" y="252.73" size="1.778" layer="97" rot="R270"/>
 </instance>
 <instance part="GND605" gate="1" x="238.76" y="160.02"/>
 <instance part="TP603" gate="G$1" x="248.92" y="167.64" smashed="yes" rot="R270">
@@ -41085,10 +41085,10 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <attribute name="TP_SIGNAL_NAME" x="247.65" y="163.83" size="1.778" layer="97" rot="R270"/>
 </instance>
 <instance part="R607" gate="G$1" x="91.44" y="213.36"/>
-<instance part="F601" gate="G$1" x="401.32" y="165.1"/>
-<instance part="PP3V3_HAT604" gate="G$1" x="408.94" y="175.26"/>
-<instance part="C602" gate="G$1" x="383.54" y="157.48"/>
-<instance part="GND613" gate="1" x="383.54" y="147.32"/>
+<instance part="F601" gate="G$1" x="406.4" y="172.72"/>
+<instance part="PP3V3_HAT604" gate="G$1" x="414.02" y="182.88"/>
+<instance part="C602" gate="G$1" x="388.62" y="165.1"/>
+<instance part="GND615" gate="1" x="388.62" y="154.94"/>
 </instances>
 <busses>
 </busses>
@@ -41124,13 +41124,13 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <pinref part="GND606" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J604" gate="G$1" pin="GND@2"/>
+<pinref part="J605" gate="G$1" pin="GND@2"/>
 <wire x1="363.22" y1="86.36" x2="368.3" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="GND611" gate="1" pin="GND"/>
+<pinref part="GND613" gate="1" pin="GND"/>
 <wire x1="368.3" y1="86.36" x2="368.3" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J604" gate="G$1" pin="GND@1"/>
+<pinref part="J605" gate="G$1" pin="GND@1"/>
 <wire x1="292.1" y1="81.28" x2="287.02" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="GND608" gate="1" pin="GND"/>
 <wire x1="287.02" y1="81.28" x2="287.02" y2="60.96" width="0.1524" layer="91"/>
@@ -41141,21 +41141,21 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <pinref part="GND604" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND612" gate="1" pin="GND"/>
+<pinref part="GND614" gate="1" pin="GND"/>
 <pinref part="C601" gate="G$1" pin="2"/>
 <wire x1="378.46" y1="60.96" x2="378.46" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND614" gate="1" pin="GND"/>
+<pinref part="GND616" gate="1" pin="GND"/>
 <wire x1="403.86" y1="50.8" x2="403.86" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="TP612" gate="G$1" pin="TP"/>
 <wire x1="403.86" y1="55.88" x2="408.94" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND609" gate="1" pin="GND"/>
-<wire x1="337.82" y1="203.2" x2="337.82" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="GND611" gate="1" pin="GND"/>
+<wire x1="347.98" y1="251.46" x2="347.98" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="TP609" gate="G$1" pin="TP"/>
-<wire x1="337.82" y1="208.28" x2="342.9" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="256.54" x2="353.06" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND605" gate="1" pin="GND"/>
@@ -41164,15 +41164,15 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <wire x1="238.76" y1="167.64" x2="243.84" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND610" gate="1" pin="GND"/>
-<wire x1="363.22" y1="127" x2="363.22" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="J605" gate="G$1" pin="3"/>
-<wire x1="363.22" y1="132.08" x2="342.9" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="GND609" gate="1" pin="GND"/>
+<wire x1="330.2" y1="134.62" x2="330.2" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="J604" gate="G$1" pin="3"/>
+<wire x1="330.2" y1="139.7" x2="325.12" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND613" gate="1" pin="GND"/>
+<pinref part="GND615" gate="1" pin="GND"/>
 <pinref part="C602" gate="G$1" pin="2"/>
-<wire x1="383.54" y1="149.86" x2="383.54" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="157.48" x2="388.62" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PP3V3_RASPI" class="0">
@@ -41250,13 +41250,13 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </net>
 <net name="TEMP_1WIRE_BI" class="0">
 <segment>
-<pinref part="R611" gate="G$1" pin="1"/>
-<wire x1="373.38" y1="137.16" x2="373.38" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="137.16" x2="401.32" y2="137.16" width="0.1524" layer="91"/>
-<label x="378.46" y="137.16" size="1.778" layer="95"/>
-<pinref part="J605" gate="G$1" pin="2"/>
-<wire x1="342.9" y1="137.16" x2="373.38" y2="137.16" width="0.1524" layer="91"/>
-<junction x="373.38" y="137.16"/>
+<pinref part="R613" gate="G$1" pin="1"/>
+<wire x1="378.46" y1="144.78" x2="378.46" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="144.78" x2="406.4" y2="144.78" width="0.1524" layer="91"/>
+<label x="383.54" y="144.78" size="1.778" layer="95"/>
+<pinref part="J604" gate="G$1" pin="2"/>
+<junction x="378.46" y="144.78"/>
+<wire x1="325.12" y1="144.78" x2="378.46" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R606" gate="G$1" pin="1"/>
@@ -41300,7 +41300,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </net>
 <net name="RASPI_GPIO20" class="0">
 <segment>
-<pinref part="J604" gate="G$1" pin="GPIO20/MOSI"/>
+<pinref part="J605" gate="G$1" pin="GPIO20/MOSI"/>
 <pinref part="TP604" gate="G$1" pin="TP"/>
 <wire x1="292.1" y1="91.44" x2="261.62" y2="91.44" width="0.1524" layer="91"/>
 <label x="269.24" y="91.44" size="1.778" layer="95"/>
@@ -41308,7 +41308,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </net>
 <net name="RASPI_GPIO26" class="0">
 <segment>
-<pinref part="J604" gate="G$1" pin="GPIO26"/>
+<pinref part="J605" gate="G$1" pin="GPIO26"/>
 <pinref part="TP605" gate="G$1" pin="TP"/>
 <wire x1="292.1" y1="86.36" x2="261.62" y2="86.36" width="0.1524" layer="91"/>
 <label x="269.24" y="86.36" size="1.778" layer="95"/>
@@ -41316,7 +41316,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </net>
 <net name="RASPI_RESET_N" class="0">
 <segment>
-<pinref part="J604" gate="G$1" pin="RUN"/>
+<pinref part="J605" gate="G$1" pin="RUN"/>
 <wire x1="363.22" y1="81.28" x2="378.46" y2="81.28" width="0.1524" layer="91"/>
 <label x="375.92" y="81.28" size="1.778" layer="95"/>
 <pinref part="TP611" gate="G$1" pin="TP"/>
@@ -41368,8 +41368,8 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </segment>
 <segment>
 <pinref part="F601" gate="G$1" pin="2"/>
-<wire x1="406.4" y1="165.1" x2="408.94" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="408.94" y1="165.1" x2="408.94" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="172.72" x2="414.02" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="414.02" y1="172.72" x2="414.02" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="PP3V3_HAT604" gate="G$1" pin="PP3V3_HAT"/>
 </segment>
 </net>
@@ -41391,14 +41391,14 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </net>
 <net name="MCU_TO_BST_RESET" class="0">
 <segment>
-<pinref part="R612" gate="G$1" pin="2"/>
+<pinref part="R611" gate="G$1" pin="2"/>
 <wire x1="381" y1="238.76" x2="421.64" y2="238.76" width="0.1524" layer="91"/>
 <label x="388.62" y="238.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MCU_TO_RASPI_RESET" class="0">
 <segment>
-<pinref part="R613" gate="G$1" pin="2"/>
+<pinref part="R612" gate="G$1" pin="2"/>
 <wire x1="381" y1="228.6" x2="421.64" y2="228.6" width="0.1524" layer="91"/>
 <label x="388.62" y="228.6" size="1.778" layer="95"/>
 </segment>
@@ -41413,8 +41413,8 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <wire x1="363.22" y1="228.6" x2="370.84" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="233.68" x2="317.5" y2="228.6" width="0.1524" layer="91"/>
 <junction x="317.5" y="228.6"/>
-<pinref part="R613" gate="G$1" pin="1"/>
 <pinref part="R612" gate="G$1" pin="1"/>
+<pinref part="R611" gate="G$1" pin="1"/>
 <wire x1="370.84" y1="238.76" x2="363.22" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="238.76" x2="363.22" y2="228.6" width="0.1524" layer="91"/>
 <junction x="363.22" y="228.6"/>
@@ -41446,7 +41446,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </net>
 <net name="WDT_PET_R" class="0">
 <segment>
-<pinref part="J604" gate="G$1" pin="GPIO21/SCLK"/>
+<pinref part="J605" gate="G$1" pin="GPIO21/SCLK"/>
 <wire x1="363.22" y1="91.44" x2="393.7" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="TP610" gate="G$1" pin="TP"/>
 <wire x1="393.7" y1="91.44" x2="414.02" y2="91.44" width="0.1524" layer="91"/>
@@ -41469,20 +41469,20 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </net>
 <net name="PP3V3_TEMP" class="0">
 <segment>
-<pinref part="J605" gate="G$1" pin="1"/>
-<wire x1="342.9" y1="142.24" x2="365.76" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="142.24" x2="365.76" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="165.1" x2="373.38" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="R611" gate="G$1" pin="2"/>
-<wire x1="373.38" y1="165.1" x2="383.54" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="383.54" y1="165.1" x2="396.24" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="157.48" x2="373.38" y2="165.1" width="0.1524" layer="91"/>
-<junction x="373.38" y="165.1"/>
+<pinref part="J604" gate="G$1" pin="1"/>
+<wire x1="325.12" y1="149.86" x2="370.84" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="149.86" x2="370.84" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="172.72" x2="378.46" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="R613" gate="G$1" pin="2"/>
+<wire x1="378.46" y1="172.72" x2="388.62" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="172.72" x2="401.32" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="165.1" x2="378.46" y2="172.72" width="0.1524" layer="91"/>
+<junction x="378.46" y="172.72"/>
 <pinref part="F601" gate="G$1" pin="1"/>
-<label x="345.44" y="142.24" size="1.778" layer="95"/>
+<label x="350.52" y="149.86" size="1.778" layer="95"/>
 <pinref part="C602" gate="G$1" pin="1"/>
-<wire x1="383.54" y1="162.56" x2="383.54" y2="165.1" width="0.1524" layer="91"/>
-<junction x="383.54" y="165.1"/>
+<wire x1="388.62" y1="170.18" x2="388.62" y2="172.72" width="0.1524" layer="91"/>
+<junction x="388.62" y="172.72"/>
 </segment>
 </net>
 </nets>
