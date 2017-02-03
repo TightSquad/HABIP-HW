@@ -214,38 +214,6 @@
 <wire x1="-0.1" y1="0" x2="0.1" y2="0.2" width="0.15" layer="21"/>
 <wire x1="0.1" y1="0.2" x2="0" y2="0" width="0.15" layer="21"/>
 </package>
-<package name="RS1206">
-<description>&lt;b&gt;0805 Chip Resistor&lt;/b&gt;
-&lt;p&gt;&lt;b&gt;Author:&lt;/b&gt; Chris Schwab
-&lt;p&gt;&lt;b&gt;Notes:&lt;/b&gt; Modified from Adafruit</description>
-<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.08" layer="51"/>
-<wire x1="-1.6" y1="-0.8" x2="1.6" y2="-0.8" width="0.08" layer="51"/>
-<smd name="1V" x="-1.375" y="0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="2V" x="1.375" y="0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
-<text x="0" y="1.6" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
-<text x="0" y="-1.55" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-<wire x1="-0.25" y1="0.8" x2="0.25" y2="0.8" width="0.15" layer="21"/>
-<wire x1="-0.25" y1="-0.8" x2="0.25" y2="-0.8" width="0.15" layer="21"/>
-<smd name="1A" x="-1.375" y="-0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="2A" x="1.375" y="-0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
-<rectangle x1="-2.25" y1="0.25" x2="-0.5" y2="1.25" layer="31"/>
-<rectangle x1="-2.25" y1="-1.25" x2="-0.5" y2="-0.25" layer="31"/>
-<rectangle x1="0.5" y1="-1.25" x2="2.25" y2="-0.25" layer="31"/>
-<rectangle x1="0.5" y1="0.25" x2="2.25" y2="1.25" layer="31"/>
-<rectangle x1="-2.3" y1="0.1" x2="-0.45" y2="1.3" layer="29"/>
-<rectangle x1="-2.3" y1="-1.3" x2="-0.45" y2="-0.1" layer="29"/>
-<rectangle x1="0.45" y1="-1.3" x2="2.3" y2="-0.1" layer="29"/>
-<rectangle x1="0.45" y1="0.1" x2="2.3" y2="1.3" layer="29"/>
-<wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.08" layer="51"/>
-<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.08" layer="51"/>
-<rectangle x1="-1.65" y1="-0.85" x2="-0.65" y2="-0.3" layer="51"/>
-<rectangle x1="0.65" y1="-0.85" x2="1.65" y2="-0.3" layer="51"/>
-<rectangle x1="-1.65" y1="0.3" x2="-0.65" y2="0.85" layer="51"/>
-<rectangle x1="0.65" y1="0.3" x2="1.65" y2="0.85" layer="51"/>
-<text x="0.05" y="1.3" size="0.6096" layer="21" ratio="25" align="center">V</text>
-<text x="0.05" y="-1.3" size="0.6096" layer="21" ratio="25" align="center">A</text>
-</package>
 <package name="R0603">
 <description>&lt;b&gt;0603 Chip Resistor&lt;/b&gt;
 &lt;p&gt;&lt;b&gt;Author:&lt;/b&gt; Chris Schwab
@@ -1057,6 +1025,38 @@
 <wire x1="-0.775" y1="-1.45" x2="-0.775" y2="1.45" width="0.05" layer="51"/>
 <circle x="-1.01" y="1.56" radius="0.072109375" width="0.15" layer="21"/>
 </package>
+<package name="RS1206">
+<description>&lt;b&gt;0805 Chip Resistor&lt;/b&gt;
+&lt;p&gt;&lt;b&gt;Author:&lt;/b&gt; Chris Schwab
+&lt;p&gt;&lt;b&gt;Notes:&lt;/b&gt; Modified from Adafruit</description>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.08" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="1.6" y2="-0.8" width="0.08" layer="51"/>
+<smd name="1V" x="-1.375" y="0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="2V" x="1.375" y="0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
+<text x="0" y="1.6" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
+<text x="0" y="-1.55" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<wire x1="-0.25" y1="0.8" x2="0.25" y2="0.8" width="0.15" layer="21"/>
+<wire x1="-0.25" y1="-0.8" x2="0.25" y2="-0.8" width="0.15" layer="21"/>
+<smd name="1A" x="-1.375" y="-0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="2A" x="1.375" y="-0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
+<rectangle x1="-2.25" y1="0.25" x2="-0.5" y2="1.25" layer="31"/>
+<rectangle x1="-2.25" y1="-1.25" x2="-0.5" y2="-0.25" layer="31"/>
+<rectangle x1="0.5" y1="-1.25" x2="2.25" y2="-0.25" layer="31"/>
+<rectangle x1="0.5" y1="0.25" x2="2.25" y2="1.25" layer="31"/>
+<rectangle x1="-2.3" y1="0.1" x2="-0.45" y2="1.3" layer="29"/>
+<rectangle x1="-2.3" y1="-1.3" x2="-0.45" y2="-0.1" layer="29"/>
+<rectangle x1="0.45" y1="-1.3" x2="2.3" y2="-0.1" layer="29"/>
+<rectangle x1="0.45" y1="0.1" x2="2.3" y2="1.3" layer="29"/>
+<wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.08" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.08" layer="51"/>
+<rectangle x1="-1.65" y1="-0.85" x2="-0.65" y2="-0.3" layer="51"/>
+<rectangle x1="0.65" y1="-0.85" x2="1.65" y2="-0.3" layer="51"/>
+<rectangle x1="-1.65" y1="0.3" x2="-0.65" y2="0.85" layer="51"/>
+<rectangle x1="0.65" y1="0.3" x2="1.65" y2="0.85" layer="51"/>
+<text x="0.05" y="1.3" size="0.6096" layer="21" ratio="25" align="center">V</text>
+<text x="0.05" y="-1.3" size="0.6096" layer="21" ratio="25" align="center">A</text>
+</package>
 </packages>
 </library>
 </libraries>
@@ -1307,16 +1307,6 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PN" value="150060BS75000" x="83.66" y="80.88" size="1.778" layer="27" display="off"/>
 <attribute name="FORWARD_VOLTAGE" value="3.2V" x="83.66" y="80.88" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/charger/150060BS75000.pdf" x="83.66" y="80.88" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R402" library="daqcs" package="RS1206" value="0.05" x="18.22" y="90.37">
-<attribute name="VENDOR" value="Digi-key" x="18.22" y="90.37" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR_PN" value="LVK12R050DERCT-ND" x="18.22" y="90.37" size="1.778" layer="27" display="off"/>
-<attribute name="TERMINALS" value="4" x="18.22" y="90.37" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="0.5%" x="18.22" y="90.37" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Ohmite" x="18.22" y="90.37" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="LVK12R050DER" x="18.22" y="90.37" size="1.778" layer="27" display="off"/>
-<attribute name="POWER" value="1/5W" x="18.22" y="90.37" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/res_lvk.pdf" x="18.22" y="90.37" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R507" library="daqcs" package="R0603" value="0.0" x="116.67" y="75.34">
 <attribute name="VENDOR" value="Digi-key" x="116.67" y="75.34" size="1.778" layer="27" display="off"/>
@@ -2510,18 +2500,18 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PN" value="MCP73831T-2ACI/OT" x="-123.28" y="-273.76" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Microchip" x="-123.28" y="-273.76" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J402" library="daqcs" package="MOLSL-2-V" value="MOL-SL-2-V" x="-117.07" y="-284.35">
-<attribute name="MOUNT_TYPE" value="TH" x="-117.07" y="-284.35" size="1.778" layer="27" display="off"/>
-<attribute name="POSITIONS" value="2" x="-117.07" y="-284.35" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT_ANGLE" value="VERTICAL" x="-117.07" y="-284.35" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="-117.07" y="-284.35" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="0705430001" x="-117.07" y="-284.35" size="1.778" layer="27" display="off"/>
-<attribute name="FINISH" value="GOLD" x="-117.07" y="-284.35" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Molex" x="-117.07" y="-284.35" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/705430001_sd.pdf" x="-117.07" y="-284.35" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR_PN" value="WM4800-ND" x="-117.07" y="-284.35" size="1.778" layer="27" display="off"/>
-<attribute name="LOCKING" value="YES" x="-117.07" y="-284.35" size="1.778" layer="27" display="off"/>
-<attribute name="MAX_CURRENT" value="3.0A" x="-117.07" y="-284.35" size="1.778" layer="27" display="off"/>
+<element name="J402" library="daqcs" package="MOLSL-2-V" value="MOL-SL-2-V" x="2.62" y="18.89" rot="R270">
+<attribute name="MOUNT_TYPE" value="TH" x="2.62" y="18.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POSITIONS" value="2" x="2.62" y="18.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUNT_ANGLE" value="VERTICAL" x="2.62" y="18.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="2.62" y="18.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0705430001" x="2.62" y="18.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="FINISH" value="GOLD" x="2.62" y="18.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="2.62" y="18.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/705430001_sd.pdf" x="2.62" y="18.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR_PN" value="WM4800-ND" x="2.62" y="18.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LOCKING" value="YES" x="2.62" y="18.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MAX_CURRENT" value="3.0A" x="2.62" y="18.89" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="F601" library="daqcs" package="R0603" value="FUSE-50MA" x="-124" y="-293.89">
 <attribute name="MANUFACTURER" value="AVX" x="-124" y="-293.89" size="1.778" layer="27" display="off"/>
@@ -2544,22 +2534,53 @@ design rules under a new name.</description>
 <attribute name="VOLTAGE" value="16V" x="-124" y="-296.51" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="-124" y="-296.51" size="1.778" layer="27" display="off"/>
 </element>
+<element name="BOM727" library="daqcs" package="BLANK" value="SL 70066 2PIN HOUSING" x="-125.5" y="-299.47">
+<attribute name="MANUFACTURER" value="Molex" x="-126.01" y="-299.47" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="50-57-9402" x="-126.01" y="-299.47" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/050579402_sd.pdf" x="-126.01" y="-299.47" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2900-ND" x="-126.01" y="-299.47" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="-126.01" y="-299.47" size="1.778" layer="27" display="off"/>
+</element>
+<element name="BOM728" library="daqcs" package="BLANK" value="SL 70058 GOLD CRIMP" x="-125.5" y="-302.18">
+<attribute name="MANUFACTURER" value="Molex" x="-126.51" y="-302.18" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-126.51" y="-302.18" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/016020087_sd.pdf" x="-126.51" y="-302.18" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-126.51" y="-302.18" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="-126.51" y="-302.18" size="1.778" layer="27" display="off"/>
+</element>
+<element name="BOM729" library="daqcs" package="BLANK" value="SL 70058 GOLD CRIMP" x="-125.5" y="-304.89">
+<attribute name="MANUFACTURER" value="Molex" x="-127.01" y="-304.89" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-127.01" y="-304.89" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/016020087_sd.pdf" x="-127.01" y="-304.89" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-127.01" y="-304.89" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="-127.01" y="-304.89" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R402" library="daqcs" package="RS1206" value="0.033" x="-122.22" y="-308.02">
+<attribute name="TOLERANCE" value="0.5%" x="-122.22" y="-308.02" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="1/2W" x="-122.22" y="-308.02" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Ohmite" x="-122.22" y="-308.02" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="LVK12R033DER" x="-122.22" y="-308.02" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/res_lvk.pdf" x="-122.22" y="-308.02" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="LVK12R033DERCT-ND" x="-122.22" y="-308.02" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="-122.22" y="-308.02" size="1.778" layer="27" display="off"/>
+<attribute name="TERMINALS" value="4" x="-122.22" y="-308.02" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="VBAT_R">
-<contactref element="R402" pad="1A"/>
 <contactref element="TP403" pad="TP"/>
 <contactref element="L401" pad="1"/>
 <contactref element="U402" pad="A3"/>
 <contactref element="R404" pad="2"/>
 <contactref element="R407" pad="2"/>
 <contactref element="C403" pad="1"/>
-<wire x1="16.845" y1="89.67" x2="38.51" y2="90.16" width="0" layer="19" extent="1-1"/>
-<wire x1="32.03" y1="89.29" x2="16.845" y2="89.67" width="0" layer="19" extent="1-1"/>
-<wire x1="41.95" y1="91.21" x2="32.03" y2="89.29" width="0" layer="19" extent="1-1"/>
-<wire x1="40.49" y1="88.41" x2="41.95" y2="91.21" width="0" layer="19" extent="1-1"/>
-<wire x1="44.05" y1="88.38" x2="40.49" y2="88.41" width="0" layer="19" extent="1-1"/>
-<wire x1="38.99" y1="86.09" x2="44.05" y2="88.38" width="0" layer="19" extent="1-1"/>
+<contactref element="R402" pad="2A"/>
+<wire x1="38.99" y1="86.09" x2="-120.845" y2="-308.72" width="0" layer="19" extent="1-1"/>
+<wire x1="40.49" y1="88.41" x2="38.99" y2="86.09" width="0" layer="19" extent="1-1"/>
+<wire x1="38.51" y1="90.16" x2="40.49" y2="88.41" width="0" layer="19" extent="1-1"/>
+<wire x1="41.95" y1="91.21" x2="40.49" y2="88.41" width="0" layer="19" extent="1-1"/>
+<wire x1="44.05" y1="88.38" x2="41.95" y2="91.21" width="0" layer="19" extent="1-1"/>
+<wire x1="32.03" y1="89.29" x2="38.51" y2="90.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="C405" pad="2"/>
@@ -2742,20 +2763,20 @@ design rules under a new name.</description>
 <contactref element="TP401" pad="TP"/>
 <contactref element="U301" pad="3"/>
 <contactref element="J402" pad="2"/>
-<wire x1="-115.8" y1="-284.35" x2="-124.68" y2="-274.71" width="0" layer="19" extent="1-1"/>
+<wire x1="2.62" y1="17.62" x2="-124.68" y2="-274.71" width="0" layer="19" extent="1-1"/>
 <wire x1="13.75" y1="12.18" x2="-124.68" y2="-274.71" width="0" layer="19" extent="1-1"/>
 <wire x1="19.46" y1="82.41" x2="13.75" y2="12.18" width="0" layer="19" extent="1-1"/>
 <wire x1="19.99" y1="87.68" x2="19.46" y2="82.41" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBAT_SNS_P">
-<contactref element="R402" pad="2V"/>
 <contactref element="U504" pad="1"/>
-<wire x1="19.595" y1="91.07" x2="146.1" y2="89.985" width="0" layer="19" extent="1-1"/>
+<contactref element="R402" pad="1V"/>
+<wire x1="-123.595" y1="-307.32" x2="146.1" y2="89.985" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBAT_SNS_N">
-<contactref element="R402" pad="1V"/>
 <contactref element="U504" pad="2"/>
-<wire x1="16.845" y1="91.07" x2="146.1" y2="89.335" width="0" layer="19" extent="1-1"/>
+<contactref element="R402" pad="2V"/>
+<wire x1="-120.845" y1="-307.32" x2="146.1" y2="89.335" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V0_BST_PG">
 <contactref element="DS401" pad="1"/>
@@ -3288,8 +3309,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="VBAT_J">
 <contactref element="J402" pad="1"/>
-<contactref element="R402" pad="2A"/>
-<wire x1="19.595" y1="89.67" x2="-118.34" y2="-284.35" width="0" layer="19" extent="1-1"/>
+<contactref element="R402" pad="1A"/>
+<wire x1="2.62" y1="20.16" x2="-123.595" y2="-308.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PP3V3_TEMP">
 <contactref element="J605" pad="1"/>

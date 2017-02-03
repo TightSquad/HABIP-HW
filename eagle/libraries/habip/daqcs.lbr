@@ -40113,11 +40113,22 @@ This device is fully specified for partial power-down applications using IOFF. T
 <connect gate="G$1" pin="2V" pad="2V"/>
 </connects>
 <technologies>
+<technology name="_0RS033">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/res_lvk.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Ohmite" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="LVK12R033DER" constant="no"/>
+<attribute name="POWER" value="1/2W" constant="no"/>
+<attribute name="TERMINALS" value="4" constant="no"/>
+<attribute name="TOLERANCE" value="0.5%" constant="no"/>
+<attribute name="VALUE" value="0.033" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="LVK12R033DERCT-ND" constant="no"/>
+</technology>
 <technology name="_0RS050">
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/res_lvk.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Ohmite" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="LVK12R050DER" constant="no"/>
-<attribute name="POWER" value="1/5W" constant="no"/>
+<attribute name="POWER" value="1/2W" constant="no"/>
 <attribute name="TERMINALS" value="4" constant="no"/>
 <attribute name="TOLERANCE" value="0.5%" constant="no"/>
 <attribute name="VALUE" value="0.05" constant="no"/>

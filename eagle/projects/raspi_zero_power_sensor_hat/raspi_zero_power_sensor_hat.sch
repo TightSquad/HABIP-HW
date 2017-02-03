@@ -250,38 +250,6 @@
 <rectangle x1="-1.6" y1="-0.75" x2="-0.4" y2="0.75" layer="29"/>
 <rectangle x1="0.4" y1="-0.75" x2="1.6" y2="0.75" layer="29"/>
 </package>
-<package name="RS1206">
-<description>&lt;b&gt;0805 Chip Resistor&lt;/b&gt;
-&lt;p&gt;&lt;b&gt;Author:&lt;/b&gt; Chris Schwab
-&lt;p&gt;&lt;b&gt;Notes:&lt;/b&gt; Modified from Adafruit</description>
-<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.08" layer="51"/>
-<wire x1="-1.6" y1="-0.8" x2="1.6" y2="-0.8" width="0.08" layer="51"/>
-<smd name="1V" x="-1.375" y="0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="2V" x="1.375" y="0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
-<text x="0" y="1.6" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
-<text x="0" y="-1.55" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-<wire x1="-0.25" y1="0.8" x2="0.25" y2="0.8" width="0.15" layer="21"/>
-<wire x1="-0.25" y1="-0.8" x2="0.25" y2="-0.8" width="0.15" layer="21"/>
-<smd name="1A" x="-1.375" y="-0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="2A" x="1.375" y="-0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
-<rectangle x1="-2.25" y1="0.25" x2="-0.5" y2="1.25" layer="31"/>
-<rectangle x1="-2.25" y1="-1.25" x2="-0.5" y2="-0.25" layer="31"/>
-<rectangle x1="0.5" y1="-1.25" x2="2.25" y2="-0.25" layer="31"/>
-<rectangle x1="0.5" y1="0.25" x2="2.25" y2="1.25" layer="31"/>
-<rectangle x1="-2.3" y1="0.1" x2="-0.45" y2="1.3" layer="29"/>
-<rectangle x1="-2.3" y1="-1.3" x2="-0.45" y2="-0.1" layer="29"/>
-<rectangle x1="0.45" y1="-1.3" x2="2.3" y2="-0.1" layer="29"/>
-<rectangle x1="0.45" y1="0.1" x2="2.3" y2="1.3" layer="29"/>
-<wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.08" layer="51"/>
-<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.08" layer="51"/>
-<rectangle x1="-1.65" y1="-0.85" x2="-0.65" y2="-0.3" layer="51"/>
-<rectangle x1="0.65" y1="-0.85" x2="1.65" y2="-0.3" layer="51"/>
-<rectangle x1="-1.65" y1="0.3" x2="-0.65" y2="0.85" layer="51"/>
-<rectangle x1="0.65" y1="0.3" x2="1.65" y2="0.85" layer="51"/>
-<text x="0.05" y="1.3" size="0.6096" layer="21" ratio="25" align="center">V</text>
-<text x="0.05" y="-1.3" size="0.6096" layer="21" ratio="25" align="center">A</text>
-</package>
 <package name="LED0603">
 <description>&lt;b&gt;0603 Chip Resistor&lt;/b&gt;
 &lt;p&gt;&lt;b&gt;Author:&lt;/b&gt; Chris Schwab
@@ -1370,6 +1338,38 @@
 <wire x1="-0.775" y1="-1.45" x2="-0.775" y2="1.45" width="0.05" layer="51"/>
 <circle x="-1.01" y="1.56" radius="0.072109375" width="0.15" layer="21"/>
 </package>
+<package name="RS1206">
+<description>&lt;b&gt;0805 Chip Resistor&lt;/b&gt;
+&lt;p&gt;&lt;b&gt;Author:&lt;/b&gt; Chris Schwab
+&lt;p&gt;&lt;b&gt;Notes:&lt;/b&gt; Modified from Adafruit</description>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.08" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="1.6" y2="-0.8" width="0.08" layer="51"/>
+<smd name="1V" x="-1.375" y="0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="2V" x="1.375" y="0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
+<text x="0" y="1.6" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
+<text x="0" y="-1.55" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<wire x1="-0.25" y1="0.8" x2="0.25" y2="0.8" width="0.15" layer="21"/>
+<wire x1="-0.25" y1="-0.8" x2="0.25" y2="-0.8" width="0.15" layer="21"/>
+<smd name="1A" x="-1.375" y="-0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="2A" x="1.375" y="-0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
+<rectangle x1="-2.25" y1="0.25" x2="-0.5" y2="1.25" layer="31"/>
+<rectangle x1="-2.25" y1="-1.25" x2="-0.5" y2="-0.25" layer="31"/>
+<rectangle x1="0.5" y1="-1.25" x2="2.25" y2="-0.25" layer="31"/>
+<rectangle x1="0.5" y1="0.25" x2="2.25" y2="1.25" layer="31"/>
+<rectangle x1="-2.3" y1="0.1" x2="-0.45" y2="1.3" layer="29"/>
+<rectangle x1="-2.3" y1="-1.3" x2="-0.45" y2="-0.1" layer="29"/>
+<rectangle x1="0.45" y1="-1.3" x2="2.3" y2="-0.1" layer="29"/>
+<rectangle x1="0.45" y1="0.1" x2="2.3" y2="1.3" layer="29"/>
+<wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.08" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.08" layer="51"/>
+<rectangle x1="-1.65" y1="-0.85" x2="-0.65" y2="-0.3" layer="51"/>
+<rectangle x1="0.65" y1="-0.85" x2="1.65" y2="-0.3" layer="51"/>
+<rectangle x1="-1.65" y1="0.3" x2="-0.65" y2="0.85" layer="51"/>
+<rectangle x1="0.65" y1="0.3" x2="1.65" y2="0.85" layer="51"/>
+<text x="0.05" y="1.3" size="0.6096" layer="21" ratio="25" align="center">V</text>
+<text x="0.05" y="-1.3" size="0.6096" layer="21" ratio="25" align="center">A</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RES">
@@ -1433,27 +1433,6 @@
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
 <text x="0" y="2.54" size="2.1844" layer="96" rot="R180" align="center">&gt;VALUE</text>
 <pin name="VBAT" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-<symbol name="RES_SNS">
-<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<text x="-6.35" y="1.651" size="2.0828" layer="95">&gt;NAME</text>
-<text x="1.27" y="1.651" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2A" x="7.62" y="0" visible="off" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1A" x="-7.62" y="0" visible="off" length="middle" direction="pas" swaplevel="1"/>
-<pin name="1V" x="-2.54" y="-5.08" visible="off" length="middle" direction="pas" rot="R90"/>
-<pin name="2V" x="2.54" y="-5.08" visible="off" length="middle" direction="pas" rot="R90"/>
-<text x="-4.318" y="-2.286" size="1.778" layer="94">1</text>
-<text x="3.302" y="-2.286" size="1.778" layer="94">2</text>
-<text x="1.27" y="4.191" size="1.778" layer="96">&gt;POWER</text>
-<text x="1.27" y="6.731" size="1.778" layer="96">&gt;TOLERANCE</text>
 </symbol>
 <symbol name="LED">
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
@@ -37225,6 +37204,27 @@
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
+<symbol name="RES_SNS">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-6.35" y="1.651" size="2.0828" layer="95">&gt;NAME</text>
+<text x="1.27" y="1.651" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2A" x="7.62" y="0" visible="off" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1A" x="-7.62" y="0" visible="off" length="middle" direction="pas" swaplevel="1"/>
+<pin name="1V" x="-2.54" y="-5.08" visible="off" length="middle" direction="pas" rot="R90"/>
+<pin name="2V" x="2.54" y="-5.08" visible="off" length="middle" direction="pas" rot="R90"/>
+<text x="-4.318" y="-2.286" size="1.778" layer="94">1</text>
+<text x="3.302" y="-2.286" size="1.778" layer="94">2</text>
+<text x="1.27" y="4.191" size="1.778" layer="96">&gt;POWER</text>
+<text x="1.27" y="6.731" size="1.778" layer="96">&gt;TOLERANCE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RES" prefix="R" uservalue="yes">
@@ -37593,35 +37593,6 @@
 <device name="">
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RES_SNS" prefix="R" uservalue="yes">
-<description>&lt;b&gt;Chip Resistor&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="RES_SNS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RS1206">
-<connects>
-<connect gate="G$1" pin="1A" pad="1A"/>
-<connect gate="G$1" pin="1V" pad="1V"/>
-<connect gate="G$1" pin="2A" pad="2A"/>
-<connect gate="G$1" pin="2V" pad="2V"/>
-</connects>
-<technologies>
-<technology name="_0RS050">
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/res_lvk.pdf" constant="no"/>
-<attribute name="MANUFACTURER" value="Ohmite" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="LVK12R050DER" constant="no"/>
-<attribute name="POWER" value="1/5W" constant="no"/>
-<attribute name="TERMINALS" value="4" constant="no"/>
-<attribute name="TOLERANCE" value="0.5%" constant="no"/>
-<attribute name="VALUE" value="0.05" constant="no"/>
-<attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="LVK12R050DERCT-ND" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -38878,6 +38849,46 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
+<deviceset name="RES_SNS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;Chip Resistor&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="RES_SNS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RS1206">
+<connects>
+<connect gate="G$1" pin="1A" pad="1A"/>
+<connect gate="G$1" pin="1V" pad="1V"/>
+<connect gate="G$1" pin="2A" pad="2A"/>
+<connect gate="G$1" pin="2V" pad="2V"/>
+</connects>
+<technologies>
+<technology name="_0RS033">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/res_lvk.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Ohmite" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="LVK12R033DER" constant="no"/>
+<attribute name="POWER" value="1/2W" constant="no"/>
+<attribute name="TERMINALS" value="4" constant="no"/>
+<attribute name="TOLERANCE" value="0.5%" constant="no"/>
+<attribute name="VALUE" value="0.033" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="LVK12R033DERCT-ND" constant="no"/>
+</technology>
+<technology name="_0RS050">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/res_lvk.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Ohmite" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="LVK12R050DER" constant="no"/>
+<attribute name="POWER" value="1/2W" constant="no"/>
+<attribute name="TERMINALS" value="4" constant="no"/>
+<attribute name="TOLERANCE" value="0.5%" constant="no"/>
+<attribute name="VALUE" value="0.05" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="LVK12R050DERCT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -38899,7 +38910,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="VBAT401" library="daqcs" deviceset="VBAT" device=""/>
 <part name="C405" library="daqcs" deviceset="CAP" device="_0805" technology="_22UF0" value="22uF"/>
 <part name="GND410" library="daqcs" deviceset="GND" device=""/>
-<part name="R402" library="daqcs" deviceset="RES_SNS" device="" technology="_0RS050" value="0.05"/>
 <part name="DS401" library="daqcs" deviceset="LED" device="_0603" technology="_B3V2WURTH" value="BLUE"/>
 <part name="GND413" library="daqcs" deviceset="GND" device=""/>
 <part name="U506" library="daqcs" deviceset="MS5607" device="_8SMD" technology="-02BA03" value="MS560702BA03-50"/>
@@ -39197,6 +39207,10 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="PP3V3_HAT604" library="daqcs" deviceset="PP3V3_HAT" device=""/>
 <part name="C602" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
 <part name="GND613" library="daqcs" deviceset="GND" device=""/>
+<part name="BOM727" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI2" value="SL 70066 2PIN HOUSING"/>
+<part name="BOM728" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM729" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
+<part name="R402" library="daqcs" deviceset="RES_SNS" device="" technology="_0RS033" value="0.033"/>
 </parts>
 <sheets>
 <sheet>
@@ -39691,18 +39705,13 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <text x="307.34" y="63.5" size="1.778" layer="91">Vth = 1.1V to 2.1V</text>
 <text x="256.54" y="236.22" size="1.778" layer="91">Fsw: ~3.5MHz</text>
 <text x="81.28" y="236.22" size="3.81" layer="91">BATTERY JUMPER</text>
+<text x="144.78" y="152.4" size="1.778" layer="91">40mV max</text>
 </plain>
 <instances>
 <instance part="GND402" gate="1" x="53.34" y="185.42"/>
 <instance part="VBAT401" gate="G$1" x="53.34" y="218.44"/>
 <instance part="C405" gate="G$1" x="299.72" y="187.96"/>
 <instance part="GND410" gate="1" x="299.72" y="172.72"/>
-<instance part="R402" gate="G$1" x="137.16" y="203.2" smashed="yes" rot="MR0">
-<attribute name="NAME" x="135.89" y="204.851" size="2.0828" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="144.272" y="204.851" size="1.778" layer="96" rot="MR0"/>
-<attribute name="POWER" x="144.272" y="207.391" size="1.778" layer="96" rot="MR0"/>
-<attribute name="TOLERANCE" x="144.272" y="209.931" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="DS401" gate="G$1" x="365.76" y="114.3"/>
 <instance part="GND413" gate="1" x="365.76" y="66.04"/>
 <instance part="C401" gate="G$1" x="60.96" y="195.58"/>
@@ -39764,6 +39773,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <attribute name="NAME" x="106.68" y="226.06" size="2.0828" layer="95" align="center-left"/>
 <attribute name="VALUE" x="96.52" y="218.44" size="1.778" layer="96" rot="R270" align="center"/>
 </instance>
+<instance part="R402" gate="G$1" x="137.16" y="203.2"/>
 </instances>
 <busses>
 </busses>
@@ -39773,7 +39783,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <label x="175.26" y="203.2" size="1.778" layer="95"/>
 <wire x1="144.78" y1="203.2" x2="152.4" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="203.2" x2="193.04" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="R402" gate="G$1" pin="1A"/>
 <pinref part="TP403" gate="G$1" pin="TP"/>
 <wire x1="193.04" y1="203.2" x2="200.66" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="210.82" x2="152.4" y2="203.2" width="0.1524" layer="91"/>
@@ -39795,6 +39804,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <wire x1="193.04" y1="195.58" x2="193.04" y2="203.2" width="0.1524" layer="91"/>
 <junction x="193.04" y="203.2"/>
 <pinref part="C403" gate="G$1" pin="1"/>
+<pinref part="R402" gate="G$1" pin="2A"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -39916,16 +39926,16 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <segment>
 <wire x1="134.62" y1="157.48" x2="162.56" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="198.12" x2="134.62" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="R402" gate="G$1" pin="2V"/>
 <label x="142.24" y="157.48" size="1.778" layer="95"/>
+<pinref part="R402" gate="G$1" pin="1V"/>
 </segment>
 </net>
 <net name="VBAT_SNS_N" class="0">
 <segment>
 <wire x1="139.7" y1="162.56" x2="162.56" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="198.12" x2="139.7" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="R402" gate="G$1" pin="1V"/>
 <label x="142.24" y="162.56" size="1.778" layer="95"/>
+<pinref part="R402" gate="G$1" pin="2V"/>
 </segment>
 </net>
 <net name="5V0_BST_PG" class="0">
@@ -40141,10 +40151,10 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <net name="VBAT_J" class="0">
 <segment>
 <pinref part="J402" gate="G$1" pin="1"/>
-<pinref part="R402" gate="G$1" pin="2A"/>
 <wire x1="106.68" y1="205.74" x2="106.68" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="203.2" x2="129.54" y2="203.2" width="0.1524" layer="91"/>
 <label x="111.76" y="203.2" size="1.778" layer="95"/>
+<pinref part="R402" gate="G$1" pin="1A"/>
 </segment>
 </net>
 </nets>
@@ -41494,6 +41504,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <text x="185.42" y="236.22" size="3.81" layer="91">3x 12mm Nylon Standoffs (Top Righ, Bottom Right, Bottom Left)</text>
 <text x="198.12" y="231.14" size="2.54" layer="91">Not listed on BOM, enough for 6 HATs (Amazon: B01HBYDH70)</text>
 <text x="35.56" y="187.96" size="2.54" layer="91">2000mAh 3.7V Battery ordered from Adafruit (Part Number: 2011)</text>
+<text x="175.26" y="208.28" size="3.81" layer="91">J402: Battery Jumper</text>
 </plain>
 <instances>
 <instance part="FRAME701" gate="G$1" x="0" y="0"/>
@@ -41524,6 +41535,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="BOM719" gate="G$1" x="35.56" y="93.98"/>
 <instance part="BOM725" gate="G$1" x="35.56" y="38.1"/>
 <instance part="BOM726" gate="G$1" x="35.56" y="12.7"/>
+<instance part="BOM727" gate="G$1" x="175.26" y="198.12"/>
+<instance part="BOM728" gate="G$1" x="175.26" y="195.58"/>
+<instance part="BOM729" gate="G$1" x="175.26" y="193.04"/>
 </instances>
 <busses>
 </busses>
