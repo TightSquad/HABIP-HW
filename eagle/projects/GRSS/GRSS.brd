@@ -161,13 +161,11 @@
 <wire x1="54.864" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
 <pad name="V+" x="53.086" y="21.336" drill="2.032" shape="square"/>
 <pad name="V-" x="53.086" y="8.382" drill="2.032" shape="square"/>
-<text x="49.022" y="20.828" size="1.27" layer="21">V+</text>
+<text x="49.276" y="20.828" size="1.27" layer="21">V+</text>
 <text x="49.276" y="7.874" size="1.27" layer="21">V-</text>
 <hole x="27.178" y="3.81" drill="2.286"/>
 <hole x="13.716" y="26.162" drill="2.286"/>
 <hole x="40.64" y="26.162" drill="2.286"/>
-<text x="0" y="30.48" size="1.27" layer="25">&gt;NAME</text>
-<text x="26.035" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="C0805">
 <description>&lt;b&gt;0805 Chip Resistor&lt;/b&gt;
@@ -622,10 +620,11 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="BATT" library="grss" package="BC9VPC" value="9V" x="3.42" y="3.54">
-<attribute name="VENDOR_PN" value="BC9VPC-ND" x="3.42" y="3.54" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="BH9V-PC-ND" x="3.42" y="3.54" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="3.42" y="3.54" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="MPD (Memory Protection Devices)" x="3.42" y="3.54" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="BC9VPC" x="3.42" y="3.54" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="MPD" x="3.42" y="3.54" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="BH9VPC" x="3.42" y="3.54" size="1.778" layer="27" display="off"/>
+<attribute name="PROD_ID" value="BATT-10855" x="3.42" y="3.54" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C1" library="grss" package="C0805" value="100nF" x="69.704" y="25.944">
 <attribute name="VENDOR_PN" value="490-1683-1-ND" x="69.704" y="25.944" size="1.778" layer="27" display="off"/>

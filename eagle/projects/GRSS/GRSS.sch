@@ -155,13 +155,11 @@
 <wire x1="54.864" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
 <pad name="V+" x="53.086" y="21.336" drill="2.032" shape="square"/>
 <pad name="V-" x="53.086" y="8.382" drill="2.032" shape="square"/>
-<text x="49.022" y="20.828" size="1.27" layer="21">V+</text>
+<text x="49.276" y="20.828" size="1.27" layer="21">V+</text>
 <text x="49.276" y="7.874" size="1.27" layer="21">V-</text>
 <hole x="27.178" y="3.81" drill="2.286"/>
 <hole x="13.716" y="26.162" drill="2.286"/>
 <hole x="40.64" y="26.162" drill="2.286"/>
-<text x="0" y="30.48" size="1.27" layer="25">&gt;NAME</text>
-<text x="26.035" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="BC9VPC_KIT">
 <wire x1="0" y1="0" x2="0" y2="29.972" width="0.127" layer="21"/>
@@ -11601,8 +11599,8 @@ part number 2062-2P from STA</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BC9VPC" prefix="BAT" uservalue="yes">
-<description>&lt;b&gt;9V board-mount battery cradle&lt;/b&gt;</description>
+<deviceset name="BH9VPC" prefix="BAT" uservalue="yes">
+<description>9V board-mount battery cradle</description>
 <gates>
 <gate name="G$1" symbol="BC9VPC" x="0" y="0"/>
 </gates>
@@ -11614,11 +11612,11 @@ part number 2062-2P from STA</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER" value="MPD (Memory Protection Devices)" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="BC9VPC" constant="no"/>
-<attribute name="VALUE" value="9V" constant="no"/>
+<attribute name="MANUFACTURER" value="MPD" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="BH9VPC" constant="no"/>
+<attribute name="PROD_ID" value="BATT-10855" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="BC9VPC-ND" constant="no"/>
+<attribute name="VENDOR_PN" value="BH9V-PC-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -12549,7 +12547,7 @@ DIN A4, landscape with location and doc. field</description>
 </class>
 </classes>
 <parts>
-<part name="BATT" library="grss" deviceset="BC9VPC" device="" value="9V"/>
+<part name="BATT" library="grss" deviceset="BH9VPC" device="" value="9V"/>
 <part name="R1" library="grss" deviceset="RES" device="_0805" technology="_100R0" value="100"/>
 <part name="R2" library="grss" deviceset="RES" device="_0805" technology="_100R0" value="100"/>
 <part name="R3" library="grss" deviceset="RES" device="_0805" technology="_100R0" value="100"/>

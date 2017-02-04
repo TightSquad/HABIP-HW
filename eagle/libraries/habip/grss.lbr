@@ -293,13 +293,11 @@
 <wire x1="54.864" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
 <pad name="V+" x="53.086" y="21.336" drill="2.032" shape="square"/>
 <pad name="V-" x="53.086" y="8.382" drill="2.032" shape="square"/>
-<text x="49.022" y="20.828" size="1.27" layer="21">V+</text>
+<text x="49.276" y="20.828" size="1.27" layer="21">V+</text>
 <text x="49.276" y="7.874" size="1.27" layer="21">V-</text>
 <hole x="27.178" y="3.81" drill="2.286"/>
 <hole x="13.716" y="26.162" drill="2.286"/>
 <hole x="40.64" y="26.162" drill="2.286"/>
-<text x="0" y="30.48" size="1.27" layer="25">&gt;NAME</text>
-<text x="26.035" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="BC9VPC_KIT">
 <wire x1="0" y1="0" x2="0" y2="29.972" width="0.127" layer="21"/>
@@ -12633,6 +12631,40 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <device name="_2.75" package="2,75_HOLE_RASPI">
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BH9VPC" prefix="BAT" uservalue="yes">
+<description>9V board-mount battery cradle</description>
+<gates>
+<gate name="G$1" symbol="BC9VPC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BC9VPC">
+<connects>
+<connect gate="G$1" pin="V+" pad="V+"/>
+<connect gate="G$1" pin="V-" pad="V-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="MPD" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="BH9VPC" constant="no"/>
+<attribute name="PROD_ID" value="BATT-10855" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="BH9V-PC-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="KIT_SOLDERMASK" package="BC9VPC_KIT">
+<connects>
+<connect gate="G$1" pin="V+" pad="V+"/>
+<connect gate="G$1" pin="V-" pad="V-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="BATT-10855" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
