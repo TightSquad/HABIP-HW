@@ -11790,7 +11790,42 @@ part number 2062-2P from STA</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="" constant="no"/>
+<attribute name="POWER" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
+<attribute name="VENDOR_PN" value="" constant="no"/>
+</technology>
+<technology name="_100R0">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-P06F1000V" constant="no"/>
+<attribute name="POWER" value="1/2W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="100" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P16057CT-ND" constant="no"/>
+</technology>
+<technology name="_240R0">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-6ENF2403V" constant="no"/>
+<attribute name="POWER" value="1/8W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="240k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P240KCCT-ND" constant="no"/>
+</technology>
+<technology name="_47R0">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-P06F4701V" constant="no"/>
+<attribute name="POWER" value="1/2W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="4.7k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P16073CT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -12475,10 +12510,10 @@ DIN A4, landscape with location and doc. field</description>
 </classes>
 <parts>
 <part name="BATT" library="grss" deviceset="BC9VPC" device="" value="9V"/>
-<part name="R1" library="grss" deviceset="RES" device="_0603" technology="_100R" value="100"/>
-<part name="R2" library="grss" deviceset="RES" device="_0603" technology="_100R" value="100"/>
-<part name="R3" library="grss" deviceset="RES" device="_0603" technology="_100R" value="100"/>
-<part name="R4" library="grss" deviceset="RES" device="_0603" technology="_240R0" value="240k"/>
+<part name="R1" library="grss" deviceset="RES" device="_0805" technology="_100R0" value="100"/>
+<part name="R2" library="grss" deviceset="RES" device="_0805" technology="_100R0" value="100"/>
+<part name="R3" library="grss" deviceset="RES" device="_0805" technology="_100R0" value="100"/>
+<part name="R4" library="grss" deviceset="RES" device="_0805" technology="_240R0" value="240k"/>
 <part name="C1" library="grss" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
 <part name="C2" library="grss" deviceset="CAP" device="_0603" technology="_10UF0" value="10uF"/>
 <part name="C3" library="grss" deviceset="CAP" device="_0603" technology="_2UF2" value="2.2uF"/>
@@ -12512,6 +12547,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="H3" library="grss" deviceset="MOUNT-HOLE" device="_2.75"/>
 <part name="H4" library="grss" deviceset="MOUNT-HOLE" device="_2.75"/>
 <part name="U$2" library="grss" deviceset="BLOCK_DIAGRAM" device=""/>
+<part name="R5" library="grss" deviceset="RES" device="_0805" technology="_47R0" value="4.7k"/>
 </parts>
 <sheets>
 <sheet>
@@ -12601,6 +12637,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="H2" gate="G$1" x="-144.78" y="66.04"/>
 <instance part="H3" gate="G$1" x="-116.84" y="73.66"/>
 <instance part="H4" gate="G$1" x="-116.84" y="66.04"/>
+<instance part="R5" gate="G$1" x="-37.846" y="97.79" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -12714,12 +12751,16 @@ DIN A4, landscape with location and doc. field</description>
 <junction x="-170.18" y="154.94"/>
 <pinref part="U2" gate="A" pin="GND"/>
 <pinref part="U3" gate="A" pin="GND"/>
-<wire x1="-53.34" y1="91.44" x2="-25.4" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="91.44" x2="-37.846" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-53.34" y="91.44"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <junction x="-177.8" y="91.44"/>
 <pinref part="Q1" gate="A" pin="3"/>
+<wire x1="-37.846" y1="91.44" x2="-25.4" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="91.44" x2="-25.4" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="-37.846" y1="91.44" x2="-37.846" y2="92.71" width="0.1524" layer="91"/>
+<junction x="-37.846" y="91.44"/>
 </segment>
 </net>
 <net name="THRTRIG" class="0">
@@ -12747,10 +12788,14 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="U2" gate="A" pin="OUT"/>
 </segment>
 <segment>
-<wire x1="-32.385" y1="104.14" x2="-43.18" y2="104.14" width="0.1524" layer="91"/>
-<label x="-42.164" y="104.14" size="1.778" layer="95"/>
+<wire x1="-32.385" y1="104.14" x2="-37.846" y2="104.14" width="0.1524" layer="91"/>
+<label x="-41.91" y="104.648" size="1.778" layer="95"/>
 <pinref part="Q1" gate="A" pin="1"/>
 <pinref part="TP2" gate="G$1" pin="TP"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="-37.846" y1="104.14" x2="-43.18" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-37.846" y1="102.87" x2="-37.846" y2="104.14" width="0.1524" layer="91"/>
+<junction x="-37.846" y="104.14"/>
 </segment>
 </net>
 <net name="VD" class="0">
