@@ -1319,12 +1319,12 @@
 <smd name="3" x="-1.4" y="-0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
 <smd name="4" x="1.4" y="-0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
 <smd name="5" x="1.4" y="0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
-<wire x1="-0.6" y1="-1.5" x2="0.6" y2="-1.5" width="0.15" layer="21"/>
-<wire x1="0.8" y1="-0.35" x2="0.8" y2="0.35" width="0.15" layer="21"/>
-<wire x1="0.6" y1="1.5" x2="0.3" y2="1.5" width="0.15" layer="21"/>
-<wire x1="0.3" y1="1.5" x2="-0.3" y2="1.5" width="0.15" layer="21"/>
-<wire x1="-0.3" y1="1.5" x2="-0.6" y2="1.5" width="0.15" layer="21"/>
-<wire x1="0.3" y1="1.5" x2="-0.3" y2="1.5" width="0.15" layer="21" curve="-180"/>
+<wire x1="-0.6" y1="-1.45" x2="0.6" y2="-1.45" width="0.15" layer="21"/>
+<wire x1="0.775" y1="-0.35" x2="0.775" y2="0.35" width="0.15" layer="21"/>
+<wire x1="0.6" y1="1.45" x2="0.3" y2="1.45" width="0.15" layer="21"/>
+<wire x1="0.3" y1="1.45" x2="-0.3" y2="1.45" width="0.15" layer="21"/>
+<wire x1="-0.3" y1="1.45" x2="-0.6" y2="1.45" width="0.15" layer="21"/>
+<wire x1="0.3" y1="1.45" x2="-0.3" y2="1.45" width="0.15" layer="21" curve="-180"/>
 <text x="0" y="1.9" size="0.4064" layer="25" ratio="6" rot="SR0" align="center">&gt;NAME</text>
 <text x="0" y="-1.9" size="0.254" layer="27" rot="SR0" align="center">&gt;VALUE</text>
 <rectangle x1="-2" y1="0.6" x2="-0.8" y2="1.3" layer="29"/>
@@ -37011,7 +37011,7 @@
 <wire x1="5.08" y1="-15.24" x2="-12.7" y2="-15.24" width="0.4064" layer="94"/>
 <wire x1="-12.7" y1="-15.24" x2="-12.7" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="-12.7" y1="15.24" x2="5.08" y2="15.24" width="0.4064" layer="94"/>
-<text x="-12.7" y="16.51" size="2.0828" layer="95" font="vector" align="center-left">&gt;NAME</text>
+<text x="-12.7" y="17.018" size="2.0828" layer="95" font="vector" align="center-left">&gt;NAME</text>
 <text x="-3.81" y="12.7" size="1.27" layer="96" font="vector" align="center">&gt;VALUE</text>
 <pin name="ID" x="7.62" y="-5.08" visible="off" length="short" rot="R180"/>
 <pin name="SLD" x="7.62" y="-10.16" visible="off" length="short" direction="pwr" rot="R180"/>
@@ -38895,7 +38895,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="POR" current="yes"/>
+<variantdef name="POR"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -40189,6 +40189,8 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <text x="195.58" y="142.24" size="3.81" layer="91">IMU (Accel, Gyro, Mag)</text>
 <text x="200.66" y="134.62" size="2.54" layer="91">Accel/Gyro I2C Addr: 0xD4/0xD5 (W/R)</text>
 <text x="200.66" y="129.54" size="2.54" layer="91">Mag I2C Addr: 0x38/0x39 (W/R)</text>
+<text x="231.14" y="213.36" size="1.778" layer="91">PGA = /1</text>
+<text x="231.14" y="215.9" size="1.778" layer="91">40mV</text>
 </plain>
 <instances>
 <instance part="U504" gate="A" x="218.44" y="193.04"/>
