@@ -12175,15 +12175,55 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="_22UF0">
+<technology name="_100NF0">
 <attribute name="MANUFACTURER" value="Murata" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="GRM21BR61A226ME51L" constant="no"/>
-<attribute name="TEMP_COEFF" value="X5R" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="22uF" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM219R71C104KA01D" constant="no"/>
+<attribute name="TEMP_COEFF" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="100nF" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="490-10511-1-ND" constant="no"/>
-<attribute name="VOLTAGE" value="10V" constant="no"/>
+<attribute name="VENDOR_PN" value="490-1683-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
+</technology>
+<technology name="_10PF0">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM21A5C2E100JW01D" constant="no"/>
+<attribute name="TEMP_COEFF" value="C0G, NP0" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+<attribute name="VALUE" value="10pF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-5530-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="250V" constant="no"/>
+</technology>
+<technology name="_10UF0">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM21BC81C106KA73L" constant="no"/>
+<attribute name="TEMP_COEFF" value="X6S" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-5519-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
+</technology>
+<technology name="_1UF0">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM21BR71C105KA01L" constant="no"/>
+<attribute name="TEMP_COEFF" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="1uF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-1691-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
+</technology>
+<technology name="_2UF2">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM21BR71E225KA73L" constant="no"/>
+<attribute name="TEMP_COEFF" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="2.2uF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-3331-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="25V" constant="no"/>
 </technology>
 </technologies>
 </device>

@@ -11950,15 +11950,55 @@ part number 2062-2P from STA</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="_22UF0">
+<technology name="_100NF0">
 <attribute name="MANUFACTURER" value="Murata" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="GRM21BR61A226ME51L" constant="no"/>
-<attribute name="TEMP_COEFF" value="X5R" constant="no"/>
-<attribute name="TOLERANCE" value="20%" constant="no"/>
-<attribute name="VALUE" value="22uF" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM219R71C104KA01D" constant="no"/>
+<attribute name="TEMP_COEFF" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="100nF" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="490-10511-1-ND" constant="no"/>
-<attribute name="VOLTAGE" value="10V" constant="no"/>
+<attribute name="VENDOR_PN" value="490-1683-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
+</technology>
+<technology name="_10PF0">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM21A5C2E100JW01D" constant="no"/>
+<attribute name="TEMP_COEFF" value="C0G, NP0" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+<attribute name="VALUE" value="10pF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-5530-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="250V" constant="no"/>
+</technology>
+<technology name="_10UF0">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM21BC81C106KA73L" constant="no"/>
+<attribute name="TEMP_COEFF" value="X6S" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-5519-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
+</technology>
+<technology name="_1UF0">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM21BR71C105KA01L" constant="no"/>
+<attribute name="TEMP_COEFF" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="1uF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-1691-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
+</technology>
+<technology name="_2UF2">
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="GRM21BR71E225KA73L" constant="no"/>
+<attribute name="TEMP_COEFF" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="2.2uF" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="490-3331-1-ND" constant="no"/>
+<attribute name="VOLTAGE" value="25V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -12514,11 +12554,11 @@ DIN A4, landscape with location and doc. field</description>
 <part name="R2" library="grss" deviceset="RES" device="_0805" technology="_100R0" value="100"/>
 <part name="R3" library="grss" deviceset="RES" device="_0805" technology="_100R0" value="100"/>
 <part name="R4" library="grss" deviceset="RES" device="_0805" technology="_240R0" value="240k"/>
-<part name="C1" library="grss" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
-<part name="C2" library="grss" deviceset="CAP" device="_0603" technology="_10UF0" value="10uF"/>
-<part name="C3" library="grss" deviceset="CAP" device="_0603" technology="_2UF2" value="2.2uF"/>
-<part name="C4" library="grss" deviceset="CAP" device="_0603" technology="_1UF0" value="1uF"/>
-<part name="C5" library="grss" deviceset="CAP" device="_0603" technology="_10PF0" value="10pF"/>
+<part name="C1" library="grss" deviceset="CAP" device="_0805" technology="_100NF0" value="100nF"/>
+<part name="C2" library="grss" deviceset="CAP" device="_0805" technology="_10UF0" value="10uF"/>
+<part name="C3" library="grss" deviceset="CAP" device="_0805" technology="_2UF2" value="2.2uF"/>
+<part name="C4" library="grss" deviceset="CAP" device="_0805" technology="_1UF0" value="1uF"/>
+<part name="C5" library="grss" deviceset="CAP" device="_0805" technology="_10PF0" value="10pF"/>
 <part name="J11" library="grss" deviceset="M02" device="PTH" value="M02PTH"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="U2" library="grss" deviceset="LMC555CMX/NOPB" device="" value="LMC555CMX/NOPB"/>

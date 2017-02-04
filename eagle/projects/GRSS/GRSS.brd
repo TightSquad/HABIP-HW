@@ -169,23 +169,23 @@
 <text x="0" y="30.48" size="1.27" layer="25">&gt;NAME</text>
 <text x="26.035" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C0603">
-<description>&lt;b&gt;0603 Chip Resistor&lt;/b&gt;
+<package name="C0805">
+<description>&lt;b&gt;0805 Chip Resistor&lt;/b&gt;
 &lt;p&gt;&lt;b&gt;Author:&lt;/b&gt; Chris Schwab
 &lt;p&gt;&lt;b&gt;Notes:&lt;/b&gt; Modified from Adafruit</description>
-<wire x1="-0.4" y1="-0.36" x2="0.4" y2="-0.36" width="0.08" layer="51"/>
-<wire x1="0.4" y1="0.36" x2="-0.4" y2="0.36" width="0.08" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1" dy="1" layer="1" stop="no"/>
-<smd name="2" x="0.85" y="0" dx="1" dy="1" layer="1" stop="no"/>
-<text x="0" y="0.85" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
-<text x="0" y="-0.75" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
-<rectangle x1="0.4" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
-<rectangle x1="-0.8" y1="-0.4" x2="-0.4" y2="0.4" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<wire x1="-0.15" y1="0.5" x2="0.15" y2="0.5" width="0.15" layer="21"/>
-<wire x1="-0.15" y1="-0.5" x2="0.15" y2="-0.5" width="0.15" layer="21"/>
-<rectangle x1="-1.4" y1="-0.55" x2="-0.3" y2="0.55" layer="29"/>
-<rectangle x1="0.3" y1="-0.55" x2="1.4" y2="0.55" layer="29"/>
+<wire x1="-0.55" y1="0.585" x2="0.55" y2="0.585" width="0.08" layer="51"/>
+<wire x1="-0.55" y1="-0.585" x2="0.55" y2="-0.585" width="0.08" layer="51"/>
+<smd name="1" x="-1" y="0" dx="1.1" dy="1.4" layer="1" stop="no"/>
+<smd name="2" x="1" y="0" dx="1.1" dy="1.4" layer="1" stop="no"/>
+<text x="0" y="1" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
+<text x="0" y="-0.95" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
+<rectangle x1="0.55" y1="-0.625" x2="1" y2="0.625" layer="51"/>
+<rectangle x1="-1" y1="-0.625" x2="-0.55" y2="0.625" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<wire x1="-0.25" y1="0.7" x2="0.25" y2="0.7" width="0.15" layer="21"/>
+<wire x1="-0.25" y1="-0.7" x2="0.25" y2="-0.7" width="0.15" layer="21"/>
+<rectangle x1="-1.6" y1="-0.75" x2="-0.4" y2="0.75" layer="29"/>
+<rectangle x1="0.4" y1="-0.75" x2="1.6" y2="0.75" layer="29"/>
 </package>
 <package name="MOLSL-2-RA">
 <description>&lt;b&gt;C-Grid SL Connector&lt;/b&gt;&lt;p&gt;
@@ -627,48 +627,48 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="MPD (Memory Protection Devices)" x="3.42" y="3.54" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="BC9VPC" x="3.42" y="3.54" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C1" library="grss" package="C0603" value="100nF" x="69.704" y="25.944">
-<attribute name="VENDOR_PN" value="490-1532-1-ND" x="69.704" y="25.944" size="1.778" layer="27" display="off"/>
+<element name="C1" library="grss" package="C0805" value="100nF" x="69.704" y="25.944">
+<attribute name="VENDOR_PN" value="490-1683-1-ND" x="69.704" y="25.944" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="69.704" y="25.944" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata" x="69.704" y="25.944" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="69.704" y="25.944" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="GRM188R71C104KA01D" x="69.704" y="25.944" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="GRM219R71C104KA01D" x="69.704" y="25.944" size="1.778" layer="27" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="69.704" y="25.944" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="69.704" y="25.944" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C2" library="grss" package="C0603" value="10uF" x="60.756" y="8.072">
-<attribute name="VENDOR_PN" value="490-10474-1-ND" x="60.756" y="8.072" size="1.778" layer="27" display="off"/>
+<element name="C2" library="grss" package="C0805" value="10uF" x="60.756" y="8.072">
+<attribute name="VENDOR_PN" value="490-5519-1-ND" x="60.756" y="8.072" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="60.756" y="8.072" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata" x="60.756" y="8.072" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="10V" x="60.756" y="8.072" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="GRM188R61A106KE69D" x="60.756" y="8.072" size="1.778" layer="27" display="off"/>
-<attribute name="TEMP_COEFF" value="X5R" x="60.756" y="8.072" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="16V" x="60.756" y="8.072" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="GRM21BC81C106KA73L" x="60.756" y="8.072" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP_COEFF" value="X6S" x="60.756" y="8.072" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="60.756" y="8.072" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C3" library="grss" package="C0603" value="2.2uF" x="60.74" y="6.342">
-<attribute name="VENDOR_PN" value="490-3296-1-ND" x="60.74" y="6.342" size="1.778" layer="27" display="off"/>
+<element name="C3" library="grss" package="C0805" value="2.2uF" x="60.74" y="6.342">
+<attribute name="VENDOR_PN" value="490-3331-1-ND" x="60.74" y="6.342" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="60.74" y="6.342" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata" x="60.74" y="6.342" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="16V" x="60.74" y="6.342" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="GRM188R61C225KE15D" x="60.74" y="6.342" size="1.778" layer="27" display="off"/>
-<attribute name="TEMP_COEFF" value="X5R" x="60.74" y="6.342" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="25V" x="60.74" y="6.342" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="GRM21BR71E225KA73L" x="60.74" y="6.342" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP_COEFF" value="X7R" x="60.74" y="6.342" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="60.74" y="6.342" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C4" library="grss" package="C0603" value="1uF" x="69.74" y="9.628">
-<attribute name="VENDOR_PN" value="490-13226-1-ND" x="69.74" y="9.628" size="1.778" layer="27" display="off"/>
+<element name="C4" library="grss" package="C0805" value="1uF" x="69.74" y="9.628">
+<attribute name="VENDOR_PN" value="490-1691-1-ND" x="69.74" y="9.628" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="69.74" y="9.628" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata" x="69.74" y="9.628" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="10V" x="69.74" y="9.628" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="GRM033R61A105ME15D" x="69.74" y="9.628" size="1.778" layer="27" display="off"/>
-<attribute name="TEMP_COEFF" value="X5R" x="69.74" y="9.628" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="20%" x="69.74" y="9.628" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="16V" x="69.74" y="9.628" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="GRM21BR71C105KA01L" x="69.74" y="9.628" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP_COEFF" value="X7R" x="69.74" y="9.628" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="69.74" y="9.628" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C5" library="grss" package="C0603" value="10pF" x="69.74" y="11.66">
-<attribute name="VENDOR_PN" value="490-1403-1-ND" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
+<element name="C5" library="grss" package="C0805" value="10pF" x="69.74" y="11.66">
+<attribute name="VENDOR_PN" value="490-5530-1-ND" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="50V" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="GRM1885C1H100JA01D" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="250V" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="GRM21A5C2E100JW01D" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
 <attribute name="TEMP_COEFF" value="C0G, NP0" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
 </element>
@@ -888,11 +888,11 @@ design rules under a new name.</description>
 <wire x1="68.3514" y1="8.2296" x2="68.5538" y2="8.025" width="0.254" layer="1"/>
 <wire x1="69.0372" y1="15.7734" x2="69.0372" y2="25.8318" width="0.254" layer="1"/>
 <wire x1="70.4088" y1="14.4018" x2="69.0372" y2="15.7734" width="0.254" layer="1"/>
-<wire x1="69.0372" y1="25.8318" x2="68.854" y2="25.944" width="0.254" layer="1"/>
+<wire x1="69.0372" y1="25.8318" x2="68.704" y2="25.944" width="0.254" layer="1"/>
 <wire x1="70.4088" y1="14.4018" x2="70.66" y2="14.184" width="0.254" layer="1"/>
 <wire x1="60.579" y1="5.4864" x2="59.8932" y2="6.1722" width="0.254" layer="1"/>
 <wire x1="63.5508" y1="5.4864" x2="60.579" y2="5.4864" width="0.254" layer="1"/>
-<wire x1="59.8932" y1="6.1722" x2="59.89" y2="6.342" width="0.254" layer="1"/>
+<wire x1="59.8932" y1="6.1722" x2="59.74" y2="6.342" width="0.254" layer="1"/>
 <wire x1="63.5508" y1="5.4864" x2="63.6262" y2="5.485" width="0.254" layer="1"/>
 <wire x1="62.865" y1="32.2326" x2="63.7794" y2="32.2326" width="0.254" layer="1"/>
 <wire x1="62.4078" y1="32.6898" x2="62.865" y2="32.2326" width="0.254" layer="1"/>
@@ -902,7 +902,7 @@ design rules under a new name.</description>
 <wire x1="57.6072" y1="6.4008" x2="54.1782" y2="9.8298" width="0.254" layer="1"/>
 <wire x1="59.6646" y1="6.4008" x2="57.6072" y2="6.4008" width="0.254" layer="1"/>
 <wire x1="63.7794" y1="32.2326" x2="63.9892" y2="32.0725" width="0.254" layer="1"/>
-<wire x1="59.6646" y1="6.4008" x2="59.89" y2="6.342" width="0.254" layer="1"/>
+<wire x1="59.6646" y1="6.4008" x2="59.74" y2="6.342" width="0.254" layer="1"/>
 <wire x1="69.2658" y1="8.001" x2="68.58" y2="8.001" width="0.254" layer="1"/>
 <wire x1="69.9516" y1="7.3152" x2="69.2658" y2="8.001" width="0.254" layer="1"/>
 <wire x1="69.9516" y1="5.0292" x2="69.9516" y2="7.3152" width="0.254" layer="1"/>
@@ -926,7 +926,7 @@ design rules under a new name.</description>
 <wire x1="69.9516" y1="24.003" x2="69.9516" y2="16.4592" width="0.254" layer="1"/>
 <wire x1="64.9224" y1="29.0322" x2="69.9516" y2="24.003" width="0.254" layer="16"/>
 <wire x1="64.008" y1="29.9466" x2="64.9224" y2="29.0322" width="0.254" layer="1"/>
-<wire x1="69.0372" y1="11.8872" x2="68.89" y2="11.66" width="0.254" layer="1"/>
+<wire x1="69.0372" y1="11.8872" x2="68.74" y2="11.66" width="0.254" layer="1"/>
 <wire x1="64.008" y1="29.9466" x2="63.9892" y2="30.1675" width="0.254" layer="1"/>
 <via x="69.9516" y="24.003" extent="1-16" drill="0.6096"/>
 <via x="64.9224" y="29.0322" extent="1-16" drill="0.6096"/>
@@ -969,7 +969,7 @@ design rules under a new name.</description>
 <wire x1="37.9476" y1="34.5186" x2="35.6616" y2="36.8046" width="0.254" layer="1"/>
 <wire x1="66.0654" y1="34.5186" x2="37.9476" y2="34.5186" width="0.254" layer="1"/>
 <wire x1="35.6616" y1="36.8046" x2="35.58" y2="36.83" width="0.254" layer="1"/>
-<wire x1="74.295" y1="8.2296" x2="68.89" y2="9.628" width="0" layer="19" extent="1-16"/>
+<wire x1="74.295" y1="8.2296" x2="68.74" y2="9.628" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="GND">
 <contactref element="BATT" pad="V-"/>
@@ -982,21 +982,21 @@ design rules under a new name.</description>
 <contactref element="U3" pad="2"/>
 <contactref element="Q1" pad="2"/>
 <wire x1="70.6374" y1="11.6586" x2="70.6374" y2="9.8298" width="0.254" layer="1"/>
-<wire x1="70.6374" y1="9.8298" x2="70.59" y2="9.628" width="0.254" layer="1"/>
-<wire x1="70.6374" y1="11.6586" x2="70.59" y2="11.66" width="0.254" layer="1"/>
+<wire x1="70.6374" y1="9.8298" x2="70.74" y2="9.628" width="0.254" layer="1"/>
+<wire x1="70.6374" y1="11.6586" x2="70.74" y2="11.66" width="0.254" layer="1"/>
 <wire x1="70.6374" y1="24.6888" x2="70.6374" y2="25.8318" width="0.254" layer="1"/>
 <wire x1="72.009" y1="23.3172" x2="70.6374" y2="24.6888" width="0.254" layer="1"/>
 <wire x1="72.009" y1="13.2588" x2="72.009" y2="16.9164" width="0.254" layer="1"/>
 <wire x1="72.009" y1="16.9164" x2="72.009" y2="23.3172" width="0.254" layer="1"/>
 <wire x1="70.6374" y1="11.8872" x2="72.009" y2="13.2588" width="0.254" layer="1"/>
-<wire x1="70.6374" y1="25.8318" x2="70.554" y2="25.944" width="0.254" layer="1"/>
-<wire x1="70.6374" y1="11.8872" x2="70.59" y2="11.66" width="0.254" layer="1"/>
+<wire x1="70.6374" y1="25.8318" x2="70.704" y2="25.944" width="0.254" layer="1"/>
+<wire x1="70.6374" y1="11.8872" x2="70.74" y2="11.66" width="0.254" layer="1"/>
 <wire x1="61.722" y1="8.001" x2="61.722" y2="6.4008" width="0.254" layer="1"/>
-<wire x1="61.722" y1="6.4008" x2="61.59" y2="6.342" width="0.254" layer="1"/>
-<wire x1="61.722" y1="8.001" x2="61.606" y2="8.072" width="0.254" layer="1"/>
+<wire x1="61.722" y1="6.4008" x2="61.74" y2="6.342" width="0.254" layer="1"/>
+<wire x1="61.722" y1="8.001" x2="61.756" y2="8.072" width="0.254" layer="1"/>
 <wire x1="62.6364" y1="9.144" x2="61.722" y2="8.2296" width="0.254" layer="1"/>
 <wire x1="63.5508" y1="9.144" x2="62.6364" y2="9.144" width="0.254" layer="1"/>
-<wire x1="61.722" y1="8.2296" x2="61.606" y2="8.072" width="0.254" layer="1"/>
+<wire x1="61.722" y1="8.2296" x2="61.756" y2="8.072" width="0.254" layer="1"/>
 <wire x1="63.5508" y1="9.144" x2="63.6262" y2="9.295" width="0.254" layer="1"/>
 <wire x1="65.3796" y1="10.9728" x2="65.3796" y2="11.6586" width="0.254" layer="1"/>
 <wire x1="63.7794" y1="9.3726" x2="65.3796" y2="10.9728" width="0.254" layer="1"/>
@@ -1011,7 +1011,7 @@ design rules under a new name.</description>
 <wire x1="56.6928" y1="12.1158" x2="56.506" y2="11.922" width="0.254" layer="16"/>
 <wire x1="57.8358" y1="11.8872" x2="61.4934" y2="8.2296" width="0.254" layer="1"/>
 <wire x1="56.6928" y1="11.8872" x2="57.8358" y2="11.8872" width="0.254" layer="1"/>
-<wire x1="61.4934" y1="8.2296" x2="61.606" y2="8.072" width="0.254" layer="1"/>
+<wire x1="61.4934" y1="8.2296" x2="61.756" y2="8.072" width="0.254" layer="1"/>
 <wire x1="56.6928" y1="11.8872" x2="56.506" y2="11.922" width="0.254" layer="1"/>
 <wire x1="70.866" y1="16.9164" x2="72.009" y2="16.9164" width="0.254" layer="1"/>
 <wire x1="58.5216" y1="16.9164" x2="70.866" y2="16.9164" width="0.254" layer="16"/>
@@ -1040,7 +1040,7 @@ design rules under a new name.</description>
 <wire x1="68.3514" y1="13.716" x2="66.294" y2="13.716" width="0.254" layer="1"/>
 <wire x1="66.294" y1="13.716" x2="59.6646" y2="13.716" width="0.254" layer="1"/>
 <wire x1="68.8086" y1="14.1732" x2="68.3514" y2="13.716" width="0.254" layer="1"/>
-<wire x1="59.8932" y1="8.2296" x2="59.906" y2="8.072" width="0.254" layer="1"/>
+<wire x1="59.8932" y1="8.2296" x2="59.756" y2="8.072" width="0.254" layer="1"/>
 <wire x1="68.8086" y1="14.1732" x2="68.66" y2="14.184" width="0.254" layer="1"/>
 <wire x1="66.294" y1="13.716" x2="66.294" y2="8.001" width="0.254" layer="1"/>
 </signal>
