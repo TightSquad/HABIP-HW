@@ -3484,6 +3484,8 @@ part number 2062-2P from STA</description>
 <wire x1="-6" y1="4" x2="2" y2="4" width="0.127" layer="21"/>
 <wire x1="2" y1="1" x2="2" y2="-1" width="0.127" layer="21"/>
 <wire x1="2" y1="-4" x2="-6" y2="-4" width="0.127" layer="21"/>
+<text x="-5.08" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -31356,8 +31358,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="U$6" gate="G$1" x="223.52" y="81.28"/>
 <instance part="U$7" gate="G$1" x="274.32" y="83.82"/>
 <instance part="R51" gate="G$1" x="254" y="93.98" rot="R90"/>
-<instance part="R28" gate="G$1" x="195.58" y="76.2"/>
-<instance part="SUPPLY37" gate="GND" x="185.42" y="68.58"/>
+<instance part="R28" gate="G$1" x="187.96" y="76.2"/>
+<instance part="SUPPLY37" gate="GND" x="180.34" y="68.58"/>
 </instances>
 <busses>
 </busses>
@@ -31415,8 +31417,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="R28" gate="G$1" pin="1"/>
 <pinref part="SUPPLY37" gate="GND" pin="GND"/>
-<wire x1="190.5" y1="76.2" x2="185.42" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="76.2" x2="185.42" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="76.2" x2="180.34" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="76.2" x2="180.34" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART_1_RX" class="0">
@@ -31639,20 +31641,10 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="CUTDOWN_EN" class="0">
 <segment>
-<wire x1="269.24" y1="86.36" x2="254" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="G"/>
-<pinref part="R51" gate="G$1" pin="1"/>
-<wire x1="254" y1="88.9" x2="254" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="3"/>
-<wire x1="238.76" y1="86.36" x2="254" y2="86.36" width="0.1524" layer="91"/>
-<junction x="254" y="86.36"/>
-</segment>
-<segment>
 <pinref part="U$6" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="86.36" x2="175.26" y2="86.36" width="0.1524" layer="91"/>
-<label x="175.26" y="86.36" size="1.778" layer="95"/>
+<label x="180.34" y="86.36" size="1.778" layer="95"/>
 <pinref part="TP17" gate="G$1" pin="TP"/>
-<wire x1="175.26" y1="86.36" x2="172.72" y2="86.36" width="0.1524" layer="91"/>
 <junction x="175.26" y="86.36"/>
 </segment>
 </net>
@@ -31664,7 +31656,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="167.64" y1="58.42" x2="167.64" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="CUTDOWN_DRAIN" class="0">
 <segment>
 <pinref part="J16" gate="G$1" pin="2"/>
 <wire x1="274.32" y1="104.14" x2="287.02" y2="104.14" width="0.1524" layer="91"/>
@@ -31675,6 +31667,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="274.32" y1="104.14" x2="254" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="254" y1="104.14" x2="254" y2="99.06" width="0.1524" layer="91"/>
 <junction x="274.32" y="104.14"/>
+<label x="251.46" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RST_S1" class="0">
@@ -31685,7 +31678,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="236.22" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$37" class="0">
+<net name="9V_GND" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="D"/>
 <wire x1="274.32" y1="78.74" x2="274.32" y2="66.04" width="0.1524" layer="91"/>
@@ -31697,13 +31690,27 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="246.38" y1="76.2" x2="246.38" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="66.04" x2="274.32" y2="66.04" width="0.1524" layer="91"/>
 <junction x="274.32" y="66.04"/>
+<label x="281.94" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$59" class="0">
+<net name="OPTO_OUT" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="2"/>
 <pinref part="R28" gate="G$1" pin="2"/>
-<wire x1="208.28" y1="76.2" x2="200.66" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="76.2" x2="193.04" y2="76.2" width="0.1524" layer="91"/>
+<label x="193.04" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CUTDOWN_GATE" class="0">
+<segment>
+<wire x1="269.24" y1="86.36" x2="254" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="G"/>
+<pinref part="R51" gate="G$1" pin="1"/>
+<wire x1="254" y1="88.9" x2="254" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="G$1" pin="3"/>
+<wire x1="238.76" y1="86.36" x2="254" y2="86.36" width="0.1524" layer="91"/>
+<junction x="254" y="86.36"/>
+<label x="241.3" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

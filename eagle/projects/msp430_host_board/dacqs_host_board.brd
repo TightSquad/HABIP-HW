@@ -1853,6 +1853,8 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="-6" y1="4" x2="2" y2="4" width="0.127" layer="21"/>
 <wire x1="2" y1="1" x2="2" y2="-1" width="0.127" layer="21"/>
 <wire x1="2" y1="-4" x2="-6" y2="-4" width="0.127" layer="21"/>
+<text x="-5.08" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -4506,16 +4508,10 @@ design rules under a new name.</description>
 <via x="96.4692" y="52.8066" extent="1-16" drill="0.6096"/>
 <via x="77.2668" y="65.6082" extent="1-16" drill="0.6096"/>
 <via x="67.8942" y="73.152" extent="1-16" drill="0.6096"/>
-<contactref element="U$7" pad="P$1"/>
-<contactref element="R51" pad="1"/>
-<contactref element="U$6" pad="P$3"/>
 <contactref element="U$6" pad="P$1"/>
 <contactref element="TP17" pad="TP"/>
 <wire x1="71.3232" y1="79.3242" x2="71.53" y2="79.16" width="0" layer="19" extent="1-1"/>
-<wire x1="7.75" y1="-70.27" x2="96.45" y2="47.795" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.75" y1="-67.73" x2="7.75" y2="-70.27" width="0" layer="19" extent="1-1"/>
-<wire x1="-9.21" y1="-64.285" x2="-1.75" y2="-67.73" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.85" y1="-75" x2="-9.21" y2="-64.285" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.75" y1="-67.73" x2="96.45" y2="47.795" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBAT_MOD_CELL_1">
 <contactref element="U1" pad="4"/>
@@ -5517,7 +5513,7 @@ design rules under a new name.</description>
 <wire x1="122.301" y1="87.5538" x2="122.44" y2="87.56" width="0.254" layer="16"/>
 <wire x1="22.86" y1="75.438" x2="22.754" y2="75.506" width="0.254" layer="16"/>
 </signal>
-<signal name="N$6">
+<signal name="CUTDOWN_DRAIN">
 <contactref element="J16" pad="2"/>
 <wire x1="114.7572" y1="85.0392" x2="122.301" y2="85.0392" width="0.254" layer="1"/>
 <wire x1="113.6142" y1="86.1822" x2="114.7572" y2="85.0392" width="0.254" layer="1"/>
@@ -6101,20 +6097,27 @@ design rules under a new name.</description>
 <contactref element="R50" pad="1"/>
 <wire x1="-1.85" y1="-45" x2="82.7288" y2="9.9594" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$37">
+<signal name="9V_GND">
 <contactref element="U$7" pad="P$3"/>
 <contactref element="BAT1" pad="V-"/>
 <contactref element="U$6" pad="P$4"/>
 <wire x1="7.75" y1="-67.73" x2="35.708" y2="75.506" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.39" y1="-62" x2="7.75" y2="-67.73" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$59">
+<signal name="OPTO_OUT">
 <contactref element="U$6" pad="P$2"/>
 <contactref element="R28" pad="2"/>
 <wire x1="-1.75" y1="-70.27" x2="-15.15" y2="-78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$60">
 <contactref element="U1" pad="27"/>
+</signal>
+<signal name="CUTDOWN_GATE">
+<contactref element="U$7" pad="P$1"/>
+<contactref element="R51" pad="1"/>
+<contactref element="U$6" pad="P$3"/>
+<wire x1="-9.21" y1="-64.285" x2="-16.85" y2="-75" width="0" layer="19" extent="1-1"/>
+<wire x1="7.75" y1="-70.27" x2="-9.21" y2="-64.285" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
