@@ -1472,8 +1472,8 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="-0.3048" y1="1.0414" x2="-1.0414" y2="1.0414" width="0" layer="51"/>
 <wire x1="-1.0414" y1="1.0414" x2="-1.0414" y2="-1.0414" width="0" layer="51"/>
 <wire x1="0.3048" y1="1.0414" x2="-0.3048" y2="1.0414" width="0" layer="51" curve="-180"/>
-<text x="-3.4544" y="1.905" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-3.81" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-2.1844" y="1.905" size="1.016" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-2.1844" y="-2.54" size="1.016" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 <circle x="-0.65" y="1.15" radius="0.111803125" width="0.127" layer="21"/>
 </package>
 <package name="DBV5">
