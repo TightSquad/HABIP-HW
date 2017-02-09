@@ -7,6 +7,7 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="C:/Users/Lincster/Google Drive/College/1-MSD/Lincster-HW/eagle/libraries/habip/grss.lbr"
 
 [Win_1]
 Type="Control Panel"
