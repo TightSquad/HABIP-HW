@@ -39228,8 +39228,8 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <attribute name="NAME" x="182.88" y="87.63" size="1.778" layer="95" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="173.99" y="82.55" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="R305" gate="G$1" x="259.08" y="43.18"/>
-<instance part="R306" gate="G$1" x="259.08" y="20.32"/>
+<instance part="R305" gate="G$1" x="256.54" y="43.18"/>
+<instance part="R306" gate="G$1" x="256.54" y="20.32"/>
 <instance part="U301" gate="A" x="134.62" y="137.16"/>
 <instance part="J301" gate="G$1" x="25.4" y="142.24"/>
 <instance part="C301" gate="G$1" x="76.2" y="137.16"/>
@@ -39318,7 +39318,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <wire x1="274.32" y1="17.78" x2="274.32" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="R306" gate="G$1" pin="2"/>
 <wire x1="274.32" y1="20.32" x2="274.32" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="20.32" x2="274.32" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="20.32" x2="274.32" y2="20.32" width="0.1524" layer="91"/>
 <junction x="274.32" y="20.32"/>
 </segment>
 <segment>
@@ -39523,25 +39523,27 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <label x="241.3" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="FET_D" class="0">
 <segment>
 <pinref part="Q301" gate="B" pin="D"/>
 <pinref part="R305" gate="G$1" pin="2"/>
-<wire x1="264.16" y1="43.18" x2="274.32" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="43.18" x2="274.32" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="43.18" x2="274.32" y2="38.1" width="0.1524" layer="91"/>
+<label x="266.7" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="FET_G" class="0">
 <segment>
 <pinref part="Q301" gate="B" pin="G"/>
 <pinref part="R306" gate="G$1" pin="1"/>
-<wire x1="254" y1="20.32" x2="246.38" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="20.32" x2="246.38" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="20.32" x2="246.38" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="27.94" x2="266.7" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="27.94" x2="246.38" y2="43.18" width="0.1524" layer="91"/>
 <junction x="246.38" y="27.94"/>
 <pinref part="R305" gate="G$1" pin="1"/>
-<wire x1="246.38" y1="43.18" x2="254" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="43.18" x2="251.46" y2="43.18" width="0.1524" layer="91"/>
+<label x="251.46" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
