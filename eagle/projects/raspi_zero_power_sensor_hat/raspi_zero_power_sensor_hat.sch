@@ -563,34 +563,6 @@
 <text x="-3.19" y="-3" size="0.254" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <text x="1.81" y="-3" size="0.254" layer="28" font="vector" ratio="20" rot="MR0">&gt;VALUE</text>
 </package>
-<package name="2,75_3,0_HOLE_RASPI">
-<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.75mm diameter drill center, 3mm keep-out radius. For Raspberry Pi Zero four corner standoffs</description>
-<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
-<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
-<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
-<circle x="0" y="0" radius="3" width="0" layer="40"/>
-<circle x="0" y="0" radius="3" width="0" layer="39"/>
-<circle x="0" y="0" radius="3" width="0" layer="41"/>
-<circle x="0" y="0" radius="3" width="0" layer="42"/>
-<circle x="0" y="0" radius="3" width="0" layer="43"/>
-<hole x="0" y="0" drill="2.75"/>
-<circle x="0" y="0" radius="3" width="0" layer="29"/>
-<circle x="0" y="0" radius="3" width="0" layer="30"/>
-</package>
-<package name="2,2_2,0_HOLE_RASPI_CAM">
-<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.2mm diameter drill center, 2mm keep-out radius. For Raspberry Pi Camera v2.1 four standoffs</description>
-<wire x1="-1.4" y1="0" x2="0" y2="-1.4" width="1.2" layer="51" curve="90" cap="flat"/>
-<wire x1="0" y1="1.4" x2="1.4" y2="0" width="1.2" layer="51" curve="-90" cap="flat"/>
-<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
-<circle x="0" y="0" radius="2" width="0" layer="40"/>
-<circle x="0" y="0" radius="2" width="0" layer="39"/>
-<circle x="0" y="0" radius="2" width="0" layer="41"/>
-<circle x="0" y="0" radius="2" width="0" layer="42"/>
-<circle x="0" y="0" radius="2" width="0" layer="43"/>
-<hole x="0" y="0" drill="2.2"/>
-<circle x="0" y="0" radius="2" width="0" layer="29"/>
-<circle x="0" y="0" radius="2" width="0" layer="30"/>
-</package>
 <package name="RASPI_ZERO_3STANDOFFS">
 <wire x1="1.722" y1="3.5" x2="3.5" y2="1.722" width="2.286" layer="51" curve="90" cap="flat"/>
 <wire x1="3.5" y1="5.278" x2="5.278" y2="3.5" width="2.286" layer="51" curve="-90" cap="flat"/>
@@ -884,7 +856,7 @@
 <rectangle x1="-4.05" y1="1.7" x2="-2.35" y2="3.2" layer="29"/>
 </package>
 <package name="BLANK">
-<text x="0" y="0" size="1.27" layer="51">&gt;NAME</text>
+<text x="0" y="0" size="0.4064" layer="51" font="vector" ratio="20">&gt;NAME</text>
 </package>
 <package name="SMD410P190X160-2N">
 <smd name="1" x="-2.05" y="0" dx="1.9" dy="1.6" layer="1" rot="R180" stop="no"/>
@@ -36709,16 +36681,6 @@
 <text x="-5.08" y="-7.62" size="1.27" layer="94">GND</text>
 <text x="2.54" y="-7.62" size="1.27" layer="94">RUN</text>
 </symbol>
-<symbol name="MOUNT-HOLE">
-<wire x1="0" y1="1.27" x2="1.27" y2="0" width="1.524" layer="94" curve="-90" cap="flat"/>
-<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="1.524" layer="94" curve="90" cap="flat"/>
-<wire x1="-0.508" y1="0" x2="0.508" y2="0" width="0.0508" layer="94"/>
-<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.0508" layer="94"/>
-<circle x="0" y="0" radius="2.032" width="0.0508" layer="94"/>
-<circle x="0" y="0" radius="0.508" width="0.0508" layer="94"/>
-<text x="2.032" y="0.5842" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.032" y="-2.4638" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
 <symbol name="PP3V3_HAT">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
@@ -38063,30 +38025,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOUNT-HOLE" prefix="H" uservalue="yes">
-<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; with drill center marker</description>
-<gates>
-<gate name="G$1" symbol="MOUNT-HOLE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_2.75_3.0" package="2,75_3,0_HOLE_RASPI">
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-zero-v1_2_dimensions.pdf" constant="no"/>
-<attribute name="VALUE" value="2.75mm_drill_3.00mm_radius" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_2.2_2.0" package="2,2_2,0_HOLE_RASPI_CAM">
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-cam-v2_1-dimensions.pdf" constant="no"/>
-<attribute name="VALUE" value="2.2mm_drill_2.0mm_radius" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PP3V3_HAT" prefix="PP3V3_HAT">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
@@ -38822,7 +38760,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="GND403" library="daqcs" deviceset="GND" device=""/>
 <part name="GND507" library="daqcs" deviceset="GND" device=""/>
 <part name="GND505" library="daqcs" deviceset="GND" device=""/>
-<part name="TP506" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP405" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="DIAGRAM201" library="daqcs" deviceset="BLOCK_DIAGRAM" device=""/>
 <part name="J401" library="daqcs" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
@@ -38851,7 +38788,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="GND510" library="daqcs" deviceset="GND" device=""/>
 <part name="GND502" library="daqcs" deviceset="GND" device=""/>
 <part name="GND508" library="daqcs" deviceset="GND" device=""/>
-<part name="TP507" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="GND601" library="daqcs" deviceset="GND" device=""/>
 <part name="R506" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="C511" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
@@ -38917,10 +38853,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="PP3V3_HAT302" library="daqcs" deviceset="PP3V3_HAT" device=""/>
 <part name="PP5V0_CHG_IN302" library="daqcs" deviceset="PP5V0_CHG_IN" device=""/>
 <part name="OUTLINE601" library="daqcs" deviceset="RASPI_ZERO_OUTLINE" device="_3S0C" value="RASPI-ZERO-3STANDOFFS-0CAM"/>
-<part name="H601" library="daqcs" deviceset="MOUNT-HOLE" device="_2.2_2.0" value="2.2mm_drill_2.0mm_radius"/>
-<part name="H602" library="daqcs" deviceset="MOUNT-HOLE" device="_2.2_2.0" value="2.2mm_drill_2.0mm_radius"/>
-<part name="H603" library="daqcs" deviceset="MOUNT-HOLE" device="_2.2_2.0" value="2.2mm_drill_2.0mm_radius"/>
-<part name="H604" library="daqcs" deviceset="MOUNT-HOLE" device="_2.2_2.0" value="2.2mm_drill_2.0mm_radius"/>
 <part name="DS601" library="daqcs" deviceset="LED" device="_0603" technology="_Y2V0WURTH" value="YELLOW"/>
 <part name="DS602" library="daqcs" deviceset="LED" device="_0603" technology="_Y2V0WURTH" value="YELLOW"/>
 <part name="U505" library="daqcs" deviceset="LSM9DS1" device="_LGA24" technology="TR" value="LSM9DS1TR"/>
@@ -40100,10 +40032,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="GND511" gate="1" x="111.76" y="17.78"/>
 <instance part="GND507" gate="1" x="45.72" y="203.2"/>
 <instance part="GND505" gate="1" x="38.1" y="12.7"/>
-<instance part="TP506" gate="G$1" x="124.46" y="228.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="132.08" y="229.87" size="1.778" layer="95" align="center"/>
-<attribute name="TP_SIGNAL_NAME" x="123.19" y="224.79" size="1.778" layer="97" rot="R270"/>
-</instance>
 <instance part="U502" gate="A" x="66.04" y="154.94"/>
 <instance part="C502" gate="G$1" x="33.02" y="162.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="30.099" y="166.624" size="2.0828" layer="95" ratio="10" rot="R180"/>
@@ -40116,10 +40044,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="GND510" gate="1" x="88.9" y="124.46"/>
 <instance part="GND502" gate="1" x="15.24" y="157.48"/>
 <instance part="GND508" gate="1" x="45.72" y="124.46"/>
-<instance part="TP507" gate="G$1" x="124.46" y="149.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="132.08" y="151.13" size="1.778" layer="95" align="center"/>
-<attribute name="TP_SIGNAL_NAME" x="123.19" y="146.05" size="1.778" layer="97" rot="R270"/>
-</instance>
 <instance part="R506" gate="G$1" x="322.58" y="157.48" rot="R90"/>
 <instance part="C511" gate="G$1" x="314.96" y="170.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="312.039" y="174.244" size="2.0828" layer="95" ratio="10" rot="R180"/>
@@ -40563,14 +40487,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <wire x1="340.36" y1="218.44" x2="342.9" y2="215.9" width="0.1524" layer="91" style="shortdash"/>
 </segment>
 </net>
-<net name="TEMP1_I2C_ALERT" class="0">
-<segment>
-<pinref part="U502" gate="A" pin="OS"/>
-<wire x1="83.82" y1="149.86" x2="119.38" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="TP507" gate="G$1" pin="TP"/>
-<label x="88.9" y="149.86" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="TEMP1_I2C_A0" class="0">
 <segment>
 <pinref part="R501" gate="G$1" pin="2"/>
@@ -40578,14 +40494,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <wire x1="25.4" y1="142.24" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="152.4" x2="48.26" y2="152.4" width="0.1524" layer="91"/>
 <label x="25.4" y="152.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="TEMP0_I2C_ALERT" class="0">
-<segment>
-<pinref part="U501" gate="A" pin="OS"/>
-<wire x1="83.82" y1="228.6" x2="119.38" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="TP506" gate="G$1" pin="TP"/>
-<label x="88.9" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TEMP0_I2C_A0" class="0">
@@ -40877,14 +40785,13 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <text x="266.7" y="248.92" size="3.81" layer="91">HOST MCU CONNECTOR</text>
 <text x="292.1" y="172.72" size="3.81" layer="91">EXTERNAL TEMPERATURE</text>
 <text x="292.1" y="167.64" size="3.81" layer="91">SENSOR CONNECTOR</text>
-<text x="17.78" y="68.58" size="3.81" layer="91">RASPI ZERO HAT OUTLINE</text>
-<text x="22.86" y="63.5" size="1.778" layer="91">Only using 3 mounting holes since</text>
-<text x="22.86" y="60.96" size="1.778" layer="91">the 2x6 pin connector stabilizes</text>
-<text x="22.86" y="58.42" size="1.778" layer="91">the upper left board quadrant.</text>
-<text x="22.86" y="53.34" size="1.778" layer="91">This allows for easier routing of the</text>
-<text x="22.86" y="50.8" size="1.778" layer="91">boost output to the Pi's 5V0 pin.</text>
+<text x="60.96" y="66.04" size="3.81" layer="91">RASPI ZERO HAT OUTLINE</text>
+<text x="66.04" y="60.96" size="1.778" layer="91">Only using 3 mounting holes since</text>
+<text x="66.04" y="58.42" size="1.778" layer="91">the 2x6 pin connector stabilizes</text>
+<text x="66.04" y="55.88" size="1.778" layer="91">the upper left board quadrant.</text>
+<text x="66.04" y="50.8" size="1.778" layer="91">This allows for easier routing of the</text>
+<text x="66.04" y="48.26" size="1.778" layer="91">boost output to the Pi's 5V0 pin.</text>
 <text x="33.02" y="147.32" size="3.81" layer="91">I2C DEBUG HEADER</text>
-<text x="106.68" y="68.58" size="3.81" layer="91">RASPI CAM MOUNTING HOLES</text>
 <text x="274.32" y="106.68" size="3.81" layer="91">RASPBERRY PI RESET/GPIO HEADER</text>
 <text x="403.86" y="76.2" size="1.778" layer="91">Active low</text>
 <text x="403.86" y="73.66" size="1.778" layer="91">hard reset</text>
@@ -40895,7 +40802,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <text x="35.56" y="210.82" size="1.778" layer="91" rot="R90">NOSTUFF</text>
 <text x="58.42" y="210.82" size="1.778" layer="91" rot="R90">NOSTUFF</text>
 <text x="226.06" y="104.14" size="2.54" layer="91">DEBUG LEDs</text>
-<text x="121.92" y="63.5" size="1.778" layer="91">Mounting holes for the Raspi Camera</text>
 <text x="403.86" y="71.12" size="1.778" layer="91">(10k pullup</text>
 <text x="403.86" y="68.58" size="1.778" layer="91">on RasPi)</text>
 <text x="12.7" y="241.3" size="1.778" layer="91">1.8K I2C pullups on RasPi</text>
@@ -40931,11 +40837,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="PP3V3_HAT603" gate="G$1" x="78.74" y="231.14"/>
 <instance part="PP3V3_HAT601" gate="G$1" x="40.64" y="231.14"/>
 <instance part="PP3V3_HAT602" gate="G$1" x="66.04" y="139.7"/>
-<instance part="OUTLINE601" gate="G$1" x="30.48" y="22.86"/>
-<instance part="H601" gate="G$1" x="132.08" y="48.26"/>
-<instance part="H602" gate="G$1" x="132.08" y="38.1"/>
-<instance part="H603" gate="G$1" x="132.08" y="27.94"/>
-<instance part="H604" gate="G$1" x="132.08" y="17.78"/>
+<instance part="OUTLINE601" gate="G$1" x="73.66" y="20.32"/>
 <instance part="DS601" gate="G$1" x="236.22" y="66.04"/>
 <instance part="DS602" gate="G$1" x="264.16" y="66.04"/>
 <instance part="TP612" gate="G$1" x="393.7" y="101.6"/>
@@ -41183,8 +41085,8 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </net>
 <net name="N$5" class="0">
 <segment>
-<wire x1="10.16" y1="83.82" x2="195.58" y2="83.82" width="0.1524" layer="91" style="longdash"/>
-<wire x1="195.58" y1="83.82" x2="195.58" y2="10.16" width="0.1524" layer="91" style="longdash"/>
+<wire x1="10.16" y1="83.82" x2="175.26" y2="83.82" width="0.1524" layer="91" style="longdash"/>
+<wire x1="175.26" y1="83.82" x2="175.26" y2="10.16" width="0.1524" layer="91" style="longdash"/>
 </segment>
 </net>
 <net name="RASPI_GPIO20" class="0">
