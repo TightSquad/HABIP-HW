@@ -38904,24 +38904,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="BOM704" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI2" value="SL 70066 2PIN HOUSING"/>
 <part name="BOM705" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
 <part name="BOM706" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
-<part name="BOM708" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP">
-<variant name="POR" populate="no"/>
-</part>
-<part name="BOM709" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP">
-<variant name="POR" populate="no"/>
-</part>
-<part name="BOM707" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70066 5PIN HOUSING">
-<variant name="POR" populate="no"/>
-</part>
-<part name="BOM710" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP">
-<variant name="POR" populate="no"/>
-</part>
-<part name="BOM711" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP">
-<variant name="POR" populate="no"/>
-</part>
-<part name="BOM712" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP">
-<variant name="POR" populate="no"/>
-</part>
 <part name="BOM721" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
 <part name="BOM722" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
 <part name="BOM723" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
@@ -38966,15 +38948,15 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="PP5V0_BST403" library="daqcs" deviceset="PP5V0_BST" device=""/>
 <part name="PP5V0_BST401" library="daqcs" deviceset="PP5V0_BST" device=""/>
 <part name="PP5V0_BST_HAT601" library="daqcs" deviceset="PP5V0_BST_HAT" device=""/>
+<part name="TP508" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP509" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP510" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP511" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP512" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="TP513" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="TP514" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="PP3V3_HAT507" library="daqcs" deviceset="PP3V3_HAT" device=""/>
 <part name="GND519" library="daqcs" deviceset="GND" device=""/>
-<part name="TP508" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="TP509" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP506" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP507" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="GND306" library="daqcs" deviceset="GND" device=""/>
 <part name="TP303" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="GND412" library="daqcs" deviceset="GND" device=""/>
@@ -39031,6 +39013,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="R606" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="J402" library="daqcs" deviceset="MOLSL_2PIN" device="_V" technology="_SL2V" value="MOL-SL-2-V"/>
 <part name="J602" library="daqcs" deviceset="MOLSL_4PIN" device="_RA" technology="_SL4RA" value="MOL-SL-4-RA"/>
+<part name="BOM1" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI2" value="SL 70066 2PIN HOUSING"/>
+<part name="BOM2" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM3" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
 </parts>
 <sheets>
 <sheet>
@@ -39586,7 +39571,10 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="C406" gate="G$1" x="317.5" y="193.04"/>
 <instance part="C408" gate="G$1" x="337.82" y="193.04"/>
 <instance part="R401" gate="G$1" x="104.14" y="38.1"/>
-<instance part="J402" gate="G$1" x="104.14" y="220.98" rot="R270"/>
+<instance part="J402" gate="G$1" x="104.14" y="220.98" smashed="yes" rot="R270">
+<attribute name="NAME" x="99.06" y="228.6" size="2.0828" layer="95" align="center-left"/>
+<attribute name="VALUE" x="111.76" y="223.52" size="1.778" layer="96" rot="R270" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -40094,33 +40082,33 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="U508" gate="G$1" x="358.14" y="73.66"/>
 <instance part="FRAME501" gate="G$1" x="0" y="0"/>
 <instance part="FRAME501" gate="G$2" x="325.12" y="0"/>
-<instance part="TP510" gate="G$1" x="287.02" y="78.74" smashed="yes" rot="R270">
+<instance part="TP508" gate="G$1" x="287.02" y="78.74" smashed="yes" rot="R270">
 <attribute name="NAME" x="294.64" y="80.01" size="1.778" layer="95" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="285.75" y="74.93" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="TP511" gate="G$1" x="287.02" y="73.66" smashed="yes" rot="R270">
+<instance part="TP509" gate="G$1" x="287.02" y="73.66" smashed="yes" rot="R270">
 <attribute name="NAME" x="294.64" y="74.93" size="1.778" layer="95" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="285.75" y="69.85" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="TP512" gate="G$1" x="287.02" y="68.58" smashed="yes" rot="R270">
+<instance part="TP510" gate="G$1" x="287.02" y="68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="294.64" y="69.85" size="1.778" layer="95" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="285.75" y="64.77" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="TP513" gate="G$1" x="287.02" y="63.5" smashed="yes" rot="R270">
+<instance part="TP511" gate="G$1" x="287.02" y="63.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="294.64" y="64.77" size="1.778" layer="95" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="285.75" y="59.69" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="TP514" gate="G$1" x="287.02" y="58.42" smashed="yes" rot="R270">
+<instance part="TP512" gate="G$1" x="287.02" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="294.64" y="59.69" size="1.778" layer="95" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="285.75" y="54.61" size="1.778" layer="97" rot="R270"/>
 </instance>
 <instance part="PP3V3_HAT507" gate="G$1" x="269.24" y="35.56"/>
 <instance part="GND519" gate="1" x="269.24" y="15.24"/>
-<instance part="TP508" gate="G$1" x="279.4" y="27.94" smashed="yes" rot="R270">
+<instance part="TP506" gate="G$1" x="279.4" y="27.94" smashed="yes" rot="R270">
 <attribute name="NAME" x="287.02" y="29.21" size="1.778" layer="95" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="278.13" y="24.13" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="TP509" gate="G$1" x="279.4" y="22.86" smashed="yes" rot="R270">
+<instance part="TP507" gate="G$1" x="279.4" y="22.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="287.02" y="24.13" size="1.778" layer="95" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="278.13" y="19.05" size="1.778" layer="97" rot="R270"/>
 </instance>
@@ -40337,7 +40325,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <segment>
 <pinref part="GND519" gate="1" pin="GND"/>
 <wire x1="269.24" y1="17.78" x2="269.24" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="TP509" gate="G$1" pin="TP"/>
+<pinref part="TP507" gate="G$1" pin="TP"/>
 <wire x1="269.24" y1="22.86" x2="274.32" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -40671,7 +40659,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <segment>
 <pinref part="PP3V3_HAT507" gate="G$1" pin="PP3V3_HAT"/>
 <wire x1="269.24" y1="33.02" x2="269.24" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="TP508" gate="G$1" pin="TP"/>
+<pinref part="TP506" gate="G$1" pin="TP"/>
 <wire x1="269.24" y1="27.94" x2="274.32" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -40723,7 +40711,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <net name="IMU_DRDY_M" class="0">
 <segment>
 <pinref part="U505" gate="G$1" pin="DRDY_M"/>
-<pinref part="TP510" gate="G$1" pin="TP"/>
+<pinref part="TP508" gate="G$1" pin="TP"/>
 <wire x1="259.08" y1="78.74" x2="281.94" y2="78.74" width="0.1524" layer="91"/>
 <label x="261.62" y="78.74" size="1.778" layer="95"/>
 </segment>
@@ -40731,7 +40719,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <net name="IMU_INT_M" class="0">
 <segment>
 <pinref part="U505" gate="G$1" pin="INT_M"/>
-<pinref part="TP511" gate="G$1" pin="TP"/>
+<pinref part="TP509" gate="G$1" pin="TP"/>
 <wire x1="259.08" y1="73.66" x2="281.94" y2="73.66" width="0.1524" layer="91"/>
 <label x="261.62" y="73.66" size="1.778" layer="95"/>
 </segment>
@@ -40739,7 +40727,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <net name="IMU_INT1_AG" class="0">
 <segment>
 <pinref part="U505" gate="G$1" pin="INT1_A/G"/>
-<pinref part="TP512" gate="G$1" pin="TP"/>
+<pinref part="TP510" gate="G$1" pin="TP"/>
 <wire x1="259.08" y1="68.58" x2="281.94" y2="68.58" width="0.1524" layer="91"/>
 <label x="261.62" y="68.58" size="1.778" layer="95"/>
 </segment>
@@ -40747,7 +40735,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <net name="IMU_INT2_AG" class="0">
 <segment>
 <pinref part="U505" gate="G$1" pin="INT2_A/G"/>
-<pinref part="TP513" gate="G$1" pin="TP"/>
+<pinref part="TP511" gate="G$1" pin="TP"/>
 <wire x1="259.08" y1="63.5" x2="281.94" y2="63.5" width="0.1524" layer="91"/>
 <label x="261.62" y="63.5" size="1.778" layer="95"/>
 </segment>
@@ -40755,7 +40743,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <net name="IMU_DEN_AG" class="0">
 <segment>
 <pinref part="U505" gate="G$1" pin="DEN_A/G"/>
-<pinref part="TP514" gate="G$1" pin="TP"/>
+<pinref part="TP512" gate="G$1" pin="TP"/>
 <wire x1="259.08" y1="58.42" x2="281.94" y2="58.42" width="0.1524" layer="91"/>
 <label x="261.62" y="58.42" size="1.778" layer="95"/>
 </segment>
@@ -41283,14 +41271,14 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <text x="81.28" y="259.08" size="7.62" layer="91">CONNECTOR ASSEMBLY and EXTERNAL SENSORS</text>
 <text x="35.56" y="236.22" size="3.81" layer="91">J301: 5V Charger Input</text>
 <text x="35.56" y="208.28" size="3.81" layer="91">J401: 1-cell Li-Ion Battery Input</text>
-<text x="35.56" y="177.8" size="3.81" layer="91">J501: ADC Inputs</text>
-<text x="35.56" y="81.28" size="3.81" layer="91">J603: MCU IO</text>
-<text x="35.56" y="142.24" size="3.81" layer="91">J601: RasPi Power/GPIO Header</text>
-<text x="35.56" y="119.38" size="3.81" layer="91">J602: 1-Wire Temperature Sensor</text>
-<text x="35.56" y="48.26" size="3.81" layer="91">J604: RasPi Reset/GPIO Header</text>
+<text x="35.56" y="127" size="3.81" layer="91">J602: MCU IO</text>
+<text x="35.56" y="149.86" size="3.81" layer="91">J601: RasPi Power/GPIO Header</text>
+<text x="35.56" y="91.44" size="3.81" layer="91">J603: 1-Wire Temperature Sensor</text>
+<text x="35.56" y="53.34" size="3.81" layer="91">J604: RasPi Reset/GPIO Header</text>
 <text x="185.42" y="236.22" size="3.81" layer="91">3x 12mm Nylon Standoffs (Top Righ, Bottom Right, Bottom Left)</text>
 <text x="198.12" y="231.14" size="2.54" layer="91">Not listed on BOM, enough for 6 HATs (Amazon: B01HBYDH70)</text>
 <text x="35.56" y="187.96" size="2.54" layer="91">2500mAh/2000mAh 3.7V Battery ordered from Adafruit (Part Number: 328/2011)</text>
+<text x="35.56" y="177.8" size="3.81" layer="91">J402: Battery Jumper</text>
 </plain>
 <instances>
 <instance part="FRAME701" gate="G$1" x="0" y="0"/>
@@ -41301,25 +41289,22 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="BOM704" gate="G$1" x="35.56" y="198.12"/>
 <instance part="BOM705" gate="G$1" x="35.56" y="195.58"/>
 <instance part="BOM706" gate="G$1" x="35.56" y="193.04"/>
-<instance part="BOM708" gate="G$1" x="35.56" y="165.1"/>
-<instance part="BOM709" gate="G$1" x="35.56" y="162.56"/>
-<instance part="BOM707" gate="G$1" x="35.56" y="167.64"/>
-<instance part="BOM710" gate="G$1" x="35.56" y="160.02"/>
-<instance part="BOM711" gate="G$1" x="35.56" y="157.48"/>
-<instance part="BOM712" gate="G$1" x="35.56" y="154.94"/>
-<instance part="BOM721" gate="G$1" x="35.56" y="68.58"/>
-<instance part="BOM722" gate="G$1" x="35.56" y="66.04"/>
-<instance part="BOM723" gate="G$1" x="35.56" y="63.5"/>
-<instance part="BOM724" gate="G$1" x="35.56" y="60.96"/>
-<instance part="BOM720" gate="G$1" x="35.56" y="71.12"/>
-<instance part="BOM714" gate="G$1" x="35.56" y="106.68"/>
-<instance part="BOM715" gate="G$1" x="35.56" y="104.14"/>
-<instance part="BOM716" gate="G$1" x="35.56" y="101.6"/>
-<instance part="BOM717" gate="G$1" x="35.56" y="99.06"/>
-<instance part="BOM718" gate="G$1" x="35.56" y="96.52"/>
-<instance part="BOM719" gate="G$1" x="35.56" y="93.98"/>
-<instance part="BOM725" gate="G$1" x="35.56" y="38.1"/>
-<instance part="BOM713" gate="G$1" x="35.56" y="132.08"/>
+<instance part="BOM721" gate="G$1" x="35.56" y="114.3"/>
+<instance part="BOM722" gate="G$1" x="35.56" y="111.76"/>
+<instance part="BOM723" gate="G$1" x="35.56" y="109.22"/>
+<instance part="BOM724" gate="G$1" x="35.56" y="106.68"/>
+<instance part="BOM720" gate="G$1" x="35.56" y="116.84"/>
+<instance part="BOM714" gate="G$1" x="35.56" y="81.28"/>
+<instance part="BOM715" gate="G$1" x="35.56" y="78.74"/>
+<instance part="BOM716" gate="G$1" x="35.56" y="76.2"/>
+<instance part="BOM717" gate="G$1" x="35.56" y="73.66"/>
+<instance part="BOM718" gate="G$1" x="35.56" y="71.12"/>
+<instance part="BOM719" gate="G$1" x="35.56" y="68.58"/>
+<instance part="BOM725" gate="G$1" x="35.56" y="43.18"/>
+<instance part="BOM713" gate="G$1" x="35.56" y="139.7"/>
+<instance part="BOM1" gate="G$1" x="35.56" y="167.64"/>
+<instance part="BOM2" gate="G$1" x="35.56" y="165.1"/>
+<instance part="BOM3" gate="G$1" x="35.56" y="162.56"/>
 </instances>
 <busses>
 </busses>
