@@ -626,7 +626,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PN" value="BH9VPC" x="3.42" y="3.54" size="1.778" layer="27" display="off"/>
 <attribute name="PROD_ID" value="BATT-10855" x="3.42" y="3.54" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C1" library="grss" package="C0805" value="100nF" x="69.704" y="25.944">
+<element name="C1" library="grss" package="C0805" value="0.1uF" x="69.704" y="25.944">
 <attribute name="VENDOR_PN" value="490-1683-1-ND" x="69.704" y="25.944" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="69.704" y="25.944" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata" x="69.704" y="25.944" size="1.778" layer="27" display="off"/>
@@ -662,13 +662,13 @@ design rules under a new name.</description>
 <attribute name="TEMP_COEFF" value="X7R" x="69.74" y="9.628" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="69.74" y="9.628" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C5" library="grss" package="C0805" value="10pF" x="69.74" y="11.66">
-<attribute name="VENDOR_PN" value="490-5530-1-ND" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
+<element name="C5" library="grss" package="C0805" value="0.01uF" x="69.74" y="11.66">
+<attribute name="VENDOR_PN" value="490-9742-1-ND" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="250V" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="GRM21A5C2E100JW01D" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
-<attribute name="TEMP_COEFF" value="C0G, NP0" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="50V" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="GRM216R71H103JA01D" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP_COEFF" value="X7R" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="69.74" y="11.66" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J1" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="5.95" y="44.45">
@@ -868,6 +868,9 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PN" value="ERJ-P06F4701V" x="-6" y="-34" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="P16073CT-ND" x="-6" y="-34" size="1.778" layer="27" display="off"/>
 </element>
+<element name="TP4" library="grss" package="TP10R" value="" x="-5" y="-39">
+<attribute name="TP_SIGNAL_NAME" value="" x="-5" y="-39" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="4V5">
@@ -1017,7 +1020,9 @@ design rules under a new name.</description>
 <via x="58.5216" y="28.575" extent="1-16" drill="0.6096"/>
 <via x="70.866" y="16.9164" extent="1-16" drill="0.6096"/>
 <contactref element="R5" pad="1"/>
+<contactref element="TP4" pad="TP"/>
 <wire x1="-7" y1="-34" x2="56.506" y2="11.922" width="0" layer="19" extent="1-16"/>
+<wire x1="-5" y1="-39" x2="-7" y2="-34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="THRTRIG">
 <contactref element="R4" pad="1"/>
