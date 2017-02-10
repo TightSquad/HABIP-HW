@@ -859,8 +859,8 @@
 <text x="0" y="0" size="0.4064" layer="51" font="vector" ratio="20">&gt;NAME</text>
 </package>
 <package name="SMD410P190X160-2N">
-<smd name="1" x="-2.05" y="0" dx="1.9" dy="1.6" layer="1" rot="R180" stop="no"/>
-<smd name="2" x="2.05" y="0" dx="1.9" dy="1.6" layer="1" rot="R180" stop="no"/>
+<smd name="1" x="-2.05" y="0" dx="1.9" dy="1.6" layer="1" rot="R180" stop="no" thermals="no"/>
+<smd name="2" x="2.05" y="0" dx="1.9" dy="1.6" layer="1" rot="R180" stop="no" thermals="no"/>
 <wire x1="-2.8" y1="-2.65" x2="-2.8" y2="2.65" width="0.05" layer="51"/>
 <wire x1="-2.8" y1="2.65" x2="2.8" y2="2.65" width="0.05" layer="51"/>
 <wire x1="2.8" y1="2.65" x2="2.8" y2="-2.65" width="0.05" layer="51"/>
