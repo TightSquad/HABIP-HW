@@ -38760,7 +38760,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="GND403" library="daqcs" deviceset="GND" device=""/>
 <part name="GND507" library="daqcs" deviceset="GND" device=""/>
 <part name="GND505" library="daqcs" deviceset="GND" device=""/>
-<part name="TP404" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP403" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="DIAGRAM201" library="daqcs" deviceset="BLOCK_DIAGRAM" device=""/>
 <part name="J401" library="daqcs" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
 <part name="R407" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
@@ -38883,8 +38883,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="GND612" library="daqcs" deviceset="GND" device=""/>
 <part name="S301" library="daqcs" deviceset="PB-TACTILE-4P" device="_PTH" technology="_B3F-1000" value="PB"/>
 <part name="GND313" library="daqcs" deviceset="GND" device=""/>
-<part name="TP402" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="TP406" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP405" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP401" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="U508" library="daqcs" deviceset="SI7021" device="_DFN6" technology="-A20-IM" value="SI7021"/>
 <part name="J302" library="daqcs" deviceset="USB" device="_MICRO_RIGHT" technology="_B" value="USB_MICROB_RECPT"/>
@@ -38959,9 +38958,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="GND306" library="daqcs" deviceset="GND" device=""/>
 <part name="TP303" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="GND412" library="daqcs" deviceset="GND" device=""/>
-<part name="TP405" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP404" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="GND405" library="daqcs" deviceset="GND" device=""/>
-<part name="TP403" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP402" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="GND614" library="daqcs" deviceset="GND" device=""/>
 <part name="TP614" library="daqcs" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="GND610" library="daqcs" deviceset="GND" device=""/>
@@ -39514,7 +39513,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="DS401" gate="G$1" x="365.76" y="114.3"/>
 <instance part="GND413" gate="1" x="365.76" y="66.04"/>
 <instance part="GND403" gate="1" x="60.96" y="185.42"/>
-<instance part="TP404" gate="G$1" x="350.52" y="213.36"/>
+<instance part="TP403" gate="G$1" x="350.52" y="213.36"/>
 <instance part="J401" gate="G$1" x="38.1" y="200.66"/>
 <instance part="R407" gate="G$1" x="365.76" y="78.74" rot="R90"/>
 <instance part="U401" gate="G$1" x="50.8" y="33.02"/>
@@ -39527,8 +39526,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="PP3V3_HAT401" gate="G$1" x="116.84" y="55.88"/>
 <instance part="PP3V3_HAT402" gate="G$1" x="393.7" y="124.46"/>
 <instance part="R408" gate="G$1" x="381" y="203.2"/>
-<instance part="TP402" gate="G$1" x="152.4" y="215.9"/>
-<instance part="TP406" gate="G$1" x="408.94" y="213.36"/>
+<instance part="TP405" gate="G$1" x="408.94" y="213.36"/>
 <instance part="TP401" gate="G$1" x="132.08" y="48.26"/>
 <instance part="FRAME401" gate="G$1" x="0" y="0"/>
 <instance part="FRAME401" gate="G$2" x="325.12" y="0"/>
@@ -39548,12 +39546,12 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="PP5V0_BST403" gate="G$1" x="365.76" y="124.46"/>
 <instance part="PP5V0_BST401" gate="G$1" x="22.86" y="55.88"/>
 <instance part="GND412" gate="1" x="350.52" y="175.26"/>
-<instance part="TP405" gate="G$1" x="360.68" y="182.88" smashed="yes" rot="R270">
+<instance part="TP404" gate="G$1" x="360.68" y="182.88" smashed="yes" rot="R270">
 <attribute name="NAME" x="368.3" y="184.15" size="1.778" layer="95" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="359.41" y="179.07" size="1.778" layer="97" rot="R270"/>
 </instance>
 <instance part="GND405" gate="1" x="152.4" y="182.88"/>
-<instance part="TP403" gate="G$1" x="162.56" y="190.5" smashed="yes" rot="R270">
+<instance part="TP402" gate="G$1" x="162.56" y="190.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="170.18" y="191.77" size="1.778" layer="95" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="161.29" y="186.69" size="1.778" layer="97" rot="R270"/>
 </instance>
@@ -39582,12 +39580,8 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <net name="VBAT_R" class="0">
 <segment>
 <label x="175.26" y="203.2" size="1.778" layer="95"/>
-<wire x1="144.78" y1="203.2" x2="152.4" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="203.2" x2="193.04" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="TP402" gate="G$1" pin="TP"/>
+<wire x1="144.78" y1="203.2" x2="193.04" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="203.2" x2="200.66" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="210.82" x2="152.4" y2="203.2" width="0.1524" layer="91"/>
-<junction x="152.4" y="203.2"/>
 <pinref part="L401" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="210.82" x2="200.66" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="210.82" x2="200.66" y2="203.2" width="0.1524" layer="91"/>
@@ -39669,13 +39663,13 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <segment>
 <pinref part="GND412" gate="1" pin="GND"/>
 <wire x1="350.52" y1="177.8" x2="350.52" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="TP405" gate="G$1" pin="TP"/>
+<pinref part="TP404" gate="G$1" pin="TP"/>
 <wire x1="350.52" y1="182.88" x2="355.6" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND405" gate="1" pin="GND"/>
 <wire x1="152.4" y1="185.42" x2="152.4" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="TP403" gate="G$1" pin="TP"/>
+<pinref part="TP402" gate="G$1" pin="TP"/>
 <wire x1="152.4" y1="190.5" x2="157.48" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -39875,7 +39869,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <wire x1="363.22" y1="203.2" x2="360.68" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="223.52" x2="363.22" y2="203.2" width="0.1524" layer="91"/>
 <junction x="363.22" y="203.2"/>
-<pinref part="TP404" gate="G$1" pin="TP"/>
+<pinref part="TP403" gate="G$1" pin="TP"/>
 <wire x1="350.52" y1="208.28" x2="350.52" y2="203.2" width="0.1524" layer="91"/>
 <junction x="350.52" y="203.2"/>
 <wire x1="375.92" y1="203.2" x2="365.76" y2="203.2" width="0.1524" layer="91"/>
@@ -39929,7 +39923,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <wire x1="386.08" y1="203.2" x2="396.24" y2="203.2" width="0.1524" layer="91"/>
 <junction x="398.78" y="203.2"/>
 <pinref part="R408" gate="G$1" pin="2"/>
-<pinref part="TP406" gate="G$1" pin="TP"/>
+<pinref part="TP405" gate="G$1" pin="TP"/>
 <wire x1="396.24" y1="203.2" x2="398.78" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="208.28" x2="408.94" y2="203.2" width="0.1524" layer="91"/>
 <junction x="408.94" y="203.2"/>
