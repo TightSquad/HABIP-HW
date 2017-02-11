@@ -32794,16 +32794,16 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="P7.0" class="0">
 <segment>
-<pinref part="J12" gate="G$1" pin="17"/>
-<wire x1="106.68" y1="25.4" x2="124.46" y2="25.4" width="0.1524" layer="91"/>
-<label x="106.68" y="25.4" size="1.778" layer="95"/>
+<pinref part="J12" gate="G$1" pin="7"/>
+<wire x1="106.68" y1="38.1" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
+<label x="106.68" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P7.1" class="0">
 <segment>
-<pinref part="J12" gate="G$1" pin="19"/>
-<wire x1="106.68" y1="22.86" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
-<label x="106.68" y="22.86" size="1.778" layer="95"/>
+<pinref part="J12" gate="G$1" pin="9"/>
+<wire x1="106.68" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
+<label x="106.68" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P7.2" class="0">
@@ -33052,39 +33052,39 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="147.32" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IMU2_INT1" class="0">
-<segment>
-<pinref part="J12" gate="G$1" pin="7"/>
-<wire x1="106.68" y1="38.1" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
-<label x="106.68" y="38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="IMU2_INT2" class="0">
-<segment>
-<pinref part="J12" gate="G$1" pin="9"/>
-<wire x1="106.68" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
-<label x="106.68" y="35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="IMU2_DEN" class="0">
+<net name="IMU2_DRDY" class="0">
 <segment>
 <pinref part="J12" gate="G$1" pin="11"/>
 <wire x1="106.68" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
 <label x="106.68" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IMU2_DRDY" class="0">
+<net name="IMU2_INT_M" class="0">
 <segment>
 <pinref part="J12" gate="G$1" pin="13"/>
 <wire x1="106.68" y1="30.48" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
 <label x="106.68" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IMU2_INT_M" class="0">
+<net name="IMU2_INT1" class="0">
 <segment>
 <pinref part="J12" gate="G$1" pin="15"/>
 <wire x1="106.68" y1="27.94" x2="124.46" y2="27.94" width="0.1524" layer="91"/>
 <label x="106.68" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IMU2_INT2" class="0">
+<segment>
+<pinref part="J12" gate="G$1" pin="17"/>
+<wire x1="106.68" y1="25.4" x2="124.46" y2="25.4" width="0.1524" layer="91"/>
+<label x="106.68" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IMU2_DEN" class="0">
+<segment>
+<pinref part="J12" gate="G$1" pin="19"/>
+<wire x1="106.68" y1="22.86" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
+<label x="106.68" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
