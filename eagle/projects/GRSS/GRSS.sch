@@ -11938,9 +11938,9 @@ DIN A4, landscape with location and doc. field</description>
 </classes>
 <parts>
 <part name="BATT" library="grss" deviceset="BH9VPC" device="" value="9V"/>
-<part name="R4" library="grss" deviceset="RES" device="_0805" technology="_100R0" value="100"/>
-<part name="R5" library="grss" deviceset="RES" device="_0805" technology="_100R0" value="100"/>
-<part name="R6" library="grss" deviceset="RES" device="_0805" technology="_100R0" value="100"/>
+<part name="R4" library="grss" deviceset="RES" device="_0805" technology="_200R0" value="200"/>
+<part name="R5" library="grss" deviceset="RES" device="_0805" technology="_200R0" value="200"/>
+<part name="R6" library="grss" deviceset="RES" device="_0805" technology="_200R0" value="200"/>
 <part name="R2" library="grss" deviceset="RES" device="_0805" technology="_470K0" value="470k"/>
 <part name="C2" library="grss" deviceset="CAP" device="_0805" technology="_100NF0" value="0.1uF"/>
 <part name="C4" library="grss" deviceset="CAP" device="_0805" technology="_10UF0" value="10uF"/>
