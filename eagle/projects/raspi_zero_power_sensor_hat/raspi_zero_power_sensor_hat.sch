@@ -410,7 +410,7 @@
 <wire x1="2.159" y1="-7.9375" x2="2.8575" y2="-7.9375" width="0.05" layer="51"/>
 <pad name="2" x="1.27" y="-7.62" drill="1.09" shape="long" rot="R90"/>
 <pad name="1" x="-1.27" y="-7.62" drill="1.09" shape="long" rot="R90"/>
-<text x="-4.445" y="-5.08" size="0.4064" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
+<text x="-4.445" y="-5.08" size="0.8128" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
 <text x="4.5" y="-5.08" size="0.254" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
 <rectangle x1="-1.5875" y1="-7.62" x2="-0.9525" y2="-6.35" layer="51"/>
 <rectangle x1="0.9525" y1="-7.62" x2="1.5875" y2="-6.35" layer="51"/>

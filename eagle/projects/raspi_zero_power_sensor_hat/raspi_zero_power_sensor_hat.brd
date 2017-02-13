@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="GND" color="26" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
@@ -18,28 +18,28 @@
 <layer number="18" name="Vias" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="23" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -48,8 +48,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -402,7 +402,7 @@
 <wire x1="2.159" y1="-7.9375" x2="2.8575" y2="-7.9375" width="0.05" layer="51"/>
 <pad name="2" x="1.27" y="-7.62" drill="1.09" shape="long" rot="R90"/>
 <pad name="1" x="-1.27" y="-7.62" drill="1.09" shape="long" rot="R90"/>
-<text x="-4.445" y="-5.08" size="0.4064" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
+<text x="-4.445" y="-5.08" size="0.8128" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
 <text x="4.5" y="-5.08" size="0.254" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
 <rectangle x1="-1.5875" y1="-7.62" x2="-0.9525" y2="-6.35" layer="51"/>
 <rectangle x1="0.9525" y1="-7.62" x2="1.5875" y2="-6.35" layer="51"/>
@@ -1368,7 +1368,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="INTERFACE" value="I2C" x="44.5" y="12.5" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/sensors/PCT2075.pdf" x="44.5" y="12.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U503" library="daqcs" package="SOP65P135X040-8N" value="MAX11613EUA+" x="43.7" y="18.9" rot="MR0">
+<element name="U503" library="daqcs" package="SOP65P135X040-8N" value="MAX11613EUA+" x="43.7" y="18.9" smashed="yes" rot="MR0">
 <attribute name="VENDOR" value="Digi-key" x="43.7" y="18.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR_PN" value="MAX11613EUA+-ND" x="43.7" y="18.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Maxim" x="43.7" y="18.9" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1377,8 +1377,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="SAMPLE_RATE" value="94.4k" x="43.7" y="18.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="INTERNAL_REF" value="2.048V" x="43.7" y="18.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/extras/MAX11612-MAX11617.pdf" x="43.7" y="18.9" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="44.9" y="16.8" size="0.7" layer="26" font="vector" ratio="22" rot="SMR0" align="center-left"/>
 </element>
-<element name="J401" library="daqcs" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="5.3" y="10.6" rot="MR270">
+<element name="J401" library="daqcs" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="5.3" y="10.6" smashed="yes" rot="MR270">
 <attribute name="MOUNT_ANGLE" value="RIGHT" x="5.3" y="10.6" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="FINISH" value="GOLD" x="5.3" y="10.6" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POSITIONS" value="2" x="5.3" y="10.6" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1390,6 +1391,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR_PN" value="WM4900-ND" x="5.3" y="10.6" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="5.3" y="10.6" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/705530001_sd.pdf" x="5.3" y="10.6" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="14.38" y="13.645" size="0.7" layer="26" font="vector" ratio="22" rot="MR0"/>
 </element>
 <element name="R407" library="daqcs" package="R0603" value="2k" x="2.3" y="13.1" rot="R180">
 <attribute name="POWER" value="1/10W" x="2.3" y="13.1" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1401,7 +1403,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" x="2.3" y="13.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RATED_CURRENT" value="1.0A" x="2.3" y="13.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R603" library="daqcs" package="R0603" value="2k" x="11.5" y="21.5" rot="MR270">
+<element name="R603" library="daqcs" package="R0603" value="2k" x="11.5" y="21.5" smashed="yes" rot="MR270">
 <attribute name="POWER" value="1/10W" x="-21.21" y="42.62" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="-21.21" y="42.62" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF2001V" x="-21.21" y="42.62" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1411,7 +1413,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" x="11.5" y="21.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="RATED_CURRENT" value="1.0A" x="11.5" y="21.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R604" library="daqcs" package="R0603" value="2k" x="14.2" y="21.5" rot="MR270">
+<element name="R604" library="daqcs" package="R0603" value="2k" x="14.2" y="21.5" smashed="yes" rot="MR270">
 <attribute name="POWER" value="1/10W" x="-15.89" y="47.66" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="-15.89" y="47.66" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF2001V" x="-15.89" y="47.66" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1577,7 +1579,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C283.pdf" x="27" y="3.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RATED_CURRENT" value="1.0A" x="27" y="3.8" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U401" library="daqcs" package="SOT23P105X060-5N" value="TLV71333P" x="4" y="21.7" rot="MR180">
+<element name="U401" library="daqcs" package="SOT23P105X060-5N" value="TLV71333P" x="4" y="21.7" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="296-35591-1-ND" x="4" y="21.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="TLV71333PDBVR" x="4" y="21.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OUTPUT_VOLTAGE" value="3.3V" x="4" y="21.7" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1586,8 +1588,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digikey" x="4" y="21.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="4" y="21.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/extras/tlv713p.pdf" x="4" y="21.7" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="1.7" y="24.6" size="0.7" layer="26" font="vector" ratio="22" rot="SMR90" align="center"/>
 </element>
-<element name="C402" library="daqcs" package="C0603" value="100nF" x="4.45" y="19.05" rot="MR0">
+<element name="C402" library="daqcs" package="C0603" value="100nF" x="4.45" y="19.05" smashed="yes" rot="MR0">
 <attribute name="TEMP_COEFF" value="X7R" x="4.45" y="19.05" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="4.45" y="19.05" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R71C104KA01D" x="4.45" y="19.05" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1668,7 +1671,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER_PN" value="150060YS75000" x="31.9" y="7.5" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/charger/150060YS75000.pdf" x="31.9" y="7.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J604" library="daqcs" package="RECEPTACLE-2X3-254MM" value="RECEPTACLE-2x3-2.54MM" x="55.36" y="25.23" rot="R270">
+<element name="J604" library="daqcs" package="RECEPTACLE-2X3-254MM" value="RECEPTACLE-2x3-2.54MM" x="55.36" y="25.23" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="S7106-ND" x="55.36" y="25.23" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="ROWS" value="2" x="55.36" y="25.23" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Sullins" x="55.36" y="25.23" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1681,6 +1684,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MOUNT_TYPE" value="TH" x="55.36" y="25.23" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="PPPC032LFBN-RC" x="55.36" y="25.23" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/raspi_header/78_P\(N\)PxCxxxLFBN-RC\,_10492-H.pdf" x="55.36" y="25.23" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="58.36" y="28.42" size="0.4064" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="56.58" y="19.96" size="0.7" layer="26" font="vector" ratio="22" rot="MR0"/>
+<attribute name="VALUE" x="52.36" y="28.42" size="0.254" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="TP605" library="daqcs" package="TP10R" value="" x="51.4" y="27.6">
 <attribute name="TP_SIGNAL_NAME" value="" x="51.4" y="27.6" size="1.778" layer="27" display="off"/>
@@ -1726,7 +1732,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/charger/150060YS75000.pdf" x="50.6" y="25.9" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="732-4981-1-ND" x="50.6" y="25.9" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U505" library="daqcs" package="LGA043P045X033-24N" value="LSM9DS1TR" x="32.5" y="15" rot="MR270">
+<element name="U505" library="daqcs" package="LGA043P045X033-24N" value="LSM9DS1TR" x="32.5" y="15" smashed="yes" rot="MR270">
 <attribute name="FUNCTION" value="Accelerometer, Gyroscope, Magnetometer" x="32.5" y="15" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="STMicro" x="32.5" y="15" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="INTERFACE" value="I2C/SPI" x="32.5" y="15" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1734,8 +1740,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER_PN" value="LSM9DS1TR" x="32.5" y="15" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/sensors/en.DM00103319.pdf" x="32.5" y="15" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VENDOR_PN" value="497-14946-1-ND" x="32.5" y="15" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="34.7" y="15.4" size="0.7" layer="26" font="vector" ratio="22" rot="SMR270" align="center"/>
 </element>
-<element name="C510" library="daqcs" package="C0603" value="100nF" x="29.9" y="18.7" rot="MR90">
+<element name="C510" library="daqcs" package="C0603" value="100nF" x="29.9" y="18.7" smashed="yes" rot="MR90">
 <attribute name="TOLERANCE" value="10%" x="29.9" y="18.7" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Murata" x="29.9" y="18.7" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="29.9" y="18.7" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1745,7 +1752,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/c02e.pdf" x="29.9" y="18.7" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="29.9" y="18.7" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R505" library="daqcs" package="R0603" value="0.0" x="37.8" y="17.6" rot="MR0">
+<element name="R505" library="daqcs" package="R0603" value="0.0" x="37.8" y="17.6" smashed="yes" rot="MR0">
 <attribute name="TOLERANCE" value="Jmp" x="37.8" y="17.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="37.8" y="17.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="37.8" y="17.6" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1755,7 +1762,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="37.8" y="17.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="RATED_CURRENT" value="1.0A" x="37.8" y="17.6" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R503" library="daqcs" package="R0603" value="0.0" x="37.8" y="15.9" rot="MR0">
+<element name="R503" library="daqcs" package="R0603" value="0.0" x="37.8" y="15.9" smashed="yes" rot="MR0">
 <attribute name="TOLERANCE" value="Jmp" x="37.8" y="15.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="37.8" y="15.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="37.8" y="15.9" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1765,7 +1772,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="37.8" y="15.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="RATED_CURRENT" value="1.0A" x="37.8" y="15.9" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C507" library="daqcs" package="C0603" value="100nF" x="27.6" y="15.4" rot="MR0">
+<element name="C507" library="daqcs" package="C0603" value="100nF" x="27.6" y="15.4" smashed="yes" rot="MR0">
 <attribute name="TOLERANCE" value="10%" x="27.6" y="15.4" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Murata" x="27.6" y="15.4" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="27.6" y="15.4" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1775,7 +1782,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/c02e.pdf" x="27.6" y="15.4" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="27.6" y="15.4" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C509" library="daqcs" package="C0603" value="10uF" x="27.6" y="14" rot="MR0">
+<element name="C509" library="daqcs" package="C0603" value="10uF" x="27.6" y="14" smashed="yes" rot="MR0">
 <attribute name="TOLERANCE" value="10%" x="27.6" y="14" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Murata" x="27.6" y="14" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="27.6" y="14" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1785,7 +1792,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/c02e.pdf" x="27.6" y="14" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR_PN" value="490-10474-1-ND" x="27.6" y="14" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C508" library="daqcs" package="C0603" value="100nF" x="27.6" y="17.2" rot="MR0">
+<element name="C508" library="daqcs" package="C0603" value="100nF" x="27.6" y="17.2" smashed="yes" rot="MR0">
 <attribute name="TOLERANCE" value="10%" x="27.6" y="17.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Murata" x="27.6" y="17.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="27.6" y="17.2" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1795,7 +1802,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/c02e.pdf" x="27.6" y="17.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="27.6" y="17.2" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C505" library="daqcs" package="C0603" value="10nF" x="29.8" y="12" rot="MR270">
+<element name="C505" library="daqcs" package="C0603" value="10nF" x="29.8" y="12" smashed="yes" rot="MR270">
 <attribute name="TOLERANCE" value="5%" x="29.8" y="12" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="Murate" x="29.8" y="12" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="29.8" y="12" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1818,8 +1825,10 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <element name="TP611" library="daqcs" package="TP10R" value="" x="51.3" y="22.4" rot="R90">
 <attribute name="TP_SIGNAL_NAME" value="" x="51.3" y="22.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="TP613" library="daqcs" package="TP10R" value="" x="62.71" y="22.39" rot="MR90">
-<attribute name="TP_SIGNAL_NAME" value="" x="62.71" y="22.39" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="TP613" library="daqcs" package="TP10R" value="" x="62.71" y="22.39" smashed="yes" rot="MR90">
+<attribute name="TP_SIGNAL_NAME" value="" x="61.305" y="22.39" size="0.4064" layer="38" ratio="6" rot="MR90"/>
+<attribute name="NAME" x="63.3101" y="20.5599" size="0.7" layer="26" font="vector" ratio="22" rot="MR0"/>
+<attribute name="VALUE" x="61.902" y="22.909" size="0.254" layer="28" ratio="6" rot="MR90"/>
 </element>
 <element name="TP609" library="daqcs" package="TP10R" value="" x="21.81" y="24.89" rot="R90">
 <attribute name="TP_SIGNAL_NAME" value="" x="21.81" y="24.89" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2013,7 +2022,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR_PN" value="952-2120-ND" x="60.4" y="31.61" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Harwin" x="60.4" y="31.61" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R602" library="daqcs" package="R0603" value="0.0" x="17.9" y="21.9" rot="MR0">
+<element name="R602" library="daqcs" package="R0603" value="0.0" x="17.9" y="21.9" smashed="yes" rot="MR0">
 <attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="17.9" y="21.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="RATED_CURRENT" value="1.0A" x="17.9" y="21.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C281.pdf" x="17.9" y="21.9" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2022,8 +2031,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Panasonic" x="17.9" y="21.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOLERANCE" value="Jmp" x="17.9" y="21.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POWER" value="1/10W" x="17.9" y="21.9" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="17.8" y="20.75" size="0.7" layer="26" ratio="22" rot="MR0" align="center"/>
 </element>
-<element name="R601" library="daqcs" package="R0603" value="0.0" x="35.5" y="23.6" rot="MR90">
+<element name="R601" library="daqcs" package="R0603" value="0.0" x="35.5" y="23.6" smashed="yes" rot="MR90">
 <attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="35.5" y="23.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="RATED_CURRENT" value="1.0A" x="35.5" y="23.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C281.pdf" x="35.5" y="23.6" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2032,6 +2042,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Panasonic" x="35.5" y="23.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOLERANCE" value="Jmp" x="35.5" y="23.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="POWER" value="1/10W" x="35.5" y="23.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="36.65" y="23.6" size="0.7" layer="26" ratio="22" rot="MR90" align="center"/>
 </element>
 <element name="L401" library="daqcs" package="SMD410P190X160-2N" value="1.0uH" x="12.9" y="20.8" rot="R180">
 <attribute name="SHIELDED" value="YES" x="12.9" y="20.8" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2046,25 +2057,27 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="TOLERANCE" value="20%" x="12.9" y="20.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CURRENT_DC" value="11.5A" x="12.9" y="20.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R611" library="daqcs" package="R0603" value="0.0" x="19.6" y="20" rot="MR0">
-<attribute name="POWER" value="1/10W" x="19.6" y="20" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic" x="19.6" y="20" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="19.6" y="20" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C281.pdf" x="19.6" y="20" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VENDOR_PN" value="P0.0GCT-ND" x="19.6" y="20" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TOLERANCE" value="Jmp" x="19.6" y="20" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="19.6" y="20" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="RATED_CURRENT" value="1.0A" x="19.6" y="20" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="R611" library="daqcs" package="R0603" value="0.0" x="21" y="19.1" smashed="yes" rot="MR270">
+<attribute name="POWER" value="1/10W" x="21" y="19.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic" x="21" y="19.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="21" y="19.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C281.pdf" x="21" y="19.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VENDOR_PN" value="P0.0GCT-ND" x="21" y="19.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="TOLERANCE" value="Jmp" x="21" y="19.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="21" y="19.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="RATED_CURRENT" value="1.0A" x="21" y="19.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="19.75" y="19.2" size="0.7" layer="26" ratio="22" rot="MR90" align="center"/>
 </element>
-<element name="R612" library="daqcs" package="R0603" value="0.0" x="21.4" y="18.5" rot="MR180">
-<attribute name="POWER" value="1/10W" x="21.4" y="18.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic" x="21.4" y="18.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="21.4" y="18.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C281.pdf" x="21.4" y="18.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VENDOR_PN" value="P0.0GCT-ND" x="21.4" y="18.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TOLERANCE" value="Jmp" x="21.4" y="18.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="21.4" y="18.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RATED_CURRENT" value="1.0A" x="21.4" y="18.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="R612" library="daqcs" package="R0603" value="0.0" x="22.9" y="18.3" smashed="yes" rot="MR270">
+<attribute name="POWER" value="1/10W" x="22.9" y="18.3" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic" x="22.9" y="18.3" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="22.9" y="18.3" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C281.pdf" x="22.9" y="18.3" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VENDOR_PN" value="P0.0GCT-ND" x="22.9" y="18.3" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="TOLERANCE" value="Jmp" x="22.9" y="18.3" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="22.9" y="18.3" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="RATED_CURRENT" value="1.0A" x="22.9" y="18.3" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="24.25" y="18.4" size="0.7" layer="26" ratio="22" rot="MR270" align="center"/>
 </element>
 <element name="R310" library="daqcs" package="R0603" value="10k" x="50.9" y="15.7" rot="R270">
 <attribute name="POWER" value="1/10W" x="50.9" y="15.7" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2182,20 +2195,30 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digi-key" x="53.7" y="15.9" size="1.778" layer="27" display="off"/>
 <attribute name="RDS_ON_MAX" value="1.5 Ohm @ 100mA, 10V" x="53.7" y="15.9" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP508" library="daqcs" package="TP10R" value="" x="39.8" y="14.5" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="39.8" y="14.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP508" library="daqcs" package="TP10R" value="" x="39.8" y="14.5" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="39.8" y="13.095" size="0.4064" layer="38" ratio="6" rot="MR0"/>
+<attribute name="NAME" x="43.9001" y="14.1499" size="0.7" layer="26" font="vector" ratio="22" rot="MR0"/>
+<attribute name="VALUE" x="39.281" y="13.692" size="0.254" layer="28" ratio="6" rot="MR0"/>
 </element>
-<element name="TP509" library="daqcs" package="TP10R" value="" x="37" y="13.5" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="37" y="13.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP509" library="daqcs" package="TP10R" value="" x="37" y="13.5" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="37" y="12.095" size="0.4064" layer="38" ratio="6" rot="MR0"/>
+<attribute name="NAME" x="40.9001" y="12.6499" size="0.7" layer="26" font="vector" ratio="22" rot="MR0"/>
+<attribute name="VALUE" x="36.481" y="12.692" size="0.254" layer="28" ratio="6" rot="MR0"/>
 </element>
-<element name="TP510" library="daqcs" package="TP10R" value="" x="37.9" y="11.1" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="37.9" y="11.1" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP510" library="daqcs" package="TP10R" value="" x="37.9" y="11.1" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="37.9" y="9.695" size="0.4064" layer="38" ratio="6" rot="MR0"/>
+<attribute name="NAME" x="41.6001" y="9.9499" size="0.7" layer="26" font="vector" ratio="22" rot="MR0"/>
+<attribute name="VALUE" x="37.381" y="10.292" size="0.254" layer="28" ratio="6" rot="MR0"/>
 </element>
-<element name="TP511" library="daqcs" package="TP10R" value="" x="35.2" y="11.8" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="35.2" y="11.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP511" library="daqcs" package="TP10R" value="" x="35.2" y="11.8" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="35.2" y="10.395" size="0.4064" layer="38" ratio="6" rot="MR0"/>
+<attribute name="NAME" x="36.1501" y="11.2001" size="0.7" layer="26" font="vector" ratio="22" rot="MR270"/>
+<attribute name="VALUE" x="34.681" y="10.992" size="0.254" layer="28" ratio="6" rot="MR0"/>
 </element>
-<element name="TP512" library="daqcs" package="TP10R" value="" x="33.8" y="9.5" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="33.8" y="9.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP512" library="daqcs" package="TP10R" value="" x="33.8" y="9.5" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="33.8" y="8.095" size="0.4064" layer="38" ratio="6" rot="MR0"/>
+<attribute name="NAME" x="34.0501" y="8.5001" size="0.7" layer="26" font="vector" ratio="22" rot="MR270"/>
+<attribute name="VALUE" x="33.281" y="8.692" size="0.254" layer="28" ratio="6" rot="MR0"/>
 </element>
 <element name="TP614" library="daqcs" package="TP10R" value="" x="49.05" y="19.45" rot="R90">
 <attribute name="TP_SIGNAL_NAME" value="" x="49.05" y="19.45" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2274,7 +2297,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digi-key" x="19.8" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TERMINALS" value="4" x="19.8" y="20.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J301" library="daqcs" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="24.9" y="0" rot="MR180">
+<element name="J301" library="daqcs" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="24.9" y="0" smashed="yes" rot="MR180">
 <attribute name="MANUFACTURER_PN" value="0705530001" x="24.9" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="24.9" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Molex" x="24.9" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2286,8 +2309,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="LOCKING" value="YES" x="24.9" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUNT_ANGLE" value="RIGHT" x="24.9" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POSITIONS" value="2" x="24.9" y="0" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="21.345" y="6.42" size="0.7" layer="26" font="vector" ratio="22" rot="MR90"/>
 </element>
-<element name="C503" library="daqcs" package="C0603" value="100nF" x="42.5" y="21.8" rot="MR180">
+<element name="C503" library="daqcs" package="C0603" value="100nF" x="42.5" y="21.8" smashed="yes" rot="MR180">
 <attribute name="MANUFACTURER_PN" value="GRM188R71C104KA01D" x="42.5" y="21.8" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="42.5" y="21.8" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/c02e.pdf" x="42.5" y="21.8" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2297,7 +2321,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digi-key" x="42.5" y="21.8" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Murata" x="42.5" y="21.8" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C504" library="daqcs" package="C0603" value="4.7uF" x="42.5" y="23.4" rot="MR180">
+<element name="C504" library="daqcs" package="C0603" value="4.7uF" x="42.5" y="23.4" smashed="yes" rot="MR180">
 <attribute name="MANUFACTURER_PN" value="GRM188R61A475KE15D" x="42.5" y="23.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="42.5" y="23.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/c02e.pdf" x="42.5" y="23.4" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2383,7 +2407,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata" x="1.5" y="17.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="1.5" y="17.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J601" library="daqcs" package="RECEPTACLE-2X5-254MM" value="RECEPTACLE-2x5-2.54MM" x="13.45" y="26.5">
+<element name="J601" library="daqcs" package="RECEPTACLE-2X5-254MM" value="RECEPTACLE-2x5-2.54MM" x="13.45" y="26.5" smashed="yes">
 <attribute name="MOUNT_ANGLE" value="VERTICAL" x="13.45" y="26.5" size="1.778" layer="27" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="13.45" y="26.5" size="1.778" layer="27" display="off"/>
 <attribute name="POSITIONS" value="10" x="13.45" y="26.5" size="1.778" layer="27" display="off"/>
@@ -2396,6 +2420,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Sullins" x="13.45" y="26.5" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/raspi_header/78_P\(N\)PxCxxxLFBN-RC\,_10492-H.pdf" x="13.45" y="26.5" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="S7108-ND" x="13.45" y="26.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="8.99" y="29.5" size="0.4064" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="6.2" y="27.79" size="0.7" layer="26" font="vector" ratio="22" rot="MR270"/>
+<attribute name="VALUE" x="8.99" y="23.5" size="0.254" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="BOM710" library="daqcs" package="BLANK" value="HEADER-RECT-MALE-2X5" x="60.3" y="31.55">
 <attribute name="VENDOR" value="Digi-key" x="60.3" y="31.55" size="1.778" layer="27" display="off"/>
@@ -2404,22 +2431,32 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/raspi_header/M20-998.pdf" x="60.3" y="31.55" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="952-2380-ND" x="60.3" y="31.55" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP501" library="daqcs" package="TP10R" value="" x="49.8" y="26.8" rot="MR180">
-<attribute name="TP_SIGNAL_NAME" value="" x="49.8" y="26.8" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="TP501" library="daqcs" package="TP10R" value="" x="49.8" y="26.8" smashed="yes" rot="MR180">
+<attribute name="TP_SIGNAL_NAME" value="" x="49.8" y="28.205" size="0.4064" layer="38" ratio="6" rot="MR180"/>
+<attribute name="NAME" x="49.4999" y="22.8501" size="0.7" layer="26" font="vector" ratio="22" rot="MR90"/>
+<attribute name="VALUE" x="50.319" y="27.608" size="0.254" layer="28" ratio="6" rot="MR180"/>
 </element>
-<element name="TP502" library="daqcs" package="TP10R" value="" x="48.1" y="28.1" rot="MR180">
-<attribute name="TP_SIGNAL_NAME" value="" x="48.1" y="28.1" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="TP502" library="daqcs" package="TP10R" value="" x="48.1" y="28.1" smashed="yes" rot="MR180">
+<attribute name="TP_SIGNAL_NAME" value="" x="48.1" y="29.505" size="0.4064" layer="38" ratio="6" rot="MR180"/>
+<attribute name="NAME" x="47.7999" y="24.1501" size="0.7" layer="26" font="vector" ratio="22" rot="MR90"/>
+<attribute name="VALUE" x="48.619" y="28.908" size="0.254" layer="28" ratio="6" rot="MR180"/>
 </element>
-<element name="TP503" library="daqcs" package="TP10R" value="" x="46.3" y="27" rot="MR180">
-<attribute name="TP_SIGNAL_NAME" value="" x="46.3" y="27" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="TP503" library="daqcs" package="TP10R" value="" x="46.3" y="27" smashed="yes" rot="MR180">
+<attribute name="TP_SIGNAL_NAME" value="" x="46.3" y="28.405" size="0.4064" layer="38" ratio="6" rot="MR180"/>
+<attribute name="NAME" x="45.9999" y="22.9501" size="0.7" layer="26" font="vector" ratio="22" rot="MR90"/>
+<attribute name="VALUE" x="46.819" y="27.808" size="0.254" layer="28" ratio="6" rot="MR180"/>
 </element>
-<element name="TP504" library="daqcs" package="TP10R" value="" x="44.45" y="28.15" rot="MR180">
-<attribute name="TP_SIGNAL_NAME" value="" x="44.45" y="28.15" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="TP504" library="daqcs" package="TP10R" value="" x="44.45" y="28.15" smashed="yes" rot="MR180">
+<attribute name="TP_SIGNAL_NAME" value="" x="44.45" y="29.555" size="0.4064" layer="38" ratio="6" rot="MR180"/>
+<attribute name="NAME" x="44.0999" y="24.2499" size="0.7" layer="26" font="vector" ratio="22" rot="MR90"/>
+<attribute name="VALUE" x="44.969" y="28.958" size="0.254" layer="28" ratio="6" rot="MR180"/>
 </element>
-<element name="TP505" library="daqcs" package="TP10R" value="" x="51" y="28.1" rot="MR180">
-<attribute name="TP_SIGNAL_NAME" value="" x="51" y="28.1" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="TP505" library="daqcs" package="TP10R" value="" x="51" y="28.1" smashed="yes" rot="MR180">
+<attribute name="TP_SIGNAL_NAME" value="" x="51" y="29.505" size="0.4064" layer="38" ratio="6" rot="MR180"/>
+<attribute name="NAME" x="50.6999" y="24.1501" size="0.7" layer="26" font="vector" ratio="22" rot="MR90"/>
+<attribute name="VALUE" x="51.519" y="28.908" size="0.254" layer="28" ratio="6" rot="MR180"/>
 </element>
-<element name="R401" library="daqcs" package="R0603" value="0.0" x="8.1" y="19.55" rot="MR180">
+<element name="R401" library="daqcs" package="R0603" value="0.0" x="8.1" y="19.55" smashed="yes" rot="MR180">
 <attribute name="RATED_CURRENT" value="1.0A" x="8.1" y="19.55" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="Jmp" x="8.1" y="19.55" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="8.1" y="19.55" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2428,8 +2465,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C281.pdf" x="8.1" y="19.55" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/10W" x="8.1" y="19.55" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="8.1" y="19.55" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="8.1" y="18.4" size="0.7" layer="26" ratio="22" rot="MR180" align="center"/>
 </element>
-<element name="R606" library="daqcs" package="R0603" value="0.0" x="8.95" y="22.15" rot="MR90">
+<element name="R606" library="daqcs" package="R0603" value="0.0" x="8.95" y="22.15" smashed="yes" rot="MR90">
 <attribute name="RATED_CURRENT" value="1.0A" x="8.95" y="22.15" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOLERANCE" value="Jmp" x="8.95" y="22.15" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="8.95" y="22.15" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2438,6 +2476,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C281.pdf" x="8.95" y="22.15" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="POWER" value="1/10W" x="8.95" y="22.15" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="8.95" y="22.15" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="10.1" y="22.25" size="0.7" layer="26" ratio="22" rot="MR90" align="center"/>
 </element>
 <element name="J402" library="daqcs" package="MOLSL-2-V" value="MOL-SL-2-V" x="19.2" y="14.4" rot="R180">
 <attribute name="POSITIONS" value="2" x="19.2" y="14.4" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2452,7 +2491,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MAX_CURRENT" value="3.0A" x="19.2" y="14.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUNT_ANGLE" value="VERTICAL" x="19.2" y="14.4" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J602" library="daqcs" package="MOLSL-4-RA" value="MOL-SL-4-RA" x="27.3" y="30" rot="MR0">
+<element name="J602" library="daqcs" package="MOLSL-4-RA" value="MOL-SL-4-RA" x="27.3" y="30" smashed="yes" rot="MR0">
 <attribute name="POSITIONS" value="4" x="27.3" y="30" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="27.3" y="30" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="FINISH" value="GOLD" x="27.3" y="30" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2464,6 +2503,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR_PN" value="WM4902-ND" x="27.3" y="30" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MAX_CURRENT" value="3.0A" x="27.3" y="30" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUNT_ANGLE" value="RIGHT" x="27.3" y="30" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="32.8" y="21.02" size="0.7" layer="26" font="vector" ratio="22" rot="MR90"/>
 </element>
 <element name="BOM707" library="daqcs" package="BLANK" value="SL 70066 2PIN HOUSING" x="60.4" y="31.5">
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/050579402_sd.pdf" x="59.9" y="31.9" size="1.778" layer="27" display="off"/>
@@ -3231,15 +3271,13 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="R310" pad="2"/>
 <contactref element="Q301" pad="2"/>
 <via x="50.9" y="13.5" extent="1-16" drill="0.381"/>
-<wire x1="22.25" y1="18.5" x2="22.25" y2="17.55" width="0.254" layer="16"/>
 <wire x1="50.9" y1="14.85" x2="50.9" y2="13.5" width="0.254" layer="1"/>
 <wire x1="50.9" y1="14.85" x2="51.45" y2="14.85" width="0.254" layer="1"/>
 <wire x1="51.45" y1="14.85" x2="51.8" y2="15.2" width="0.254" layer="1"/>
 <wire x1="51.8" y1="15.2" x2="51.8" y2="15.8" width="0.254" layer="1"/>
 <wire x1="51.8" y1="15.8" x2="51.9" y2="15.9" width="0.254" layer="1"/>
 <wire x1="51.9" y1="15.9" x2="52.75" y2="15.9" width="0.254" layer="1"/>
-<wire x1="22.25" y1="17.55" x2="25.5" y2="14.3" width="0.254" layer="16"/>
-<wire x1="25.5" y1="14.3" x2="25.5" y2="13.3" width="0.254" layer="16"/>
+<wire x1="25.5" y1="14.85" x2="25.5" y2="13.3" width="0.254" layer="16"/>
 <wire x1="25.5" y1="13.3" x2="32.7" y2="6.1" width="0.254" layer="16"/>
 <wire x1="32.7" y1="6.1" x2="39.9" y2="6.1" width="0.254" layer="16"/>
 <wire x1="39.9" y1="6.1" x2="42.2" y2="8.4" width="0.254" layer="16"/>
@@ -3247,6 +3285,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="42.2" y1="10.8" x2="43.6" y2="12.2" width="0.254" layer="16"/>
 <wire x1="43.6" y1="12.2" x2="49.6" y2="12.2" width="0.254" layer="16"/>
 <wire x1="49.6" y1="12.2" x2="50.9" y2="13.5" width="0.254" layer="16"/>
+<wire x1="22.9" y1="17.45" x2="25.5" y2="14.85" width="0.254" layer="16"/>
 </signal>
 <signal name="CHG_ON">
 <contactref element="R303" pad="1"/>
@@ -3918,7 +3957,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="9.4" y1="9.7" x2="10.5" y2="10.8" width="0.254" layer="16"/>
 <wire x1="10.5" y1="10.8" x2="10.5" y2="12.3" width="0.254" layer="16"/>
 <wire x1="10.5" y1="12.3" x2="12.1" y2="13.9" width="0.254" layer="16"/>
-<wire x1="18.8" y1="19.95" x2="18.75" y2="20" width="0.2032" layer="16"/>
 <wire x1="3.4" y1="9.7" x2="2.5" y2="8.8" width="0.254" layer="1"/>
 <wire x1="2.5" y1="8.8" x2="2" y2="8.8" width="0.254" layer="1"/>
 <wire x1="2" y1="8.8" x2="1.45" y2="8.25" width="0.254" layer="1"/>
@@ -3926,24 +3964,22 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="12.1" y1="13.9" x2="14.5" y2="13.9" width="0.254" layer="16"/>
 <wire x1="14.5" y1="13.9" x2="15.8" y2="15.2" width="0.254" layer="16"/>
 <wire x1="15.8" y1="15.2" x2="15.8" y2="15.8" width="0.254" layer="16"/>
-<wire x1="15.8" y1="15.8" x2="18.7" y2="18.7" width="0.254" layer="16"/>
-<wire x1="18.7" y1="18.7" x2="18.7" y2="19.95" width="0.254" layer="16"/>
-<wire x1="18.7" y1="19.95" x2="18.75" y2="20" width="0.2032" layer="16"/>
+<wire x1="15.8" y1="15.8" x2="18.25" y2="18.25" width="0.254" layer="16"/>
+<wire x1="18.25" y1="18.25" x2="21" y2="18.25" width="0.254" layer="16"/>
 </signal>
 <signal name="MCU_TO_HAT_RESET">
 <contactref element="TP609" pad="TP"/>
 <contactref element="R611" pad="1"/>
 <contactref element="R612" pad="1"/>
 <contactref element="J602" pad="4"/>
-<wire x1="23.49" y1="22.38" x2="23.49" y2="21.99" width="0.2032" layer="16"/>
-<wire x1="23.49" y1="21.99" x2="21.5" y2="20" width="0.254" layer="16"/>
-<wire x1="21.5" y1="20" x2="20.45" y2="20" width="0.254" layer="16"/>
-<wire x1="20.45" y1="20" x2="20.45" y2="18.6" width="0.254" layer="16"/>
-<wire x1="20.45" y1="18.6" x2="20.55" y2="18.5" width="0.2032" layer="16"/>
 <wire x1="21.81" y1="24.89" x2="22.91" y2="24.89" width="0.254" layer="1"/>
 <wire x1="22.91" y1="24.89" x2="23.5" y2="24.3" width="0.254" layer="1"/>
 <wire x1="23.5" y1="24.3" x2="23.5" y2="22.39" width="0.254" layer="1"/>
 <wire x1="23.5" y1="22.39" x2="23.49" y2="22.38" width="0.2032" layer="1"/>
+<wire x1="22.9" y1="19.15" x2="22.9" y2="21.79" width="0.254" layer="16"/>
+<wire x1="22.9" y1="21.79" x2="23.49" y2="22.38" width="0.254" layer="16"/>
+<wire x1="21" y1="19.95" x2="21.06" y2="19.95" width="0.254" layer="16"/>
+<wire x1="21.06" y1="19.95" x2="23.49" y2="22.38" width="0.254" layer="16"/>
 </signal>
 <signal name="BST_SW">
 <contactref element="L401" pad="2"/>
