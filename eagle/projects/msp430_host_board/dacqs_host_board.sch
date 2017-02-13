@@ -29090,6 +29090,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="J11" library="daqcs_host" deviceset="MOLSL_2PIN" device="_V" technology="_SL2V" value="MOL-SL-2-V"/>
 <part name="+3V18" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY47" library="supply2" deviceset="GND" device=""/>
+<part name="NC5" library="daqcs_host" deviceset="NO_CONNECT" device="" value="NC"/>
 </parts>
 <sheets>
 <sheet>
@@ -29925,6 +29926,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="NC35" gate="G$1" x="269.24" y="157.48" rot="R180"/>
 <instance part="NC36" gate="G$1" x="86.36" y="147.32"/>
 <instance part="C37" gate="G$1" x="345.44" y="73.66"/>
+<instance part="NC5" gate="G$1" x="269.24" y="170.18" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -30338,11 +30340,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="SD_CS" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="P4.2_A10"/>
-<wire x1="264.16" y1="170.18" x2="289.56" y2="170.18" width="0.1524" layer="91"/>
-<label x="284.48" y="170.18" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U2" gate="A" pin="P5.7_UCA2STE_TA4.1_MCLK"/>
 <wire x1="91.44" y1="114.3" x2="66.04" y2="114.3" width="0.1524" layer="91"/>
 <label x="66.04" y="114.3" size="1.778" layer="95"/>
@@ -30639,6 +30636,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="NC35" gate="G$1" pin="NC"/>
 <pinref part="U2" gate="A" pin="P4.7"/>
 <wire x1="269.24" y1="157.48" x2="264.16" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="P4.2_A10"/>
+<pinref part="NC5" gate="G$1" pin="NC"/>
+<wire x1="264.16" y1="170.18" x2="269.24" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
