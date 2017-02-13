@@ -362,7 +362,7 @@
 <package name="TP10R">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
 <smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
-<text x="-0.4001" y="0.7499" size="0.4064" layer="25" ratio="6">&gt;NAME</text>
+<text x="-0.4001" y="0.7499" size="0.4064" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="0.519" y="-0.808" size="0.254" layer="27" ratio="6">&gt;VALUE</text>
 <text x="0" y="-1.405" size="0.4064" layer="37" ratio="6">&gt;TP_SIGNAL_NAME</text>
 <circle x="0" y="0" radius="0.25" width="0.6" layer="29"/>
@@ -562,103 +562,6 @@
 <text x="1.81" y="3" size="0.4064" layer="26" font="vector" ratio="20" rot="MR0">&gt;NAME</text>
 <text x="-3.19" y="-3" size="0.254" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <text x="1.81" y="-3" size="0.254" layer="28" font="vector" ratio="20" rot="MR0">&gt;VALUE</text>
-</package>
-<package name="RASPI_ZERO_3STANDOFFS">
-<wire x1="1.722" y1="3.5" x2="3.5" y2="1.722" width="2.286" layer="51" curve="90" cap="flat"/>
-<wire x1="3.5" y1="5.278" x2="5.278" y2="3.5" width="2.286" layer="51" curve="-90" cap="flat"/>
-<circle x="3.5" y="3.5" radius="0.635" width="0.4572" layer="51"/>
-<circle x="3.5" y="3.5" radius="3" width="0" layer="40"/>
-<circle x="3.5" y="3.5" radius="3" width="0" layer="39"/>
-<circle x="3.5" y="3.5" radius="3" width="0" layer="41"/>
-<circle x="3.5" y="3.5" radius="3" width="0" layer="42"/>
-<circle x="3.5" y="3.5" radius="3" width="0" layer="43"/>
-<hole x="3.5" y="3.5" drill="2.75"/>
-<circle x="3.5" y="3.5" radius="3" width="0" layer="29"/>
-<circle x="3.5" y="3.5" radius="3" width="0" layer="30"/>
-<wire x1="3.5" y1="0" x2="0" y2="3.5" width="0" layer="20" curve="-90"/>
-<wire x1="61.5" y1="1.722" x2="63.278" y2="3.5" width="2.286" layer="51" curve="90" cap="flat"/>
-<wire x1="59.722" y1="3.5" x2="61.5" y2="5.278" width="2.286" layer="51" curve="-90" cap="flat"/>
-<circle x="61.5" y="3.5" radius="0.635" width="0.4572" layer="51"/>
-<circle x="61.5" y="3.5" radius="3" width="0" layer="40"/>
-<circle x="61.5" y="3.5" radius="3" width="0" layer="39"/>
-<circle x="61.5" y="3.5" radius="3" width="0" layer="41"/>
-<circle x="61.5" y="3.5" radius="3" width="0" layer="42"/>
-<circle x="61.5" y="3.5" radius="3" width="0" layer="43"/>
-<hole x="61.5" y="3.5" drill="2.75"/>
-<circle x="61.5" y="3.5" radius="3" width="0" layer="29"/>
-<circle x="61.5" y="3.5" radius="3" width="0" layer="30"/>
-<wire x1="65" y1="3.5" x2="61.5" y2="0" width="0" layer="20" curve="-90"/>
-<wire x1="63.278" y1="26.5" x2="61.5" y2="28.278" width="2.286" layer="51" curve="90" cap="flat"/>
-<wire x1="61.5" y1="24.722" x2="59.722" y2="26.5" width="2.286" layer="51" curve="-90" cap="flat"/>
-<circle x="61.5" y="26.5" radius="0.635" width="0.4572" layer="51"/>
-<circle x="61.5" y="26.5" radius="3" width="0" layer="40"/>
-<circle x="61.5" y="26.5" radius="3" width="0" layer="39"/>
-<circle x="61.5" y="26.5" radius="3" width="0" layer="41"/>
-<circle x="61.5" y="26.5" radius="3" width="0" layer="42"/>
-<circle x="61.5" y="26.5" radius="3" width="0" layer="43"/>
-<hole x="61.5" y="26.5" drill="2.75"/>
-<circle x="61.5" y="26.5" radius="3" width="0" layer="29"/>
-<circle x="61.5" y="26.5" radius="3" width="0" layer="30"/>
-<wire x1="61.5" y1="30" x2="65" y2="26.5" width="0" layer="20" curve="-90"/>
-<wire x1="0" y1="26.5" x2="3.5" y2="30" width="0" layer="20" curve="-90"/>
-<wire x1="3.5" y1="30" x2="61.5" y2="30" width="0" layer="20"/>
-<wire x1="65" y1="26.5" x2="65" y2="3.5" width="0" layer="20"/>
-<wire x1="61.5" y1="0" x2="3.5" y2="0" width="0" layer="20"/>
-<wire x1="0" y1="3.5" x2="0" y2="26.5" width="0" layer="20"/>
-</package>
-<package name="RASPI_ZERO_4STANDOFFS">
-<wire x1="1.722" y1="3.5" x2="3.5" y2="1.722" width="2.286" layer="51" curve="90" cap="flat"/>
-<wire x1="3.5" y1="5.278" x2="5.278" y2="3.5" width="2.286" layer="51" curve="-90" cap="flat"/>
-<circle x="3.5" y="3.5" radius="0.635" width="0.4572" layer="51"/>
-<circle x="3.5" y="3.5" radius="3" width="0" layer="40"/>
-<circle x="3.5" y="3.5" radius="3" width="0" layer="39"/>
-<circle x="3.5" y="3.5" radius="3" width="0" layer="41"/>
-<circle x="3.5" y="3.5" radius="3" width="0" layer="42"/>
-<circle x="3.5" y="3.5" radius="3" width="0" layer="43"/>
-<hole x="3.5" y="3.5" drill="2.75"/>
-<circle x="3.5" y="3.5" radius="3" width="0" layer="29"/>
-<circle x="3.5" y="3.5" radius="3" width="0" layer="30"/>
-<wire x1="3.5" y1="0" x2="0" y2="3.5" width="0" layer="20" curve="-90"/>
-<wire x1="61.5" y1="1.722" x2="63.278" y2="3.5" width="2.286" layer="51" curve="90" cap="flat"/>
-<wire x1="59.722" y1="3.5" x2="61.5" y2="5.278" width="2.286" layer="51" curve="-90" cap="flat"/>
-<circle x="61.5" y="3.5" radius="0.635" width="0.4572" layer="51"/>
-<circle x="61.5" y="3.5" radius="3" width="0" layer="40"/>
-<circle x="61.5" y="3.5" radius="3" width="0" layer="39"/>
-<circle x="61.5" y="3.5" radius="3" width="0" layer="41"/>
-<circle x="61.5" y="3.5" radius="3" width="0" layer="42"/>
-<circle x="61.5" y="3.5" radius="3" width="0" layer="43"/>
-<hole x="61.5" y="3.5" drill="2.75"/>
-<circle x="61.5" y="3.5" radius="3" width="0" layer="29"/>
-<circle x="61.5" y="3.5" radius="3" width="0" layer="30"/>
-<wire x1="65" y1="3.5" x2="61.5" y2="0" width="0" layer="20" curve="-90"/>
-<wire x1="63.278" y1="26.5" x2="61.5" y2="28.278" width="2.286" layer="51" curve="90" cap="flat"/>
-<wire x1="61.5" y1="24.722" x2="59.722" y2="26.5" width="2.286" layer="51" curve="-90" cap="flat"/>
-<circle x="61.5" y="26.5" radius="0.635" width="0.4572" layer="51"/>
-<circle x="61.5" y="26.5" radius="3" width="0" layer="40"/>
-<circle x="61.5" y="26.5" radius="3" width="0" layer="39"/>
-<circle x="61.5" y="26.5" radius="3" width="0" layer="41"/>
-<circle x="61.5" y="26.5" radius="3" width="0" layer="42"/>
-<circle x="61.5" y="26.5" radius="3" width="0" layer="43"/>
-<hole x="61.5" y="26.5" drill="2.75"/>
-<circle x="61.5" y="26.5" radius="3" width="0" layer="29"/>
-<circle x="61.5" y="26.5" radius="3" width="0" layer="30"/>
-<wire x1="61.5" y1="30" x2="65" y2="26.5" width="0" layer="20" curve="-90"/>
-<wire x1="3.5" y1="28.278" x2="1.722" y2="26.5" width="2.286" layer="51" curve="90" cap="flat"/>
-<wire x1="5.278" y1="26.5" x2="3.5" y2="24.722" width="2.286" layer="51" curve="-90" cap="flat"/>
-<circle x="3.5" y="26.5" radius="0.635" width="0.4572" layer="51"/>
-<circle x="3.5" y="26.5" radius="3" width="0" layer="40"/>
-<circle x="3.5" y="26.5" radius="3" width="0" layer="39"/>
-<circle x="3.5" y="26.5" radius="3" width="0" layer="41"/>
-<circle x="3.5" y="26.5" radius="3" width="0" layer="42"/>
-<circle x="3.5" y="26.5" radius="3" width="0" layer="43"/>
-<hole x="3.5" y="26.5" drill="2.75"/>
-<circle x="3.5" y="26.5" radius="3" width="0" layer="29"/>
-<circle x="3.5" y="26.5" radius="3" width="0" layer="30"/>
-<wire x1="0" y1="26.5" x2="3.5" y2="30" width="0" layer="20" curve="-90"/>
-<wire x1="3.5" y1="30" x2="61.5" y2="30" width="0" layer="20"/>
-<wire x1="65" y1="26.5" x2="65" y2="3.5" width="0" layer="20"/>
-<wire x1="61.5" y1="0" x2="3.5" y2="0" width="0" layer="20"/>
-<wire x1="0" y1="3.5" x2="0" y2="26.5" width="0" layer="20"/>
 </package>
 <package name="SMD720P535X245-2N">
 <smd name="1" x="-3.6" y="0" dx="5.35" dy="2.45" layer="1" rot="R90" stop="no"/>
@@ -892,6 +795,7 @@
 <rectangle x1="0.5" y1="-0.25" x2="1.4" y2="0.25" layer="29"/>
 <smd name="6" x="0.95" y="0.65" dx="0.4" dy="0.8" layer="1" rot="R90" stop="no"/>
 <rectangle x1="0.5" y1="0.4" x2="1.4" y2="0.9" layer="29"/>
+<wire x1="-0.3" y1="1" x2="0.3" y2="1" width="0.15" layer="21"/>
 </package>
 <package name="SOT23P110X060-5N">
 <smd name="1" x="-1.4" y="0.95" dx="1.1" dy="0.6" layer="1" stop="no"/>
@@ -925,8 +829,8 @@
 <wire x1="-1.6" y1="-0.8" x2="1.6" y2="-0.8" width="0.08" layer="51"/>
 <smd name="1V" x="-1.375" y="0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
 <smd name="2V" x="1.375" y="0.7" dx="1.75" dy="1.1" layer="1" rot="R180" stop="no" cream="no"/>
-<text x="0" y="1.6" size="0.4064" layer="25" ratio="6" align="center">&gt;NAME</text>
-<text x="0" y="-1.55" size="0.254" layer="27" ratio="6" align="center">&gt;VALUE</text>
+<text x="0" y="2" size="0.4064" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
+<text x="0" y="-2" size="0.254" layer="27" ratio="20" align="center">&gt;VALUE</text>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
 <wire x1="-0.25" y1="0.8" x2="0.25" y2="0.8" width="0.15" layer="21"/>
 <wire x1="-0.25" y1="-0.8" x2="0.25" y2="-0.8" width="0.15" layer="21"/>
@@ -946,7 +850,7 @@
 <rectangle x1="0.65" y1="-0.85" x2="1.65" y2="-0.3" layer="51"/>
 <rectangle x1="-1.65" y1="0.3" x2="-0.65" y2="0.85" layer="51"/>
 <rectangle x1="0.65" y1="0.3" x2="1.65" y2="0.85" layer="51"/>
-<text x="0.05" y="1.3" size="0.6096" layer="21" ratio="25" align="center">V</text>
+<text x="0.06" y="1.3" size="0.6096" layer="21" ratio="25" align="center">V</text>
 <text x="0.05" y="-1.3" size="0.6096" layer="21" ratio="25" align="center">A</text>
 </package>
 <package name="DRC0010G">
@@ -1278,6 +1182,177 @@
 <text x="-1.181" y="-1.408" size="0.254" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <text x="-1.2" y="-1.905" size="0.4064" layer="37" font="vector" ratio="20">&gt;TP_SIGNAL_NAME</text>
 <pad name="1" x="0" y="0" drill="1.02"/>
+</package>
+<package name="RASPI_ZERO_4STANDOFFS">
+<wire x1="1.722" y1="3.5" x2="3.5" y2="1.722" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="3.5" y1="5.278" x2="5.278" y2="3.5" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="3.5" y="3.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="40"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="39"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="41"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="42"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="43"/>
+<hole x="3.5" y="3.5" drill="2.75"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="29"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="30"/>
+<wire x1="3.5" y1="0" x2="0" y2="3.5" width="0" layer="20" curve="-90"/>
+<wire x1="61.5" y1="1.722" x2="63.278" y2="3.5" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="59.722" y1="3.5" x2="61.5" y2="5.278" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="61.5" y="3.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="40"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="39"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="41"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="42"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="43"/>
+<hole x="61.5" y="3.5" drill="2.75"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="29"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="30"/>
+<wire x1="65" y1="3.5" x2="61.5" y2="0" width="0" layer="20" curve="-90"/>
+<wire x1="63.278" y1="26.5" x2="61.5" y2="28.278" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="61.5" y1="24.722" x2="59.722" y2="26.5" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="61.5" y="26.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="40"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="39"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="41"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="42"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="43"/>
+<hole x="61.5" y="26.5" drill="2.75"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="29"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="30"/>
+<wire x1="61.5" y1="30" x2="65" y2="26.5" width="0" layer="20" curve="-90"/>
+<wire x1="3.5" y1="28.278" x2="1.722" y2="26.5" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="5.278" y1="26.5" x2="3.5" y2="24.722" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="3.5" y="26.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="3.5" y="26.5" radius="3" width="0" layer="40"/>
+<circle x="3.5" y="26.5" radius="3" width="0" layer="39"/>
+<circle x="3.5" y="26.5" radius="3" width="0" layer="41"/>
+<circle x="3.5" y="26.5" radius="3" width="0" layer="42"/>
+<circle x="3.5" y="26.5" radius="3" width="0" layer="43"/>
+<hole x="3.5" y="26.5" drill="2.75"/>
+<circle x="3.5" y="26.5" radius="3" width="0" layer="29"/>
+<circle x="3.5" y="26.5" radius="3" width="0" layer="30"/>
+<wire x1="0" y1="26.5" x2="3.5" y2="30" width="0" layer="20" curve="-90"/>
+<wire x1="3.5" y1="30" x2="61.5" y2="30" width="0" layer="20"/>
+<wire x1="65" y1="26.5" x2="65" y2="3.5" width="0" layer="20"/>
+<wire x1="61.5" y1="0" x2="3.5" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="3.5" x2="0" y2="26.5" width="0" layer="20"/>
+</package>
+<package name="RASPI_ZERO_3STANDOFFS">
+<wire x1="1.722" y1="3.5" x2="3.5" y2="1.722" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="3.5" y1="5.278" x2="5.278" y2="3.5" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="3.5" y="3.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="40"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="39"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="41"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="42"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="43"/>
+<hole x="3.5" y="3.5" drill="2.75"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="29"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="30"/>
+<wire x1="3.5" y1="0" x2="0" y2="3.5" width="0" layer="20" curve="-90"/>
+<wire x1="61.5" y1="1.722" x2="63.278" y2="3.5" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="59.722" y1="3.5" x2="61.5" y2="5.278" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="61.5" y="3.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="40"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="39"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="41"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="42"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="43"/>
+<hole x="61.5" y="3.5" drill="2.75"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="29"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="30"/>
+<wire x1="65" y1="3.5" x2="61.5" y2="0" width="0" layer="20" curve="-90"/>
+<wire x1="63.278" y1="26.5" x2="61.5" y2="28.278" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="61.5" y1="24.722" x2="59.722" y2="26.5" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="61.5" y="26.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="40"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="39"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="41"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="42"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="43"/>
+<hole x="61.5" y="26.5" drill="2.75"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="29"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="30"/>
+<wire x1="61.5" y1="30" x2="65" y2="26.5" width="0" layer="20" curve="-90"/>
+<wire x1="0" y1="26.5" x2="3.5" y2="30" width="0" layer="20" curve="-90"/>
+<wire x1="3.5" y1="30" x2="61.5" y2="30" width="0" layer="20"/>
+<wire x1="65" y1="26.5" x2="65" y2="3.5" width="0" layer="20"/>
+<wire x1="61.5" y1="0" x2="3.5" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="3.5" x2="0" y2="26.5" width="0" layer="20"/>
+</package>
+<package name="RASPI_ZERO_3STANDOFFS_SQUARE">
+<wire x1="1.722" y1="3.5" x2="3.5" y2="1.722" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="3.5" y1="5.278" x2="5.278" y2="3.5" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="3.5" y="3.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="40"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="39"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="41"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="42"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="43"/>
+<hole x="3.5" y="3.5" drill="2.75"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="29"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="30"/>
+<wire x1="61.5" y1="1.722" x2="63.278" y2="3.5" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="59.722" y1="3.5" x2="61.5" y2="5.278" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="61.5" y="3.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="40"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="39"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="41"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="42"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="43"/>
+<hole x="61.5" y="3.5" drill="2.75"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="29"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="30"/>
+<wire x1="63.278" y1="26.5" x2="61.5" y2="28.278" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="61.5" y1="24.722" x2="59.722" y2="26.5" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="61.5" y="26.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="40"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="39"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="41"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="42"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="43"/>
+<hole x="61.5" y="26.5" drill="2.75"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="29"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="30"/>
+<wire x1="0" y1="0" x2="65" y2="0" width="0" layer="20"/>
+<wire x1="65" y1="0" x2="65" y2="30" width="0" layer="20"/>
+<wire x1="65" y1="30" x2="0" y2="30" width="0" layer="20"/>
+<wire x1="0" y1="30" x2="0" y2="0" width="0" layer="20"/>
+</package>
+<package name="RASPI_ZERO_3STANDOFFS_ONLY">
+<wire x1="1.722" y1="3.5" x2="3.5" y2="1.722" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="3.5" y1="5.278" x2="5.278" y2="3.5" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="3.5" y="3.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="40"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="39"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="41"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="42"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="43"/>
+<hole x="3.5" y="3.5" drill="2.75"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="29"/>
+<circle x="3.5" y="3.5" radius="3" width="0" layer="30"/>
+<wire x1="61.5" y1="1.722" x2="63.278" y2="3.5" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="59.722" y1="3.5" x2="61.5" y2="5.278" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="61.5" y="3.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="40"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="39"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="41"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="42"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="43"/>
+<hole x="61.5" y="3.5" drill="2.75"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="29"/>
+<circle x="61.5" y="3.5" radius="3" width="0" layer="30"/>
+<wire x1="63.278" y1="26.5" x2="61.5" y2="28.278" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="61.5" y1="24.722" x2="59.722" y2="26.5" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="61.5" y="26.5" radius="0.635" width="0.4572" layer="51"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="40"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="39"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="41"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="42"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="43"/>
+<hole x="61.5" y="26.5" drill="2.75"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="29"/>
+<circle x="61.5" y="26.5" radius="3" width="0" layer="30"/>
 </package>
 </packages>
 <symbols>
@@ -36678,18 +36753,6 @@
 <text x="0" y="2.54" size="1.778" layer="96" rot="R180" align="center">&gt;VALUE</text>
 <pin name="PP3V3_HAT" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="RASPI_ZERO_OUTLINE">
-<text x="2.54" y="13.97" size="1.27" layer="96">&gt;VALUE</text>
-<wire x1="0" y1="2.54" x2="0" y2="15.24" width="0.254" layer="94"/>
-<wire x1="0" y1="15.24" x2="2.54" y2="17.78" width="0.254" layer="94" curve="-90"/>
-<wire x1="2.54" y1="17.78" x2="33.02" y2="17.78" width="0.254" layer="94"/>
-<wire x1="33.02" y1="17.78" x2="35.56" y2="15.24" width="0.254" layer="94" curve="-90"/>
-<wire x1="35.56" y1="15.24" x2="35.56" y2="2.54" width="0.254" layer="94"/>
-<wire x1="35.56" y1="2.54" x2="33.02" y2="0" width="0.254" layer="94" curve="-90"/>
-<wire x1="33.02" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.254" layer="94" curve="-90"/>
-<text x="2.54" y="19.05" size="1.27" layer="96">&gt;NAME</text>
-</symbol>
 <symbol name="INDUCTOR">
 <wire x1="-5.08" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
 <wire x1="-2.54" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
@@ -37090,6 +37153,18 @@
 <circle x="0" y="0" radius="1.524" width="1.016" layer="94"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.254" layer="94"/>
 <text x="0" y="6.35" size="1.778" layer="95" align="center">&gt;COLOR</text>
+</symbol>
+<symbol name="RASPI_ZERO_OUTLINE">
+<text x="2.54" y="13.97" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="0" y1="2.54" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="2.54" y2="17.78" width="0.254" layer="94" curve="-90"/>
+<wire x1="2.54" y1="17.78" x2="33.02" y2="17.78" width="0.254" layer="94"/>
+<wire x1="33.02" y1="17.78" x2="35.56" y2="15.24" width="0.254" layer="94" curve="-90"/>
+<wire x1="35.56" y1="15.24" x2="35.56" y2="2.54" width="0.254" layer="94"/>
+<wire x1="35.56" y1="2.54" x2="33.02" y2="0" width="0.254" layer="94" curve="-90"/>
+<wire x1="33.02" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.254" layer="94" curve="-90"/>
+<text x="2.54" y="19.05" size="1.27" layer="96">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -38019,27 +38094,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
-<deviceset name="RASPI_ZERO_OUTLINE" prefix="OUTLINE">
-<gates>
-<gate name="G$1" symbol="RASPI_ZERO_OUTLINE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_4S0C" package="RASPI_ZERO_4STANDOFFS">
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="RASPI-ZERO-4STANDOFFS-0CAM" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_3S0C" package="RASPI_ZERO_3STANDOFFS">
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="RASPI-ZERO-3STANDOFFS-0CAM" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="L" prefix="L" uservalue="yes">
 <description>&lt;b&gt;Surface Mount Inductor&lt;/b&gt;</description>
 <gates>
@@ -38823,6 +38877,39 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
+<deviceset name="RASPI_ZERO_OUTLINE" prefix="OUTLINE">
+<gates>
+<gate name="G$1" symbol="RASPI_ZERO_OUTLINE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_4S0C" package="RASPI_ZERO_4STANDOFFS">
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="RASPI-ZERO-4STANDOFFS-0CAM" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_3S0C" package="RASPI_ZERO_3STANDOFFS">
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="RASPI-ZERO-3STANDOFFS-0CAM" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_3S0CS" package="RASPI_ZERO_3STANDOFFS_SQUARE">
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="RASPI-ZERO-3STANDOFFS-0CAM-SQUARE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_3S0C_ONLY" package="RASPI_ZERO_3STANDOFFS_ONLY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -38955,7 +39042,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="PP3V3_HAT402" library="daqcs" deviceset="PP3V3_HAT" device=""/>
 <part name="PP3V3_HAT302" library="daqcs" deviceset="PP3V3_HAT" device=""/>
 <part name="PP5V0_CHG_IN302" library="daqcs" deviceset="PP5V0_CHG_IN" device=""/>
-<part name="OUTLINE601" library="daqcs" deviceset="RASPI_ZERO_OUTLINE" device="_3S0C" value="RASPI-ZERO-3STANDOFFS-0CAM"/>
 <part name="DS601" library="daqcs" deviceset="LED" device="_0603" technology="_Y2V0WURTH" value="YELLOW"/>
 <part name="DS602" library="daqcs" deviceset="LED" device="_0603" technology="_Y2V0WURTH" value="YELLOW"/>
 <part name="U505" library="daqcs" deviceset="LSM9DS1" device="_LGA24" technology="TR" value="LSM9DS1TR"/>
@@ -39119,6 +39205,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="GND306" library="daqcs" deviceset="GND" device=""/>
 <part name="GND526" library="daqcs" deviceset="GND" device=""/>
 <part name="TP513" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="OUTLINE1" library="daqcs" deviceset="RASPI_ZERO_OUTLINE" device="_3S0C_ONLY"/>
 </parts>
 <sheets>
 <sheet>
@@ -40943,7 +41030,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="PP3V3_HAT603" gate="G$1" x="99.06" y="231.14"/>
 <instance part="PP3V3_HAT602" gate="G$1" x="68.58" y="238.76"/>
 <instance part="PP3V3_HAT601" gate="G$1" x="66.04" y="147.32"/>
-<instance part="OUTLINE601" gate="G$1" x="73.66" y="20.32"/>
 <instance part="DS601" gate="G$1" x="236.22" y="66.04"/>
 <instance part="DS602" gate="G$1" x="264.16" y="66.04"/>
 <instance part="TP611" gate="G$1" x="393.7" y="101.6"/>
@@ -41003,6 +41089,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <attribute name="TP_SIGNAL_NAME" x="41.91" y="110.49" size="1.778" layer="97" rot="R90"/>
 <attribute name="COLOR" x="33.02" y="110.49" size="1.778" layer="95" rot="R180" align="center"/>
 </instance>
+<instance part="OUTLINE1" gate="G$1" x="73.66" y="17.78"/>
 </instances>
 <busses>
 </busses>
