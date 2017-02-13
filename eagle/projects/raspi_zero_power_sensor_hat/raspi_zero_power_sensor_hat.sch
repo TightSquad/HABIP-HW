@@ -443,11 +443,15 @@
 <pad name="1" x="-2.54" y="0" drill="1.09" shape="long" rot="R90"/>
 <text x="-5.715" y="-2" size="0.4064" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
 <text x="5.8" y="-2" size="0.254" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
-<text x="-4.5" y="-1.5875" size="1.016" layer="21" ratio="10">1</text>
 <rectangle x1="-0.2381" y1="-0.2381" x2="0.2381" y2="0.2381" layer="51"/>
 <rectangle x1="-2.7781" y1="-0.2381" x2="-2.3019" y2="0.2381" layer="51"/>
 <rectangle x1="2.3019" y1="-0.2381" x2="2.7781" y2="0.2381" layer="51"/>
 <wire x1="-5.28" y1="-2.605" x2="5.28" y2="-2.605" width="0.15" layer="21"/>
+<polygon width="0.15" layer="21">
+<vertex x="-3.81" y="-2.56"/>
+<vertex x="-4.2862" y="-1.26"/>
+<vertex x="-4.7625" y="-2.56"/>
+</polygon>
 </package>
 <package name="SMD125130P225X090-8N">
 <smd name="5" x="2.675" y="-1.9" dx="2.25" dy="0.9" layer="1" rot="R180" stop="no"/>
@@ -850,8 +854,7 @@
 <rectangle x1="0.65" y1="-0.85" x2="1.65" y2="-0.3" layer="51"/>
 <rectangle x1="-1.65" y1="0.3" x2="-0.65" y2="0.85" layer="51"/>
 <rectangle x1="0.65" y1="0.3" x2="1.65" y2="0.85" layer="51"/>
-<text x="0.06" y="1.3" size="0.6096" layer="21" ratio="25" align="center">V</text>
-<text x="0.05" y="-1.3" size="0.6096" layer="21" ratio="25" align="center">A</text>
+<text x="0" y="-1.3" size="0.6096" layer="21" ratio="25" align="center">A</text>
 </package>
 <package name="DRC0010G">
 <smd name="1" x="-1.4625" y="1" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no" thermals="no"/>
@@ -1038,10 +1041,14 @@
 <pad name="1" x="-1.27" y="0" drill="1.09" shape="long" rot="R90"/>
 <text x="-4.4" y="-2" size="0.4064" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
 <text x="4.69" y="-2" size="0.254" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
-<text x="-3.048" y="-1.5875" size="1.016" layer="21" ratio="10">1</text>
 <rectangle x1="1.0319" y1="-0.2381" x2="1.5081" y2="0.2381" layer="51"/>
 <rectangle x1="-1.5081" y1="-0.2381" x2="-1.0319" y2="0.2381" layer="51"/>
 <wire x1="-3.88" y1="-2.605" x2="3.88" y2="-2.605" width="0.15" layer="21"/>
+<polygon width="0.15" layer="21">
+<vertex x="-2.54" y="-2.56"/>
+<vertex x="-3.0162" y="-1.26"/>
+<vertex x="-3.4925" y="-2.56"/>
+</polygon>
 </package>
 <package name="RECEPTACLE-2X5-254MM">
 <pad name="8" x="2.54" y="1.27" drill="1" diameter="1.5"/>
@@ -1074,37 +1081,6 @@
 <text x="0.54" y="3" size="0.4064" layer="26" font="vector" ratio="20" rot="MR0">&gt;NAME</text>
 <text x="-4.46" y="-3" size="0.254" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <text x="0.54" y="-3" size="0.254" layer="28" font="vector" ratio="20" rot="MR0">&gt;VALUE</text>
-</package>
-<package name="MOLSL-4-V">
-<description>&lt;b&gt;C-Grid SL Connector&lt;/b&gt;&lt;p&gt;
- vertical, 4 pin</description>
-<wire x1="6.55" y1="-2.605" x2="6.55" y2="2.605" width="0.15" layer="21"/>
-<wire x1="6.55" y1="2.605" x2="-6.55" y2="2.605" width="0.15" layer="21"/>
-<wire x1="-6.55" y1="2.605" x2="-6.55" y2="-2.605" width="0.15" layer="21"/>
-<wire x1="-3.81" y1="-2.605" x2="-3.81" y2="-4.125" width="0.15" layer="51"/>
-<wire x1="-3.81" y1="-4.125" x2="3.81" y2="-4.125" width="0.15" layer="51"/>
-<wire x1="3.81" y1="-4.125" x2="3.81" y2="-2.605" width="0.15" layer="51"/>
-<wire x1="-5.335" y1="1.525" x2="-5.335" y2="-1.525" width="0.05" layer="51"/>
-<wire x1="5.335" y1="1.525" x2="5.335" y2="-1.525" width="0.05" layer="51"/>
-<wire x1="-5.335" y1="1.525" x2="5.335" y2="1.525" width="0.05" layer="51"/>
-<wire x1="-5.335" y1="-1.525" x2="-2.8575" y2="-1.525" width="0.05" layer="51"/>
-<wire x1="-2.8575" y1="-1.525" x2="2.8575" y2="-1.525" width="0.05" layer="51"/>
-<wire x1="2.8575" y1="-1.525" x2="5.335" y2="-1.525" width="0.05" layer="51"/>
-<wire x1="2.8575" y1="-3.045" x2="-2.8575" y2="-3.045" width="0.05" layer="51"/>
-<wire x1="-2.8575" y1="-1.525" x2="-2.8575" y2="-3.045" width="0.05" layer="51"/>
-<wire x1="2.8575" y1="-1.525" x2="2.8575" y2="-3.045" width="0.05" layer="51"/>
-<pad name="3" x="1.27" y="0" drill="1.09" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="0" drill="1.09" shape="long" rot="R90"/>
-<pad name="1" x="-3.81" y="0" drill="1.09" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="1.09" shape="long" rot="R90"/>
-<text x="-7" y="-2" size="0.4064" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
-<text x="7.2" y="-2" size="0.254" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
-<text x="-5.7" y="-1.5875" size="1.016" layer="21" ratio="10">1</text>
-<rectangle x1="-1.5081" y1="-0.2381" x2="-1.0319" y2="0.2381" layer="51"/>
-<rectangle x1="-4.0481" y1="-0.2381" x2="-3.5719" y2="0.2381" layer="51"/>
-<rectangle x1="3.5719" y1="-0.2381" x2="4.0481" y2="0.2381" layer="51"/>
-<rectangle x1="1.0319" y1="-0.2381" x2="1.5081" y2="0.2381" layer="51"/>
-<wire x1="-6.55" y1="-2.605" x2="6.55" y2="-2.605" width="0.15" layer="21"/>
 </package>
 <package name="MOLSL-4-RA">
 <description>&lt;b&gt;C-Grid SL Connector&lt;/b&gt;&lt;p&gt;
@@ -1353,6 +1329,41 @@
 <hole x="61.5" y="26.5" drill="2.75"/>
 <circle x="61.5" y="26.5" radius="3" width="0" layer="29"/>
 <circle x="61.5" y="26.5" radius="3" width="0" layer="30"/>
+</package>
+<package name="MOLSL-4-V">
+<description>&lt;b&gt;C-Grid SL Connector&lt;/b&gt;&lt;p&gt;
+ vertical, 4 pin</description>
+<wire x1="6.55" y1="-2.605" x2="6.55" y2="2.605" width="0.15" layer="21"/>
+<wire x1="6.55" y1="2.605" x2="-6.55" y2="2.605" width="0.15" layer="21"/>
+<wire x1="-6.55" y1="2.605" x2="-6.55" y2="-2.605" width="0.15" layer="21"/>
+<wire x1="-3.81" y1="-2.605" x2="-3.81" y2="-4.125" width="0.15" layer="51"/>
+<wire x1="-3.81" y1="-4.125" x2="3.81" y2="-4.125" width="0.15" layer="51"/>
+<wire x1="3.81" y1="-4.125" x2="3.81" y2="-2.605" width="0.15" layer="51"/>
+<wire x1="-5.335" y1="1.525" x2="-5.335" y2="-1.525" width="0.05" layer="51"/>
+<wire x1="5.335" y1="1.525" x2="5.335" y2="-1.525" width="0.05" layer="51"/>
+<wire x1="-5.335" y1="1.525" x2="5.335" y2="1.525" width="0.05" layer="51"/>
+<wire x1="-5.335" y1="-1.525" x2="-2.8575" y2="-1.525" width="0.05" layer="51"/>
+<wire x1="-2.8575" y1="-1.525" x2="2.8575" y2="-1.525" width="0.05" layer="51"/>
+<wire x1="2.8575" y1="-1.525" x2="5.335" y2="-1.525" width="0.05" layer="51"/>
+<wire x1="2.8575" y1="-3.045" x2="-2.8575" y2="-3.045" width="0.05" layer="51"/>
+<wire x1="-2.8575" y1="-1.525" x2="-2.8575" y2="-3.045" width="0.05" layer="51"/>
+<wire x1="2.8575" y1="-1.525" x2="2.8575" y2="-3.045" width="0.05" layer="51"/>
+<pad name="3" x="1.27" y="0" drill="1.09" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.09" shape="long" rot="R90"/>
+<pad name="1" x="-3.81" y="0" drill="1.09" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.09" shape="long" rot="R90"/>
+<text x="-7" y="-2" size="0.4064" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
+<text x="7.2" y="-2" size="0.254" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.5081" y1="-0.2381" x2="-1.0319" y2="0.2381" layer="51"/>
+<rectangle x1="-4.0481" y1="-0.2381" x2="-3.5719" y2="0.2381" layer="51"/>
+<rectangle x1="3.5719" y1="-0.2381" x2="4.0481" y2="0.2381" layer="51"/>
+<rectangle x1="1.0319" y1="-0.2381" x2="1.5081" y2="0.2381" layer="51"/>
+<wire x1="-6.55" y1="-2.605" x2="6.55" y2="-2.605" width="0.15" layer="21"/>
+<polygon width="0.15" layer="21">
+<vertex x="-5.08" y="-2.56"/>
+<vertex x="-5.5562" y="-1.26"/>
+<vertex x="-6.0325" y="-2.56"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -39102,10 +39113,10 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="R602" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="R601" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="L401" library="daqcs" deviceset="L" device="_2SMD3" technology="_1UH0" value="1.0uH"/>
-<part name="R611" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0">
+<part name="R611" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
+<part name="R612" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0">
 <variant name="POR" populate="no"/>
 </part>
-<part name="R612" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="R310" library="daqcs" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
 <part name="R405" library="daqcs" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
 <part name="GND405" library="daqcs" deviceset="GND" device=""/>
@@ -39205,7 +39216,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="GND306" library="daqcs" deviceset="GND" device=""/>
 <part name="GND526" library="daqcs" deviceset="GND" device=""/>
 <part name="TP513" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="OUTLINE1" library="daqcs" deviceset="RASPI_ZERO_OUTLINE" device="_3S0C_ONLY"/>
+<part name="OUTLINE601" library="daqcs" deviceset="RASPI_ZERO_OUTLINE" device="_3S0C_ONLY"/>
 </parts>
 <sheets>
 <sheet>
@@ -41089,7 +41100,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <attribute name="TP_SIGNAL_NAME" x="41.91" y="110.49" size="1.778" layer="97" rot="R90"/>
 <attribute name="COLOR" x="33.02" y="110.49" size="1.778" layer="95" rot="R180" align="center"/>
 </instance>
-<instance part="OUTLINE1" gate="G$1" x="73.66" y="17.78"/>
+<instance part="OUTLINE601" gate="G$1" x="73.66" y="17.78"/>
 </instances>
 <busses>
 </busses>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1166,8 +1166,7 @@ JST PH 2-pin thru-home side entry</description>
 <rectangle x1="0.65" y1="-0.85" x2="1.65" y2="-0.3" layer="51"/>
 <rectangle x1="-1.65" y1="0.3" x2="-0.65" y2="0.85" layer="51"/>
 <rectangle x1="0.65" y1="0.3" x2="1.65" y2="0.85" layer="51"/>
-<text x="0.06" y="1.3" size="0.6096" layer="21" ratio="25" align="center">V</text>
-<text x="0.05" y="-1.3" size="0.6096" layer="21" ratio="25" align="center">A</text>
+<text x="0" y="-1.3" size="0.6096" layer="21" ratio="25" align="center">A</text>
 </package>
 <package name="HEADER-1X2-254MM">
 <pad name="1" x="-1.27" y="0" drill="1" diameter="1.5" shape="square" first="yes"/>
@@ -1336,10 +1335,14 @@ JST PH 2-pin thru-home side entry</description>
 <pad name="1" x="-1.27" y="0" drill="1.09" shape="long" rot="R90"/>
 <text x="-4.4" y="-2" size="0.4064" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
 <text x="4.69" y="-2" size="0.254" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
-<text x="-3.048" y="-1.5875" size="1.016" layer="21" ratio="10">1</text>
 <rectangle x1="1.0319" y1="-0.2381" x2="1.5081" y2="0.2381" layer="51"/>
 <rectangle x1="-1.5081" y1="-0.2381" x2="-1.0319" y2="0.2381" layer="51"/>
 <wire x1="-3.88" y1="-2.605" x2="3.88" y2="-2.605" width="0.15" layer="21"/>
+<polygon width="0.15" layer="21">
+<vertex x="-2.54" y="-2.56"/>
+<vertex x="-3.0162" y="-1.26"/>
+<vertex x="-3.4925" y="-2.56"/>
+</polygon>
 </package>
 <package name="MOLSL-2-RA">
 <description>&lt;b&gt;C-Grid SL Connector&lt;/b&gt;&lt;p&gt;
@@ -1417,11 +1420,15 @@ JST PH 2-pin thru-home side entry</description>
 <pad name="1" x="-2.54" y="0" drill="1.09" shape="long" rot="R90"/>
 <text x="-5.715" y="-2" size="0.4064" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
 <text x="5.8" y="-2" size="0.254" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
-<text x="-4.5" y="-1.5875" size="1.016" layer="21" ratio="10">1</text>
 <rectangle x1="-0.2381" y1="-0.2381" x2="0.2381" y2="0.2381" layer="51"/>
 <rectangle x1="-2.7781" y1="-0.2381" x2="-2.3019" y2="0.2381" layer="51"/>
 <rectangle x1="2.3019" y1="-0.2381" x2="2.7781" y2="0.2381" layer="51"/>
 <wire x1="-5.28" y1="-2.605" x2="5.28" y2="-2.605" width="0.15" layer="21"/>
+<polygon width="0.15" layer="21">
+<vertex x="-3.81" y="-2.56"/>
+<vertex x="-4.2862" y="-1.26"/>
+<vertex x="-4.7625" y="-2.56"/>
+</polygon>
 </package>
 <package name="MOLSL-3-RA">
 <description>&lt;b&gt;C-Grid SL Connector&lt;/b&gt;&lt;p&gt;
@@ -1509,12 +1516,16 @@ JST PH 2-pin thru-home side entry</description>
 <pad name="4" x="3.81" y="0" drill="1.09" shape="long" rot="R90"/>
 <text x="-7" y="-2" size="0.4064" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
 <text x="7.2" y="-2" size="0.254" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
-<text x="-5.7" y="-1.5875" size="1.016" layer="21" ratio="10">1</text>
 <rectangle x1="-1.5081" y1="-0.2381" x2="-1.0319" y2="0.2381" layer="51"/>
 <rectangle x1="-4.0481" y1="-0.2381" x2="-3.5719" y2="0.2381" layer="51"/>
 <rectangle x1="3.5719" y1="-0.2381" x2="4.0481" y2="0.2381" layer="51"/>
 <rectangle x1="1.0319" y1="-0.2381" x2="1.5081" y2="0.2381" layer="51"/>
 <wire x1="-6.55" y1="-2.605" x2="6.55" y2="-2.605" width="0.15" layer="21"/>
+<polygon width="0.15" layer="21">
+<vertex x="-5.08" y="-2.56"/>
+<vertex x="-5.5562" y="-1.26"/>
+<vertex x="-6.0325" y="-2.56"/>
+</polygon>
 </package>
 <package name="MOLSL-4-RA">
 <description>&lt;b&gt;C-Grid SL Connector&lt;/b&gt;&lt;p&gt;
@@ -1611,13 +1622,17 @@ JST PH 2-pin thru-home side entry</description>
 <pad name="5" x="5.08" y="0" drill="1.09" shape="long" rot="R90"/>
 <text x="-8.2" y="-2" size="0.4064" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
 <text x="8.5" y="-2" size="0.254" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
-<text x="-7" y="-1.5875" size="1.016" layer="21" ratio="10">1</text>
 <rectangle x1="-2.7781" y1="-0.2381" x2="-2.3019" y2="0.2381" layer="51"/>
 <rectangle x1="-5.3181" y1="-0.2381" x2="-4.8419" y2="0.2381" layer="51"/>
 <rectangle x1="2.3019" y1="-0.2381" x2="2.7781" y2="0.2381" layer="51"/>
 <rectangle x1="-0.2381" y1="-0.2381" x2="0.2381" y2="0.2381" layer="51"/>
 <rectangle x1="4.8419" y1="-0.2381" x2="5.3181" y2="0.2381" layer="51"/>
 <wire x1="-7.82" y1="-2.605" x2="7.82" y2="-2.605" width="0.15" layer="21"/>
+<polygon width="0.15" layer="21">
+<vertex x="-6.35" y="-2.56"/>
+<vertex x="-6.8262" y="-1.26"/>
+<vertex x="-7.3025" y="-2.56"/>
+</polygon>
 </package>
 <package name="MOLSL-5-RA">
 <description>&lt;b&gt;C-Grid SL Connector&lt;/b&gt;&lt;p&gt;
@@ -1723,7 +1738,6 @@ JST PH 2-pin thru-home side entry</description>
 <pad name="6" x="6.35" y="0" drill="1.09" shape="long" rot="R90"/>
 <text x="-9.6" y="-2" size="0.4064" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
 <text x="9.8" y="-2" size="0.254" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
-<text x="-8.3" y="-1.5875" size="1.016" layer="21" ratio="10">1</text>
 <rectangle x1="-4.0481" y1="-0.2381" x2="-3.5719" y2="0.2381" layer="51"/>
 <rectangle x1="-6.5881" y1="-0.2381" x2="-6.1119" y2="0.2381" layer="51"/>
 <rectangle x1="1.0319" y1="-0.2381" x2="1.5081" y2="0.2381" layer="51"/>
@@ -1731,6 +1745,11 @@ JST PH 2-pin thru-home side entry</description>
 <rectangle x1="6.1119" y1="-0.2381" x2="6.5881" y2="0.2381" layer="51"/>
 <rectangle x1="3.5719" y1="-0.2381" x2="4.0481" y2="0.2381" layer="51"/>
 <wire x1="-9.09" y1="-2.605" x2="9.09" y2="-2.605" width="0.15" layer="21"/>
+<polygon width="0.15" layer="21">
+<vertex x="-7.62" y="-2.56"/>
+<vertex x="-8.0962" y="-1.26"/>
+<vertex x="-8.5725" y="-2.56"/>
+</polygon>
 </package>
 <package name="MOLSL-6-RA">
 <description>&lt;b&gt;C-Grid SL Connector&lt;/b&gt;&lt;p&gt;
