@@ -154,6 +154,8 @@
 <wire x1="62" y1="62.1" x2="66" y2="58.1" width="0" layer="20" curve="-90"/>
 <wire x1="4" y1="0" x2="0" y2="4" width="0" layer="20" curve="-90"/>
 <wire x1="62" y1="0" x2="66" y2="4" width="0" layer="20" curve="90"/>
+<text x="16.2" y="28.1" size="1.016" layer="25" ratio="15">LDO</text>
+<text x="34.1" y="28.5" size="1.016" layer="25" ratio="15">555</text>
 </plain>
 <libraries>
 <library name="grss">
