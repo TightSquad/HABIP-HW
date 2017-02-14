@@ -6,40 +6,40 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.393700787" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND" color="14" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="POWER" color="48" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="63" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -49,7 +49,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -33032,7 +33032,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 </pass>
 </autorouter>
 <elements>
-<element name="C405" library="comms" package="C0805" value="100nF" x="54.919353125" y="56.05571875" rot="MR180">
+<element name="C405" library="comms" package="C0805" value="100nF" x="54.919353125" y="56.05571875" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="478-3755-1-ND" x="54.919353125" y="56.05571875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="08053C104KAT2A" x="54.919353125" y="56.05571875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="54.919353125" y="56.05571875" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -33040,8 +33040,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="AVX Corporation" x="54.919353125" y="56.05571875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="54.919353125" y="56.05571875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="54.919353125" y="56.05571875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="54.919353125" y="55.05571875" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="C604" library="comms" package="C0805" value="100nF" x="64.386103125" y="44.7841375" rot="R270">
+<element name="C604" library="comms" package="C0805" value="100nF" x="64.386103125" y="44.7841375" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="478-3755-1-ND" x="64.386103125" y="44.7841375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="08053C104KAT2A" x="64.386103125" y="44.7841375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="64.386103125" y="44.7841375" size="1.778" layer="27" rot="R270" display="off"/>
@@ -33049,8 +33050,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="AVX Corporation" x="64.386103125" y="44.7841375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="64.386103125" y="44.7841375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="64.386103125" y="44.7841375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="65.386103125" y="44.7841375" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="C601" library="comms" package="C1210" value="22uF" x="71.50425625" y="48.377475" rot="R270">
+<element name="C601" library="comms" package="C1210" value="22uF" x="71.50425625" y="48.377475" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="490-3889-1-ND" x="71.50425625" y="48.377475" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM32ER61E226KE15L" x="71.50425625" y="48.377475" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="71.50425625" y="48.377475" size="1.778" layer="27" rot="R270" display="off"/>
@@ -33058,8 +33060,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata" x="71.50425625" y="48.377475" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="71.50425625" y="48.377475" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="71.50425625" y="48.377475" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="73.46425625" y="48.527475" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="C607" library="comms" package="C1206" value="22uF" x="68.577909375" y="38.842259375" rot="R180">
+<element name="C607" library="comms" package="C1206" value="22uF" x="68.577909375" y="38.842259375" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="490-4738-1-ND" x="68.577909375" y="38.842259375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM31CR61A226ME19L" x="68.577909375" y="38.842259375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="68.577909375" y="38.842259375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33067,8 +33070,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata Electronics North America" x="68.577909375" y="38.842259375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="68.577909375" y="38.842259375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="68.577909375" y="38.842259375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="68.617909375" y="37.362259375" size="1.016" layer="25" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="C409" library="comms" package="C1206" value="22uF" x="66.56376875" y="56.670709375" rot="MR0">
+<element name="C409" library="comms" package="C1206" value="22uF" x="66.56376875" y="56.670709375" smashed="yes" rot="MR0">
 <attribute name="VENDOR_PN" value="490-4738-1-ND" x="66.56376875" y="56.670709375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM31CR61A226ME19L" x="66.56376875" y="56.670709375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="66.56376875" y="56.670709375" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -33076,8 +33080,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata Electronics North America" x="66.56376875" y="56.670709375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="66.56376875" y="56.670709375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="66.56376875" y="56.670709375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="66.60376875" y="58.150709375" size="1.016" layer="26" ratio="15" rot="MR0" align="center"/>
 </element>
-<element name="C609" library="comms" package="C1206" value="22uF" x="68.59589375" y="41.55555625" rot="R180">
+<element name="C609" library="comms" package="C1206" value="22uF" x="68.59589375" y="41.55555625" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="490-4738-1-ND" x="68.59589375" y="41.55555625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM31CR61A226ME19L" x="68.59589375" y="41.55555625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="68.59589375" y="41.55555625" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33085,8 +33090,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata Electronics North America" x="68.59589375" y="41.55555625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="68.59589375" y="41.55555625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="68.59589375" y="41.55555625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="68.63589375" y="40.07555625" size="1.016" layer="25" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="C501" library="comms" package="C1411" value="8.2 uF" x="30.8768375" y="22.1317375" rot="R180">
+<element name="C501" library="comms" package="C1411" value="8.2 uF" x="30.8768375" y="22.1317375" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="P16504CT-ND" x="30.8768375" y="22.1317375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="20TQC8R2M" x="30.8768375" y="22.1317375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="20%" x="30.8768375" y="22.1317375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33094,8 +33100,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digi-Key" x="30.8768375" y="22.1317375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="20V" x="30.8768375" y="22.1317375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ESR" value="100 mOhm" x="30.8768375" y="22.1317375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="33.5768375" y="20.2537375" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="C502" library="comms" package="C0805" value="100nF" x="30.1115875" y="24.99059375" rot="R180">
+<element name="C502" library="comms" package="C0805" value="100nF" x="30.1115875" y="24.99059375" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="478-3755-1-ND" x="30.1115875" y="24.99059375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="08053C104KAT2A" x="30.1115875" y="24.99059375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="30.1115875" y="24.99059375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33103,8 +33110,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="AVX Corporation" x="30.1115875" y="24.99059375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="30.1115875" y="24.99059375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="30.1115875" y="24.99059375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="30.1115875" y="23.99059375" size="1.016" layer="25" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="C503" library="comms" package="C0603" value="2.4nF" x="15.51155" y="30.003959375" rot="R90">
+<element name="C503" library="comms" package="C0603" value="2.4nF" x="15.51155" y="30.003959375" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="490-3282-1-ND" x="15.51155" y="30.003959375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM1885C1H242JA01D" x="15.51155" y="30.003959375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TEMP_COEFF" value="C0G, NP0" x="15.51155" y="30.003959375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -33112,8 +33120,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata" x="15.51155" y="30.003959375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="15.51155" y="30.003959375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="15.51155" y="30.003959375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="14.58535" y="30.003959375" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="C504" library="comms" package="C0805" value="100nF" x="18.468525" y="34.261209375" rot="R90">
+<element name="C504" library="comms" package="C0805" value="100nF" x="18.468525" y="34.261209375" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="478-3755-1-ND" x="18.468525" y="34.261209375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="08053C104KAT2A" x="18.468525" y="34.261209375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="18.468525" y="34.261209375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -33121,8 +33130,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="AVX Corporation" x="18.468525" y="34.261209375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="18.468525" y="34.261209375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="18.468525" y="34.261209375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="17.468525" y="34.261209375" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="C505" library="comms" package="C0805" value="620pF" x="22.915325" y="34.6594625" rot="R90">
+<element name="C505" library="comms" package="C0805" value="620pF" x="22.915325" y="34.6594625" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="1276-2677-1-ND" x="22.915325" y="34.6594625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="CL21C621JBCNNNC" x="22.915325" y="34.6594625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TEMP_COEFF" value="C0G, NP0" x="22.915325" y="34.6594625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -33130,8 +33140,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc." x="22.915325" y="34.6594625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="22.915325" y="34.6594625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="22.915325" y="34.6594625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="21.915325" y="34.6594625" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="C403" library="comms" package="C0805" value="10uF" x="62.577159375" y="53.22150625" rot="MR90">
+<element name="C403" library="comms" package="C0805" value="10uF" x="62.577159375" y="53.22150625" smashed="yes" rot="MR90">
 <attribute name="VENDOR_PN" value="490-3886-1-ND" x="62.577159375" y="53.22150625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM21BR61C106KE15L" x="62.577159375" y="53.22150625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="62.577159375" y="53.22150625" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -33139,8 +33150,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata Electronics North America" x="62.577159375" y="53.22150625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="62.577159375" y="53.22150625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="62.577159375" y="53.22150625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="63.577159375" y="53.22150625" size="1.016" layer="26" ratio="15" rot="MR90" align="center"/>
 </element>
-<element name="C506" library="comms" package="C0805" value="4.7uF" x="37.994559375" y="36.72516875" rot="R90">
+<element name="C506" library="comms" package="C0805" value="4.7uF" x="37.994559375" y="36.72516875" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="490-5422-1-ND" x="37.994559375" y="36.72516875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM21BR61E475MA12L" x="37.994559375" y="36.72516875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="37.994559375" y="36.72516875" size="1.778" layer="27" rot="R90" display="off"/>
@@ -33148,8 +33160,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata" x="37.994559375" y="36.72516875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="37.994559375" y="36.72516875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="37.994559375" y="36.72516875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="36.994559375" y="36.72516875" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="C507" library="comms" package="C2917" value="47uF" x="22.86616875" y="41.8347" rot="R180">
+<element name="C507" library="comms" package="C2917" value="47uF" x="22.86616875" y="41.8347" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="399-5937-1-ND" x="22.86616875" y="41.8347" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="T521X476M035ATE030" x="22.86616875" y="41.8347" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="20%" x="22.86616875" y="41.8347" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33157,8 +33170,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digi-Key" x="22.86616875" y="41.8347" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="35V" x="22.86616875" y="41.8347" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ESR" value="30mOhm" x="22.86616875" y="41.8347" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="25.61116875" y="38.9817" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="C701" library="comms" package="C0805" value="10nF" x="2.1720875" y="83.987653125" rot="MR90">
+<element name="C701" library="comms" package="C0805" value="10nF" x="2.1720875" y="83.987653125" smashed="yes" rot="MR90">
 <attribute name="VENDOR_PN" value="399-1158-1-ND" x="2.1720875" y="83.987653125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="C0805C103K5RACTU" x="2.1720875" y="83.987653125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="2.1720875" y="83.987653125" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -33166,8 +33180,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Kemet" x="2.1720875" y="83.987653125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="2.1720875" y="83.987653125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="2.1720875" y="83.987653125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="3.1720875" y="83.987653125" size="1.016" layer="26" ratio="15" rot="MR90" align="center"/>
 </element>
-<element name="C901" library="comms" package="C0603" value="100nF" x="55.94725625" y="90.777065625" rot="MR270">
+<element name="C901" library="comms" package="C0603" value="100nF" x="55.94725625" y="90.777065625" smashed="yes" rot="MR270">
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="55.94725625" y="90.777065625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R71C104KA01D" x="55.94725625" y="90.777065625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="55.94725625" y="90.777065625" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -33175,8 +33190,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata" x="55.94725625" y="90.777065625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="55.94725625" y="90.777065625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="55.94725625" y="90.777065625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="55.02105625" y="90.777065625" size="1.016" layer="26" ratio="15" rot="MR270" align="center"/>
 </element>
-<element name="C602" library="comms" package="C1206" value="22uF" x="74.327246875" y="33.866909375" rot="R270">
+<element name="C602" library="comms" package="C1206" value="22uF" x="74.327246875" y="33.866909375" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="490-4738-1-ND" x="74.327246875" y="33.866909375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM31CR61A226ME19L" x="74.327246875" y="33.866909375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="74.327246875" y="33.866909375" size="1.778" layer="27" rot="R270" display="off"/>
@@ -33184,8 +33200,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata Electronics North America" x="74.327246875" y="33.866909375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="74.327246875" y="33.866909375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="74.327246875" y="33.866909375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="75.807246875" y="33.906909375" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="C603" library="comms" package="C0805" value="100nF" x="67.9837375" y="31.727475" rot="R270">
+<element name="C603" library="comms" package="C0805" value="100nF" x="67.9837375" y="31.727475" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="478-3755-1-ND" x="67.9837375" y="31.727475" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="08053C104KAT2A" x="67.9837375" y="31.727475" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="67.9837375" y="31.727475" size="1.778" layer="27" rot="R270" display="off"/>
@@ -33193,8 +33210,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="AVX Corporation" x="67.9837375" y="31.727475" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="67.9837375" y="31.727475" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="67.9837375" y="31.727475" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="68.9837375" y="31.727475" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="C902" library="comms" package="C0603" value="100nF" x="35.99" y="52.94" rot="R180">
+<element name="C902" library="comms" package="C0603" value="100nF" x="35.99" y="52.94" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="35.99" y="52.94" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R71C104KA01D" x="35.99" y="52.94" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="35.99" y="52.94" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33202,8 +33220,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata" x="35.99" y="52.94" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="35.99" y="52.94" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="35.99" y="52.94" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="36.19" y="51.6138" size="1.016" layer="25" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="C702" library="comms" package="C0603" value="100nF" x="23.358403125" y="79.123559375" rot="MR180">
+<element name="C702" library="comms" package="C0603" value="100nF" x="23.358403125" y="79.123559375" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="23.358403125" y="79.123559375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R71C104KA01D" x="23.358403125" y="79.123559375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="23.358403125" y="79.123559375" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -33211,8 +33230,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata" x="23.358403125" y="79.123559375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="23.358403125" y="79.123559375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="23.358403125" y="79.123559375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="23.358403125" y="78.197359375" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="C605" library="comms" package="C1206" value="22uF" x="72.836453125" y="27.220959375" rot="R180">
+<element name="C605" library="comms" package="C1206" value="22uF" x="72.836453125" y="27.220959375" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="490-4738-1-ND" x="72.836453125" y="27.220959375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM31CR61A226ME19L" x="72.836453125" y="27.220959375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="72.836453125" y="27.220959375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33220,8 +33240,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata Electronics North America" x="72.836453125" y="27.220959375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="72.836453125" y="27.220959375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="72.836453125" y="27.220959375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="72.876453125" y="25.740959375" size="1.016" layer="25" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="C903" library="comms" package="C0603" value="100nF" x="76.623809375" y="18.093325" rot="MR90">
+<element name="C903" library="comms" package="C0603" value="100nF" x="76.623809375" y="18.093325" smashed="yes" rot="MR90">
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="76.623809375" y="18.093325" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R71C104KA01D" x="76.623809375" y="18.093325" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="76.623809375" y="18.093325" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -33229,8 +33250,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata" x="76.623809375" y="18.093325" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="76.623809375" y="18.093325" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="76.623809375" y="18.093325" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="77.550009375" y="18.093325" size="1.016" layer="26" ratio="15" rot="MR90" align="center"/>
 </element>
-<element name="C408" library="comms" package="C1206" value="22uF" x="66.60478125" y="59.438803125" rot="MR0">
+<element name="C408" library="comms" package="C1206" value="22uF" x="66.60478125" y="59.438803125" smashed="yes" rot="MR0">
 <attribute name="VENDOR_PN" value="490-4738-1-ND" x="66.60478125" y="59.438803125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM31CR61A226ME19L" x="66.60478125" y="59.438803125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="66.60478125" y="59.438803125" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -33238,8 +33260,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata Electronics North America" x="66.60478125" y="59.438803125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="66.60478125" y="59.438803125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="66.60478125" y="59.438803125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="66.64478125" y="60.918803125" size="1.016" layer="26" ratio="15" rot="MR0" align="center"/>
 </element>
-<element name="C1003" library="comms" package="C0805" value="100nF" x="71.3454375" y="77.6764625" rot="MR90">
+<element name="C1003" library="comms" package="C0805" value="100nF" x="71.3454375" y="77.6764625" smashed="yes" rot="MR90">
 <attribute name="VENDOR_PN" value="478-3755-1-ND" x="71.3454375" y="77.6764625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="08053C104KAT2A" x="71.3454375" y="77.6764625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="71.3454375" y="77.6764625" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -33247,8 +33270,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="AVX Corporation" x="71.3454375" y="77.6764625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="71.3454375" y="77.6764625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="71.3454375" y="77.6764625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="72.3454375" y="77.6764625" size="1.016" layer="26" ratio="15" rot="MR90" align="center"/>
 </element>
-<element name="C1004" library="comms" package="C0805" value="100nF" x="70.835421875" y="81.727084375" rot="MR90">
+<element name="C1004" library="comms" package="C0805" value="100nF" x="70.835421875" y="81.727084375" smashed="yes" rot="MR90">
 <attribute name="VENDOR_PN" value="478-3755-1-ND" x="70.835421875" y="81.727084375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="08053C104KAT2A" x="70.835421875" y="81.727084375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="70.835421875" y="81.727084375" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -33256,8 +33280,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="AVX Corporation" x="70.835421875" y="81.727084375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="70.835421875" y="81.727084375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="70.835421875" y="81.727084375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="71.835421875" y="81.727084375" size="1.016" layer="26" ratio="15" rot="MR90" align="center"/>
 </element>
-<element name="C1002" library="comms" package="C0805" value="100nF" x="87.93409375" y="76.371428125" rot="MR90">
+<element name="C1002" library="comms" package="C0805" value="100nF" x="87.93409375" y="76.371428125" smashed="yes" rot="MR90">
 <attribute name="VENDOR_PN" value="478-3755-1-ND" x="87.93409375" y="76.371428125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="08053C104KAT2A" x="87.93409375" y="76.371428125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="87.93409375" y="76.371428125" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -33265,8 +33290,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="AVX Corporation" x="87.93409375" y="76.371428125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="87.93409375" y="76.371428125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="87.93409375" y="76.371428125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="88.93409375" y="76.371428125" size="1.016" layer="26" ratio="15" rot="MR90" align="center"/>
 </element>
-<element name="C1005" library="comms" package="C0805" value="100nF" x="74.51585625" y="83.406884375" rot="MR0">
+<element name="C1005" library="comms" package="C0805" value="100nF" x="74.51585625" y="83.406884375" smashed="yes" rot="MR0">
 <attribute name="VENDOR_PN" value="478-3755-1-ND" x="74.51585625" y="83.406884375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="08053C104KAT2A" x="74.51585625" y="83.406884375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="74.51585625" y="83.406884375" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -33274,8 +33300,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="AVX Corporation" x="74.51585625" y="83.406884375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="74.51585625" y="83.406884375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="74.51585625" y="83.406884375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="74.51585625" y="84.406884375" size="1.016" layer="26" ratio="15" rot="MR0" align="center"/>
 </element>
-<element name="C1006" library="comms" package="C0805" value="100nF" x="74.494890625" y="77.775671875" rot="MR0">
+<element name="C1006" library="comms" package="C0805" value="100nF" x="74.494890625" y="77.775671875" smashed="yes" rot="MR0">
 <attribute name="VENDOR_PN" value="478-3755-1-ND" x="74.494890625" y="77.775671875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="08053C104KAT2A" x="74.494890625" y="77.775671875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="74.494890625" y="77.775671875" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -33283,8 +33310,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="AVX Corporation" x="74.494890625" y="77.775671875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="74.494890625" y="77.775671875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="74.494890625" y="77.775671875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="74.494890625" y="78.775671875" size="1.016" layer="26" ratio="15" rot="MR0" align="center"/>
 </element>
-<element name="C1001" library="comms" package="C0805" value="100nF" x="30.975509375" y="52.5897375" rot="MR90">
+<element name="C1001" library="comms" package="C0805" value="100nF" x="30.975509375" y="52.5897375" smashed="yes" rot="MR90">
 <attribute name="VENDOR_PN" value="478-3755-1-ND" x="30.975509375" y="52.5897375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="08053C104KAT2A" x="30.975509375" y="52.5897375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="30.975509375" y="52.5897375" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -33292,8 +33320,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="AVX Corporation" x="30.975509375" y="52.5897375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="30.975509375" y="52.5897375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="30.975509375" y="52.5897375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="31.975509375" y="52.5897375" size="1.016" layer="26" ratio="15" rot="MR90" align="center"/>
 </element>
-<element name="C407" library="comms" package="C0603" value="100nF" x="39.086703125" y="88.0563875" rot="MR90">
+<element name="C407" library="comms" package="C0603" value="100nF" x="39.086703125" y="88.0563875" smashed="yes" rot="MR90">
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="39.086703125" y="88.0563875" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R71C104KA01D" x="39.086703125" y="88.0563875" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="39.086703125" y="88.0563875" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -33301,8 +33330,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata" x="39.086703125" y="88.0563875" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="39.086703125" y="88.0563875" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="39.086703125" y="88.0563875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="40.012903125" y="88.0563875" size="1.016" layer="26" ratio="15" rot="MR90" align="center"/>
 </element>
-<element name="C608" library="comms" package="C1206" value="22uF" x="72.84459375" y="24.34708125" rot="R180">
+<element name="C608" library="comms" package="C1206" value="22uF" x="72.84459375" y="24.34708125" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="490-4738-1-ND" x="72.84459375" y="24.34708125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM31CR61A226ME19L" x="72.84459375" y="24.34708125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="72.84459375" y="24.34708125" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33310,8 +33340,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata Electronics North America" x="72.84459375" y="24.34708125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="72.84459375" y="24.34708125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="72.84459375" y="24.34708125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="72.88459375" y="22.86708125" size="1.016" layer="25" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="C402" library="comms" package="C0805" value="10uF" x="64.676715625" y="53.219765625" rot="MR90">
+<element name="C402" library="comms" package="C0805" value="10uF" x="64.676715625" y="53.219765625" smashed="yes" rot="MR90">
 <attribute name="VENDOR_PN" value="490-3886-1-ND" x="64.676715625" y="53.219765625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM21BR61C106KE15L" x="64.676715625" y="53.219765625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="64.676715625" y="53.219765625" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -33319,8 +33350,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata Electronics North America" x="64.676715625" y="53.219765625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="64.676715625" y="53.219765625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="64.676715625" y="53.219765625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="65.676715625" y="53.219765625" size="1.016" layer="26" ratio="15" rot="MR90" align="center"/>
 </element>
-<element name="C401" library="comms" package="C0603" value="1uF" x="58.9914" y="47.964096875" rot="MR270">
+<element name="C401" library="comms" package="C0603" value="1uF" x="58.9914" y="47.964096875" smashed="yes" rot="MR270">
 <attribute name="VENDOR_PN" value="490-1536-1-ND" x="58.9914" y="47.964096875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R61C105KA93D" x="58.9914" y="47.964096875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="58.9914" y="47.964096875" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -33328,8 +33360,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata" x="58.9914" y="47.964096875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="58.9914" y="47.964096875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="58.9914" y="47.964096875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="58.0652" y="47.964096875" size="1.016" layer="26" ratio="15" rot="MR270" align="center"/>
 </element>
-<element name="C404" library="comms" package="C0805" value="10nF" x="50.572690625" y="46.729053125" rot="MR0">
+<element name="C404" library="comms" package="C0805" value="10nF" x="50.572690625" y="46.729053125" smashed="yes" rot="MR0">
 <attribute name="VENDOR_PN" value="399-1158-1-ND" x="50.572690625" y="46.729053125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="C0805C103K5RACTU" x="50.572690625" y="46.729053125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="50.572690625" y="46.729053125" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -33337,8 +33370,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Kemet" x="50.572690625" y="46.729053125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="50.572690625" y="46.729053125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="50.572690625" y="46.729053125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="50.572690625" y="47.729053125" size="1.016" layer="26" ratio="15" rot="MR0" align="center"/>
 </element>
-<element name="C406" library="comms" package="C0603" value="4.7uF" x="50.728115625" y="48.692284375" rot="MR0">
+<element name="C406" library="comms" package="C0603" value="4.7uF" x="50.728115625" y="48.692284375" smashed="yes" rot="MR0">
 <attribute name="VENDOR_PN" value="490-3297-1-ND" x="50.728115625" y="48.692284375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R60J475KE19D" x="50.728115625" y="48.692284375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="50.728115625" y="48.692284375" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -33346,8 +33380,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata" x="50.728115625" y="48.692284375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="50.728115625" y="48.692284375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VOLTAGE" value="6.3V" x="50.728115625" y="48.692284375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="50.728115625" y="49.618484375" size="1.016" layer="26" ratio="15" rot="MR0" align="center"/>
 </element>
-<element name="C606" library="comms" package="C0603" value="1uF" x="20.14313125" y="17.84293125" rot="R90">
+<element name="C606" library="comms" package="C0603" value="1uF" x="20.14313125" y="17.84293125" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="490-1536-1-ND" x="20.14313125" y="17.84293125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R61C105KA93D" x="20.14313125" y="17.84293125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="20.14313125" y="17.84293125" size="1.778" layer="27" rot="R90" display="off"/>
@@ -33355,8 +33390,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata" x="20.14313125" y="17.84293125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="20.14313125" y="17.84293125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="20.14313125" y="17.84293125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="19.21693125" y="17.84293125" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="C610" library="comms" package="C0603" value="1uF" x="17.55144375" y="21.376396875" rot="R180">
+<element name="C610" library="comms" package="C0603" value="1uF" x="17.55144375" y="21.376396875" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="490-1536-1-ND" x="17.55144375" y="21.376396875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="GRM188R61C105KA93D" x="17.55144375" y="21.376396875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="17.55144375" y="21.376396875" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33364,8 +33400,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Murata" x="17.55144375" y="21.376396875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="17.55144375" y="21.376396875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="17.55144375" y="21.376396875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="17.55144375" y="20.450196875" size="1.016" layer="25" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="D501" library="comms" package="DO-214AC" value="CDBA340-HF" x="33.197275" y="41.839428125" rot="R180">
+<element name="D501" library="comms" package="DO-214AC" value="CDBA340-HF" x="33.197275" y="41.839428125" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="641-1748-1-ND" x="33.197275" y="41.839428125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="CDBA340-HF" x="33.197275" y="41.839428125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CURRENT_REV_LEAK" value="500uA @40V" x="33.197275" y="41.839428125" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33375,8 +33412,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VOLTAGE_FWD" value="500mV @3A" x="33.197275" y="41.839428125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CURRENT_AVG_RECT" value="3A" x="33.197275" y="41.839428125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CAP_REV_V" value="200pF @4V, 1MHz" x="33.197275" y="41.839428125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="35.743275" y="40.348428125" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="FB702" library="comms" package="FB0402" value="BLM15HD102SN1D" x="23.699390625" y="88.423265625" rot="MR0">
+<element name="FB702" library="comms" package="FB0402" value="BLM15HD102SN1D" x="23.699390625" y="88.423265625" smashed="yes" rot="MR0">
 <attribute name="VENDOR_PN" value="490-4003-1-ND" x="23.699390625" y="88.423265625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="BLM15HD102SN1D" x="23.699390625" y="88.423265625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="IMPEDANCE" value="1kOhm @100MHz" x="23.699390625" y="88.423265625" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -33384,8 +33422,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digi-Key" x="23.699390625" y="88.423265625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MAX_CURRENT" value="250mA" x="23.699390625" y="88.423265625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DCR_MAX" value="1.25 Ohm" x="23.699390625" y="88.423265625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="25.219390625" y="89.171265625" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="FB701" library="comms" package="FB0402" value="BLM15HD102SN1D" x="21.548490625" y="86.78861875" rot="MR0">
+<element name="FB701" library="comms" package="FB0402" value="BLM15HD102SN1D" x="21.548490625" y="86.78861875" smashed="yes" rot="MR0">
 <attribute name="VENDOR_PN" value="490-4003-1-ND" x="21.548490625" y="86.78861875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="BLM15HD102SN1D" x="21.548490625" y="86.78861875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="IMPEDANCE" value="1kOhm @100MHz" x="21.548490625" y="86.78861875" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -33393,14 +33432,16 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digi-Key" x="21.548490625" y="86.78861875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MAX_CURRENT" value="250mA" x="21.548490625" y="86.78861875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DCR_MAX" value="1.25 Ohm" x="21.548490625" y="86.78861875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="23.068490625" y="87.53661875" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="J701" library="comms" package="SMA-EDGE" value="WRL-00593" x="2.774734375" y="75.401809375" rot="MR90">
+<element name="J701" library="comms" package="SMA-EDGE" value="WRL-00593" x="2.774734375" y="75.401809375" smashed="yes" rot="MR90">
 <attribute name="VENDOR_PN" value="WRL-00593" x="2.774734375" y="75.401809375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="WRL-00593" x="2.774734375" y="75.401809375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Sparkfun" x="2.774734375" y="75.401809375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR" value="Sparkfun" x="2.774734375" y="75.401809375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="-1.035265625" y="75.401809375" size="1.016" layer="26" ratio="15" rot="MR90"/>
 </element>
-<element name="J1108" library="comms" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="27.94" y="2.69" rot="R180">
+<element name="J1108" library="comms" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="27.94" y="2.69" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="WM4900-ND" x="27.94" y="2.69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530001" x="27.94" y="2.69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LOCKING" value="YES" x="27.94" y="2.69" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33411,8 +33452,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MAX_CURRENT" value="3.0A" x="27.94" y="2.69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUNT_ANGLE" value="RIGHT" x="27.94" y="2.69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="27.94" y="2.69" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="32.385" y="8.405" size="1.016" layer="25" ratio="15" rot="R270"/>
 </element>
-<element name="J1103" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="2.681140625" y="18.450490625" rot="R90">
+<element name="J1103" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="2.681140625" y="18.450490625" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="WM4901-ND" x="2.681140625" y="18.450490625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530002" x="2.681140625" y="18.450490625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LOCKING" value="YES" x="2.681140625" y="18.450490625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -33423,8 +33465,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MAX_CURRENT" value="3.0A" x="2.681140625" y="18.450490625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUNT_ANGLE" value="RIGHT" x="2.681140625" y="18.450490625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="2.681140625" y="18.450490625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="8.396140625" y="12.735490625" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J1106" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="2.661140625" y="30.65590625" rot="R90">
+<element name="J1106" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="2.661140625" y="30.65590625" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="WM4901-ND" x="2.661140625" y="30.65590625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530002" x="2.661140625" y="30.65590625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LOCKING" value="YES" x="2.661140625" y="30.65590625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -33435,8 +33478,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MAX_CURRENT" value="3.0A" x="2.661140625" y="30.65590625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUNT_ANGLE" value="RIGHT" x="2.661140625" y="30.65590625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="2.661140625" y="30.65590625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="8.376140625" y="24.94090625" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J1111" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="2.681140625" y="43.229084375" rot="R90">
+<element name="J1111" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="2.681140625" y="43.229084375" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="WM4901-ND" x="2.681140625" y="43.229084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530002" x="2.681140625" y="43.229084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LOCKING" value="YES" x="2.681140625" y="43.229084375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -33447,8 +33491,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MAX_CURRENT" value="3.0A" x="2.681140625" y="43.229084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUNT_ANGLE" value="RIGHT" x="2.681140625" y="43.229084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="2.681140625" y="43.229084375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="8.396140625" y="37.514084375" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J1101" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="2.631140625" y="55.67770625" rot="R90">
+<element name="J1101" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="2.631140625" y="55.67770625" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="WM4901-ND" x="2.631140625" y="55.67770625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530002" x="2.631140625" y="55.67770625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LOCKING" value="YES" x="2.631140625" y="55.67770625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -33459,8 +33504,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MAX_CURRENT" value="3.0A" x="2.631140625" y="55.67770625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUNT_ANGLE" value="RIGHT" x="2.631140625" y="55.67770625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="2.631140625" y="55.67770625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="8.346140625" y="49.96270625" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J1112" library="comms" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="0.82" y="67.3" rot="R90">
+<element name="J1112" library="comms" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="0.82" y="67.3" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="WM4900-ND" x="0.82" y="67.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530001" x="0.82" y="67.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LOCKING" value="YES" x="0.82" y="67.3" size="1.778" layer="27" rot="R90" display="off"/>
@@ -33471,8 +33517,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MAX_CURRENT" value="3.0A" x="0.82" y="67.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUNT_ANGLE" value="RIGHT" x="0.82" y="67.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="0.82" y="67.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="6.535" y="62.855" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J1109" library="comms" package="39-30-?02?" value="MOL-MINIJR-2P-RA" x="47.285" y="14.03">
+<element name="J1109" library="comms" package="39-30-?02?" value="MOL-MINIJR-2P-RA" x="47.285" y="14.03" smashed="yes">
 <attribute name="VENDOR_PN" value="WM1363-ND" x="47.285" y="14.03" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0039301021" x="47.285" y="14.03" size="1.778" layer="27" display="off"/>
 <attribute name="LOCKING" value="YES" x="47.285" y="14.03" size="1.778" layer="27" display="off"/>
@@ -33483,8 +33530,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MAX_CURRENT" value="13.0A" x="47.285" y="14.03" size="1.778" layer="27" display="off"/>
 <attribute name="MOUNT_ANGLE" value="RIGHT" x="47.285" y="14.03" size="1.778" layer="27" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="47.285" y="14.03" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="43.856" y="0.2759" size="1.016" layer="25" ratio="15" rot="R90"/>
 </element>
-<element name="J1110" library="comms" package="39-30-?02?" value="MOL-MINIJR-2P-RA" x="63.51" y="14.08">
+<element name="J1110" library="comms" package="39-30-?02?" value="MOL-MINIJR-2P-RA" x="63.51" y="14.08" smashed="yes">
 <attribute name="VENDOR_PN" value="WM1363-ND" x="63.51" y="14.08" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0039301021" x="63.51" y="14.08" size="1.778" layer="27" display="off"/>
 <attribute name="LOCKING" value="YES" x="63.51" y="14.08" size="1.778" layer="27" display="off"/>
@@ -33495,8 +33543,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MAX_CURRENT" value="13.0A" x="63.51" y="14.08" size="1.778" layer="27" display="off"/>
 <attribute name="MOUNT_ANGLE" value="RIGHT" x="63.51" y="14.08" size="1.778" layer="27" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="63.51" y="14.08" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="60.081" y="0.3259" size="1.016" layer="25" ratio="15" rot="R90"/>
 </element>
-<element name="J1116" library="comms" package="39-30-?02?" value="MOL-MINIJR-2P-RA" x="55.365" y="14.08">
+<element name="J1116" library="comms" package="39-30-?02?" value="MOL-MINIJR-2P-RA" x="55.365" y="14.08" smashed="yes">
 <attribute name="VENDOR_PN" value="WM1363-ND" x="55.365" y="14.08" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0039301021" x="55.365" y="14.08" size="1.778" layer="27" display="off"/>
 <attribute name="LOCKING" value="YES" x="55.365" y="14.08" size="1.778" layer="27" display="off"/>
@@ -33507,8 +33556,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MAX_CURRENT" value="13.0A" x="55.365" y="14.08" size="1.778" layer="27" display="off"/>
 <attribute name="MOUNT_ANGLE" value="RIGHT" x="55.365" y="14.08" size="1.778" layer="27" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="55.365" y="14.08" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="51.936" y="0.3259" size="1.016" layer="25" ratio="15" rot="R90"/>
 </element>
-<element name="J1115" library="comms" package="39-30-?02?" value="MOL-MINIJR-2P-RA" x="72.72" y="14.09">
+<element name="J1115" library="comms" package="39-30-?02?" value="MOL-MINIJR-2P-RA" x="72.72" y="14.09" smashed="yes">
 <attribute name="VENDOR_PN" value="WM1363-ND" x="72.72" y="14.09" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0039301021" x="72.72" y="14.09" size="1.778" layer="27" display="off"/>
 <attribute name="LOCKING" value="YES" x="72.72" y="14.09" size="1.778" layer="27" display="off"/>
@@ -33519,14 +33569,16 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MAX_CURRENT" value="13.0A" x="72.72" y="14.09" size="1.778" layer="27" display="off"/>
 <attribute name="MOUNT_ANGLE" value="RIGHT" x="72.72" y="14.09" size="1.778" layer="27" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="72.72" y="14.09" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="69.291" y="0.3359" size="1.016" layer="25" ratio="15" rot="R90"/>
 </element>
-<element name="J801" library="comms" package="AUDIO-JACK-TRRS-SMD" value="PRT-12639" x="99.695" y="38.1" rot="R180">
+<element name="J801" library="comms" package="AUDIO-JACK-TRRS-SMD" value="PRT-12639" x="99.695" y="38.1" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="PRT-12639" x="99.695" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="PRT-12639" x="99.695" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Sparkfun" x="99.695" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="SPARKFUN" x="99.695" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="99.06" y="42.037" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J1113" library="comms" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="37.77" y="2.66" rot="R180">
+<element name="J1113" library="comms" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="37.77" y="2.66" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="WM4900-ND" x="37.77" y="2.66" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530001" x="37.77" y="2.66" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LOCKING" value="YES" x="37.77" y="2.66" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33537,8 +33589,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MAX_CURRENT" value="3.0A" x="37.77" y="2.66" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUNT_ANGLE" value="RIGHT" x="37.77" y="2.66" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="37.77" y="2.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="42.215" y="8.375" size="1.016" layer="25" ratio="15" rot="R270"/>
 </element>
-<element name="J1114" library="comms" package="HEADER-2X2-254MM" value="RECEPTACLE-2x2-254MM" x="20.7969375" y="72.9081375" rot="R180">
+<element name="J1114" library="comms" package="HEADER-2X2-254MM" value="RECEPTACLE-2x2-254MM" x="20.7969375" y="72.9081375" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="S7105-ND" x="20.7969375" y="72.9081375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="PPPC022LFBN-RC" x="20.7969375" y="72.9081375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Sullins Connector Solutions" x="20.7969375" y="72.9081375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33550,8 +33603,10 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MOUNT_ANGLE" value="Vertical" x="20.7969375" y="72.9081375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="20.7969375" y="72.9081375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PITCH" value="2.54mm" x="20.7969375" y="72.9081375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="23.2079375" y="76.8041375" size="1.016" layer="25" ratio="15" rot="R180"/>
+<attribute name="NAME" x="19.8989375" y="70.0321375" size="1.016" layer="26" ratio="15" rot="R180"/>
 </element>
-<element name="J1102" library="comms" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="98.943815625" y="16.009309375" rot="R270">
+<element name="J1102" library="comms" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="98.943815625" y="16.009309375" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="WM4900-ND" x="98.943815625" y="16.009309375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530001" x="98.943815625" y="16.009309375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LOCKING" value="YES" x="98.943815625" y="16.009309375" size="1.778" layer="27" rot="R270" display="off"/>
@@ -33562,26 +33617,30 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MAX_CURRENT" value="3.0A" x="98.943815625" y="16.009309375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUNT_ANGLE" value="RIGHT" x="98.943815625" y="16.009309375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="98.943815625" y="16.009309375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="93.228815625" y="20.454309375" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="J802" library="comms" package="AUDIO-JACK-TRRS-SMD" value="PRT-12639" x="99.695" y="26.67" rot="R180">
+<element name="J802" library="comms" package="AUDIO-JACK-TRRS-SMD" value="PRT-12639" x="99.695" y="26.67" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="PRT-12639" x="99.695" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="PRT-12639" x="99.695" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Sparkfun" x="99.695" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="SPARKFUN" x="99.695" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="99.06" y="30.607" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J803" library="comms" package="AUDIO-JACK-TRRS-SMD" value="PRT-12639" x="99.695" y="59.69" rot="R180">
+<element name="J803" library="comms" package="AUDIO-JACK-TRRS-SMD" value="PRT-12639" x="99.695" y="59.69" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="PRT-12639" x="99.695" y="59.69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="PRT-12639" x="99.695" y="59.69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Sparkfun" x="99.695" y="59.69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="SPARKFUN" x="99.695" y="59.69" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="99.06" y="63.627" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J804" library="comms" package="AUDIO-JACK-TRRS-SMD" value="PRT-12639" x="99.695" y="49.53" rot="R180">
+<element name="J804" library="comms" package="AUDIO-JACK-TRRS-SMD" value="PRT-12639" x="99.695" y="49.53" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="PRT-12639" x="99.695" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="PRT-12639" x="99.695" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Sparkfun" x="99.695" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="SPARKFUN" x="99.695" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="99.06" y="53.467" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J1105" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="98.97" y="71.21" rot="R270">
+<element name="J1105" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="98.97" y="71.21" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="WM4901-ND" x="98.97" y="71.21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530002" x="98.97" y="71.21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LOCKING" value="YES" x="98.97" y="71.21" size="1.778" layer="27" rot="R270" display="off"/>
@@ -33592,8 +33651,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MAX_CURRENT" value="3.0A" x="98.97" y="71.21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUNT_ANGLE" value="RIGHT" x="98.97" y="71.21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="98.97" y="71.21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="93.255" y="76.925" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="J1107" library="comms" package="MOLSL-5-RA" value="MOL-SL-5-RA" x="98.96" y="85.725" rot="R270">
+<element name="J1107" library="comms" package="MOLSL-5-RA" value="MOL-SL-5-RA" x="98.96" y="85.725" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="WM4903-ND" x="98.96" y="85.725" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530004" x="98.96" y="85.725" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LOCKING" value="YES" x="98.96" y="85.725" size="1.778" layer="27" rot="R270" display="off"/>
@@ -33604,8 +33664,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MAX_CURRENT" value="3.0A" x="98.96" y="85.725" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUNT_ANGLE" value="RIGHT" x="98.96" y="85.725" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="98.96" y="85.725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="93.245" y="93.8625" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="J1117" library="comms" package="HEADER-2X20-254MM" value="RECEPTACLE-2x20-254MM" x="43.658178125" y="67.8281375" rot="R180">
+<element name="J1117" library="comms" package="HEADER-2X20-254MM" value="RECEPTACLE-2x20-254MM" x="43.658178125" y="67.8281375" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="S9200-ND" x="43.658178125" y="67.8281375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="SFH11-PBPC-D20-ST-BK" x="43.658178125" y="67.8281375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Sullins Connector Solutions" x="43.658178125" y="67.8281375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33617,8 +33678,10 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MOUNT_ANGLE" value="Vertical" x="43.658178125" y="67.8281375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="43.658178125" y="67.8281375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PITCH" value="2.54mm" x="43.658178125" y="67.8281375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="68.968178125" y="71.7281375" size="1.016" layer="25" ratio="15" rot="R180"/>
+<attribute name="NAME" x="63.358178125" y="64.8281375" size="1.016" layer="26" ratio="15" rot="R180"/>
 </element>
-<element name="J1104" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="82.57" y="2.64" rot="R180">
+<element name="J1104" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="82.57" y="2.64" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="WM4901-ND" x="82.57" y="2.64" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530002" x="82.57" y="2.64" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LOCKING" value="YES" x="82.57" y="2.64" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33629,8 +33692,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MAX_CURRENT" value="3.0A" x="82.57" y="2.64" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUNT_ANGLE" value="RIGHT" x="82.57" y="2.64" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH" x="82.57" y="2.64" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="88.285" y="8.355" size="1.016" layer="25" ratio="15" rot="R270"/>
 </element>
-<element name="L401" library="comms" package="SRN6045" value="4.7uH" x="71.504071875" y="51.78895625" rot="MR180">
+<element name="L401" library="comms" package="SRN6045" value="4.7uH" x="71.504071875" y="51.78895625" smashed="yes" rot="MR180">
 <attribute name="CURRENT_DC" value="3A" x="71.504071875" y="51.78895625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR_PN" value="SRN6045-4R7YCT-ND" x="71.504071875" y="51.78895625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="SRN6045-4R7Y" x="71.504071875" y="51.78895625" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -33641,8 +33705,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="CURRENT_SAT" value="4A" x="71.504071875" y="51.78895625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TYPE" value="Wirewound" x="71.504071875" y="51.78895625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="DCR_MAX" value="37.6mOHM" x="71.504071875" y="51.78895625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="71.474071875" y="48.37895625" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="L602" library="comms" package="SRN6045" value="4.7uH" x="74.676896875" y="41.794434375" rot="R270">
+<element name="L602" library="comms" package="SRN6045" value="4.7uH" x="74.676896875" y="41.794434375" smashed="yes" rot="R270">
 <attribute name="CURRENT_DC" value="3A" x="74.676896875" y="41.794434375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR_PN" value="SRN6045-4R7YCT-ND" x="74.676896875" y="41.794434375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="SRN6045-4R7Y" x="74.676896875" y="41.794434375" size="1.778" layer="27" rot="R270" display="off"/>
@@ -33653,8 +33718,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="CURRENT_SAT" value="4A" x="74.676896875" y="41.794434375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TYPE" value="Wirewound" x="74.676896875" y="41.794434375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DCR_MAX" value="37.6mOHM" x="74.676896875" y="41.794434375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="78.086896875" y="41.824434375" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="L501" library="comms" package="SRU1048" value="10uH" x="38.63748125" y="21.533603125" rot="R90">
+<element name="L501" library="comms" package="SRU1048" value="10uH" x="38.63748125" y="21.533603125" smashed="yes" rot="R90">
 <attribute name="CURRENT_DC" value="4.5A" x="38.63748125" y="21.533603125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR_PN" value="SRU1048-100YCT-ND" x="38.63748125" y="21.533603125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="SRU1048-100Y" x="38.63748125" y="21.533603125" size="1.778" layer="27" rot="R90" display="off"/>
@@ -33665,8 +33731,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="CURRENT_SAT" value="3.7A" x="38.63748125" y="21.533603125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TYPE" value="Wirewound" x="38.63748125" y="21.533603125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DCR_MAX" value="18.5mOHM" x="38.63748125" y="21.533603125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="32.96548125" y="18.216603125" size="1.016" layer="25" ratio="15" rot="R90"/>
 </element>
-<element name="L701" library="comms" package="L0603" value="27nH" x="6.24343125" y="78.76045" rot="MR90">
+<element name="L701" library="comms" package="L0603" value="27nH" x="6.24343125" y="78.76045" smashed="yes" rot="MR90">
 <attribute name="CURRENT_DC" value="300mA" x="6.24343125" y="78.76045" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR_PN" value="490-6579-1-ND" x="6.24343125" y="78.76045" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="LQG18HN27NJ00D" x="6.24343125" y="78.76045" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -33677,8 +33744,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="CURRENT_SAT" value="-" x="6.24343125" y="78.76045" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TYPE" value="CHIP" x="6.24343125" y="78.76045" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DCR_MAX" value="0.550mOHM" x="6.24343125" y="78.76045" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="7.09343125" y="78.76045" size="1.016" layer="26" ratio="15" rot="MR90" align="center"/>
 </element>
-<element name="L601" library="comms" package="SRN6045" value="3.3uH" x="78.923840625" y="29.356853125" rot="R270">
+<element name="L601" library="comms" package="SRN6045" value="3.3uH" x="78.923840625" y="29.356853125" smashed="yes" rot="R270">
 <attribute name="CURRENT_DC" value="3.2A" x="78.923840625" y="29.356853125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR_PN" value="SRN6045-3R3YCT-ND" x="78.923840625" y="29.356853125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="SRN6045-3R3Y" x="78.923840625" y="29.356853125" size="1.778" layer="27" rot="R270" display="off"/>
@@ -33689,574 +33757,678 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="CURRENT_SAT" value="5A" x="78.923840625" y="29.356853125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TYPE" value="Wirewound" x="78.923840625" y="29.356853125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DCR_MAX" value="30.2mOHM" x="78.923840625" y="29.356853125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="82.333840625" y="29.386853125" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="LED701" library="comms" package="CHIP-LED0805" value="LTST-C170CKT" x="27.939815625" y="82.4180375" rot="MR90">
+<element name="LED701" library="comms" package="CHIP-LED0805" value="LTST-C170CKT" x="27.939815625" y="82.4180375" smashed="yes" rot="MR90">
 <attribute name="VENDOR_PN" value="160-1176-1-ND" x="27.939815625" y="82.4180375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="LTST-C170CKT" x="27.939815625" y="82.4180375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="FORWARD_VOLTAGE" value="1.8" x="27.939815625" y="82.4180375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Lite-On" x="27.939815625" y="82.4180375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="27.939815625" y="82.4180375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="FORWARD_CURRENT" value="10mA" x="27.939815625" y="82.4180375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="26.669815625" y="81.1480375" size="1.016" layer="26" ratio="15" rot="MR180"/>
 </element>
-<element name="LED1101" library="comms" package="CHIP-LED0805" value="LTST-C170CKT" x="43.2049125" y="58.15963125" rot="R90">
+<element name="LED1101" library="comms" package="CHIP-LED0805" value="LTST-C170CKT" x="43.2049125" y="58.15963125" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="160-1176-1-ND" x="43.2049125" y="58.15963125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="LTST-C170CKT" x="43.2049125" y="58.15963125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FORWARD_VOLTAGE" value="1.8" x="43.2049125" y="58.15963125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Lite-On" x="43.2049125" y="58.15963125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="43.2049125" y="58.15963125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FORWARD_CURRENT" value="10mA" x="43.2049125" y="58.15963125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="46.6749125" y="57.28963125" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="OUTLINE1101" library="comms" package="RASPI_ZERO_4STANDOFFS" value="RASPI-ZERO-4STANDOFFS-0CAM" x="76.1549375" y="94.3203375" rot="R180"/>
-<element name="Q501" library="comms" package="DNH0008A" value="CSD17579Q3A" x="33.38314375" y="33.747184375">
+<element name="OUTLINE1101" library="comms" package="RASPI_ZERO_4STANDOFFS" value="RASPI-ZERO-4STANDOFFS-0CAM" x="76.1549375" y="94.3203375" smashed="yes" rot="R180"/>
+<element name="Q501" library="comms" package="DNH0008A" value="CSD17579Q3A" x="33.38314375" y="33.747184375" smashed="yes">
 <attribute name="VENDOR_PN" value="296-39998-1-ND" x="33.38314375" y="33.747184375" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="CSD17579Q3A" x="33.38314375" y="33.747184375" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="33.38314375" y="33.747184375" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="33.38314375" y="33.747184375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="30.20814375" y="35.652184375" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="R402" library="comms" package="R0603" value="56.2k" x="50.301371875" y="53.130825" rot="MR90">
+<element name="R402" library="comms" package="R0603" value="56.2k" x="50.301371875" y="53.130825" smashed="yes" rot="MR90">
 <attribute name="VENDOR_PN" value="P56.2KHCT-ND" x="50.301371875" y="53.130825" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF5622V" x="50.301371875" y="53.130825" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="POWER" value="1/10W" x="50.301371875" y="53.130825" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="50.301371875" y="53.130825" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="50.301371875" y="53.130825" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="50.301371875" y="53.130825" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="51.151371875" y="53.130825" size="1.016" layer="26" ratio="15" rot="MR90" align="center"/>
 </element>
-<element name="R504" library="comms" package="R0603" value="100" x="26.458553125" y="33.6971">
+<element name="R504" library="comms" package="R0603" value="100" x="26.458553125" y="33.6971" smashed="yes">
 <attribute name="VENDOR_PN" value="P100HCT-ND" x="26.458553125" y="33.6971" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF1000V" x="26.458553125" y="33.6971" size="1.778" layer="27" display="off"/>
 <attribute name="POWER" value="1/10W" x="26.458553125" y="33.6971" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="26.458553125" y="33.6971" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="26.458553125" y="33.6971" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="26.458553125" y="33.6971" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="26.458553125" y="34.5471" size="1.016" layer="25" ratio="15" align="center"/>
 </element>
-<element name="R508" library="comms" package="R0603" value="84.5k" x="16.927459375" y="26.29065" rot="R180">
+<element name="R508" library="comms" package="R0603" value="84.5k" x="16.927459375" y="26.29065" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="P84.5KHCT-ND" x="16.927459375" y="26.29065" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF8452V" x="16.927459375" y="26.29065" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POWER" value="1/10W" x="16.927459375" y="26.29065" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="16.927459375" y="26.29065" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="16.927459375" y="26.29065" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="16.927459375" y="26.29065" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="16.927459375" y="25.44065" size="1.016" layer="25" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="R509" library="comms" package="R0603" value="10k" x="20.984840625" y="26.29065" rot="R180">
+<element name="R509" library="comms" package="R0603" value="10k" x="20.984840625" y="26.29065" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="P10.0KHCT-ND" x="20.984840625" y="26.29065" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF1002V" x="20.984840625" y="26.29065" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POWER" value="1/10W" x="20.984840625" y="26.29065" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="20.984840625" y="26.29065" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="20.984840625" y="26.29065" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="20.984840625" y="26.29065" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="20.984840625" y="25.44065" size="1.016" layer="25" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="R915" library="comms" package="R0603" value="0" x="75.326103125" y="25.1626375" rot="MR180">
+<element name="R915" library="comms" package="R0603" value="0" x="75.326103125" y="25.1626375" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="75.326103125" y="25.1626375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="75.326103125" y="25.1626375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/10W" x="75.326103125" y="25.1626375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="75.326103125" y="25.1626375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="75.326103125" y="25.1626375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="75.326103125" y="25.1626375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="75.326103125" y="24.3126375" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="R912" library="comms" package="R0603" value="0" x="81.2044375" y="24.89275" rot="MR0">
+<element name="R912" library="comms" package="R0603" value="0" x="81.2044375" y="24.89275" smashed="yes" rot="MR0">
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="81.2044375" y="24.89275" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="81.2044375" y="24.89275" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POWER" value="1/10W" x="81.2044375" y="24.89275" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="81.2044375" y="24.89275" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="81.2044375" y="24.89275" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="81.2044375" y="24.89275" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="81.2044375" y="25.74275" size="1.016" layer="26" ratio="15" rot="MR0" align="center"/>
 </element>
-<element name="R701" library="comms" package="R0603" value="10" x="5.430534375" y="82.94670625" rot="MR180">
+<element name="R701" library="comms" package="R0603" value="10" x="5.430534375" y="82.94670625" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="P10.0HCT-ND" x="5.430534375" y="82.94670625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF10R0V" x="5.430534375" y="82.94670625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/10W" x="5.430534375" y="82.94670625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="5.430534375" y="82.94670625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="5.430534375" y="82.94670625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="5.430534375" y="82.94670625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="5.430534375" y="82.09670625" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="R702" library="comms" package="R0603" value="390" x="23.37436875" y="82.40756875" rot="MR180">
+<element name="R702" library="comms" package="R0603" value="390" x="23.37436875" y="82.40756875" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="P390CCT-ND" x="23.37436875" y="82.40756875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6ENF3900V" x="23.37436875" y="82.40756875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/8W" x="23.37436875" y="82.40756875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="23.37436875" y="82.40756875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="23.37436875" y="82.40756875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="23.37436875" y="82.40756875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="23.37436875" y="81.55756875" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="R404" library="comms" package="R0603" value="10k" x="39.951065625" y="90.71701875" rot="MR0">
+<element name="R404" library="comms" package="R0603" value="10k" x="39.951065625" y="90.71701875" smashed="yes" rot="MR0">
 <attribute name="VENDOR_PN" value="P10.0KHCT-ND" x="39.951065625" y="90.71701875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF1002V" x="39.951065625" y="90.71701875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POWER" value="1/10W" x="39.951065625" y="90.71701875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="39.951065625" y="90.71701875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="39.951065625" y="90.71701875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="39.951065625" y="90.71701875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="39.951065625" y="91.56701875" size="1.016" layer="26" ratio="15" rot="MR0" align="center"/>
 </element>
-<element name="R401" library="comms" package="R0603" value="0" x="31.5728" y="87.103625" rot="MR90">
+<element name="R401" library="comms" package="R0603" value="0" x="31.5728" y="87.103625" smashed="yes" rot="MR90">
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="31.5728" y="87.103625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="31.5728" y="87.103625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="POWER" value="1/10W" x="31.5728" y="87.103625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="31.5728" y="87.103625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="31.5728" y="87.103625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="31.5728" y="87.103625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="32.4228" y="87.103625" size="1.016" layer="26" ratio="15" rot="MR90" align="center"/>
 </element>
-<element name="R403" library="comms" package="R0603" value="10k" x="52.692675" y="53.148009375" rot="MR270">
+<element name="R403" library="comms" package="R0603" value="10k" x="52.692675" y="53.148009375" smashed="yes" rot="MR270">
 <attribute name="VENDOR_PN" value="P10.0KHCT-ND" x="52.692675" y="53.148009375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF1002V" x="52.692675" y="53.148009375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POWER" value="1/10W" x="52.692675" y="53.148009375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="52.692675" y="53.148009375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="52.692675" y="53.148009375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="52.692675" y="53.148009375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="51.842675" y="53.148009375" size="1.016" layer="26" ratio="15" rot="MR270" align="center"/>
 </element>
-<element name="R405" library="comms" package="R0603" value="10k" x="29.894159375" y="88.047725" rot="MR270">
+<element name="R405" library="comms" package="R0603" value="10k" x="29.894159375" y="88.047725" smashed="yes" rot="MR270">
 <attribute name="VENDOR_PN" value="P10.0KHCT-ND" x="29.894159375" y="88.047725" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF1002V" x="29.894159375" y="88.047725" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POWER" value="1/10W" x="29.894159375" y="88.047725" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="29.894159375" y="88.047725" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="29.894159375" y="88.047725" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="29.894159375" y="88.047725" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="29.044159375" y="88.047725" size="1.016" layer="26" ratio="15" rot="MR270" align="center"/>
 </element>
-<element name="R804" library="comms" package="R0805" value="0.0" x="82.875290625" y="51.399309375" rot="R90">
+<element name="R804" library="comms" package="R0805" value="0.0" x="82.875290625" y="51.399309375" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="82.875290625" y="51.399309375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="82.875290625" y="51.399309375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POWER" value="1/8W" x="82.875290625" y="51.399309375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="82.875290625" y="51.399309375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="82.875290625" y="51.399309375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="82.875290625" y="51.399309375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="81.875290625" y="51.399309375" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R802" library="comms" package="R0805" value="0.0" x="83.660696875" y="63.8668375" rot="R270">
+<element name="R802" library="comms" package="R0805" value="0.0" x="83.660696875" y="63.8668375" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="83.660696875" y="63.8668375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="83.660696875" y="63.8668375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="1/8W" x="83.660696875" y="63.8668375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="83.660696875" y="63.8668375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="83.660696875" y="63.8668375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="83.660696875" y="63.8668375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="84.660696875" y="63.8668375" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="R801" library="comms" package="R0805" value="0.0" x="85.100040625" y="51.428565625" rot="R90">
+<element name="R801" library="comms" package="R0805" value="0.0" x="85.100040625" y="51.428565625" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="85.100040625" y="51.428565625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="85.100040625" y="51.428565625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POWER" value="1/8W" x="85.100040625" y="51.428565625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="85.100040625" y="51.428565625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="85.100040625" y="51.428565625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="85.100040625" y="51.428565625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="84.100040625" y="51.428565625" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R803" library="comms" package="R0805" value="0.0" x="85.001715625" y="26.057809375" rot="R90">
+<element name="R803" library="comms" package="R0805" value="0.0" x="85.001715625" y="26.057809375" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="85.001715625" y="26.057809375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="85.001715625" y="26.057809375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POWER" value="1/8W" x="85.001715625" y="26.057809375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="85.001715625" y="26.057809375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="85.001715625" y="26.057809375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="85.001715625" y="26.057809375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="84.001715625" y="26.057809375" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R913" library="comms" package="R0603" value="4.7k" x="63.364" y="91.631759375" rot="MR0">
+<element name="R913" library="comms" package="R0603" value="4.7k" x="63.364" y="91.631759375" smashed="yes" rot="MR0">
 <attribute name="VENDOR_PN" value="P4.70KHCT-ND" x="63.364" y="91.631759375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF4701V" x="63.364" y="91.631759375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POWER" value="1/10W" x="63.364" y="91.631759375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="63.364" y="91.631759375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="63.364" y="91.631759375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="63.364" y="91.631759375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="63.364" y="92.481759375" size="1.016" layer="26" ratio="15" rot="MR0" align="center"/>
 </element>
-<element name="R916" library="comms" package="R0603" value="4.7k" x="66.01798125" y="84.611484375" rot="MR270">
+<element name="R916" library="comms" package="R0603" value="4.7k" x="66.01798125" y="84.611484375" smashed="yes" rot="MR270">
 <attribute name="VENDOR_PN" value="P4.70KHCT-ND" x="66.01798125" y="84.611484375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF4701V" x="66.01798125" y="84.611484375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POWER" value="1/10W" x="66.01798125" y="84.611484375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="66.01798125" y="84.611484375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="66.01798125" y="84.611484375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="66.01798125" y="84.611484375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="65.16798125" y="84.611484375" size="1.016" layer="26" ratio="15" rot="MR270" align="center"/>
 </element>
-<element name="R805" library="comms" package="R0805" value="0.0" x="84.8628" y="34.86818125" rot="R270">
+<element name="R805" library="comms" package="R0805" value="0.0" x="84.8628" y="34.86818125" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="84.8628" y="34.86818125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="84.8628" y="34.86818125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="1/8W" x="84.8628" y="34.86818125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="84.8628" y="34.86818125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="84.8628" y="34.86818125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="84.8628" y="34.86818125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="85.8628" y="34.86818125" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="R902" library="comms" package="R0805" value="0.0" x="49.45345625" y="87.127978125" rot="MR180">
+<element name="R902" library="comms" package="R0805" value="0.0" x="49.45345625" y="87.127978125" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="49.45345625" y="87.127978125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="49.45345625" y="87.127978125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/8W" x="49.45345625" y="87.127978125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="49.45345625" y="87.127978125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="49.45345625" y="87.127978125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="49.45345625" y="87.127978125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="49.45345625" y="86.127978125" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="R905" library="comms" package="R0805" value="0.0" x="49.503396875" y="84.210909375" rot="MR180">
+<element name="R905" library="comms" package="R0805" value="0.0" x="49.503396875" y="84.210909375" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="49.503396875" y="84.210909375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="49.503396875" y="84.210909375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/8W" x="49.503396875" y="84.210909375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="49.503396875" y="84.210909375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="49.503396875" y="84.210909375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="49.503396875" y="84.210909375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="49.503396875" y="83.210909375" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="R603" library="comms" package="R0603" value="56.2k" x="60.27469375" y="48.3159" rot="R270">
+<element name="R603" library="comms" package="R0603" value="56.2k" x="60.27469375" y="48.3159" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="P56.2KHCT-ND" x="60.27469375" y="48.3159" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF5622V" x="60.27469375" y="48.3159" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="1/10W" x="60.27469375" y="48.3159" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="60.27469375" y="48.3159" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="60.27469375" y="48.3159" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="60.27469375" y="48.3159" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="61.12469375" y="48.3159" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="R906" library="comms" package="R0805" value="0.0" x="49.502071875" y="80.91795" rot="MR180">
+<element name="R906" library="comms" package="R0805" value="0.0" x="49.502071875" y="80.91795" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="49.502071875" y="80.91795" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="49.502071875" y="80.91795" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/8W" x="49.502071875" y="80.91795" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="49.502071875" y="80.91795" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="49.502071875" y="80.91795" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="49.502071875" y="80.91795" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="49.502071875" y="79.91795" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="R1101" library="comms" package="R0805" value="150" x="47.411378125" y="60.23525625" rot="R270">
+<element name="R1101" library="comms" package="R0805" value="150" x="47.411378125" y="60.23525625" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="P150CCT-ND" x="47.411378125" y="60.23525625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6ENF1500V" x="47.411378125" y="60.23525625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="1/8W" x="47.411378125" y="60.23525625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="47.411378125" y="60.23525625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="47.411378125" y="60.23525625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="47.411378125" y="60.23525625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="49.06474375" y="57.911378125" size="1.016" layer="25" ratio="15" align="center"/>
 </element>
-<element name="R904" library="comms" package="R0805" value="0.0" x="21.593065625" y="55.440459375">
+<element name="R904" library="comms" package="R0805" value="0.0" x="21.593065625" y="55.440459375" smashed="yes">
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="21.593065625" y="55.440459375" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="21.593065625" y="55.440459375" size="1.778" layer="27" display="off"/>
 <attribute name="POWER" value="1/8W" x="21.593065625" y="55.440459375" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="21.593065625" y="55.440459375" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="21.593065625" y="55.440459375" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="21.593065625" y="55.440459375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="21.693065625" y="56.940459375" size="1.016" layer="25" ratio="15" align="center"/>
 </element>
-<element name="R807" library="comms" package="R0805" value="0.0" x="81.02455625" y="35.92218125" rot="R270">
+<element name="R807" library="comms" package="R0805" value="0.0" x="81.02455625" y="35.92218125" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="81.02455625" y="35.92218125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="81.02455625" y="35.92218125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="1/8W" x="81.02455625" y="35.92218125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="81.02455625" y="35.92218125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="81.02455625" y="35.92218125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="81.02455625" y="35.92218125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="82.02455625" y="35.92218125" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="R806" library="comms" package="R0603" value="1k" x="79.49639375" y="41.985790625" rot="R270">
+<element name="R806" library="comms" package="R0603" value="1k" x="79.49639375" y="41.985790625" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="P1.00KHCT-ND" x="79.49639375" y="41.985790625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF1001V" x="79.49639375" y="41.985790625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="1/10W" x="79.49639375" y="41.985790625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="79.49639375" y="41.985790625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="79.49639375" y="41.985790625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="79.49639375" y="41.985790625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="80.34639375" y="41.985790625" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="R604" library="comms" package="R0603" value="10k" x="62.516884375" y="48.311059375" rot="R90">
+<element name="R604" library="comms" package="R0603" value="10k" x="62.516884375" y="48.311059375" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="P10.0KHCT-ND" x="62.516884375" y="48.311059375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF1002V" x="62.516884375" y="48.311059375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POWER" value="1/10W" x="62.516884375" y="48.311059375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="62.516884375" y="48.311059375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="62.516884375" y="48.311059375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="62.516884375" y="48.311059375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="61.666884375" y="48.311059375" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R601" library="comms" package="R0603" value="33.2k" x="63.7431875" y="35.085965625" rot="R270">
+<element name="R601" library="comms" package="R0603" value="33.2k" x="63.7431875" y="35.085965625" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="P33.2KHCT-ND" x="63.7431875" y="35.085965625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF3322V" x="63.7431875" y="35.085965625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="1/10W" x="63.7431875" y="35.085965625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="63.7431875" y="35.085965625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="63.7431875" y="35.085965625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="63.7431875" y="35.085965625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="64.5931875" y="35.085965625" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="R602" library="comms" package="R0603" value="10k" x="65.93465625" y="35.081334375" rot="R90">
+<element name="R602" library="comms" package="R0603" value="10k" x="65.93465625" y="35.081334375" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="P10.0KHCT-ND" x="65.93465625" y="35.081334375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF1002V" x="65.93465625" y="35.081334375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POWER" value="1/10W" x="65.93465625" y="35.081334375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="65.93465625" y="35.081334375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="65.93465625" y="35.081334375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="65.93465625" y="35.081334375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="65.08465625" y="35.081334375" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R1001" library="comms" package="R0603" value="75" x="31.023290625" y="46.7229125" rot="MR180">
+<element name="R1001" library="comms" package="R0603" value="75" x="31.023290625" y="46.7229125" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="P75.0HCT-ND" x="31.023290625" y="46.7229125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF75R0V" x="31.023290625" y="46.7229125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/10W" x="31.023290625" y="46.7229125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="31.023290625" y="46.7229125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="31.023290625" y="46.7229125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="31.023290625" y="46.7229125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="31.023290625" y="45.8729125" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="R1002" library="comms" package="R0603" value="75" x="25.335015625" y="45.8423625" rot="MR180">
+<element name="R1002" library="comms" package="R0603" value="75" x="25.335015625" y="45.8423625" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="P75.0HCT-ND" x="25.335015625" y="45.8423625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF75R0V" x="25.335015625" y="45.8423625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/10W" x="25.335015625" y="45.8423625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="25.335015625" y="45.8423625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="25.335015625" y="45.8423625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="25.335015625" y="45.8423625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="25.335015625" y="44.9923625" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="R1003" library="comms" package="R0603" value="75" x="16.2187125" y="45.23385" rot="MR180">
+<element name="R1003" library="comms" package="R0603" value="75" x="16.2187125" y="45.23385" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="P75.0HCT-ND" x="16.2187125" y="45.23385" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF75R0V" x="16.2187125" y="45.23385" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/10W" x="16.2187125" y="45.23385" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="16.2187125" y="45.23385" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="16.2187125" y="45.23385" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="16.2187125" y="45.23385" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="16.2187125" y="44.38385" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="R1004" library="comms" package="R0603" value="75" x="16.318259375" y="48.119778125" rot="MR180">
+<element name="R1004" library="comms" package="R0603" value="75" x="16.318259375" y="48.119778125" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="P75.0HCT-ND" x="16.318259375" y="48.119778125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF75R0V" x="16.318259375" y="48.119778125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/10W" x="16.318259375" y="48.119778125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="16.318259375" y="48.119778125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="16.318259375" y="48.119778125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="16.318259375" y="48.119778125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="16.318259375" y="47.269778125" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="R1005" library="comms" package="R0603" value="0" x="19.481540625" y="55.842228125" rot="MR180">
+<element name="R1005" library="comms" package="R0603" value="0" x="19.481540625" y="55.842228125" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="19.481540625" y="55.842228125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="19.481540625" y="55.842228125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/10W" x="19.481540625" y="55.842228125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="19.481540625" y="55.842228125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="19.481540625" y="55.842228125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="19.481540625" y="55.842228125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="19.481540625" y="54.992228125" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="R1006" library="comms" package="R0603" value="0" x="15.81959375" y="52.95696875" rot="MR180">
+<element name="R1006" library="comms" package="R0603" value="0" x="15.81959375" y="52.95696875" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="15.81959375" y="52.95696875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="15.81959375" y="52.95696875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/10W" x="15.81959375" y="52.95696875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="15.81959375" y="52.95696875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="15.81959375" y="52.95696875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="15.81959375" y="52.95696875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="15.81959375" y="52.10696875" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="R908" library="comms" package="R0805" value="0.0" x="21.5895125" y="52.9486" rot="R180">
+<element name="R908" library="comms" package="R0805" value="0.0" x="21.5895125" y="52.9486" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="21.5895125" y="52.9486" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="21.5895125" y="52.9486" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POWER" value="1/8W" x="21.5895125" y="52.9486" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="21.5895125" y="52.9486" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="21.5895125" y="52.9486" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="21.5895125" y="52.9486" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="21.6895125" y="51.5486" size="1.016" layer="25" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="R914" library="comms" package="R0805" value="0.0" x="21.620021875" y="49.895925" rot="R180">
+<element name="R914" library="comms" package="R0805" value="0.0" x="21.620021875" y="49.895925" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="21.620021875" y="49.895925" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="21.620021875" y="49.895925" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POWER" value="1/8W" x="21.620021875" y="49.895925" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="21.620021875" y="49.895925" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="21.620021875" y="49.895925" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="21.620021875" y="49.895925" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="21.820021875" y="48.395925" size="1.016" layer="25" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="R502" library="comms" package="R0603" value="1.15k" x="18.444159375" y="29.928459375" rot="R270">
+<element name="R502" library="comms" package="R0603" value="1.15k" x="18.444159375" y="29.928459375" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="P1.15KHCT-ND" x="18.444159375" y="29.928459375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF1151V" x="18.444159375" y="29.928459375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="1/10W" x="18.444159375" y="29.928459375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="18.444159375" y="29.928459375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="18.444159375" y="29.928459375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="18.444159375" y="29.928459375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="19.294159375" y="29.928459375" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="R907" library="comms" package="R0805" value="0.0" x="63.225346875" y="88.544740625" rot="MR180">
+<element name="R907" library="comms" package="R0805" value="0.0" x="63.225346875" y="88.544740625" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="63.225346875" y="88.544740625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="63.225346875" y="88.544740625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/8W" x="63.225346875" y="88.544740625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="63.225346875" y="88.544740625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="63.225346875" y="88.544740625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="63.225346875" y="88.544740625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="63.225346875" y="87.544740625" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="R911" library="comms" package="R0805" value="0.0" x="62.7032" y="85.461309375" rot="MR180">
+<element name="R911" library="comms" package="R0805" value="0.0" x="62.7032" y="85.461309375" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="62.7032" y="85.461309375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="62.7032" y="85.461309375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/8W" x="62.7032" y="85.461309375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="62.7032" y="85.461309375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="62.7032" y="85.461309375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="62.7032" y="85.461309375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="62.7032" y="84.461309375" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="R909" library="comms" package="R0603" value="0" x="83.530259375" y="21.94319375" rot="MR90">
+<element name="R909" library="comms" package="R0603" value="0" x="83.530259375" y="21.94319375" smashed="yes" rot="MR90">
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="83.530259375" y="21.94319375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="83.530259375" y="21.94319375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="POWER" value="1/10W" x="83.530259375" y="21.94319375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="83.530259375" y="21.94319375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="83.530259375" y="21.94319375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="83.530259375" y="21.94319375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="84.380259375" y="21.94319375" size="1.016" layer="26" ratio="15" rot="MR90" align="center"/>
 </element>
-<element name="R910" library="comms" package="R0603" value="0" x="80.902121875" y="22.210996875" rot="MR0">
+<element name="R910" library="comms" package="R0603" value="0" x="80.902121875" y="22.210996875" smashed="yes" rot="MR0">
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="80.902121875" y="22.210996875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="80.902121875" y="22.210996875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POWER" value="1/10W" x="80.902121875" y="22.210996875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="80.902121875" y="22.210996875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="80.902121875" y="22.210996875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="80.902121875" y="22.210996875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="80.902121875" y="23.060996875" size="1.016" layer="26" ratio="15" rot="MR0" align="center"/>
 </element>
-<element name="R1007" library="comms" package="R0603" value="75" x="14.137925" y="60.836746875" rot="MR180">
+<element name="R1007" library="comms" package="R0603" value="75" x="14.137925" y="60.836746875" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="P75.0HCT-ND" x="14.137925" y="60.836746875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF75R0V" x="14.137925" y="60.836746875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/10W" x="14.137925" y="60.836746875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="14.137925" y="60.836746875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="14.137925" y="60.836746875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="14.137925" y="60.836746875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="14.137925" y="59.986746875" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="R903" library="comms" package="R0805" value="0.0" x="34.11630625" y="56.72316875">
+<element name="R903" library="comms" package="R0805" value="0.0" x="34.11630625" y="56.72316875" smashed="yes">
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="34.11630625" y="56.72316875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="34.11630625" y="56.72316875" size="1.778" layer="27" display="off"/>
 <attribute name="POWER" value="1/8W" x="34.11630625" y="56.72316875" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="34.11630625" y="56.72316875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="34.11630625" y="56.72316875" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="34.11630625" y="56.72316875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="34.21630625" y="58.12316875" size="1.016" layer="25" ratio="15" align="center"/>
 </element>
-<element name="R901" library="comms" package="R0805" value="0.0" x="51.4899875" y="89.68000625" rot="MR180">
+<element name="R901" library="comms" package="R0805" value="0.0" x="51.4899875" y="89.68000625" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="51.4899875" y="89.68000625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="51.4899875" y="89.68000625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/8W" x="51.4899875" y="89.68000625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="51.4899875" y="89.68000625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="51.4899875" y="89.68000625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="51.4899875" y="89.68000625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="51.4899875" y="88.68000625" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="R507" library="comms" package="R1206" value="0.016" x="29.126034375" y="36.053175" rot="R270">
+<element name="R507" library="comms" package="R1206" value="0.016" x="29.126034375" y="36.053175" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="P0.016BVCT-ND" x="29.126034375" y="36.053175" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-8CWFR016V" x="29.126034375" y="36.053175" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="1W" x="29.126034375" y="36.053175" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="29.126034375" y="36.053175" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="29.126034375" y="36.053175" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="29.126034375" y="36.053175" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="30.833034375" y="37.738175" size="1.016" layer="25" ratio="15" rot="R270"/>
 </element>
-<element name="R506" library="comms" package="R0603" value="30.1k" x="29.51574375" y="27.58618125" rot="R90">
+<element name="R506" library="comms" package="R0603" value="30.1k" x="29.51574375" y="27.58618125" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="P30.1KHCT-ND" x="29.51574375" y="27.58618125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF3012V" x="29.51574375" y="27.58618125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POWER" value="1/10W" x="29.51574375" y="27.58618125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="29.51574375" y="27.58618125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="29.51574375" y="27.58618125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="29.51574375" y="27.58618125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="28.66574375" y="27.58618125" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="TP904" library="comms" package="TP15R" value="TPTP15R" x="62.26" y="81.62" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="62.26" y="81.62" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP904" library="comms" package="TP15R" value="TPTP15R" x="62.26" y="81.62" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="62.26" y="79.08" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="63.0101" y="82.4201" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP1116" library="comms" package="TP15R" value="TPTP15R" x="57.6" y="61.6712">
-<attribute name="TP_SIGNAL_NAME" value="" x="57.6" y="61.6712" size="1.778" layer="27" display="off"/>
+<element name="TP1116" library="comms" package="TP15R" value="TPTP15R" x="57.6" y="61.6712" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="57.6" y="59.1312" size="1" layer="37"/>
+<attribute name="NAME" x="54.9499" y="62.7713" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="TP1117" library="comms" package="TP15R" value="TPTP15R" x="55.05" y="61.6712">
-<attribute name="TP_SIGNAL_NAME" value="" x="55.05" y="61.6712" size="1.778" layer="27" display="off"/>
+<element name="TP1117" library="comms" package="TP15R" value="TPTP15R" x="55.05" y="61.6712" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="55.05" y="59.1312" size="1" layer="37"/>
+<attribute name="NAME" x="52.3999" y="59.5713" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="TP1118" library="comms" package="TP15R" value="TPTP15R" x="49.92" y="61.6712">
-<attribute name="TP_SIGNAL_NAME" value="" x="49.92" y="61.6712" size="1.778" layer="27" display="off"/>
+<element name="TP1118" library="comms" package="TP15R" value="TPTP15R" x="49.92" y="61.6712" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="49.92" y="59.1312" size="1" layer="37"/>
+<attribute name="NAME" x="47.4699" y="62.7713" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="TP406" library="comms" package="TP15R" value="TPTP15R" x="12.78" y="72.5">
-<attribute name="TP_SIGNAL_NAME" value="" x="12.78" y="72.5" size="1.778" layer="27" display="off"/>
+<element name="TP406" library="comms" package="TP15R" value="TPTP15R" x="12.78" y="72.5" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="12.78" y="69.96" size="1" layer="37"/>
+<attribute name="NAME" x="11.4299" y="73.5001" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="TP1119" library="comms" package="TP15R" value="TPTP15R" x="42.37" y="61.6712">
-<attribute name="TP_SIGNAL_NAME" value="" x="42.37" y="61.6712" size="1.778" layer="27" display="off"/>
+<element name="TP1119" library="comms" package="TP15R" value="TPTP15R" x="42.37" y="61.6712" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="42.37" y="59.1312" size="1" layer="37"/>
+<attribute name="NAME" x="39.5199" y="62.7713" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="TP1121" library="comms" package="TP15R" value="TPTP15R" x="29.68" y="62.0912" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="29.68" y="62.0912" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP1121" library="comms" package="TP15R" value="TPTP15R" x="29.68" y="62.0912" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="29.68" y="59.5512" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="30.4301" y="62.8913" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP1115" library="comms" package="TP15R" value="TPTP15R" x="24.64" y="72.5932" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="24.64" y="72.5932" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP1115" library="comms" package="TP15R" value="TPTP15R" x="24.64" y="72.5932" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="24.64" y="70.0532" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="25.3901" y="73.3933" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP903" library="comms" package="TP15R" value="TPTP15R" x="17.72" y="54.2" rot="R180">
-<attribute name="TP_SIGNAL_NAME" value="" x="17.72" y="54.2" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="TP903" library="comms" package="TP15R" value="TPTP15R" x="17.72" y="54.2" smashed="yes" rot="R180">
+<attribute name="TP_SIGNAL_NAME" value="" x="17.72" y="56.74" size="1" layer="37" rot="R180"/>
+<attribute name="NAME" x="18.8701" y="56.0999" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="TP1114" library="comms" package="TP15R" value="TPTP15R" x="27.09" y="72.5932" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="27.09" y="72.5932" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP1114" library="comms" package="TP15R" value="TPTP15R" x="27.09" y="72.5932" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="27.09" y="70.0532" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="27.8401" y="73.3933" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP401" library="comms" package="TP15R" value="TPTP15R" x="63.87" y="50.21" rot="MR180">
-<attribute name="TP_SIGNAL_NAME" value="" x="63.87" y="50.21" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="TP401" library="comms" package="TP15R" value="TPTP15R" x="63.87" y="50.21" smashed="yes" rot="MR180">
+<attribute name="TP_SIGNAL_NAME" value="" x="63.87" y="52.75" size="1" layer="38" rot="MR180"/>
+<attribute name="NAME" x="63.1199" y="49.4099" size="1.016" layer="26" ratio="15" rot="MR180"/>
 </element>
-<element name="TP1112" library="comms" package="TP15R" value="TPTP15R" x="47.49" y="72.5932" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="47.49" y="72.5932" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP1112" library="comms" package="TP15R" value="TPTP15R" x="47.49" y="72.5932" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="47.49" y="70.0532" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="48.2401" y="73.3933" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP1111" library="comms" package="TP15R" value="TPTP15R" x="49.99" y="72.5932" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="49.99" y="72.5932" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP1111" library="comms" package="TP15R" value="TPTP15R" x="49.99" y="72.5932" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="49.99" y="70.0532" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="50.7401" y="73.3933" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP1110" library="comms" package="TP15R" value="TPTP15R" x="60.14" y="72.5932" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="60.14" y="72.5932" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP1110" library="comms" package="TP15R" value="TPTP15R" x="60.14" y="72.5932" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="60.14" y="70.0532" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="60.8901" y="73.3933" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP405" library="comms" package="TP15R" value="TPTP15R" x="72.47" y="61.04" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="72.47" y="61.04" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP405" library="comms" package="TP15R" value="TPTP15R" x="72.47" y="61.04" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="72.47" y="58.5" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="73.2201" y="61.8401" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP1108" library="comms" package="TP15R" value="TPTP15R" x="65.25" y="72.5932" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="65.25" y="72.5932" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP1108" library="comms" package="TP15R" value="TPTP15R" x="65.25" y="72.5932" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="65.25" y="70.0532" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="66.0001" y="73.3933" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP1109" library="comms" package="TP15R" value="TPTP15R" x="62.73" y="72.5932" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="62.73" y="72.5932" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP1109" library="comms" package="TP15R" value="TPTP15R" x="62.73" y="72.5932" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="62.73" y="70.0532" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="63.4801" y="73.3933" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP1107" library="comms" package="TP15R" value="TPTP15R" x="67.76" y="72.5932" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="67.76" y="72.5932" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP1107" library="comms" package="TP15R" value="TPTP15R" x="67.76" y="72.5932" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="67.76" y="70.0532" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="68.5101" y="73.3933" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP702" library="comms" package="TP15R" value="TPTP15R" x="15.65" y="73.84" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="15.65" y="73.84" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP702" library="comms" package="TP15R" value="TPTP15R" x="15.65" y="73.84" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="15.65" y="71.3" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="16.4001" y="74.6401" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP403" library="comms" package="TP15R" value="TPTP15R" x="47.02" y="52.69" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="47.02" y="52.69" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP403" library="comms" package="TP15R" value="TPTP15R" x="47.02" y="52.69" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="47.02" y="50.15" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="47.7701" y="53.4901" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP402" library="comms" package="TP15R" value="TPTP15R" x="59.83" y="58.76" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="59.83" y="58.76" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP402" library="comms" package="TP15R" value="TPTP15R" x="59.83" y="58.76" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="59.83" y="56.22" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="60.5801" y="59.5601" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP501" library="comms" package="TP15R" value="TPTP15R" x="42.58" y="14.2">
-<attribute name="TP_SIGNAL_NAME" value="" x="42.58" y="14.2" size="1.778" layer="27" display="off"/>
+<element name="TP501" library="comms" package="TP15R" value="TPTP15R" x="42.58" y="14.2" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="42.58" y="11.66" size="1" layer="37"/>
+<attribute name="NAME" x="41.8299" y="15.0001" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="TP504" library="comms" package="TP15R" value="TPTP15R" x="35.39" y="15.65" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="35.39" y="15.65" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP504" library="comms" package="TP15R" value="TPTP15R" x="35.39" y="15.65" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="35.39" y="13.11" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="36.1401" y="16.4501" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP602" library="comms" package="TP15R" value="TPTP15R" x="19.49" y="13.45">
-<attribute name="TP_SIGNAL_NAME" value="" x="19.49" y="13.45" size="1.778" layer="27" display="off"/>
+<element name="TP602" library="comms" package="TP15R" value="TPTP15R" x="19.49" y="13.45" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="19.49" y="10.91" size="1" layer="37"/>
+<attribute name="NAME" x="18.7399" y="14.2501" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="TP603" library="comms" package="TP15R" value="TPTP15R" x="20.09" y="20.86">
-<attribute name="TP_SIGNAL_NAME" value="" x="20.09" y="20.86" size="1.778" layer="27" display="off"/>
+<element name="TP603" library="comms" package="TP15R" value="TPTP15R" x="20.09" y="20.86" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="20.09" y="18.32" size="1" layer="37"/>
+<attribute name="NAME" x="19.3399" y="21.6601" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="TP404" library="comms" package="TP15R" value="TPTP15R" x="37.03" y="91.73" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="37.03" y="91.73" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP404" library="comms" package="TP15R" value="TPTP15R" x="37.03" y="91.73" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="37.03" y="89.19" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="37.7801" y="92.5301" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP804" library="comms" package="TP15R" value="TPTP15R" x="85.33" y="42.64">
-<attribute name="TP_SIGNAL_NAME" value="" x="85.33" y="42.64" size="1.778" layer="27" display="off"/>
+<element name="TP804" library="comms" package="TP15R" value="TPTP15R" x="85.33" y="42.64" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="85.33" y="40.1" size="1" layer="37"/>
+<attribute name="NAME" x="84.5799" y="43.4401" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="TP601" library="comms" package="TP15R" value="TPTP15R" x="78.31" y="24.5" rot="R90">
-<attribute name="TP_SIGNAL_NAME" value="" x="78.31" y="24.5" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="TP601" library="comms" package="TP15R" value="TPTP15R" x="78.31" y="24.5" smashed="yes" rot="R90">
+<attribute name="TP_SIGNAL_NAME" value="" x="80.85" y="24.5" size="1" layer="37" rot="R90"/>
+<attribute name="NAME" x="77.5099" y="23.7499" size="1.016" layer="25" ratio="15" rot="R90"/>
 </element>
-<element name="TP803" library="comms" package="TP15R" value="TPTP15R" x="24.61" y="61.6712">
-<attribute name="TP_SIGNAL_NAME" value="" x="24.61" y="61.6712" size="1.778" layer="27" display="off"/>
+<element name="TP803" library="comms" package="TP15R" value="TPTP15R" x="24.61" y="61.6712" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="24.61" y="59.1312" size="1" layer="37"/>
+<attribute name="NAME" x="18.9599" y="61.2713" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="TP801" library="comms" package="TP15R" value="TPTP15R" x="94.49" y="42.68">
-<attribute name="TP_SIGNAL_NAME" value="" x="94.49" y="42.68" size="1.778" layer="27" display="off"/>
+<element name="TP801" library="comms" package="TP15R" value="TPTP15R" x="94.49" y="42.68" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="94.49" y="40.14" size="1" layer="37"/>
+<attribute name="NAME" x="93.7399" y="43.4801" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="TP901" library="comms" package="TP15R" value="TPTP15R" x="48.25" y="90.33" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="48.25" y="90.33" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP901" library="comms" package="TP15R" value="TPTP15R" x="48.25" y="90.33" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="48.25" y="87.79" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="49.0001" y="91.1301" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP902" library="comms" package="TP15R" value="TPTP15R" x="29.06" y="58.28">
-<attribute name="TP_SIGNAL_NAME" value="" x="29.06" y="58.28" size="1.778" layer="27" display="off"/>
+<element name="TP902" library="comms" package="TP15R" value="TPTP15R" x="29.06" y="58.28" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="29.06" y="55.74" size="1" layer="37"/>
+<attribute name="NAME" x="26.9099" y="59.3801" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="TP905" library="comms" package="TP15R" value="TPTP15R" x="78.45" y="24.92" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="78.45" y="24.92" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP905" library="comms" package="TP15R" value="TPTP15R" x="78.45" y="24.92" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="78.45" y="22.38" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="79.2001" y="25.7201" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP906" library="comms" package="TP15R" value="TPTP15R" x="34.76" y="72.5932" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="34.76" y="72.5932" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP906" library="comms" package="TP15R" value="TPTP15R" x="34.76" y="72.5932" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="34.76" y="70.0532" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="35.5101" y="73.3933" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP907" library="comms" package="TP15R" value="TPTP15R" x="34.74" y="61.6712">
-<attribute name="TP_SIGNAL_NAME" value="" x="34.74" y="61.6712" size="1.778" layer="27" display="off"/>
+<element name="TP907" library="comms" package="TP15R" value="TPTP15R" x="34.74" y="61.6712" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="34.74" y="59.1312" size="1" layer="37"/>
+<attribute name="NAME" x="32.4899" y="62.7713" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="TP908" library="comms" package="TP15R" value="TPTP15R" x="85.12" y="13.3604" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="85.12" y="13.3604" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP908" library="comms" package="TP15R" value="TPTP15R" x="85.12" y="13.3604" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="85.12" y="10.8204" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="85.8701" y="14.1605" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP910" library="comms" package="TP15R" value="TPTP15R" x="82.56" y="13.3604" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="82.56" y="13.3604" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP910" library="comms" package="TP15R" value="TPTP15R" x="82.56" y="13.3604" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="82.56" y="10.8204" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="83.3101" y="14.1605" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP909" library="comms" package="TP15R" value="TPTP15R" x="80.04" y="13.3604" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="80.04" y="13.3604" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP909" library="comms" package="TP15R" value="TPTP15R" x="80.04" y="13.3604" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="80.04" y="10.8204" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="80.7901" y="14.1605" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP1001" library="comms" package="TP15R" value="TPTP15R" x="60.14" y="61.6712">
-<attribute name="TP_SIGNAL_NAME" value="" x="60.14" y="61.6712" size="1.778" layer="27" display="off"/>
+<element name="TP1001" library="comms" package="TP15R" value="TPTP15R" x="60.14" y="61.6712" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="60.14" y="59.1312" size="1" layer="37"/>
+<attribute name="NAME" x="58.8899" y="59.5713" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="TP1004" library="comms" package="TP15R" value="TPTP15R" x="86.08" y="79.02" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="86.08" y="79.02" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP1004" library="comms" package="TP15R" value="TPTP15R" x="86.08" y="79.02" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="86.08" y="76.48" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="86.8301" y="79.8201" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP802" library="comms" package="TP15R" value="TPTP15R" x="86.36" y="23.43" rot="R180">
-<attribute name="TP_SIGNAL_NAME" value="" x="86.36" y="23.43" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="TP802" library="comms" package="TP15R" value="TPTP15R" x="86.36" y="23.43" smashed="yes" rot="R180">
+<attribute name="TP_SIGNAL_NAME" value="" x="86.36" y="25.97" size="1" layer="37" rot="R180"/>
+<attribute name="NAME" x="87.1101" y="22.6299" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="TP1101" library="comms" package="TP15R" value="TPTP15R" x="39.87" y="61.6712">
-<attribute name="TP_SIGNAL_NAME" value="" x="39.87" y="61.6712" size="1.778" layer="27" display="off"/>
+<element name="TP1101" library="comms" package="TP15R" value="TPTP15R" x="39.87" y="61.6712" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="39.87" y="59.1312" size="1" layer="37"/>
+<attribute name="NAME" x="37.2199" y="59.4713" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="TP1103" library="comms" package="TP15R" value="TPTP15R" x="39.84" y="72.5932" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="39.84" y="72.5932" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP1103" library="comms" package="TP15R" value="TPTP15R" x="39.84" y="72.5932" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="39.84" y="70.0532" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="40.5901" y="73.3933" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP1102" library="comms" package="TP15R" value="TPTP15R" x="42.37" y="72.5932" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="42.37" y="72.5932" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP1102" library="comms" package="TP15R" value="TPTP15R" x="42.37" y="72.5932" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="42.37" y="70.0532" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="43.1201" y="73.3933" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP1104" library="comms" package="TP15R" value="TPTP15R" x="44.95" y="72.5932" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="44.95" y="72.5932" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP1104" library="comms" package="TP15R" value="TPTP15R" x="44.95" y="72.5932" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="44.95" y="70.0532" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="45.7001" y="73.3933" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP1002" library="comms" package="TP15R" value="TPTP15R" x="22.03" y="62.47" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="22.03" y="62.47" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP1002" library="comms" package="TP15R" value="TPTP15R" x="22.03" y="62.47" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="22.03" y="59.93" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="22.7801" y="63.2701" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP1003" library="comms" package="TP15R" value="TPTP15R" x="19.52" y="62.3" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="19.52" y="62.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP1003" library="comms" package="TP15R" value="TPTP15R" x="19.52" y="62.3" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="19.52" y="59.76" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="20.2701" y="63.1001" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP703" library="comms" package="TP15R" value="TPTP15R" x="33.01" y="79.91" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="33.01" y="79.91" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP703" library="comms" package="TP15R" value="TPTP15R" x="33.01" y="79.91" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="33.01" y="77.37" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="33.7601" y="80.7101" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP704" library="comms" package="TP15R" value="TPTP15R" x="32.97" y="84.48" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="32.97" y="84.48" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP704" library="comms" package="TP15R" value="TPTP15R" x="32.97" y="84.48" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="32.97" y="81.94" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="33.7201" y="85.2801" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP705" library="comms" package="TP15R" value="TPTP15R" x="26.02" y="84.6762" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="26.02" y="84.6762" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP705" library="comms" package="TP15R" value="TPTP15R" x="26.02" y="84.6762" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="26.02" y="82.1362" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="26.7701" y="85.4763" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="TP701" library="comms" package="TP15R" value="TPTP15R" x="7" y="81.24" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="7" y="81.24" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP701" library="comms" package="TP15R" value="TPTP15R" x="7" y="81.24" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="7" y="78.7" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="7.7501" y="82.0401" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="U402" library="comms" package="DDC0006A" value="TPS562209DDCT" x="57.830078125" y="53.004353125" rot="MR0">
+<element name="U402" library="comms" package="DDC0006A" value="TPS562209DDCT" x="57.830078125" y="53.004353125" smashed="yes" rot="MR0">
 <attribute name="VENDOR_PN" value="296-37302-1-ND" x="57.830078125" y="53.004353125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="TPS562209DDCT" x="57.830078125" y="53.004353125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="57.830078125" y="53.004353125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="57.830078125" y="53.004353125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="61.335278125" y="54.909353125" size="1.016" layer="26" ratio="15" rot="SMR0"/>
 </element>
-<element name="U903" library="comms" package="SOP65P490X110-8N" value="MCP4541-103E/MS" x="79.43903125" y="18.19058125" rot="MR270">
+<element name="U903" library="comms" package="SOP65P490X110-8N" value="MCP4541-103E/MS" x="79.43903125" y="18.19058125" smashed="yes" rot="MR270">
 <attribute name="VENDOR_PN" value="MCP4541T-103E/MFCT-ND" x="79.43903125" y="18.19058125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="MCP4541-103E/MS" x="79.43903125" y="18.19058125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="OC_NEWARK" value="77M2864" x="79.43903125" y="18.19058125" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -34265,64 +34437,74 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digi-Key" x="79.43903125" y="18.19058125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="OC_FARNELL" value="1698945" x="79.43903125" y="18.19058125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PACKAGE" value="SOP-8" x="79.43903125" y="18.19058125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="77.38163125" y="22.68638125" size="1.016" layer="26" ratio="15" rot="SMR270"/>
 </element>
-<element name="U601" library="comms" package="DDC0006A" value="TPS562209DDCT" x="69.789628125" y="35.08673125" rot="R180">
+<element name="U601" library="comms" package="DDC0006A" value="TPS562209DDCT" x="69.789628125" y="35.08673125" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="296-37302-1-ND" x="69.789628125" y="35.08673125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="TPS562209DDCT" x="69.789628125" y="35.08673125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="69.789628125" y="35.08673125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="69.789628125" y="35.08673125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="73.294828125" y="33.18173125" size="1.016" layer="25" ratio="15" rot="SR180"/>
 </element>
-<element name="U801" library="comms" package="SOT103P240X110-3N" value="MMBT3904-HF" x="83.18599375" y="40.157821875">
+<element name="U801" library="comms" package="SOT103P240X110-3N" value="MMBT3904-HF" x="83.18599375" y="40.157821875" smashed="yes">
 <attribute name="VENDOR_PN" value="641-1683-1-ND" x="83.18599375" y="40.157821875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="MMBT3904-HF" x="83.18599375" y="40.157821875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Comchip" x="83.18599375" y="40.157821875" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digikey" x="83.18599375" y="40.157821875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="79.73159375" y="42.697821875" size="1.016" layer="25" ratio="15" rot="SR0"/>
 </element>
-<element name="U1001" library="comms" package="SO016" value="MAX3232CSE+" x="80.72305625" y="80.951190625" rot="MR90">
+<element name="U1001" library="comms" package="SO016" value="MAX3232CSE+" x="80.72305625" y="80.951190625" smashed="yes" rot="MR90">
 <attribute name="VENDOR_PN" value="MAX3232CSE+-ND" x="80.72305625" y="80.951190625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="MAX3232CSE+" x="80.72305625" y="80.951190625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Maxim" x="80.72305625" y="80.951190625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VENDOR" value="Digikey" x="80.72305625" y="80.951190625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="79.45305625" y="74.601190625" size="1.016" layer="26" ratio="15" rot="MR180"/>
 </element>
-<element name="U1002" library="comms" package="QSOP16" value="MAX4311" x="22.99" y="50.63" rot="MR270">
+<element name="U1002" library="comms" package="QSOP16" value="MAX4311" x="22.99" y="50.63" smashed="yes" rot="MR270">
 <attribute name="VENDOR_PN" value="MAX4311EEE+-ND" x="22.99" y="50.63" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="MAX4311EEE+" x="22.99" y="50.63" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="Maxim" x="22.99" y="50.63" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VENDOR" value="Digikey" x="22.99" y="50.63" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="25.86" y="46.246" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="U401" library="comms" package="DBV5" value="LP2985-33DBVR" x="54.821071875" y="47.697296875" rot="MR0">
+<element name="U401" library="comms" package="DBV5" value="LP2985-33DBVR" x="54.821071875" y="47.697296875" smashed="yes" rot="MR0">
 <attribute name="VENDOR_PN" value="296-18476-1-ND" x="54.821071875" y="47.697296875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="LP2985-33DBVR" x="54.821071875" y="47.697296875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="54.821071875" y="47.697296875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="54.821071875" y="47.697296875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="58.326271875" y="49.602296875" size="1.016" layer="26" ratio="15" rot="SMR0"/>
 </element>
-<element name="U603" library="comms" package="6WDFN" value="LP5900SD-3.3/NOPB" x="17.6611" y="18.737021875" rot="R180">
+<element name="U603" library="comms" package="6WDFN" value="LP5900SD-3.3/NOPB" x="17.6611" y="18.737021875" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="LP5900SD-3.3/NOPBCT-ND" x="17.6611" y="18.737021875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="LP5900SD-3.3/NOPB" x="17.6611" y="18.737021875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="TI" x="17.6611" y="18.737021875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="17.6611" y="18.737021875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="18.8295" y="16.895521875" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="U602" library="comms" package="DDC0006A" value="TPS562209DDCT" x="66.4227875" y="47.962359375" rot="R180">
+<element name="U602" library="comms" package="DDC0006A" value="TPS562209DDCT" x="66.4227875" y="47.962359375" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="296-37302-1-ND" x="66.4227875" y="47.962359375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="TPS562209DDCT" x="66.4227875" y="47.962359375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="66.4227875" y="47.962359375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="66.4227875" y="47.962359375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="69.9279875" y="46.057359375" size="1.016" layer="25" ratio="15" rot="SR180"/>
 </element>
-<element name="U502" library="comms" package="MUA08A" value="LM3488MMX/NOPB" x="24.222053125" y="28.5316375">
+<element name="U502" library="comms" package="MUA08A" value="LM3488MMX/NOPB" x="24.222053125" y="28.5316375" smashed="yes">
 <attribute name="VENDOR_PN" value="296-35417-1-ND" x="24.222053125" y="28.5316375" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="LM3488MMX/NOPB" x="24.222053125" y="28.5316375" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="24.222053125" y="28.5316375" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="24.222053125" y="28.5316375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="20.716853125" y="30.4366375" size="1.016" layer="25" ratio="15" rot="SR0"/>
 </element>
-<element name="U901" library="comms" package="SOIC127P130X0600-8N" value="PCT2075D,118" x="56.638325" y="84.840853125" rot="MR0">
+<element name="U901" library="comms" package="SOIC127P130X0600-8N" value="PCT2075D,118" x="56.638325" y="84.840853125" smashed="yes" rot="MR0">
 <attribute name="VENDOR_PN" value="568-10219-1-ND" x="56.638325" y="84.840853125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="PCT2075D,118" x="56.638325" y="84.840853125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="NXP" x="56.638325" y="84.840853125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="56.638325" y="84.840853125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="RESOLUTION" value="10b" x="56.638325" y="84.840853125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="INTERFACE" value="I2C" x="56.638325" y="84.840853125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="56.638325" y="87.840853125" size="1.016" layer="26" ratio="15" rot="SMR0" align="center"/>
 </element>
-<element name="U902" library="comms" package="SMD125P110X060-8N" value="MS560702BA03-50" x="26.60951875" y="53.56446875" rot="R180">
+<element name="U902" library="comms" package="SMD125P110X060-8N" value="MS560702BA03-50" x="26.60951875" y="53.56446875" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="223-1198-1-ND" x="26.60951875" y="53.56446875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="MS560702BA03-50" x="26.60951875" y="53.56446875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OUTPUT_BITS" value="24b" x="26.60951875" y="53.56446875" size="1.778" layer="27" rot="R180" display="off"/>
@@ -34330,56 +34512,62 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digi-key" x="26.60951875" y="53.56446875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="INTERFACE" value="I2C,SPI" x="26.60951875" y="53.56446875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRESSURE_TYPE" value="Absolute" x="26.60951875" y="53.56446875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="26.60951875" y="50.68946875" size="1.016" layer="25" ratio="15" rot="SR180" align="center"/>
 </element>
-<element name="U701" library="comms" package="UBLOX_MAX" value="MAX-M8Q" x="14.414815625" y="81.244896875" rot="MR180">
+<element name="U701" library="comms" package="UBLOX_MAX" value="MAX-M8Q" x="14.414815625" y="81.244896875" smashed="yes" rot="MR180">
 <attribute name="VENDOR_PN" value="672-1003-1-ND" x="14.414815625" y="81.244896875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="MAX-M8Q" x="14.414815625" y="81.244896875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="u-blox" x="14.414815625" y="81.244896875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="14.414815625" y="81.244896875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R501" library="comms" package="R0603" value="10k" x="32.899325" y="23.856503125" rot="MR0">
+<element name="R501" library="comms" package="R0603" value="10k" x="32.899325" y="23.856503125" smashed="yes" rot="MR0">
 <attribute name="POWER" value="1/10W" x="32.899325" y="23.856503125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="32.899325" y="23.856503125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="32.899325" y="23.856503125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="32.899325" y="23.856503125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF1002V" x="32.899325" y="23.856503125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR_PN" value="P10.0KHCT-ND" x="32.899325" y="23.856503125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="32.899325" y="24.706503125" size="1.016" layer="26" ratio="15" rot="MR0" align="center"/>
 </element>
-<element name="R503" library="comms" package="R0603" value="10k" x="37.913996875" y="16.74249375" rot="MR0">
+<element name="R503" library="comms" package="R0603" value="10k" x="37.913996875" y="16.74249375" smashed="yes" rot="MR0">
 <attribute name="POWER" value="1/10W" x="37.913996875" y="16.74249375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="37.913996875" y="16.74249375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="37.913996875" y="16.74249375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="37.913996875" y="16.74249375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF1002V" x="37.913996875" y="16.74249375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR_PN" value="P10.0KHCT-ND" x="37.913996875" y="16.74249375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="37.913996875" y="17.59249375" size="1.016" layer="26" ratio="15" rot="MR0" align="center"/>
 </element>
-<element name="U501" library="comms" package="SOT95P230X110-3N" value="2N7002P,215" x="39.730040625" y="21.32311875" rot="MR0">
+<element name="U501" library="comms" package="SOT95P230X110-3N" value="2N7002P,215" x="39.730040625" y="21.32311875" smashed="yes" rot="MR0">
 <attribute name="VENDOR" value="Digi-Key" x="39.730040625" y="21.32311875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="NXP" x="39.730040625" y="21.32311875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PACKAGE" value="SOT-23-3" x="39.730040625" y="21.32311875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="2N7002P,215" x="39.730040625" y="21.32311875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR_PN" value="568-5818-1-ND" x="39.730040625" y="21.32311875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="43.184440625" y="23.86311875" size="1.016" layer="26" ratio="15" rot="SMR0"/>
 </element>
-<element name="R505" library="comms" package="R0805" value="0.0" x="33.560059375" y="17.873203125" rot="MR270">
+<element name="R505" library="comms" package="R0805" value="0.0" x="33.560059375" y="17.873203125" smashed="yes" rot="MR270">
 <attribute name="POWER" value="1/8W" x="33.560059375" y="17.873203125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="33.560059375" y="17.873203125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="33.560059375" y="17.873203125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="33.560059375" y="17.873203125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="33.560059375" y="17.873203125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VENDOR_PN" value="P0.0ACT-ND" x="33.560059375" y="17.873203125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="32.560059375" y="17.873203125" size="1.016" layer="26" ratio="15" rot="MR270" align="center"/>
 </element>
-<element name="U503" library="comms" package="SOT230P700X180-4N" value="NDT2955" x="26.77910625" y="19.084090625" rot="MR0">
+<element name="U503" library="comms" package="SOT230P700X180-4N" value="NDT2955" x="26.77910625" y="19.084090625" smashed="yes" rot="MR0">
 <attribute name="VENDOR_PN" value="NDT2955CT-ND" x="26.77910625" y="19.084090625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="26.77910625" y="19.084090625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Fairchild" x="26.77910625" y="19.084090625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="NDT2955" x="26.77910625" y="19.084090625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PACKAGE" value="SOT-223-4" x="26.77910625" y="19.084090625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="31.22410625" y="23.071890625" size="1.016" layer="26" ratio="15" rot="SMR0"/>
 </element>
-<element name="H1103" library="comms" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="4.7625" y="90.4875"/>
-<element name="H1104" library="comms" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="4.7625" y="4.7625"/>
-<element name="H1101" library="comms" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="82.55" y="90.4875"/>
-<element name="H1102" library="comms" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="96.8375" y="4.7625"/>
-<element name="L502" library="comms" package="HCMA1707" value="68uH" x="52.89888125" y="34.832390625">
+<element name="H1103" library="comms" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="4.7625" y="90.4875" smashed="yes"/>
+<element name="H1104" library="comms" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="4.7625" y="4.7625" smashed="yes"/>
+<element name="H1101" library="comms" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="82.55" y="90.4875" smashed="yes"/>
+<element name="H1102" library="comms" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="96.8375" y="4.7625" smashed="yes"/>
+<element name="L502" library="comms" package="HCMA1707" value="68uH" x="52.89888125" y="34.832390625" smashed="yes">
 <attribute name="CURRENT_DC" value="5.2A" x="52.89888125" y="34.832390625" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="52.89888125" y="34.832390625" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Eaton" x="52.89888125" y="34.832390625" size="1.778" layer="27" display="off"/>
@@ -34390,21 +34578,26 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="CURRENT_SAT" value="6.5A" x="52.89888125" y="34.832390625" size="1.778" layer="27" display="off"/>
 <attribute name="SHIELDED" value="Yes" x="52.89888125" y="34.832390625" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="Wirewound" x="52.89888125" y="34.832390625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="45.44398125" y="43.709690625" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="TP1105" library="comms" package="TP15R" value="TPTP15R" x="1.8" y="84.1980375">
-<attribute name="TP_SIGNAL_NAME" value="" x="1.8" y="84.1980375" size="1.778" layer="27" display="off"/>
+<element name="TP1105" library="comms" package="TP15R" value="TPTP15R" x="1.8" y="84.1980375" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="1.8" y="81.6580375" size="1" layer="37"/>
+<attribute name="NAME" x="0.8099" y="85.2981375" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="TP1106" library="comms" package="TP15R" value="TPTP15R" x="4.98" y="84.1980375">
-<attribute name="TP_SIGNAL_NAME" value="" x="4.98" y="84.1980375" size="1.778" layer="27" display="off"/>
+<element name="TP1106" library="comms" package="TP15R" value="TPTP15R" x="4.98" y="84.1980375" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="4.98" y="81.6580375" size="1" layer="37"/>
+<attribute name="NAME" x="2.9999" y="81.8481375" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="TP502" library="comms" package="TP15R" value="TPTP15R" x="40.81" y="18.43" rot="MR180">
-<attribute name="TP_SIGNAL_NAME" value="" x="40.81" y="18.43" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="TP502" library="comms" package="TP15R" value="TPTP15R" x="40.81" y="18.43" smashed="yes" rot="MR180">
+<attribute name="TP_SIGNAL_NAME" value="" x="40.81" y="20.97" size="1" layer="38" rot="MR180"/>
+<attribute name="NAME" x="40.0599" y="17.6299" size="1.016" layer="26" ratio="15" rot="MR180"/>
 </element>
-<element name="TP503" library="comms" package="TP15R" value="TPTP15R" x="20.48" y="19.07" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="20.48" y="19.07" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP503" library="comms" package="TP15R" value="TPTP15R" x="20.48" y="19.07" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="20.48" y="16.53" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="21.2301" y="19.8701" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="IMAGE1" library="comms" package="SQUAD_LOGO" value="SQUAD_LOGO" x="64.87" y="52.78"/>
-<element name="U403" library="comms" package="SOT23P130X045-8N" value="MAX6371" x="35.31" y="88.56" rot="MR0">
+<element name="IMAGE1" library="comms" package="SQUAD_LOGO" value="SQUAD_LOGO" x="64.87" y="52.78" smashed="yes"/>
+<element name="U403" library="comms" package="SOT23P130X045-8N" value="MAX6371" x="35.31" y="88.56" smashed="yes" rot="MR0">
 <attribute name="OUTPUT_ACTIVE_TIME" value="120us (min)" x="35.31" y="88.56" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TIMEOUT" value="Adjustable (up to 60s)" x="35.31" y="88.56" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PN" value="MAX6371KA+T" x="35.31" y="88.56" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -34414,6 +34607,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="OUTPUT_TYPE" value="Open Drain" x="35.31" y="88.56" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OUTPUT_ACTIVE" value="Low" x="35.31" y="88.56" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="STARTUP_DELAY" value="60s" x="35.31" y="88.56" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="33.1644" y="89.235" size="1.016" layer="26" ratio="15" rot="SMR0"/>
 </element>
 </elements>
 <signals>
