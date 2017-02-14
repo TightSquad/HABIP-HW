@@ -147,11 +147,11 @@
 <board>
 <plain>
 <wire x1="4" y1="0" x2="62" y2="0" width="0" layer="20"/>
-<wire x1="66" y1="4" x2="66" y2="58" width="0" layer="20"/>
-<wire x1="62" y1="62" x2="4" y2="62" width="0" layer="20"/>
-<wire x1="0" y1="58" x2="0" y2="4" width="0" layer="20"/>
-<wire x1="4" y1="62" x2="0" y2="58" width="0" layer="20" curve="90"/>
-<wire x1="62" y1="62" x2="66" y2="58" width="0" layer="20" curve="-90"/>
+<wire x1="66" y1="4" x2="66" y2="58.1" width="0" layer="20"/>
+<wire x1="62" y1="62.1" x2="4" y2="62.1" width="0" layer="20"/>
+<wire x1="0" y1="58.1" x2="0" y2="4" width="0" layer="20"/>
+<wire x1="4" y1="62.1" x2="0" y2="58.1" width="0" layer="20" curve="90"/>
+<wire x1="62" y1="62.1" x2="66" y2="58.1" width="0" layer="20" curve="-90"/>
 <wire x1="4" y1="0" x2="0" y2="4" width="0" layer="20" curve="-90"/>
 <wire x1="62" y1="0" x2="66" y2="4" width="0" layer="20" curve="90"/>
 </plain>
@@ -221,24 +221,24 @@
 <package name="MOLSL-2-RA">
 <description>&lt;b&gt;C-Grid SL Connector&lt;/b&gt;&lt;p&gt;
  right angle, 2 pin</description>
-<wire x1="3.9688" y1="5.8738" x2="-3.9688" y2="5.8738" width="0.15" layer="21"/>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-3.175" width="0.15" layer="21"/>
-<wire x1="-1.27" y1="-3.175" x2="1.27" y2="-3.175" width="0.15" layer="21"/>
-<wire x1="1.27" y1="-3.175" x2="1.27" y2="2.54" width="0.15" layer="21"/>
-<wire x1="-3.9688" y1="5.8738" x2="-3.9688" y2="2.54" width="0.15" layer="21"/>
-<wire x1="-3.9688" y1="2.54" x2="-3.175" y2="2.54" width="0.15" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-1.27" y2="2.54" width="0.15" layer="21"/>
-<wire x1="1.27" y1="2.54" x2="3.175" y2="2.54" width="0.15" layer="21"/>
-<wire x1="3.175" y1="2.54" x2="3.9688" y2="2.54" width="0.15" layer="21"/>
-<wire x1="3.9688" y1="2.54" x2="3.9688" y2="5.8738" width="0.15" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-3.175" y2="3.175" width="0.15" layer="21"/>
-<wire x1="-3.175" y1="3.175" x2="-1.905" y2="4.445" width="0.15" layer="21" curve="-90"/>
-<wire x1="-1.905" y1="4.445" x2="1.905" y2="4.445" width="0.15" layer="21"/>
-<wire x1="1.905" y1="4.445" x2="3.175" y2="3.175" width="0.15" layer="21" curve="-90"/>
-<wire x1="3.175" y1="3.175" x2="3.175" y2="2.54" width="0.15" layer="21"/>
-<wire x1="-3.9688" y1="2.54" x2="-3.9688" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="-3.9688" y1="-5.715" x2="3.9688" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="3.9688" y1="-5.715" x2="3.9688" y2="2.54" width="0.15" layer="21"/>
+<wire x1="3.9688" y1="5.9238" x2="-3.9688" y2="5.9238" width="0.15" layer="21"/>
+<wire x1="-1.27" y1="2.59" x2="-1.27" y2="-3.125" width="0.15" layer="21"/>
+<wire x1="-1.27" y1="-3.125" x2="1.27" y2="-3.125" width="0.15" layer="21"/>
+<wire x1="1.27" y1="-3.125" x2="1.27" y2="2.59" width="0.15" layer="21"/>
+<wire x1="-3.9688" y1="5.9238" x2="-3.9688" y2="2.59" width="0.15" layer="21"/>
+<wire x1="-3.9688" y1="2.59" x2="-3.175" y2="2.59" width="0.15" layer="21"/>
+<wire x1="-3.175" y1="2.59" x2="-1.27" y2="2.59" width="0.15" layer="21"/>
+<wire x1="1.27" y1="2.59" x2="3.175" y2="2.59" width="0.15" layer="21"/>
+<wire x1="3.175" y1="2.59" x2="3.9688" y2="2.59" width="0.15" layer="21"/>
+<wire x1="3.9688" y1="2.59" x2="3.9688" y2="5.9238" width="0.15" layer="21"/>
+<wire x1="-3.175" y1="2.59" x2="-3.175" y2="3.225" width="0.15" layer="21"/>
+<wire x1="-3.175" y1="3.225" x2="-1.905" y2="4.495" width="0.15" layer="21" curve="-90"/>
+<wire x1="-1.905" y1="4.495" x2="1.905" y2="4.495" width="0.15" layer="21"/>
+<wire x1="1.905" y1="4.495" x2="3.175" y2="3.225" width="0.15" layer="21" curve="-90"/>
+<wire x1="3.175" y1="3.225" x2="3.175" y2="2.59" width="0.15" layer="21"/>
+<wire x1="-3.9688" y1="2.59" x2="-3.9688" y2="-5.665" width="0.15" layer="21"/>
+<wire x1="-3.9688" y1="-5.665" x2="3.9688" y2="-5.665" width="0.15" layer="21"/>
+<wire x1="3.9688" y1="-5.665" x2="3.9688" y2="2.59" width="0.15" layer="21"/>
 <wire x1="-2.8575" y1="-5.715" x2="-2.8575" y2="-6.35" width="0.05" layer="51"/>
 <wire x1="-2.8575" y1="-6.35" x2="-2.8575" y2="-7.9375" width="0.05" layer="51"/>
 <wire x1="2.8575" y1="-7.9375" x2="2.8575" y2="-6.35" width="0.05" layer="51"/>
@@ -266,9 +266,9 @@
 <rectangle x1="-1.5875" y1="-7.62" x2="-0.9525" y2="-6.35" layer="51"/>
 <rectangle x1="0.9525" y1="-7.62" x2="1.5875" y2="-6.35" layer="51"/>
 <polygon width="0.15" layer="21">
-<vertex x="-3.81" y="5.8738"/>
-<vertex x="-3.3338" y="3.9689"/>
-<vertex x="-2.8575" y="5.8738"/>
+<vertex x="-3.81" y="5.9238"/>
+<vertex x="-3.3338" y="4.0189"/>
+<vertex x="-2.8575" y="5.9238"/>
 </polygon>
 </package>
 <package name="DPAK">
@@ -278,11 +278,9 @@
 <smd name="1" x="-2.25" y="-6.1087" dx="0.9398" dy="1.7018" layer="1"/>
 <smd name="2" x="2.25" y="-6.1087" dx="0.9398" dy="1.7018" layer="1"/>
 <smd name="3" x="0" y="0" dx="6.6548" dy="7.7216" layer="1"/>
-<wire x1="-1.8034" y1="-3.5052" x2="-2.6924" y2="-3.5052" width="0.1524" layer="21"/>
 <wire x1="-2.6924" y1="-3.5052" x2="-2.6924" y2="-6.604" width="0.1524" layer="51"/>
 <wire x1="-2.6924" y1="-6.604" x2="-1.8034" y2="-6.604" width="0.1524" layer="51"/>
 <wire x1="-1.8034" y1="-6.604" x2="-1.8034" y2="-3.5052" width="0.1524" layer="51"/>
-<wire x1="2.6924" y1="-3.5052" x2="1.8034" y2="-3.5052" width="0.1524" layer="21"/>
 <wire x1="1.8034" y1="-3.5052" x2="1.8034" y2="-6.604" width="0.1524" layer="51"/>
 <wire x1="1.8034" y1="-6.604" x2="2.6924" y2="-6.604" width="0.1524" layer="51"/>
 <wire x1="2.6924" y1="-6.604" x2="2.6924" y2="-3.5052" width="0.1524" layer="51"/>
@@ -298,7 +296,7 @@
 <text x="-0.635" y="0" size="0.0254" layer="51" ratio="6" rot="SR0">Copyright (C) 2015 Accelerated Designs. All rights reserved</text>
 <text x="-4" y="-3.5" size="1.27" layer="25" ratio="6" rot="SR90">&gt;Name</text>
 <text x="4.8" y="-3.5" size="1.27" layer="27" ratio="6" rot="SR90">&gt;Value</text>
-<circle x="-3.8" y="-4.6" radius="0.22360625" width="0.4064" layer="21"/>
+<circle x="-3.8" y="-4.6" radius="0.1778" width="0.4064" layer="21"/>
 </package>
 <package name="M08A">
 <description>&lt;b&gt;555 Timer&lt;/b&gt;
@@ -626,351 +624,337 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 </pass>
 </autorouter>
 <elements>
-<element name="BATT" library="grss" package="BC9VPC" value="9V" x="65" y="16" rot="MR0">
-<attribute name="VENDOR_PN" value="BH9V-PC-ND" x="65" y="16" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="65" y="16" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" value="MPD" x="65" y="16" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PN" value="BH9VPC" x="65" y="16" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PROD_ID" value="BATT-10855" x="65" y="16" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="BATT" library="grss" package="BC9VPC" value="9V" x="65" y="16.05" rot="MR0">
+<attribute name="VENDOR_PN" value="BH9V-PC-ND" x="65" y="16.05" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="65" y="16.05" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="MPD" x="65" y="16.05" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PN" value="BH9VPC" x="65" y="16.05" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PROD_ID" value="BATT-10855" x="65" y="16.05" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C2" library="grss" package="C0805" value="0.1uF" x="35.4" y="34.6" smashed="yes" rot="R180">
-<attribute name="VENDOR_PN" value="490-1683-1-ND" x="35.4" y="34.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="35.4" y="34.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Murata" x="35.4" y="34.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE" value="16V" x="35.4" y="34.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PN" value="GRM219R71C104KA01D" x="35.4" y="34.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMP_COEFF" value="X7R" x="35.4" y="34.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="10%" x="35.4" y="34.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="35.4" y="36" size="1.016" layer="25" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE" x="35.4" y="33.65" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
+<element name="C2" library="grss" package="C0805" value="0.1uF" x="35.4" y="34.65" smashed="yes" rot="R180">
+<attribute name="VENDOR_PN" value="490-1683-1-ND" x="35.4" y="34.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="35.4" y="34.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Murata" x="35.4" y="34.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE" value="16V" x="35.4" y="34.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PN" value="GRM219R71C104KA01D" x="35.4" y="34.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TEMP_COEFF" value="X7R" x="35.4" y="34.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="35.4" y="34.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="35.4" y="36.05" size="1.016" layer="25" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="35.4" y="33.7" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
 </element>
-<element name="C4" library="grss" package="C0805" value="10uF" x="42.9" y="25.6" smashed="yes" rot="R270">
-<attribute name="VENDOR_PN" value="490-5519-1-ND" x="42.9" y="25.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="42.9" y="25.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Murata" x="42.9" y="25.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE" value="16V" x="42.9" y="25.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PN" value="GRM21BC81C106KA73L" x="42.9" y="25.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TEMP_COEFF" value="X6S" x="42.9" y="25.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="10%" x="42.9" y="25.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="41.5" y="25.6" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE" x="43.85" y="25.6" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
+<element name="C4" library="grss" package="C0805" value="10uF" x="42.9" y="25.65" smashed="yes" rot="R270">
+<attribute name="VENDOR_PN" value="490-5519-1-ND" x="42.9" y="25.65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="42.9" y="25.65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Murata" x="42.9" y="25.65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="16V" x="42.9" y="25.65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PN" value="GRM21BC81C106KA73L" x="42.9" y="25.65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TEMP_COEFF" value="X6S" x="42.9" y="25.65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="42.9" y="25.65" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="41.5" y="25.65" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
+<attribute name="VALUE" x="43.85" y="25.65" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
 </element>
-<element name="C6" library="grss" package="C0805" value="3.3uF" x="21.4" y="31.5" smashed="yes" rot="R270">
-<attribute name="VENDOR_PN" value="490-6486-1-ND" x="21.4" y="31.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="21.4" y="31.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Murata" x="21.4" y="31.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE" value="25V" x="21.4" y="31.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PN" value="GRM21BR71E335KA73L" x="21.4" y="31.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TEMP_COEFF" value="X7R" x="21.4" y="31.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="10%" x="21.4" y="31.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="22.9" y="31.5" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE" x="20.45" y="31.5" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
+<element name="C6" library="grss" package="C0805" value="3.3uF" x="21.4" y="31.55" smashed="yes" rot="R270">
+<attribute name="VENDOR_PN" value="490-6486-1-ND" x="21.4" y="31.55" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="21.4" y="31.55" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Murata" x="21.4" y="31.55" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="25V" x="21.4" y="31.55" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PN" value="GRM21BR71E335KA73L" x="21.4" y="31.55" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TEMP_COEFF" value="X7R" x="21.4" y="31.55" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="21.4" y="31.55" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="22.9" y="31.55" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
+<attribute name="VALUE" x="20.45" y="31.55" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
 </element>
-<element name="C1" library="grss" package="C0805" value="1uF" x="12.6" y="30.9" smashed="yes">
-<attribute name="VENDOR_PN" value="490-1691-1-ND" x="12.6" y="30.9" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="12.6" y="30.9" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Murata" x="12.6" y="30.9" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="16V" x="12.6" y="30.9" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="GRM21BR71C105KA01L" x="12.6" y="30.9" size="1.778" layer="27" display="off"/>
-<attribute name="TEMP_COEFF" value="X7R" x="12.6" y="30.9" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="10%" x="12.6" y="30.9" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="12.73" y="32.4" size="1.016" layer="25" ratio="15" align="center"/>
-<attribute name="VALUE" x="12.6" y="29.95" size="0.254" layer="27" ratio="6" align="center"/>
+<element name="C1" library="grss" package="C0805" value="1uF" x="12.6" y="30.95" smashed="yes">
+<attribute name="VENDOR_PN" value="490-1691-1-ND" x="12.6" y="30.95" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="12.6" y="30.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Murata" x="12.6" y="30.95" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="16V" x="12.6" y="30.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="GRM21BR71C105KA01L" x="12.6" y="30.95" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP_COEFF" value="X7R" x="12.6" y="30.95" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="12.6" y="30.95" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="12.73" y="32.45" size="1.016" layer="25" ratio="15" align="center"/>
+<attribute name="VALUE" x="12.6" y="30" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
-<element name="C5" library="grss" package="C0805" value="0.01uF" x="24.4" y="29.5" smashed="yes" rot="R90">
-<attribute name="VENDOR_PN" value="490-9742-1-ND" x="24.4" y="29.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="24.4" y="29.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Murata" x="24.4" y="29.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOLTAGE" value="50V" x="24.4" y="29.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PN" value="GRM216R71H103JA01D" x="24.4" y="29.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TEMP_COEFF" value="X7R" x="24.4" y="29.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLERANCE" value="5%" x="24.4" y="29.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="22.9" y="29.5" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
-<attribute name="VALUE" x="25.35" y="29.5" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
+<element name="C5" library="grss" package="C0805" value="0.01uF" x="24.4" y="29.55" smashed="yes" rot="R90">
+<attribute name="VENDOR_PN" value="490-9742-1-ND" x="24.4" y="29.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="24.4" y="29.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Murata" x="24.4" y="29.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="50V" x="24.4" y="29.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PN" value="GRM216R71H103JA01D" x="24.4" y="29.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TEMP_COEFF" value="X7R" x="24.4" y="29.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="5%" x="24.4" y="29.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="22.9" y="29.55" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
+<attribute name="VALUE" x="25.35" y="29.55" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
-<element name="J1" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="12.9" y="56" smashed="yes">
-<attribute name="VENDOR_PN" value="WM4900-ND" x="12.9" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="12.9" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Molex" x="12.9" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="LOCKING" value="YES" x="12.9" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="0705530001" x="12.9" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="POSITIONS" value="2" x="12.9" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="FINISH" value="GOLD" x="12.9" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT_TYPE" value="TH" x="12.9" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT_ANGLE" value="RIGHT" x="12.9" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MAX_CURRENT" value="3.0A" x="12.9" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="8.455" y="50.285" size="1.016" layer="25" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="18.615" y="50.285" size="0.8128" layer="27" ratio="10" rot="R90"/>
+<element name="J1" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="12.9" y="56.05" smashed="yes">
+<attribute name="VENDOR_PN" value="WM4900-ND" x="12.9" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="12.9" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="12.9" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="LOCKING" value="YES" x="12.9" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0705530001" x="12.9" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="POSITIONS" value="2" x="12.9" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="FINISH" value="GOLD" x="12.9" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT_TYPE" value="TH" x="12.9" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT_ANGLE" value="RIGHT" x="12.9" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MAX_CURRENT" value="3.0A" x="12.9" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="8.455" y="50.335" size="1.016" layer="25" ratio="15" rot="R90"/>
 </element>
-<element name="J10" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="54.1" y="6" smashed="yes" rot="R180">
-<attribute name="VENDOR_PN" value="WM4900-ND" x="54.1" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="54.1" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Molex" x="54.1" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LOCKING" value="YES" x="54.1" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PN" value="0705530001" x="54.1" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POSITIONS" value="2" x="54.1" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FINISH" value="GOLD" x="54.1" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUNT_TYPE" value="TH" x="54.1" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUNT_ANGLE" value="RIGHT" x="54.1" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MAX_CURRENT" value="3.0A" x="54.1" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="58.545" y="11.715" size="1.016" layer="25" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="48.385" y="11.715" size="0.8128" layer="27" ratio="10" rot="R270"/>
+<element name="J10" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="54.1" y="6.05" smashed="yes" rot="R180">
+<attribute name="VENDOR_PN" value="WM4900-ND" x="54.1" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="54.1" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="54.1" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LOCKING" value="YES" x="54.1" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0705530001" x="54.1" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POSITIONS" value="2" x="54.1" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="FINISH" value="GOLD" x="54.1" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT_TYPE" value="TH" x="54.1" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT_ANGLE" value="RIGHT" x="54.1" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MAX_CURRENT" value="3.0A" x="54.1" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="58.545" y="11.765" size="1.016" layer="25" ratio="15" rot="R270"/>
 </element>
-<element name="J11" library="grss" package="MOLSL-2-V" value="MOL-SL-2-V" x="5.4" y="30.9" smashed="yes" rot="R90">
-<attribute name="VENDOR_PN" value="WM4800-ND" x="5.4" y="30.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="5.4" y="30.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Molex" x="5.4" y="30.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PN" value="0705430001" x="5.4" y="30.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POSITIONS" value="2" x="5.4" y="30.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MAX_CURRENT" value="3.0A" x="5.4" y="30.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUNT_TYPE" value="TH" x="5.4" y="30.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LOCKING" value="YES" x="5.4" y="30.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUNT_ANGLE" value="VERTICAL" x="5.4" y="30.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="MOL-SL-2-V" x="5.4" y="30.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="FINISH" value="GOLD" x="5.4" y="30.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="7.94" y="26.455" size="1.016" layer="25" ratio="15" rot="R180"/>
-<attribute name="VALUE" x="1.9075" y="27.4075" size="0.8128" layer="27" ratio="10" rot="R90"/>
+<element name="J11" library="grss" package="MOLSL-2-V" value="MOL-SL-2-V" x="5.4" y="30.95" smashed="yes" rot="R90">
+<attribute name="VENDOR_PN" value="WM4800-ND" x="5.4" y="30.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="5.4" y="30.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="5.4" y="30.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0705430001" x="5.4" y="30.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POSITIONS" value="2" x="5.4" y="30.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MAX_CURRENT" value="3.0A" x="5.4" y="30.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUNT_TYPE" value="TH" x="5.4" y="30.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LOCKING" value="YES" x="5.4" y="30.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUNT_ANGLE" value="VERTICAL" x="5.4" y="30.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="MOL-SL-2-V" x="5.4" y="30.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FINISH" value="GOLD" x="5.4" y="30.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="7.94" y="26.505" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J2" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="23.2" y="56" smashed="yes">
-<attribute name="VENDOR_PN" value="WM4900-ND" x="23.2" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="23.2" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Molex" x="23.2" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="LOCKING" value="YES" x="23.2" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="0705530001" x="23.2" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="POSITIONS" value="2" x="23.2" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="FINISH" value="GOLD" x="23.2" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT_TYPE" value="TH" x="23.2" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT_ANGLE" value="RIGHT" x="23.2" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MAX_CURRENT" value="3.0A" x="23.2" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="18.755" y="50.285" size="1.016" layer="25" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="28.915" y="50.285" size="0.8128" layer="27" ratio="10" rot="R90"/>
+<element name="J2" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="23.2" y="56.05" smashed="yes">
+<attribute name="VENDOR_PN" value="WM4900-ND" x="23.2" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="23.2" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="23.2" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="LOCKING" value="YES" x="23.2" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0705530001" x="23.2" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="POSITIONS" value="2" x="23.2" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="FINISH" value="GOLD" x="23.2" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT_TYPE" value="TH" x="23.2" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT_ANGLE" value="RIGHT" x="23.2" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MAX_CURRENT" value="3.0A" x="23.2" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="18.755" y="50.335" size="1.016" layer="25" ratio="15" rot="R90"/>
 </element>
-<element name="J3" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="33.5" y="56" smashed="yes">
-<attribute name="VENDOR_PN" value="WM4900-ND" x="33.5" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="33.5" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Molex" x="33.5" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="LOCKING" value="YES" x="33.5" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="0705530001" x="33.5" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="POSITIONS" value="2" x="33.5" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="FINISH" value="GOLD" x="33.5" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT_TYPE" value="TH" x="33.5" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT_ANGLE" value="RIGHT" x="33.5" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MAX_CURRENT" value="3.0A" x="33.5" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="29.055" y="50.285" size="1.016" layer="25" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="39.215" y="50.285" size="0.8128" layer="27" ratio="10" rot="R90"/>
+<element name="J3" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="33.5" y="56.05" smashed="yes">
+<attribute name="VENDOR_PN" value="WM4900-ND" x="33.5" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="33.5" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="33.5" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="LOCKING" value="YES" x="33.5" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0705530001" x="33.5" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="POSITIONS" value="2" x="33.5" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="FINISH" value="GOLD" x="33.5" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT_TYPE" value="TH" x="33.5" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT_ANGLE" value="RIGHT" x="33.5" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MAX_CURRENT" value="3.0A" x="33.5" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="29.055" y="50.335" size="1.016" layer="25" ratio="15" rot="R90"/>
 </element>
-<element name="J4" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="43.8" y="56" smashed="yes">
-<attribute name="VENDOR_PN" value="WM4900-ND" x="43.8" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="43.8" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Molex" x="43.8" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="LOCKING" value="YES" x="43.8" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="0705530001" x="43.8" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="POSITIONS" value="2" x="43.8" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="FINISH" value="GOLD" x="43.8" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT_TYPE" value="TH" x="43.8" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT_ANGLE" value="RIGHT" x="43.8" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MAX_CURRENT" value="3.0A" x="43.8" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="39.355" y="50.285" size="1.016" layer="25" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="49.515" y="50.285" size="0.8128" layer="27" ratio="10" rot="R90"/>
+<element name="J4" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="43.8" y="56.05" smashed="yes">
+<attribute name="VENDOR_PN" value="WM4900-ND" x="43.8" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="43.8" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="43.8" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="LOCKING" value="YES" x="43.8" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0705530001" x="43.8" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="POSITIONS" value="2" x="43.8" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="FINISH" value="GOLD" x="43.8" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT_TYPE" value="TH" x="43.8" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT_ANGLE" value="RIGHT" x="43.8" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MAX_CURRENT" value="3.0A" x="43.8" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="39.355" y="50.335" size="1.016" layer="25" ratio="15" rot="R90"/>
 </element>
-<element name="J5" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="54.1" y="56" smashed="yes">
-<attribute name="VENDOR_PN" value="WM4900-ND" x="54.1" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="54.1" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Molex" x="54.1" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="LOCKING" value="YES" x="54.1" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="0705530001" x="54.1" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="POSITIONS" value="2" x="54.1" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="FINISH" value="GOLD" x="54.1" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT_TYPE" value="TH" x="54.1" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT_ANGLE" value="RIGHT" x="54.1" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="MAX_CURRENT" value="3.0A" x="54.1" y="56" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="49.655" y="50.285" size="1.016" layer="25" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="59.815" y="50.285" size="0.8128" layer="27" ratio="10" rot="R90"/>
+<element name="J5" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="54.1" y="56.05" smashed="yes">
+<attribute name="VENDOR_PN" value="WM4900-ND" x="54.1" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="54.1" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="54.1" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="LOCKING" value="YES" x="54.1" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0705530001" x="54.1" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="POSITIONS" value="2" x="54.1" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="FINISH" value="GOLD" x="54.1" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT_TYPE" value="TH" x="54.1" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT_ANGLE" value="RIGHT" x="54.1" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="MAX_CURRENT" value="3.0A" x="54.1" y="56.05" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="49.655" y="50.335" size="1.016" layer="25" ratio="15" rot="R90"/>
 </element>
-<element name="J6" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="12.9" y="6" smashed="yes" rot="R180">
-<attribute name="VENDOR_PN" value="WM4900-ND" x="12.9" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="12.9" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Molex" x="12.9" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LOCKING" value="YES" x="12.9" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PN" value="0705530001" x="12.9" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POSITIONS" value="2" x="12.9" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FINISH" value="GOLD" x="12.9" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUNT_TYPE" value="TH" x="12.9" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUNT_ANGLE" value="RIGHT" x="12.9" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MAX_CURRENT" value="3.0A" x="12.9" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="17.345" y="11.715" size="1.016" layer="25" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="7.185" y="11.715" size="0.8128" layer="27" ratio="10" rot="R270"/>
+<element name="J6" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="12.9" y="6.05" smashed="yes" rot="R180">
+<attribute name="VENDOR_PN" value="WM4900-ND" x="12.9" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="12.9" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="12.9" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LOCKING" value="YES" x="12.9" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0705530001" x="12.9" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POSITIONS" value="2" x="12.9" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="FINISH" value="GOLD" x="12.9" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT_TYPE" value="TH" x="12.9" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT_ANGLE" value="RIGHT" x="12.9" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MAX_CURRENT" value="3.0A" x="12.9" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="17.345" y="11.765" size="1.016" layer="25" ratio="15" rot="R270"/>
 </element>
-<element name="J7" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="23.2" y="6" smashed="yes" rot="R180">
-<attribute name="VENDOR_PN" value="WM4900-ND" x="23.2" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="23.2" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Molex" x="23.2" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LOCKING" value="YES" x="23.2" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PN" value="0705530001" x="23.2" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POSITIONS" value="2" x="23.2" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FINISH" value="GOLD" x="23.2" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUNT_TYPE" value="TH" x="23.2" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUNT_ANGLE" value="RIGHT" x="23.2" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MAX_CURRENT" value="3.0A" x="23.2" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="27.645" y="11.715" size="1.016" layer="25" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="17.485" y="11.715" size="0.8128" layer="27" ratio="10" rot="R270"/>
+<element name="J7" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="23.2" y="6.05" smashed="yes" rot="R180">
+<attribute name="VENDOR_PN" value="WM4900-ND" x="23.2" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="23.2" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="23.2" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LOCKING" value="YES" x="23.2" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0705530001" x="23.2" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POSITIONS" value="2" x="23.2" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="FINISH" value="GOLD" x="23.2" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT_TYPE" value="TH" x="23.2" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT_ANGLE" value="RIGHT" x="23.2" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MAX_CURRENT" value="3.0A" x="23.2" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="27.645" y="11.765" size="1.016" layer="25" ratio="15" rot="R270"/>
 </element>
-<element name="J8" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="33.5" y="6" smashed="yes" rot="R180">
-<attribute name="VENDOR_PN" value="WM4900-ND" x="33.5" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="33.5" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Molex" x="33.5" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LOCKING" value="YES" x="33.5" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PN" value="0705530001" x="33.5" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POSITIONS" value="2" x="33.5" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FINISH" value="GOLD" x="33.5" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUNT_TYPE" value="TH" x="33.5" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUNT_ANGLE" value="RIGHT" x="33.5" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MAX_CURRENT" value="3.0A" x="33.5" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="37.945" y="11.715" size="1.016" layer="25" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="27.785" y="11.715" size="0.8128" layer="27" ratio="10" rot="R270"/>
+<element name="J8" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="33.5" y="6.05" smashed="yes" rot="R180">
+<attribute name="VENDOR_PN" value="WM4900-ND" x="33.5" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="33.5" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="33.5" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LOCKING" value="YES" x="33.5" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0705530001" x="33.5" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POSITIONS" value="2" x="33.5" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="FINISH" value="GOLD" x="33.5" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT_TYPE" value="TH" x="33.5" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT_ANGLE" value="RIGHT" x="33.5" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MAX_CURRENT" value="3.0A" x="33.5" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="37.945" y="11.765" size="1.016" layer="25" ratio="15" rot="R270"/>
 </element>
-<element name="J9" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="43.8" y="6" smashed="yes" rot="R180">
-<attribute name="VENDOR_PN" value="WM4900-ND" x="43.8" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="43.8" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Molex" x="43.8" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LOCKING" value="YES" x="43.8" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PN" value="0705530001" x="43.8" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POSITIONS" value="2" x="43.8" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FINISH" value="GOLD" x="43.8" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUNT_TYPE" value="TH" x="43.8" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUNT_ANGLE" value="RIGHT" x="43.8" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MAX_CURRENT" value="3.0A" x="43.8" y="6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="48.245" y="11.715" size="1.016" layer="25" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="38.085" y="11.715" size="0.8128" layer="27" ratio="10" rot="R270"/>
+<element name="J9" library="grss" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="43.8" y="6.05" smashed="yes" rot="R180">
+<attribute name="VENDOR_PN" value="WM4900-ND" x="43.8" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="43.8" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="43.8" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LOCKING" value="YES" x="43.8" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0705530001" x="43.8" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POSITIONS" value="2" x="43.8" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="FINISH" value="GOLD" x="43.8" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT_TYPE" value="TH" x="43.8" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUNT_ANGLE" value="RIGHT" x="43.8" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MAX_CURRENT" value="3.0A" x="43.8" y="6.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="48.245" y="11.765" size="1.016" layer="25" ratio="15" rot="R270"/>
 </element>
-<element name="Q1" library="grss" package="DPAK" value="STD12NF06LT4" x="59.6" y="26.7" smashed="yes" rot="R270">
-<attribute name="VENDOR_PN" value="497-2487-1-ND" x="59.6" y="26.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="59.6" y="26.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="STMicroelectronics" x="59.6" y="26.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PN" value="STD12NF06LT4" x="59.6" y="26.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="56.7298" y="30.465" size="1.016" layer="25" ratio="15" rot="SR0"/>
-<attribute name="VALUE" x="58.965" y="29.9766" size="1.27" layer="27" ratio="6" rot="SR270"/>
+<element name="Q1" library="grss" package="DPAK" value="STD12NF06LT4" x="59.6" y="26.75" smashed="yes" rot="R270">
+<attribute name="VENDOR_PN" value="497-2487-1-ND" x="59.6" y="26.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="59.6" y="26.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics" x="59.6" y="26.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PN" value="STD12NF06LT4" x="59.6" y="26.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="56.7298" y="30.515" size="1.016" layer="25" ratio="15" rot="SR0"/>
 </element>
-<element name="R4" library="grss" package="R0805" value="200" x="45.91" y="31.6" smashed="yes" rot="R90">
-<attribute name="POWER" value="1/2W" x="45.91" y="31.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VENDOR_PN" value="P16064CT-ND" x="45.91" y="31.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="45.91" y="31.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic" x="45.91" y="31.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-P06F2000V" x="45.91" y="31.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="45.91" y="31.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="44.51" y="31.6" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
-<attribute name="VALUE" x="46.91" y="31.6" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
+<element name="R4" library="grss" package="R0805" value="200" x="45.91" y="31.65" smashed="yes" rot="R90">
+<attribute name="POWER" value="1/2W" x="45.91" y="31.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR_PN" value="P16064CT-ND" x="45.91" y="31.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="45.91" y="31.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic" x="45.91" y="31.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-P06F2000V" x="45.91" y="31.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="45.91" y="31.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="44.51" y="31.65" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
+<attribute name="VALUE" x="46.91" y="31.65" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
-<element name="R5" library="grss" package="R0805" value="200" x="41.1" y="18.1" smashed="yes" rot="R270">
-<attribute name="POWER" value="1/2W" x="41.1" y="18.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VENDOR_PN" value="P16064CT-ND" x="41.1" y="18.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="41.1" y="18.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic" x="41.1" y="18.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-P06F2000V" x="41.1" y="18.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="41.1" y="18.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="42.5" y="18.1" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE" x="40.1" y="18.1" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
+<element name="R5" library="grss" package="R0805" value="200" x="41.1" y="18.15" smashed="yes" rot="R270">
+<attribute name="POWER" value="1/2W" x="41.1" y="18.15" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR_PN" value="P16064CT-ND" x="41.1" y="18.15" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="41.1" y="18.15" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic" x="41.1" y="18.15" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-P06F2000V" x="41.1" y="18.15" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="41.1" y="18.15" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="42.5" y="18.15" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
+<attribute name="VALUE" x="40.1" y="18.15" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
 </element>
-<element name="R6" library="grss" package="R0805" value="200" x="44.1" y="18.1" smashed="yes" rot="R270">
-<attribute name="POWER" value="1/2W" x="44.1" y="18.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VENDOR_PN" value="P16064CT-ND" x="44.1" y="18.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="44.1" y="18.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic" x="44.1" y="18.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-P06F2000V" x="44.1" y="18.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="44.1" y="18.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="45.5" y="18.1" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE" x="43.1" y="18.1" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
+<element name="R6" library="grss" package="R0805" value="200" x="44.1" y="18.15" smashed="yes" rot="R270">
+<attribute name="POWER" value="1/2W" x="44.1" y="18.15" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR_PN" value="P16064CT-ND" x="44.1" y="18.15" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="44.1" y="18.15" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic" x="44.1" y="18.15" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-P06F2000V" x="44.1" y="18.15" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="44.1" y="18.15" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="45.5" y="18.15" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
+<attribute name="VALUE" x="43.1" y="18.15" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
 </element>
-<element name="R2" library="grss" package="R0805" value="470k" x="45.9" y="27.6" smashed="yes" rot="R90">
-<attribute name="POWER" value="1/2W" x="45.9" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VENDOR_PN" value="P470KADCT-ND" x="45.9" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="45.9" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic" x="45.9" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-P06J474V" x="45.9" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLERANCE" value="5%" x="45.9" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="44.5" y="27.6" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
-<attribute name="VALUE" x="46.9" y="27.6" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
+<element name="R2" library="grss" package="R0805" value="470k" x="45.9" y="27.65" smashed="yes" rot="R90">
+<attribute name="POWER" value="1/2W" x="45.9" y="27.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR_PN" value="P470KADCT-ND" x="45.9" y="27.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="45.9" y="27.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic" x="45.9" y="27.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-P06J474V" x="45.9" y="27.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="5%" x="45.9" y="27.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="44.5" y="27.65" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
+<attribute name="VALUE" x="46.9" y="27.65" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
-<element name="U2" library="grss" package="M08A" value="LMC555CMX/NOPB" x="35.4" y="28.9" smashed="yes">
-<attribute name="VENDOR_PN" value="LMC555CMX/NOPBCT-ND" x="35.4" y="28.9" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="35.4" y="28.9" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Texas Instruments" x="35.4" y="28.9" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="LMC555CMX/NOPB" x="35.4" y="28.9" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="31.3598" y="31.825" size="1.778" layer="25" ratio="15" rot="SR0"/>
-<attribute name="VALUE" x="28.6234" y="24.625" size="1.27" layer="27" ratio="6" rot="SR0"/>
+<element name="U2" library="grss" package="M08A" value="LMC555CMX/NOPB" x="35.4" y="28.95" smashed="yes">
+<attribute name="VENDOR_PN" value="LMC555CMX/NOPBCT-ND" x="35.4" y="28.95" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="35.4" y="28.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="35.4" y="28.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="LMC555CMX/NOPB" x="35.4" y="28.95" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.3598" y="31.875" size="1.778" layer="25" ratio="15" rot="SR0"/>
 </element>
-<element name="U1" library="grss" package="MF05A" value="LP2985AIM5-4.5/NOPB" x="17.4" y="30.9" smashed="yes">
-<attribute name="VENDOR_PN" value="LP2985AIM5-4.5/NOPBCT-ND" x="17.4" y="30.9" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="17.4" y="30.9" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Texas Instruments" x="17.4" y="30.9" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="LP2985AIM5-4.5/NOPB" x="17.4" y="30.9" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="14.5298" y="33.44" size="1.778" layer="25" ratio="15" rot="SR0"/>
-<attribute name="VALUE" x="14.1234" y="27.725" size="1.27" layer="27" ratio="6" rot="SR0"/>
+<element name="U1" library="grss" package="MF05A" value="LP2985AIM5-4.5/NOPB" x="17.4" y="30.95" smashed="yes">
+<attribute name="VENDOR_PN" value="LP2985AIM5-4.5/NOPBCT-ND" x="17.4" y="30.95" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="17.4" y="30.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="17.4" y="30.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="LP2985AIM5-4.5/NOPB" x="17.4" y="30.95" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="14.5298" y="33.49" size="1.778" layer="25" ratio="15" rot="SR0"/>
 </element>
-<element name="TP2" library="grss" package="TP10R" value="4V5" x="28.3" y="32.5" smashed="yes">
-<attribute name="TP_SIGNAL_NAME" value="" x="28.3" y="31.095" size="0.4064" layer="37" ratio="6"/>
-<attribute name="NAME" x="26.9999" y="33.2499" size="1.016" layer="25" ratio="15"/>
-<attribute name="VALUE" x="28.819" y="31.692" size="0.254" layer="27" ratio="6"/>
+<element name="TP2" library="grss" package="TP10R" value="4V5" x="28.3" y="32.55" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="28.3" y="31.145" size="0.4064" layer="37" ratio="6"/>
+<attribute name="NAME" x="26.9999" y="33.2999" size="1.016" layer="25" ratio="15"/>
+<attribute name="VALUE" x="28.819" y="31.742" size="0.254" layer="27" ratio="6"/>
 </element>
-<element name="TP3" library="grss" package="TP10R" value="555OUT" x="29.4" y="22.7" smashed="yes">
-<attribute name="TP_SIGNAL_NAME" value="" x="29.4" y="21.295" size="0.4064" layer="37" ratio="6"/>
-<attribute name="NAME" x="28.0999" y="20.8499" size="1.016" layer="25" ratio="15"/>
-<attribute name="VALUE" x="29.919" y="21.892" size="0.254" layer="27" ratio="6"/>
+<element name="TP3" library="grss" package="TP10R" value="555OUT" x="29.4" y="22.75" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="29.4" y="21.345" size="0.4064" layer="37" ratio="6"/>
+<attribute name="NAME" x="28.0999" y="20.8999" size="1.016" layer="25" ratio="15"/>
+<attribute name="VALUE" x="29.919" y="21.942" size="0.254" layer="27" ratio="6"/>
 </element>
-<element name="TP4" library="grss" package="TP10R" value="VD" x="50.6" y="17.7" smashed="yes">
-<attribute name="TP_SIGNAL_NAME" value="" x="50.6" y="16.295" size="0.4064" layer="37" ratio="6"/>
-<attribute name="NAME" x="49.2999" y="15.8499" size="1.016" layer="25" ratio="15"/>
-<attribute name="VALUE" x="51.119" y="16.892" size="0.254" layer="27" ratio="6"/>
+<element name="TP4" library="grss" package="TP10R" value="VD" x="50.6" y="17.75" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="50.6" y="16.345" size="0.4064" layer="37" ratio="6"/>
+<attribute name="NAME" x="49.2999" y="15.8999" size="1.016" layer="25" ratio="15"/>
+<attribute name="VALUE" x="51.119" y="16.942" size="0.254" layer="27" ratio="6"/>
 </element>
-<element name="H1" library="grss" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="4" y="4"/>
-<element name="H2" library="grss" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="62" y="4"/>
-<element name="H3" library="grss" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="4" y="58"/>
-<element name="H4" library="grss" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="62" y="58"/>
-<element name="R3" library="grss" package="R0805" value="4.7k" x="29.4" y="29.5" smashed="yes" rot="R270">
-<attribute name="TOLERANCE" value="1%" x="29.4" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POWER" value="1/2W" x="29.4" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="29.4" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic" x="29.4" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-P06F4701V" x="29.4" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VENDOR_PN" value="P16073CT-ND" x="29.4" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="28" y="29.5" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE" x="30.4" y="29.5" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
+<element name="H1" library="grss" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="4" y="4.05"/>
+<element name="H2" library="grss" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="62" y="4.05"/>
+<element name="H3" library="grss" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="4" y="58.05"/>
+<element name="H4" library="grss" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="62" y="58.05"/>
+<element name="R3" library="grss" package="R0805" value="4.7k" x="29.4" y="29.55" smashed="yes" rot="R270">
+<attribute name="TOLERANCE" value="1%" x="29.4" y="29.55" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POWER" value="1/2W" x="29.4" y="29.55" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="29.4" y="29.55" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic" x="29.4" y="29.55" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-P06F4701V" x="29.4" y="29.55" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR_PN" value="P16073CT-ND" x="29.4" y="29.55" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="28" y="29.55" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
+<attribute name="VALUE" x="30.4" y="29.55" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
 </element>
-<element name="TP1" library="grss" package="TP10R" value="GND" x="8.1" y="24.4" smashed="yes">
-<attribute name="TP_SIGNAL_NAME" value="" x="8.1" y="22.995" size="0.4064" layer="37" ratio="6"/>
-<attribute name="NAME" x="6.9999" y="22.5499" size="1.016" layer="25" ratio="15"/>
-<attribute name="VALUE" x="8.619" y="23.592" size="0.254" layer="27" ratio="6"/>
+<element name="TP1" library="grss" package="TP10R" value="GND" x="8.1" y="24.45" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="8.1" y="23.045" size="0.4064" layer="37" ratio="6"/>
+<attribute name="NAME" x="6.9999" y="22.5999" size="1.016" layer="25" ratio="15"/>
+<attribute name="VALUE" x="8.619" y="23.642" size="0.254" layer="27" ratio="6"/>
 </element>
-<element name="R1" library="grss" package="R0805" value="1k" x="42.9" y="29.6" smashed="yes" rot="R90">
-<attribute name="VENDOR_PN" value="P1.0KADCT-ND" x="42.9" y="29.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POWER" value="1/2W" x="42.9" y="29.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic" x="42.9" y="29.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-P06J102V" x="42.9" y="29.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLERANCE" value="5%" x="42.9" y="29.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="42.9" y="29.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="41.5" y="29.6" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
-<attribute name="VALUE" x="43.9" y="29.6" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
+<element name="R1" library="grss" package="R0805" value="1k" x="42.9" y="29.65" smashed="yes" rot="R90">
+<attribute name="VENDOR_PN" value="P1.0KADCT-ND" x="42.9" y="29.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POWER" value="1/2W" x="42.9" y="29.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic" x="42.9" y="29.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-P06J102V" x="42.9" y="29.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="5%" x="42.9" y="29.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="42.9" y="29.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="41.5" y="29.65" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
+<attribute name="VALUE" x="43.9" y="29.65" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
-<element name="C3" library="grss" package="C0805" value="1uF" x="35.4" y="37.6" smashed="yes" rot="R180">
-<attribute name="VENDOR_PN" value="490-1691-1-ND" x="35.4" y="37.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMP_COEFF" value="X7R" x="35.4" y="37.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Murata" x="35.4" y="37.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PN" value="GRM21BR71C105KA01L" x="35.4" y="37.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="10%" x="35.4" y="37.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE" value="16V" x="35.4" y="37.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="35.4" y="37.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="35.4" y="39" size="1.016" layer="25" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE" x="35.5" y="36.65" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
+<element name="C3" library="grss" package="C0805" value="1uF" x="35.4" y="37.65" smashed="yes" rot="R180">
+<attribute name="VENDOR_PN" value="490-1691-1-ND" x="35.4" y="37.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TEMP_COEFF" value="X7R" x="35.4" y="37.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Murata" x="35.4" y="37.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PN" value="GRM21BR71C105KA01L" x="35.4" y="37.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="35.4" y="37.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE" value="16V" x="35.4" y="37.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="35.4" y="37.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="35.4" y="39.05" size="1.016" layer="25" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="35.5" y="36.7" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
 </element>
-<element name="R7" library="grss" package="R0805" value="0.0" x="49.56" y="24.45" smashed="yes">
-<attribute name="POWER" value="1/8W" x="49.56" y="24.45" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="Jumper" x="49.56" y="24.45" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="49.56" y="24.45" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic" x="49.56" y="24.45" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="49.56" y="24.45" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR_PN" value="P0.0ACT-ND" x="49.56" y="24.45" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="49.56" y="25.85" size="1.016" layer="25" ratio="15" align="center"/>
-<attribute name="VALUE" x="49.56" y="23.45" size="0.254" layer="27" ratio="6" align="center"/>
+<element name="R7" library="grss" package="R0805" value="0.0" x="49.56" y="24.5" smashed="yes">
+<attribute name="POWER" value="1/8W" x="49.56" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="Jumper" x="49.56" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="49.56" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic" x="49.56" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-6GEY0R00V" x="49.56" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="P0.0ACT-ND" x="49.56" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="49.56" y="25.9" size="1.016" layer="25" ratio="15" align="center"/>
+<attribute name="VALUE" x="49.56" y="23.5" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
 </elements>
 <signals>
@@ -983,43 +967,43 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="R1" pad="2"/>
 <contactref element="C3" pad="1"/>
 <contactref element="C2" pad="1"/>
-<wire x1="43.044" y1="30.895" x2="42.9" y2="30.6" width="0.4064" layer="1"/>
-<wire x1="18.6192" y1="31.8525" x2="18.6107" y2="31.851" width="0.4064" layer="1"/>
-<via x="33.3" y="24.7" extent="1-16" drill="0.6"/>
-<wire x1="33.3" y1="24.7" x2="40.6" y2="32" width="0.4064" layer="16"/>
-<via x="40.6" y="32" extent="1-16" drill="0.6"/>
-<wire x1="32.9362" y1="26.995" x2="31.695" y2="26.995" width="0.4064" layer="1"/>
-<wire x1="31.695" y1="26.995" x2="31" y2="26.3" width="0.4064" layer="1"/>
-<wire x1="31" y1="26.3" x2="31" y2="25.3" width="0.4064" layer="1"/>
-<wire x1="31" y1="25.3" x2="31.6" y2="24.7" width="0.4064" layer="1"/>
-<wire x1="31.6" y1="24.7" x2="33.3" y2="24.7" width="0.4064" layer="1"/>
-<wire x1="37.8638" y1="30.805" x2="39.405" y2="30.805" width="0.4064" layer="1"/>
-<wire x1="39.405" y1="30.805" x2="40.6" y2="32" width="0.4064" layer="1"/>
-<wire x1="37.8638" y1="30.805" x2="42.9" y2="30.805" width="0.4064" layer="1"/>
-<wire x1="42.9" y1="30.805" x2="42.9" y2="30.6" width="0.4064" layer="1"/>
-<wire x1="36.4" y1="34.6" x2="37.4" y2="34.6" width="0.4064" layer="1"/>
-<wire x1="37.4" y1="34.6" x2="37.9" y2="34.1" width="0.4064" layer="1"/>
-<wire x1="37.9" y1="34.1" x2="37.9" y2="30.8412" width="0.4064" layer="1"/>
-<wire x1="37.9" y1="30.8412" x2="37.8638" y2="30.805" width="0.4064" layer="1"/>
-<wire x1="36.4" y1="37.6" x2="36.4" y2="34.6" width="0.4064" layer="1"/>
-<wire x1="21.4" y1="32.5" x2="20.19" y2="32.5" width="0.4064" layer="1"/>
-<wire x1="20.19" y1="32.5" x2="19.54" y2="31.85" width="0.4064" layer="1"/>
-<wire x1="19.54" y1="31.85" x2="18.6217" y2="31.85" width="0.4064" layer="1"/>
-<wire x1="18.6217" y1="31.85" x2="18.6192" y2="31.8525" width="0.4064" layer="1"/>
-<wire x1="21.4" y1="32.5" x2="26" y2="32.5" width="0.4064" layer="1"/>
-<wire x1="26" y1="32.5" x2="33" y2="39.5" width="0.4064" layer="1"/>
-<wire x1="33" y1="39.5" x2="35.8" y2="39.5" width="0.4064" layer="1"/>
-<wire x1="35.8" y1="39.5" x2="36.4" y2="38.9" width="0.4064" layer="1"/>
-<wire x1="36.4" y1="38.9" x2="36.4" y2="37.6" width="0.4064" layer="1"/>
-<wire x1="28.3" y1="32.5" x2="26" y2="32.5" width="0.4064" layer="1"/>
+<wire x1="43.044" y1="30.945" x2="42.9" y2="30.65" width="0.4064" layer="1"/>
+<wire x1="18.6192" y1="31.9025" x2="18.6107" y2="31.901" width="0.4064" layer="1"/>
+<via x="33.3" y="24.75" extent="1-16" drill="0.6"/>
+<wire x1="33.3" y1="24.75" x2="40.6" y2="32.05" width="0.4064" layer="16"/>
+<via x="40.6" y="32.05" extent="1-16" drill="0.6"/>
+<wire x1="32.9362" y1="27.045" x2="31.695" y2="27.045" width="0.4064" layer="1"/>
+<wire x1="31.695" y1="27.045" x2="31" y2="26.35" width="0.4064" layer="1"/>
+<wire x1="31" y1="26.35" x2="31" y2="25.35" width="0.4064" layer="1"/>
+<wire x1="31" y1="25.35" x2="31.6" y2="24.75" width="0.4064" layer="1"/>
+<wire x1="31.6" y1="24.75" x2="33.3" y2="24.75" width="0.4064" layer="1"/>
+<wire x1="37.8638" y1="30.855" x2="39.405" y2="30.855" width="0.4064" layer="1"/>
+<wire x1="39.405" y1="30.855" x2="40.6" y2="32.05" width="0.4064" layer="1"/>
+<wire x1="37.8638" y1="30.855" x2="42.9" y2="30.855" width="0.4064" layer="1"/>
+<wire x1="42.9" y1="30.855" x2="42.9" y2="30.65" width="0.4064" layer="1"/>
+<wire x1="36.4" y1="34.65" x2="37.4" y2="34.65" width="0.4064" layer="1"/>
+<wire x1="37.4" y1="34.65" x2="37.9" y2="34.15" width="0.4064" layer="1"/>
+<wire x1="37.9" y1="34.15" x2="37.9" y2="30.8912" width="0.4064" layer="1"/>
+<wire x1="37.9" y1="30.8912" x2="37.8638" y2="30.855" width="0.4064" layer="1"/>
+<wire x1="36.4" y1="37.65" x2="36.4" y2="34.65" width="0.4064" layer="1"/>
+<wire x1="21.4" y1="32.55" x2="20.19" y2="32.55" width="0.4064" layer="1"/>
+<wire x1="20.19" y1="32.55" x2="19.54" y2="31.9" width="0.4064" layer="1"/>
+<wire x1="19.54" y1="31.9" x2="18.6217" y2="31.9" width="0.4064" layer="1"/>
+<wire x1="18.6217" y1="31.9" x2="18.6192" y2="31.9025" width="0.4064" layer="1"/>
+<wire x1="21.4" y1="32.55" x2="26" y2="32.55" width="0.4064" layer="1"/>
+<wire x1="26" y1="32.55" x2="33" y2="39.55" width="0.4064" layer="1"/>
+<wire x1="33" y1="39.55" x2="35.8" y2="39.55" width="0.4064" layer="1"/>
+<wire x1="35.8" y1="39.55" x2="36.4" y2="38.95" width="0.4064" layer="1"/>
+<wire x1="36.4" y1="38.95" x2="36.4" y2="37.65" width="0.4064" layer="1"/>
+<wire x1="28.3" y1="32.55" x2="26" y2="32.55" width="0.4064" layer="1"/>
 </signal>
 <signal name="BP">
 <contactref element="C5" pad="1"/>
 <contactref element="U1" pad="4"/>
-<wire x1="24.4" y1="28.5" x2="20.97" y2="28.5" width="0.4064" layer="1"/>
-<wire x1="20.97" y1="28.5" x2="19.52" y2="29.95" width="0.4064" layer="1"/>
-<wire x1="19.52" y1="29.95" x2="18.6217" y2="29.95" width="0.4064" layer="1"/>
-<wire x1="18.6217" y1="29.95" x2="18.6192" y2="29.9475" width="0.4064" layer="1"/>
+<wire x1="24.4" y1="28.55" x2="20.97" y2="28.55" width="0.4064" layer="1"/>
+<wire x1="20.97" y1="28.55" x2="19.52" y2="30" width="0.4064" layer="1"/>
+<wire x1="19.52" y1="30" x2="18.6217" y2="30" width="0.4064" layer="1"/>
+<wire x1="18.6217" y1="30" x2="18.6192" y2="29.9975" width="0.4064" layer="1"/>
 </signal>
 <signal name="9V0">
 <contactref element="C1" pad="1"/>
@@ -1030,37 +1014,37 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="J7" pad="1"/>
 <contactref element="J10" pad="1"/>
 <contactref element="J11" pad="1"/>
-<wire x1="16.1808" y1="31.8525" x2="16.1293" y2="31.851" width="0.4064" layer="1"/>
-<wire x1="16.1293" y1="31.851" x2="15.349" y2="31.851" width="0.4064" layer="1"/>
-<wire x1="15.349" y1="31.851" x2="14.6" y2="32.6" width="0.4064" layer="1"/>
-<wire x1="14.6" y1="32.6" x2="12.3" y2="32.6" width="0.4064" layer="1"/>
-<wire x1="12.3" y1="32.6" x2="11.6" y2="31.9" width="0.4064" layer="1"/>
-<wire x1="11.6" y1="31.9" x2="11.6" y2="30.9" width="0.4064" layer="1"/>
-<wire x1="11.6" y1="29.9" x2="11.6" y2="30.9" width="0.4064" layer="1"/>
-<wire x1="16.1808" y1="29.9475" x2="15.3475" y2="29.9475" width="0.4064" layer="1"/>
-<wire x1="15.3475" y1="29.9475" x2="14.8" y2="29.4" width="0.4064" layer="1"/>
-<wire x1="14.8" y1="29.4" x2="12.1" y2="29.4" width="0.4064" layer="1"/>
-<wire x1="12.1" y1="29.4" x2="11.6" y2="29.9" width="0.4064" layer="1"/>
-<wire x1="24.47" y1="13.62" x2="24.47" y2="9.73" width="0.4064" layer="1"/>
-<wire x1="10.2" y1="8.8" x2="25.4" y2="8.8" width="0.4064" layer="1"/>
-<wire x1="25.4" y1="8.8" x2="54.7" y2="8.8" width="0.4064" layer="1"/>
-<wire x1="54.7" y1="8.8" x2="55.37" y2="9.47" width="0.4064" layer="1"/>
-<wire x1="55.37" y1="9.47" x2="55.37" y2="13.62" width="0.4064" layer="1"/>
-<wire x1="42.53" y1="48.38" x2="42.53" y2="51.07" width="0.4064" layer="1"/>
-<wire x1="42.53" y1="51.07" x2="41.6" y2="52" width="0.4064" layer="1"/>
-<wire x1="41.6" y1="52" x2="12.5" y2="52" width="0.4064" layer="1"/>
-<wire x1="12.5" y1="52" x2="11.6" y2="51.1" width="0.4064" layer="1"/>
-<wire x1="11.6" y1="51.1" x2="11.6" y2="48.41" width="0.4064" layer="1"/>
-<wire x1="11.6" y1="48.41" x2="11.63" y2="48.38" width="0.4064" layer="1"/>
-<wire x1="11.63" y1="48.38" x2="11.63" y2="43.47" width="0.4064" layer="1"/>
-<wire x1="11.63" y1="43.47" x2="15" y2="40.1" width="0.4064" layer="1"/>
-<wire x1="15" y1="40.1" x2="15" y2="35.3" width="0.4064" layer="1"/>
-<wire x1="15" y1="35.3" x2="12.3" y2="32.6" width="0.4064" layer="1"/>
-<wire x1="5.4" y1="29.63" x2="11.33" y2="29.63" width="0.4064" layer="1"/>
-<wire x1="11.33" y1="29.63" x2="11.6" y2="29.9" width="0.4064" layer="1"/>
-<wire x1="10.2" y1="8.8" x2="5.4" y2="13.6" width="0.4064" layer="1"/>
-<wire x1="5.4" y1="13.6" x2="5.4" y2="29.63" width="0.4064" layer="1"/>
-<wire x1="24.47" y1="9.73" x2="25.4" y2="8.8" width="0.4064" layer="1"/>
+<wire x1="16.1808" y1="31.9025" x2="16.1293" y2="31.901" width="0.4064" layer="1"/>
+<wire x1="16.1293" y1="31.901" x2="15.349" y2="31.901" width="0.4064" layer="1"/>
+<wire x1="15.349" y1="31.901" x2="14.6" y2="32.65" width="0.4064" layer="1"/>
+<wire x1="14.6" y1="32.65" x2="12.3" y2="32.65" width="0.4064" layer="1"/>
+<wire x1="12.3" y1="32.65" x2="11.6" y2="31.95" width="0.4064" layer="1"/>
+<wire x1="11.6" y1="31.95" x2="11.6" y2="30.95" width="0.4064" layer="1"/>
+<wire x1="11.6" y1="29.95" x2="11.6" y2="30.95" width="0.4064" layer="1"/>
+<wire x1="16.1808" y1="29.9975" x2="15.3475" y2="29.9975" width="0.4064" layer="1"/>
+<wire x1="15.3475" y1="29.9975" x2="14.8" y2="29.45" width="0.4064" layer="1"/>
+<wire x1="14.8" y1="29.45" x2="12.1" y2="29.45" width="0.4064" layer="1"/>
+<wire x1="12.1" y1="29.45" x2="11.6" y2="29.95" width="0.4064" layer="1"/>
+<wire x1="24.47" y1="13.67" x2="24.47" y2="9.78" width="0.4064" layer="1"/>
+<wire x1="10.2" y1="8.85" x2="25.4" y2="8.85" width="0.4064" layer="1"/>
+<wire x1="25.4" y1="8.85" x2="54.7" y2="8.85" width="0.4064" layer="1"/>
+<wire x1="54.7" y1="8.85" x2="55.37" y2="9.52" width="0.4064" layer="1"/>
+<wire x1="55.37" y1="9.52" x2="55.37" y2="13.67" width="0.4064" layer="1"/>
+<wire x1="42.53" y1="48.43" x2="42.53" y2="51.12" width="0.4064" layer="1"/>
+<wire x1="42.53" y1="51.12" x2="41.6" y2="52.05" width="0.4064" layer="1"/>
+<wire x1="41.6" y1="52.05" x2="12.5" y2="52.05" width="0.4064" layer="1"/>
+<wire x1="12.5" y1="52.05" x2="11.6" y2="51.15" width="0.4064" layer="1"/>
+<wire x1="11.6" y1="51.15" x2="11.6" y2="48.46" width="0.4064" layer="1"/>
+<wire x1="11.6" y1="48.46" x2="11.63" y2="48.43" width="0.4064" layer="1"/>
+<wire x1="11.63" y1="48.43" x2="11.63" y2="43.52" width="0.4064" layer="1"/>
+<wire x1="11.63" y1="43.52" x2="15" y2="40.15" width="0.4064" layer="1"/>
+<wire x1="15" y1="40.15" x2="15" y2="35.35" width="0.4064" layer="1"/>
+<wire x1="15" y1="35.35" x2="12.3" y2="32.65" width="0.4064" layer="1"/>
+<wire x1="5.4" y1="29.68" x2="11.33" y2="29.68" width="0.4064" layer="1"/>
+<wire x1="11.33" y1="29.68" x2="11.6" y2="29.95" width="0.4064" layer="1"/>
+<wire x1="10.2" y1="8.85" x2="5.4" y2="13.65" width="0.4064" layer="1"/>
+<wire x1="5.4" y1="13.65" x2="5.4" y2="29.68" width="0.4064" layer="1"/>
+<wire x1="24.47" y1="9.78" x2="25.4" y2="8.85" width="0.4064" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="BATT" pad="V-"/>
@@ -1075,63 +1059,63 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="C3" pad="2"/>
 <contactref element="C4" pad="2"/>
 <contactref element="R7" pad="1"/>
-<wire x1="32.9362" y1="30.805" x2="29.705" y2="30.805" width="0.4064" layer="1"/>
-<wire x1="29.705" y1="30.805" x2="29.4" y2="30.5" width="0.4064" layer="1"/>
-<wire x1="34.4" y1="37.6" x2="34.4" y2="34.6" width="0.4064" layer="1"/>
-<wire x1="34.4" y1="34.6" x2="33.4" y2="34.6" width="0.4064" layer="1"/>
-<wire x1="33.4" y1="34.6" x2="32.9" y2="34.1" width="0.4064" layer="1"/>
-<wire x1="32.9" y1="34.1" x2="32.9" y2="30.8412" width="0.4064" layer="1"/>
-<wire x1="32.9" y1="30.8412" x2="32.9362" y2="30.805" width="0.4064" layer="1"/>
-<wire x1="13.6" y1="30.9" x2="16.1808" y2="30.9" width="0.4064" layer="1"/>
-<wire x1="16.1808" y1="30.9" x2="20" y2="30.9" width="0.4064" layer="1"/>
-<wire x1="20" y1="30.9" x2="20.4" y2="30.5" width="0.4064" layer="1"/>
-<wire x1="20.4" y1="30.5" x2="21.4" y2="30.5" width="0.4064" layer="1"/>
-<wire x1="21.4" y1="30.5" x2="24.4" y2="30.5" width="0.4064" layer="1"/>
-<wire x1="48.56" y1="24.45" x2="43.05" y2="24.45" width="0.4064" layer="1"/>
-<wire x1="43.05" y1="24.45" x2="42.9" y2="24.6" width="0.4064" layer="1"/>
-<wire x1="11.914" y1="24.382" x2="23.882" y2="24.382" width="0.4064" layer="1"/>
-<wire x1="23.882" y1="24.382" x2="27" y2="27.5" width="0.4064" layer="1"/>
-<wire x1="27" y1="27.5" x2="27" y2="29.4" width="0.4064" layer="1"/>
-<wire x1="27" y1="29.4" x2="25.9" y2="30.5" width="0.4064" layer="1"/>
-<wire x1="25.9" y1="30.5" x2="24.4" y2="30.5" width="0.4064" layer="1"/>
-<wire x1="29.4" y1="30.5" x2="24.4" y2="30.5" width="0.4064" layer="1"/>
-<wire x1="32.9362" y1="30.805" x2="42.9" y2="24.6" width="0" layer="19" extent="1-1"/>
-<wire x1="8.1" y1="24.4" x2="11.896" y2="24.4" width="0.4064" layer="1"/>
-<wire x1="11.896" y1="24.4" x2="11.914" y2="24.382" width="0.4064" layer="1"/>
+<wire x1="32.9362" y1="30.855" x2="29.705" y2="30.855" width="0.4064" layer="1"/>
+<wire x1="29.705" y1="30.855" x2="29.4" y2="30.55" width="0.4064" layer="1"/>
+<wire x1="34.4" y1="37.65" x2="34.4" y2="34.65" width="0.4064" layer="1"/>
+<wire x1="34.4" y1="34.65" x2="33.4" y2="34.65" width="0.4064" layer="1"/>
+<wire x1="33.4" y1="34.65" x2="32.9" y2="34.15" width="0.4064" layer="1"/>
+<wire x1="32.9" y1="34.15" x2="32.9" y2="30.8912" width="0.4064" layer="1"/>
+<wire x1="32.9" y1="30.8912" x2="32.9362" y2="30.855" width="0.4064" layer="1"/>
+<wire x1="13.6" y1="30.95" x2="16.1808" y2="30.95" width="0.4064" layer="1"/>
+<wire x1="16.1808" y1="30.95" x2="20" y2="30.95" width="0.4064" layer="1"/>
+<wire x1="20" y1="30.95" x2="20.4" y2="30.55" width="0.4064" layer="1"/>
+<wire x1="20.4" y1="30.55" x2="21.4" y2="30.55" width="0.4064" layer="1"/>
+<wire x1="21.4" y1="30.55" x2="24.4" y2="30.55" width="0.4064" layer="1"/>
+<wire x1="48.56" y1="24.5" x2="43.05" y2="24.5" width="0.4064" layer="1"/>
+<wire x1="43.05" y1="24.5" x2="42.9" y2="24.65" width="0.4064" layer="1"/>
+<wire x1="11.914" y1="24.432" x2="23.882" y2="24.432" width="0.4064" layer="1"/>
+<wire x1="23.882" y1="24.432" x2="27" y2="27.55" width="0.4064" layer="1"/>
+<wire x1="27" y1="27.55" x2="27" y2="29.45" width="0.4064" layer="1"/>
+<wire x1="27" y1="29.45" x2="25.9" y2="30.55" width="0.4064" layer="1"/>
+<wire x1="25.9" y1="30.55" x2="24.4" y2="30.55" width="0.4064" layer="1"/>
+<wire x1="29.4" y1="30.55" x2="24.4" y2="30.55" width="0.4064" layer="1"/>
+<wire x1="32.9362" y1="30.855" x2="42.9" y2="24.65" width="0" layer="19" extent="1-1"/>
+<wire x1="8.1" y1="24.45" x2="11.896" y2="24.45" width="0.4064" layer="1"/>
+<wire x1="11.896" y1="24.45" x2="11.914" y2="24.432" width="0.4064" layer="1"/>
 </signal>
 <signal name="THRTRIG">
 <contactref element="U2" pad="2"/>
 <contactref element="U2" pad="6"/>
 <contactref element="R2" pad="1"/>
 <contactref element="C4" pad="1"/>
-<wire x1="37.9168" y1="28.318" x2="37.8638" y2="28.265" width="0.4064" layer="1"/>
-<wire x1="32.9362" y1="29.535" x2="33.0512" y2="29.6" width="0.4064" layer="1"/>
-<wire x1="33.0512" y1="29.6" x2="34.88" y2="29.6" width="0.4064" layer="1"/>
-<wire x1="34.88" y1="29.6" x2="36.13" y2="28.35" width="0.4064" layer="1"/>
-<wire x1="36.13" y1="28.35" x2="37.9488" y2="28.35" width="0.4064" layer="1"/>
-<wire x1="37.9488" y1="28.35" x2="37.8638" y2="28.265" width="0.4064" layer="1"/>
-<wire x1="45.9" y1="26.6" x2="42.9" y2="26.6" width="0.4064" layer="1"/>
-<wire x1="42.9" y1="26.6" x2="41.4" y2="26.6" width="0.4064" layer="1"/>
-<wire x1="41.4" y1="26.6" x2="39.7" y2="28.3" width="0.4064" layer="1"/>
-<wire x1="39.7" y1="28.3" x2="37.8988" y2="28.3" width="0.4064" layer="1"/>
-<wire x1="37.8988" y1="28.3" x2="37.8638" y2="28.265" width="0.4064" layer="1"/>
+<wire x1="37.9168" y1="28.368" x2="37.8638" y2="28.315" width="0.4064" layer="1"/>
+<wire x1="32.9362" y1="29.585" x2="33.0512" y2="29.65" width="0.4064" layer="1"/>
+<wire x1="33.0512" y1="29.65" x2="34.88" y2="29.65" width="0.4064" layer="1"/>
+<wire x1="34.88" y1="29.65" x2="36.13" y2="28.4" width="0.4064" layer="1"/>
+<wire x1="36.13" y1="28.4" x2="37.9488" y2="28.4" width="0.4064" layer="1"/>
+<wire x1="37.9488" y1="28.4" x2="37.8638" y2="28.315" width="0.4064" layer="1"/>
+<wire x1="45.9" y1="26.65" x2="42.9" y2="26.65" width="0.4064" layer="1"/>
+<wire x1="42.9" y1="26.65" x2="41.4" y2="26.65" width="0.4064" layer="1"/>
+<wire x1="41.4" y1="26.65" x2="39.7" y2="28.35" width="0.4064" layer="1"/>
+<wire x1="39.7" y1="28.35" x2="37.8988" y2="28.35" width="0.4064" layer="1"/>
+<wire x1="37.8988" y1="28.35" x2="37.8638" y2="28.315" width="0.4064" layer="1"/>
 </signal>
 <signal name="555OUT">
 <contactref element="U2" pad="3"/>
 <contactref element="Q1" pad="1"/>
 <contactref element="TP3" pad="TP"/>
 <contactref element="R3" pad="2"/>
-<wire x1="32.9362" y1="28.265" x2="29.635" y2="28.265" width="0.4064" layer="1"/>
-<wire x1="29.635" y1="28.265" x2="29.4" y2="28.5" width="0.4064" layer="1"/>
-<wire x1="53.4913" y1="28.95" x2="50.71" y2="28.95" width="0.4064" layer="1"/>
-<via x="50.71" y="28.95" extent="1-16" drill="0.6"/>
-<wire x1="50.71" y1="28.95" x2="46.95" y2="28.95" width="0.4064" layer="16"/>
-<wire x1="46.95" y1="28.95" x2="40.6" y2="22.6" width="0.4064" layer="16"/>
-<via x="40.6" y="22.6" extent="1-16" drill="0.6"/>
-<wire x1="40.6" y1="22.6" x2="31.5" y2="22.6" width="0.4064" layer="1"/>
-<wire x1="31.5" y1="22.6" x2="29.4" y2="24.7" width="0.4064" layer="1"/>
-<wire x1="29.4" y1="24.7" x2="29.4" y2="28.5" width="0.4064" layer="1"/>
-<wire x1="29.4" y1="22.7" x2="29.4" y2="24.7" width="0.4064" layer="1"/>
+<wire x1="32.9362" y1="28.315" x2="29.635" y2="28.315" width="0.4064" layer="1"/>
+<wire x1="29.635" y1="28.315" x2="29.4" y2="28.55" width="0.4064" layer="1"/>
+<wire x1="53.4913" y1="29" x2="50.71" y2="29" width="0.4064" layer="1"/>
+<via x="50.71" y="29" extent="1-16" drill="0.6"/>
+<wire x1="50.71" y1="29" x2="46.95" y2="29" width="0.4064" layer="16"/>
+<wire x1="46.95" y1="29" x2="40.6" y2="22.65" width="0.4064" layer="16"/>
+<via x="40.6" y="22.65" extent="1-16" drill="0.6"/>
+<wire x1="40.6" y1="22.65" x2="31.5" y2="22.65" width="0.4064" layer="1"/>
+<wire x1="31.5" y1="22.65" x2="29.4" y2="24.75" width="0.4064" layer="1"/>
+<wire x1="29.4" y1="24.75" x2="29.4" y2="28.55" width="0.4064" layer="1"/>
+<wire x1="29.4" y1="22.75" x2="29.4" y2="24.75" width="0.4064" layer="1"/>
 </signal>
 <signal name="VD">
 <contactref element="R4" pad="1"/>
@@ -1140,86 +1124,86 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="Q1" pad="3"/>
 <contactref element="J10" pad="2"/>
 <contactref element="TP4" pad="TP"/>
-<wire x1="41.1" y1="19.1" x2="44.1" y2="19.1" width="0.4064" layer="1"/>
-<wire x1="52.83" y1="13.62" x2="52.83" y2="19.93" width="0.4064" layer="1"/>
-<wire x1="45.91" y1="30.6" x2="55.7" y2="30.6" width="0.4064" layer="1"/>
-<wire x1="55.7" y1="30.6" x2="59.6" y2="26.7" width="0.4064" layer="1"/>
-<wire x1="52.83" y1="19.93" x2="59.6" y2="26.7" width="0.4064" layer="1"/>
-<wire x1="44.1" y1="19.1" x2="52" y2="19.1" width="0.4064" layer="1"/>
-<wire x1="52" y1="19.1" x2="52.83" y2="19.93" width="0.4064" layer="1"/>
-<wire x1="50.6" y1="17.7" x2="52" y2="19.1" width="0.4064" layer="1"/>
+<wire x1="41.1" y1="19.15" x2="44.1" y2="19.15" width="0.4064" layer="1"/>
+<wire x1="52.83" y1="13.67" x2="52.83" y2="19.98" width="0.4064" layer="1"/>
+<wire x1="45.91" y1="30.65" x2="55.7" y2="30.65" width="0.4064" layer="1"/>
+<wire x1="55.7" y1="30.65" x2="59.6" y2="26.75" width="0.4064" layer="1"/>
+<wire x1="52.83" y1="19.98" x2="59.6" y2="26.75" width="0.4064" layer="1"/>
+<wire x1="44.1" y1="19.15" x2="52" y2="19.15" width="0.4064" layer="1"/>
+<wire x1="52" y1="19.15" x2="52.83" y2="19.98" width="0.4064" layer="1"/>
+<wire x1="50.6" y1="17.75" x2="52" y2="19.15" width="0.4064" layer="1"/>
 </signal>
 <signal name="RES789">
 <contactref element="R6" pad="2"/>
 <contactref element="J9" pad="2"/>
-<wire x1="44.1" y1="17.1" x2="44.1" y2="16.08" width="0.4064" layer="1"/>
-<wire x1="44.1" y1="16.08" x2="42.53" y2="14.51" width="0.4064" layer="1"/>
-<wire x1="42.53" y1="14.51" x2="42.53" y2="13.62" width="0.4064" layer="1"/>
+<wire x1="44.1" y1="17.15" x2="44.1" y2="16.13" width="0.4064" layer="1"/>
+<wire x1="44.1" y1="16.13" x2="42.53" y2="14.56" width="0.4064" layer="1"/>
+<wire x1="42.53" y1="14.56" x2="42.53" y2="13.67" width="0.4064" layer="1"/>
 </signal>
 <signal name="RES456">
 <contactref element="R5" pad="2"/>
 <contactref element="J6" pad="2"/>
-<wire x1="11.63" y1="13.62" x2="11.63" y2="15.83" width="0.4064" layer="1"/>
-<wire x1="11.63" y1="15.83" x2="13.4" y2="17.6" width="0.4064" layer="1"/>
-<wire x1="13.4" y1="17.6" x2="35.2" y2="17.6" width="0.4064" layer="1"/>
-<wire x1="35.2" y1="17.6" x2="35.7" y2="17.1" width="0.4064" layer="1"/>
-<wire x1="35.7" y1="17.1" x2="41.1" y2="17.1" width="0.4064" layer="1"/>
+<wire x1="11.63" y1="13.67" x2="11.63" y2="16.58" width="0.4064" layer="1"/>
+<wire x1="11.63" y1="16.58" x2="13.3" y2="18.25" width="0.4064" layer="1"/>
+<wire x1="13.3" y1="18.25" x2="34.4" y2="18.25" width="0.4064" layer="1"/>
+<wire x1="34.4" y1="18.25" x2="35.5" y2="17.15" width="0.4064" layer="1"/>
+<wire x1="35.5" y1="17.15" x2="41.1" y2="17.15" width="0.4064" layer="1"/>
 </signal>
 <signal name="LED89">
 <contactref element="J8" pad="2"/>
 <contactref element="J9" pad="1"/>
-<wire x1="32.23" y1="13.62" x2="32.23" y2="11.27" width="0.4064" layer="1"/>
-<wire x1="32.23" y1="11.27" x2="33" y2="10.5" width="0.4064" layer="1"/>
-<wire x1="33" y1="10.5" x2="44.24" y2="10.5" width="0.4064" layer="1"/>
-<wire x1="44.24" y1="10.5" x2="45.06" y2="11.32" width="0.4064" layer="1"/>
-<wire x1="45.06" y1="11.32" x2="45.06" y2="13.61" width="0.4064" layer="1"/>
-<wire x1="45.06" y1="13.61" x2="45.07" y2="13.62" width="0.4064" layer="1"/>
+<wire x1="32.23" y1="13.67" x2="32.23" y2="11.32" width="0.4064" layer="1"/>
+<wire x1="32.23" y1="11.32" x2="33" y2="10.55" width="0.4064" layer="1"/>
+<wire x1="33" y1="10.55" x2="44.24" y2="10.55" width="0.4064" layer="1"/>
+<wire x1="44.24" y1="10.55" x2="45.06" y2="11.37" width="0.4064" layer="1"/>
+<wire x1="45.06" y1="11.37" x2="45.06" y2="13.66" width="0.4064" layer="1"/>
+<wire x1="45.06" y1="13.66" x2="45.07" y2="13.67" width="0.4064" layer="1"/>
 </signal>
 <signal name="LED56">
 <contactref element="J5" pad="2"/>
 <contactref element="J6" pad="1"/>
-<wire x1="55.4" y1="48.35" x2="55.37" y2="48.38" width="0.4064" layer="1"/>
-<via x="44.9" y="44.9" extent="1-16" drill="0.6"/>
-<wire x1="44.9" y1="44.9" x2="54.62" y2="44.9" width="0.4064" layer="1"/>
-<wire x1="54.62" y1="44.9" x2="55.37" y2="45.65" width="0.4064" layer="1"/>
-<wire x1="55.37" y1="45.65" x2="55.37" y2="48.38" width="0.4064" layer="1"/>
-<wire x1="14.17" y1="13.62" x2="14.17" y2="15.47" width="0.4064" layer="1"/>
-<wire x1="14.17" y1="15.47" x2="15.4" y2="16.7" width="0.4064" layer="1"/>
-<via x="15.4" y="16.7" extent="1-16" drill="0.6"/>
-<wire x1="15.4" y1="16.7" x2="16.7" y2="16.7" width="0.4064" layer="16"/>
-<wire x1="16.7" y1="16.7" x2="44.9" y2="44.9" width="0.4064" layer="16"/>
+<wire x1="55.4" y1="48.4" x2="55.37" y2="48.43" width="0.4064" layer="1"/>
+<via x="44.9" y="44.95" extent="1-16" drill="0.6"/>
+<wire x1="44.9" y1="44.95" x2="54.62" y2="44.95" width="0.4064" layer="1"/>
+<wire x1="54.62" y1="44.95" x2="55.37" y2="45.7" width="0.4064" layer="1"/>
+<wire x1="55.37" y1="45.7" x2="55.37" y2="48.43" width="0.4064" layer="1"/>
+<wire x1="14.17" y1="13.67" x2="14.17" y2="15.52" width="0.4064" layer="1"/>
+<wire x1="14.17" y1="15.52" x2="15.4" y2="16.75" width="0.4064" layer="1"/>
+<via x="15.4" y="16.75" extent="1-16" drill="0.6"/>
+<wire x1="15.4" y1="16.75" x2="16.7" y2="16.75" width="0.4064" layer="16"/>
+<wire x1="16.7" y1="16.75" x2="44.9" y2="44.95" width="0.4064" layer="16"/>
 </signal>
 <signal name="RES123">
 <contactref element="R4" pad="2"/>
 <contactref element="J3" pad="2"/>
-<wire x1="45.91" y1="32.6" x2="45.91" y2="34.43" width="0.4064" layer="1"/>
-<wire x1="45.91" y1="34.43" x2="34.78" y2="45.56" width="0.4064" layer="1"/>
-<wire x1="34.78" y1="45.56" x2="34.78" y2="48.37" width="0.4064" layer="1"/>
-<wire x1="34.78" y1="48.37" x2="34.77" y2="48.38" width="0.4064" layer="1"/>
+<wire x1="45.91" y1="32.65" x2="45.91" y2="34.48" width="0.4064" layer="1"/>
+<wire x1="45.91" y1="34.48" x2="34.78" y2="45.61" width="0.4064" layer="1"/>
+<wire x1="34.78" y1="45.61" x2="34.78" y2="48.42" width="0.4064" layer="1"/>
+<wire x1="34.78" y1="48.42" x2="34.77" y2="48.43" width="0.4064" layer="1"/>
 </signal>
 <signal name="LED23">
 <contactref element="J2" pad="2"/>
 <contactref element="J3" pad="1"/>
-<wire x1="24.47" y1="48.38" x2="32.23" y2="48.38" width="0.4064" layer="1"/>
+<wire x1="24.47" y1="48.43" x2="32.23" y2="48.43" width="0.4064" layer="1"/>
 </signal>
 <signal name="LED12">
 <contactref element="J1" pad="2"/>
 <contactref element="J2" pad="1"/>
-<wire x1="14.17" y1="48.38" x2="21.93" y2="48.38" width="0.4064" layer="1"/>
+<wire x1="14.17" y1="48.43" x2="21.93" y2="48.43" width="0.4064" layer="1"/>
 </signal>
 <signal name="LED45">
 <contactref element="J4" pad="2"/>
 <contactref element="J5" pad="1"/>
-<wire x1="45.07" y1="48.38" x2="52.83" y2="48.38" width="0.4064" layer="1"/>
+<wire x1="45.07" y1="48.43" x2="52.83" y2="48.43" width="0.4064" layer="1"/>
 </signal>
 <signal name="LED78">
 <contactref element="J7" pad="2"/>
 <contactref element="J8" pad="1"/>
-<wire x1="21.93" y1="13.62" x2="21.93" y2="15.53" width="0.4064" layer="1"/>
-<wire x1="21.93" y1="15.53" x2="22.7" y2="16.3" width="0.4064" layer="1"/>
-<wire x1="22.7" y1="16.3" x2="34.04" y2="16.3" width="0.4064" layer="1"/>
-<wire x1="34.04" y1="16.3" x2="34.77" y2="15.57" width="0.4064" layer="1"/>
-<wire x1="34.77" y1="15.57" x2="34.77" y2="13.62" width="0.4064" layer="1"/>
+<wire x1="21.93" y1="13.67" x2="21.93" y2="15.58" width="0.4064" layer="1"/>
+<wire x1="21.93" y1="15.58" x2="22.7" y2="16.35" width="0.4064" layer="1"/>
+<wire x1="22.7" y1="16.35" x2="34.04" y2="16.35" width="0.4064" layer="1"/>
+<wire x1="34.04" y1="16.35" x2="34.77" y2="15.62" width="0.4064" layer="1"/>
+<wire x1="34.77" y1="15.62" x2="34.77" y2="13.67" width="0.4064" layer="1"/>
 </signal>
 <signal name="NC">
 <contactref element="U2" pad="5"/>
@@ -1228,24 +1212,24 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="U2" pad="7"/>
 <contactref element="R1" pad="1"/>
 <contactref element="R2" pad="2"/>
-<wire x1="42.9" y1="28.6" x2="40.9" y2="28.6" width="0.4064" layer="1"/>
-<wire x1="40.9" y1="28.6" x2="40" y2="29.5" width="0.4064" layer="1"/>
-<wire x1="40" y1="29.5" x2="37.8988" y2="29.5" width="0.4064" layer="1"/>
-<wire x1="37.8988" y1="29.5" x2="37.8638" y2="29.535" width="0.4064" layer="1"/>
-<wire x1="42.9" y1="28.6" x2="45.9" y2="28.6" width="0.4064" layer="1"/>
+<wire x1="42.9" y1="28.65" x2="40.9" y2="28.65" width="0.4064" layer="1"/>
+<wire x1="40.9" y1="28.65" x2="40" y2="29.55" width="0.4064" layer="1"/>
+<wire x1="40" y1="29.55" x2="37.8988" y2="29.55" width="0.4064" layer="1"/>
+<wire x1="37.8988" y1="29.55" x2="37.8638" y2="29.585" width="0.4064" layer="1"/>
+<wire x1="42.9" y1="28.65" x2="45.9" y2="28.65" width="0.4064" layer="1"/>
 </signal>
 <signal name="9VSRC">
 <contactref element="J11" pad="2"/>
 <contactref element="BATT" pad="V+"/>
-<wire x1="5.4" y1="32.17" x2="9.07" y2="32.17" width="0.4064" layer="1"/>
-<wire x1="9.07" y1="32.17" x2="11.9" y2="35" width="0.4064" layer="1"/>
-<wire x1="11.9" y1="35" x2="11.9" y2="37.322" width="0.4064" layer="1"/>
-<wire x1="11.9" y1="37.322" x2="11.914" y2="37.336" width="0.4064" layer="1"/>
+<wire x1="5.4" y1="32.22" x2="9.07" y2="32.22" width="0.4064" layer="1"/>
+<wire x1="9.07" y1="32.22" x2="11.9" y2="35.05" width="0.4064" layer="1"/>
+<wire x1="11.9" y1="35.05" x2="11.9" y2="37.372" width="0.4064" layer="1"/>
+<wire x1="11.9" y1="37.372" x2="11.914" y2="37.386" width="0.4064" layer="1"/>
 </signal>
 <signal name="ZEROOHM">
 <contactref element="R7" pad="2"/>
 <contactref element="Q1" pad="2"/>
-<wire x1="53.4913" y1="24.45" x2="50.56" y2="24.45" width="0.4064" layer="1"/>
+<wire x1="53.4913" y1="24.5" x2="50.56" y2="24.5" width="0.4064" layer="1"/>
 </signal>
 </signals>
 </board>
