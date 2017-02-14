@@ -11956,7 +11956,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="C6" library="grss" deviceset="CAP" device="_0805" technology="_3UF3" value="3.3uF"/>
 <part name="C1" library="grss" deviceset="CAP" device="_0805" technology="_1UF0" value="1uF"/>
 <part name="C5" library="grss" deviceset="CAP" device="_0805" technology="_10NF0" value="0.01uF"/>
-<part name="J11" library="grss" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
+<part name="J11" library="grss" deviceset="MOLSL_2PIN" device="_V" technology="_SL2V" value="MOL-SL-2-V"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device="" value="Schematic"/>
 <part name="U2" library="grss" deviceset="LMC555CMX/NOPB" device="" value="LMC555CMX/NOPB"/>
 <part name="U1" library="grss" deviceset="LP2985AIM5-4.5/NOPB" device="" value="LP2985AIM5-4.5/NOPB"/>
@@ -12059,7 +12059,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="C5" gate="G$1" x="-58.42" y="101.6"/>
 <instance part="J11" gate="G$1" x="-185.42" y="154.94" smashed="yes">
 <attribute name="NAME" x="-190.5" y="162.56" size="2.0828" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-183.896" y="147.32" size="1.778" layer="96" align="center"/>
+<attribute name="VALUE" x="-183.134" y="147.32" size="1.778" layer="96" align="center"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="-195.58" y="48.26"/>
 <instance part="U2" gate="A" x="-154.94" y="134.62"/>
