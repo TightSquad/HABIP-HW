@@ -365,7 +365,7 @@
 <text x="-0.4001" y="0.7499" size="0.4064" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="0.519" y="-0.808" size="0.254" layer="27" ratio="6">&gt;VALUE</text>
 <text x="0" y="-1.405" size="0.4064" layer="37" ratio="6">&gt;TP_SIGNAL_NAME</text>
-<circle x="0" y="0" radius="0.25" width="0.6" layer="29"/>
+<circle x="0" y="0" radius="0.55" width="0" layer="29"/>
 </package>
 <package name="MOLSL-2-RA">
 <description>&lt;b&gt;C-Grid SL Connector&lt;/b&gt;&lt;p&gt;
@@ -4763,6 +4763,22 @@
 <wire x1="0.9" y1="1.97" x2="0.8" y2="2.07" width="0.15" layer="21" curve="90"/>
 <wire x1="0.8" y1="2.07" x2="0.8" y2="1.67" width="0.15" layer="21" curve="180"/>
 <wire x1="0.8" y1="1.67" x2="0.6" y2="-0.23" width="0.15" layer="21" curve="-192.017996"/>
+</package>
+<package name="TP15R">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<smd name="TP" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<text x="-0.4001" y="0.9499" size="0.4064" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="0.519" y="-1.008" size="0.254" layer="27" ratio="6">&gt;VALUE</text>
+<text x="0" y="-1.605" size="0.4064" layer="37" ratio="6">&gt;TP_SIGNAL_NAME</text>
+<circle x="0" y="0" radius="0.8" width="0" layer="29"/>
+</package>
+<package name="TP20R">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<smd name="TP" x="0" y="0" dx="2" dy="2" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<text x="-0.9001" y="1.2499" size="0.4064" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="0.519" y="-1.308" size="0.254" layer="27" ratio="6">&gt;VALUE</text>
+<text x="0" y="-1.805" size="0.4064" layer="37" ratio="6">&gt;TP_SIGNAL_NAME</text>
+<circle x="0" y="0" radius="1.05" width="0" layer="29"/>
 </package>
 </packages>
 <symbols>
@@ -42296,7 +42312,27 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <connect gate="G$1" pin="TP" pad="TP"/>
 </connects>
 <technologies>
-<technology name="_TP10R_SMD">
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_15R_SMD" package="TP15R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_20R_SMD" package="TP20R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -42417,8 +42453,8 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="GND606" library="daqcs" deviceset="GND" device=""/>
 <part name="R613" library="daqcs" deviceset="RES" device="_0603" technology="_4R7" value="4.7k"/>
 <part name="GND608" library="daqcs" deviceset="GND" device=""/>
-<part name="TP607" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="TP608" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP607" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
+<part name="TP608" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
 <part name="J603" library="daqcs" deviceset="MOLSL_3PIN" device="_V" technology="_SL3V" value="MOL-SL-3-V"/>
 <part name="R607" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
 <part name="R608" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
@@ -42472,8 +42508,8 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="J604" library="daqcs" deviceset="RECEPTICAL-2X3-254MM-PIZERO-RUN" device="_TH" technology="_2X3_254MM" value="RECEPTACLE-2x3-2.54MM"/>
 <part name="GND607" library="daqcs" deviceset="GND" device=""/>
 <part name="GND610" library="daqcs" deviceset="GND" device=""/>
-<part name="TP605" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="TP606" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP605" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
+<part name="TP606" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
 <part name="C506" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
 <part name="C513" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
 <part name="GND523" library="daqcs" deviceset="GND" device=""/>
@@ -42514,9 +42550,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="C505" library="daqcs" deviceset="CAP" device="_0603" technology="_10NF0" value="10nF"/>
 <part name="R408" library="daqcs" deviceset="RES" device="_0805" technology="_0R0_0805" value="0.0"/>
 <part name="TOC101" library="daqcs" deviceset="TOC-10" device=""/>
-<part name="TP611" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="TP613" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="TP609" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP611" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
+<part name="TP613" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
+<part name="TP609" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
 <part name="R312" library="daqcs" deviceset="RES" device="_0603" technology="_0R499" value="49.9"/>
 <part name="C601" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
 <part name="GND611" library="daqcs" deviceset="GND" device=""/>
@@ -42583,19 +42619,19 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="PP5V0_BST403" library="daqcs" deviceset="PP5V0_BST" device=""/>
 <part name="PP5V0_BST401" library="daqcs" deviceset="PP5V0_BST" device=""/>
 <part name="PP5V0_BST_HAT601" library="daqcs" deviceset="PP5V0_BST_HAT" device=""/>
-<part name="TP508" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="TP509" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="TP510" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="TP511" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="TP512" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP508" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
+<part name="TP509" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
+<part name="TP510" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
+<part name="TP511" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
+<part name="TP512" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
 <part name="GND304" library="daqcs" deviceset="GND" device=""/>
 <part name="GND411" library="daqcs" deviceset="GND" device=""/>
 <part name="GND614" library="daqcs" deviceset="GND" device=""/>
-<part name="TP614" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP614" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
 <part name="GND613" library="daqcs" deviceset="GND" device=""/>
-<part name="TP612" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP612" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
 <part name="GND609" library="daqcs" deviceset="GND" device=""/>
-<part name="TP610" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP610" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
 <part name="R403" library="daqcs" deviceset="RES" device="_0603" technology="_0R499" value="49.9"/>
 <part name="R305" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="R306" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
@@ -42625,11 +42661,11 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="C408" library="daqcs" deviceset="CAP" device="_0805" technology="_10UF0_0805" value="10uF"/>
 <part name="J601" library="daqcs" deviceset="RECEPTICAL-2X5-254MM-PIZERO" device="_TH" value="RECEPTACLE-2x5-2.54MM"/>
 <part name="BOM710" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI10" value="HEADER-RECT-MALE-2X5"/>
-<part name="TP501" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="TP502" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="TP503" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="TP504" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="TP505" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP501" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
+<part name="TP502" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
+<part name="TP503" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
+<part name="TP504" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
+<part name="TP505" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
 <part name="R401" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0">
 <variant name="POR" populate="no"/>
 </part>
@@ -42642,21 +42678,21 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="R409" library="daqcs" deviceset="RES" device="_0805" technology="_0R0_0805" value="0.0"/>
 <part name="TP301" library="daqcs" deviceset="TEST_POINT_TH" device="" technology="_D102_R"/>
 <part name="TP302" library="daqcs" deviceset="TEST_POINT_TH" device="" technology="_D102_B"/>
-<part name="TP304" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP304" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
 <part name="TP401" library="daqcs" deviceset="TEST_POINT_TH" device="" technology="_D102_R"/>
 <part name="TP403" library="daqcs" deviceset="TEST_POINT_TH" device="" technology="_D102_R"/>
-<part name="TP404" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP404" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
 <part name="TP402" library="daqcs" deviceset="TEST_POINT_TH" device="" technology="_D102_R"/>
-<part name="TP506" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
-<part name="TP507" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP506" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
+<part name="TP507" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
 <part name="TP601" library="daqcs" deviceset="TEST_POINT_TH" device="" technology="_D102_R"/>
 <part name="TP602" library="daqcs" deviceset="TEST_POINT_TH" device="" technology="_D102_W"/>
 <part name="TP603" library="daqcs" deviceset="TEST_POINT_TH" device="" technology="_D102_Y"/>
 <part name="TP604" library="daqcs" deviceset="TEST_POINT_TH" device="" technology="_D102_B"/>
-<part name="TP303" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP303" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
 <part name="GND306" library="daqcs" deviceset="GND" device=""/>
 <part name="GND526" library="daqcs" deviceset="GND" device=""/>
-<part name="TP513" library="daqcs" deviceset="TEST_POINT_SMT" device="_10R_SMD" technology="_TP10R_SMD"/>
+<part name="TP513" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
 <part name="OUTLINE601" library="daqcs" deviceset="RASPI_ZERO_OUTLINE" device="_3S0C_ONLY"/>
 <part name="LOGO1" library="daqcs" deviceset="SQUAD_LOGO" device=""/>
 <part name="LOGO2" library="daqcs" deviceset="CMS_LOGO" device=""/>
