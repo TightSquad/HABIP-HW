@@ -12356,7 +12356,7 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="J8" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="NC" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="CVOLT"/>
 <pinref part="NC1" gate="G$1" pin="NC"/>
