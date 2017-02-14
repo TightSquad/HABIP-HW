@@ -11958,7 +11958,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="C5" library="grss" deviceset="CAP" device="_0805" technology="_10NF0" value="0.01uF"/>
 <part name="J11" library="grss" deviceset="MOLSL_2PIN" device="_V" technology="_SL2V" value="MOL-SL-2-V"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device="" value="Schematic"/>
-<part name="U2" library="grss" deviceset="LMC555CMX/NOPB" device="" value="LMC555CMX/NOPB"/>
+<part name="U2" library="grss" deviceset="LMC555CMX/NOPB" device="" value="LMC555CMX"/>
 <part name="U1" library="grss" deviceset="LP2985AIM5-4.5/NOPB" device="" value="LP2985AIM5-4.5/NOPB"/>
 <part name="Q1" library="grss" deviceset="STD12NF06LT4" device="" value="STD12NF06LT4"/>
 <part name="GND1" library="grss" deviceset="GND" device=""/>
