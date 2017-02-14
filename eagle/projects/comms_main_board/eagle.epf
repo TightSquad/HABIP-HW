@@ -323,7 +323,7 @@ UsedLibrary="/Users/connorgoldberg/GitHub/HABIP_HW/eagle/libraries/eagle_install
 [Win_1]
 Type="Control Panel"
 Loc="42 23 641 398"
-State=1
+State=2
 Number=0
 
 [Win_2]
