@@ -45045,8 +45045,8 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <approved hash="113,6,39.1862,108.31,TP604,,,,,"/>
 <approved hash="113,3,167.824,86.7198,TP303,,,,,"/>
 <approved hash="113,5,409.124,56.2398,TP513,,,,,"/>
-<approved hash="113,6,160.02,12.7,LOGO1,,,,,"/>
-<approved hash="113,6,160.02,25.4,LOGO2,,,,,"/>
+<approved hash="113,6,160.02,12.7,LOGO602,,,,,"/>
+<approved hash="113,6,160.02,25.4,LOGO601,,,,,"/>
 <approved hash="115,4,273.05,119.38,N$18,,,,,"/>
 <approved hash="115,4,256.54,120.65,N$18,,,,,"/>
 <approved hash="115,4,273.05,124.46,N$18,,,,,"/>
