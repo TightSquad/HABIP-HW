@@ -8,11 +8,11 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -226,9 +226,9 @@
  right angle, 4 pin</description>
 <wire x1="6.1913" y1="5.8738" x2="4.1275" y2="5.8738" width="0.15" layer="21"/>
 <wire x1="4.1275" y1="5.8738" x2="-6.1913" y2="5.8738" width="0.15" layer="21"/>
-<wire x1="-6.1913" y1="5.8738" x2="-6.1913" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="-6.1913" y1="-5.715" x2="6.1913" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="6.1913" y1="-5.715" x2="6.1913" y2="5.8738" width="0.15" layer="21"/>
+<wire x1="-6.1913" y1="5.8738" x2="-6.1913" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="-6.1913" y1="-5.5" x2="6.1913" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="6.1913" y1="-5.5" x2="6.1913" y2="5.8738" width="0.15" layer="21"/>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-3.175" width="0.15" layer="21"/>
 <wire x1="-1.27" y1="-3.175" x2="1.27" y2="-3.175" width="0.15" layer="21"/>
 <wire x1="1.27" y1="-3.175" x2="1.27" y2="2.54" width="0.15" layer="21"/>
@@ -469,12 +469,12 @@ JST PH 2-pin thru-home side entry</description>
 <smd name="S3" x="-3.2" y="2.425" dx="1.4" dy="1.6" layer="1" rot="R90" stop="no"/>
 <smd name="S4" x="3.2" y="2.425" dx="1.4" dy="1.6" layer="1" rot="R90" stop="no"/>
 <text x="-3.92" y="3.9" size="0.4064" layer="25" font="vector" ratio="6">&gt;NAME</text>
-<wire x1="-4.43" y1="-1.45" x2="4.43" y2="-1.45" width="0.15" layer="21"/>
-<wire x1="-4.43" y1="-1.45" x2="-4.43" y2="3.2" width="0.15" layer="21"/>
-<wire x1="-4.43" y1="3.2" x2="-4.08" y2="3.6" width="0.15" layer="21"/>
+<wire x1="-4.5" y1="-1.45" x2="4.5" y2="-1.45" width="0.15" layer="21"/>
+<wire x1="-4.5" y1="-1.45" x2="-4.5" y2="3.2" width="0.15" layer="21"/>
+<wire x1="-4.5" y1="3.2" x2="-4.08" y2="3.6" width="0.15" layer="21"/>
 <wire x1="-4.08" y1="3.6" x2="4.08" y2="3.6" width="0.15" layer="21"/>
-<wire x1="4.08" y1="3.6" x2="4.43" y2="3.2" width="0.15" layer="21"/>
-<wire x1="4.43" y1="3.2" x2="4.43" y2="-1.45" width="0.15" layer="21"/>
+<wire x1="4.08" y1="3.6" x2="4.5" y2="3.2" width="0.15" layer="21"/>
+<wire x1="4.5" y1="3.2" x2="4.5" y2="-1.45" width="0.15" layer="21"/>
 <smd name="S5" x="-1.2" y="0" dx="1.9" dy="1.9" layer="1" stop="no"/>
 <smd name="S6" x="1.2" y="0" dx="1.9" dy="1.9" layer="1" stop="no"/>
 <text x="-4.08" y="-1.91" size="0.254" layer="27" ratio="6">&gt;VALUE</text>
@@ -505,9 +505,9 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="-1.905" y1="4.445" x2="1.905" y2="4.445" width="0.15" layer="21"/>
 <wire x1="1.905" y1="4.445" x2="3.175" y2="3.175" width="0.15" layer="21" curve="-90"/>
 <wire x1="3.175" y1="3.175" x2="3.175" y2="2.54" width="0.15" layer="21"/>
-<wire x1="-3.9688" y1="2.54" x2="-3.9688" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="-3.9688" y1="-5.715" x2="3.9688" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="3.9688" y1="-5.715" x2="3.9688" y2="2.54" width="0.15" layer="21"/>
+<wire x1="-3.9688" y1="2.54" x2="-3.9688" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="-3.9688" y1="-5.5" x2="3.9688" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="3.9688" y1="-5.5" x2="3.9688" y2="2.54" width="0.15" layer="21"/>
 <wire x1="-2.8575" y1="-5.715" x2="-2.8575" y2="-6.35" width="0.05" layer="51"/>
 <wire x1="-2.8575" y1="-6.35" x2="-2.8575" y2="-7.9375" width="0.05" layer="51"/>
 <wire x1="2.8575" y1="-7.9375" x2="2.8575" y2="-6.35" width="0.05" layer="51"/>
@@ -660,9 +660,9 @@ JST PH 2-pin thru-home side entry</description>
  right angle, 6 pin</description>
 <wire x1="10.0013" y1="5.8738" x2="4.1275" y2="5.8738" width="0.15" layer="21"/>
 <wire x1="4.1275" y1="5.8738" x2="-10.0013" y2="5.8738" width="0.15" layer="21"/>
-<wire x1="-10.0013" y1="5.8738" x2="-10.0013" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="-10.0013" y1="-5.715" x2="10.0013" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="10.0013" y1="-5.715" x2="10.0013" y2="5.8738" width="0.15" layer="21"/>
+<wire x1="-10.0013" y1="5.8738" x2="-10.0013" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="-10.0013" y1="-5.5" x2="10.0013" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="10.0013" y1="-5.5" x2="10.0013" y2="5.8738" width="0.15" layer="21"/>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-3.175" width="0.15" layer="21"/>
 <wire x1="-1.27" y1="-3.175" x2="1.27" y2="-3.175" width="0.15" layer="21"/>
 <wire x1="1.27" y1="-3.175" x2="1.27" y2="2.54" width="0.15" layer="21"/>
@@ -756,9 +756,9 @@ JST PH 2-pin thru-home side entry</description>
  right angle, 5 pin</description>
 <wire x1="7.4613" y1="5.8738" x2="4.1275" y2="5.8738" width="0.15" layer="21"/>
 <wire x1="4.1275" y1="5.8738" x2="-7.4613" y2="5.8738" width="0.15" layer="21"/>
-<wire x1="-7.4613" y1="5.8738" x2="-7.4613" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="-7.4613" y1="-5.715" x2="7.4613" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="7.4613" y1="-5.715" x2="7.4613" y2="5.8738" width="0.15" layer="21"/>
+<wire x1="-7.4613" y1="5.8738" x2="-7.4613" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="-7.4613" y1="-5.5" x2="7.4613" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="7.4613" y1="-5.5" x2="7.4613" y2="5.8738" width="0.15" layer="21"/>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-3.175" width="0.15" layer="21"/>
 <wire x1="-1.27" y1="-3.175" x2="1.27" y2="-3.175" width="0.15" layer="21"/>
 <wire x1="1.27" y1="-3.175" x2="1.27" y2="2.54" width="0.15" layer="21"/>
@@ -870,7 +870,7 @@ JST PH 2-pin thru-home side entry</description>
  right angle, 3 pin</description>
 <wire x1="5.2388" y1="5.8738" x2="4.1275" y2="5.8738" width="0.15" layer="21"/>
 <wire x1="4.1275" y1="5.8738" x2="-5.2387" y2="5.8738" width="0.15" layer="21"/>
-<wire x1="-5.2387" y1="5.8738" x2="-5.2388" y2="-5.715" width="0.15" layer="21"/>
+<wire x1="-5.2387" y1="5.8738" x2="-5.2388" y2="-5.5" width="0.15" layer="21"/>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-3.175" width="0.15" layer="21"/>
 <wire x1="-1.27" y1="-3.175" x2="1.27" y2="-3.175" width="0.15" layer="21"/>
 <wire x1="1.27" y1="-3.175" x2="1.27" y2="2.54" width="0.15" layer="21"/>
@@ -885,8 +885,8 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="-1.905" y1="4.445" x2="1.905" y2="4.445" width="0.15" layer="21"/>
 <wire x1="1.905" y1="4.445" x2="3.175" y2="3.175" width="0.15" layer="21" curve="-90"/>
 <wire x1="3.175" y1="3.175" x2="3.175" y2="2.54" width="0.15" layer="21"/>
-<wire x1="-5.2388" y1="-5.715" x2="5.2388" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="5.2388" y1="-5.715" x2="5.2388" y2="5.8738" width="0.15" layer="21"/>
+<wire x1="-5.2388" y1="-5.5" x2="5.2388" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="5.2388" y1="-5.5" x2="5.2388" y2="5.8738" width="0.15" layer="21"/>
 <wire x1="-4.1275" y1="-5.715" x2="-4.1275" y2="-6.35" width="0.05" layer="51"/>
 <wire x1="-4.1275" y1="-6.35" x2="-4.1275" y2="-7.9375" width="0.05" layer="51"/>
 <wire x1="-4.1275" y1="-6.35" x2="-3.175" y2="-6.35" width="0.05" layer="51"/>
@@ -942,8 +942,8 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="-1.55" y1="-0.9" x2="1.55" y2="-0.9" width="0.127" layer="39"/>
 <wire x1="1.55" y1="-0.9" x2="1.55" y2="0.9" width="0.127" layer="39"/>
 <wire x1="1.55" y1="0.9" x2="-1.55" y2="0.9" width="0.127" layer="39"/>
-<wire x1="-0.25" y1="0.625" x2="0.25" y2="0.625" width="0.127" layer="21"/>
-<wire x1="-0.25" y1="-0.625" x2="0.25" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="0.625" x2="0.2" y2="0.625" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="-0.625" x2="0.2" y2="-0.625" width="0.127" layer="21"/>
 </package>
 <package name="R0603">
 <description>&lt;b&gt;0603 Chip Resistor&lt;/b&gt;
@@ -1030,18 +1030,18 @@ JST PH 2-pin thru-home side entry</description>
 <smd name="2" x="7.9" y="-10.24" dx="0.7" dy="1.5" layer="1"/>
 <smd name="1" x="9" y="-10.64" dx="0.7" dy="1.5" layer="1"/>
 <text x="3.7" y="-3.94" size="1.27" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="1.016" y2="0" width="0.127" layer="21"/>
-<wire x1="3.048" y1="0" x2="6.985" y2="0" width="0.127" layer="21"/>
-<wire x1="9.017" y1="0" x2="14.097" y2="0" width="0.127" layer="21"/>
-<wire x1="14.097" y1="0" x2="14.097" y2="-13.335" width="0.127" layer="21"/>
-<wire x1="14.097" y1="-15.494" x2="12.7" y2="-15.494" width="0.127" layer="21"/>
-<wire x1="12.7" y1="-15.494" x2="12.7" y2="-14.859" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0.8" y2="0" width="0.127" layer="21"/>
+<wire x1="3.2" y1="0" x2="6.7" y2="0" width="0.127" layer="21"/>
+<wire x1="9.2" y1="0" x2="14.097" y2="0" width="0.127" layer="21"/>
+<wire x1="14.097" y1="0" x2="14.097" y2="-13.2" width="0.127" layer="21"/>
+<wire x1="14.097" y1="-15.6" x2="12.7" y2="-15.6" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-15.6" x2="12.7" y2="-14.859" width="0.127" layer="21"/>
 <wire x1="12.7" y1="-14.859" x2="11.43" y2="-13.589" width="0.127" layer="21" curve="90"/>
 <wire x1="11.43" y1="-13.589" x2="1.651" y2="-13.589" width="0.127" layer="21"/>
 <wire x1="1.651" y1="-13.589" x2="1.27" y2="-13.97" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-13.97" x2="1.27" y2="-14.605" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-14.605" x2="0" y2="-14.605" width="0.127" layer="21"/>
-<wire x1="0" y1="-12.446" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-13.97" x2="1.27" y2="-14.7" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-14.7" x2="0" y2="-14.7" width="0.127" layer="21"/>
+<wire x1="0" y1="-12.3" x2="0" y2="0" width="0.127" layer="21"/>
 </package>
 <package name="ASEMB-24MHZ-XY-T-PAC">
 <wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.127" layer="51"/>
@@ -1052,10 +1052,10 @@ JST PH 2-pin thru-home side entry</description>
 <smd name="P$2" x="1.05" y="-0.95" dx="0.9" dy="1" layer="1" rot="R180"/>
 <smd name="P$3" x="1.05" y="0.95" dx="0.9" dy="1" layer="1" rot="R180"/>
 <smd name="P$4" x="-1.05" y="0.95" dx="0.9" dy="1" layer="1" rot="R180"/>
-<wire x1="-0.5" y1="1.25" x2="0.5" y2="1.25" width="0.127" layer="21"/>
-<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="0.5" y1="-1.25" x2="-0.5" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="1.25" x2="0.4" y2="1.25" width="0.127" layer="21"/>
+<wire x1="1.7" y1="1.25" x2="1.7" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="0.4" y1="-1.25" x2="-0.4" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-1.25" x2="-1.7" y2="1.25" width="0.127" layer="21"/>
 <circle x="-1.9" y="-0.9" radius="0.111803125" width="0.127" layer="21"/>
 </package>
 <package name="PN0080A_N">
@@ -1571,7 +1571,7 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="-1.75" y1="1.5" x2="1.75" y2="1.5" width="0.0508" layer="51"/>
 <wire x1="1.75" y1="1.5" x2="1.75" y2="-1.5" width="0.0508" layer="51"/>
 <wire x1="1.75" y1="-1.5" x2="-1.75" y2="-1.5" width="0.0508" layer="51"/>
-<circle x="-2.05" y="1.8" radius="0.2" width="0" layer="21"/>
+<circle x="-2.15" y="1.9" radius="0.2" width="0" layer="21"/>
 <rectangle x1="1.39" y1="1.05" x2="1.62" y2="1.4" layer="51"/>
 <rectangle x1="0.96" y1="1.05" x2="1.19" y2="1.4" layer="51"/>
 <rectangle x1="0.53" y1="1.05" x2="0.76" y2="1.4" layer="51"/>
@@ -1620,10 +1620,10 @@ JST PH 2-pin thru-home side entry</description>
 <smd name="22" x="-0.215" y="1.225" dx="0.45" dy="0.27" layer="1" rot="R90"/>
 <smd name="23" x="-0.645" y="1.225" dx="0.45" dy="0.27" layer="1" rot="R90"/>
 <smd name="24" x="-1.075" y="1.225" dx="0.45" dy="0.27" layer="1" rot="R90"/>
-<wire x1="-1.85" y1="1.6" x2="1.85" y2="1.6" width="0.1016" layer="21"/>
-<wire x1="1.85" y1="1.6" x2="1.85" y2="-1.6" width="0.1016" layer="21"/>
-<wire x1="1.85" y1="-1.6" x2="-1.85" y2="-1.6" width="0.1016" layer="21"/>
-<wire x1="-1.85" y1="-1.6" x2="-1.85" y2="1.6" width="0.1016" layer="21"/>
+<wire x1="-1.95" y1="1.7" x2="1.95" y2="1.7" width="0.1016" layer="21"/>
+<wire x1="1.95" y1="1.7" x2="1.95" y2="-1.7" width="0.1016" layer="21"/>
+<wire x1="1.95" y1="-1.7" x2="-1.95" y2="-1.7" width="0.1016" layer="21"/>
+<wire x1="-1.95" y1="-1.7" x2="-1.95" y2="1.7" width="0.1016" layer="21"/>
 <text x="-1.778" y="1.778" size="0.8128" layer="25">&gt;Name</text>
 <text x="-1.778" y="-1.778" size="0.8128" layer="27" align="top-left">&gt;Value</text>
 <wire x1="-0.567" y1="-0.432" x2="-0.567" y2="0.556" width="0.0762" layer="51"/>
@@ -1754,17 +1754,17 @@ JST PH 2-pin thru-home side entry</description>
 <smd name="3" x="-1.1176" y="-0.95" dx="1.016" dy="0.5588" layer="1"/>
 <smd name="4" x="1.1176" y="-0.95" dx="1.016" dy="0.5588" layer="1"/>
 <smd name="5" x="1.1176" y="0.95" dx="1.016" dy="0.5588" layer="1"/>
-<wire x1="0.8636" y1="1.2954" x2="0.8636" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="0.8636" y1="-0.5842" x2="0.8636" y2="0.5842" width="0.1524" layer="21"/>
-<wire x1="-0.8636" y1="-1.2954" x2="-0.8636" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-0.8636" y1="-0.3556" x2="-0.8636" y2="-0.5842" width="0.1524" layer="21"/>
-<wire x1="-0.8636" y1="0.5842" x2="-0.8636" y2="0.3556" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="1.45" x2="0.8636" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="-0.45" x2="0.8636" y2="0.45" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="-1.45" x2="-0.8636" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="-0.47" x2="-0.8636" y2="-0.48" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="0.47" x2="-0.8636" y2="0.48" width="0.1524" layer="21"/>
 <wire x1="-0.8636" y1="-1.524" x2="0.8636" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="0.8636" y1="-1.524" x2="0.8636" y2="-1.2954" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="-1.524" x2="0.8636" y2="-1.45" width="0.1524" layer="21"/>
 <wire x1="0.8636" y1="1.524" x2="0.3048" y2="1.524" width="0.1524" layer="21"/>
 <wire x1="0.3048" y1="1.524" x2="-0.3048" y2="1.524" width="0.1524" layer="21"/>
 <wire x1="-0.3048" y1="1.524" x2="-0.8636" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-0.8636" y1="1.524" x2="-0.8636" y2="1.2954" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="1.524" x2="-0.8636" y2="1.45" width="0.1524" layer="21"/>
 <wire x1="0.3048" y1="1.524" x2="-0.3048" y2="1.524" width="0.1524" layer="21" curve="-180"/>
 <text x="-1.9558" y="1.3716" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <wire x1="-0.8636" y1="-1.524" x2="0.8636" y2="-1.524" width="0.1524" layer="51"/>
@@ -1912,11 +1912,9 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="3.685" y1="-2.54" x2="3.685" y2="2.54" width="0.15" layer="21"/>
 <wire x1="3.685" y1="2.54" x2="-3.685" y2="2.54" width="0.15" layer="21"/>
 <wire x1="-3.685" y1="2.54" x2="-3.685" y2="-2.54" width="0.15" layer="21"/>
-<wire x1="-3.685" y1="-2.54" x2="-1.27" y2="-2.54" width="0.15" layer="21"/>
 <wire x1="-1.27" y1="-2.54" x2="-1.27" y2="-4.06" width="0.15" layer="51"/>
 <wire x1="-1.27" y1="-4.06" x2="1.27" y2="-4.06" width="0.15" layer="51"/>
 <wire x1="1.27" y1="-4.06" x2="1.27" y2="-2.54" width="0.15" layer="51"/>
-<wire x1="1.27" y1="-2.54" x2="3.685" y2="-2.54" width="0.15" layer="21"/>
 <wire x1="-2.665" y1="1.395" x2="-2.665" y2="-1.395" width="0.05" layer="51"/>
 <wire x1="2.665" y1="1.395" x2="2.665" y2="-1.395" width="0.05" layer="51"/>
 <wire x1="-2.665" y1="1.395" x2="2.665" y2="1.395" width="0.05" layer="51"/>
@@ -1930,10 +1928,10 @@ JST PH 2-pin thru-home side entry</description>
 <pad name="1" x="-1.27" y="0" drill="1.09" shape="long" rot="R90"/>
 <text x="-4.445" y="-2.54" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-3.4925" y="3.4925" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-3.048" y="-1.5875" size="1.016" layer="21" ratio="10">1</text>
+<text x="-3.448" y="-2.1875" size="1.016" layer="21" ratio="10">1</text>
 <rectangle x1="1.0319" y1="-0.2381" x2="1.5081" y2="0.2381" layer="51"/>
 <rectangle x1="-1.5081" y1="-0.2381" x2="-1.0319" y2="0.2381" layer="51"/>
-<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.15" layer="21"/>
+<wire x1="-3.685" y1="-2.54" x2="3.685" y2="-2.54" width="0.15" layer="21"/>
 </package>
 </packages>
 </library>
@@ -2159,7 +2157,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VOLTAGE" value="16V" x="58.8" y="57.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="58.8" y="57.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="58.8" y="57.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="57.95" y="57.6" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="60.15" y="57.7" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="59.55" y="57.6" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
 <element name="C10" library="daqcs_host" package="C0603" value="10uF" x="33.1" y="64.8" smashed="yes" rot="R90">
@@ -2170,7 +2168,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VOLTAGE" value="10V" x="33.1" y="64.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR_PN" value="490-10474-1-ND" x="33.1" y="64.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="33.1" y="64.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="32.25" y="64.8" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="33.1" y="62.85" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="33.85" y="64.8" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
 <element name="C11" library="daqcs_host" package="C0603" value="22pF" x="62.8" y="63" smashed="yes" rot="R90">
@@ -2181,7 +2179,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VOLTAGE" value="50V" x="62.8" y="63" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR_PN" value="490-3575-1-ND" x="62.8" y="63" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="62.8" y="63" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="61.95" y="63" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="63" y="65.25" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="63.55" y="63" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
 <element name="C12" library="daqcs_host" package="C0603" value="22pF" x="60.34" y="63.07" smashed="yes" rot="R90">
@@ -2192,7 +2190,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VOLTAGE" value="50V" x="60.34" y="63.07" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR_PN" value="490-3575-1-ND" x="60.34" y="63.07" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="60.34" y="63.07" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="59.49" y="63.07" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="60.33" y="65.09" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="61.09" y="63.07" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
 <element name="C13" library="daqcs_host" package="C0603" value="22pF" x="42.2" y="83.2" smashed="yes" rot="R90">
@@ -2258,7 +2256,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VOLTAGE" value="16V" x="94.6" y="43.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="94.6" y="43.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="94.6" y="43.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="93.75" y="43.3" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="95.95" y="43.4" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="95.35" y="43.3" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
 <element name="C19" library="daqcs_host" package="C0603" value="1uF" x="22" y="22.2" smashed="yes" rot="R90">
@@ -2280,7 +2278,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VOLTAGE" value="16V" x="57.5" y="44.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="57.5" y="44.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="57.5" y="44.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="56.65" y="44.4" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="57.5" y="46.35" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="58.25" y="44.4" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
 <element name="C20" library="daqcs_host" package="C0603" value="100nF" x="20.2" y="22.2" smashed="yes" rot="R90">
@@ -2335,7 +2333,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VOLTAGE" value="10V" x="10.31" y="63.12" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR_PN" value="490-10474-1-ND" x="10.31" y="63.12" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="10.31" y="63.12" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="8.66" y="63.12" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="8.86" y="63.12" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="9.56" y="63.12" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
 </element>
 <element name="C26" library="daqcs_host" package="C0603" value="100nF" x="27.7" y="50.4" smashed="yes">
@@ -2368,7 +2366,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VOLTAGE" value="10V" x="56.9" y="22.6" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="490-10474-1-ND" x="56.9" y="22.6" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="56.9" y="22.6" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="56.9" y="23.75" size="0.8128" layer="25" ratio="15" align="center"/>
+<attribute name="NAME" x="56.9" y="23.85" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="56.9" y="21.85" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
 <element name="C29" library="daqcs_host" package="C0603" value="100nF" x="56.9" y="20.4" smashed="yes">
@@ -2390,7 +2388,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VOLTAGE" value="16V" x="73.3" y="56.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="73.3" y="56.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="73.3" y="56.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="74.15" y="56.9" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="73.3" y="58.85" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="72.55" y="56.9" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
 </element>
 <element name="C30" library="daqcs_host" package="C0603" value="100nF" x="48.9" y="12.7" smashed="yes" rot="R270">
@@ -2426,16 +2424,16 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="NAME" x="55.55" y="17.3" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="57.65" y="17.5" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
-<element name="C33" library="daqcs_host" package="C0603" value="10000pF" x="68.5" y="60.9" smashed="yes" rot="R90">
-<attribute name="MANUFACTURER" value="AVX Corporation" x="68.5" y="60.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PN" value="06035C103KAT4A" x="68.5" y="60.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TEMP_COEFF" value="X7R" x="68.5" y="60.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="68.5" y="60.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOLTAGE" value="50V" x="68.5" y="60.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VENDOR_PN" value="478-10055-1-ND" x="68.5" y="60.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLERANCE" value="±10%" x="68.5" y="60.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="67.65" y="60.9" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
-<attribute name="VALUE" x="69.25" y="60.9" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
+<element name="C33" library="daqcs_host" package="C0603" value="10000pF" x="68.6" y="60.9" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="AVX Corporation" x="68.6" y="60.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PN" value="06035C103KAT4A" x="68.6" y="60.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TEMP_COEFF" value="X7R" x="68.6" y="60.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="68.6" y="60.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="50V" x="68.6" y="60.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR_PN" value="478-10055-1-ND" x="68.6" y="60.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="68.6" y="60.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="68.5" y="63.05" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="69.35" y="60.9" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
 <element name="C34" library="daqcs_host" package="C0603" value="10000pF" x="47.6" y="80.9" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="AVX Corporation" x="47.6" y="80.9" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2456,7 +2454,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VOLTAGE" value="16V" x="72.2" y="41.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="72.2" y="41.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="72.2" y="41.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="72.2" y="40.55" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="70.1" y="41.35" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="72.2" y="42.15" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
 </element>
 <element name="C5" library="daqcs_host" package="C0603" value="10uF" x="55.5" y="44.4" smashed="yes" rot="R90">
@@ -2467,7 +2465,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VOLTAGE" value="10V" x="55.5" y="44.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR_PN" value="490-10474-1-ND" x="55.5" y="44.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="55.5" y="44.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="54.65" y="44.4" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="55.5" y="46.35" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="56.25" y="44.4" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
 <element name="C6" library="daqcs_host" package="C0603" value="100nF" x="37.8" y="77.7" smashed="yes" rot="R90">
@@ -2478,7 +2476,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VOLTAGE" value="16V" x="37.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="37.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="37.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="36.95" y="77.7" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="39.15" y="77.7" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="38.55" y="77.7" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
 <element name="C7" library="daqcs_host" package="C0603" value="100nF" x="35.5" y="64.8" smashed="yes" rot="R90">
@@ -2489,7 +2487,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VOLTAGE" value="16V" x="35.5" y="64.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="35.5" y="64.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="35.5" y="64.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="34.65" y="64.8" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="35.6" y="62.85" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="36.25" y="64.8" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
 <element name="C8" library="daqcs_host" package="C0603" value="100nF" x="52.3" y="77.6" smashed="yes" rot="R270">
@@ -2500,7 +2498,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VOLTAGE" value="16V" x="52.3" y="77.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="52.3" y="77.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="52.3" y="77.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="53.15" y="77.6" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="52.3" y="79.75" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="51.55" y="77.6" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
 </element>
 <element name="C9" library="daqcs_host" package="C0603" value="100nF" x="51.1" y="61" smashed="yes" rot="R180">
@@ -2511,7 +2509,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VOLTAGE" value="16V" x="51.1" y="61" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR_PN" value="490-1532-1-ND" x="51.1" y="61" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="51.1" y="61" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="51.1" y="60.15" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="51.1" y="59.85" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="51.1" y="61.75" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
 </element>
 <element name="DS1" library="daqcs_host" package="LED0603" value="YELLOW" x="15.69" y="59.68" smashed="yes" rot="R90">
@@ -2551,7 +2549,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digi-key" x="50.3" y="55.1" size="1.778" layer="27" display="off"/>
 <attribute name="FORWARD_CURRENT" value="20mA" x="50.3" y="55.1" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="732-4971-1-ND" x="50.3" y="55.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="50.3" y="55.95" size="0.8128" layer="25" ratio="15" align="center"/>
+<attribute name="NAME" x="47.7" y="55.15" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="50.3" y="54.35" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
 <element name="DS5" library="daqcs_host" package="LED0603" value="BLUE" x="50.3" y="53.4" smashed="yes">
@@ -2561,7 +2559,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digi-key" x="50.3" y="53.4" size="1.778" layer="27" display="off"/>
 <attribute name="FORWARD_CURRENT" value="20mA" x="50.3" y="53.4" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="732-4966-1-ND" x="50.3" y="53.4" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="50.3" y="54.25" size="0.8128" layer="25" ratio="15" align="center"/>
+<attribute name="NAME" x="47.7" y="53.35" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="50.3" y="52.65" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
 <element name="DS6" library="daqcs_host" package="LED0603" value="GREEN" x="30.2" y="75.2" smashed="yes">
@@ -2600,7 +2598,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POSITIONS" value="4" x="101.46" y="96.05" size="1.778" layer="27" display="off"/>
 <attribute name="MAX_CURRENT" value="3.0A" x="101.46" y="96.05" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="94.7925" y="90.335" size="0.8128" layer="25" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="109.3975" y="90.335" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="J10" library="daqcs_host" package="MOLSL-3-V" value="MOL-SL-3-V" x="79.86" y="12.58" smashed="yes" rot="R180">
 <attribute name="LOCKING" value="YES" x="79.86" y="12.58" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2614,7 +2611,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POSITIONS" value="3" x="79.86" y="12.58" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MAX_CURRENT" value="3.0A" x="79.86" y="12.58" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="85.575" y="15.12" size="0.8128" layer="25" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="84.6225" y="9.0875" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="J12" library="daqcs_host" package="2X10" value="" x="96.62" y="5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="109.32" y="8.175" size="1.27" layer="26" ratio="10" rot="MR0"/>
@@ -2631,7 +2627,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR_PN" value="455-1719-ND" x="6.6" y="36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PITCH" value="2.0mm" x="6.6" y="36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POSITIONS" value="2" x="6.6" y="36" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="4.6" y="36" size="0.8128" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="5.1" y="32.5" size="0.8128" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="5.1" y="36" size="0.254" layer="27" font="vector" ratio="6" rot="R90" align="center"/>
 </element>
 <element name="J14" library="daqcs_host" package="MICROUSB-RIGHT" value="USB_MICROB_RECPT" x="1.69" y="62.96" smashed="yes" rot="R270">
@@ -2642,7 +2638,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="CONTACTS" value="5" x="1.69" y="62.96" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUNT_TYPE" value="TH/SMD" x="1.69" y="62.96" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR_PN" value="609-4616-1-ND" x="1.69" y="62.96" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="5.59" y="66.88" size="0.8128" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="1.49" y="58.28" size="0.8128" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="-0.22" y="67.04" size="0.254" layer="27" ratio="6" rot="R270"/>
 </element>
 <element name="J16" library="daqcs_host" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="120.96" y="86.19" smashed="yes" rot="R270">
@@ -2657,7 +2653,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POSITIONS" value="2" x="120.96" y="86.19" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MAX_CURRENT" value="3.0A" x="120.96" y="86.19" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="115.245" y="90.635" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="115.245" y="80.475" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="J17" library="daqcs_host" package="SAMTEC_CLM-112-02-L-D-IMU-MOUNT" value="CLM-112-02-L-D-IMU-MOUNT_IMU" x="56.49" y="35.55" smashed="yes" rot="MR180">
 <attribute name="MANUFACTURER" value="SAMTEC" x="56.49" y="35.55" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2665,8 +2660,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="PACKAGE" value="MICRO SOCKET, 1.0MM, SMD, 2x12WAY" x="56.49" y="35.55" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="56.49" y="35.55" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR_PN" value="SAM1129-12-ND" x="56.49" y="35.55" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="51.8926" y="32.1718" size="2.0828" layer="26" ratio="10" rot="SMR180"/>
-<attribute name="VALUE" x="50.6226" y="40.8586" size="2.0828" layer="28" ratio="10" rot="SMR180"/>
+<attribute name="NAME" x="47.8926" y="41.3718" size="2.0828" layer="26" ratio="10" rot="SMR180"/>
 </element>
 <element name="J18" library="daqcs_host" package="MOLSL-7-RA" value="MOLSL-7-RA" x="120.7" y="55.69" smashed="yes" rot="R270">
 <attribute name="LOCKING" value="Yes" x="120.7" y="55.69" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2679,8 +2673,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR_PN" value="WM4158-ND" x="120.7" y="55.69" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POSITIONS" value="7" x="120.7" y="55.69" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MAX_CURRENT" value="3.0A" x="120.7" y="55.69" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="114.985" y="64.8975" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="114.985" y="44.5125" size="0.8128" layer="27" ratio="10"/>
+<attribute name="NAME" x="115.085" y="66.1975" size="0.8128" layer="25" ratio="15"/>
 </element>
 <element name="J19" library="daqcs_host" package="2X10" value="" x="23.63" y="5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="36.33" y="8.175" size="1.27" layer="26" ratio="10" rot="MR0"/>
@@ -2698,7 +2691,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POSITIONS" value="4" x="120.65" y="18.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MAX_CURRENT" value="3.0A" x="120.65" y="18.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="114.935" y="24.9175" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="114.935" y="10.3125" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="J3" library="daqcs_host" package="MOLSL-4-RA" value="MOL-SL-4-RA" x="47.64" y="95.85" smashed="yes">
 <attribute name="LOCKING" value="YES" x="47.64" y="95.85" size="1.778" layer="27" display="off"/>
@@ -2712,7 +2704,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POSITIONS" value="4" x="47.64" y="95.85" size="1.778" layer="27" display="off"/>
 <attribute name="MAX_CURRENT" value="3.0A" x="47.64" y="95.85" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.9725" y="90.135" size="0.8128" layer="25" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="55.5775" y="90.135" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="J4" library="daqcs_host" package="MOLSL-4-RA" value="MOL-SL-4-RA" x="31.93" y="95.85" smashed="yes">
 <attribute name="LOCKING" value="YES" x="31.93" y="95.85" size="1.778" layer="27" display="off"/>
@@ -2726,7 +2717,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POSITIONS" value="4" x="31.93" y="95.85" size="1.778" layer="27" display="off"/>
 <attribute name="MAX_CURRENT" value="3.0A" x="31.93" y="95.85" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="25.2625" y="90.135" size="0.8128" layer="25" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="39.8675" y="90.135" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="J5" library="daqcs_host" package="MOLSL-5-RA" value="MOL-SL-5-RA" x="82.34" y="95.95" smashed="yes">
 <attribute name="LOCKING" value="YES" x="82.34" y="95.95" size="1.778" layer="27" display="off"/>
@@ -2740,7 +2730,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POSITIONS" value="5" x="82.34" y="95.95" size="1.778" layer="27" display="off"/>
 <attribute name="MAX_CURRENT" value="3.0A" x="82.34" y="95.95" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="74.4025" y="90.235" size="0.8128" layer="25" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="91.5475" y="90.235" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="J6" library="daqcs_host" package="MOLSL-3-V" value="MOL-SL-3-V" x="94.26" y="12.48" smashed="yes" rot="R180">
 <attribute name="LOCKING" value="YES" x="94.26" y="12.48" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2754,7 +2743,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POSITIONS" value="3" x="94.26" y="12.48" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MAX_CURRENT" value="3.0A" x="94.26" y="12.48" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="99.975" y="15.02" size="0.8128" layer="25" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="99.0225" y="8.9875" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="J7" library="daqcs_host" package="MOLSL-5-V" value="MOL-SL-5-V" x="122.78" y="35.28" smashed="yes" rot="R90">
 <attribute name="LOCKING" value="YES" x="122.78" y="35.28" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2768,7 +2756,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POSITIONS" value="5" x="122.78" y="35.28" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MAX_CURRENT" value="3.0A" x="122.78" y="35.28" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="125.32" y="27.025" size="0.8128" layer="25" ratio="15" rot="R180"/>
-<attribute name="VALUE" x="119.2875" y="27.9775" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="J8" library="daqcs_host" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="64.18" y="95.96" smashed="yes">
 <attribute name="LOCKING" value="YES" x="64.18" y="95.96" size="1.778" layer="27" display="off"/>
@@ -2782,7 +2769,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POSITIONS" value="3" x="64.18" y="95.96" size="1.778" layer="27" display="off"/>
 <attribute name="MAX_CURRENT" value="3.0A" x="64.18" y="95.96" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="58.465" y="90.245" size="0.8128" layer="25" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="71.165" y="90.245" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="J9" library="daqcs_host" package="MOLSL-4-RA" value="MOL-SL-4-RA" x="16.12" y="95.75" smashed="yes">
 <attribute name="LOCKING" value="YES" x="16.12" y="95.75" size="1.778" layer="27" display="off"/>
@@ -2796,7 +2782,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POSITIONS" value="4" x="16.12" y="95.75" size="1.778" layer="27" display="off"/>
 <attribute name="MAX_CURRENT" value="3.0A" x="16.12" y="95.75" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="9.4525" y="90.035" size="0.8128" layer="25" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="24.0575" y="90.035" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="L1" library="daqcs_host" package="WE-PMI_0805" value="1uH" x="13.89" y="41.53" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="Murata" x="13.89" y="41.53" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2816,7 +2801,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="56.7" y="57.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="56.7" y="57.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="56.7" y="57.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="57.55" y="57.6" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="56.5" y="59.55" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="55.95" y="57.6" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
 </element>
 <element name="R10" library="daqcs_host" package="R0603" value="0" x="43.5" y="23.3" smashed="yes" rot="R180">
@@ -2856,7 +2841,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="82.1" y="43.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="82.1" y="43.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="82.1" y="43.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="82.1" y="42.35" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="82.2" y="41.95" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="82.1" y="43.95" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
 </element>
 <element name="R14" library="daqcs_host" package="R0603" value="0" x="82.1" y="44.7" smashed="yes">
@@ -2866,7 +2851,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="82.1" y="44.7" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="82.1" y="44.7" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="82.1" y="44.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="82.1" y="45.55" size="0.8128" layer="25" ratio="15" align="center"/>
+<attribute name="NAME" x="82.2" y="45.95" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="82.1" y="43.95" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
 <element name="R15" library="daqcs_host" package="R0603" value="0" x="91.5" y="45.7" smashed="yes" rot="R270">
@@ -2876,7 +2861,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="91.5" y="45.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="91.5" y="45.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="91.5" y="45.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="92.35" y="45.7" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="91.5" y="47.95" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="90.75" y="45.7" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
 </element>
 <element name="R16" library="daqcs_host" package="R0603" value="47k" x="21.9" y="16.3" smashed="yes" rot="R270">
@@ -2896,7 +2881,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="20.98" y="19.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR_PN" value="P100KHCT-ND" x="20.98" y="19.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="20.98" y="19.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="20.38" y="18.03" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="23.68" y="19.13" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="20.98" y="19.93" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
 </element>
 <element name="R18" library="daqcs_host" package="R0603" value="2k" x="13.21" y="64.02" smashed="yes">
@@ -2926,7 +2911,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="36.1" y="77.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="36.1" y="77.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="36.1" y="77.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="36.95" y="77.7" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="35.5" y="79.65" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="35.35" y="77.7" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
 </element>
 <element name="R20" library="daqcs_host" package="R0603" value="0" x="11.09" y="66.12" smashed="yes">
@@ -2936,7 +2921,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="11.09" y="66.12" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="11.09" y="66.12" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="11.09" y="66.12" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.09" y="67.27" size="0.8128" layer="25" ratio="15" align="center"/>
+<attribute name="NAME" x="11.09" y="67.47" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="11.09" y="65.37" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
 <element name="R21" library="daqcs_host" package="R0603" value="2k" x="6.08" y="54.02" smashed="yes">
@@ -2946,7 +2931,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="6.08" y="54.02" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="P2.00KHCT-ND" x="6.08" y="54.02" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="6.08" y="54.02" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.08" y="54.87" size="0.8128" layer="25" ratio="15" align="center"/>
+<attribute name="NAME" x="6.18" y="55.47" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="6.08" y="53.27" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
 <element name="R22" library="daqcs_host" package="R0603" value="4" x="9.6" y="40.8" smashed="yes">
@@ -2956,7 +2941,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="9.6" y="40.8" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="311-.4QCT-ND" x="9.6" y="40.8" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="9.6" y="40.8" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="9.6" y="41.65" size="0.8128" layer="25" ratio="15" align="center"/>
+<attribute name="NAME" x="9.6" y="42.05" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="9.6" y="40.05" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
 <element name="R23" library="daqcs_host" package="R0603" value="0" x="31.62" y="58.04" smashed="yes" rot="R270">
@@ -2966,7 +2951,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="31.62" y="58.04" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="31.62" y="58.04" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="31.62" y="58.04" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="32.47" y="58.04" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="33.46" y="56.27" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="30.87" y="58.04" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
 </element>
 <element name="R24" library="daqcs_host" package="R0603" value="0" x="29.42" y="58.05" smashed="yes" rot="R270">
@@ -2976,7 +2961,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="29.42" y="58.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="29.42" y="58.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="29.42" y="58.05" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="30.27" y="58.05" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="27.85" y="56.57" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="28.67" y="58.05" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
 </element>
 <element name="R25" library="daqcs" package="R0603" value="1k" x="27.7" y="48.4" smashed="yes">
@@ -2996,7 +2981,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="54.1" y="55.1" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="P2.00KHCT-ND" x="54.1" y="55.1" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="54.1" y="55.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="54.1" y="55.95" size="0.8128" layer="25" ratio="15" align="center"/>
+<attribute name="NAME" x="54.1" y="56.25" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="54.1" y="54.35" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
 <element name="R27" library="daqcs_host" package="R0603" value="2k" x="54.1" y="53.4" smashed="yes">
@@ -3006,7 +2991,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="54.1" y="53.4" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="P2.00KHCT-ND" x="54.1" y="53.4" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="54.1" y="53.4" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="54.1" y="54.25" size="0.8128" layer="25" ratio="15" align="center"/>
+<attribute name="NAME" x="54.1" y="52.05" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="54.1" y="52.65" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
 <element name="R3" library="daqcs_host" package="R0603" value="47k" x="15.4" y="75" smashed="yes" rot="R90">
@@ -3016,7 +3001,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="15.4" y="75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR_PN" value="P47.0KHCT-ND" x="15.4" y="75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="15.4" y="75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="14.55" y="75" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="14.25" y="75.7" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="16.15" y="75" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
 <element name="R30" library="daqcs_host" package="R0603" value="60.4k" x="109.01" y="60.72" smashed="yes">
@@ -3126,7 +3111,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="59.4" y="69.6" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="P2.61KHCT-ND" x="59.4" y="69.6" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="59.4" y="69.6" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="59.4" y="70.45" size="0.8128" layer="25" ratio="15" align="center"/>
+<attribute name="NAME" x="60.4" y="70.85" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="59.4" y="68.85" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
 <element name="R40" library="daqcs_host" package="R0603" value="30k" x="105.32" y="53.07" smashed="yes" rot="R180">
@@ -3176,7 +3161,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="57.6" y="67.7" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="P2.61KHCT-ND" x="57.6" y="67.7" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="57.6" y="67.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="57.6" y="68.55" size="0.8128" layer="25" ratio="15" align="center"/>
+<attribute name="NAME" x="60.1" y="67.75" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="57.6" y="66.95" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
 <element name="R6" library="daqcs_host" package="R0603" value="2.61k" x="57.6" y="71.3" smashed="yes">
@@ -3186,7 +3171,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="57.6" y="71.3" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="P2.61KHCT-ND" x="57.6" y="71.3" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="57.6" y="71.3" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="57.6" y="72.15" size="0.8128" layer="25" ratio="15" align="center"/>
+<attribute name="NAME" x="58.1" y="72.45" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="57.6" y="70.55" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
 <element name="R7" library="daqcs_host" package="R0603" value="2.61k" x="56.4" y="74.5" smashed="yes" rot="R90">
@@ -3196,7 +3181,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="56.4" y="74.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR_PN" value="P2.61KHCT-ND" x="56.4" y="74.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="56.4" y="74.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="55.55" y="74.5" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="58.2" y="74.45" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="57.15" y="74.5" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
 <element name="R8" library="daqcs_host" package="R0603" value="47k" x="15.4" y="81.7" smashed="yes" rot="R270">
@@ -3216,7 +3201,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="43.5" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="43.5" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="JUMPER" x="43.5" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="43.5" y="24.35" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="43.5" y="26.75" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="43.5" y="26.15" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
 </element>
 <element name="S1" library="daqcs_host" package="TACTILE-PTH" value="SWITCH-MOMENTARY-2PTH" x="6.27" y="71.82" smashed="yes" rot="R180">
@@ -3225,7 +3210,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="PROD_ID" value=" SWCH-08441" x="6.27" y="71.82" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="6.27" y="71.82" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR_PN" value="SW400-ND" x="6.27" y="71.82" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.81" y="68.01" size="0.8128" layer="25" ratio="15" rot="R180"/>
+<attribute name="NAME" x="2.91" y="72.01" size="0.8128" layer="25" ratio="15" rot="R180"/>
 </element>
 <element name="S2" library="daqcs_host" package="TACTILE-PTH" value="SWITCH-MOMENTARY-2PTH" x="6.18" y="80.32" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Omron Electronics" x="6.18" y="80.32" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3233,7 +3218,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="PROD_ID" value=" SWCH-08441" x="6.18" y="80.32" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="6.18" y="80.32" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR_PN" value="SW400-ND" x="6.18" y="80.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.72" y="76.51" size="0.8128" layer="25" ratio="15" rot="R180"/>
+<attribute name="NAME" x="2.62" y="80.71" size="0.8128" layer="25" ratio="15" rot="R180"/>
 </element>
 <element name="TP1" library="daqcs_host" package="TP10R" value="" x="97.6" y="85.6" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="97.6" y="84.195" size="0.4064" layer="37" ratio="6"/>
@@ -3242,17 +3227,17 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 </element>
 <element name="TP10" library="daqcs_host" package="TP10R" value="" x="28.1" y="85.7" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="28.1" y="84.295" size="0.4064" layer="37" ratio="6"/>
-<attribute name="NAME" x="24.0999" y="85.3499" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="26.6999" y="84.0499" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="28.619" y="84.892" size="0.254" layer="27" ratio="6"/>
 </element>
 <element name="TP11" library="daqcs_host" package="TP10R" value="" x="33.2" y="85.7" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="33.2" y="84.295" size="0.4064" layer="37" ratio="6"/>
-<attribute name="NAME" x="31.7999" y="84.0499" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="31.3999" y="84.1499" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="33.719" y="84.892" size="0.254" layer="27" ratio="6"/>
 </element>
 <element name="TP12" library="daqcs_host" package="TP10R" value="" x="35.8" y="85.7" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="35.8" y="84.295" size="0.4064" layer="37" ratio="6"/>
-<attribute name="NAME" x="36.6999" y="85.4499" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="34.6999" y="84.1499" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="36.319" y="84.892" size="0.254" layer="27" ratio="6"/>
 </element>
 <element name="TP13" library="daqcs_host" package="TP10R" value="" x="77.3" y="85.4" smashed="yes">
@@ -3262,22 +3247,22 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 </element>
 <element name="TP14" library="daqcs_host" package="TP10R" value="" x="79.8" y="85.4" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="79.8" y="83.995" size="0.4064" layer="37" ratio="6"/>
-<attribute name="NAME" x="79.1999" y="83.7499" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="80.2501" y="81.7999" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="80.319" y="84.592" size="0.254" layer="27" ratio="6"/>
 </element>
 <element name="TP15" library="daqcs_host" package="TP10R" value="" x="82.4" y="85.4" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="82.4" y="83.995" size="0.4064" layer="37" ratio="6"/>
-<attribute name="NAME" x="82.2999" y="83.7499" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="82.0499" y="84.7001" size="0.8128" layer="25" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="82.919" y="84.592" size="0.254" layer="27" ratio="6"/>
 </element>
 <element name="TP16" library="daqcs_host" package="TP10R" value="" x="84.9" y="85.4" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="84.9" y="83.995" size="0.4064" layer="37" ratio="6"/>
-<attribute name="NAME" x="85.9999" y="84.8499" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="85.2501" y="81.7999" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="85.419" y="84.592" size="0.254" layer="27" ratio="6"/>
 </element>
 <element name="TP17" library="daqcs_host" package="TP10R" value="" x="75.63" y="83.16" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="75.63" y="81.755" size="0.4064" layer="37" ratio="6"/>
-<attribute name="NAME" x="75.2299" y="83.9099" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="72.0299" y="82.8099" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="76.149" y="82.352" size="0.254" layer="27" ratio="6"/>
 </element>
 <element name="TP18" library="daqcs_host" package="TP10R" value="" x="112.4" y="30.2" smashed="yes">
@@ -3337,12 +3322,12 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 </element>
 <element name="TP28" library="daqcs_host" package="TP10R" value="" x="84.6" y="42.2" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="84.6" y="40.795" size="0.4064" layer="37" ratio="6"/>
-<attribute name="NAME" x="84.1999" y="42.9499" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="85.1501" y="43.1999" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="85.119" y="41.392" size="0.254" layer="27" ratio="6"/>
 </element>
 <element name="TP29" library="daqcs_host" package="TP10R" value="" x="82.8" y="40.9" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="82.8" y="39.495" size="0.4064" layer="37" ratio="6"/>
-<attribute name="NAME" x="82.3999" y="41.6499" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="81.1999" y="39.2499" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="83.319" y="40.092" size="0.254" layer="27" ratio="6"/>
 </element>
 <element name="TP3" library="daqcs_host" package="TP10R" value="" x="105.3" y="85.5" smashed="yes">
@@ -3352,23 +3337,23 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 </element>
 <element name="TP30" library="daqcs_host" package="TP10R" value="" x="63.8" y="32.7" smashed="yes" rot="MR0">
 <attribute name="TP_SIGNAL_NAME" value="" x="63.8" y="31.295" size="0.4064" layer="38" ratio="6" rot="MR0"/>
-<attribute name="NAME" x="64.2001" y="33.4499" size="0.4064" layer="26" ratio="6" rot="MR0"/>
+<attribute name="NAME" x="66.0001" y="32.6499" size="0.4064" layer="26" ratio="6" rot="MR0"/>
 <attribute name="VALUE" x="63.281" y="31.892" size="0.254" layer="28" ratio="6" rot="MR0"/>
 </element>
-<element name="TP31" library="daqcs_host" package="TP10R" value="" x="63.7" y="34.3" smashed="yes" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="63.7" y="32.895" size="0.4064" layer="38" ratio="6" rot="MR0"/>
-<attribute name="NAME" x="64.1001" y="35.0499" size="0.4064" layer="26" ratio="6" rot="MR0"/>
-<attribute name="VALUE" x="63.181" y="33.492" size="0.254" layer="28" ratio="6" rot="MR0"/>
+<element name="TP31" library="daqcs_host" package="TP10R" value="" x="65.1" y="34.3" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="65.1" y="32.895" size="0.4064" layer="38" ratio="6" rot="MR0"/>
+<attribute name="NAME" x="67.3001" y="34.1499" size="0.4064" layer="26" ratio="6" rot="MR0"/>
+<attribute name="VALUE" x="64.581" y="33.492" size="0.254" layer="28" ratio="6" rot="MR0"/>
 </element>
-<element name="TP32" library="daqcs_host" package="TP10R" value="" x="61" y="39.5" smashed="yes" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="61" y="38.095" size="0.4064" layer="38" ratio="6" rot="MR0"/>
-<attribute name="NAME" x="61.4001" y="40.2499" size="0.4064" layer="26" ratio="6" rot="MR0"/>
-<attribute name="VALUE" x="60.481" y="38.692" size="0.254" layer="28" ratio="6" rot="MR0"/>
+<element name="TP32" library="daqcs_host" package="TP10R" value="" x="61" y="40.6" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="61" y="39.195" size="0.4064" layer="38" ratio="6" rot="MR0"/>
+<attribute name="NAME" x="62.6001" y="41.3499" size="0.4064" layer="26" ratio="6" rot="MR0"/>
+<attribute name="VALUE" x="60.481" y="39.792" size="0.254" layer="28" ratio="6" rot="MR0"/>
 </element>
-<element name="TP33" library="daqcs_host" package="TP10R" value="" x="60" y="40.6" smashed="yes" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="60" y="39.195" size="0.4064" layer="38" ratio="6" rot="MR0"/>
-<attribute name="NAME" x="60.4001" y="41.3499" size="0.4064" layer="26" ratio="6" rot="MR0"/>
-<attribute name="VALUE" x="59.481" y="39.792" size="0.254" layer="28" ratio="6" rot="MR0"/>
+<element name="TP33" library="daqcs_host" package="TP10R" value="" x="59.6" y="40.6" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="59.6" y="39.195" size="0.4064" layer="38" ratio="6" rot="MR0"/>
+<attribute name="NAME" x="60.0001" y="41.3499" size="0.4064" layer="26" ratio="6" rot="MR0"/>
+<attribute name="VALUE" x="59.081" y="39.792" size="0.254" layer="28" ratio="6" rot="MR0"/>
 </element>
 <element name="TP34" library="daqcs_host" package="TP10R" value="" x="48.4" y="32.1" smashed="yes" rot="MR0">
 <attribute name="TP_SIGNAL_NAME" value="" x="48.4" y="30.695" size="0.4064" layer="38" ratio="6" rot="MR0"/>
@@ -3430,7 +3415,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER_PN" value="2908-05WB-MG" x="18.23" y="27.09" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="18.23" y="27.09" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR_PN" value="3M5607CT-ND" x="18.23" y="27.09" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="14.29" y="23.39" size="0.8128" layer="25" ratio="15" rot="R270"/>
+<attribute name="NAME" x="8.09" y="12.49" size="0.8128" layer="25" ratio="15" rot="R270"/>
 </element>
 <element name="U$4" library="daqcs_host" package="ASEMB-24MHZ-XY-T-PAC" value="ASEMB-24MHZ-XY-T" x="65.9" y="60.87" smashed="yes" rot="R180">
 <attribute name="FREQUENCY" value="24MHz" x="65.9" y="60.87" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3451,8 +3436,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER_PN" value="MSP430FR5994IPNR" x="66.5" y="50.02" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="TYPE" x="66.5" y="50.02" size="1.778" layer="27" display="off"/>
 <attribute name="REFDES" value="RefDes" x="66.5" y="50.02" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="63.3" y="51.72" size="1.27" layer="21"/>
-<attribute name="NAME" x="63.4" y="46.72" size="1.27" layer="21"/>
+<attribute name="VALUE" x="74.4" y="51.12" size="1.27" layer="21"/>
+<attribute name="NAME" x="74.4" y="52.82" size="1.27" layer="21"/>
 </element>
 <element name="U10" library="daqcs_host" package="LGA24-8X4" value="LSM9DS1" x="56.78" y="12.61" smashed="yes">
 <attribute name="MANUFACTURER" value="STMicroelectronics" x="56.78" y="12.61" size="1.778" layer="27" display="off"/>
@@ -3468,8 +3453,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER_PN" value="MSP430FR5994IPNR" x="45.52" y="70.12" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="TYPE" x="45.52" y="70.12" size="1.778" layer="27" display="off"/>
 <attribute name="REFDES" value="RefDes" x="45.52" y="70.12" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="42.32" y="71.82" size="1.27" layer="21"/>
-<attribute name="NAME" x="42.42" y="66.82" size="1.27" layer="21"/>
+<attribute name="VALUE" x="28.02" y="59.92" size="1.27" layer="21"/>
+<attribute name="NAME" x="35.32" y="69.12" size="1.27" layer="21"/>
 </element>
 <element name="U3" library="daqcs_host" package="SOIC127P130X0600-8N" value="PCT2075D,118" x="36.85" y="24.58" smashed="yes">
 <attribute name="MANUFACTURER" value="NXP" x="36.85" y="24.58" size="1.778" layer="27" display="off"/>
@@ -3490,7 +3475,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR_PN" value="223-1198-1-ND" x="87.69" y="42.79" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRESSURE_TYPE" value="Absolute" x="87.69" y="42.79" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="87.69" y="39.915" size="0.8128" layer="25" ratio="15" rot="SR180" align="center"/>
-<attribute name="VALUE" x="87.69" y="45.615" size="0.254" layer="27" ratio="6" rot="SR180" align="center"/>
 </element>
 <element name="U5" library="daqcs_host" package="SON65P200X200X80-7N" value="TPS61240DRVR" x="18.5" y="41.9" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Texas Instruments" x="18.5" y="41.9" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3500,8 +3484,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="PACKAGE" value="SON-6" x="18.5" y="41.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="18.5" y="41.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR_PN" value="296-39437-1-ND" x="18.5" y="41.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="20.6844" y="39.995" size="0.8128" layer="25" ratio="15" rot="SR180"/>
-<attribute name="VALUE" x="20.6844" y="44.44" size="1.016" layer="27" ratio="10" rot="SR180"/>
+<attribute name="NAME" x="18.9844" y="40.595" size="0.8128" layer="25" ratio="15" rot="SR180"/>
 </element>
 <element name="U6" library="daqcs_host" package="DBV5" value="LP5907_DBV_5" x="29.7" y="41.55" smashed="yes">
 <attribute name="MANUFACTURER" value="Texas Instruments" x="29.7" y="41.55" size="1.778" layer="27" display="off"/>
@@ -3512,14 +3495,13 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="IOUT" value="250mA" x="29.7" y="41.55" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="296-38557-1-ND" x="29.7" y="41.55" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="26.8298" y="38.515" size="0.8128" layer="25" ratio="15" rot="SR0"/>
-<attribute name="VALUE" x="28.6234" y="43.315" size="1.27" layer="27" ratio="6" rot="SR0"/>
 </element>
 <element name="U7" library="daqcs_host" package="SOT23P110X060-5N" value="MCP73831T" x="10.85" y="55.01" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Microchip" x="10.85" y="55.01" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="MCP73831T-2ATI/OT" x="10.85" y="55.01" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="10.85" y="55.01" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR_PN" value="MCP73831T-2ATI/OTCT-ND" x="10.85" y="55.01" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="10.85" y="53.11" size="0.8128" layer="25" ratio="15" rot="SR180" align="center"/>
+<attribute name="NAME" x="10.75" y="52.91" size="0.8128" layer="25" ratio="15" rot="SR180" align="center"/>
 <attribute name="VALUE" x="10.85" y="56.91" size="0.254" layer="27" rot="SR180" align="center"/>
 </element>
 <element name="U8" library="daqcs_host" package="SOT65P110X045-8N" value="INA219AIDCNR" x="28.11" y="53.83" smashed="yes">
@@ -3527,8 +3509,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER_PN" value="INA219AIDCNR" x="28.11" y="53.83" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="28.11" y="53.83" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="296-23770-1-ND" x="28.11" y="53.83" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="30.2556" y="54.505" size="0.8128" layer="25" ratio="15" rot="SR0"/>
-<attribute name="VALUE" x="30.3556" y="53.635" size="0.4064" layer="27" ratio="6" rot="SR0"/>
+<attribute name="NAME" x="24.6556" y="53.905" size="0.8128" layer="25" ratio="15" rot="SR0"/>
+<attribute name="VALUE" x="26.0556" y="51.735" size="0.4064" layer="27" ratio="6" rot="SR0"/>
 </element>
 <element name="Y1" library="daqcs_host" package="CRYSTAL-SMD-3.2X1.5MM" value="32.768kHz" x="61.58" y="60.37" smashed="yes" rot="R180">
 <attribute name="FREQUENCY" value="32.768kHz" x="61.58" y="60.37" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3538,8 +3520,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="LOAD_CAP" value="12.5pF" x="61.58" y="60.37" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR_PN" value="SER4071CT-ND" x="61.58" y="60.37" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="20ppm" x="61.58" y="60.37" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="61.58" y="59.227" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="61.58" y="61.513" size="0.8128" layer="27" rot="R180" align="top-center"/>
+<attribute name="NAME" x="61.68" y="59.227" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center"/>
 </element>
 <element name="Y3" library="daqcs_host" package="CRYSTAL-SMD-3.2X1.5MM" value="32.768kHz" x="41.03" y="80.37" smashed="yes" rot="R180">
 <attribute name="FREQUENCY" value="32.768kHz" x="41.03" y="80.37" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3550,7 +3531,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR_PN" value="SER4071CT-ND" x="41.03" y="80.37" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="20ppm" x="41.03" y="80.37" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="41.13" y="79.127" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="36.03" y="81.413" size="0.8128" layer="27" rot="R180" align="top-center"/>
 </element>
 <element name="C35" library="daqcs_host" package="C0603" value="10uF" x="33.2" y="41.7" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER" value="Murata" x="33.2" y="41.7" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3560,7 +3540,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digi-key" x="33.2" y="41.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="33.2" y="41.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="33.2" y="41.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="34.05" y="41.7" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="32.8" y="43.75" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="32.45" y="41.7" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
 </element>
 <element name="C36" library="daqcs_host" package="C0603" value="100nF" x="35.5" y="41.7" smashed="yes" rot="R270">
@@ -3571,7 +3551,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digi-key" x="35.5" y="41.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="16V" x="35.5" y="41.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP_COEFF" value="X7R" x="35.5" y="41.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="36.35" y="41.7" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="35.8" y="43.75" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="34.75" y="41.7" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
 </element>
 <element name="C24" library="daqcs_host" package="C0603" value="1uF" x="72.2" y="39.4" smashed="yes" rot="R180">
@@ -3582,7 +3562,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digi-key" x="72.2" y="39.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="72.2" y="39.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="72.2" y="39.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="72.2" y="38.55" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="69.7" y="39.35" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="72.2" y="40.15" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
 </element>
 <element name="C37" library="daqcs_host" package="C0603" value="1uF" x="51.2" y="57.5" smashed="yes" rot="R180">
@@ -3593,7 +3573,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digi-key" x="51.2" y="57.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="51.2" y="57.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMP_COEFF" value="X5R" x="51.2" y="57.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="51.2" y="56.65" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="48.7" y="57.45" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="51.2" y="58.25" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
 </element>
 <element name="R29" library="daqcs_host" package="R0603" value="0" x="61.6" y="84.6" smashed="yes" rot="R270">
@@ -3663,7 +3643,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Panasonic" x="13" y="74.1" size="1.778" layer="27" display="off"/>
 <attribute name="POWER" value="1/10W" x="13" y="74.1" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="13" y="74.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="13" y="74.95" size="0.8128" layer="25" ratio="15" align="center"/>
+<attribute name="NAME" x="13" y="72.65" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="13" y="73.35" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
 <element name="R50" library="daqcs_host" package="R0603" value="47k" x="12.9" y="82.6" smashed="yes">
@@ -3683,7 +3663,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 </element>
 <element name="TP40" library="daqcs_host" package="TP10R" value="" x="93.1" y="44.7" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="93.1" y="43.295" size="0.4064" layer="37" ratio="6"/>
-<attribute name="NAME" x="92.6999" y="45.4499" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="94.8999" y="45.4499" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="93.619" y="43.892" size="0.254" layer="27" ratio="6"/>
 </element>
 <element name="TP41" library="daqcs_host" package="TP10R" value="" x="48.9" y="6.7" smashed="yes">
@@ -3698,7 +3678,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 </element>
 <element name="TP43" library="daqcs_host" package="TP10R" value="" x="38.9" y="39" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="38.9" y="37.595" size="0.4064" layer="37" ratio="6"/>
-<attribute name="NAME" x="38.4999" y="39.7499" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="39.5999" y="38.5499" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="39.419" y="38.192" size="0.254" layer="27" ratio="6"/>
 </element>
 <element name="TP44" library="daqcs_host" package="TP10R" value="" x="17.2" y="54.4" smashed="yes">
@@ -3711,18 +3691,16 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digi-key" x="89.7" y="78.9" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="TCLD1000CT-ND" x="89.7" y="78.9" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="TCLD1000" x="89.7" y="78.9" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="87.16" y="81.44" size="1.27" layer="21"/>
-<attribute name="VALUE" x="87.16" y="75.09" size="1.27" layer="21"/>
-<attribute name="NAME" x="88.43" y="81.44" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="88.43" y="75.09" size="1.27" layer="27"/>
+<attribute name="NAME" x="88.36" y="81.24" size="1.27" layer="21"/>
+<attribute name="VALUE" x="85.13" y="74.99" size="1.27" layer="27"/>
 </element>
 <element name="U$7" library="daqcs_host" package="NTD2955T4G" value="NTD2955T4G" x="104.6" y="79" smashed="yes">
 <attribute name="MANUFACTURER" value="ON Semiconductor" x="104.6" y="79" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="104.6" y="79" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="NTD2955T4GOSCT-ND " x="104.6" y="79" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="NTD2955T4G" x="104.6" y="79" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="106.82" y="78.58" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="107.42" y="74.05" size="1.27" layer="27"/>
+<attribute name="NAME" x="106.72" y="78.78" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="107.52" y="73.75" size="1.27" layer="27"/>
 </element>
 <element name="R51" library="daqcs_host" package="R0603" value="47k" x="111.6" y="80.5" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="Panasonic" x="111.6" y="80.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3741,7 +3719,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="TOLERANCE" value="1%" x="82.1" y="77.6" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF4992V" x="82.1" y="77.6" size="1.778" layer="27" display="off"/>
 <attribute name="POWER" value="1/10W" x="82.1" y="77.6" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="82.1" y="78.45" size="0.8128" layer="25" ratio="15" align="center"/>
+<attribute name="NAME" x="79.4" y="77.65" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="82.1" y="76.85" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
 <element name="J11" library="daqcs_host" package="MOLSL-2-V" value="MOL-SL-2-V" x="5.2" y="46.9" smashed="yes" rot="R270">
@@ -3756,7 +3734,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Molex" x="5.2" y="46.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POSITIONS" value="2" x="5.2" y="46.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="2.66" y="51.345" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="8.6925" y="50.3925" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 </elements>
 <signals>
@@ -3826,7 +3803,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="33.2" y1="42.55" x2="35.5" y2="42.55" width="0.4064" layer="1"/>
 <via x="39.1" y="42.6" extent="1-16" drill="0.381"/>
 <wire x1="35.5" y1="42.55" x2="37.7" y2="42.55" width="0.4064" layer="1"/>
-<wire x1="68.5" y1="60.05" x2="68.5" y2="59.92" width="0.4064" layer="1"/>
+<wire x1="68.6" y1="60.05" x2="68.5" y2="59.92" width="0.4064" layer="1"/>
 <wire x1="68.5" y1="59.92" x2="66.95" y2="59.92" width="0.4064" layer="1"/>
 <wire x1="45.86" y1="80.02" x2="47.57" y2="80.02" width="0.4064" layer="1"/>
 <wire x1="47.57" y1="80.02" x2="47.6" y2="80.05" width="0.4064" layer="1"/>
@@ -3944,7 +3921,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="49.35" y1="80.05" x2="49.8" y2="80.5" width="0.254" layer="1"/>
 <wire x1="49.8" y1="80.5" x2="49.8" y2="81.5" width="0.254" layer="1"/>
 <via x="70.6" y="61" extent="1-16" drill="0.381"/>
-<wire x1="68.5" y1="60.05" x2="69.65" y2="60.05" width="0.254" layer="1"/>
+<wire x1="68.6" y1="60.05" x2="69.65" y2="60.05" width="0.254" layer="1"/>
 <wire x1="69.65" y1="60.05" x2="70.6" y2="61" width="0.254" layer="1"/>
 <wire x1="58.45" y1="67.7" x2="59.6" y2="67.7" width="0.254" layer="1"/>
 <wire x1="59.6" y1="67.7" x2="60.2" y2="68.3" width="0.254" layer="1"/>
@@ -4529,8 +4506,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <via x="64.9" y="63.9" extent="1-16" drill="0.381"/>
 <wire x1="60.34" y1="63.92" x2="60.34" y2="63.85" width="0.4064" layer="1"/>
 <wire x1="60.34" y1="63.85" x2="62.8" y2="63.85" width="0.4064" layer="1"/>
-<wire x1="68.5" y1="61.75" x2="68.5" y2="62.4" width="0.4064" layer="1"/>
-<wire x1="68.5" y1="62.4" x2="67" y2="63.9" width="0.4064" layer="1"/>
+<wire x1="68.6" y1="61.75" x2="68.6" y2="62.3" width="0.4064" layer="1"/>
+<wire x1="68.6" y1="62.3" x2="67" y2="63.9" width="0.4064" layer="1"/>
 <wire x1="62.8" y1="63.85" x2="62.8" y2="63.9" width="0.4064" layer="1"/>
 <wire x1="62.8" y1="63.9" x2="64.9" y2="63.9" width="0.4064" layer="1"/>
 <via x="44.2" y="84" extent="1-16" drill="0.381"/>
@@ -4845,6 +4822,15 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <via x="19.9" y="13.3" extent="1-16" drill="0.381"/>
 <via x="4.5" y="40.4" extent="1-16" drill="0.381"/>
 <via x="99.8" y="26" extent="1-16" drill="0.381"/>
+<via x="103.7" y="16.9" extent="1-16" drill="0.6"/>
+<via x="86.8" y="17" extent="1-16" drill="0.6"/>
+<via x="43.5" y="57.1" extent="1-16" drill="0.381"/>
+<via x="36.7" y="58.6" extent="1-16" drill="0.381"/>
+<via x="18.6" y="66.2" extent="1-16" drill="0.381"/>
+<via x="8" y="29.2" extent="1-16" drill="0.381"/>
+<via x="76.8" y="45.4" extent="1-16" drill="0.381"/>
+<via x="75.7" y="38.4" extent="1-16" drill="0.381"/>
+<via x="61.8" y="54.5" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="AVCC_HOST">
 <contactref element="R1" pad="2"/>
@@ -5005,7 +4991,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="U1" pad="44"/>
 <contactref element="U2" pad="44"/>
 <wire x1="74.4" y1="46.8" x2="73.3" y2="46.8" width="0.1524" layer="1"/>
-<wire x1="76.6" y1="46.4" x2="74.4" y2="46.8" width="0.1524" layer="16"/>
 <wire x1="77.4" y1="46.9" x2="76.6" y2="46.4" width="0.1524" layer="16"/>
 <wire x1="77.4" y1="62.1" x2="77.4" y2="46.9" width="0.1524" layer="16"/>
 <wire x1="77" y1="62.5" x2="77.4" y2="62.1" width="0.1524" layer="16"/>
@@ -5024,6 +5009,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="59.5" y1="62" x2="75.3" y2="62" width="0.1524" layer="16"/>
 <wire x1="75.3" y1="62" x2="75.8" y2="62.5" width="0.1524" layer="16"/>
 <wire x1="75.8" y1="62.5" x2="77" y2="62.5" width="0.1524" layer="16"/>
+<wire x1="76.6" y1="46.4" x2="74.8" y2="46.4" width="0.1524" layer="16"/>
+<wire x1="74.8" y1="46.4" x2="74.4" y2="46.8" width="0.1524" layer="16"/>
 </signal>
 <signal name="MSP_GPIO_3">
 <contactref element="U1" pad="45"/>
@@ -6014,10 +6001,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="U2" pad="64"/>
 <contactref element="J17" pad="3"/>
 <contactref element="TP32" pad="TP"/>
-<wire x1="61" y1="39.5" x2="61" y2="37.0882" width="0.254" layer="16"/>
+<wire x1="61" y1="40.6" x2="61" y2="37.0882" width="0.254" layer="16"/>
 <wire x1="61" y1="37.0882" x2="60.9858" y2="37.074" width="0.254" layer="16"/>
-<wire x1="61" y1="39.5" x2="62.2" y2="39.5" width="0.254" layer="16"/>
-<wire x1="62.2" y1="39.5" x2="64.1" y2="36.1" width="0.254" layer="16"/>
 <wire x1="64.1" y1="36.1" x2="94" y2="36.1" width="0.254" layer="16"/>
 <wire x1="94" y1="36.1" x2="96.7" y2="39.6" width="0.254" layer="16"/>
 <wire x1="96.7" y1="39.6" x2="96.7" y2="59.6" width="0.254" layer="16"/>
@@ -6033,6 +6018,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="62" y1="82.1" x2="60.7" y2="82.1" width="0.254" layer="1"/>
 <wire x1="60.7" y1="82.1" x2="59.3" y2="80.7" width="0.254" layer="1"/>
 <wire x1="59.3" y1="80.7" x2="50.9" y2="80.7" width="0.254" layer="1"/>
+<wire x1="64.1" y1="36.1" x2="64.1" y2="37.5" width="0.254" layer="16"/>
+<wire x1="64.1" y1="37.5" x2="61" y2="40.6" width="0.254" layer="16"/>
 </signal>
 <signal name="IMU_SS">
 <contactref element="U2" pad="63"/>
@@ -6040,7 +6027,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="TP31" pad="TP"/>
 <wire x1="59.9952" y1="34.026" x2="59.9952" y2="35.0952" width="0.254" layer="16"/>
 <wire x1="59.9952" y1="35.0952" x2="60.2" y2="35.3" width="0.254" layer="16"/>
-<wire x1="65" y1="35.1" x2="95.3" y2="35" width="0.254" layer="16"/>
+<wire x1="65.7" y1="35.1" x2="95.3" y2="35" width="0.254" layer="16"/>
 <wire x1="95.3" y1="35" x2="98.5" y2="39.1" width="0.254" layer="16"/>
 <wire x1="98.5" y1="39.1" x2="98.5" y2="60.8" width="0.254" layer="16"/>
 <wire x1="98.5" y1="60.8" x2="95" y2="63.3" width="0.254" layer="16"/>
@@ -6050,23 +6037,23 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="51" y1="80.2" x2="49.3" y2="78.7" width="0.254" layer="1"/>
 <wire x1="49.3" y1="78.7" x2="49.3" y2="76.875" width="0.254" layer="1"/>
 <wire x1="49.3" y1="76.875" x2="49.27" y2="76.845" width="0.254" layer="1"/>
-<wire x1="63.7" y1="34.3" x2="64.6" y2="34.8" width="0.254" layer="16"/>
-<wire x1="64.6" y1="34.8" x2="65" y2="35.1" width="0.254" layer="16"/>
 <wire x1="70.2" y1="80.2" x2="63.1" y2="80.2" width="0.254" layer="1"/>
 <wire x1="63.1" y1="80.2" x2="61.7" y2="81.6" width="0.254" layer="1"/>
 <wire x1="61.7" y1="81.6" x2="60.9" y2="81.6" width="0.254" layer="1"/>
 <wire x1="60.9" y1="81.6" x2="59.5" y2="80.2" width="0.254" layer="1"/>
 <wire x1="59.5" y1="80.2" x2="51" y2="80.2" width="0.254" layer="1"/>
-<wire x1="60.2" y1="35.3" x2="62.7" y2="35.3" width="0.254" layer="16"/>
-<wire x1="62.7" y1="35.3" x2="63.7" y2="34.3" width="0.254" layer="16"/>
+<wire x1="60.2" y1="35.3" x2="63" y2="35.3" width="0.254" layer="16"/>
+<wire x1="63" y1="35.3" x2="64" y2="34.3" width="0.254" layer="16"/>
+<wire x1="64" y1="34.3" x2="65.1" y2="34.3" width="0.254" layer="16"/>
+<wire x1="65.1" y1="34.3" x2="65.1" y2="34.5" width="0.254" layer="16"/>
+<wire x1="65.1" y1="34.5" x2="65.7" y2="35.1" width="0.254" layer="16"/>
 </signal>
 <signal name="IMU_MOSI">
 <contactref element="U2" pad="35"/>
 <contactref element="J17" pad="5"/>
 <contactref element="TP33" pad="TP"/>
-<wire x1="60" y1="40.6" x2="60" y2="37.0788" width="0.254" layer="16"/>
 <wire x1="60" y1="37.0788" x2="59.9952" y2="37.074" width="0.254" layer="16"/>
-<wire x1="60" y1="40.6" x2="58.5" y2="40.6" width="0.254" layer="16"/>
+<wire x1="59.6" y1="40.6" x2="58.5" y2="40.6" width="0.254" layer="16"/>
 <wire x1="58.5" y1="40.6" x2="53.3" y2="45.8" width="0.254" layer="16"/>
 <wire x1="53.3" y1="45.8" x2="46.1" y2="45.9" width="0.254" layer="16"/>
 <via x="46.1" y="45.9" extent="1-16" drill="0.381"/>
@@ -6074,6 +6061,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="46.1" y1="58.7" x2="47.8" y2="60.6" width="0.254" layer="1"/>
 <wire x1="47.8" y1="60.6" x2="47.8" y2="63.365" width="0.254" layer="1"/>
 <wire x1="47.8" y1="63.365" x2="47.77" y2="63.395" width="0.254" layer="1"/>
+<wire x1="60" y1="37.0788" x2="60" y2="40.2" width="0.254" layer="16"/>
+<wire x1="60" y1="40.2" x2="59.6" y2="40.6" width="0.254" layer="16"/>
 </signal>
 <signal name="IMU_MISO">
 <contactref element="U2" pad="36"/>

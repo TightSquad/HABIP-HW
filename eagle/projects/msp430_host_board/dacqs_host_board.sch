@@ -1516,18 +1516,18 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <smd name="2" x="7.9" y="-10.24" dx="0.7" dy="1.5" layer="1"/>
 <smd name="1" x="9" y="-10.64" dx="0.7" dy="1.5" layer="1"/>
 <text x="3.7" y="-3.94" size="1.27" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="1.016" y2="0" width="0.127" layer="21"/>
-<wire x1="3.048" y1="0" x2="6.985" y2="0" width="0.127" layer="21"/>
-<wire x1="9.017" y1="0" x2="14.097" y2="0" width="0.127" layer="21"/>
-<wire x1="14.097" y1="0" x2="14.097" y2="-13.335" width="0.127" layer="21"/>
-<wire x1="14.097" y1="-15.494" x2="12.7" y2="-15.494" width="0.127" layer="21"/>
-<wire x1="12.7" y1="-15.494" x2="12.7" y2="-14.859" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0.8" y2="0" width="0.127" layer="21"/>
+<wire x1="3.2" y1="0" x2="6.7" y2="0" width="0.127" layer="21"/>
+<wire x1="9.2" y1="0" x2="14.097" y2="0" width="0.127" layer="21"/>
+<wire x1="14.097" y1="0" x2="14.097" y2="-13.2" width="0.127" layer="21"/>
+<wire x1="14.097" y1="-15.6" x2="12.7" y2="-15.6" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-15.6" x2="12.7" y2="-14.859" width="0.127" layer="21"/>
 <wire x1="12.7" y1="-14.859" x2="11.43" y2="-13.589" width="0.127" layer="21" curve="90"/>
 <wire x1="11.43" y1="-13.589" x2="1.651" y2="-13.589" width="0.127" layer="21"/>
 <wire x1="1.651" y1="-13.589" x2="1.27" y2="-13.97" width="0.127" layer="21" curve="90"/>
-<wire x1="1.27" y1="-13.97" x2="1.27" y2="-14.605" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-14.605" x2="0" y2="-14.605" width="0.127" layer="21"/>
-<wire x1="0" y1="-12.446" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-13.97" x2="1.27" y2="-14.7" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-14.7" x2="0" y2="-14.7" width="0.127" layer="21"/>
+<wire x1="0" y1="-12.3" x2="0" y2="0" width="0.127" layer="21"/>
 </package>
 <package name="SON65P200X200X80-7N">
 <smd name="1" x="-1.0414" y="0.6604" dx="0.6096" dy="0.3556" layer="1"/>
@@ -1554,17 +1554,17 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <smd name="3" x="-1.1176" y="-0.95" dx="1.016" dy="0.5588" layer="1"/>
 <smd name="4" x="1.1176" y="-0.95" dx="1.016" dy="0.5588" layer="1"/>
 <smd name="5" x="1.1176" y="0.95" dx="1.016" dy="0.5588" layer="1"/>
-<wire x1="0.8636" y1="1.2954" x2="0.8636" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="0.8636" y1="-0.5842" x2="0.8636" y2="0.5842" width="0.1524" layer="21"/>
-<wire x1="-0.8636" y1="-1.2954" x2="-0.8636" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-0.8636" y1="-0.3556" x2="-0.8636" y2="-0.5842" width="0.1524" layer="21"/>
-<wire x1="-0.8636" y1="0.5842" x2="-0.8636" y2="0.3556" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="1.45" x2="0.8636" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="-0.45" x2="0.8636" y2="0.45" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="-1.45" x2="-0.8636" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="-0.47" x2="-0.8636" y2="-0.48" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="0.47" x2="-0.8636" y2="0.48" width="0.1524" layer="21"/>
 <wire x1="-0.8636" y1="-1.524" x2="0.8636" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="0.8636" y1="-1.524" x2="0.8636" y2="-1.2954" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="-1.524" x2="0.8636" y2="-1.45" width="0.1524" layer="21"/>
 <wire x1="0.8636" y1="1.524" x2="0.3048" y2="1.524" width="0.1524" layer="21"/>
 <wire x1="0.3048" y1="1.524" x2="-0.3048" y2="1.524" width="0.1524" layer="21"/>
 <wire x1="-0.3048" y1="1.524" x2="-0.8636" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-0.8636" y1="1.524" x2="-0.8636" y2="1.2954" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="1.524" x2="-0.8636" y2="1.45" width="0.1524" layer="21"/>
 <wire x1="0.3048" y1="1.524" x2="-0.3048" y2="1.524" width="0.1524" layer="21" curve="-180"/>
 <text x="-1.9558" y="1.3716" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <wire x1="-0.8636" y1="-1.524" x2="0.8636" y2="-1.524" width="0.1524" layer="51"/>
@@ -1617,8 +1617,8 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="-1.55" y1="-0.9" x2="1.55" y2="-0.9" width="0.127" layer="39"/>
 <wire x1="1.55" y1="-0.9" x2="1.55" y2="0.9" width="0.127" layer="39"/>
 <wire x1="1.55" y1="0.9" x2="-1.55" y2="0.9" width="0.127" layer="39"/>
-<wire x1="-0.25" y1="0.625" x2="0.25" y2="0.625" width="0.127" layer="21"/>
-<wire x1="-0.25" y1="-0.625" x2="0.25" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="0.625" x2="0.2" y2="0.625" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="-0.625" x2="0.2" y2="-0.625" width="0.127" layer="21"/>
 </package>
 <package name="WE-PMI_0806">
 <description>Power Multilayer Inductor WE-PMI</description>
@@ -1697,12 +1697,12 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <smd name="S3" x="-3.2" y="2.425" dx="1.4" dy="1.6" layer="1" rot="R90" stop="no"/>
 <smd name="S4" x="3.2" y="2.425" dx="1.4" dy="1.6" layer="1" rot="R90" stop="no"/>
 <text x="-3.92" y="3.9" size="0.4064" layer="25" font="vector" ratio="6">&gt;NAME</text>
-<wire x1="-4.43" y1="-1.45" x2="4.43" y2="-1.45" width="0.15" layer="21"/>
-<wire x1="-4.43" y1="-1.45" x2="-4.43" y2="3.2" width="0.15" layer="21"/>
-<wire x1="-4.43" y1="3.2" x2="-4.08" y2="3.6" width="0.15" layer="21"/>
+<wire x1="-4.5" y1="-1.45" x2="4.5" y2="-1.45" width="0.15" layer="21"/>
+<wire x1="-4.5" y1="-1.45" x2="-4.5" y2="3.2" width="0.15" layer="21"/>
+<wire x1="-4.5" y1="3.2" x2="-4.08" y2="3.6" width="0.15" layer="21"/>
 <wire x1="-4.08" y1="3.6" x2="4.08" y2="3.6" width="0.15" layer="21"/>
-<wire x1="4.08" y1="3.6" x2="4.43" y2="3.2" width="0.15" layer="21"/>
-<wire x1="4.43" y1="3.2" x2="4.43" y2="-1.45" width="0.15" layer="21"/>
+<wire x1="4.08" y1="3.6" x2="4.5" y2="3.2" width="0.15" layer="21"/>
+<wire x1="4.5" y1="3.2" x2="4.5" y2="-1.45" width="0.15" layer="21"/>
 <smd name="S5" x="-1.2" y="0" dx="1.9" dy="1.9" layer="1" stop="no"/>
 <smd name="S6" x="1.2" y="0" dx="1.9" dy="1.9" layer="1" stop="no"/>
 <text x="-4.08" y="-1.91" size="0.254" layer="27" ratio="6">&gt;VALUE</text>
@@ -1878,9 +1878,9 @@ JST PH 2-pin thru-home side entry</description>
  right angle, 4 pin</description>
 <wire x1="6.1913" y1="5.8738" x2="4.1275" y2="5.8738" width="0.15" layer="21"/>
 <wire x1="4.1275" y1="5.8738" x2="-6.1913" y2="5.8738" width="0.15" layer="21"/>
-<wire x1="-6.1913" y1="5.8738" x2="-6.1913" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="-6.1913" y1="-5.715" x2="6.1913" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="6.1913" y1="-5.715" x2="6.1913" y2="5.8738" width="0.15" layer="21"/>
+<wire x1="-6.1913" y1="5.8738" x2="-6.1913" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="-6.1913" y1="-5.5" x2="6.1913" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="6.1913" y1="-5.5" x2="6.1913" y2="5.8738" width="0.15" layer="21"/>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-3.175" width="0.15" layer="21"/>
 <wire x1="-1.27" y1="-3.175" x2="1.27" y2="-3.175" width="0.15" layer="21"/>
 <wire x1="1.27" y1="-3.175" x2="1.27" y2="2.54" width="0.15" layer="21"/>
@@ -1984,9 +1984,9 @@ JST PH 2-pin thru-home side entry</description>
  right angle, 5 pin</description>
 <wire x1="7.4613" y1="5.8738" x2="4.1275" y2="5.8738" width="0.15" layer="21"/>
 <wire x1="4.1275" y1="5.8738" x2="-7.4613" y2="5.8738" width="0.15" layer="21"/>
-<wire x1="-7.4613" y1="5.8738" x2="-7.4613" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="-7.4613" y1="-5.715" x2="7.4613" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="7.4613" y1="-5.715" x2="7.4613" y2="5.8738" width="0.15" layer="21"/>
+<wire x1="-7.4613" y1="5.8738" x2="-7.4613" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="-7.4613" y1="-5.5" x2="7.4613" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="7.4613" y1="-5.5" x2="7.4613" y2="5.8738" width="0.15" layer="21"/>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-3.175" width="0.15" layer="21"/>
 <wire x1="-1.27" y1="-3.175" x2="1.27" y2="-3.175" width="0.15" layer="21"/>
 <wire x1="1.27" y1="-3.175" x2="1.27" y2="2.54" width="0.15" layer="21"/>
@@ -2094,7 +2094,7 @@ JST PH 2-pin thru-home side entry</description>
  right angle, 3 pin</description>
 <wire x1="5.2388" y1="5.8738" x2="4.1275" y2="5.8738" width="0.15" layer="21"/>
 <wire x1="4.1275" y1="5.8738" x2="-5.2387" y2="5.8738" width="0.15" layer="21"/>
-<wire x1="-5.2387" y1="5.8738" x2="-5.2388" y2="-5.715" width="0.15" layer="21"/>
+<wire x1="-5.2387" y1="5.8738" x2="-5.2388" y2="-5.5" width="0.15" layer="21"/>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-3.175" width="0.15" layer="21"/>
 <wire x1="-1.27" y1="-3.175" x2="1.27" y2="-3.175" width="0.15" layer="21"/>
 <wire x1="1.27" y1="-3.175" x2="1.27" y2="2.54" width="0.15" layer="21"/>
@@ -2109,8 +2109,8 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="-1.905" y1="4.445" x2="1.905" y2="4.445" width="0.15" layer="21"/>
 <wire x1="1.905" y1="4.445" x2="3.175" y2="3.175" width="0.15" layer="21" curve="-90"/>
 <wire x1="3.175" y1="3.175" x2="3.175" y2="2.54" width="0.15" layer="21"/>
-<wire x1="-5.2388" y1="-5.715" x2="5.2388" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="5.2388" y1="-5.715" x2="5.2388" y2="5.8738" width="0.15" layer="21"/>
+<wire x1="-5.2388" y1="-5.5" x2="5.2388" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="5.2388" y1="-5.5" x2="5.2388" y2="5.8738" width="0.15" layer="21"/>
 <wire x1="-4.1275" y1="-5.715" x2="-4.1275" y2="-6.35" width="0.05" layer="51"/>
 <wire x1="-4.1275" y1="-6.35" x2="-4.1275" y2="-7.9375" width="0.05" layer="51"/>
 <wire x1="-4.1275" y1="-6.35" x2="-3.175" y2="-6.35" width="0.05" layer="51"/>
@@ -2158,11 +2158,9 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="3.685" y1="-2.54" x2="3.685" y2="2.54" width="0.15" layer="21"/>
 <wire x1="3.685" y1="2.54" x2="-3.685" y2="2.54" width="0.15" layer="21"/>
 <wire x1="-3.685" y1="2.54" x2="-3.685" y2="-2.54" width="0.15" layer="21"/>
-<wire x1="-3.685" y1="-2.54" x2="-1.27" y2="-2.54" width="0.15" layer="21"/>
 <wire x1="-1.27" y1="-2.54" x2="-1.27" y2="-4.06" width="0.15" layer="51"/>
 <wire x1="-1.27" y1="-4.06" x2="1.27" y2="-4.06" width="0.15" layer="51"/>
 <wire x1="1.27" y1="-4.06" x2="1.27" y2="-2.54" width="0.15" layer="51"/>
-<wire x1="1.27" y1="-2.54" x2="3.685" y2="-2.54" width="0.15" layer="21"/>
 <wire x1="-2.665" y1="1.395" x2="-2.665" y2="-1.395" width="0.05" layer="51"/>
 <wire x1="2.665" y1="1.395" x2="2.665" y2="-1.395" width="0.05" layer="51"/>
 <wire x1="-2.665" y1="1.395" x2="2.665" y2="1.395" width="0.05" layer="51"/>
@@ -2176,10 +2174,10 @@ JST PH 2-pin thru-home side entry</description>
 <pad name="1" x="-1.27" y="0" drill="1.09" shape="long" rot="R90"/>
 <text x="-4.445" y="-2.54" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-3.4925" y="3.4925" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-3.048" y="-1.5875" size="1.016" layer="21" ratio="10">1</text>
+<text x="-3.448" y="-2.1875" size="1.016" layer="21" ratio="10">1</text>
 <rectangle x1="1.0319" y1="-0.2381" x2="1.5081" y2="0.2381" layer="51"/>
 <rectangle x1="-1.5081" y1="-0.2381" x2="-1.0319" y2="0.2381" layer="51"/>
-<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.15" layer="21"/>
+<wire x1="-3.685" y1="-2.54" x2="3.685" y2="-2.54" width="0.15" layer="21"/>
 </package>
 <package name="MOLSL-2-RA">
 <description>&lt;b&gt;C-Grid SL Connector&lt;/b&gt;&lt;p&gt;
@@ -2199,9 +2197,9 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="-1.905" y1="4.445" x2="1.905" y2="4.445" width="0.15" layer="21"/>
 <wire x1="1.905" y1="4.445" x2="3.175" y2="3.175" width="0.15" layer="21" curve="-90"/>
 <wire x1="3.175" y1="3.175" x2="3.175" y2="2.54" width="0.15" layer="21"/>
-<wire x1="-3.9688" y1="2.54" x2="-3.9688" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="-3.9688" y1="-5.715" x2="3.9688" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="3.9688" y1="-5.715" x2="3.9688" y2="2.54" width="0.15" layer="21"/>
+<wire x1="-3.9688" y1="2.54" x2="-3.9688" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="-3.9688" y1="-5.5" x2="3.9688" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="3.9688" y1="-5.5" x2="3.9688" y2="2.54" width="0.15" layer="21"/>
 <wire x1="-2.8575" y1="-5.715" x2="-2.8575" y2="-6.35" width="0.05" layer="51"/>
 <wire x1="-2.8575" y1="-6.35" x2="-2.8575" y2="-7.9375" width="0.05" layer="51"/>
 <wire x1="2.8575" y1="-7.9375" x2="2.8575" y2="-6.35" width="0.05" layer="51"/>
@@ -2253,9 +2251,9 @@ JST PH 2-pin thru-home side entry</description>
  right angle, 6 pin</description>
 <wire x1="10.0013" y1="5.8738" x2="4.1275" y2="5.8738" width="0.15" layer="21"/>
 <wire x1="4.1275" y1="5.8738" x2="-10.0013" y2="5.8738" width="0.15" layer="21"/>
-<wire x1="-10.0013" y1="5.8738" x2="-10.0013" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="-10.0013" y1="-5.715" x2="10.0013" y2="-5.715" width="0.15" layer="21"/>
-<wire x1="10.0013" y1="-5.715" x2="10.0013" y2="5.8738" width="0.15" layer="21"/>
+<wire x1="-10.0013" y1="5.8738" x2="-10.0013" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="-10.0013" y1="-5.5" x2="10.0013" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="10.0013" y1="-5.5" x2="10.0013" y2="5.8738" width="0.15" layer="21"/>
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-3.175" width="0.15" layer="21"/>
 <wire x1="-1.27" y1="-3.175" x2="1.27" y2="-3.175" width="0.15" layer="21"/>
 <wire x1="1.27" y1="-3.175" x2="1.27" y2="2.54" width="0.15" layer="21"/>
@@ -2573,7 +2571,7 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="-1.75" y1="1.5" x2="1.75" y2="1.5" width="0.0508" layer="51"/>
 <wire x1="1.75" y1="1.5" x2="1.75" y2="-1.5" width="0.0508" layer="51"/>
 <wire x1="1.75" y1="-1.5" x2="-1.75" y2="-1.5" width="0.0508" layer="51"/>
-<circle x="-2.05" y="1.8" radius="0.2" width="0" layer="21"/>
+<circle x="-2.15" y="1.9" radius="0.2" width="0" layer="21"/>
 <rectangle x1="1.39" y1="1.05" x2="1.62" y2="1.4" layer="51"/>
 <rectangle x1="0.96" y1="1.05" x2="1.19" y2="1.4" layer="51"/>
 <rectangle x1="0.53" y1="1.05" x2="0.76" y2="1.4" layer="51"/>
@@ -2622,10 +2620,10 @@ JST PH 2-pin thru-home side entry</description>
 <smd name="22" x="-0.215" y="1.225" dx="0.45" dy="0.27" layer="1" rot="R90"/>
 <smd name="23" x="-0.645" y="1.225" dx="0.45" dy="0.27" layer="1" rot="R90"/>
 <smd name="24" x="-1.075" y="1.225" dx="0.45" dy="0.27" layer="1" rot="R90"/>
-<wire x1="-1.85" y1="1.6" x2="1.85" y2="1.6" width="0.1016" layer="21"/>
-<wire x1="1.85" y1="1.6" x2="1.85" y2="-1.6" width="0.1016" layer="21"/>
-<wire x1="1.85" y1="-1.6" x2="-1.85" y2="-1.6" width="0.1016" layer="21"/>
-<wire x1="-1.85" y1="-1.6" x2="-1.85" y2="1.6" width="0.1016" layer="21"/>
+<wire x1="-1.95" y1="1.7" x2="1.95" y2="1.7" width="0.1016" layer="21"/>
+<wire x1="1.95" y1="1.7" x2="1.95" y2="-1.7" width="0.1016" layer="21"/>
+<wire x1="1.95" y1="-1.7" x2="-1.95" y2="-1.7" width="0.1016" layer="21"/>
+<wire x1="-1.95" y1="-1.7" x2="-1.95" y2="1.7" width="0.1016" layer="21"/>
 <text x="-1.778" y="1.778" size="0.8128" layer="25">&gt;Name</text>
 <text x="-1.778" y="-1.778" size="0.8128" layer="27" align="top-left">&gt;Value</text>
 <wire x1="-0.567" y1="-0.432" x2="-0.567" y2="0.556" width="0.0762" layer="51"/>
@@ -2681,10 +2679,10 @@ JST PH 2-pin thru-home side entry</description>
 <smd name="P$2" x="1.05" y="-0.95" dx="0.9" dy="1" layer="1" rot="R180"/>
 <smd name="P$3" x="1.05" y="0.95" dx="0.9" dy="1" layer="1" rot="R180"/>
 <smd name="P$4" x="-1.05" y="0.95" dx="0.9" dy="1" layer="1" rot="R180"/>
-<wire x1="-0.5" y1="1.25" x2="0.5" y2="1.25" width="0.127" layer="21"/>
-<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="0.5" y1="-1.25" x2="-0.5" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="1.25" x2="0.4" y2="1.25" width="0.127" layer="21"/>
+<wire x1="1.7" y1="1.25" x2="1.7" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="0.4" y1="-1.25" x2="-0.4" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-1.25" x2="-1.7" y2="1.25" width="0.127" layer="21"/>
 <circle x="-1.9" y="-0.9" radius="0.111803125" width="0.127" layer="21"/>
 </package>
 <package name="2X10">
