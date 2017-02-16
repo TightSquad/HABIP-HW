@@ -42342,6 +42342,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/boost_approved/tps61232.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="TPS61232DRCR" constant="no"/>
 <attribute name="VALUE" value="TPS61232" constant="no"/>
@@ -42359,6 +42360,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </attributes>
 <variantdefs>
 <variantdef name="POR"/>
+<variantdef name="PCB_ONLY"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -42377,6 +42379,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="U501" library="daqcs" deviceset="PCT2075" device="SOIC8" technology="D,118" value="PCT2075D,118"/>
 <part name="U503" library="daqcs" deviceset="MAX11613" device="" technology="EUA+" value="MAX11613EUA+">
 <variant name="POR" populate="no"/>
+<variant name="PCB_ONLY" populate="no"/>
 </part>
 <part name="R507" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="C512" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
@@ -42400,9 +42403,11 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="GND603" library="daqcs" deviceset="GND" device=""/>
 <part name="R603" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k">
 <variant name="POR" populate="no"/>
+<variant name="PCB_ONLY" populate="no"/>
 </part>
 <part name="R604" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k">
 <variant name="POR" populate="no"/>
+<variant name="PCB_ONLY" populate="no"/>
 </part>
 <part name="GND606" library="daqcs" deviceset="GND" device=""/>
 <part name="R613" library="daqcs" deviceset="RES" device="_0603" technology="_4R7" value="4.7k"/>
@@ -42439,16 +42444,19 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="R304" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
 <part name="U401" library="daqcs" deviceset="TLV713" device="_SOT23" technology="33PDBVR" value="TLV71333P">
 <variant name="POR" populate="no"/>
+<variant name="PCB_ONLY" populate="no"/>
 </part>
 <part name="GND401" library="daqcs" deviceset="GND" device=""/>
 <part name="C402" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF">
 <variant name="POR" populate="no"/>
+<variant name="PCB_ONLY" populate="no"/>
 </part>
 <part name="GND404" library="daqcs" deviceset="GND" device=""/>
 <part name="PP5V0_CHG_IN301" library="daqcs" deviceset="PP5V0_CHG_IN" device=""/>
 <part name="U302" library="daqcs" deviceset="MAX63XX" device="_SOT23" technology="71KA" value="MAX6371"/>
 <part name="R311" library="daqcs" deviceset="RES" device="_0603" technology="_10R0" value="10k">
 <variant name="POR" populate="no"/>
+<variant name="PCB_ONLY" populate="no"/>
 </part>
 <part name="GND313" library="daqcs" deviceset="GND" device=""/>
 <part name="C302" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
@@ -42523,30 +42531,67 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="FRAME501" library="daqcs" deviceset="FRAME_B_L" device=""/>
 <part name="FRAME601" library="daqcs" deviceset="FRAME_B_L" device=""/>
 <part name="FRAME701" library="daqcs" deviceset="FRAME_B_L" device=""/>
-<part name="BOM701" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI2" value="SL 70066 2PIN HOUSING"/>
-<part name="BOM702" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
-<part name="BOM703" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
-<part name="BOM704" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI2" value="SL 70066 2PIN HOUSING"/>
-<part name="BOM705" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
-<part name="BOM706" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
-<part name="BOM712" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
-<part name="BOM713" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
-<part name="BOM714" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
-<part name="BOM715" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
-<part name="BOM711" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI4" value="SL 70066 4PIN HOUSING"/>
-<part name="BOM716" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI3" value="SL 70066 3PIN HOUSING"/>
-<part name="BOM717" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
-<part name="BOM718" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
-<part name="BOM719" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
-<part name="BOM720" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI7" value="1-Wire Temperature Sensor"/>
-<part name="BOM721" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI7" value="1-Wire Temperature Sensor"/>
-<part name="BOM722" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI1" value="HEADER-RECT-MALE-2X3"/>
+<part name="BOM701" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI2" value="SL 70066 2PIN HOUSING">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM702" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM703" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM704" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI2" value="SL 70066 2PIN HOUSING">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM705" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM706" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM712" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM713" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM714" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM715" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM711" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI4" value="SL 70066 4PIN HOUSING">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM716" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI3" value="SL 70066 3PIN HOUSING">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM717" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM718" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM719" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM720" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI7" value="1-Wire Temperature Sensor">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM721" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI7" value="1-Wire Temperature Sensor">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM722" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI1" value="HEADER-RECT-MALE-2X3">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
 <part name="R602" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="R601" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="L401" library="daqcs" deviceset="L" device="_2SMD3" technology="_1UH0" value="1.0uH"/>
 <part name="R611" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="R612" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0">
 <variant name="POR" populate="no"/>
+<variant name="PCB_ONLY" populate="no"/>
 </part>
 <part name="R310" library="daqcs" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
 <part name="R405" library="daqcs" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
@@ -42559,6 +42604,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="PP5V0_CHG_IN401" library="daqcs" deviceset="PP5V0_CHG_IN" device=""/>
 <part name="C404" library="daqcs" deviceset="CAP" device="_0603" technology="_2UF2" value="2.2uF">
 <variant name="POR" populate="no"/>
+<variant name="PCB_ONLY" populate="no"/>
 </part>
 <part name="R605" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="R609" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
@@ -42573,11 +42619,11 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="PP5V0_BST403" library="daqcs" deviceset="PP5V0_BST" device=""/>
 <part name="PP5V0_BST401" library="daqcs" deviceset="PP5V0_BST" device=""/>
 <part name="PP5V0_BST_HAT601" library="daqcs" deviceset="PP5V0_BST_HAT" device=""/>
-<part name="TP508" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
-<part name="TP509" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
-<part name="TP510" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
-<part name="TP511" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
-<part name="TP512" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
+<part name="TP508" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
+<part name="TP509" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
+<part name="TP510" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
+<part name="TP511" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
+<part name="TP512" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
 <part name="GND304" library="daqcs" deviceset="GND" device=""/>
 <part name="GND411" library="daqcs" deviceset="GND" device=""/>
 <part name="GND614" library="daqcs" deviceset="GND" device=""/>
@@ -42598,9 +42644,11 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="J301" library="daqcs" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
 <part name="C503" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF">
 <variant name="POR" populate="no"/>
+<variant name="PCB_ONLY" populate="no"/>
 </part>
 <part name="C504" library="daqcs" deviceset="CAP" device="_0603" technology="_4UF7_0603" value="4.7uF">
 <variant name="POR" populate="no"/>
+<variant name="PCB_ONLY" populate="no"/>
 </part>
 <part name="C301" library="daqcs" deviceset="CAP" device="_0805" technology="_10UF0_0805" value="10uF"/>
 <part name="C401" library="daqcs" deviceset="CAP" device="_0805" technology="_10UF0_0805" value="10uF"/>
@@ -42613,7 +42661,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="C406" library="daqcs" deviceset="CAP" device="_0805" technology="_10UF0_0805" value="10uF"/>
 <part name="C408" library="daqcs" deviceset="CAP" device="_0805" technology="_10UF0_0805" value="10uF"/>
 <part name="J601" library="daqcs" deviceset="RECEPTICAL-2X5-254MM-PIZERO" device="_TH" value="RECEPTACLE-2x5-2.54MM"/>
-<part name="BOM710" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI10" value="HEADER-RECT-MALE-2X5"/>
+<part name="BOM710" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI10" value="HEADER-RECT-MALE-2X5">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
 <part name="TP501" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
 <part name="TP502" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
 <part name="TP503" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
@@ -42621,13 +42671,20 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="TP505" library="daqcs" deviceset="TEST_POINT_SMT" device="_20R_SMD"/>
 <part name="R401" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0">
 <variant name="POR" populate="no"/>
+<variant name="PCB_ONLY" populate="no"/>
 </part>
 <part name="R606" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="J402" library="daqcs" deviceset="MOLSL_2PIN" device="_V" technology="_SL2V" value="MOL-SL-2-V"/>
 <part name="J602" library="daqcs" deviceset="MOLSL_4PIN" device="_RA" technology="_SL4RA" value="MOL-SL-4-RA"/>
-<part name="BOM707" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI2" value="SL 70066 2PIN HOUSING"/>
-<part name="BOM708" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
-<part name="BOM709" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM707" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI2" value="SL 70066 2PIN HOUSING">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM708" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
+<part name="BOM709" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP">
+<variant name="PCB_ONLY" populate="no"/>
+</part>
 <part name="R409" library="daqcs" deviceset="RES" device="_0805" technology="_0R0_0805" value="0.0"/>
 <part name="TP301" library="daqcs" deviceset="TEST_POINT_TH" device="" technology="_D102_R"/>
 <part name="TP302" library="daqcs" deviceset="TEST_POINT_TH" device="" technology="_D102_B"/>
