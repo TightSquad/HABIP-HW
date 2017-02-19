@@ -13,7 +13,7 @@ UsedLibrary="/Users/mattzachary/Dropbox/School/2016-2017Spring/MSD/HW/eagle/libr
 
 [Win_1]
 Type="Schematic Editor"
-Loc="0 -22 599 377"
+Loc="42 23 641 422"
 State=0
 Number=2
 File="Comms_Main.sch"
@@ -56,22 +56,23 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: 177.149 206.714 448.753 393.788"
 Sheet="1"
 
 [Win_2]
 Type="Control Panel"
-Loc="42 23 641 374"
-State=1
+Loc="42 23 1279 729"
+State=2
 Number=0
 
 [Win_3]
 Type="Board Editor"
-Loc="41 24 1278 754"
+Loc="42 23 1279 729"
 State=2
 Number=1
 File="Comms_Main.brd"
-View="31.2429 -13.7478 94.8726 36.7879"
-WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.5842"
+View="-13.9869 -6.26471 109.488 101.974"
+WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
 ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
