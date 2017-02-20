@@ -5535,8 +5535,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 </element>
 <element name="H1" library="grss" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="4" y="4"/>
 <element name="H2" library="grss" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="62" y="4"/>
-<element name="H3" library="grss" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="4" y="58"/>
-<element name="H4" library="grss" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="62" y="58"/>
+<element name="H3" library="grss" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="4" y="58.1"/>
+<element name="H4" library="grss" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="62" y="58.1"/>
 <element name="R3" library="grss" package="R0805" value="4.7k" x="29.4" y="29.55" smashed="yes" rot="R270">
 <attribute name="TOLERANCE" value="1%" x="29.4" y="29.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="1/2W" x="29.4" y="29.55" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5583,7 +5583,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="NAME" x="49.56" y="25.9" size="1.016" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="49.56" y="23.5" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
-<element name="LOGO1" library="grss" package="SQUAD_LOGO" value="" x="40.1" y="34.3">
+<element name="LOGO1" library="grss" package="SQUAD_LOGO" value="LOGO" x="40.1" y="34.3">
 <attribute name="_EXTERNAL_" value="" x="40.1" y="34.3" size="1.778" layer="27" display="off"/>
 </element>
 <element name="E$1" library="grss" package="LG" value="" x="59.6" y="32.6"/>
