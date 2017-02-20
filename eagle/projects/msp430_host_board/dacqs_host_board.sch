@@ -1509,9 +1509,9 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <smd name="CD2" x="8" y="-0.44" dx="1.4" dy="1.8" layer="1" rot="R90"/>
 <smd name="8" x="1.3" y="-10.64" dx="0.7" dy="1.5" layer="1"/>
 <smd name="7" x="2.4" y="-10.64" dx="0.7" dy="1.5" layer="1"/>
-<smd name="6" x="3.5" y="-11.04" dx="0.7" dy="1.5" layer="1"/>
+<smd name="6" x="3.5" y="-10.84" dx="0.7" dy="1.5" layer="1"/>
 <smd name="5" x="4.6" y="-10.64" dx="0.7" dy="1.5" layer="1"/>
-<smd name="4" x="5.7" y="-11.04" dx="0.7" dy="1.5" layer="1"/>
+<smd name="4" x="5.7" y="-10.84" dx="0.7" dy="1.5" layer="1"/>
 <smd name="3" x="6.8" y="-10.64" dx="0.7" dy="1.5" layer="1"/>
 <smd name="2" x="7.9" y="-10.24" dx="0.7" dy="1.5" layer="1"/>
 <smd name="1" x="9" y="-10.64" dx="0.7" dy="1.5" layer="1"/>
