@@ -149,17 +149,25 @@
 <library name="grss">
 <packages>
 <package name="BC9VPC">
-<wire x1="0" y1="0" x2="0" y2="29.972" width="0.127" layer="21"/>
-<wire x1="0" y1="29.972" x2="54.864" y2="29.972" width="0.127" layer="21"/>
-<wire x1="54.864" y1="29.972" x2="54.864" y2="0" width="0.127" layer="21"/>
-<wire x1="54.864" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="29.972" width="0.127" layer="51"/>
+<wire x1="0" y1="29.972" x2="54.864" y2="29.972" width="0.127" layer="51"/>
+<wire x1="54.864" y1="29.972" x2="54.864" y2="0" width="0.127" layer="51"/>
+<wire x1="54.864" y1="0" x2="0" y2="0" width="0.127" layer="51"/>
 <pad name="V+" x="53.086" y="21.336" drill="2.032" shape="square"/>
 <pad name="V-" x="53.086" y="8.382" drill="2.032" shape="square"/>
-<text x="49.276" y="20.828" size="1.27" layer="21">V+</text>
-<text x="49.276" y="7.874" size="1.27" layer="21">V-</text>
+<text x="49.276" y="20.828" size="1.016" layer="21" ratio="15">V+</text>
+<text x="49.276" y="7.874" size="1.016" layer="21" ratio="15">V-</text>
 <hole x="27.178" y="3.81" drill="2.286"/>
 <hole x="13.716" y="26.162" drill="2.286"/>
 <hole x="40.64" y="26.162" drill="2.286"/>
+<wire x1="53.864" y1="29.972" x2="54.864" y2="29.972" width="0.15" layer="21"/>
+<wire x1="54.864" y1="29.972" x2="54.864" y2="29" width="0.15" layer="21"/>
+<wire x1="1" y1="29.972" x2="0" y2="29.972" width="0.15" layer="21"/>
+<wire x1="0" y1="29.972" x2="0" y2="29" width="0.15" layer="21"/>
+<wire x1="0" y1="1" x2="0" y2="0" width="0.15" layer="21"/>
+<wire x1="0" y1="0" x2="1" y2="0" width="0.15" layer="21"/>
+<wire x1="53.864" y1="0" x2="54.864" y2="0" width="0.15" layer="21"/>
+<wire x1="54.864" y1="0" x2="54.864" y2="1" width="0.15" layer="21"/>
 </package>
 <package name="BC9VPC_KIT">
 <wire x1="0" y1="0" x2="0" y2="29.972" width="0.127" layer="21"/>

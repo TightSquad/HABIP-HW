@@ -16,7 +16,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -161,22 +161,32 @@ P17105: HABIP
 SPRING 2K17
 XXX-XXX-XX</text>
 <text x="58.54" y="7.6" size="1.016" layer="21" ratio="15">Buzzer</text>
+<hole x="28.35" y="46.6" drill="5"/>
+<hole x="28.35" y="15.5" drill="5"/>
 </plain>
 <libraries>
 <library name="grss">
 <packages>
 <package name="BC9VPC">
-<wire x1="0" y1="0" x2="0" y2="29.972" width="0.127" layer="21"/>
-<wire x1="0" y1="29.972" x2="54.864" y2="29.972" width="0.127" layer="21"/>
-<wire x1="54.864" y1="29.972" x2="54.864" y2="0" width="0.127" layer="21"/>
-<wire x1="54.864" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="29.972" width="0.127" layer="51"/>
+<wire x1="0" y1="29.972" x2="54.864" y2="29.972" width="0.127" layer="51"/>
+<wire x1="54.864" y1="29.972" x2="54.864" y2="0" width="0.127" layer="51"/>
+<wire x1="54.864" y1="0" x2="0" y2="0" width="0.127" layer="51"/>
 <pad name="V+" x="53.086" y="21.336" drill="2.032" shape="square"/>
 <pad name="V-" x="53.086" y="8.382" drill="2.032" shape="square"/>
-<text x="49.276" y="20.828" size="1.27" layer="21">V+</text>
-<text x="49.276" y="7.874" size="1.27" layer="21">V-</text>
+<text x="49.276" y="20.828" size="1.016" layer="21" ratio="15">V+</text>
+<text x="49.276" y="7.874" size="1.016" layer="21" ratio="15">V-</text>
 <hole x="27.178" y="3.81" drill="2.286"/>
 <hole x="13.716" y="26.162" drill="2.286"/>
 <hole x="40.64" y="26.162" drill="2.286"/>
+<wire x1="53.864" y1="29.972" x2="54.864" y2="29.972" width="0.15" layer="21"/>
+<wire x1="54.864" y1="29.972" x2="54.864" y2="29" width="0.15" layer="21"/>
+<wire x1="1" y1="29.972" x2="0" y2="29.972" width="0.15" layer="21"/>
+<wire x1="0" y1="29.972" x2="0" y2="29" width="0.15" layer="21"/>
+<wire x1="0" y1="1" x2="0" y2="0" width="0.15" layer="21"/>
+<wire x1="0" y1="0" x2="1" y2="0" width="0.15" layer="21"/>
+<wire x1="53.864" y1="0" x2="54.864" y2="0" width="0.15" layer="21"/>
+<wire x1="54.864" y1="0" x2="54.864" y2="1" width="0.15" layer="21"/>
 </package>
 <package name="C0805">
 <description>&lt;b&gt;0805 Chip Resistor&lt;/b&gt;
@@ -5798,11 +5808,12 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="RES456">
 <contactref element="R5" pad="2"/>
 <contactref element="J6" pad="2"/>
-<wire x1="11.63" y1="13.67" x2="11.63" y2="16.58" width="0.635" layer="1"/>
-<wire x1="11.63" y1="16.58" x2="13.3" y2="18.25" width="0.635" layer="1"/>
-<wire x1="13.3" y1="18.25" x2="34.4" y2="18.25" width="0.635" layer="1"/>
-<wire x1="34.4" y1="18.25" x2="35.5" y2="17.15" width="0.635" layer="1"/>
-<wire x1="35.5" y1="17.15" x2="41.1" y2="17.15" width="0.635" layer="1"/>
+<wire x1="11.63" y1="13.67" x2="11.63" y2="19.03" width="0.635" layer="1"/>
+<wire x1="11.63" y1="19.03" x2="14.2" y2="21.6" width="0.635" layer="1"/>
+<wire x1="14.2" y1="21.6" x2="33.3" y2="21.6" width="0.635" layer="1"/>
+<wire x1="33.3" y1="21.6" x2="37.7" y2="17.2" width="0.635" layer="1"/>
+<wire x1="37.7" y1="17.2" x2="41.05" y2="17.2" width="0.635" layer="1"/>
+<wire x1="41.05" y1="17.2" x2="41.1" y2="17.15" width="0.635" layer="1"/>
 </signal>
 <signal name="LED89">
 <contactref element="J8" pad="2"/>
@@ -5839,7 +5850,12 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="LED23">
 <contactref element="J2" pad="2"/>
 <contactref element="J3" pad="1"/>
-<wire x1="24.47" y1="48.43" x2="32.23" y2="48.43" width="0.635" layer="1"/>
+<wire x1="24.47" y1="48.43" x2="24.47" y2="49.67" width="0.635" layer="1"/>
+<wire x1="24.47" y1="49.67" x2="25.7" y2="50.9" width="0.635" layer="1"/>
+<wire x1="25.7" y1="50.9" x2="31" y2="50.9" width="0.635" layer="1"/>
+<wire x1="31" y1="50.9" x2="32.2" y2="49.7" width="0.635" layer="1"/>
+<wire x1="32.2" y1="49.7" x2="32.2" y2="48.46" width="0.635" layer="1"/>
+<wire x1="32.2" y1="48.46" x2="32.23" y2="48.43" width="0.635" layer="1"/>
 </signal>
 <signal name="LED12">
 <contactref element="J1" pad="2"/>
@@ -5854,11 +5870,12 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="LED78">
 <contactref element="J7" pad="2"/>
 <contactref element="J8" pad="1"/>
-<wire x1="21.93" y1="13.67" x2="21.93" y2="15.58" width="0.635" layer="1"/>
-<wire x1="21.93" y1="15.58" x2="22.7" y2="16.35" width="0.635" layer="1"/>
-<wire x1="22.7" y1="16.35" x2="34.04" y2="16.35" width="0.635" layer="1"/>
-<wire x1="34.04" y1="16.35" x2="34.77" y2="15.62" width="0.635" layer="1"/>
-<wire x1="34.77" y1="15.62" x2="34.77" y2="13.67" width="0.635" layer="1"/>
+<wire x1="21.93" y1="13.67" x2="21.93" y2="18.43" width="0.635" layer="1"/>
+<wire x1="21.93" y1="18.43" x2="23.9" y2="20.4" width="0.635" layer="1"/>
+<wire x1="23.9" y1="20.4" x2="32.6" y2="20.4" width="0.635" layer="1"/>
+<wire x1="32.6" y1="20.4" x2="34.7" y2="18.3" width="0.635" layer="1"/>
+<wire x1="34.7" y1="18.3" x2="34.7" y2="13.74" width="0.635" layer="1"/>
+<wire x1="34.7" y1="13.74" x2="34.77" y2="13.67" width="0.635" layer="1"/>
 </signal>
 <signal name="NC">
 <contactref element="U2" pad="5"/>
