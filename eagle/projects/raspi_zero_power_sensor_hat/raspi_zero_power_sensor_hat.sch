@@ -42412,8 +42412,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="GND606" library="daqcs" deviceset="GND" device=""/>
 <part name="R613" library="daqcs" deviceset="RES" device="_0603" technology="_4R7" value="4.7k"/>
 <part name="GND608" library="daqcs" deviceset="GND" device=""/>
-<part name="TP607" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
-<part name="TP608" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
 <part name="J603" library="daqcs" deviceset="MOLSL_3PIN" device="_V" technology="_SL3V" value="MOL-SL-3-V"/>
 <part name="R607" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
 <part name="R608" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
@@ -43050,7 +43048,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <pinref part="Q301" gate="A" pin="G"/>
 </segment>
 </net>
-<net name="PP3V3_HAT" class="0">
+<net name="NFO" class="0">
 <segment>
 <pinref part="R311" gate="G$1" pin="2"/>
 <wire x1="342.9" y1="210.82" x2="342.9" y2="215.9" width="0.1524" layer="91"/>
@@ -43466,7 +43464,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <pinref part="DS402" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="PP3V3_HAT" class="0">
+<net name="NFO" class="0">
 <segment>
 <wire x1="109.22" y1="38.1" x2="116.84" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="38.1" x2="132.08" y2="38.1" width="0.1524" layer="91"/>
@@ -44214,7 +44212,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <pinref part="TP504" gate="G$1" pin="TP"/>
 </segment>
 </net>
-<net name="PP3V3_HAT" class="0">
+<net name="NFO" class="0">
 <segment>
 <pinref part="C501" gate="G$1" pin="2"/>
 <pinref part="U501" gate="A" pin="VCC"/>
@@ -44508,8 +44506,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="GND606" gate="1" x="276.86" y="205.74"/>
 <instance part="R613" gate="G$1" x="378.46" y="160.02" rot="R90"/>
 <instance part="GND608" gate="1" x="330.2" y="132.08"/>
-<instance part="TP607" gate="G$1" x="330.2" y="238.76"/>
-<instance part="TP608" gate="G$1" x="340.36" y="238.76"/>
 <instance part="J603" gate="G$1" x="312.42" y="144.78"/>
 <instance part="R607" gate="G$1" x="236.22" y="40.64" rot="R90"/>
 <instance part="R608" gate="G$1" x="264.16" y="40.64" rot="R90"/>
@@ -44720,13 +44716,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <segment>
 <wire x1="269.24" y1="218.44" x2="322.58" y2="218.44" width="0.1524" layer="91"/>
 <label x="281.94" y="218.44" size="1.778" layer="95"/>
-<pinref part="TP608" gate="G$1" pin="TP"/>
-<wire x1="322.58" y1="218.44" x2="340.36" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="340.36" y1="233.68" x2="340.36" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="R609" gate="G$1" pin="2"/>
 <wire x1="292.1" y1="193.04" x2="322.58" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="193.04" x2="322.58" y2="218.44" width="0.1524" layer="91"/>
-<junction x="322.58" y="218.44"/>
 <pinref part="J602" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -44734,12 +44726,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <segment>
 <wire x1="269.24" y1="228.6" x2="330.2" y2="228.6" width="0.1524" layer="91"/>
 <label x="281.94" y="228.6" size="1.778" layer="95"/>
-<pinref part="TP607" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="233.68" x2="330.2" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="R610" gate="G$1" pin="2"/>
 <wire x1="312.42" y1="187.96" x2="330.2" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="187.96" x2="330.2" y2="228.6" width="0.1524" layer="91"/>
-<junction x="330.2" y="228.6"/>
 <pinref part="J602" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -44820,7 +44809,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <junction x="378.46" y="81.28"/>
 </segment>
 </net>
-<net name="PP3V3_HAT" class="0">
+<net name="NFO" class="0">
 <segment>
 <wire x1="109.22" y1="213.36" x2="99.06" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="PP3V3_HAT603" gate="G$1" pin="PP3V3_HAT"/>
