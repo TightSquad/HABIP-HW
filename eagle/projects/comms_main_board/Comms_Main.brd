@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.393700787" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="2" name="GND" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="GND" color="14" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="POWER" color="48" fill="1" visible="no" active="yes"/>
@@ -85,13 +85,13 @@
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
@@ -32849,6 +32849,9 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 <smd name="2" x="-0.635" y="0" dx="1.27" dy="1.27" layer="1" stop="no" cream="no"/>
 <text x="-1.27" y="-2.032" size="1.27" layer="25" ratio="16">&gt;NAME</text>
 </package>
+<package name="MOLSL-OFFBOARD">
+<text x="-2.54" y="-0.635" size="1.27" layer="51">&gt;VALUE</text>
+</package>
 </packages>
 </library>
 </libraries>
@@ -34823,6 +34826,438 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="POWER" value="1/10W" x="82.83" y="33.71" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="82.83" y="33.71" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="82.81" y="32.52" size="1.016" layer="26" ratio="15" rot="MR180" align="center"/>
+</element>
+<element name="OFFBOARD1" library="comms" package="MOLSL-OFFBOARD" value="50-57-9403" x="-8.56" y="-5.25">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-5.25" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-5.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="50-57-9403" x="-8.56" y="-5.25" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2901-ND" x="-8.56" y="-5.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD2" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-7.46">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-7.46" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-7.46" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-7.46" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-7.46" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD3" library="comms" package="MOLSL-OFFBOARD" value="0050579405" x="-8.56" y="-9.67">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-9.67" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-9.67" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0050579405" x="-8.56" y="-9.67" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2903-ND" x="-8.56" y="-9.67" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD4" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-11.88">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-11.88" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-11.88" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-11.88" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-11.88" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD5" library="comms" package="MOLSL-OFFBOARD" value="67996-104HLF" x="-8.56" y="-14.09">
+<attribute name="MANUFACTURER" value="Amphenol FCI" x="-8.56" y="-14.09" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-14.09" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="67996-104HLF" x="-8.56" y="-14.09" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="609-3201-ND" x="-8.56" y="-14.09" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD6" library="comms" package="MOLSL-OFFBOARD" value="PRPC020DAAN-RC" x="-8.56" y="-16.3">
+<attribute name="MANUFACTURER" value="Sullins" x="-8.56" y="-16.3" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-16.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="PRPC020DAAN-RC" x="-8.56" y="-16.3" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="S2011EC-20-ND" x="-8.56" y="-16.3" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD7" library="comms" package="MOLSL-OFFBOARD" value="50-57-9403" x="-8.56" y="-18.51">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-18.51" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="50-57-9403" x="-8.56" y="-18.51" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2901-ND" x="-8.56" y="-18.51" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD8" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-20.72">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-20.72" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-20.72" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-20.72" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-20.72" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD9" library="comms" package="MOLSL-OFFBOARD" value="50-57-9402" x="-8.56" y="-22.93">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-22.93" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-22.93" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="50-57-9402" x="-8.56" y="-22.93" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2900-ND" x="-8.56" y="-22.93" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD10" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-25.14">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-25.14" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-25.14" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-25.14" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-25.14" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD11" library="comms" package="MOLSL-OFFBOARD" value="50-57-9403" x="-8.56" y="-27.35">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-27.35" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-27.35" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="50-57-9403" x="-8.56" y="-27.35" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2901-ND" x="-8.56" y="-27.35" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD12" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-29.56">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-29.56" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-29.56" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-29.56" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-29.56" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD13" library="comms" package="MOLSL-OFFBOARD" value="50-57-9402" x="-8.56" y="-31.77">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-31.77" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-31.77" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="50-57-9402" x="-8.56" y="-31.77" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2900-ND" x="-8.56" y="-31.77" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD14" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-33.98">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-33.98" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-33.98" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-33.98" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-33.98" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD15" library="comms" package="MOLSL-OFFBOARD" value="50-57-9402" x="-8.56" y="-36.19">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-36.19" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-36.19" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="50-57-9402" x="-8.56" y="-36.19" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2900-ND" x="-8.56" y="-36.19" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD16" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-38.4">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-38.4" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-38.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-38.4" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-38.4" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD17" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-40.61">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-40.61" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-40.61" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-40.61" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-40.61" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD18" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-42.82">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-42.82" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-42.82" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-42.82" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-42.82" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD19" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-45.03">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-45.03" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-45.03" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-45.03" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-45.03" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD20" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-47.24">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-47.24" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-47.24" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-47.24" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-47.24" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD21" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-49.45">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-49.45" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-49.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-49.45" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-49.45" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD22" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-51.66">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-51.66" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-51.66" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-51.66" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-51.66" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD23" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-53.87">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-53.87" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-53.87" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-53.87" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-53.87" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD24" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-56.08">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-56.08" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-56.08" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-56.08" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-56.08" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD25" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-58.29">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-58.29" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-58.29" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-58.29" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-58.29" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD26" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-60.5">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-60.5" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-60.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-60.5" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-60.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD27" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-62.71">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-62.71" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-62.71" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-62.71" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-62.71" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD28" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-64.92">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-64.92" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-64.92" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-64.92" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-64.92" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD29" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-67.13">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-67.13" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-67.13" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-67.13" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-67.13" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD30" library="comms" package="MOLSL-OFFBOARD" value="50-57-9403" x="-8.56" y="-69.34">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-69.34" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-69.34" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="50-57-9403" x="-8.56" y="-69.34" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2901-ND" x="-8.56" y="-69.34" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD31" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-71.55">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-71.55" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-71.55" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-71.55" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-71.55" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD32" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-73.76">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-73.76" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-73.76" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-73.76" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-73.76" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD33" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-75.97">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-75.97" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-75.97" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-75.97" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-75.97" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD34" library="comms" package="MOLSL-OFFBOARD" value="50-57-9403" x="-8.56" y="-78.18">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-78.18" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-78.18" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="50-57-9403" x="-8.56" y="-78.18" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2901-ND" x="-8.56" y="-78.18" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD35" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-80.39">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-80.39" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-80.39" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-80.39" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-80.39" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD36" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-82.6">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-82.6" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-82.6" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-82.6" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-82.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD37" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-84.81">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-84.81" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-84.81" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-84.81" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-84.81" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD38" library="comms" package="MOLSL-OFFBOARD" value="50-57-9403" x="-8.56" y="-87.02">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-87.02" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-87.02" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="50-57-9403" x="-8.56" y="-87.02" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2901-ND" x="-8.56" y="-87.02" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD39" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-89.23">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-89.23" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-89.23" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-89.23" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-89.23" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD40" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-91.44">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-91.44" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-91.44" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-91.44" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-91.44" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD41" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-93.65">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-93.65" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-93.65" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-93.65" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-93.65" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD42" library="comms" package="MOLSL-OFFBOARD" value="50-57-9402" x="-8.56" y="-95.86">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-95.86" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-95.86" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="50-57-9402" x="-8.56" y="-95.86" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2900-ND" x="-8.56" y="-95.86" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD43" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-98.07">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-98.07" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-98.07" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-98.07" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-98.07" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD44" library="comms" package="MOLSL-OFFBOARD" value="0016020087" x="-8.56" y="-100.28">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-100.28" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-100.28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" x="-8.56" y="-100.28" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="-8.56" y="-100.28" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD45" library="comms" package="MOLSL-OFFBOARD" value="0701070001" x="-8.56" y="-102.49">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-102.49" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-102.49" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0701070001" x="-8.56" y="-102.49" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2533-ND" x="-8.56" y="-102.49" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD46" library="comms" package="MOLSL-OFFBOARD" value="0016020115" x="-8.56" y="-104.7">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-104.7" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-104.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020115" x="-8.56" y="-104.7" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2515-ND" x="-8.56" y="-104.7" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD47" library="comms" package="MOLSL-OFFBOARD" value="0016020115" x="-8.56" y="-106.91">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-106.91" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-106.91" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0016020115" x="-8.56" y="-106.91" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2515-ND" x="-8.56" y="-106.91" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD48" library="comms" package="MOLSL-OFFBOARD" value="50-57-9402" x="-8.56" y="-109.12">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-109.12" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-109.12" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="50-57-9402" x="-8.56" y="-109.12" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2900-ND" x="-8.56" y="-109.12" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD49" library="comms" package="MOLSL-OFFBOARD" value="0039013022" x="-8.56" y="-111.33">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-111.33" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-111.33" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039013022" x="-8.56" y="-111.33" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM1021-ND" x="-8.56" y="-111.33" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD50" library="comms" package="MOLSL-OFFBOARD" value="0039000073" x="-8.56" y="-113.54">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-113.54" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-113.54" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039000073" x="-8.56" y="-113.54" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM6890CT-ND" x="-8.56" y="-113.54" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD51" library="comms" package="MOLSL-OFFBOARD" value="0039000073" x="-8.56" y="-115.75">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-115.75" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-115.75" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039000073" x="-8.56" y="-115.75" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM6890CT-ND" x="-8.56" y="-115.75" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD52" library="comms" package="MOLSL-OFFBOARD" value="0039013022" x="-8.56" y="-117.96">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-117.96" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-117.96" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039013022" x="-8.56" y="-117.96" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM1021-ND" x="-8.56" y="-117.96" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD53" library="comms" package="MOLSL-OFFBOARD" value="0039000073" x="-8.56" y="-120.17">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-120.17" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-120.17" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039000073" x="-8.56" y="-120.17" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM6890CT-ND" x="-8.56" y="-120.17" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD54" library="comms" package="MOLSL-OFFBOARD" value="0039000073" x="-8.56" y="-122.38">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-122.38" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-122.38" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039000073" x="-8.56" y="-122.38" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM6890CT-ND" x="-8.56" y="-122.38" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD55" library="comms" package="MOLSL-OFFBOARD" value="0039013022" x="-8.56" y="-124.59">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-124.59" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-124.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039013022" x="-8.56" y="-124.59" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM1021-ND" x="-8.56" y="-124.59" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD56" library="comms" package="MOLSL-OFFBOARD" value="0039013022" x="-8.56" y="-126.8">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-126.8" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-126.8" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039013022" x="-8.56" y="-126.8" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM1021-ND" x="-8.56" y="-126.8" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD57" library="comms" package="MOLSL-OFFBOARD" value="0039000073" x="-8.56" y="-129.01">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-129.01" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-129.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039000073" x="-8.56" y="-129.01" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM6890CT-ND" x="-8.56" y="-129.01" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD58" library="comms" package="MOLSL-OFFBOARD" value="0039000073" x="-8.56" y="-131.22">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-131.22" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-131.22" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039000073" x="-8.56" y="-131.22" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM6890CT-ND" x="-8.56" y="-131.22" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD59" library="comms" package="MOLSL-OFFBOARD" value="0039000073" x="-8.56" y="-133.43">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-133.43" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-133.43" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039000073" x="-8.56" y="-133.43" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM6890CT-ND" x="-8.56" y="-133.43" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD60" library="comms" package="MOLSL-OFFBOARD" value="0039000073" x="-8.56" y="-135.64">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-135.64" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-135.64" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039000073" x="-8.56" y="-135.64" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM6890CT-ND" x="-8.56" y="-135.64" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD61" library="comms" package="MOLSL-OFFBOARD" value="0039013023" x="-8.56" y="-137.85">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-137.85" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-137.85" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039013023" x="-8.56" y="-137.85" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM1030-ND" x="-8.56" y="-137.85" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD62" library="comms" package="MOLSL-OFFBOARD" value="0039000075" x="-8.56" y="-140.06">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-140.06" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-140.06" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039000075" x="-8.56" y="-140.06" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM6891CT-ND" x="-8.56" y="-140.06" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD63" library="comms" package="MOLSL-OFFBOARD" value="0039000075" x="-8.56" y="-142.27">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-142.27" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-142.27" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039000075" x="-8.56" y="-142.27" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM6891CT-ND" x="-8.56" y="-142.27" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD64" library="comms" package="MOLSL-OFFBOARD" value="0039013022" x="-8.56" y="-144.48">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-144.48" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-144.48" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039013022" x="-8.56" y="-144.48" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM1021-ND" x="-8.56" y="-144.48" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD65" library="comms" package="MOLSL-OFFBOARD" value="0039013022" x="-8.56" y="-146.69">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-146.69" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-146.69" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039013022" x="-8.56" y="-146.69" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM1021-ND" x="-8.56" y="-146.69" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD66" library="comms" package="MOLSL-OFFBOARD" value="0039000073" x="-8.56" y="-148.9">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-148.9" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-148.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039000073" x="-8.56" y="-148.9" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM6890CT-ND" x="-8.56" y="-148.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD67" library="comms" package="MOLSL-OFFBOARD" value="0039000073" x="-8.56" y="-151.11">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-151.11" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-151.11" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039000073" x="-8.56" y="-151.11" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM6890CT-ND" x="-8.56" y="-151.11" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD68" library="comms" package="MOLSL-OFFBOARD" value="0039000073" x="-8.56" y="-153.32">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-153.32" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-153.32" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039000073" x="-8.56" y="-153.32" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM6890CT-ND" x="-8.56" y="-153.32" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD69" library="comms" package="MOLSL-OFFBOARD" value="0039000073" x="-8.56" y="-155.53">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-155.53" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-155.53" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039000073" x="-8.56" y="-155.53" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM6890CT-ND" x="-8.56" y="-155.53" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD70" library="comms" package="MOLSL-OFFBOARD" value="0039013023" x="-8.56" y="-157.74">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-157.74" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-157.74" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039013023" x="-8.56" y="-157.74" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM1030-ND" x="-8.56" y="-157.74" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD71" library="comms" package="MOLSL-OFFBOARD" value="0039000075" x="-8.56" y="-159.95">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-159.95" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-159.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039000075" x="-8.56" y="-159.95" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM6891CT-ND" x="-8.56" y="-159.95" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OFFBOARD72" library="comms" package="MOLSL-OFFBOARD" value="0039000075" x="-8.56" y="-162.16">
+<attribute name="MANUFACTURER" value="Molex" x="-8.56" y="-162.16" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-Key" x="-8.56" y="-162.16" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="0039000075" x="-8.56" y="-162.16" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM6891CT-ND" x="-8.56" y="-162.16" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
