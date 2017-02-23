@@ -5834,16 +5834,16 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="NAME" x="47.8" y="83.05" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="48.35" y="80.9" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
-<element name="C4" library="daqcs_host" package="C0603" value="100nF" x="72.2" y="41.4" smashed="yes" rot="R180">
-<attribute name="MANUFACTURER" value="Murata" x="72.2" y="41.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PN" value="GRM188R71C104KA01D" x="72.2" y="41.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMP_COEFF" value="X7R" x="72.2" y="41.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="72.2" y="41.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE" value="16V" x="72.2" y="41.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR_PN" value="490-1532-1-ND" x="72.2" y="41.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="10%" x="72.2" y="41.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="70.1" y="41.35" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE" x="72.2" y="42.15" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
+<element name="C4" library="daqcs_host" package="C0603" value="100nF" x="72.2" y="41.7" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Murata" x="72.2" y="41.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PN" value="GRM188R71C104KA01D" x="72.2" y="41.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TEMP_COEFF" value="X7R" x="72.2" y="41.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="72.2" y="41.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE" value="16V" x="72.2" y="41.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR_PN" value="490-1532-1-ND" x="72.2" y="41.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="72.2" y="41.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="70.1" y="41.65" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="72.2" y="42.45" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
 </element>
 <element name="C5" library="daqcs_host" package="C0603" value="10uF" x="55.5" y="44.4" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="Murata" x="55.5" y="44.4" size="1.778" layer="27" rot="R90" display="off"/>
@@ -6942,16 +6942,16 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="NAME" x="35.8" y="43.75" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="34.75" y="41.7" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
 </element>
-<element name="C24" library="daqcs_host" package="C0603" value="1uF" x="72.2" y="39.4" smashed="yes" rot="R180">
-<attribute name="MANUFACTURER" value="Murata" x="72.2" y="39.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="20%" x="72.2" y="39.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR_PN" value="490-13226-1-ND" x="72.2" y="39.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PN" value="GRM033R61A105ME15D" x="72.2" y="39.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="72.2" y="39.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE" value="10V" x="72.2" y="39.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMP_COEFF" value="X5R" x="72.2" y="39.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="69.7" y="39.35" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE" x="72.2" y="40.15" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
+<element name="C24" library="daqcs_host" package="C0603" value="1uF" x="72.2" y="38.9" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Murata" x="72.2" y="38.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="20%" x="72.2" y="38.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR_PN" value="490-13226-1-ND" x="72.2" y="38.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PN" value="GRM033R61A105ME15D" x="72.2" y="38.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="72.2" y="38.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="72.2" y="38.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TEMP_COEFF" value="X5R" x="72.2" y="38.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="69.7" y="38.85" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="72.2" y="39.65" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
 </element>
 <element name="C37" library="daqcs_host" package="C0603" value="1uF" x="51.2" y="57.5" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Murata" x="51.2" y="57.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7220,15 +7220,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="52.3" y1="78.45" x2="54.05" y2="78.45" width="0.254" layer="1"/>
 <wire x1="54.05" y1="78.45" x2="54.8" y2="77.8" width="0.254" layer="1"/>
 <wire x1="51.95" y1="61.45" x2="51.95" y2="61.85" width="0.254" layer="1"/>
-<wire x1="71.25" y1="56.745" x2="71.345" y2="56.745" width="0.254" layer="1"/>
-<wire x1="71.345" y1="56.745" x2="72.3" y2="57.7" width="0.254" layer="1"/>
-<wire x1="72.3" y1="57.7" x2="73.25" y2="57.7" width="0.254" layer="1"/>
-<wire x1="73.25" y1="57.7" x2="73.3" y2="57.75" width="0.254" layer="1"/>
-<wire x1="71.25" y1="43.295" x2="71.805" y2="43.295" width="0.254" layer="1"/>
-<wire x1="71.805" y1="43.295" x2="73.2" y2="41.9" width="0.254" layer="1"/>
-<wire x1="73.2" y1="41.9" x2="73.2" y2="41.55" width="0.254" layer="1"/>
-<wire x1="73.2" y1="41.55" x2="73.05" y2="41.4" width="0.254" layer="1"/>
-<wire x1="73.05" y1="41.4" x2="73.05" y2="39.4" width="0.254" layer="1"/>
+<wire x1="73.2" y1="41.55" x2="73.05" y2="41.7" width="0.254" layer="1"/>
+<wire x1="73.05" y1="41.7" x2="73.05" y2="38.9" width="0.254" layer="1"/>
 <wire x1="59.775" y1="45.27" x2="58.97" y2="45.27" width="0.254" layer="1"/>
 <wire x1="58.97" y1="45.27" x2="58.9" y2="45.2" width="0.254" layer="1"/>
 <wire x1="58.9" y1="45.2" x2="58.9" y2="44" width="0.254" layer="1"/>
@@ -7346,6 +7339,16 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="56.65" y1="58.45" x2="53.2" y2="61.9" width="0.254" layer="1"/>
 <wire x1="37.4" y1="64" x2="35.55" y2="64" width="0.254" layer="1"/>
 <wire x1="35.55" y1="64" x2="35.5" y2="63.95" width="0.254" layer="1"/>
+<wire x1="71.25" y1="43.295" x2="71.3" y2="43.295" width="0.254" layer="1"/>
+<wire x1="71.3" y1="43.295" x2="71.3" y2="42.6" width="0.254" layer="1"/>
+<wire x1="71.3" y1="42.6" x2="72.6" y2="42.6" width="0.254" layer="1"/>
+<wire x1="72.6" y1="42.6" x2="73" y2="42.2" width="0.254" layer="1"/>
+<wire x1="73" y1="42.2" x2="73" y2="41.35" width="0.254" layer="1"/>
+<wire x1="73" y1="41.35" x2="73.05" y2="41.7" width="0.254" layer="1"/>
+<wire x1="71.25" y1="56.745" x2="71.25" y2="57.35" width="0.254" layer="1"/>
+<wire x1="71.25" y1="57.35" x2="71.6" y2="57.7" width="0.254" layer="1"/>
+<wire x1="71.6" y1="57.7" x2="73.25" y2="57.7" width="0.254" layer="1"/>
+<wire x1="73.25" y1="57.7" x2="73.3" y2="57.75" width="0.254" layer="1"/>
 </signal>
 <signal name="COMMS_SS">
 <contactref element="U1" pad="56"/>
@@ -7914,7 +7917,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="67" y1="63.9" x2="64.9" y2="63.9" width="0.4064" layer="1"/>
 <wire x1="38.795" y1="65.87" x2="35.92" y2="65.87" width="0.254" layer="1"/>
 <wire x1="35.92" y1="65.87" x2="35.5" y2="65.65" width="0.4064" layer="1"/>
-<wire x1="52.3" y1="76.75" x2="52.3" y2="74.925" width="0.254" layer="1"/>
 <wire x1="52.3" y1="74.925" x2="52.245" y2="74.87" width="0.254" layer="1"/>
 <wire x1="50.25" y1="61" x2="50.25" y2="61.55" width="0.254" layer="1"/>
 <wire x1="50.25" y1="61.55" x2="49.8" y2="62" width="0.254" layer="1"/>
@@ -7933,11 +7935,11 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="58.85" y1="58.4" x2="58.8" y2="58.45" width="0.254" layer="1"/>
 <wire x1="73.3" y1="56.05" x2="73.3" y2="54.845" width="0.254" layer="1"/>
 <wire x1="73.3" y1="54.845" x2="73.225" y2="54.77" width="0.254" layer="1"/>
-<wire x1="71.35" y1="41.4" x2="71.35" y2="41.85" width="0.254" layer="1"/>
+<wire x1="71.35" y1="41.7" x2="71.35" y2="41.85" width="0.254" layer="1"/>
 <wire x1="71.35" y1="41.85" x2="70.8" y2="42.4" width="0.254" layer="1"/>
 <wire x1="70.8" y1="42.4" x2="70.8" y2="43.245" width="0.254" layer="1"/>
 <wire x1="70.8" y1="43.245" x2="70.75" y2="43.295" width="0.254" layer="1"/>
-<wire x1="71.35" y1="41.4" x2="71.35" y2="39.4" width="0.254" layer="1"/>
+<wire x1="71.35" y1="41.7" x2="71.35" y2="38.9" width="0.254" layer="1"/>
 <wire x1="59.775" y1="45.77" x2="58.02" y2="45.77" width="0.254" layer="1"/>
 <wire x1="58.02" y1="45.77" x2="57.5" y2="45.25" width="0.254" layer="1"/>
 <wire x1="57.5" y1="45.25" x2="55.5" y2="45.25" width="0.254" layer="1"/>
@@ -7967,18 +7969,17 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="44.35" y1="20.15" x2="44.1" y2="19.9" width="0.254" layer="1"/>
 <wire x1="46.6" y1="22.75" x2="46.6" y2="21.3" width="0.254" layer="1"/>
 <wire x1="46.6" y1="21.3" x2="45.2" y2="19.9" width="0.254" layer="1"/>
-<wire x1="57.75" y1="20.4" x2="57.75" y2="19.75" width="0.254" layer="1"/>
-<wire x1="57.75" y1="19.75" x2="57.95" y2="19.55" width="0.254" layer="1"/>
-<wire x1="57.95" y1="19.55" x2="58.4" y2="19.1" width="0.254" layer="1"/>
-<wire x1="58.4" y1="19.1" x2="58.4" y2="14.7" width="0.254" layer="1"/>
-<wire x1="58.4" y1="14.7" x2="58.4" y2="13.95" width="0.254" layer="1"/>
-<wire x1="58.4" y1="13.95" x2="58.285" y2="13.835" width="0.254" layer="1"/>
+<wire x1="57.75" y1="20.4" x2="57.75" y2="19.55" width="0.254" layer="1"/>
+<wire x1="57.75" y1="19.55" x2="58.3" y2="19.1" width="0.254" layer="1"/>
+<wire x1="58.3" y1="19.1" x2="58.3" y2="14.6" width="0.254" layer="1"/>
+<wire x1="58.3" y1="14.6" x2="58.3" y2="13.85" width="0.254" layer="1"/>
+<wire x1="58.3" y1="13.85" x2="58.285" y2="13.835" width="0.254" layer="1"/>
 <wire x1="57.855" y1="13.835" x2="57.855" y2="14.155" width="0.254" layer="1"/>
 <wire x1="57.855" y1="14.155" x2="58.1" y2="14.4" width="0.254" layer="1"/>
 <wire x1="57.425" y1="13.835" x2="57.425" y2="14.325" width="0.254" layer="1"/>
 <wire x1="57.425" y1="14.325" x2="57.5" y2="14.4" width="0.254" layer="1"/>
 <wire x1="57.5" y1="14.4" x2="58.1" y2="14.4" width="0.254" layer="1"/>
-<wire x1="58.1" y1="14.4" x2="58.4" y2="14.7" width="0.254" layer="1"/>
+<wire x1="58.1" y1="14.4" x2="58.3" y2="14.6" width="0.254" layer="1"/>
 <wire x1="57.75" y1="22.6" x2="57.75" y2="20.4" width="0.254" layer="1"/>
 <wire x1="58.255" y1="11.965" x2="58.765" y2="11.965" width="0.3048" layer="1"/>
 <wire x1="58.765" y1="11.965" x2="59" y2="12.2" width="0.3048" layer="1"/>
@@ -8004,14 +8005,14 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="58.9" y1="13.8" x2="58.32" y2="13.8" width="0.3048" layer="1"/>
 <wire x1="58.32" y1="13.8" x2="58.285" y2="13.835" width="0.3048" layer="1"/>
 <wire x1="56.9" y1="18.35" x2="56.9" y2="18.5" width="0.254" layer="1"/>
-<wire x1="56.9" y1="18.5" x2="57.95" y2="19.55" width="0.254" layer="1"/>
+<wire x1="56.9" y1="18.5" x2="57.75" y2="19.55" width="0.254" layer="1"/>
 <via x="51.5" y="18.4" extent="1-16" drill="0.381"/>
 <via x="48.9" y="9.3" extent="1-16" drill="0.381"/>
 <wire x1="48.9" y1="9.3" x2="48.9" y2="11.85" width="0.254" layer="1"/>
 <wire x1="53.6" y1="18.35" x2="51.55" y2="18.35" width="0.254" layer="1"/>
 <wire x1="51.55" y1="18.35" x2="51.5" y2="18.4" width="0.254" layer="1"/>
 <via x="60.1" y="18.2" extent="1-16" drill="0.381"/>
-<wire x1="58.4" y1="19.1" x2="59.2" y2="19.1" width="0.254" layer="1"/>
+<wire x1="58.3" y1="19.1" x2="59.2" y2="19.1" width="0.254" layer="1"/>
 <wire x1="59.2" y1="19.1" x2="60.1" y2="18.2" width="0.254" layer="1"/>
 <via x="91.8" y="43.4" extent="1-16" drill="0.381"/>
 <via x="94" y="46.5" extent="1-16" drill="0.381"/>
@@ -8091,9 +8092,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <via x="54.3" y="76.1" extent="1-16" drill="0.381"/>
 <wire x1="52.3" y1="76.75" x2="53.65" y2="76.75" width="0.254" layer="1"/>
 <wire x1="53.65" y1="76.75" x2="54.3" y2="76.1" width="0.254" layer="1"/>
-<via x="71.4" y="37.6" extent="1-16" drill="0.381"/>
-<wire x1="71.4" y1="37.6" x2="71.4" y2="39.35" width="0.254" layer="1"/>
-<wire x1="71.4" y1="39.35" x2="71.35" y2="39.4" width="0.254" layer="1"/>
+<via x="71.4" y="37.4" extent="1-16" drill="0.381"/>
+<wire x1="71.4" y1="37.4" x2="71.4" y2="39.35" width="0.254" layer="1"/>
+<wire x1="71.4" y1="39.35" x2="71.35" y2="38.9" width="0.254" layer="1"/>
 <wire x1="55.5" y1="45.25" x2="54.35" y2="45.25" width="0.254" layer="1"/>
 <wire x1="54.35" y1="45.25" x2="54.1" y2="45" width="0.254" layer="1"/>
 <wire x1="54.1" y1="45" x2="54.1" y2="42.6" width="0.254" layer="1"/>
@@ -8223,14 +8224,19 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <via x="61.8" y="54.8" extent="1-16" drill="0.381"/>
 <via x="44" y="69.9" extent="1-16" drill="0.381"/>
 <via x="26.3" y="65.4" extent="1-16" drill="0.381"/>
+<wire x1="52.3" y1="74.925" x2="53.125" y2="74.925" width="0.254" layer="1"/>
+<wire x1="53.125" y1="74.925" x2="54.3" y2="76.1" width="0.254" layer="1"/>
 </signal>
 <signal name="AVCC_HOST">
 <contactref element="R1" pad="2"/>
 <contactref element="U1" pad="80"/>
 <contactref element="C1" pad="1"/>
-<wire x1="61.75" y1="56.745" x2="58.805" y2="56.745" width="0.254" layer="1"/>
 <wire x1="58.805" y1="56.745" x2="58.8" y2="56.75" width="0.254" layer="1"/>
 <wire x1="58.8" y1="56.75" x2="56.7" y2="56.75" width="0.254" layer="1"/>
+<wire x1="61.75" y1="56.745" x2="61.75" y2="57.25" width="0.254" layer="1"/>
+<wire x1="61.75" y1="57.25" x2="61.5" y2="57.5" width="0.254" layer="1"/>
+<wire x1="61.5" y1="57.5" x2="59.55" y2="57.5" width="0.254" layer="1"/>
+<wire x1="59.55" y1="57.5" x2="58.8" y2="56.75" width="0.254" layer="1"/>
 </signal>
 <signal name="HF_IN_1">
 <contactref element="U1" pad="74"/>
@@ -8797,9 +8803,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="J12" pad="4"/>
 <wire x1="63.7" y1="42.4" x2="63.7" y2="43.2" width="0.254" layer="1"/>
 <wire x1="63.3" y1="41.8" x2="63.7" y2="42.4" width="0.254" layer="1"/>
-<wire x1="69.6" y1="41.8" x2="63.3" y2="41.8" width="0.254" layer="16"/>
-<wire x1="74" y1="37.4" x2="69.6" y2="41.8" width="0.254" layer="16"/>
-<wire x1="79.1" y1="37.4" x2="74" y2="37.4" width="0.254" layer="16"/>
+<wire x1="68.7" y1="41.8" x2="63.3" y2="41.8" width="0.254" layer="16"/>
+<wire x1="73" y1="37.4" x2="68.7" y2="41.8" width="0.254" layer="16"/>
+<wire x1="79.1" y1="37.4" x2="73" y2="37.4" width="0.254" layer="16"/>
 <wire x1="96.2" y1="25.6" x2="92.2" y2="25.6" width="0.254" layer="16"/>
 <wire x1="100.5" y1="30.1" x2="96.2" y2="25.6" width="0.254" layer="16"/>
 <wire x1="105.2" y1="30.1" x2="100.5" y2="30.1" width="0.254" layer="16"/>
@@ -8879,10 +8885,10 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="66.8" y1="54.5" x2="66.8" y2="56.7" width="0.254" layer="1"/>
 <wire x1="69.2" y1="51.9" x2="66.8" y2="54.5" width="0.254" layer="1"/>
 <wire x1="69.2" y1="46.9" x2="69.2" y2="51.9" width="0.254" layer="1"/>
-<wire x1="73.8" y1="42.3" x2="69.2" y2="46.9" width="0.254" layer="1"/>
-<wire x1="75.1" y1="42.3" x2="73.8" y2="42.3" width="0.254" layer="1"/>
-<wire x1="75.5" y1="41.9" x2="75.1" y2="42.3" width="0.254" layer="1"/>
-<wire x1="75.5" y1="39.9" x2="75.5" y2="41.9" width="0.254" layer="1"/>
+<wire x1="73.4" y1="42.8" x2="69.2" y2="46.9" width="0.254" layer="1"/>
+<wire x1="75.1" y1="42.8" x2="73.4" y2="42.8" width="0.254" layer="1"/>
+<wire x1="75.5" y1="42.4" x2="75.1" y2="42.8" width="0.254" layer="1"/>
+<wire x1="75.5" y1="39.9" x2="75.5" y2="42.4" width="0.254" layer="1"/>
 <wire x1="66.8" y1="56.7" x2="66.75" y2="56.745" width="0.1524" layer="1"/>
 <via x="90.5" y="25.6" extent="1-16" drill="0.381"/>
 <wire x1="75.5" y1="39.9" x2="77.6" y2="37.8" width="0.254" layer="1"/>
@@ -9034,9 +9040,14 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="R2" pad="2"/>
 <contactref element="C6" pad="1"/>
 <wire x1="40.765" y1="76.84" x2="40.77" y2="76.845" width="0.254" layer="1"/>
-<wire x1="40.765" y1="76.84" x2="37.81" y2="76.84" width="0.254" layer="1"/>
 <wire x1="37.81" y1="76.84" x2="37.8" y2="76.85" width="0.254" layer="1"/>
 <wire x1="36.1" y1="76.85" x2="37.8" y2="76.85" width="0.254" layer="1"/>
+<wire x1="40.765" y1="76.84" x2="40.765" y2="77.335" width="0.254" layer="1"/>
+<wire x1="40.765" y1="77.335" x2="40.5" y2="77.6" width="0.254" layer="1"/>
+<wire x1="40.5" y1="77.6" x2="39.2" y2="77.6" width="0.254" layer="1"/>
+<wire x1="39.2" y1="77.6" x2="38.5" y2="76.9" width="0.254" layer="1"/>
+<wire x1="38.5" y1="76.9" x2="37.85" y2="76.9" width="0.254" layer="1"/>
+<wire x1="37.85" y1="76.9" x2="37.8" y2="76.85" width="0.254" layer="1"/>
 </signal>
 <signal name="ACT_CURRENT_IN">
 <contactref element="U2" pad="5"/>
@@ -9778,8 +9789,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="P7.0_2">
 <contactref element="U2" pad="13"/>
 <contactref element="J19" pad="9"/>
-<wire x1="30.3" y1="68.8" x2="38.7" y2="68.8" width="0.254" layer="1"/>
-<wire x1="28" y1="66.5" x2="30.3" y2="68.8" width="0.254" layer="1"/>
+<wire x1="30.4" y1="68.9" x2="38.7" y2="68.9" width="0.254" layer="1"/>
+<wire x1="28" y1="66.5" x2="30.4" y2="68.9" width="0.254" layer="1"/>
 <wire x1="28" y1="63.8" x2="28" y2="66.5" width="0.254" layer="1"/>
 <wire x1="28" y1="58.1" x2="28" y2="63.8" width="0.254" layer="16"/>
 <wire x1="23.4" y1="58.1" x2="28" y2="58.1" width="0.254" layer="1"/>
@@ -9796,7 +9807,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="19.3" y1="5" x2="18.6" y2="4.6" width="0.254" layer="1"/>
 <wire x1="23.7" y1="5" x2="19.3" y2="5" width="0.254" layer="1"/>
 <wire x1="24.9" y1="3.8" x2="23.7" y2="5" width="0.254" layer="1"/>
-<wire x1="38.7" y1="68.8" x2="38.795" y2="68.87" width="0.1524" layer="1"/>
+<wire x1="38.7" y1="68.9" x2="38.795" y2="68.87" width="0.1524" layer="1"/>
 <wire x1="24.9" y1="3.8" x2="24.9" y2="3.73" width="0.1524" layer="1"/>
 <via x="28" y="63.8" extent="1-16" drill="0.381"/>
 <via x="28" y="58.1" extent="1-16" drill="0.381"/>
@@ -9813,8 +9824,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="P7.1_2">
 <contactref element="U2" pad="14"/>
 <contactref element="J19" pad="11"/>
-<wire x1="30.6" y1="68.3" x2="38.7" y2="68.3" width="0.254" layer="1"/>
-<wire x1="28.9" y1="66.6" x2="30.6" y2="68.3" width="0.254" layer="1"/>
+<wire x1="30.7" y1="68.4" x2="38.7" y2="68.4" width="0.254" layer="1"/>
+<wire x1="28.9" y1="66.6" x2="30.7" y2="68.4" width="0.254" layer="1"/>
 <wire x1="28.9" y1="63.2" x2="28.9" y2="66.6" width="0.254" layer="1"/>
 <wire x1="28.9" y1="42.8" x2="28.9" y2="63.2" width="0.254" layer="16"/>
 <wire x1="29.8" y1="41.8" x2="28.9" y2="42.8" width="0.254" layer="16"/>
@@ -9830,7 +9841,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="25.3" y1="2.3" x2="26.2" y2="3.1" width="0.254" layer="1"/>
 <wire x1="23.8" y1="2.3" x2="25.3" y2="2.3" width="0.254" layer="1"/>
 <wire x1="22.4" y1="3.7" x2="23.8" y2="2.3" width="0.254" layer="1"/>
-<wire x1="38.7" y1="68.3" x2="38.795" y2="68.37" width="0.1524" layer="1"/>
+<wire x1="38.7" y1="68.4" x2="38.795" y2="68.37" width="0.1524" layer="1"/>
 <wire x1="22.4" y1="3.7" x2="22.36" y2="3.73" width="0.1524" layer="1"/>
 <via x="28.9" y="63.2" extent="1-16" drill="0.381"/>
 <via x="31.6" y="37.9" extent="1-16" drill="0.381"/>
@@ -10163,8 +10174,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="P6.6_2">
 <contactref element="U2" pad="71"/>
 <contactref element="J19" pad="18"/>
-<wire x1="45.2" y1="78.6" x2="45.2" y2="76.9" width="0.1524" layer="1"/>
-<wire x1="44.7" y1="79.1" x2="45.2" y2="78.6" width="0.1524" layer="1"/>
+<wire x1="45.3" y1="78.5" x2="45.3" y2="76.9" width="0.254" layer="1"/>
+<wire x1="44.7" y1="79.1" x2="45.3" y2="78.5" width="0.254" layer="1"/>
 <wire x1="34.6" y1="79.1" x2="44.7" y2="79.1" width="0.254" layer="16"/>
 <wire x1="34.2" y1="79.5" x2="34.6" y2="79.1" width="0.254" layer="16"/>
 <wire x1="16.8" y1="79.5" x2="34.2" y2="79.5" width="0.254" layer="16"/>
@@ -10181,7 +10192,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="11.6" y1="5" x2="2.1" y2="14.7" width="0.254" layer="16"/>
 <wire x1="13.4" y1="5" x2="11.6" y2="5" width="0.254" layer="16"/>
 <wire x1="14.7" y1="6.2" x2="13.4" y2="5" width="0.254" layer="16"/>
-<wire x1="45.2" y1="76.9" x2="45.27" y2="76.845" width="0.1524" layer="1"/>
+<wire x1="45.3" y1="76.9" x2="45.27" y2="76.845" width="0.1524" layer="1"/>
 <wire x1="14.7" y1="6.2" x2="14.74" y2="6.27" width="0.1524" layer="16"/>
 <via x="44.7" y="79.1" extent="1-16" drill="0.381"/>
 <via x="16.4" y="79.1" extent="1-16" drill="0.381"/>
@@ -10194,8 +10205,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="P6.7_2">
 <contactref element="U2" pad="72"/>
 <contactref element="J19" pad="20"/>
-<wire x1="44.7" y1="77.8" x2="44.7" y2="76.9" width="0.1524" layer="1"/>
-<wire x1="44.5" y1="78" x2="44.7" y2="77.8" width="0.1524" layer="1"/>
+<wire x1="44.8" y1="77.8" x2="44.8" y2="76.9" width="0.254" layer="1"/>
+<wire x1="44.5" y1="78" x2="44.8" y2="77.8" width="0.254" layer="1"/>
 <wire x1="34.3" y1="78" x2="44.5" y2="78" width="0.254" layer="16"/>
 <wire x1="34.2" y1="77.9" x2="34.3" y2="78" width="0.254" layer="16"/>
 <wire x1="14.5" y1="76.3" x2="14.5" y2="77.6" width="0.254" layer="1"/>
@@ -10206,7 +10217,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="2.9" y1="28.4" x2="2.7" y2="48.6" width="0.254" layer="16"/>
 <wire x1="2.9" y1="15.6" x2="2.9" y2="23.1" width="0.254" layer="16"/>
 <wire x1="12.2" y1="6.3" x2="2.9" y2="15.6" width="0.254" layer="16"/>
-<wire x1="44.7" y1="76.9" x2="44.77" y2="76.845" width="0.1524" layer="1"/>
+<wire x1="44.8" y1="76.9" x2="44.77" y2="76.845" width="0.1524" layer="1"/>
 <wire x1="12.2" y1="6.3" x2="12.2" y2="6.27" width="0.1524" layer="16"/>
 <via x="44.5" y="78" extent="1-16" drill="0.381"/>
 <via x="14.5" y="77.6" extent="1-16" drill="0.381"/>
