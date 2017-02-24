@@ -9,37 +9,37 @@
 <grid distance="0.393700787" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GND" color="14" fill="1" visible="no" active="yes"/>
+<layer number="2" name="GND" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="POWER" color="48" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="15" name="POWER" color="48" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="63" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -49,7 +49,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -150,6 +150,11 @@
 <wire x1="101.6" y1="0" x2="101.6" y2="95.25" width="0" layer="20"/>
 <wire x1="101.6" y1="95.25" x2="0" y2="95.25" width="0" layer="20"/>
 <wire x1="0" y1="95.25" x2="0" y2="0" width="0" layer="20"/>
+<text x="41.68" y="32.05" size="1.016" layer="26" ratio="15" rot="MR180">CONNOR GOLDBERG
+ADAM STEENKAMER
+MATT ZACHARY
+P17104: HABIP
+SPRING 2017</text>
 </plain>
 <libraries>
 <library name="comms">
@@ -34350,7 +34355,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 </element>
 <element name="TP28" library="comms" package="TP15R" value="TPTP15R" x="29.6" y="60.5832" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="29.6" y="58.0432" size="1" layer="37"/>
-<attribute name="NAME" x="28.1299" y="61.5033" size="1.016" layer="25" ratio="15"/>
+<attribute name="NAME" x="25.0699" y="60.1033" size="1.016" layer="25" ratio="15"/>
 </element>
 <element name="TP29" library="comms" package="TP15R" value="TPTP15R" x="32.92" y="59.5512" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="32.92" y="57.0112" size="1" layer="37"/>
@@ -34591,7 +34596,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="TP_SIGNAL_NAME" value="" x="20.48" y="16.53" size="1" layer="38" rot="MR0"/>
 <attribute name="NAME" x="22.4301" y="20.0701" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="IMAGE101" library="comms" package="SQUAD_LOGO" value="SQUAD_LOGO" x="64.87" y="52.78" smashed="yes"/>
+<element name="IMAGE101" library="comms" package="SQUAD_LOGO" value="SQUAD_LOGO" x="58.21" y="32.69" smashed="yes" rot="MR0"/>
 <element name="U403" library="comms" package="SOT23P130X045-8N" value="MAX6371" x="35.31" y="88.56" smashed="yes" rot="MR0">
 <attribute name="OUTPUT_ACTIVE_TIME" value="120us (min)" x="35.31" y="88.56" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TIMEOUT" value="Adjustable (up to 60s)" x="35.31" y="88.56" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -34794,8 +34799,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <element name="SH2" library="comms" package="SHORT_TOP-50" value="SHORT-HT5" x="98.3" y="19.09" smashed="yes" rot="R90">
 <attribute name="BOM" value="no" x="98.3" y="19.09" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="SH3" library="comms" package="SHORT_TOP-50" value="SHORT-HT5" x="14.04" y="10.1" smashed="yes" rot="R180">
-<attribute name="BOM" value="no" x="14.04" y="9.72" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="SH3" library="comms" package="SHORT_TOP-50" value="SHORT-HT5" x="13.03" y="10.08" smashed="yes" rot="R180">
+<attribute name="BOM" value="no" x="13.03" y="9.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="SH4" library="comms" package="SHORT_TOP-50" value="SHORT-HT5" x="98.35" y="18.93" smashed="yes" rot="MR90">
 <attribute name="BOM" value="no" x="98.73" y="18.93" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -35266,7 +35271,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR_PN" value="P23.2HCT-ND" x="77.27" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="77.27" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF23R2V" x="77.27" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="78.12" y="66.04" size="0.4064" layer="25" ratio="6" rot="R270" align="center"/>
+<attribute name="NAME" x="78.46" y="66.04" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
 <element name="R1203" library="comms" package="R0603" value="23.2" x="65.05" y="62.18" smashed="yes" rot="R180">
 <attribute name="POWER" value="1/10W" x="65.05" y="62.18" size="1.778" layer="27" rot="R180" display="off"/>
@@ -35275,7 +35280,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR_PN" value="P23.2HCT-ND" x="65.05" y="62.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="65.05" y="62.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF23R2V" x="65.05" y="62.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="65.05" y="61.33" size="0.4064" layer="25" ratio="6" rot="R180" align="center"/>
+<attribute name="NAME" x="65.14" y="60.93" size="1.016" layer="25" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="R1204" library="comms" package="R0603" value="23.2" x="29.87" y="63.19" smashed="yes">
 <attribute name="POWER" value="1/10W" x="29.87" y="63.19" size="1.778" layer="27" display="off"/>
@@ -35284,7 +35289,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR_PN" value="P23.2HCT-ND" x="29.87" y="63.19" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="29.87" y="63.19" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF23R2V" x="29.87" y="63.19" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="29.87" y="64.04" size="0.4064" layer="25" ratio="6" align="center"/>
+<attribute name="NAME" x="29.88" y="62.01" size="1.016" layer="25" ratio="15" align="center"/>
 </element>
 <element name="R1205" library="comms" package="R0603" value="23.2" x="34.8" y="62.31" smashed="yes" rot="R270">
 <attribute name="POWER" value="1/10W" x="34.8" y="62.31" size="1.778" layer="27" rot="R270" display="off"/>
@@ -35293,7 +35298,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR_PN" value="P23.2HCT-ND" x="34.8" y="62.31" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="34.8" y="62.31" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF23R2V" x="34.8" y="62.31" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="35.79" y="62.38" size="0.4064" layer="25" ratio="6" rot="R270" align="center"/>
+<attribute name="NAME" x="36.21" y="61.83" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
 </elements>
 <signals>
@@ -36853,14 +36858,10 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <via x="66.64" y="88.44" extent="1-16" drill="0.381"/>
 <wire x1="64.225346875" y1="88.544740625" x2="64.3300875" y2="88.44" width="0.4064" layer="16"/>
 <wire x1="64.3300875" y1="88.44" x2="66.64" y2="88.44" width="0.4064" layer="16"/>
-<wire x1="63.454" y1="82.804" x2="37.6682" y2="82.804" width="0.4064" layer="1"/>
 <wire x1="37.6682" y1="82.804" x2="34.7472" y2="79.883" width="0.4064" layer="1"/>
 <wire x1="34.7472" y1="79.883" x2="34.768178125" y2="79.661821875" width="0.4064" layer="1"/>
 <wire x1="70.8" y1="87.05" x2="69.41" y2="88.44" width="0.4064" layer="16"/>
 <wire x1="69.41" y1="88.44" x2="66.64" y2="88.44" width="0.4064" layer="16"/>
-<wire x1="63.454" y1="82.804" x2="67.11" y2="86.46" width="0.4064" layer="1"/>
-<wire x1="67.11" y1="86.46" x2="67.11" y2="87.97" width="0.4064" layer="1"/>
-<wire x1="67.11" y1="87.97" x2="66.64" y2="88.44" width="0.4064" layer="1"/>
 <wire x1="20.5895125" y1="52.9486" x2="20.5895125" y2="52.6795125" width="0.4064" layer="1"/>
 <wire x1="20.5895125" y1="52.6795125" x2="20.5495125" y2="52.6795125" width="0.1524" layer="1"/>
 <wire x1="20.5495125" y1="52.6795125" x2="19.35" y2="51.48" width="0.4064" layer="1"/>
@@ -36913,6 +36914,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="30.96" y1="68.33" x2="30.36" y2="67.81" width="0.3556" layer="1"/>
 <wire x1="30.36" y1="67.81" x2="28.08" y2="67.81" width="0.3556" layer="1"/>
 <wire x1="28.08" y1="67.81" x2="28.06" y2="67.83" width="0.3556" layer="1"/>
+<wire x1="37.6682" y1="82.804" x2="61.964" y2="82.804" width="0.4064" layer="1"/>
+<wire x1="61.964" y1="82.804" x2="66.64" y2="87.48" width="0.4064" layer="1"/>
+<wire x1="66.64" y1="87.48" x2="66.64" y2="88.44" width="0.4064" layer="1"/>
 </signal>
 <signal name="TX_IN_R">
 <contactref element="R803" pad="2"/>
@@ -37196,16 +37200,14 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="TP49" pad="TP"/>
 <contactref element="R909" pad="1"/>
 <contactref element="R918" pad="1"/>
-<via x="72.29" y="62.67" extent="1-16" drill="0.381"/>
-<wire x1="72.29" y1="62.88" x2="72.29" y2="62.67" width="0.3556" layer="1"/>
+<via x="72.29" y="62.47" extent="1-16" drill="0.381"/>
 <wire x1="79.75" y1="58.8" x2="79.75" y2="28.81" width="0.4064" layer="16"/>
 <wire x1="79.75" y1="28.81" x2="79.75" y2="28.54" width="0.4064" layer="16"/>
 <wire x1="79.75" y1="28.54" x2="81.19" y2="27.1" width="0.4064" layer="16"/>
 <wire x1="81.19" y1="27.1" x2="82.986546875" y2="27.1" width="0.4064" layer="16"/>
 <wire x1="82.986546875" y1="27.1" x2="84.319740625" y2="25.76680625" width="0.4064" layer="16"/>
 <wire x1="72.08" y1="62.46" x2="72.14" y2="62.52" width="0.4064" layer="1"/>
-<wire x1="72.14" y1="62.52" x2="72.29" y2="62.67" width="0.4064" layer="1"/>
-<wire x1="72.29" y1="62.67" x2="75.88" y2="62.67" width="0.4064" layer="16"/>
+<wire x1="72.14" y1="62.52" x2="72.29" y2="62.47" width="0.4064" layer="1"/>
 <wire x1="75.88" y1="62.67" x2="79.75" y2="58.8" width="0.4064" layer="16"/>
 <wire x1="79.32" y1="29.35" x2="79.75" y2="28.92" width="0.254" layer="16"/>
 <wire x1="79.75" y1="28.92" x2="79.75" y2="28.81" width="0.254" layer="16"/>
@@ -37214,6 +37216,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="66.24" y1="62.52" x2="65.9" y2="62.18" width="0.4064" layer="1"/>
 <wire x1="77.05" y1="63.8932" x2="77.05" y2="63.84" width="0.4064" layer="16"/>
 <wire x1="77.05" y1="63.84" x2="75.88" y2="62.67" width="0.4064" layer="16"/>
+<wire x1="72.29" y1="62.47" x2="75.68" y2="62.47" width="0.4064" layer="16"/>
+<wire x1="75.68" y1="62.47" x2="75.88" y2="62.67" width="0.4064" layer="16"/>
 </signal>
 <signal name="POT_SDA">
 <contactref element="TP48" pad="TP"/>
@@ -38069,8 +38073,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <polygon width="0.1524" layer="1" isolate="0.3048" thermals="no" rank="3">
 <vertex x="12.97" y="11.6"/>
 <vertex x="12.97" y="8.84"/>
-<vertex x="11.69" y="8.84"/>
-<vertex x="11.69" y="11.61"/>
+<vertex x="10.84" y="8.9"/>
+<vertex x="10.94" y="11.59"/>
 </polygon>
 </signal>
 <signal name="GND2">
@@ -38231,10 +38235,17 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 </signal>
 </signals>
 <errors>
+<approved hash="19,1,493055bd97bd8b30"/>
 <approved hash="19,1,652a8c2a4e15a715"/>
 <approved hash="19,16,1872477a857ada72"/>
 <approved hash="19,16,2b136153a36de92d"/>
 </errors>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
