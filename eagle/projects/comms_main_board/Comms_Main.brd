@@ -33455,7 +33455,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Sparkfun" x="2.774734375" y="75.401809375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="4.498190625" y="72.764734375" size="1.016" layer="26" ratio="15" rot="MR0"/>
 </element>
-<element name="J1208" library="comms" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="27.94" y="2.69" smashed="yes" rot="R180">
+<element name="J1309" library="comms" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="27.94" y="2.69" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="WM4900-ND" x="27.94" y="2.69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530001" x="27.94" y="2.69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LOCKING" value="YES" x="27.94" y="2.69" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33468,7 +33468,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MOUNT_TYPE" value="TH" x="27.94" y="2.69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="32.285" y="10.605" size="1.016" layer="25" ratio="15" rot="R270"/>
 </element>
-<element name="J1203" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="2.681140625" y="18.450490625" smashed="yes" rot="R90">
+<element name="J1304" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="2.681140625" y="18.450490625" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="WM4901-ND" x="2.681140625" y="18.450490625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530002" x="2.681140625" y="18.450490625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LOCKING" value="YES" x="2.681140625" y="18.450490625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -33481,7 +33481,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MOUNT_TYPE" value="TH" x="2.681140625" y="18.450490625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="8.396140625" y="12.735490625" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J1206" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="2.661140625" y="30.65590625" smashed="yes" rot="R90">
+<element name="J1305" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="2.661140625" y="30.65590625" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="WM4901-ND" x="2.661140625" y="30.65590625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530002" x="2.661140625" y="30.65590625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LOCKING" value="YES" x="2.661140625" y="30.65590625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -33494,7 +33494,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MOUNT_TYPE" value="TH" x="2.661140625" y="30.65590625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="8.376140625" y="24.94090625" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J1211" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="2.681140625" y="43.229084375" smashed="yes" rot="R90">
+<element name="J1306" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="2.681140625" y="43.229084375" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="WM4901-ND" x="2.681140625" y="43.229084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530002" x="2.681140625" y="43.229084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LOCKING" value="YES" x="2.681140625" y="43.229084375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -33507,7 +33507,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MOUNT_TYPE" value="TH" x="2.681140625" y="43.229084375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="8.396140625" y="37.514084375" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J1201" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="2.631140625" y="55.67770625" smashed="yes" rot="R90">
+<element name="J1307" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="2.631140625" y="55.67770625" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="WM4901-ND" x="2.631140625" y="55.67770625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530002" x="2.631140625" y="55.67770625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LOCKING" value="YES" x="2.631140625" y="55.67770625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -33520,7 +33520,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MOUNT_TYPE" value="TH" x="2.631140625" y="55.67770625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="8.346140625" y="49.96270625" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J1212" library="comms" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="0.82" y="67.3" smashed="yes" rot="R90">
+<element name="J1310" library="comms" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="0.82" y="67.3" smashed="yes" rot="R90">
 <attribute name="VENDOR_PN" value="WM4900-ND" x="0.82" y="67.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530001" x="0.82" y="67.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LOCKING" value="YES" x="0.82" y="67.3" size="1.778" layer="27" rot="R90" display="off"/>
@@ -33533,7 +33533,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MOUNT_TYPE" value="TH" x="0.82" y="67.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="6.535" y="62.855" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J1209" library="comms" package="39-30-?02?" value="MOL-MINIJR-2P-RA" x="47.285" y="14.03" smashed="yes">
+<element name="J1302" library="comms" package="39-30-?02?" value="MOL-MINIJR-2P-RA" x="47.285" y="14.03" smashed="yes">
 <attribute name="VENDOR_PN" value="WM1363-ND" x="47.285" y="14.03" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0039301021" x="47.285" y="14.03" size="1.778" layer="27" display="off"/>
 <attribute name="LOCKING" value="YES" x="47.285" y="14.03" size="1.778" layer="27" display="off"/>
@@ -33546,7 +33546,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MOUNT_TYPE" value="TH" x="47.285" y="14.03" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="43.856" y="0.2759" size="1.016" layer="25" ratio="15" rot="R90"/>
 </element>
-<element name="J1210" library="comms" package="39-30-?02?" value="MOL-MINIJR-2P-RA" x="63.51" y="14.08" smashed="yes">
+<element name="J1206" library="comms" package="39-30-?02?" value="MOL-MINIJR-2P-RA" x="63.51" y="14.08" smashed="yes">
 <attribute name="VENDOR_PN" value="WM1363-ND" x="63.51" y="14.08" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0039301021" x="63.51" y="14.08" size="1.778" layer="27" display="off"/>
 <attribute name="LOCKING" value="YES" x="63.51" y="14.08" size="1.778" layer="27" display="off"/>
@@ -33559,7 +33559,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MOUNT_TYPE" value="TH" x="63.51" y="14.08" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="60.281" y="1.1259" size="1.016" layer="25" ratio="15" rot="R90"/>
 </element>
-<element name="J1216" library="comms" package="39-30-?02?" value="MOL-MINIJR-2P-RA" x="55.365" y="14.08" smashed="yes">
+<element name="J1303" library="comms" package="39-30-?02?" value="MOL-MINIJR-2P-RA" x="55.365" y="14.08" smashed="yes">
 <attribute name="VENDOR_PN" value="WM1363-ND" x="55.365" y="14.08" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0039301021" x="55.365" y="14.08" size="1.778" layer="27" display="off"/>
 <attribute name="LOCKING" value="YES" x="55.365" y="14.08" size="1.778" layer="27" display="off"/>
@@ -33572,7 +33572,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MOUNT_TYPE" value="TH" x="55.365" y="14.08" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="51.936" y="0.3259" size="1.016" layer="25" ratio="15" rot="R90"/>
 </element>
-<element name="J1215" library="comms" package="39-30-?02?" value="MOL-MINIJR-2P-RA" x="72.72" y="14.09" smashed="yes">
+<element name="J1207" library="comms" package="39-30-?02?" value="MOL-MINIJR-2P-RA" x="72.72" y="14.09" smashed="yes">
 <attribute name="VENDOR_PN" value="WM1363-ND" x="72.72" y="14.09" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0039301021" x="72.72" y="14.09" size="1.778" layer="27" display="off"/>
 <attribute name="LOCKING" value="YES" x="72.72" y="14.09" size="1.778" layer="27" display="off"/>
@@ -33592,7 +33592,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="SPARKFUN" x="99.695" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="100.35" y="42.777" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J1213" library="comms" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="37.77" y="2.66" smashed="yes" rot="R180">
+<element name="J1308" library="comms" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="37.77" y="2.66" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="WM4900-ND" x="37.77" y="2.66" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530001" x="37.77" y="2.66" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LOCKING" value="YES" x="37.77" y="2.66" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33605,7 +33605,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MOUNT_TYPE" value="TH" x="37.77" y="2.66" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="42.215" y="10.675" size="1.016" layer="25" ratio="15" rot="R270"/>
 </element>
-<element name="J1214" library="comms" package="HEADER-2X2-254MM" value="RECEPTACLE-2x2-254MM" x="20.7969375" y="72.9081375" smashed="yes" rot="R180">
+<element name="J1202" library="comms" package="HEADER-2X2-254MM" value="RECEPTACLE-2x2-254MM" x="20.7969375" y="72.9081375" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="S7105-ND" x="20.7969375" y="72.9081375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="PPPC022LFBN-RC" x="20.7969375" y="72.9081375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Sullins Connector Solutions" x="20.7969375" y="72.9081375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33619,7 +33619,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="PITCH" value="2.54mm" x="20.7969375" y="72.9081375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="23.2079375" y="76.8041375" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J1202" library="comms" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="98.943815625" y="16.009309375" smashed="yes" rot="R270">
+<element name="J1203" library="comms" package="MOLSL-2-RA" value="MOL-SL-2-RA" x="98.943815625" y="16.009309375" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="WM4900-ND" x="98.943815625" y="16.009309375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530001" x="98.943815625" y="16.009309375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LOCKING" value="YES" x="98.943815625" y="16.009309375" size="1.778" layer="27" rot="R270" display="off"/>
@@ -33653,7 +33653,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="SPARKFUN" x="99.695" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="100.25" y="54.347" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J1205" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="98.97" y="71.21" smashed="yes" rot="R270">
+<element name="J1204" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="98.97" y="71.21" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="WM4901-ND" x="98.97" y="71.21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530002" x="98.97" y="71.21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LOCKING" value="YES" x="98.97" y="71.21" size="1.778" layer="27" rot="R270" display="off"/>
@@ -33666,7 +33666,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MOUNT_TYPE" value="TH" x="98.97" y="71.21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="93.285" y="76.705" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="J1207" library="comms" package="MOLSL-5-RA" value="MOL-SL-5-RA" x="98.96" y="85.725" smashed="yes" rot="R270">
+<element name="J1205" library="comms" package="MOLSL-5-RA" value="MOL-SL-5-RA" x="98.96" y="85.725" smashed="yes" rot="R270">
 <attribute name="VENDOR_PN" value="WM4903-ND" x="98.96" y="85.725" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530004" x="98.96" y="85.725" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LOCKING" value="YES" x="98.96" y="85.725" size="1.778" layer="27" rot="R270" display="off"/>
@@ -33679,7 +33679,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MOUNT_TYPE" value="TH" x="98.96" y="85.725" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="93.245" y="93.8625" size="1.016" layer="25" ratio="15"/>
 </element>
-<element name="J1217" library="comms" package="HEADER-2X20-254MM" value="RECEPTACLE-2x20-254MM" x="43.658178125" y="67.8281375" smashed="yes" rot="R180">
+<element name="J1201" library="comms" package="HEADER-2X20-254MM" value="RECEPTACLE-2x20-254MM" x="43.658178125" y="67.8281375" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="S9200-ND" x="43.658178125" y="67.8281375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="SFH11-PBPC-D20-ST-BK" x="43.658178125" y="67.8281375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Sullins Connector Solutions" x="43.658178125" y="67.8281375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -33693,7 +33693,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="PITCH" value="2.54mm" x="43.658178125" y="67.8281375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="68.968178125" y="71.7281375" size="1.016" layer="25" ratio="15" rot="R180"/>
 </element>
-<element name="J1204" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="82.57" y="2.64" smashed="yes" rot="R180">
+<element name="J1301" library="comms" package="MOLSL-3-RA" value="MOL-SL-3-RA" x="82.57" y="2.64" smashed="yes" rot="R180">
 <attribute name="VENDOR_PN" value="WM4901-ND" x="82.57" y="2.64" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PN" value="0705530002" x="82.57" y="2.64" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LOCKING" value="YES" x="82.57" y="2.64" size="1.778" layer="27" rot="R180" display="off"/>
@@ -34567,10 +34567,10 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="PACKAGE" value="SOT-223-4" x="26.77910625" y="19.084090625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="28.72410625" y="22.671890625" size="1.016" layer="26" ratio="15" rot="SMR0"/>
 </element>
-<element name="H1203" library="comms" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="4.7625" y="90.4875" smashed="yes"/>
-<element name="H1204" library="comms" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="4.7625" y="4.7625" smashed="yes"/>
-<element name="H1201" library="comms" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="82.55" y="90.4875" smashed="yes"/>
-<element name="H1202" library="comms" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="96.8375" y="4.7625" smashed="yes"/>
+<element name="H1201" library="comms" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="4.7625" y="90.4875" smashed="yes"/>
+<element name="H1203" library="comms" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="4.7625" y="4.7625" smashed="yes"/>
+<element name="H1202" library="comms" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="82.55" y="90.4875" smashed="yes"/>
+<element name="H1204" library="comms" package="2,75_HOLE_RASPI" value="MOUNT-HOLE_2.75" x="96.8375" y="4.7625" smashed="yes"/>
 <element name="L502" library="comms" package="HCMA1707" value="68uH" x="52.89888125" y="34.832390625" smashed="yes">
 <attribute name="CURRENT_DC" value="5.2A" x="52.89888125" y="34.832390625" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-Key" x="52.89888125" y="34.832390625" size="1.778" layer="27" display="off"/>
@@ -35396,26 +35396,26 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="U1001" pad="10"/>
 <contactref element="U1001" pad="13"/>
 <contactref element="U1001" pad="8"/>
-<contactref element="J1207" pad="5"/>
-<contactref element="J1217" pad="9"/>
-<contactref element="J1217" pad="25"/>
-<contactref element="J1217" pad="39"/>
-<contactref element="J1217" pad="6"/>
-<contactref element="J1217" pad="14"/>
-<contactref element="J1217" pad="20"/>
-<contactref element="J1217" pad="30"/>
-<contactref element="J1217" pad="34"/>
+<contactref element="J1205" pad="5"/>
+<contactref element="J1201" pad="9"/>
+<contactref element="J1201" pad="25"/>
+<contactref element="J1201" pad="39"/>
+<contactref element="J1201" pad="6"/>
+<contactref element="J1201" pad="14"/>
+<contactref element="J1201" pad="20"/>
+<contactref element="J1201" pad="30"/>
+<contactref element="J1201" pad="34"/>
 <contactref element="LED1201" pad="C"/>
-<contactref element="J1208" pad="2"/>
-<contactref element="J1209" pad="2"/>
-<contactref element="J1210" pad="2"/>
-<contactref element="J1216" pad="2"/>
-<contactref element="J1215" pad="2"/>
-<contactref element="J1213" pad="2"/>
-<contactref element="J1205" pad="3"/>
-<contactref element="J1214" pad="2"/>
+<contactref element="J1309" pad="2"/>
+<contactref element="J1302" pad="2"/>
+<contactref element="J1206" pad="2"/>
+<contactref element="J1303" pad="2"/>
+<contactref element="J1207" pad="2"/>
+<contactref element="J1308" pad="2"/>
+<contactref element="J1204" pad="3"/>
 <contactref element="J1202" pad="2"/>
-<contactref element="J1202" pad="1"/>
+<contactref element="J1203" pad="2"/>
+<contactref element="J1203" pad="1"/>
 <contactref element="U501" pad="2"/>
 <contactref element="L502" pad="2"/>
 <contactref element="TP45" pad="TP"/>
@@ -35563,19 +35563,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <vertex x="72.41" y="32.5"/>
 <vertex x="70.59" y="32.5"/>
 </polygon>
-<polygon width="0.5842" layer="1" isolate="0.3048" rank="4">
-<vertex x="20.68" y="27.42"/>
-<vertex x="20.82" y="27.56"/>
-<vertex x="25.81" y="27.56"/>
-<vertex x="27.14" y="27.56"/>
-<vertex x="27.63" y="27.07"/>
-<vertex x="27.01" y="26.45"/>
-<vertex x="24.63" y="26.45"/>
-<vertex x="24.38" y="26.7"/>
-<vertex x="21.05" y="26.7"/>
-<vertex x="20.67" y="27.08"/>
-<vertex x="20.67" y="27.41"/>
-</polygon>
 <via x="14.84" y="83.13" extent="1-16" drill="0.381"/>
 <via x="12.88" y="85.91" extent="1-16" drill="0.381"/>
 <via x="17.03" y="82.98" extent="1-16" drill="0.381"/>
@@ -35704,6 +35691,15 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <via x="61.76" y="63.3" extent="1-16" drill="0.381"/>
 <via x="36.18" y="63.16795" extent="1-16" drill="0.381"/>
 <via x="36.09" y="62.12795" extent="1-16" drill="0.381"/>
+<polygon width="0.254" layer="1" isolate="0.3048" rank="3">
+<vertex x="20.91" y="27.59"/>
+<vertex x="20.91" y="26.87"/>
+<vertex x="21.65" y="26.87"/>
+<vertex x="27.6" y="26.87"/>
+<vertex x="27.6" y="27.52"/>
+<vertex x="27.6" y="27.59"/>
+</polygon>
+<via x="27.73" y="23.21" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="7P4V_IN">
 <contactref element="C402" pad="1"/>
@@ -35714,8 +35710,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="U401" pad="3"/>
 <contactref element="C401" pad="1"/>
 <contactref element="U401" pad="1"/>
-<contactref element="J1210" pad="1"/>
-<contactref element="J1215" pad="1"/>
+<contactref element="J1206" pad="1"/>
+<contactref element="J1207" pad="1"/>
 <wire x1="63.51" y1="14.08" x2="72.71" y2="14.08" width="3.556" layer="1"/>
 <wire x1="72.71" y1="14.08" x2="72.72" y2="14.09" width="3.556" layer="1"/>
 <polygon width="0.1524" layer="15" isolate="0.3048" rank="4">
@@ -35939,7 +35935,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="WDT_PET">
 <contactref element="R404" pad="2"/>
 <contactref element="TP4" pad="TP"/>
-<contactref element="J1217" pad="31"/>
+<contactref element="J1201" pad="31"/>
 <wire x1="22.23" y1="83.66" x2="22.23" y2="89.67" width="0.4064" layer="1"/>
 <wire x1="22.23" y1="89.67" x2="25.46" y2="92.9" width="0.4064" layer="1"/>
 <wire x1="39.101065625" y1="90.71701875" x2="37.92973125" y2="89.545684375" width="0.4064" layer="16"/>
@@ -35961,7 +35957,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="WDT_BITE_N">
 <contactref element="R405" pad="1"/>
 <contactref element="TP6" pad="TP"/>
-<contactref element="J1214" pad="4"/>
+<contactref element="J1202" pad="4"/>
 <wire x1="29.8962" y1="88.895684375" x2="29.894159375" y2="88.897725" width="0.4064" layer="16"/>
 <wire x1="29.8962" y1="88.895684375" x2="29.874315625" y2="88.895684375" width="0.4064" layer="16"/>
 <wire x1="29.874315625" y1="88.895684375" x2="27.1" y2="91.67" width="0.4064" layer="16"/>
@@ -35994,8 +35990,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="TP5" pad="TP"/>
 <contactref element="L401" pad="2"/>
 <contactref element="C409" pad="1"/>
-<contactref element="J1217" pad="2"/>
-<contactref element="J1217" pad="4"/>
+<contactref element="J1201" pad="2"/>
+<contactref element="J1201" pad="4"/>
 <polygon width="0.5842" layer="16" isolate="0.3048" thermals="no">
 <vertex x="68.09" y="61.69"/>
 <vertex x="68.09" y="56.61"/>
@@ -36038,7 +36034,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="C601" pad="1"/>
 <contactref element="U602" pad="3"/>
 <contactref element="U602" pad="5"/>
-<contactref element="J1209" pad="1"/>
+<contactref element="J1302" pad="1"/>
 <wire x1="47.58" y1="14.17" x2="47.23" y2="14.17" width="2.032" layer="1"/>
 <wire x1="47.23" y1="14.17" x2="41.28" y2="14.17" width="2.032" layer="1"/>
 <wire x1="41.28" y1="14.17" x2="41.065371875" y2="14.374659375" width="2.032" layer="1"/>
@@ -36198,7 +36194,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="R508" pad="2"/>
 <contactref element="TP10" pad="TP"/>
 <contactref element="C507" pad="1"/>
-<contactref element="J1216" pad="1"/>
+<contactref element="J1303" pad="1"/>
 <contactref element="R505" pad="2"/>
 <contactref element="R503" pad="2"/>
 <contactref element="U503" pad="3"/>
@@ -36787,7 +36783,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="R911" pad="2"/>
 <contactref element="R916" pad="1"/>
 <contactref element="TP29" pad="TP"/>
-<contactref element="J1205" pad="2"/>
+<contactref element="J1204" pad="2"/>
 <wire x1="63.7032" y1="85.461309375" x2="66.0651875" y2="85.461309375" width="0.8128" layer="16"/>
 <wire x1="66.0651875" y1="85.461309375" x2="66.01798125" y2="85.461484375" width="0.8128" layer="16"/>
 <via x="24.16" y="86.87" extent="1-16" drill="0.381"/>
@@ -36851,7 +36847,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="R907" pad="2"/>
 <contactref element="R913" pad="1"/>
 <contactref element="TP28" pad="TP"/>
-<contactref element="J1205" pad="1"/>
+<contactref element="J1204" pad="1"/>
 <wire x1="64.225346875" y1="88.544740625" x2="64.225346875" y2="91.6204125" width="0.8128" layer="16"/>
 <wire x1="64.225346875" y1="91.6204125" x2="64.214" y2="91.631759375" width="0.8128" layer="16"/>
 <via x="6.53" y="85.86" extent="1-16" drill="0.381"/>
@@ -37047,7 +37043,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="GPIO_PTT">
 <contactref element="R806" pad="1"/>
 <contactref element="TP21" pad="TP"/>
-<contactref element="J1217" pad="36"/>
+<contactref element="J1201" pad="36"/>
 <wire x1="24.56" y1="62.8512" x2="24.608178125" y2="61.6712" width="0.4064" layer="1"/>
 <wire x1="24.608178125" y1="61.6712" x2="24.608178125" y2="66.5581375" width="0.4064" layer="1"/>
 <wire x1="54.67" y1="59.24" x2="73.76" y2="59.24" width="0.4064" layer="1"/>
@@ -37120,7 +37116,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="POT_A">
 <contactref element="U903" pad="5"/>
 <contactref element="TP30" pad="TP"/>
-<contactref element="J1204" pad="1"/>
+<contactref element="J1301" pad="1"/>
 <wire x1="85.11" y1="10.26" x2="85.12" y2="10.19" width="0.4064" layer="16"/>
 <wire x1="85.12" y1="10.19" x2="85.12" y2="13.3604" width="0.4064" layer="16"/>
 <wire x1="85.12" y1="13.3604" x2="83.5504" y2="14.93" width="0.4064" layer="16"/>
@@ -37131,7 +37127,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="POT_B">
 <contactref element="U903" pad="7"/>
 <contactref element="TP32" pad="TP"/>
-<contactref element="J1204" pad="2"/>
+<contactref element="J1301" pad="2"/>
 <wire x1="82.57" y1="10.26" x2="82.56" y2="10.17" width="0.4064" layer="16"/>
 <wire x1="82.56" y1="10.17" x2="82.56" y2="13.3604" width="0.4064" layer="16"/>
 <wire x1="79.10883125" y1="16.15858125" x2="79.09" y2="16.13975" width="0.4064" layer="16"/>
@@ -37146,7 +37142,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="POT_W">
 <contactref element="U903" pad="6"/>
 <contactref element="TP31" pad="TP"/>
-<contactref element="J1204" pad="3"/>
+<contactref element="J1301" pad="3"/>
 <wire x1="80.03" y1="10.26" x2="80.04" y2="10.19" width="0.4064" layer="16"/>
 <wire x1="80.04" y1="10.19" x2="80.04" y2="13.3604" width="0.4064" layer="16"/>
 <wire x1="80.04" y1="13.3604" x2="80.09" y2="13.4104" width="0.4064" layer="16"/>
@@ -37241,7 +37237,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 </signal>
 <signal name="GPIO_POT_HVC">
 <contactref element="R912" pad="1"/>
-<contactref element="J1217" pad="26"/>
+<contactref element="J1201" pad="26"/>
 <wire x1="37.3" y1="61.56" x2="37.3" y2="66.549959375" width="0.3556" layer="16"/>
 <wire x1="37.3" y1="66.549959375" x2="37.308178125" y2="66.5581375" width="0.1524" layer="16"/>
 <wire x1="88.43" y1="8.71" x2="88.43" y2="23.75" width="0.4064" layer="16"/>
@@ -37304,7 +37300,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="UART_TXD">
 <contactref element="U1001" pad="11"/>
 <contactref element="TP33" pad="TP"/>
-<contactref element="J1217" pad="8"/>
+<contactref element="J1201" pad="8"/>
 <wire x1="60.14" y1="61.6712" x2="60.168178125" y2="61.6712" width="0.4064" layer="1"/>
 <wire x1="60.168178125" y1="61.6712" x2="60.168178125" y2="61.821821875" width="0.4064" layer="1"/>
 <wire x1="60.168178125" y1="66.5581375" x2="60.168178125" y2="61.821821875" width="0.5842" layer="1"/>
@@ -37325,7 +37321,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="OSD_DATA">
 <contactref element="U1001" pad="14"/>
 <contactref element="TP36" pad="TP"/>
-<contactref element="J1208" pad="1"/>
+<contactref element="J1309" pad="1"/>
 <wire x1="86.08" y1="79.02" x2="83.549246875" y2="79.02" width="0.4064" layer="16"/>
 <wire x1="83.549246875" y1="79.02" x2="83.52305625" y2="79.046190625" width="0.4064" layer="16"/>
 <wire x1="29.21" y1="10.31" x2="29.21" y2="5.45" width="0.5842" layer="16"/>
@@ -37359,7 +37355,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="GPIO_MUX_ADDR0">
 <contactref element="U1002" pad="2"/>
 <contactref element="TP34" pad="TP"/>
-<contactref element="J1217" pad="38"/>
+<contactref element="J1201" pad="38"/>
 <wire x1="25.68" y1="52.2175" x2="27.4475" y2="52.2175" width="0.4064" layer="16"/>
 <wire x1="27.4475" y1="52.2175" x2="28.1" y2="52.87" width="0.4064" layer="16"/>
 <wire x1="22.52" y1="62.47" x2="22.03" y2="62.47" width="0.4064" layer="16"/>
@@ -37371,7 +37367,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="GPIO_MUX_ADDR1">
 <contactref element="U1002" pad="1"/>
 <contactref element="TP35" pad="TP"/>
-<contactref element="J1217" pad="40"/>
+<contactref element="J1201" pad="40"/>
 <wire x1="19.528178125" y1="66.5581375" x2="19.52" y2="66.5581375" width="0.4064" layer="16"/>
 <wire x1="19.52" y1="66.5581375" x2="19.52" y2="62.3" width="0.4064" layer="16"/>
 <wire x1="25.68" y1="52.8525" x2="26.9325" y2="52.8525" width="0.4064" layer="16"/>
@@ -37403,7 +37399,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 </signal>
 <signal name="VID_OUT">
 <contactref element="R1007" pad="1"/>
-<contactref element="J1212" pad="1"/>
+<contactref element="J1310" pad="1"/>
 <wire x1="13.287925" y1="60.836746875" x2="10.403253125" y2="60.836746875" width="0.4064" layer="16"/>
 <wire x1="10.403253125" y1="60.836746875" x2="8.42" y2="62.82" width="0.4064" layer="16"/>
 <wire x1="8.42" y1="62.82" x2="8.42" y2="66.01" width="0.4064" layer="16"/>
@@ -37424,7 +37420,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="VID_IN0">
 <contactref element="U1002" pad="5"/>
 <contactref element="R1001" pad="2"/>
-<contactref element="J1203" pad="1"/>
+<contactref element="J1304" pad="1"/>
 <wire x1="10.301140625" y1="15.910490625" x2="13.340490625" y2="15.910490625" width="0.4064" layer="16"/>
 <wire x1="13.340490625" y1="15.910490625" x2="15.3" y2="17.87" width="0.4064" layer="16"/>
 <wire x1="32.21" y1="37.48" x2="32.21" y2="46.74" width="0.4064" layer="16"/>
@@ -37439,7 +37435,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="VID_IN1">
 <contactref element="U1002" pad="7"/>
 <contactref element="R1002" pad="2"/>
-<contactref element="J1206" pad="1"/>
+<contactref element="J1305" pad="1"/>
 <wire x1="10.281140625" y1="28.11590625" x2="12.63590625" y2="28.11590625" width="0.4064" layer="16"/>
 <wire x1="12.63590625" y1="28.11590625" x2="26.27" y2="41.75" width="0.4064" layer="16"/>
 <wire x1="26.27" y1="41.75" x2="26.27" y2="45.757378125" width="0.4064" layer="16"/>
@@ -37453,7 +37449,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="VID_IN2">
 <contactref element="U1002" pad="10"/>
 <contactref element="R1003" pad="2"/>
-<contactref element="J1211" pad="1"/>
+<contactref element="J1306" pad="1"/>
 <wire x1="20.3" y1="49.0425" x2="18.9725" y2="49.0425" width="0.4064" layer="16"/>
 <wire x1="18.9725" y1="49.0425" x2="18.48" y2="48.55" width="0.4064" layer="16"/>
 <wire x1="18.48" y1="48.55" x2="18.48" y2="45.94" width="0.4064" layer="16"/>
@@ -37479,7 +37475,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="VID_IN3">
 <contactref element="U1002" pad="12"/>
 <contactref element="R1004" pad="2"/>
-<contactref element="J1201" pad="1"/>
+<contactref element="J1307" pad="1"/>
 <wire x1="17.168259375" y1="48.119778125" x2="17.168259375" y2="49.17" width="0.4064" layer="16"/>
 <wire x1="17.168259375" y1="49.17" x2="17.168259375" y2="49.308259375" width="0.4064" layer="16"/>
 <wire x1="17.168259375" y1="49.308259375" x2="18.1725" y2="50.3125" width="0.4064" layer="16"/>
@@ -37503,9 +37499,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="70.869684375" y1="80.692821875" x2="70.835421875" y2="80.727084375" width="0.4064" layer="16"/>
 </signal>
 <signal name="MOSI">
-<contactref element="J1207" pad="4"/>
+<contactref element="J1205" pad="4"/>
 <contactref element="TP44" pad="TP"/>
-<contactref element="J1217" pad="19"/>
+<contactref element="J1201" pad="19"/>
 <wire x1="44.95" y1="72.5932" x2="44.928178125" y2="72.5932" width="0.4064" layer="16"/>
 <wire x1="44.928178125" y1="72.5932" x2="44.928178125" y2="69.0981375" width="0.4064" layer="16"/>
 <wire x1="78.35" y1="71.57" x2="45.66" y2="71.57" width="0.4064" layer="1"/>
@@ -37517,9 +37513,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="86.695" y1="83.185" x2="91.34" y2="83.185" width="0.4064" layer="1"/>
 </signal>
 <signal name="MISO">
-<contactref element="J1207" pad="3"/>
+<contactref element="J1205" pad="3"/>
 <contactref element="TP42" pad="TP"/>
-<contactref element="J1217" pad="21"/>
+<contactref element="J1201" pad="21"/>
 <wire x1="42.37" y1="72.5932" x2="42.388178125" y2="72.5932" width="0.4064" layer="16"/>
 <wire x1="42.388178125" y1="72.5932" x2="42.388178125" y2="69.0981375" width="0.4064" layer="16"/>
 <wire x1="42.34" y1="71.8" x2="42.34" y2="69.146315625" width="0.4064" layer="1"/>
@@ -37532,9 +37528,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="87.175" y1="85.725" x2="91.34" y2="85.725" width="0.4064" layer="1"/>
 </signal>
 <signal name="SCLK">
-<contactref element="J1207" pad="2"/>
+<contactref element="J1205" pad="2"/>
 <contactref element="TP43" pad="TP"/>
-<contactref element="J1217" pad="23"/>
+<contactref element="J1201" pad="23"/>
 <wire x1="39.84" y1="72.5932" x2="39.848178125" y2="72.5932" width="0.4064" layer="16"/>
 <wire x1="39.84" y1="72.5932" x2="39.84" y2="69.106315625" width="0.4064" layer="16"/>
 <wire x1="39.84" y1="69.106315625" x2="39.848178125" y2="69.0981375" width="0.4064" layer="16"/>
@@ -37550,9 +37546,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="83.7" y1="84.31" x2="87.655" y2="88.265" width="0.4064" layer="1"/>
 </signal>
 <signal name="SS">
-<contactref element="J1207" pad="1"/>
+<contactref element="J1205" pad="1"/>
 <contactref element="TP41" pad="TP"/>
-<contactref element="J1217" pad="24"/>
+<contactref element="J1201" pad="24"/>
 <wire x1="39.87" y1="61.6712" x2="39.848178125" y2="61.6712" width="0.4064" layer="1"/>
 <wire x1="39.848178125" y1="61.6712" x2="39.848178125" y2="66.5581375" width="0.4064" layer="1"/>
 <wire x1="91.34" y1="90.805" x2="88.205" y2="90.805" width="0.4064" layer="1"/>
@@ -37567,76 +37563,56 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="74.68" y1="86.5" x2="75.09" y2="86.5" width="0.4064" layer="1"/>
 </signal>
 <signal name="PI_3P3V">
-<contactref element="J1217" pad="1"/>
+<contactref element="J1201" pad="1"/>
 <contactref element="TP47" pad="TP"/>
 <wire x1="67.76" y1="72.5932" x2="67.788178125" y2="72.5932" width="0.4064" layer="16"/>
 <wire x1="67.788178125" y1="72.5932" x2="67.788178125" y2="69.0981375" width="0.4064" layer="16"/>
 </signal>
 <signal name="PI_GPCLK0">
-<contactref element="J1217" pad="7"/>
+<contactref element="J1201" pad="7"/>
 <contactref element="TP50" pad="TP"/>
 <wire x1="60.14" y1="72.5932" x2="60.168178125" y2="72.5932" width="0.4064" layer="16"/>
 <wire x1="60.168178125" y1="72.5932" x2="60.168178125" y2="69.0981375" width="0.4064" layer="16"/>
 </signal>
-<signal name="PI_12V_CONTROL">
-<contactref element="R501" pad="1"/>
-<contactref element="U501" pad="1"/>
-<wire x1="40.822240625" y1="22.26291875" x2="40.215159375" y2="22.87" width="0.6096" layer="16"/>
-<wire x1="40.215159375" y1="22.87" x2="34.8" y2="22.87" width="0.6096" layer="16"/>
-<wire x1="34.8" y1="22.87" x2="33.726503125" y2="23.943496875" width="0.6096" layer="16"/>
-<wire x1="33.726503125" y1="23.943496875" x2="33.749325" y2="23.856503125" width="0.6096" layer="16"/>
-<wire x1="33.81" y1="50.8" x2="35.97" y2="48.64" width="0.3556" layer="16"/>
-<wire x1="35.47" y1="27.6" x2="35.335" y2="27.465" width="0.3556" layer="16"/>
-<wire x1="35.335" y1="27.465" x2="33.749325" y2="25.879325" width="0.3556" layer="16"/>
-<wire x1="33.749325" y1="25.879325" x2="33.749325" y2="23.856503125" width="0.3556" layer="16"/>
-<contactref element="J1217" pad="32"/>
-<contactref element="TP57" pad="TP"/>
-<wire x1="33.81" y1="50.8" x2="33.81" y2="57.93" width="0.3556" layer="16"/>
-<wire x1="33.81" y1="57.93" x2="29.688178125" y2="62.051821875" width="0.3556" layer="16"/>
-<wire x1="29.688178125" y1="62.051821875" x2="29.688178125" y2="66.5581375" width="0.3556" layer="16"/>
-<wire x1="29.688178125" y1="62.051821875" x2="29.70755625" y2="62.0712" width="0.1524" layer="16"/>
-<wire x1="29.70755625" y1="62.0712" x2="29.68" y2="62.0912" width="0.1524" layer="16"/>
-<wire x1="35.97" y1="48.64" x2="35.97" y2="28.1" width="0.3556" layer="16"/>
-<wire x1="35.97" y1="28.1" x2="35.47" y2="27.6" width="0.3556" layer="16"/>
-</signal>
 <signal name="PI_PWM1">
-<contactref element="J1217" pad="33"/>
+<contactref element="J1201" pad="33"/>
 <contactref element="TP52" pad="TP"/>
 <wire x1="27.09" y1="72.5932" x2="27.09" y2="69.156315625" width="0.4064" layer="16"/>
 <wire x1="27.09" y1="69.156315625" x2="27.148178125" y2="69.0981375" width="0.4064" layer="16"/>
 </signal>
 <signal name="PI_MISO1">
-<contactref element="J1217" pad="35"/>
+<contactref element="J1201" pad="35"/>
 <contactref element="TP53" pad="TP"/>
 <wire x1="24.64" y1="72.5932" x2="24.608178125" y2="72.5932" width="0.4064" layer="16"/>
 <wire x1="24.608178125" y1="72.5932" x2="24.608178125" y2="69.0981375" width="0.4064" layer="16"/>
 </signal>
 <signal name="PI_UART_RXD">
-<contactref element="J1217" pad="10"/>
+<contactref element="J1201" pad="10"/>
 <contactref element="TP54" pad="TP"/>
 <wire x1="57.6" y1="61.6712" x2="57.628178125" y2="61.6712" width="0.4064" layer="1"/>
 <wire x1="57.628178125" y1="61.6712" x2="57.628178125" y2="66.5581375" width="0.4064" layer="1"/>
 </signal>
 <signal name="PI_PWM0">
-<contactref element="J1217" pad="12"/>
+<contactref element="J1201" pad="12"/>
 <contactref element="TP55" pad="TP"/>
 <wire x1="55.05" y1="61.6712" x2="55.088178125" y2="61.6712" width="0.4064" layer="1"/>
 <wire x1="55.088178125" y1="61.6712" x2="55.088178125" y2="66.5581375" width="0.4064" layer="1"/>
 </signal>
 <signal name="PI_STATUS_LED">
-<contactref element="J1217" pad="18"/>
-<contactref element="R1201" pad="1"/>
-<wire x1="47.411378125" y1="61.23525625" x2="47.411378125" y2="66.5013375" width="0.4064" layer="1"/>
+<contactref element="J1201" pad="18"/>
 <wire x1="47.411378125" y1="66.5013375" x2="47.468178125" y2="66.5581375" width="0.4064" layer="1"/>
+<contactref element="R1201" pad="1"/>
+<wire x1="47.411378125" y1="61.23525625" x2="47.468178125" y2="61.23525625" width="0.4064" layer="1"/>
+<wire x1="47.468178125" y1="61.23525625" x2="47.468178125" y2="66.5581375" width="0.4064" layer="1"/>
 </signal>
 <signal name="PI_GPIO25">
-<contactref element="J1217" pad="22"/>
+<contactref element="J1201" pad="22"/>
 <contactref element="TP56" pad="TP"/>
 <wire x1="42.37" y1="61.6712" x2="42.388178125" y2="61.6712" width="0.4064" layer="1"/>
 <wire x1="42.388178125" y1="61.6712" x2="42.388178125" y2="66.5581375" width="0.4064" layer="1"/>
 </signal>
 <signal name="PI_3P3V_2">
-<contactref element="J1217" pad="17"/>
+<contactref element="J1201" pad="17"/>
 <contactref element="TP51" pad="TP"/>
 <wire x1="47.49" y1="72.5932" x2="47.468178125" y2="72.5932" width="0.4064" layer="16"/>
 <wire x1="47.468178125" y1="72.5932" x2="47.468178125" y2="69.0981375" width="0.4064" layer="16"/>
@@ -37648,7 +37624,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="46.335753125" y1="58.15963125" x2="47.411378125" y2="59.23525625" width="0.4064" layer="1"/>
 </signal>
 <signal name="12V_PI_CONTROLLED">
-<contactref element="J1213" pad="1"/>
+<contactref element="J1308" pad="1"/>
 <contactref element="R505" pad="1"/>
 <contactref element="U503" pad="2"/>
 <contactref element="U503" pad="4"/>
@@ -37724,7 +37700,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="PI_CAM0_VCTL">
 <contactref element="R1101" pad="1"/>
 <contactref element="U1101" pad="1"/>
-<contactref element="J1217" pad="11"/>
+<contactref element="J1201" pad="11"/>
 <wire x1="2.57" y1="12.48" x2="2.59" y2="12.46" width="0.508" layer="16"/>
 <wire x1="2.59" y1="12.46" x2="5.02" y2="12.46" width="0.508" layer="16"/>
 <wire x1="5.02" y1="12.46" x2="5.645" y2="13.085" width="0.508" layer="16"/>
@@ -37756,7 +37732,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="5V_CAM0">
 <contactref element="Q1101" pad="3"/>
 <contactref element="R1105" pad="1"/>
-<contactref element="J1203" pad="2"/>
+<contactref element="J1304" pad="2"/>
 <wire x1="6.43" y1="22.79" x2="6.496" y2="22.724" width="0.508" layer="16"/>
 <wire x1="6.496" y1="22.724" x2="6.496" y2="19.4" width="0.508" layer="16"/>
 <wire x1="6.496" y1="19.4" x2="7.445509375" y2="18.450490625" width="0.5842" layer="16"/>
@@ -37765,7 +37741,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="PI_CAM1_VCTL">
 <contactref element="R1107" pad="1"/>
 <contactref element="U1103" pad="1"/>
-<contactref element="J1217" pad="13"/>
+<contactref element="J1201" pad="13"/>
 <wire x1="2.39" y1="27.13" x2="2.59" y2="27.13" width="0.508" layer="16"/>
 <wire x1="2.59" y1="27.13" x2="4.62" y2="25.1" width="0.508" layer="16"/>
 <wire x1="4.62" y1="25.1" x2="5.75" y2="25.1" width="0.508" layer="16"/>
@@ -37813,7 +37789,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="5V_CAM1">
 <contactref element="Q1103" pad="3"/>
 <contactref element="R1111" pad="1"/>
-<contactref element="J1206" pad="2"/>
+<contactref element="J1305" pad="2"/>
 <wire x1="6.686" y1="32.14" x2="6.686" y2="35.534" width="0.508" layer="16"/>
 <wire x1="6.686" y1="35.534" x2="6.63" y2="35.79" width="0.508" layer="16"/>
 <wire x1="6.686" y1="32.14" x2="6.72" y2="32.106" width="0.5842" layer="16"/>
@@ -37824,7 +37800,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="PI_CAM2_VCTL">
 <contactref element="R1102" pad="1"/>
 <contactref element="U1102" pad="1"/>
-<contactref element="J1217" pad="15"/>
+<contactref element="J1201" pad="15"/>
 <wire x1="6.2198" y1="40.9078" x2="5.461" y2="40.149" width="0.508" layer="16"/>
 <wire x1="5.461" y1="40.149" x2="4.992" y2="39.68" width="0.508" layer="16"/>
 <wire x1="4.992" y1="39.68" x2="4" y2="39.68" width="0.508" layer="16"/>
@@ -37870,7 +37846,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="5V_CAM2">
 <contactref element="Q1102" pad="3"/>
 <contactref element="R1106" pad="1"/>
-<contactref element="J1211" pad="2"/>
+<contactref element="J1306" pad="2"/>
 <wire x1="6.676" y1="46.12" x2="6.69" y2="46.134" width="0.508" layer="16"/>
 <wire x1="6.69" y1="46.134" x2="6.69" y2="49.67" width="0.508" layer="16"/>
 <wire x1="6.676" y1="46.12" x2="6.72" y2="46.076" width="0.5842" layer="16"/>
@@ -37881,7 +37857,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="PI_CAM3_VCTL">
 <contactref element="R1108" pad="1"/>
 <contactref element="U1104" pad="1"/>
-<contactref element="J1217" pad="16"/>
+<contactref element="J1201" pad="16"/>
 <wire x1="4.66" y1="52.55" x2="2.91" y2="54.3" width="0.508" layer="16"/>
 <wire x1="2.91" y1="54.3" x2="2.83" y2="54.3" width="0.508" layer="16"/>
 <wire x1="4.66" y1="52.55" x2="5.76" y2="52.55" width="0.508" layer="16"/>
@@ -37934,7 +37910,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="5V_CAM3">
 <contactref element="Q1104" pad="3"/>
 <contactref element="R1112" pad="1"/>
-<contactref element="J1201" pad="2"/>
+<contactref element="J1307" pad="2"/>
 <wire x1="6.806" y1="60.764" x2="6.806" y2="59.05" width="0.508" layer="16"/>
 <wire x1="6.806" y1="60.764" x2="6.21" y2="61.36" width="0.508" layer="16"/>
 <wire x1="6.21" y1="61.36" x2="6.21" y2="62.83" width="0.508" layer="16"/>
@@ -37980,11 +37956,11 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <via x="3.31" y="28.74" extent="1-16" drill="0.381"/>
 <via x="1.72" y="15.66" extent="1-16" drill="0.381"/>
 <via x="2.65" y="14.43" extent="1-16" drill="0.381"/>
-<contactref element="J1201" pad="3"/>
-<contactref element="J1203" pad="3"/>
-<contactref element="J1206" pad="3"/>
-<contactref element="J1211" pad="3"/>
-<contactref element="J1212" pad="2"/>
+<contactref element="J1307" pad="3"/>
+<contactref element="J1304" pad="3"/>
+<contactref element="J1305" pad="3"/>
+<contactref element="J1306" pad="3"/>
+<contactref element="J1310" pad="2"/>
 <contactref element="U1101" pad="2"/>
 <contactref element="U1102" pad="2"/>
 <contactref element="U1104" pad="2"/>
@@ -38002,7 +37978,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <vertex x="12.89" y="40.58"/>
 <vertex x="13.866" y="41.79"/>
 <vertex x="13.866" y="56.54"/>
-<vertex x="17.67" y="60.43"/>
+<vertex x="17.96" y="60.43"/>
 <vertex x="17.96" y="65.71"/>
 <vertex x="10.7" y="72.97"/>
 <vertex x="-8.88" y="72.97"/>
@@ -38190,7 +38166,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 </signal>
 <signal name="PI_SDA_3">
 <contactref element="R1202" pad="2"/>
-<contactref element="J1217" pad="3"/>
+<contactref element="J1201" pad="3"/>
 <wire x1="65.248178125" y1="69.0981375" x2="65.3318625" y2="69.0981375" width="0.3048" layer="1"/>
 <wire x1="65.3318625" y1="69.0981375" x2="66.55" y2="67.88" width="0.3048" layer="1"/>
 <wire x1="66.55" y1="67.88" x2="66.55" y2="65.28" width="0.3048" layer="1"/>
@@ -38203,7 +38179,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 </signal>
 <signal name="PI_SCL_5">
 <contactref element="R1203" pad="2"/>
-<contactref element="J1217" pad="5"/>
+<contactref element="J1201" pad="5"/>
 <wire x1="62.708178125" y1="69.0981375" x2="62.9618625" y2="69.0981375" width="0.3048" layer="1"/>
 <wire x1="62.9618625" y1="69.0981375" x2="63.98" y2="68.08" width="0.3048" layer="1"/>
 <wire x1="63.98" y1="68.08" x2="63.98" y2="64.99" width="0.3048" layer="1"/>
@@ -38214,7 +38190,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 </signal>
 <signal name="PI_SDA">
 <contactref element="R1204" pad="2"/>
-<contactref element="J1217" pad="27"/>
+<contactref element="J1201" pad="27"/>
 <wire x1="34.768178125" y1="69.0981375" x2="34.6081375" y2="69.0981375" width="0.3556" layer="1"/>
 <wire x1="34.6081375" y1="69.0981375" x2="33.36" y2="67.82" width="0.3556" layer="1"/>
 <wire x1="33.36" y1="67.82" x2="31.74" y2="67.86" width="0.3556" layer="1"/>
@@ -38228,10 +38204,31 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="30.6" y1="63.17" x2="30.72" y2="63.19" width="0.4064" layer="1"/>
 </signal>
 <signal name="PI_SCL">
-<contactref element="J1217" pad="28"/>
+<contactref element="J1201" pad="28"/>
 <contactref element="R1205" pad="1"/>
 <wire x1="34.768178125" y1="66.5581375" x2="34.768178125" y2="63.191821875" width="0.4064" layer="1"/>
 <wire x1="34.768178125" y1="63.191821875" x2="34.8" y2="63.16" width="0.4064" layer="1"/>
+</signal>
+<signal name="PI_12V_CTL">
+<contactref element="J1201" pad="32"/>
+<contactref element="TP57" pad="TP"/>
+<contactref element="R501" pad="1"/>
+<contactref element="U501" pad="1"/>
+<wire x1="40.822240625" y1="22.26291875" x2="40.215159375" y2="22.87" width="0.6096" layer="16"/>
+<wire x1="40.215159375" y1="22.87" x2="34.8" y2="22.87" width="0.6096" layer="16"/>
+<wire x1="34.8" y1="22.87" x2="33.726503125" y2="23.943496875" width="0.6096" layer="16"/>
+<wire x1="33.726503125" y1="23.943496875" x2="33.749325" y2="23.856503125" width="0.6096" layer="16"/>
+<wire x1="33.81" y1="50.8" x2="35.97" y2="48.64" width="0.3556" layer="16"/>
+<wire x1="35.97" y1="28.1" x2="33.749325" y2="25.879325" width="0.3556" layer="16"/>
+<wire x1="33.749325" y1="25.879325" x2="33.749325" y2="23.856503125" width="0.3556" layer="16"/>
+<wire x1="33.81" y1="50.8" x2="33.81" y2="57.93" width="0.3556" layer="16"/>
+<wire x1="33.81" y1="57.93" x2="29.688178125" y2="62.051821875" width="0.3556" layer="16"/>
+<wire x1="29.688178125" y1="62.051821875" x2="29.70755625" y2="62.0712" width="0.1524" layer="16"/>
+<wire x1="35.97" y1="48.64" x2="35.97" y2="28.1" width="0.3556" layer="16"/>
+<wire x1="29.688178125" y1="62.051821875" x2="29.688178125" y2="62.0912" width="0.4064" layer="16"/>
+<wire x1="29.688178125" y1="62.17" x2="29.688178125" y2="66.5581375" width="0.4064" layer="16"/>
+<wire x1="29.68" y1="62.0912" x2="29.688178125" y2="62.0912" width="0.4064" layer="16"/>
+<wire x1="29.688178125" y1="62.0912" x2="29.688178125" y2="62.17" width="0.4064" layer="16"/>
 </signal>
 </signals>
 <errors>
