@@ -31,5 +31,12 @@ UsedLibrary="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/H
 UsedLibrary="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/eagle/libraries/SparkFun-Eagle-Libraries-master/SparkFun-Sensors.lbr"
 UsedLibrary="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/eagle/libraries/SparkFun-Eagle-Libraries-master/User-Submitted.lbr"
 
+[Win_1]
+Type="Control Panel"
+Loc="640 327 1239 702"
+State=2
+Number=0
+
 [Desktop]
-Screen="640 480"
+Screen="3840 1380"
+Window="Win_1"

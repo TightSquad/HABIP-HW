@@ -1,0 +1,24 @@
+[Eagle]
+Version="07 07 00"
+Platform="Mac OS X"
+Serial="742E2AEE61-LSR-WLM-1ES"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/eagle/libraries/habip/comms.lbr"
+UsedLibrary="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/eagle/libraries/habip/comms_backup.lbr"
+UsedLibrary="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/eagle/libraries/habip/daqcs.lbr"
+UsedLibrary="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/eagle/libraries/habip/daqcs_host.lbr"
+UsedLibrary="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/eagle/libraries/habip/grss.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="70 505 669 880"
+State=2
+Number=0
+
+[Desktop]
+Screen="640 480"
+Window="Win_1"
