@@ -43048,7 +43048,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <pinref part="Q301" gate="A" pin="G"/>
 </segment>
 </net>
-<net name="NFO" class="0">
+<net name="PP3V3_HAT" class="0">
 <segment>
 <pinref part="R311" gate="G$1" pin="2"/>
 <wire x1="342.9" y1="210.82" x2="342.9" y2="215.9" width="0.1524" layer="91"/>
@@ -43464,7 +43464,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <pinref part="DS402" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="NFO" class="0">
+<net name="PP3V3_HAT" class="0">
 <segment>
 <wire x1="109.22" y1="38.1" x2="116.84" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="38.1" x2="132.08" y2="38.1" width="0.1524" layer="91"/>
@@ -44212,145 +44212,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <pinref part="TP504" gate="G$1" pin="TP"/>
 </segment>
 </net>
-<net name="NFO" class="0">
-<segment>
-<pinref part="C501" gate="G$1" pin="2"/>
-<pinref part="U501" gate="A" pin="VCC"/>
-<wire x1="35.56" y1="241.3" x2="43.18" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="241.3" x2="48.26" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="259.08" x2="43.18" y2="241.3" width="0.1524" layer="91"/>
-<junction x="43.18" y="241.3"/>
-<pinref part="PP3V3_HAT501" gate="G$1" pin="PP3V3_HAT"/>
-</segment>
-<segment>
-<pinref part="C502" gate="G$1" pin="2"/>
-<pinref part="U502" gate="A" pin="VCC"/>
-<wire x1="35.56" y1="162.56" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="162.56" x2="45.72" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="162.56" x2="48.26" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="180.34" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
-<junction x="43.18" y="162.56"/>
-<pinref part="PP3V3_HAT502" gate="G$1" pin="PP3V3_HAT"/>
-<pinref part="U502" gate="A" pin="A1"/>
-<wire x1="48.26" y1="147.32" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="147.32" x2="45.72" y2="162.56" width="0.1524" layer="91"/>
-<junction x="45.72" y="162.56"/>
-</segment>
-<segment>
-<pinref part="U503" gate="A" pin="VDD"/>
-<wire x1="66.04" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="53.34" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="PP3V3_HAT503" gate="G$1" pin="PP3V3_HAT"/>
-<pinref part="C503" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="71.12" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="68.58" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="71.12" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
-<junction x="66.04" y="71.12"/>
-<pinref part="C504" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="71.12" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="68.58" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
-<junction x="55.88" y="71.12"/>
-</segment>
-<segment>
-<wire x1="195.58" y1="218.44" x2="195.58" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="C506" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="213.36" x2="195.58" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="PP3V3_HAT505" gate="G$1" pin="PP3V3_HAT"/>
-<pinref part="U504" gate="A" pin="VS"/>
-<wire x1="195.58" y1="213.36" x2="195.58" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="203.2" x2="200.66" y2="203.2" width="0.1524" layer="91"/>
-<junction x="195.58" y="213.36"/>
-<pinref part="U504" gate="A" pin="A1"/>
-<wire x1="195.58" y1="203.2" x2="195.58" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="198.12" x2="200.66" y2="198.12" width="0.1524" layer="91"/>
-<junction x="195.58" y="203.2"/>
-</segment>
-<segment>
-<pinref part="C513" gate="G$1" pin="2"/>
-<wire x1="327.66" y1="81.28" x2="335.28" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="81.28" x2="340.36" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="96.52" x2="335.28" y2="81.28" width="0.1524" layer="91"/>
-<junction x="335.28" y="81.28"/>
-<pinref part="PP3V3_HAT509" gate="G$1" pin="PP3V3_HAT"/>
-<pinref part="U508" gate="G$1" pin="VDD"/>
-</segment>
-<segment>
-<pinref part="U506" gate="G$1" pin="VDD"/>
-<wire x1="335.28" y1="241.3" x2="337.82" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="241.3" x2="340.36" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="241.3" x2="335.28" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="C512" gate="G$1" pin="2"/>
-<wire x1="335.28" y1="241.3" x2="327.66" y2="241.3" width="0.1524" layer="91"/>
-<junction x="335.28" y="241.3"/>
-<pinref part="U506" gate="G$1" pin="PS"/>
-<wire x1="340.36" y1="231.14" x2="337.82" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="231.14" x2="337.82" y2="241.3" width="0.1524" layer="91"/>
-<junction x="337.82" y="241.3"/>
-<pinref part="PP3V3_HAT508" gate="G$1" pin="PP3V3_HAT"/>
-</segment>
-<segment>
-<wire x1="337.82" y1="170.18" x2="337.82" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="160.02" x2="340.36" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="170.18" x2="337.82" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="C511" gate="G$1" pin="2"/>
-<wire x1="337.82" y1="170.18" x2="322.58" y2="170.18" width="0.1524" layer="91"/>
-<junction x="337.82" y="170.18"/>
-<wire x1="322.58" y1="170.18" x2="317.5" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="340.36" y1="149.86" x2="337.82" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="149.86" x2="337.82" y2="160.02" width="0.1524" layer="91"/>
-<junction x="337.82" y="160.02"/>
-<pinref part="U507" gate="G$1" pin="VDD"/>
-<pinref part="U507" gate="G$1" pin="PS"/>
-<pinref part="R506" gate="G$1" pin="2"/>
-<wire x1="322.58" y1="162.56" x2="322.58" y2="170.18" width="0.1524" layer="91"/>
-<junction x="322.58" y="170.18"/>
-<pinref part="PP3V3_HAT510" gate="G$1" pin="PP3V3_HAT"/>
-</segment>
-<segment>
-<pinref part="U505" gate="G$1" pin="CS_A/G"/>
-<wire x1="208.28" y1="55.88" x2="203.2" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="55.88" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U505" gate="G$1" pin="CS_M"/>
-<wire x1="203.2" y1="60.96" x2="208.28" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="60.96" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
-<junction x="203.2" y="60.96"/>
-<pinref part="PP3V3_HAT506" gate="G$1" pin="PP3V3_HAT"/>
-</segment>
-<segment>
-<pinref part="U505" gate="G$1" pin="VDD@2"/>
-<wire x1="228.6" y1="99.06" x2="228.6" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="106.68" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U505" gate="G$1" pin="VDD@1"/>
-<wire x1="223.52" y1="106.68" x2="223.52" y2="99.06" width="0.1524" layer="91"/>
-<junction x="223.52" y="106.68"/>
-<pinref part="C509" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="104.14" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="106.68" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="C507" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="104.14" x2="182.88" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="106.68" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
-<junction x="195.58" y="106.68"/>
-<wire x1="182.88" y1="106.68" x2="175.26" y2="106.68" width="0.1524" layer="91"/>
-<junction x="182.88" y="106.68"/>
-<wire x1="175.26" y1="106.68" x2="175.26" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="PP3V3_HAT504" gate="G$1" pin="PP3V3_HAT"/>
-</segment>
-<segment>
-<pinref part="U505" gate="G$1" pin="VDDIO@2"/>
-<wire x1="243.84" y1="106.68" x2="243.84" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="106.68" x2="238.76" y2="106.68" width="0.1524" layer="91"/>
-<junction x="243.84" y="106.68"/>
-<pinref part="U505" gate="G$1" pin="VDDIO@1"/>
-<wire x1="238.76" y1="106.68" x2="238.76" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="C510" gate="G$1" pin="1"/>
-<wire x1="266.7" y1="104.14" x2="266.7" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="106.68" x2="243.84" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="106.68" x2="274.32" y2="106.68" width="0.1524" layer="91"/>
-<junction x="266.7" y="106.68"/>
-<wire x1="274.32" y1="106.68" x2="274.32" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="PP3V3_HAT507" gate="G$1" pin="PP3V3_HAT"/>
-</segment>
-</net>
 <net name="IMU_SDO_AG" class="0">
 <segment>
 <pinref part="R505" gate="G$1" pin="2"/>
@@ -44459,6 +44320,145 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <pinref part="TP507" gate="G$1" pin="TP"/>
 <wire x1="83.82" y1="149.86" x2="116.84" y2="149.86" width="0.1524" layer="91"/>
 <label x="88.9" y="149.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PP3V3_HAT" class="0">
+<segment>
+<wire x1="337.82" y1="170.18" x2="337.82" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="160.02" x2="340.36" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="C511" gate="G$1" pin="2"/>
+<wire x1="337.82" y1="170.18" x2="322.58" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="170.18" x2="317.5" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="149.86" x2="337.82" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="149.86" x2="337.82" y2="160.02" width="0.1524" layer="91"/>
+<junction x="337.82" y="160.02"/>
+<pinref part="U507" gate="G$1" pin="VDD"/>
+<pinref part="U507" gate="G$1" pin="PS"/>
+<pinref part="R506" gate="G$1" pin="2"/>
+<wire x1="322.58" y1="162.56" x2="322.58" y2="170.18" width="0.1524" layer="91"/>
+<junction x="322.58" y="170.18"/>
+<pinref part="PP3V3_HAT510" gate="G$1" pin="PP3V3_HAT"/>
+<wire x1="337.82" y1="177.8" x2="337.82" y2="170.18" width="0.1524" layer="91"/>
+<junction x="337.82" y="170.18"/>
+</segment>
+<segment>
+<pinref part="C501" gate="G$1" pin="2"/>
+<pinref part="U501" gate="A" pin="VCC"/>
+<wire x1="35.56" y1="241.3" x2="43.18" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="241.3" x2="48.26" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="259.08" x2="43.18" y2="241.3" width="0.1524" layer="91"/>
+<junction x="43.18" y="241.3"/>
+<pinref part="PP3V3_HAT501" gate="G$1" pin="PP3V3_HAT"/>
+</segment>
+<segment>
+<pinref part="C502" gate="G$1" pin="2"/>
+<pinref part="U502" gate="A" pin="VCC"/>
+<wire x1="35.56" y1="162.56" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="162.56" x2="45.72" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="162.56" x2="48.26" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="180.34" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
+<junction x="43.18" y="162.56"/>
+<pinref part="PP3V3_HAT502" gate="G$1" pin="PP3V3_HAT"/>
+<pinref part="U502" gate="A" pin="A1"/>
+<wire x1="48.26" y1="147.32" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="147.32" x2="45.72" y2="162.56" width="0.1524" layer="91"/>
+<junction x="45.72" y="162.56"/>
+</segment>
+<segment>
+<pinref part="U503" gate="A" pin="VDD"/>
+<wire x1="66.04" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="53.34" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="PP3V3_HAT503" gate="G$1" pin="PP3V3_HAT"/>
+<pinref part="C503" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="71.12" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="68.58" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="71.12" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
+<junction x="66.04" y="71.12"/>
+<pinref part="C504" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="71.12" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="68.58" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
+<junction x="55.88" y="71.12"/>
+</segment>
+<segment>
+<wire x1="195.58" y1="218.44" x2="195.58" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="C506" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="213.36" x2="195.58" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="PP3V3_HAT505" gate="G$1" pin="PP3V3_HAT"/>
+<pinref part="U504" gate="A" pin="VS"/>
+<wire x1="195.58" y1="213.36" x2="195.58" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="203.2" x2="200.66" y2="203.2" width="0.1524" layer="91"/>
+<junction x="195.58" y="213.36"/>
+<pinref part="U504" gate="A" pin="A1"/>
+<wire x1="195.58" y1="203.2" x2="195.58" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="198.12" x2="200.66" y2="198.12" width="0.1524" layer="91"/>
+<junction x="195.58" y="203.2"/>
+</segment>
+<segment>
+<pinref part="C513" gate="G$1" pin="2"/>
+<wire x1="327.66" y1="81.28" x2="335.28" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="81.28" x2="340.36" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="96.52" x2="335.28" y2="81.28" width="0.1524" layer="91"/>
+<junction x="335.28" y="81.28"/>
+<pinref part="PP3V3_HAT509" gate="G$1" pin="PP3V3_HAT"/>
+<pinref part="U508" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="U506" gate="G$1" pin="VDD"/>
+<wire x1="335.28" y1="241.3" x2="337.82" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="241.3" x2="340.36" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="241.3" x2="335.28" y2="259.08" width="0.1524" layer="91"/>
+<pinref part="C512" gate="G$1" pin="2"/>
+<wire x1="335.28" y1="241.3" x2="327.66" y2="241.3" width="0.1524" layer="91"/>
+<junction x="335.28" y="241.3"/>
+<pinref part="U506" gate="G$1" pin="PS"/>
+<wire x1="340.36" y1="231.14" x2="337.82" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="231.14" x2="337.82" y2="241.3" width="0.1524" layer="91"/>
+<junction x="337.82" y="241.3"/>
+<pinref part="PP3V3_HAT508" gate="G$1" pin="PP3V3_HAT"/>
+</segment>
+<segment>
+<pinref part="U505" gate="G$1" pin="CS_A/G"/>
+<wire x1="208.28" y1="55.88" x2="203.2" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="55.88" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U505" gate="G$1" pin="CS_M"/>
+<wire x1="203.2" y1="60.96" x2="208.28" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="60.96" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
+<junction x="203.2" y="60.96"/>
+<pinref part="PP3V3_HAT506" gate="G$1" pin="PP3V3_HAT"/>
+</segment>
+<segment>
+<pinref part="U505" gate="G$1" pin="VDD@2"/>
+<wire x1="228.6" y1="99.06" x2="228.6" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="106.68" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U505" gate="G$1" pin="VDD@1"/>
+<wire x1="223.52" y1="106.68" x2="223.52" y2="99.06" width="0.1524" layer="91"/>
+<junction x="223.52" y="106.68"/>
+<pinref part="C509" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="104.14" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="106.68" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="C507" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="104.14" x2="182.88" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="106.68" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
+<junction x="195.58" y="106.68"/>
+<wire x1="182.88" y1="106.68" x2="175.26" y2="106.68" width="0.1524" layer="91"/>
+<junction x="182.88" y="106.68"/>
+<wire x1="175.26" y1="106.68" x2="175.26" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="PP3V3_HAT504" gate="G$1" pin="PP3V3_HAT"/>
+</segment>
+<segment>
+<pinref part="U505" gate="G$1" pin="VDDIO@2"/>
+<wire x1="243.84" y1="106.68" x2="243.84" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="106.68" x2="238.76" y2="106.68" width="0.1524" layer="91"/>
+<junction x="243.84" y="106.68"/>
+<pinref part="U505" gate="G$1" pin="VDDIO@1"/>
+<wire x1="238.76" y1="106.68" x2="238.76" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="C510" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="104.14" x2="266.7" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="106.68" x2="243.84" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="106.68" x2="274.32" y2="106.68" width="0.1524" layer="91"/>
+<junction x="266.7" y="106.68"/>
+<wire x1="274.32" y1="106.68" x2="274.32" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="PP3V3_HAT507" gate="G$1" pin="PP3V3_HAT"/>
 </segment>
 </net>
 </nets>
@@ -44809,7 +44809,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <junction x="378.46" y="81.28"/>
 </segment>
 </net>
-<net name="NFO" class="0">
+<net name="PP3V3_HAT" class="0">
 <segment>
 <wire x1="109.22" y1="213.36" x2="99.06" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="PP3V3_HAT603" gate="G$1" pin="PP3V3_HAT"/>

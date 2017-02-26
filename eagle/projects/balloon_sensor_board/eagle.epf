@@ -13,12 +13,5 @@ UsedLibrary="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/H
 UsedLibrary="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/eagle/libraries/habip/daqcs_host.lbr"
 UsedLibrary="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/eagle/libraries/habip/grss.lbr"
 
-[Win_1]
-Type="Control Panel"
-Loc="70 505 669 880"
-State=2
-Number=0
-
 [Desktop]
 Screen="640 480"
-Window="Win_1"
