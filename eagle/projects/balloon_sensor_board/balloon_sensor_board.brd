@@ -153,7 +153,7 @@
 <text x="10.4" y="8.8" size="0.7" layer="22" font="vector" ratio="22" rot="MR0">CHRIS SCHWAB
 P17105: HABIP
 SPRING 2017
-XXX-XXX-XX</text>
+002-004-01</text>
 <text x="5.4" y="9.5" size="0.7" layer="21" ratio="22" rot="R180">TEMP</text>
 <text x="6.73" y="4.55" size="0.7" layer="21" ratio="22" rot="R180">PRESSURE</text>
 <text x="16.95" y="11.33" size="0.7" layer="21" ratio="22" rot="R270">BALLOON SENSORS</text>
@@ -3737,7 +3737,8 @@ XXX-XXX-XX</text>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0" drill="0.381">
+<clearance class="0" value="0.1524"/>
 </class>
 </classes>
 <designrules name="4layer_4pcb">
@@ -4009,11 +4010,11 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digi-key" x="14.08" y="14.21" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POWER" value="1/10W" x="14.08" y="14.21" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="TP201" library="daqcs" package="TP15R" value="" x="1.5" y="9.2" smashed="yes">
+<element name="TP202" library="daqcs" package="TP15R" value="" x="1.5" y="9.2" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="1.5" y="7.595" size="0.4064" layer="37" ratio="6"/>
 <attribute name="VALUE" x="2.019" y="8.192" size="0.254" layer="27" ratio="6"/>
 </element>
-<element name="U1" library="daqcs" package="TSOP95P080X055-6N" value="PCT2075GVJ" x="4.1" y="9.2" smashed="yes" rot="R270">
+<element name="U201" library="daqcs" package="TSOP95P080X055-6N" value="PCT2075GVJ" x="4.1" y="9.2" smashed="yes" rot="R270">
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/sensors/PCT2075.pdf" x="4.1" y="9.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR_PN" value="568-12424-1-ND" x="4.1" y="9.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="NXP" x="4.1" y="9.2" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4022,10 +4023,14 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="VENDOR" value="Digi-key" x="4.1" y="9.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="INTERFACE" value="I2C" x="4.1" y="9.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="LOGO1" library="daqcs" package="SQUAD_LOGO" value="" x="9.3" y="0.4" rot="MR0">
+<element name="LOGO201" library="daqcs" package="SQUAD_LOGO" value="" x="9.3" y="0.4" rot="MR0">
 <attribute name="_EXTERNAL_" value="" x="9.3" y="0.4" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="LOGO2" library="daqcs" package="CMS_LOGO" value="" x="17.1" y="1" rot="MR0"/>
+<element name="LOGO202" library="daqcs" package="CMS_LOGO" value="" x="17.1" y="1" rot="MR0"/>
+<element name="TP201" library="daqcs" package="TP15R" value="" x="15.6" y="1.3" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="15.6" y="-0.305" size="0.4064" layer="37" ratio="6"/>
+<attribute name="VALUE" x="16.119" y="0.292" size="0.254" layer="27" ratio="6"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -4036,7 +4041,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="R204" pad="1"/>
 <contactref element="C202" pad="1"/>
 <contactref element="R203" pad="1"/>
-<contactref element="U1" pad="2"/>
+<contactref element="U201" pad="2"/>
 <via x="16.2" y="12.1" extent="1-16" drill="0.381"/>
 <wire x1="4.8" y1="12.15" x2="4.85" y2="12.1" width="0.254" layer="1"/>
 <wire x1="16.2" y1="12.1" x2="16.2" y2="3.5" width="0.254" layer="16"/>
@@ -4066,6 +4071,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="12.9" y1="1.5" x2="12.9" y2="2.77" width="0.254" layer="1"/>
 <wire x1="12.9" y1="2.77" x2="12.92" y2="2.79" width="0.254" layer="1"/>
 <wire x1="3.85" y1="1.1" x2="5.7" y2="1.1" width="0.254" layer="1"/>
+<contactref element="TP201" pad="TP"/>
+<wire x1="15.6" y1="1.3" x2="13.1" y2="1.3" width="0.254" layer="1"/>
+<wire x1="13.1" y1="1.3" x2="12.9" y2="1.5" width="0.254" layer="1"/>
 </signal>
 <signal name="PP3V3">
 <contactref element="J201" pad="1"/>
@@ -4074,7 +4082,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="U202" pad="1"/>
 <contactref element="C203" pad="2"/>
 <contactref element="U202" pad="2"/>
-<contactref element="U1" pad="3"/>
+<contactref element="U201" pad="3"/>
 <via x="1.1" y="2.2" extent="1-16" drill="0.381"/>
 <via x="1.6" y="11.2" extent="1-16" drill="0.381"/>
 <wire x1="3.05" y1="12.1" x2="3.15" y2="12.1" width="0.254" layer="1"/>
@@ -4090,12 +4098,12 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="1.4" y1="1.1" x2="2.15" y2="1.1" width="0.254" layer="1"/>
 <wire x1="2.225" y1="3.1" x2="2.225" y2="1.175" width="0.254" layer="1"/>
 <wire x1="2.225" y1="1.175" x2="2.15" y2="1.1" width="0.254" layer="1"/>
-<wire x1="12.9" y1="10.43" x2="2.37" y2="10.43" width="0.254" layer="16"/>
 <wire x1="2.37" y1="10.43" x2="1.6" y2="11.2" width="0.254" layer="16"/>
 <wire x1="1.1" y1="2.2" x2="1.1" y2="9.16" width="0.254" layer="16"/>
 <wire x1="1.1" y1="9.16" x2="2.37" y2="10.43" width="0.254" layer="16"/>
 <wire x1="1.1" y1="1.4" x2="1.1" y2="2.2" width="0.254" layer="1"/>
-<wire x1="12.9" y1="10.43" x2="12.92" y2="10.41" width="0" layer="19" extent="16-16"/>
+<wire x1="2.37" y1="10.43" x2="12.9" y2="10.43" width="0.254" layer="16"/>
+<wire x1="12.9" y1="10.43" x2="12.92" y2="10.41" width="0.254" layer="16"/>
 </signal>
 <signal name="I2C_SCL_CONN">
 <contactref element="J201" pad="2"/>
@@ -4112,7 +4120,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="I2C_SCL">
 <contactref element="R201" pad="2"/>
 <contactref element="U202" pad="8"/>
-<contactref element="U1" pad="4"/>
+<contactref element="U201" pad="4"/>
 <wire x1="7.1" y1="7.8" x2="6.3" y2="7" width="0.254" layer="1"/>
 <wire x1="6.3" y1="7" x2="3.2" y2="7" width="0.254" layer="1"/>
 <wire x1="3.2" y1="7" x2="2.6" y2="7" width="0.254" layer="1"/>
@@ -4126,7 +4134,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="I2C_SDA">
 <contactref element="R202" pad="2"/>
 <contactref element="U202" pad="7"/>
-<contactref element="U1" pad="6"/>
+<contactref element="U201" pad="6"/>
 <via x="8.1" y="4.1" extent="1-16" drill="0.381"/>
 <via x="6.5" y="9.5" extent="1-16" drill="0.381"/>
 <wire x1="8.15" y1="5.3" x2="8.15" y2="5.95" width="0.254" layer="1"/>
@@ -4154,12 +4162,12 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 </signal>
 <signal name="TEMP0_I2C_A0">
 <contactref element="R203" pad="2"/>
-<contactref element="U1" pad="1"/>
+<contactref element="U201" pad="1"/>
 <wire x1="5.05" y1="10.4" x2="8.15" y2="10.4" width="0.254" layer="1"/>
 </signal>
 <signal name="TEMP0_OS">
-<contactref element="TP201" pad="TP"/>
-<contactref element="U1" pad="5"/>
+<contactref element="TP202" pad="TP"/>
+<contactref element="U201" pad="5"/>
 <wire x1="4.1" y1="8" x2="4.1" y2="8.7" width="0.254" layer="1"/>
 <wire x1="4.1" y1="8.7" x2="3.6" y2="9.2" width="0.254" layer="1"/>
 <wire x1="3.6" y1="9.2" x2="1.5" y2="9.2" width="0.254" layer="1"/>

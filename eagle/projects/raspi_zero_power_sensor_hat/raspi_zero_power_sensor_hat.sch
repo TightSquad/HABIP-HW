@@ -299,36 +299,6 @@
 <circle x="0.7" y="1.25" radius="0.075" width="0.15" layer="21"/>
 <circle x="-0.7" y="-1.25" radius="0.075" width="0.15" layer="21"/>
 </package>
-<package name="SOIC127P130X0600-8N">
-<smd name="4" x="-2.65" y="-1.905" dx="1.3" dy="0.6" layer="1" stop="no"/>
-<smd name="5" x="2.65" y="-1.905" dx="1.3" dy="0.6" layer="1" stop="no"/>
-<wire x1="-1.1684" y1="-2.45" x2="1.1684" y2="-2.45" width="0.15" layer="21"/>
-<wire x1="1.1684" y1="2.45" x2="0.3048" y2="2.45" width="0.15" layer="21"/>
-<wire x1="0.3048" y1="2.45" x2="-0.3048" y2="2.45" width="0.15" layer="21"/>
-<wire x1="-0.3048" y1="2.45" x2="-1.1684" y2="2.45" width="0.15" layer="21"/>
-<wire x1="0.3048" y1="2.45" x2="-0.3048" y2="2.45" width="0.15" layer="21" curve="-180"/>
-<text x="0" y="-1" size="0.4064" layer="25" font="vector" ratio="20" rot="SR90" align="center-left">&gt;NAME</text>
-<text x="0" y="-2" size="0.254" layer="27" font="vector" ratio="20" rot="SR0" align="center">&gt;VALUE</text>
-<rectangle x1="-3.35" y1="-2.255" x2="-1.95" y2="-1.555" layer="29"/>
-<rectangle x1="1.95" y1="-2.255" x2="3.35" y2="-1.555" layer="29"/>
-<smd name="3" x="-2.65" y="-0.635" dx="1.3" dy="0.6" layer="1" stop="no"/>
-<rectangle x1="-3.35" y1="-0.985" x2="-1.95" y2="-0.285" layer="29"/>
-<smd name="2" x="-2.65" y="0.635" dx="1.3" dy="0.6" layer="1" stop="no"/>
-<rectangle x1="-3.35" y1="0.285" x2="-1.95" y2="0.985" layer="29"/>
-<smd name="1" x="-2.65" y="1.905" dx="1.3" dy="0.6" layer="1" stop="no"/>
-<rectangle x1="-3.35" y1="1.555" x2="-1.95" y2="2.255" layer="29"/>
-<smd name="6" x="2.65" y="-0.635" dx="1.3" dy="0.6" layer="1" stop="no"/>
-<rectangle x1="1.95" y1="-0.985" x2="3.35" y2="-0.285" layer="29"/>
-<smd name="7" x="2.65" y="0.635" dx="1.3" dy="0.6" layer="1" stop="no"/>
-<rectangle x1="1.95" y1="0.285" x2="3.35" y2="0.985" layer="29"/>
-<smd name="8" x="2.65" y="1.905" dx="1.3" dy="0.6" layer="1" stop="no"/>
-<rectangle x1="1.95" y1="1.555" x2="3.35" y2="2.255" layer="29"/>
-<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.05" layer="51"/>
-<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.05" layer="51"/>
-<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.05" layer="51"/>
-<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.05" layer="51"/>
-<circle x="-2.36" y="2.59" radius="0.0728" width="0.15" layer="21"/>
-</package>
 <package name="SOP65P135X040-8N">
 <smd name="1" x="-2.15" y="0.975" dx="1.35" dy="0.4" layer="1" stop="no"/>
 <smd name="2" x="-2.15" y="0.325" dx="1.35" dy="0.4" layer="1" stop="no"/>
@@ -4734,6 +4704,175 @@
 <circle x="-1.5" y="1.76" radius="0.07" width="0.15" layer="21"/>
 <rectangle x1="-0.85" y1="-1.125" x2="0.85" y2="1.125" layer="29"/>
 </package>
+<package name="MOLSL-2-RA_HALF">
+<description>&lt;b&gt;C-Grid SL Connector&lt;/b&gt;&lt;p&gt;
+ right angle, 2 pin</description>
+<wire x1="3.88" y1="5.27" x2="-3.88" y2="5.27" width="0.08" layer="51"/>
+<wire x1="-1.27" y1="-0.2" x2="-1.27" y2="-3.175" width="0.15" layer="21"/>
+<wire x1="-1.27" y1="-3.175" x2="1.27" y2="-3.175" width="0.15" layer="21"/>
+<wire x1="1.27" y1="-3.175" x2="1.27" y2="-0.2" width="0.15" layer="21"/>
+<wire x1="-3.88" y1="2.54" x2="-3.175" y2="2.54" width="0.05" layer="51"/>
+<wire x1="-3.175" y1="2.54" x2="-1.27" y2="2.54" width="0.05" layer="51"/>
+<wire x1="1.27" y1="2.54" x2="3.175" y2="2.54" width="0.05" layer="51"/>
+<wire x1="3.175" y1="2.54" x2="3.88" y2="2.54" width="0.05" layer="51"/>
+<wire x1="-3.175" y1="2.54" x2="-3.175" y2="3.175" width="0.05" layer="51"/>
+<wire x1="-3.175" y1="3.175" x2="-1.905" y2="4.445" width="0.05" layer="51" curve="-90"/>
+<wire x1="-1.905" y1="4.445" x2="1.905" y2="4.445" width="0.05" layer="51"/>
+<wire x1="1.905" y1="4.445" x2="3.175" y2="3.175" width="0.05" layer="51" curve="-90"/>
+<wire x1="3.175" y1="3.175" x2="3.175" y2="2.54" width="0.05" layer="51"/>
+<wire x1="-3.88" y1="-0.2" x2="-3.88" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="-3.88" y1="-5.5" x2="3.88" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="3.88" y1="-5.5" x2="3.88" y2="-0.2" width="0.15" layer="21"/>
+<wire x1="-2.8575" y1="-5.5" x2="-2.8575" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-2.8575" y1="-6.35" x2="-2.8575" y2="-7.9375" width="0.05" layer="51"/>
+<wire x1="2.8575" y1="-7.9375" x2="2.8575" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="2.8575" y1="-6.35" x2="2.8575" y2="-5.5" width="0.05" layer="51"/>
+<wire x1="-2.8575" y1="-6.35" x2="-1.905" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-1.905" y1="-6.35" x2="-0.635" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-0.635" y1="-6.35" x2="0.635" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="0.635" y1="-6.35" x2="1.905" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="1.905" y1="-6.35" x2="2.8575" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-1.905" y1="-6.35" x2="-1.905" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="-1.905" y1="-7.6835" x2="-2.159" y2="-7.9375" width="0.05" layer="51" curve="-90"/>
+<wire x1="-2.159" y1="-7.9375" x2="-2.8575" y2="-7.9375" width="0.05" layer="51"/>
+<wire x1="-0.635" y1="-6.35" x2="-0.635" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="-0.635" y1="-7.6835" x2="-0.381" y2="-7.9375" width="0.05" layer="51" curve="90"/>
+<wire x1="0.635" y1="-6.35" x2="0.635" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="0.635" y1="-7.6835" x2="0.381" y2="-7.9375" width="0.05" layer="51" curve="-90"/>
+<wire x1="0.381" y1="-7.9375" x2="-0.381" y2="-7.9375" width="0.05" layer="51"/>
+<wire x1="1.905" y1="-6.35" x2="1.905" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="1.905" y1="-7.6835" x2="2.159" y2="-7.9375" width="0.05" layer="51" curve="90"/>
+<wire x1="2.159" y1="-7.9375" x2="2.8575" y2="-7.9375" width="0.05" layer="51"/>
+<pad name="2" x="1.27" y="-7.62" drill="1.09" shape="long" rot="R90"/>
+<pad name="1" x="-1.27" y="-7.62" drill="1.09" shape="long" rot="R90"/>
+<text x="-4.445" y="-5.08" size="0.8128" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
+<text x="4.5" y="-5.08" size="0.254" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.5875" y1="-7.62" x2="-0.9525" y2="-6.35" layer="51"/>
+<rectangle x1="0.9525" y1="-7.62" x2="1.5875" y2="-6.35" layer="51"/>
+<polygon width="0.15" layer="51">
+<vertex x="-3.81" y="5.1"/>
+<vertex x="-3.3338" y="3.8"/>
+<vertex x="-2.8575" y="5.1"/>
+</polygon>
+<polygon width="0.15" layer="21">
+<vertex x="-3.81" y="-2.52"/>
+<vertex x="-3.3338" y="-3.82"/>
+<vertex x="-2.8575" y="-2.52"/>
+</polygon>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-0.2" width="0.05" layer="51"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="-0.2" width="0.05" layer="51"/>
+<wire x1="3.88" y1="-0.2" x2="3.88" y2="5.27" width="0.05" layer="51"/>
+<wire x1="-3.88" y1="-0.2" x2="-3.88" y2="5.27" width="0.05" layer="51"/>
+</package>
+<package name="MOLSL-4-RA_HALF">
+<description>&lt;b&gt;C-Grid SL Connector&lt;/b&gt;&lt;p&gt;
+ right angle, 4 pin</description>
+<wire x1="6.55" y1="5.27" x2="-6.55" y2="5.27" width="0.05" layer="51"/>
+<wire x1="-6.55" y1="-0.2" x2="-6.55" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="-6.55" y1="-5.5" x2="6.55" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="6.55" y1="-5.5" x2="6.55" y2="-0.2" width="0.15" layer="21"/>
+<wire x1="-1.27" y1="-0.2" x2="-1.27" y2="-3.175" width="0.15" layer="21"/>
+<wire x1="-1.27" y1="-3.175" x2="1.27" y2="-3.175" width="0.15" layer="21"/>
+<wire x1="1.27" y1="-3.175" x2="1.27" y2="-0.2" width="0.15" layer="21"/>
+<wire x1="-4.1275" y1="5.1" x2="-4.1275" y2="2.54" width="0.05" layer="51"/>
+<wire x1="-4.1275" y1="2.54" x2="-3.175" y2="2.54" width="0.05" layer="51"/>
+<wire x1="-3.175" y1="2.54" x2="-1.27" y2="2.54" width="0.05" layer="51"/>
+<wire x1="1.27" y1="2.54" x2="3.175" y2="2.54" width="0.05" layer="51"/>
+<wire x1="3.175" y1="2.54" x2="4.1275" y2="2.54" width="0.05" layer="51"/>
+<wire x1="4.1275" y1="2.54" x2="4.1275" y2="5.1" width="0.05" layer="51"/>
+<wire x1="-3.175" y1="2.54" x2="-3.175" y2="3.175" width="0.05" layer="51"/>
+<wire x1="-3.175" y1="3.175" x2="-1.905" y2="4.445" width="0.05" layer="51" curve="-90"/>
+<wire x1="-1.905" y1="4.445" x2="1.905" y2="4.445" width="0.05" layer="51"/>
+<wire x1="1.905" y1="4.445" x2="3.175" y2="3.175" width="0.05" layer="51" curve="-90"/>
+<wire x1="3.175" y1="3.175" x2="3.175" y2="2.54" width="0.05" layer="51"/>
+<wire x1="-5.3975" y1="-6.35" x2="-3.175" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-3.175" y1="-6.35" x2="-1.905" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-3.175" y1="-6.35" x2="-3.175" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="-3.175" y1="-7.6835" x2="-2.921" y2="-7.9375" width="0.05" layer="51" curve="90"/>
+<wire x1="-1.905" y1="-6.35" x2="-1.905" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="-1.905" y1="-7.6835" x2="-2.159" y2="-7.9375" width="0.05" layer="51" curve="-90"/>
+<wire x1="-2.159" y1="-7.9375" x2="-2.921" y2="-7.9375" width="0.05" layer="51"/>
+<wire x1="-1.905" y1="-6.35" x2="-0.635" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-0.635" y1="-6.35" x2="0.635" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-0.635" y1="-6.35" x2="-0.635" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="-0.635" y1="-7.6835" x2="-0.381" y2="-7.9375" width="0.05" layer="51" curve="90"/>
+<wire x1="0.635" y1="-6.35" x2="0.635" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="0.635" y1="-7.6835" x2="0.381" y2="-7.9375" width="0.05" layer="51" curve="-90"/>
+<wire x1="0.381" y1="-7.9375" x2="-0.381" y2="-7.9375" width="0.05" layer="51"/>
+<wire x1="0.635" y1="-6.35" x2="1.905" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="1.905" y1="-6.35" x2="3.175" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="1.905" y1="-6.35" x2="1.905" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="1.905" y1="-7.6835" x2="2.159" y2="-7.9375" width="0.05" layer="51" curve="90"/>
+<wire x1="3.175" y1="-6.35" x2="3.175" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="3.175" y1="-7.6835" x2="2.921" y2="-7.9375" width="0.05" layer="51" curve="-90"/>
+<wire x1="2.921" y1="-7.9375" x2="2.159" y2="-7.9375" width="0.05" layer="51"/>
+<wire x1="3.175" y1="-6.35" x2="4.445" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-5.3975" y1="-5.5" x2="-5.3975" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-5.3975" y1="-6.35" x2="-5.3975" y2="-7.9375" width="0.05" layer="51"/>
+<wire x1="-4.445" y1="-6.35" x2="-4.445" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="-4.445" y1="-7.6835" x2="-4.699" y2="-7.9375" width="0.05" layer="51" curve="-90"/>
+<wire x1="-4.699" y1="-7.9375" x2="-5.3975" y2="-7.9375" width="0.05" layer="51"/>
+<wire x1="4.445" y1="-6.35" x2="4.445" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="4.445" y1="-7.6835" x2="4.699" y2="-7.9375" width="0.05" layer="51" curve="90"/>
+<wire x1="4.699" y1="-7.9375" x2="5.3975" y2="-7.9375" width="0.05" layer="51"/>
+<wire x1="5.3975" y1="-7.9375" x2="5.3975" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="5.3975" y1="-6.35" x2="5.3975" y2="-5.5" width="0.05" layer="51"/>
+<wire x1="4.445" y1="-6.35" x2="5.3975" y2="-6.35" width="0.05" layer="51"/>
+<pad name="2" x="-1.27" y="-7.62" drill="1.09" shape="long" rot="R90"/>
+<pad name="1" x="-3.81" y="-7.62" drill="1.09" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="-7.62" drill="1.09" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="-7.62" drill="1.09" shape="long" rot="R90"/>
+<text x="-7" y="-5.08" size="0.4064" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
+<text x="7.2" y="-5.08" size="0.254" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
+<rectangle x1="-4.1275" y1="-7.62" x2="-3.4925" y2="-6.35" layer="51"/>
+<rectangle x1="-1.5875" y1="-7.62" x2="-0.9525" y2="-6.35" layer="51"/>
+<rectangle x1="0.9525" y1="-7.62" x2="1.5875" y2="-6.35" layer="51"/>
+<rectangle x1="3.4925" y1="-7.62" x2="4.1275" y2="-6.35" layer="51"/>
+<polygon width="0.15" layer="21">
+<vertex x="-5.715" y="-1.25"/>
+<vertex x="-5.2387" y="-2.95"/>
+<vertex x="-4.7625" y="-1.25"/>
+</polygon>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-0.2" width="0.05" layer="51"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="-0.2" width="0.05" layer="51"/>
+<wire x1="6.55" y1="-0.2" x2="6.55" y2="5.27" width="0.05" layer="51"/>
+<wire x1="-6.55" y1="-0.2" x2="-6.55" y2="5.27" width="0.05" layer="51"/>
+<polygon width="0.15" layer="51">
+<vertex x="-5.715" y="5.1"/>
+<vertex x="-5.2387" y="3.4"/>
+<vertex x="-4.7625" y="5.1"/>
+</polygon>
+</package>
+<package name="SOIC127P130X0600-8N">
+<smd name="4" x="-2.65" y="-1.905" dx="1.3" dy="0.6" layer="1" stop="no"/>
+<smd name="5" x="2.65" y="-1.905" dx="1.3" dy="0.6" layer="1" stop="no"/>
+<wire x1="-1.1684" y1="-2.45" x2="1.1684" y2="-2.45" width="0.15" layer="21"/>
+<wire x1="1.1684" y1="2.45" x2="0.3048" y2="2.45" width="0.15" layer="21"/>
+<wire x1="0.3048" y1="2.45" x2="-0.3048" y2="2.45" width="0.15" layer="21"/>
+<wire x1="-0.3048" y1="2.45" x2="-1.1684" y2="2.45" width="0.15" layer="21"/>
+<wire x1="0.3048" y1="2.45" x2="-0.3048" y2="2.45" width="0.15" layer="21" curve="-180"/>
+<text x="0" y="-1" size="0.4064" layer="25" font="vector" ratio="20" rot="SR90" align="center-left">&gt;NAME</text>
+<text x="0" y="-2" size="0.254" layer="27" font="vector" ratio="20" rot="SR0" align="center">&gt;VALUE</text>
+<rectangle x1="-3.35" y1="-2.255" x2="-1.95" y2="-1.555" layer="29"/>
+<rectangle x1="1.95" y1="-2.255" x2="3.35" y2="-1.555" layer="29"/>
+<smd name="3" x="-2.65" y="-0.635" dx="1.3" dy="0.6" layer="1" stop="no"/>
+<rectangle x1="-3.35" y1="-0.985" x2="-1.95" y2="-0.285" layer="29"/>
+<smd name="2" x="-2.65" y="0.635" dx="1.3" dy="0.6" layer="1" stop="no"/>
+<rectangle x1="-3.35" y1="0.285" x2="-1.95" y2="0.985" layer="29"/>
+<smd name="1" x="-2.65" y="1.905" dx="1.3" dy="0.6" layer="1" stop="no"/>
+<rectangle x1="-3.35" y1="1.555" x2="-1.95" y2="2.255" layer="29"/>
+<smd name="6" x="2.65" y="-0.635" dx="1.3" dy="0.6" layer="1" stop="no"/>
+<rectangle x1="1.95" y1="-0.985" x2="3.35" y2="-0.285" layer="29"/>
+<smd name="7" x="2.65" y="0.635" dx="1.3" dy="0.6" layer="1" stop="no"/>
+<rectangle x1="1.95" y1="0.285" x2="3.35" y2="0.985" layer="29"/>
+<smd name="8" x="2.65" y="1.905" dx="1.3" dy="0.6" layer="1" stop="no"/>
+<rectangle x1="1.95" y1="1.555" x2="3.35" y2="2.255" layer="29"/>
+<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.05" layer="51"/>
+<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.05" layer="51"/>
+<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.05" layer="51"/>
+<circle x="-2.36" y="2.59" radius="0.0728" width="0.15" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RES">
@@ -4833,22 +4972,6 @@
 <pin name="SDO" x="17.78" y="-5.08" length="middle" direction="out" rot="R180"/>
 <pin name="SCLK" x="17.78" y="2.54" length="middle" direction="in" rot="R180"/>
 <pin name="CSB@2" x="-17.78" y="-12.7" length="middle" direction="out"/>
-<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-17.78" width="0.4064" layer="94"/>
-<wire x1="-12.7" y1="-17.78" x2="12.7" y2="-17.78" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="-17.78" x2="12.7" y2="15.24" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.4064" layer="94"/>
-<text x="-12.7" y="16.51" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="0" y="12.7" size="2.0828" layer="96" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
-</symbol>
-<symbol name="PCT2075D">
-<pin name="VCC" x="-17.78" y="7.62" length="middle" direction="pwr"/>
-<pin name="SCL" x="17.78" y="2.54" length="middle" direction="in" rot="R180"/>
-<pin name="A0" x="-17.78" y="-2.54" length="middle" direction="in"/>
-<pin name="A1" x="-17.78" y="-7.62" length="middle" direction="in"/>
-<pin name="A2" x="-17.78" y="-12.7" length="middle" direction="in"/>
-<pin name="GND" x="17.78" y="-12.7" length="middle" direction="pwr" rot="R180"/>
-<pin name="SDA" x="17.78" y="7.62" length="middle" rot="R180"/>
-<pin name="OS" x="17.78" y="-5.08" length="middle" direction="out" rot="R180"/>
 <wire x1="-12.7" y1="15.24" x2="-12.7" y2="-17.78" width="0.4064" layer="94"/>
 <wire x1="-12.7" y1="-17.78" x2="12.7" y2="-17.78" width="0.4064" layer="94"/>
 <wire x1="12.7" y1="-17.78" x2="12.7" y2="15.24" width="0.4064" layer="94"/>
@@ -40562,6 +40685,22 @@ LOGO</text>
 <pin name="VOUT@2" x="17.78" y="5.08" length="middle" direction="pwr" rot="R180"/>
 <pin name="HYS" x="-17.78" y="-10.16" length="middle" direction="out"/>
 </symbol>
+<symbol name="PCT2075D">
+<pin name="VCC" x="-17.78" y="7.62" length="middle" direction="pwr"/>
+<pin name="SCL" x="17.78" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="A0" x="-17.78" y="-2.54" length="middle" direction="in"/>
+<pin name="A1" x="-17.78" y="-7.62" length="middle" direction="in"/>
+<pin name="A2" x="-17.78" y="-12.7" length="middle" direction="in"/>
+<pin name="GND" x="17.78" y="-12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="SDA" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="OS" x="17.78" y="-5.08" length="middle" direction="out" rot="R180"/>
+<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-17.78" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-17.78" x2="12.7" y2="-17.78" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="12.7" y2="15.24" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.4064" layer="94"/>
+<text x="-12.7" y="16.51" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="0" y="12.7" size="2.0828" layer="96" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RES" prefix="R" uservalue="yes">
@@ -41101,38 +41240,6 @@ LOGO</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PCT2075" prefix="U" uservalue="yes">
-<description>I2C-bus Fm+, 1 degree C accuracy, digital temperature sensor and thermal watchdog</description>
-<gates>
-<gate name="A" symbol="PCT2075D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SOIC8" package="SOIC127P130X0600-8N">
-<connects>
-<connect gate="A" pin="A0" pad="7"/>
-<connect gate="A" pin="A1" pad="6"/>
-<connect gate="A" pin="A2" pad="5"/>
-<connect gate="A" pin="GND" pad="4"/>
-<connect gate="A" pin="OS" pad="3"/>
-<connect gate="A" pin="SCL" pad="2"/>
-<connect gate="A" pin="SDA" pad="1"/>
-<connect gate="A" pin="VCC" pad="8"/>
-</connects>
-<technologies>
-<technology name="D,118">
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/sensors/PCT2075.pdf" constant="no"/>
-<attribute name="INTERFACE" value="I2C" constant="no"/>
-<attribute name="MANUFACTURER" value="NXP" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="PCT2075D,118" constant="no"/>
-<attribute name="RESOLUTION" value="10b" constant="no"/>
-<attribute name="VALUE" value="PCT2075D,118" constant="no"/>
-<attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="568-10219-1-ND" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MAX11613" prefix="U" uservalue="yes">
 <description>&lt;b&gt;12-bit SAR ADC, 94.4kSamples/s,  4-Channel Single-Ended or 2-Channel Fully Differential (MUXed), I2C Interface&lt;/b&gt;
 
@@ -41234,6 +41341,28 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="_SL2RA">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/705530001_sd.pdf" constant="no"/>
+<attribute name="FINISH" value="GOLD" constant="no"/>
+<attribute name="LOCKING" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="0705530001" constant="no"/>
+<attribute name="MAX_CURRENT" value="3.0A" constant="no"/>
+<attribute name="MOUNT_ANGLE" value="RIGHT" constant="no"/>
+<attribute name="MOUNT_TYPE" value="TH" constant="no"/>
+<attribute name="POSITIONS" value="2" constant="no"/>
+<attribute name="VALUE" value="MOL-SL-2-RA" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="WM4900-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_RAH" package="MOLSL-2-RA_HALF">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/705530001_sd.pdf" constant="no"/>
 <attribute name="FINISH" value="GOLD" constant="no"/>
 <attribute name="LOCKING" value="YES" constant="no"/>
@@ -42116,6 +42245,30 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </technology>
 </technologies>
 </device>
+<device name="_RAH" package="MOLSL-4-RA_HALF">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/705530001_sd.pdf" constant="no"/>
+<attribute name="FINISH" value="GOLD" constant="no"/>
+<attribute name="LOCKING" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="0705530003" constant="no"/>
+<attribute name="MAX_CURRENT" value="3.0A" constant="no"/>
+<attribute name="MOUNT_ANGLE" value="RIGHT" constant="no"/>
+<attribute name="MOUNT_TYPE" value="TH" constant="no"/>
+<attribute name="POSITIONS" value="4" constant="no"/>
+<attribute name="VALUE" value="MOL-SL-4-RA" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="WM4902-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="TEST_POINT_TH" prefix="TP" uservalue="yes">
@@ -42353,6 +42506,38 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
+<deviceset name="PCT2075D" prefix="U" uservalue="yes">
+<description>I2C-bus Fm+, 1 degree C accuracy, digital temperature sensor and thermal watchdog</description>
+<gates>
+<gate name="A" symbol="PCT2075D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOIC8" package="SOIC127P130X0600-8N">
+<connects>
+<connect gate="A" pin="A0" pad="7"/>
+<connect gate="A" pin="A1" pad="6"/>
+<connect gate="A" pin="A2" pad="5"/>
+<connect gate="A" pin="GND" pad="4"/>
+<connect gate="A" pin="OS" pad="3"/>
+<connect gate="A" pin="SCL" pad="2"/>
+<connect gate="A" pin="SDA" pad="1"/>
+<connect gate="A" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name="D,118">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/sensors/PCT2075.pdf" constant="no"/>
+<attribute name="INTERFACE" value="I2C" constant="no"/>
+<attribute name="MANUFACTURER" value="NXP" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="PCT2075D,118" constant="no"/>
+<attribute name="RESOLUTION" value="10b" constant="no"/>
+<attribute name="VALUE" value="PCT2075D,118" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="568-10219-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -42363,7 +42548,11 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <variantdef name="PCB_ONLY"/>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0" drill="0.381">
+<clearance class="0" value="0.1524"/>
+</class>
+<class number="1" name="diff_pair" width="0.1778" drill="0.381">
+<clearance class="1" value="0.1778"/>
 </class>
 </classes>
 <parts>
@@ -42376,7 +42565,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="DS401" library="daqcs" deviceset="LED" device="_0603" technology="_B3V2WURTH" value="BLUE"/>
 <part name="GND412" library="daqcs" deviceset="GND" device=""/>
 <part name="U506" library="daqcs" deviceset="MS5607" device="_8SMD" technology="-02BA03" value="MS560702BA03-50"/>
-<part name="U501" library="daqcs" deviceset="PCT2075" device="SOIC8" technology="D,118" value="PCT2075D,118"/>
 <part name="U503" library="daqcs" deviceset="MAX11613" device="" technology="EUA+" value="MAX11613EUA+">
 <variant name="POR" populate="no"/>
 <variant name="PCB_ONLY" populate="no"/>
@@ -42416,7 +42604,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="R607" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
 <part name="R608" library="daqcs" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
 <part name="GND604" library="daqcs" deviceset="GND" device=""/>
-<part name="U502" library="daqcs" deviceset="PCT2075" device="SOIC8" technology="D,118" value="PCT2075D,118"/>
 <part name="C502" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
 <part name="R501" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="GND503" library="daqcs" deviceset="GND" device=""/>
@@ -42510,9 +42697,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="C505" library="daqcs" deviceset="CAP" device="_0603" technology="_10NF0" value="10nF"/>
 <part name="R408" library="daqcs" deviceset="RES" device="_0805" technology="_0R0_0805" value="0.0"/>
 <part name="TOC101" library="daqcs" deviceset="TOC-10" device=""/>
-<part name="TP611" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
-<part name="TP613" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
 <part name="TP609" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
+<part name="TP611" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
+<part name="TP607" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
 <part name="R312" library="daqcs" deviceset="RES" device="_0603" technology="_0R499" value="49.9"/>
 <part name="C601" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
 <part name="GND611" library="daqcs" deviceset="GND" device=""/>
@@ -42625,11 +42812,11 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="GND304" library="daqcs" deviceset="GND" device=""/>
 <part name="GND411" library="daqcs" deviceset="GND" device=""/>
 <part name="GND614" library="daqcs" deviceset="GND" device=""/>
-<part name="TP614" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
-<part name="GND613" library="daqcs" deviceset="GND" device=""/>
 <part name="TP612" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
-<part name="GND609" library="daqcs" deviceset="GND" device=""/>
+<part name="GND613" library="daqcs" deviceset="GND" device=""/>
 <part name="TP610" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
+<part name="GND609" library="daqcs" deviceset="GND" device=""/>
+<part name="TP608" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
 <part name="R403" library="daqcs" deviceset="RES" device="_0603" technology="_0R499" value="49.9"/>
 <part name="R305" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="R306" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
@@ -42639,7 +42826,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="C602" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
 <part name="GND612" library="daqcs" deviceset="GND" device=""/>
 <part name="R402" library="daqcs" deviceset="RES_SNS" device="" technology="_0RS033" value="0.033"/>
-<part name="J301" library="daqcs" deviceset="MOLSL_2PIN" device="_RA" technology="_SL2RA" value="MOL-SL-2-RA"/>
+<part name="J301" library="daqcs" deviceset="MOLSL_2PIN" device="_RAH" value="MOL-SL-2-RA"/>
 <part name="C503" library="daqcs" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF">
 <variant name="POR" populate="no"/>
 <variant name="PCB_ONLY" populate="no"/>
@@ -42673,7 +42860,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </part>
 <part name="R606" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 <part name="J402" library="daqcs" deviceset="MOLSL_2PIN" device="_V" technology="_SL2V" value="MOL-SL-2-V"/>
-<part name="J602" library="daqcs" deviceset="MOLSL_4PIN" device="_RA" technology="_SL4RA" value="MOL-SL-4-RA"/>
+<part name="J602" library="daqcs" deviceset="MOLSL_4PIN" device="_RAH" value="MOL-SL-4-RA"/>
 <part name="BOM707" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI2" value="SL 70066 2PIN HOUSING">
 <variant name="PCB_ONLY" populate="no"/>
 </part>
@@ -42705,6 +42892,8 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="LOGO602" library="daqcs" deviceset="SQUAD_LOGO" device=""/>
 <part name="LOGO601" library="daqcs" deviceset="CMS_LOGO" device=""/>
 <part name="U402" library="daqcs" deviceset="TPS61232" device="" value="TPS61232"/>
+<part name="U501" library="daqcs" deviceset="PCT2075D" device="SOIC8" technology="D,118" value="PCT2075D,118"/>
+<part name="U502" library="daqcs" deviceset="PCT2075D" device="SOIC8" technology="D,118" value="PCT2075D,118"/>
 </parts>
 <sheets>
 <sheet>
@@ -42714,7 +42903,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <text x="81.28" y="190.5" size="3.81" layer="91">TITLE_TOC</text>
 <text x="81.28" y="182.88" size="3.81" layer="91">BLOCK_DIAGRAM</text>
 <text x="330.2" y="27.94" size="3.81" layer="91">TITLE_TOC</text>
-<text x="421.64" y="7.62" size="3.81" layer="91">A</text>
+<text x="421.64" y="7.62" size="3.81" layer="91">1</text>
 <text x="327.66" y="60.96" size="3.81" layer="91">ENGINEER: CHRIS SCHWAB</text>
 <text x="340.36" y="68.58" size="3.81" layer="91">TEAM: P17105</text>
 <text x="81.28" y="175.26" size="3.81" layer="91">LIPO_CHARGER_AND_BCM_RESET</text>
@@ -42722,6 +42911,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <text x="81.28" y="152.4" size="3.81" layer="91">PI_MCU_CONNECT_AND_MOUNTING</text>
 <text x="81.28" y="167.64" size="3.81" layer="91">POWER_ENTRY_BOOST_LDO</text>
 <text x="81.28" y="144.78" size="3.81" layer="91">ASSEMBLY_COMPONENTS</text>
+<text x="335.28" y="76.2" size="3.81" layer="91">DESIGN: 001-001-01</text>
 </plain>
 <instances>
 <instance part="TOC101" gate="G$1" x="40.64" y="119.38"/>
@@ -42737,7 +42927,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <description>BLOCK_DIAGRAM</description>
 <plain>
 <text x="330.2" y="27.94" size="3.81" layer="91">BLOCK_DIAGRAM</text>
-<text x="421.64" y="7.62" size="3.81" layer="91">A</text>
+<text x="421.64" y="7.62" size="3.81" layer="91">1</text>
 </plain>
 <instances>
 <instance part="DIAGRAM201" gate="G$1" x="37.846" y="43.8785"/>
@@ -42752,7 +42942,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <sheet>
 <description>LIPO_CHARGER</description>
 <plain>
-<text x="421.64" y="7.62" size="3.81" layer="91">A</text>
+<text x="421.64" y="7.62" size="3.81" layer="91">1</text>
 <text x="330.2" y="27.94" size="3.81" layer="91">LIPO_CHARGER_AND_BCM_RESET</text>
 <text x="109.22" y="114.3" size="1.778" layer="91">PROG PD sets charging</text>
 <text x="109.22" y="111.76" size="1.778" layer="91">current limit:</text>
@@ -43182,7 +43372,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <text x="381" y="243.84" size="3.81" layer="91">SYSTEM</text>
 <text x="360.68" y="144.78" size="3.81" layer="91">POWER STATUS</text>
 <text x="373.38" y="139.7" size="3.81" layer="91">LEDS</text>
-<text x="421.64" y="7.62" size="3.81" layer="91">A</text>
+<text x="421.64" y="7.62" size="3.81" layer="91">1</text>
 <text x="330.2" y="27.94" size="3.81" layer="91">POWER_ENTRY_BOOST_LDO</text>
 <text x="248.92" y="238.76" size="1.778" layer="91">Vin UVLO: 2.1V (MAX)</text>
 <text x="22.86" y="83.82" size="3.81" layer="91">3.3V LDO (No RasPi Operation)</text>
@@ -43405,7 +43595,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <wire x1="101.6" y1="203.2" x2="101.6" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VBAT_SNS_P" class="0">
+<net name="VBAT_SNS_P" class="1">
 <segment>
 <wire x1="147.32" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="198.12" x2="147.32" y2="157.48" width="0.1524" layer="91"/>
@@ -43413,7 +43603,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <pinref part="R402" gate="G$1" pin="2V"/>
 </segment>
 </net>
-<net name="VBAT_SNS_N" class="0">
+<net name="VBAT_SNS_N" class="1">
 <segment>
 <wire x1="152.4" y1="162.56" x2="175.26" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="198.12" x2="152.4" y2="162.56" width="0.1524" layer="91"/>
@@ -43660,7 +43850,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <text x="337.82" y="205.74" size="1.778" layer="91">Complement of CSB</text>
 <text x="337.82" y="203.2" size="1.778" layer="91">sets LSB of I2C ADDR</text>
 <text x="353.06" y="259.08" size="2.54" layer="91">I2C Addr: 0xEE/0xEF (W/R)</text>
-<text x="421.64" y="7.62" size="3.81" layer="91">A</text>
+<text x="421.64" y="7.62" size="3.81" layer="91">1</text>
 <text x="330.2" y="27.94" size="3.81" layer="91">SENSORS</text>
 <text x="58.42" y="185.42" size="3.81" layer="91">Temperature Sensor 1</text>
 <text x="63.5" y="180.34" size="2.54" layer="91">I2C Addr: 0x94/0x95 (W/R)</text>
@@ -43685,7 +43875,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="R504" gate="G$1" x="190.5" y="182.88" rot="R90"/>
 <instance part="GND512" gate="1" x="167.64" y="208.28"/>
 <instance part="U506" gate="G$1" x="358.14" y="233.68"/>
-<instance part="U501" gate="A" x="66.04" y="233.68"/>
 <instance part="U503" gate="A" x="88.9" y="45.72"/>
 <instance part="R507" gate="G$1" x="325.12" y="208.28" rot="R90"/>
 <instance part="C512" gate="G$1" x="325.12" y="241.3" smashed="yes" rot="R90">
@@ -43711,7 +43900,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="GND511" gate="1" x="111.76" y="17.78"/>
 <instance part="GND507" gate="1" x="45.72" y="203.2"/>
 <instance part="GND505" gate="1" x="38.1" y="12.7"/>
-<instance part="U502" gate="A" x="66.04" y="154.94"/>
 <instance part="C502" gate="G$1" x="33.02" y="162.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="30.099" y="166.624" size="2.0828" layer="95" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="35.179" y="164.084" size="1.778" layer="96" ratio="10" rot="R90"/>
@@ -43828,6 +44016,8 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <attribute name="NAME" x="414.02" y="57.15" size="1.778" layer="95" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="407.67" y="52.07" size="1.778" layer="97" rot="R270"/>
 </instance>
+<instance part="U501" gate="A" x="66.04" y="233.68"/>
+<instance part="U502" gate="A" x="66.04" y="154.94"/>
 </instances>
 <busses>
 </busses>
@@ -43871,10 +44061,10 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <wire x1="27.94" y1="205.74" x2="27.94" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U501" gate="A" pin="GND"/>
 <wire x1="83.82" y1="220.98" x2="88.9" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="GND509" gate="1" pin="GND"/>
 <wire x1="88.9" y1="220.98" x2="88.9" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="U501" gate="A" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U503" gate="A" pin="GND"/>
@@ -43884,13 +44074,13 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </segment>
 <segment>
 <pinref part="GND507" gate="1" pin="GND"/>
-<pinref part="U501" gate="A" pin="A1"/>
 <wire x1="45.72" y1="205.74" x2="45.72" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="220.98" x2="45.72" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="226.06" x2="48.26" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="U501" gate="A" pin="A2"/>
 <wire x1="45.72" y1="220.98" x2="48.26" y2="220.98" width="0.1524" layer="91"/>
 <junction x="45.72" y="220.98"/>
+<pinref part="U501" gate="A" pin="A1"/>
+<pinref part="U501" gate="A" pin="A2"/>
 </segment>
 <segment>
 <wire x1="30.48" y1="22.86" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
@@ -43910,16 +44100,16 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <wire x1="25.4" y1="127" x2="25.4" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U502" gate="A" pin="GND"/>
 <wire x1="83.82" y1="142.24" x2="88.9" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="GND510" gate="1" pin="GND"/>
 <wire x1="88.9" y1="142.24" x2="88.9" y2="127" width="0.1524" layer="91"/>
+<pinref part="U502" gate="A" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND508" gate="1" pin="GND"/>
 <wire x1="45.72" y1="127" x2="45.72" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U502" gate="A" pin="A2"/>
 <wire x1="45.72" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="U502" gate="A" pin="A2"/>
 </segment>
 <segment>
 <wire x1="375.92" y1="139.7" x2="381" y2="139.7" width="0.1524" layer="91"/>
@@ -44045,9 +44235,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <label x="381" y="241.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U501" gate="A" pin="SDA"/>
 <wire x1="83.82" y1="241.3" x2="116.84" y2="241.3" width="0.1524" layer="91"/>
 <label x="88.9" y="241.3" size="1.778" layer="95"/>
+<pinref part="U501" gate="A" pin="SDA"/>
 </segment>
 <segment>
 <pinref part="U503" gate="A" pin="SDA"/>
@@ -44055,9 +44245,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <label x="111.76" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U502" gate="A" pin="SDA"/>
 <wire x1="83.82" y1="162.56" x2="116.84" y2="162.56" width="0.1524" layer="91"/>
 <label x="88.9" y="162.56" size="1.778" layer="95"/>
+<pinref part="U502" gate="A" pin="SDA"/>
 </segment>
 <segment>
 <wire x1="375.92" y1="160.02" x2="408.94" y2="160.02" width="0.1524" layer="91"/>
@@ -44087,9 +44277,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <label x="381" y="236.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U501" gate="A" pin="SCL"/>
 <wire x1="83.82" y1="236.22" x2="116.84" y2="236.22" width="0.1524" layer="91"/>
 <label x="88.9" y="236.22" size="1.778" layer="95"/>
+<pinref part="U501" gate="A" pin="SCL"/>
 </segment>
 <segment>
 <pinref part="U503" gate="A" pin="SCL"/>
@@ -44097,9 +44287,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <label x="111.76" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U502" gate="A" pin="SCL"/>
 <wire x1="83.82" y1="157.48" x2="116.84" y2="157.48" width="0.1524" layer="91"/>
 <label x="88.9" y="157.48" size="1.778" layer="95"/>
+<pinref part="U502" gate="A" pin="SCL"/>
 </segment>
 <segment>
 <wire x1="375.92" y1="154.94" x2="408.94" y2="154.94" width="0.1524" layer="91"/>
@@ -44117,7 +44307,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <label x="266.7" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VBAT_SNS_P" class="0">
+<net name="VBAT_SNS_P" class="1">
 <segment>
 <pinref part="U504" gate="A" pin="IN+"/>
 <wire x1="215.9" y1="213.36" x2="215.9" y2="228.6" width="0.1524" layer="91"/>
@@ -44125,7 +44315,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <label x="195.58" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VBAT_SNS_N" class="0">
+<net name="VBAT_SNS_N" class="1">
 <segment>
 <pinref part="U504" gate="A" pin="IN-"/>
 <wire x1="220.98" y1="213.36" x2="220.98" y2="233.68" width="0.1524" layer="91"/>
@@ -44172,19 +44362,19 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <net name="TEMP1_I2C_A0" class="0">
 <segment>
 <pinref part="R501" gate="G$1" pin="2"/>
-<pinref part="U502" gate="A" pin="A0"/>
 <wire x1="25.4" y1="142.24" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="152.4" x2="48.26" y2="152.4" width="0.1524" layer="91"/>
 <label x="25.4" y="152.4" size="1.778" layer="95"/>
+<pinref part="U502" gate="A" pin="A0"/>
 </segment>
 </net>
 <net name="TEMP0_I2C_A0" class="0">
 <segment>
 <pinref part="R502" gate="G$1" pin="2"/>
-<pinref part="U501" gate="A" pin="A0"/>
 <wire x1="27.94" y1="220.98" x2="27.94" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="231.14" x2="48.26" y2="231.14" width="0.1524" layer="91"/>
 <label x="27.94" y="231.14" size="1.778" layer="95"/>
+<pinref part="U501" gate="A" pin="A0"/>
 </segment>
 </net>
 <net name="PRES1_CSB" class="0">
@@ -44308,18 +44498,18 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </net>
 <net name="TEMP0_OS" class="0">
 <segment>
-<pinref part="U501" gate="A" pin="OS"/>
 <pinref part="TP506" gate="G$1" pin="TP"/>
 <wire x1="83.82" y1="228.6" x2="116.84" y2="228.6" width="0.1524" layer="91"/>
 <label x="88.9" y="228.6" size="1.778" layer="95"/>
+<pinref part="U501" gate="A" pin="OS"/>
 </segment>
 </net>
 <net name="TEMP1_OS" class="0">
 <segment>
-<pinref part="U502" gate="A" pin="OS"/>
 <pinref part="TP507" gate="G$1" pin="TP"/>
 <wire x1="83.82" y1="149.86" x2="116.84" y2="149.86" width="0.1524" layer="91"/>
 <label x="88.9" y="149.86" size="1.778" layer="95"/>
+<pinref part="U502" gate="A" pin="OS"/>
 </segment>
 </net>
 <net name="PP3V3_HAT" class="0">
@@ -44343,26 +44533,26 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </segment>
 <segment>
 <pinref part="C501" gate="G$1" pin="2"/>
-<pinref part="U501" gate="A" pin="VCC"/>
 <wire x1="35.56" y1="241.3" x2="43.18" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="241.3" x2="48.26" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="259.08" x2="43.18" y2="241.3" width="0.1524" layer="91"/>
 <junction x="43.18" y="241.3"/>
 <pinref part="PP3V3_HAT501" gate="G$1" pin="PP3V3_HAT"/>
+<pinref part="U501" gate="A" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="C502" gate="G$1" pin="2"/>
-<pinref part="U502" gate="A" pin="VCC"/>
 <wire x1="35.56" y1="162.56" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="162.56" x2="45.72" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="162.56" x2="48.26" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="180.34" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
 <junction x="43.18" y="162.56"/>
 <pinref part="PP3V3_HAT502" gate="G$1" pin="PP3V3_HAT"/>
-<pinref part="U502" gate="A" pin="A1"/>
 <wire x1="48.26" y1="147.32" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="147.32" x2="45.72" y2="162.56" width="0.1524" layer="91"/>
 <junction x="45.72" y="162.56"/>
+<pinref part="U502" gate="A" pin="VCC"/>
+<pinref part="U502" gate="A" pin="A1"/>
 </segment>
 <segment>
 <pinref part="U503" gate="A" pin="VDD"/>
@@ -44466,7 +44656,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <sheet>
 <description>PI_MCU_CONNECT_AND_MOUNTING</description>
 <plain>
-<text x="421.64" y="7.62" size="3.81" layer="91">A</text>
+<text x="421.64" y="7.62" size="3.81" layer="91">1</text>
 <text x="330.2" y="27.94" size="3.81" layer="91">PI_MCU_CONNECT_AND_MOUNTING</text>
 <text x="101.6" y="261.62" size="7.62" layer="91">HOST/RASPI CONNECTORS and MOUNTING</text>
 <text x="124.46" y="243.84" size="3.81" layer="91">RASPBERRY PI PWR/GPIO HEADER</text>
@@ -44529,9 +44719,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="PP3V3_HAT601" gate="G$1" x="66.04" y="147.32"/>
 <instance part="DS601" gate="G$1" x="236.22" y="66.04"/>
 <instance part="DS602" gate="G$1" x="264.16" y="66.04"/>
-<instance part="TP611" gate="G$1" x="393.7" y="101.6"/>
-<instance part="TP613" gate="G$1" x="403.86" y="101.6"/>
-<instance part="TP609" gate="G$1" x="350.52" y="238.76"/>
+<instance part="TP609" gate="G$1" x="393.7" y="101.6"/>
+<instance part="TP611" gate="G$1" x="403.86" y="101.6"/>
+<instance part="TP607" gate="G$1" x="350.52" y="238.76"/>
 <instance part="C601" gate="G$1" x="378.46" y="71.12"/>
 <instance part="GND611" gate="1" x="378.46" y="58.42"/>
 <instance part="FRAME601" gate="G$1" x="0" y="0"/>
@@ -44545,17 +44735,17 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="R610" gate="G$1" x="307.34" y="187.96"/>
 <instance part="PP5V0_BST_HAT601" gate="G$1" x="215.9" y="231.14"/>
 <instance part="GND614" gate="1" x="403.86" y="48.26"/>
-<instance part="TP614" gate="G$1" x="414.02" y="55.88" smashed="yes" rot="R270">
+<instance part="TP612" gate="G$1" x="414.02" y="55.88" smashed="yes" rot="R270">
 <attribute name="NAME" x="421.64" y="57.15" size="1.778" layer="95" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="412.75" y="52.07" size="1.778" layer="97" rot="R270"/>
 </instance>
 <instance part="GND613" gate="1" x="393.7" y="127"/>
-<instance part="TP612" gate="G$1" x="403.86" y="134.62" smashed="yes" rot="R270">
+<instance part="TP610" gate="G$1" x="403.86" y="134.62" smashed="yes" rot="R270">
 <attribute name="NAME" x="408.94" y="135.89" size="1.778" layer="95" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="402.59" y="130.81" size="1.778" layer="97" rot="R270"/>
 </instance>
 <instance part="GND609" gate="1" x="360.68" y="254"/>
-<instance part="TP610" gate="G$1" x="370.84" y="261.62" smashed="yes" rot="R270">
+<instance part="TP608" gate="G$1" x="370.84" y="261.62" smashed="yes" rot="R270">
 <attribute name="NAME" x="378.46" y="262.89" size="1.778" layer="95" align="center"/>
 <attribute name="TP_SIGNAL_NAME" x="369.57" y="257.81" size="1.778" layer="97" rot="R270"/>
 </instance>
@@ -44648,19 +44838,19 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <segment>
 <pinref part="GND614" gate="1" pin="GND"/>
 <wire x1="403.86" y1="50.8" x2="403.86" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="TP614" gate="G$1" pin="TP"/>
+<pinref part="TP612" gate="G$1" pin="TP"/>
 <wire x1="403.86" y1="55.88" x2="408.94" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND613" gate="1" pin="GND"/>
 <wire x1="393.7" y1="129.54" x2="393.7" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="TP612" gate="G$1" pin="TP"/>
+<pinref part="TP610" gate="G$1" pin="TP"/>
 <wire x1="393.7" y1="134.62" x2="398.78" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND609" gate="1" pin="GND"/>
 <wire x1="360.68" y1="256.54" x2="360.68" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="TP610" gate="G$1" pin="TP"/>
+<pinref part="TP608" gate="G$1" pin="TP"/>
 <wire x1="360.68" y1="261.62" x2="365.76" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -44799,7 +44989,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <pinref part="J604" gate="G$1" pin="RUN"/>
 <wire x1="363.22" y1="81.28" x2="378.46" y2="81.28" width="0.1524" layer="91"/>
 <label x="375.92" y="81.28" size="1.778" layer="95"/>
-<pinref part="TP613" gate="G$1" pin="TP"/>
+<pinref part="TP611" gate="G$1" pin="TP"/>
 <wire x1="378.46" y1="81.28" x2="403.86" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="81.28" x2="414.02" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="96.52" x2="403.86" y2="81.28" width="0.1524" layer="91"/>
@@ -44883,7 +45073,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <segment>
 <wire x1="269.24" y1="213.36" x2="350.52" y2="213.36" width="0.1524" layer="91"/>
 <label x="281.94" y="213.36" size="1.778" layer="95"/>
-<pinref part="TP609" gate="G$1" pin="TP"/>
+<pinref part="TP607" gate="G$1" pin="TP"/>
 <wire x1="350.52" y1="213.36" x2="363.22" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="233.68" x2="350.52" y2="213.36" width="0.1524" layer="91"/>
 <junction x="350.52" y="213.36"/>
@@ -44925,7 +45115,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <segment>
 <pinref part="J604" gate="G$1" pin="GPIO21/SCLK"/>
 <wire x1="363.22" y1="91.44" x2="393.7" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="TP611" gate="G$1" pin="TP"/>
+<pinref part="TP609" gate="G$1" pin="TP"/>
 <wire x1="393.7" y1="91.44" x2="414.02" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="96.52" x2="393.7" y2="91.44" width="0.1524" layer="91"/>
 <junction x="393.7" y="91.44"/>
@@ -44967,7 +45157,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <sheet>
 <description>ASSEMBLY_COMPONENTS</description>
 <plain>
-<text x="421.64" y="7.62" size="3.81" layer="91">A</text>
+<text x="421.64" y="7.62" size="3.81" layer="91">1</text>
 <text x="330.2" y="27.94" size="3.81" layer="91">ASSEMBLY_COMPONENTS</text>
 <text x="81.28" y="259.08" size="7.62" layer="91">CONNECTOR ASSEMBLY and EXTERNAL SENSORS</text>
 <text x="35.56" y="236.22" size="3.81" layer="91">J301: 5V Charger Input</text>
@@ -45016,9 +45206,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <errors>
 <approved hash="104,5,200.66,203.2,U504,VS,PP3V3_HAT,,,"/>
 <approved hash="104,5,340.36,241.3,U506,VDD,PP3V3_HAT,,,"/>
-<approved hash="104,5,48.26,241.3,U501,VCC,PP3V3_HAT,,,"/>
 <approved hash="104,5,68.58,53.34,U503,VDD,PP3V3_HAT,,,"/>
-<approved hash="104,5,48.26,162.56,U502,VCC,PP3V3_HAT,,,"/>
 <approved hash="104,5,340.36,160.02,U507,VDD,PP3V3_HAT,,,"/>
 <approved hash="104,4,68.58,38.1,U401,OUT,PP3V3_LDO,,,"/>
 <approved hash="104,4,33.02,38.1,U401,IN,PP5V0_BST,,,"/>
@@ -45048,14 +45236,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <approved hash="105,5,83.82,106.68,N$20,,,,,"/>
 <approved hash="108,5,340.36,218.44,N$3,,,,,"/>
 <approved hash="113,2,215.355,156.692,DIAGRAM201,,,,,"/>
-<approved hash="113,6,330.2,236.707,TP607,,,,,"/>
-<approved hash="113,6,340.36,236.707,TP608,,,,,"/>
 <approved hash="113,6,212.541,91.44,TP605,,,,,"/>
 <approved hash="113,6,212.541,86.36,TP606,,,,,"/>
 <approved hash="113,1,123.19,170.561,TOC101,,,,,"/>
-<approved hash="113,6,393.7,99.5468,TP611,,,,,"/>
-<approved hash="113,6,403.86,99.5468,TP613,,,,,"/>
-<approved hash="113,6,350.52,236.707,TP609,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME101,,,,,"/>
 <approved hash="113,2,215.796,139.596,FRAME201,,,,,"/>
 <approved hash="113,3,215.796,139.596,FRAME301,,,,,"/>
@@ -45068,9 +45251,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <approved hash="113,5,288.474,68.9398,TP510,,,,,"/>
 <approved hash="113,5,288.474,63.8598,TP511,,,,,"/>
 <approved hash="113,5,288.474,58.7798,TP512,,,,,"/>
-<approved hash="113,6,415.474,56.2398,TP614,,,,,"/>
-<approved hash="113,6,404.044,134.98,TP612,,,,,"/>
-<approved hash="113,6,372.294,261.98,TP610,,,,,"/>
 <approved hash="113,5,23.9462,42.8202,TP501,,,,,"/>
 <approved hash="113,5,23.9462,37.7402,TP502,,,,,"/>
 <approved hash="113,5,23.9462,32.6602,TP503,,,,,"/>
