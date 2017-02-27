@@ -16,7 +16,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -155,7 +155,7 @@
 <wire x1="4" y1="0" x2="0" y2="4" width="0" layer="20" curve="-90"/>
 <wire x1="61" y1="0" x2="65" y2="4" width="0" layer="20" curve="90"/>
 <text x="15.2" y="28.05" size="1.016" layer="25" ratio="15">LDO</text>
-<text x="33.1" y="28.45" size="1.016" layer="25" ratio="15">555</text>
+<text x="33.2" y="24.95" size="1.016" layer="25" ratio="15">555</text>
 <text x="46.8" y="32.55" size="1.016" layer="21" ratio="15">Lincoln Glauser
 P17105: HABIP
 SPRING 2K17
