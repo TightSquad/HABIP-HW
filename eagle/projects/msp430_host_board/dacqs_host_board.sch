@@ -29412,6 +29412,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="147" y="111" size="1.778" layer="91">SENSORS AND SD CARD SCHEMATICS</text>
 <text x="147" y="106" size="1.778" layer="91">POWER MANAGEMENT SCHEMATIC</text>
 <text x="147" y="101" size="1.778" layer="91">REACTION WHEEL BATTERY VOLTAGE SENSE SCHEMATIC</text>
+<text x="299.72" y="12.7" size="2.54" layer="91">PN: 01-02-01 </text>
 </plain>
 <instances>
 <instance part="FRAME8" gate="G$1" x="0" y="0"/>
