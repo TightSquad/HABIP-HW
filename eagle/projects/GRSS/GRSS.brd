@@ -5678,10 +5678,10 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="4.4" y1="13.6" x2="4.4" y2="29.63" width="0.4064" layer="1"/>
 <wire x1="23.47" y1="9.73" x2="24.4" y2="8.8" width="0.4064" layer="1"/>
 <polygon width="0.4064" layer="1" rank="6">
-<vertex x="-4.6" y="64.55"/>
-<vertex x="-4.6" y="-1.45"/>
-<vertex x="72.8" y="-1.45"/>
-<vertex x="72.8" y="64.55"/>
+<vertex x="0" y="62"/>
+<vertex x="0" y="0"/>
+<vertex x="65" y="0"/>
+<vertex x="65" y="62"/>
 </polygon>
 </signal>
 <signal name="GND">
@@ -5721,10 +5721,10 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="7.1" y1="24.4" x2="10.896" y2="24.4" width="0.4064" layer="1"/>
 <wire x1="10.896" y1="24.4" x2="10.914" y2="24.382" width="0.4064" layer="1"/>
 <polygon width="0.4064" layer="16" rank="6">
-<vertex x="-5.3" y="65.15"/>
-<vertex x="-5.3" y="-1.85"/>
-<vertex x="72.3" y="-1.85"/>
-<vertex x="72.3" y="65.15"/>
+<vertex x="0" y="62"/>
+<vertex x="0" y="0"/>
+<vertex x="65" y="0"/>
+<vertex x="65" y="62"/>
 </polygon>
 <via x="44.7" y="24.45" extent="1-16" drill="0.6"/>
 </signal>
