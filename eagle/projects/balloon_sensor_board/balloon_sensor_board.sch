@@ -3799,6 +3799,85 @@
 <wire x1="0.8" y1="2.07" x2="0.8" y2="1.67" width="0.15" layer="21" curve="180"/>
 <wire x1="0.8" y1="1.67" x2="0.6" y2="-0.23" width="0.15" layer="21" curve="-192.017996"/>
 </package>
+<package name="MOLSL-4-RA_HALF">
+<description>&lt;b&gt;C-Grid SL Connector&lt;/b&gt;&lt;p&gt;
+ right angle, 4 pin</description>
+<wire x1="6.55" y1="5.27" x2="-6.55" y2="5.27" width="0.05" layer="51"/>
+<wire x1="-6.55" y1="-0.2" x2="-6.55" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="-6.55" y1="-5.5" x2="6.55" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="6.55" y1="-5.5" x2="6.55" y2="-0.2" width="0.15" layer="21"/>
+<wire x1="-1.27" y1="-0.2" x2="-1.27" y2="-3.175" width="0.15" layer="21"/>
+<wire x1="-1.27" y1="-3.175" x2="1.27" y2="-3.175" width="0.15" layer="21"/>
+<wire x1="1.27" y1="-3.175" x2="1.27" y2="-0.2" width="0.15" layer="21"/>
+<wire x1="-4.1275" y1="5.1" x2="-4.1275" y2="2.54" width="0.05" layer="51"/>
+<wire x1="-4.1275" y1="2.54" x2="-3.175" y2="2.54" width="0.05" layer="51"/>
+<wire x1="-3.175" y1="2.54" x2="-1.27" y2="2.54" width="0.05" layer="51"/>
+<wire x1="1.27" y1="2.54" x2="3.175" y2="2.54" width="0.05" layer="51"/>
+<wire x1="3.175" y1="2.54" x2="4.1275" y2="2.54" width="0.05" layer="51"/>
+<wire x1="4.1275" y1="2.54" x2="4.1275" y2="5.1" width="0.05" layer="51"/>
+<wire x1="-3.175" y1="2.54" x2="-3.175" y2="3.175" width="0.05" layer="51"/>
+<wire x1="-3.175" y1="3.175" x2="-1.905" y2="4.445" width="0.05" layer="51" curve="-90"/>
+<wire x1="-1.905" y1="4.445" x2="1.905" y2="4.445" width="0.05" layer="51"/>
+<wire x1="1.905" y1="4.445" x2="3.175" y2="3.175" width="0.05" layer="51" curve="-90"/>
+<wire x1="3.175" y1="3.175" x2="3.175" y2="2.54" width="0.05" layer="51"/>
+<wire x1="-5.3975" y1="-6.35" x2="-3.175" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-3.175" y1="-6.35" x2="-1.905" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-3.175" y1="-6.35" x2="-3.175" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="-3.175" y1="-7.6835" x2="-2.921" y2="-7.9375" width="0.05" layer="51" curve="90"/>
+<wire x1="-1.905" y1="-6.35" x2="-1.905" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="-1.905" y1="-7.6835" x2="-2.159" y2="-7.9375" width="0.05" layer="51" curve="-90"/>
+<wire x1="-2.159" y1="-7.9375" x2="-2.921" y2="-7.9375" width="0.05" layer="51"/>
+<wire x1="-1.905" y1="-6.35" x2="-0.635" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-0.635" y1="-6.35" x2="0.635" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-0.635" y1="-6.35" x2="-0.635" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="-0.635" y1="-7.6835" x2="-0.381" y2="-7.9375" width="0.05" layer="51" curve="90"/>
+<wire x1="0.635" y1="-6.35" x2="0.635" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="0.635" y1="-7.6835" x2="0.381" y2="-7.9375" width="0.05" layer="51" curve="-90"/>
+<wire x1="0.381" y1="-7.9375" x2="-0.381" y2="-7.9375" width="0.05" layer="51"/>
+<wire x1="0.635" y1="-6.35" x2="1.905" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="1.905" y1="-6.35" x2="3.175" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="1.905" y1="-6.35" x2="1.905" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="1.905" y1="-7.6835" x2="2.159" y2="-7.9375" width="0.05" layer="51" curve="90"/>
+<wire x1="3.175" y1="-6.35" x2="3.175" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="3.175" y1="-7.6835" x2="2.921" y2="-7.9375" width="0.05" layer="51" curve="-90"/>
+<wire x1="2.921" y1="-7.9375" x2="2.159" y2="-7.9375" width="0.05" layer="51"/>
+<wire x1="3.175" y1="-6.35" x2="4.445" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-5.3975" y1="-5.5" x2="-5.3975" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="-5.3975" y1="-6.35" x2="-5.3975" y2="-7.9375" width="0.05" layer="51"/>
+<wire x1="-4.445" y1="-6.35" x2="-4.445" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="-4.445" y1="-7.6835" x2="-4.699" y2="-7.9375" width="0.05" layer="51" curve="-90"/>
+<wire x1="-4.699" y1="-7.9375" x2="-5.3975" y2="-7.9375" width="0.05" layer="51"/>
+<wire x1="4.445" y1="-6.35" x2="4.445" y2="-7.6835" width="0.05" layer="51"/>
+<wire x1="4.445" y1="-7.6835" x2="4.699" y2="-7.9375" width="0.05" layer="51" curve="90"/>
+<wire x1="4.699" y1="-7.9375" x2="5.3975" y2="-7.9375" width="0.05" layer="51"/>
+<wire x1="5.3975" y1="-7.9375" x2="5.3975" y2="-6.35" width="0.05" layer="51"/>
+<wire x1="5.3975" y1="-6.35" x2="5.3975" y2="-5.5" width="0.05" layer="51"/>
+<wire x1="4.445" y1="-6.35" x2="5.3975" y2="-6.35" width="0.05" layer="51"/>
+<pad name="2" x="-1.27" y="-7.62" drill="1.09" shape="long" rot="R90"/>
+<pad name="1" x="-3.81" y="-7.62" drill="1.09" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="-7.62" drill="1.09" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="-7.62" drill="1.09" shape="long" rot="R90"/>
+<text x="-7" y="-5.08" size="0.4064" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
+<text x="7.2" y="-5.08" size="0.254" layer="27" font="vector" ratio="20" rot="R90">&gt;VALUE</text>
+<rectangle x1="-4.1275" y1="-7.62" x2="-3.4925" y2="-6.35" layer="51"/>
+<rectangle x1="-1.5875" y1="-7.62" x2="-0.9525" y2="-6.35" layer="51"/>
+<rectangle x1="0.9525" y1="-7.62" x2="1.5875" y2="-6.35" layer="51"/>
+<rectangle x1="3.4925" y1="-7.62" x2="4.1275" y2="-6.35" layer="51"/>
+<polygon width="0.15" layer="21">
+<vertex x="-5.715" y="-1.25"/>
+<vertex x="-5.2387" y="-2.95"/>
+<vertex x="-4.7625" y="-1.25"/>
+</polygon>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-0.2" width="0.05" layer="51"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="-0.2" width="0.05" layer="51"/>
+<wire x1="6.55" y1="-0.2" x2="6.55" y2="5.27" width="0.05" layer="51"/>
+<wire x1="-6.55" y1="-0.2" x2="-6.55" y2="5.27" width="0.05" layer="51"/>
+<polygon width="0.15" layer="51">
+<vertex x="-5.715" y="5.1"/>
+<vertex x="-5.2387" y="3.4"/>
+<vertex x="-4.7625" y="5.1"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME_B_L">
@@ -4075,6 +4154,30 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </connects>
 <technologies>
 <technology name="_SL4RA">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/705530001_sd.pdf" constant="no"/>
+<attribute name="FINISH" value="GOLD" constant="no"/>
+<attribute name="LOCKING" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="0705530003" constant="no"/>
+<attribute name="MAX_CURRENT" value="3.0A" constant="no"/>
+<attribute name="MOUNT_ANGLE" value="RIGHT" constant="no"/>
+<attribute name="MOUNT_TYPE" value="TH" constant="no"/>
+<attribute name="POSITIONS" value="4" constant="no"/>
+<attribute name="VALUE" value="MOL-SL-4-RA" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="WM4902-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_RAH" package="MOLSL-4-RA_HALF">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/705530001_sd.pdf" constant="no"/>
 <attribute name="FINISH" value="GOLD" constant="no"/>
 <attribute name="LOCKING" value="YES" constant="no"/>
@@ -4949,11 +5052,16 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </sheets>
 <errors>
 <approved hash="104,2,233.68,86.36,U202,VDD,PP3V3,,,"/>
+<approved hash="104,2,231.14,190.5,U201,VCC,PP3V3,,,"/>
 <approved hash="105,2,233.68,58.42,N$3,,,,,"/>
 <approved hash="108,2,233.68,63.5,N$3,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME101,,,,,"/>
 <approved hash="113,1,123.19,170.561,TOC101,,,,,"/>
 <approved hash="113,2,215.796,139.596,FRAME201,,,,,"/>
+<approved hash="113,2,306.254,178.16,TP202,,,,,"/>
+<approved hash="113,2,101.6,68.58,LOGO201,,,,,"/>
+<approved hash="113,2,101.6,50.8,LOGO202,,,,,"/>
+<approved hash="113,2,82.7338,119.74,TP201,,,,,"/>
 </errors>
 </schematic>
 </drawing>

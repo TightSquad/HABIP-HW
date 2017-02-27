@@ -6238,6 +6238,69 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="3.88" y1="-0.2" x2="3.88" y2="5.27" width="0.05" layer="51"/>
 <wire x1="-3.88" y1="-0.2" x2="-3.88" y2="5.27" width="0.05" layer="51"/>
 </package>
+<package name="DRC0010G_SM">
+<smd name="1" x="-1.4625" y="1" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="2" x="-1.4625" y="0.5" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="3" x="-1.4625" y="0" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no" thermals="no"/>
+<smd name="4" x="-1.4625" y="-0.5" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no" thermals="no"/>
+<smd name="5" x="-1.4625" y="-1" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="6" x="1.4625" y="-1" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="7" x="1.4625" y="-0.5" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="8" x="1.4625" y="0" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="9" x="1.4625" y="0.5" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="10" x="1.4625" y="1" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="11" x="0" y="0" dx="1.6" dy="2.15" layer="1" stop="no" thermals="no" cream="no"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.05" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.05" layer="51"/>
+<text x="0" y="1.8" size="0.4064" layer="25" font="vector" ratio="20" rot="SR0" align="bottom-center">&gt;Name</text>
+<text x="0" y="-2" size="0.254" layer="27" font="vector" ratio="20" rot="SR0" align="bottom-center">&gt;Value</text>
+<circle x="-1.735" y="1" radius="0.19" width="0" layer="29"/>
+<circle x="-1.19" y="1" radius="0.19" width="0" layer="29"/>
+<rectangle x1="-1.74" y1="0.81" x2="-1.19" y2="1.19" layer="29"/>
+<circle x="-1.735" y="0.5" radius="0.19" width="0" layer="29"/>
+<circle x="-1.19" y="0.5" radius="0.19" width="0" layer="29"/>
+<rectangle x1="-1.74" y1="0.31" x2="-1.19" y2="0.69" layer="29"/>
+<circle x="-1.735" y="0" radius="0.19" width="0" layer="29"/>
+<circle x="-1.19" y="0" radius="0.19" width="0" layer="29"/>
+<rectangle x1="-1.74" y1="-0.19" x2="-1.19" y2="0.19" layer="29"/>
+<circle x="-1.735" y="-0.5" radius="0.19" width="0" layer="29"/>
+<circle x="-1.19" y="-0.5" radius="0.19" width="0" layer="29"/>
+<rectangle x1="-1.74" y1="-0.69" x2="-1.19" y2="-0.31" layer="29"/>
+<circle x="-1.735" y="-1" radius="0.19" width="0" layer="29"/>
+<circle x="-1.19" y="-1" radius="0.19" width="0" layer="29"/>
+<rectangle x1="-1.74" y1="-1.19" x2="-1.19" y2="-0.81" layer="29"/>
+<circle x="1.19" y="1" radius="0.19" width="0" layer="29"/>
+<circle x="1.735" y="1" radius="0.19" width="0" layer="29"/>
+<rectangle x1="1.185" y1="0.81" x2="1.735" y2="1.19" layer="29"/>
+<circle x="1.19" y="0.5" radius="0.19" width="0" layer="29"/>
+<circle x="1.735" y="0.5" radius="0.19" width="0" layer="29"/>
+<rectangle x1="1.185" y1="0.31" x2="1.735" y2="0.69" layer="29"/>
+<circle x="1.19" y="0" radius="0.19" width="0" layer="29"/>
+<circle x="1.735" y="0" radius="0.19" width="0" layer="29"/>
+<rectangle x1="1.185" y1="-0.19" x2="1.735" y2="0.19" layer="29"/>
+<circle x="1.19" y="-0.5" radius="0.19" width="0" layer="29"/>
+<circle x="1.735" y="-0.5" radius="0.19" width="0" layer="29"/>
+<rectangle x1="1.185" y1="-0.69" x2="1.735" y2="-0.31" layer="29"/>
+<circle x="1.19" y="-1" radius="0.19" width="0" layer="29"/>
+<circle x="1.735" y="-1" radius="0.19" width="0" layer="29"/>
+<rectangle x1="1.185" y1="-1.19" x2="1.735" y2="-0.81" layer="29"/>
+<rectangle x1="-0.855" y1="-1.13" x2="0.855" y2="1.13" layer="29"/>
+<rectangle x1="0.11" y1="0.11" x2="0.76" y2="1.01" layer="31"/>
+<rectangle x1="-0.76" y1="0.11" x2="-0.11" y2="1.01" layer="31"/>
+<rectangle x1="0.11" y1="-1.01" x2="0.76" y2="-0.11" layer="31"/>
+<rectangle x1="-0.76" y1="-1.01" x2="-0.11" y2="-0.11" layer="31"/>
+<rectangle x1="-0.76" y1="1.13" x2="-0.47" y2="1.555" layer="29"/>
+<circle x="-1.5" y="1.76" radius="0.07" width="0.15" layer="21"/>
+<rectangle x1="-0.76" y1="-1.555" x2="-0.47" y2="-1.13" layer="29"/>
+<rectangle x1="-0.35" y1="1.13" x2="-0.06" y2="1.555" layer="29"/>
+<rectangle x1="0.06" y1="1.13" x2="0.35" y2="1.555" layer="29"/>
+<rectangle x1="0.47" y1="1.13" x2="0.76" y2="1.555" layer="29"/>
+<rectangle x1="-0.35" y1="-1.555" x2="-0.06" y2="-1.13" layer="29"/>
+<rectangle x1="0.06" y1="-1.555" x2="0.35" y2="-1.13" layer="29"/>
+<rectangle x1="0.47" y1="-1.555" x2="0.76" y2="-1.13" layer="29"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TPS61089RNR">
@@ -45659,7 +45722,50 @@ The output of the device is an open drain and can be connected to other open-dra
 <gate name="A" symbol="TPS61232" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DRC0010G">
+<device name="_NP" package="DRC0010G">
+<connects>
+<connect gate="A" pin="EN" pad="9"/>
+<connect gate="A" pin="FB" pad="7"/>
+<connect gate="A" pin="GND" pad="11"/>
+<connect gate="A" pin="HYS" pad="8"/>
+<connect gate="A" pin="PG" pad="5"/>
+<connect gate="A" pin="SS" pad="6"/>
+<connect gate="A" pin="SW@1" pad="1"/>
+<connect gate="A" pin="SW@2" pad="2"/>
+<connect gate="A" pin="VIN" pad="10"/>
+<connect gate="A" pin="VOUT@1" pad="3"/>
+<connect gate="A" pin="VOUT@2" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/boost_approved/tps61232.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="TPS61232DRCR" constant="no"/>
+<attribute name="VALUE" value="TPS61232" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="296-44498-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_BAK" package="DRC0010G_BAK">
+<connects>
+<connect gate="A" pin="EN" pad="9"/>
+<connect gate="A" pin="FB" pad="7"/>
+<connect gate="A" pin="GND" pad="11"/>
+<connect gate="A" pin="HYS" pad="8"/>
+<connect gate="A" pin="PG" pad="5"/>
+<connect gate="A" pin="SS" pad="6"/>
+<connect gate="A" pin="SW@1" pad="1"/>
+<connect gate="A" pin="SW@2" pad="2"/>
+<connect gate="A" pin="VIN" pad="10"/>
+<connect gate="A" pin="VOUT@1" pad="3"/>
+<connect gate="A" pin="VOUT@2" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SM" package="DRC0010G_SM">
 <connects>
 <connect gate="A" pin="EN" pad="9"/>
 <connect gate="A" pin="FB" pad="7"/>

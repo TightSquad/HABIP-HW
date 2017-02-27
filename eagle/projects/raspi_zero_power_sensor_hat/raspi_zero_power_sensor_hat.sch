@@ -4649,6 +4649,170 @@
 <text x="0" y="-1.805" size="0.4064" layer="37" ratio="6">&gt;TP_SIGNAL_NAME</text>
 <circle x="0" y="0" radius="1.05" width="0" layer="29"/>
 </package>
+<package name="DRC0010G_BAK">
+<smd name="1" x="-1.4625" y="1" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="2" x="-1.4625" y="0.5" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="3" x="-1.4625" y="0" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no" thermals="no"/>
+<smd name="4" x="-1.4625" y="-0.5" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no" thermals="no"/>
+<smd name="5" x="-1.4625" y="-1" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="6" x="1.4625" y="-1" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="7" x="1.4625" y="-0.5" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="8" x="1.4625" y="0" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="9" x="1.4625" y="0.5" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="10" x="1.4625" y="1" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="11" x="0" y="0" dx="1.5" dy="2.05" layer="1" stop="no" thermals="no" cream="no"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.05" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.05" layer="51"/>
+<text x="0" y="1.8" size="0.4064" layer="25" font="vector" ratio="20" rot="SR0" align="bottom-center">&gt;Name</text>
+<text x="0" y="-2" size="0.254" layer="27" font="vector" ratio="20" rot="SR0" align="bottom-center">&gt;Value</text>
+<circle x="-1.735" y="1" radius="0.19" width="0" layer="29"/>
+<circle x="-1.19" y="1" radius="0.19" width="0" layer="29"/>
+<rectangle x1="-1.74" y1="0.81" x2="-1.19" y2="1.19" layer="29"/>
+<circle x="-1.735" y="0.5" radius="0.19" width="0" layer="29"/>
+<circle x="-1.19" y="0.5" radius="0.19" width="0" layer="29"/>
+<rectangle x1="-1.74" y1="0.31" x2="-1.19" y2="0.69" layer="29"/>
+<circle x="-1.735" y="0" radius="0.19" width="0" layer="29"/>
+<circle x="-1.19" y="0" radius="0.19" width="0" layer="29"/>
+<rectangle x1="-1.74" y1="-0.19" x2="-1.19" y2="0.19" layer="29"/>
+<circle x="-1.735" y="-0.5" radius="0.19" width="0" layer="29"/>
+<circle x="-1.19" y="-0.5" radius="0.19" width="0" layer="29"/>
+<rectangle x1="-1.74" y1="-0.69" x2="-1.19" y2="-0.31" layer="29"/>
+<circle x="-1.735" y="-1" radius="0.19" width="0" layer="29"/>
+<circle x="-1.19" y="-1" radius="0.19" width="0" layer="29"/>
+<rectangle x1="-1.74" y1="-1.19" x2="-1.19" y2="-0.81" layer="29"/>
+<circle x="1.19" y="1" radius="0.19" width="0" layer="29"/>
+<circle x="1.735" y="1" radius="0.19" width="0" layer="29"/>
+<rectangle x1="1.185" y1="0.81" x2="1.735" y2="1.19" layer="29"/>
+<circle x="1.19" y="0.5" radius="0.19" width="0" layer="29"/>
+<circle x="1.735" y="0.5" radius="0.19" width="0" layer="29"/>
+<rectangle x1="1.185" y1="0.31" x2="1.735" y2="0.69" layer="29"/>
+<circle x="1.19" y="0" radius="0.19" width="0" layer="29"/>
+<circle x="1.735" y="0" radius="0.19" width="0" layer="29"/>
+<rectangle x1="1.185" y1="-0.19" x2="1.735" y2="0.19" layer="29"/>
+<circle x="1.19" y="-0.5" radius="0.19" width="0" layer="29"/>
+<circle x="1.735" y="-0.5" radius="0.19" width="0" layer="29"/>
+<rectangle x1="1.185" y1="-0.69" x2="1.735" y2="-0.31" layer="29"/>
+<circle x="1.19" y="-1" radius="0.19" width="0" layer="29"/>
+<circle x="1.735" y="-1" radius="0.19" width="0" layer="29"/>
+<rectangle x1="1.185" y1="-1.19" x2="1.735" y2="-0.81" layer="29"/>
+<rectangle x1="-0.855" y1="-1.13" x2="0.855" y2="1.13" layer="29"/>
+<rectangle x1="0.11" y1="0.11" x2="0.76" y2="1.01" layer="31"/>
+<rectangle x1="-0.76" y1="0.11" x2="-0.11" y2="1.01" layer="31"/>
+<rectangle x1="0.11" y1="-1.01" x2="0.76" y2="-0.11" layer="31"/>
+<rectangle x1="-0.76" y1="-1.01" x2="-0.11" y2="-0.11" layer="31"/>
+<rectangle x1="-0.76" y1="1.13" x2="-0.47" y2="1.555" layer="29"/>
+<circle x="-1.5" y="1.76" radius="0.07" width="0.15" layer="21"/>
+<polygon width="0.01" layer="1">
+<vertex x="-0.8" y="1.075"/>
+<vertex x="-0.8" y="-1.075"/>
+<vertex x="-0.705" y="-1.075"/>
+<vertex x="-0.705" y="-1.5"/>
+<vertex x="-0.525" y="-1.5"/>
+<vertex x="-0.525" y="-1.075"/>
+<vertex x="-0.295" y="-1.075"/>
+<vertex x="-0.295" y="-1.5"/>
+<vertex x="-0.115" y="-1.5"/>
+<vertex x="-0.115" y="-1.075"/>
+<vertex x="0.115" y="-1.075"/>
+<vertex x="0.115" y="-1.5"/>
+<vertex x="0.295" y="-1.5"/>
+<vertex x="0.295" y="-1.075"/>
+<vertex x="0.525" y="-1.075"/>
+<vertex x="0.525" y="-1.5"/>
+<vertex x="0.705" y="-1.5"/>
+<vertex x="0.705" y="-1.075"/>
+<vertex x="0.8" y="-1.075"/>
+<vertex x="0.8" y="1.075"/>
+<vertex x="0.705" y="1.075"/>
+<vertex x="0.705" y="1.5"/>
+<vertex x="0.525" y="1.5"/>
+<vertex x="0.525" y="1.075"/>
+<vertex x="0.295" y="1.075"/>
+<vertex x="0.295" y="1.5"/>
+<vertex x="0.115" y="1.5"/>
+<vertex x="0.115" y="1.075"/>
+<vertex x="-0.115" y="1.075"/>
+<vertex x="-0.115" y="1.5"/>
+<vertex x="-0.295" y="1.5"/>
+<vertex x="-0.295" y="1.075"/>
+<vertex x="-0.525" y="1.075"/>
+<vertex x="-0.525" y="1.5"/>
+<vertex x="-0.705" y="1.5"/>
+<vertex x="-0.705" y="1.075"/>
+</polygon>
+<rectangle x1="-0.76" y1="-1.555" x2="-0.47" y2="-1.13" layer="29"/>
+<rectangle x1="-0.35" y1="1.13" x2="-0.06" y2="1.555" layer="29"/>
+<rectangle x1="0.06" y1="1.13" x2="0.35" y2="1.555" layer="29"/>
+<rectangle x1="0.47" y1="1.13" x2="0.76" y2="1.555" layer="29"/>
+<rectangle x1="-0.35" y1="-1.555" x2="-0.06" y2="-1.13" layer="29"/>
+<rectangle x1="0.06" y1="-1.555" x2="0.35" y2="-1.13" layer="29"/>
+<rectangle x1="0.47" y1="-1.555" x2="0.76" y2="-1.13" layer="29"/>
+</package>
+<package name="DRC0010G_SM">
+<smd name="1" x="-1.4625" y="1" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="2" x="-1.4625" y="0.5" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="3" x="-1.4625" y="0" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no" thermals="no"/>
+<smd name="4" x="-1.4625" y="-0.5" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no" thermals="no"/>
+<smd name="5" x="-1.4625" y="-1" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="6" x="1.4625" y="-1" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="7" x="1.4625" y="-0.5" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="8" x="1.4625" y="0" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="9" x="1.4625" y="0.5" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="10" x="1.4625" y="1" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="11" x="0" y="0" dx="1.6" dy="2.15" layer="1" stop="no" thermals="no" cream="no"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.05" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.05" layer="51"/>
+<text x="0" y="1.8" size="0.4064" layer="25" font="vector" ratio="20" rot="SR0" align="bottom-center">&gt;Name</text>
+<text x="0" y="-2" size="0.254" layer="27" font="vector" ratio="20" rot="SR0" align="bottom-center">&gt;Value</text>
+<circle x="-1.735" y="1" radius="0.19" width="0" layer="29"/>
+<circle x="-1.19" y="1" radius="0.19" width="0" layer="29"/>
+<rectangle x1="-1.74" y1="0.81" x2="-1.19" y2="1.19" layer="29"/>
+<circle x="-1.735" y="0.5" radius="0.19" width="0" layer="29"/>
+<circle x="-1.19" y="0.5" radius="0.19" width="0" layer="29"/>
+<rectangle x1="-1.74" y1="0.31" x2="-1.19" y2="0.69" layer="29"/>
+<circle x="-1.735" y="0" radius="0.19" width="0" layer="29"/>
+<circle x="-1.19" y="0" radius="0.19" width="0" layer="29"/>
+<rectangle x1="-1.74" y1="-0.19" x2="-1.19" y2="0.19" layer="29"/>
+<circle x="-1.735" y="-0.5" radius="0.19" width="0" layer="29"/>
+<circle x="-1.19" y="-0.5" radius="0.19" width="0" layer="29"/>
+<rectangle x1="-1.74" y1="-0.69" x2="-1.19" y2="-0.31" layer="29"/>
+<circle x="-1.735" y="-1" radius="0.19" width="0" layer="29"/>
+<circle x="-1.19" y="-1" radius="0.19" width="0" layer="29"/>
+<rectangle x1="-1.74" y1="-1.19" x2="-1.19" y2="-0.81" layer="29"/>
+<circle x="1.19" y="1" radius="0.19" width="0" layer="29"/>
+<circle x="1.735" y="1" radius="0.19" width="0" layer="29"/>
+<rectangle x1="1.185" y1="0.81" x2="1.735" y2="1.19" layer="29"/>
+<circle x="1.19" y="0.5" radius="0.19" width="0" layer="29"/>
+<circle x="1.735" y="0.5" radius="0.19" width="0" layer="29"/>
+<rectangle x1="1.185" y1="0.31" x2="1.735" y2="0.69" layer="29"/>
+<circle x="1.19" y="0" radius="0.19" width="0" layer="29"/>
+<circle x="1.735" y="0" radius="0.19" width="0" layer="29"/>
+<rectangle x1="1.185" y1="-0.19" x2="1.735" y2="0.19" layer="29"/>
+<circle x="1.19" y="-0.5" radius="0.19" width="0" layer="29"/>
+<circle x="1.735" y="-0.5" radius="0.19" width="0" layer="29"/>
+<rectangle x1="1.185" y1="-0.69" x2="1.735" y2="-0.31" layer="29"/>
+<circle x="1.19" y="-1" radius="0.19" width="0" layer="29"/>
+<circle x="1.735" y="-1" radius="0.19" width="0" layer="29"/>
+<rectangle x1="1.185" y1="-1.19" x2="1.735" y2="-0.81" layer="29"/>
+<rectangle x1="-0.855" y1="-1.13" x2="0.855" y2="1.13" layer="29"/>
+<rectangle x1="0.11" y1="0.11" x2="0.76" y2="1.01" layer="31"/>
+<rectangle x1="-0.76" y1="0.11" x2="-0.11" y2="1.01" layer="31"/>
+<rectangle x1="0.11" y1="-1.01" x2="0.76" y2="-0.11" layer="31"/>
+<rectangle x1="-0.76" y1="-1.01" x2="-0.11" y2="-0.11" layer="31"/>
+<rectangle x1="-0.76" y1="1.13" x2="-0.47" y2="1.555" layer="29"/>
+<circle x="-1.5" y="1.76" radius="0.07" width="0.15" layer="21"/>
+<rectangle x1="-0.76" y1="-1.555" x2="-0.47" y2="-1.13" layer="29"/>
+<rectangle x1="-0.35" y1="1.13" x2="-0.06" y2="1.555" layer="29"/>
+<rectangle x1="0.06" y1="1.13" x2="0.35" y2="1.555" layer="29"/>
+<rectangle x1="0.47" y1="1.13" x2="0.76" y2="1.555" layer="29"/>
+<rectangle x1="-0.35" y1="-1.555" x2="-0.06" y2="-1.13" layer="29"/>
+<rectangle x1="0.06" y1="-1.555" x2="0.35" y2="-1.13" layer="29"/>
+<rectangle x1="0.47" y1="-1.555" x2="0.76" y2="-1.13" layer="29"/>
+</package>
 <package name="DRC0010G">
 <smd name="1" x="-1.4625" y="1" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no" thermals="no"/>
 <smd name="2" x="-1.4625" y="0.5" dx="0.825" dy="0.28" layer="1" roundness="100" rot="R180" stop="no" thermals="no"/>
@@ -42479,7 +42643,50 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <gate name="A" symbol="TPS61232" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DRC0010G">
+<device name="_NP" package="DRC0010G">
+<connects>
+<connect gate="A" pin="EN" pad="9"/>
+<connect gate="A" pin="FB" pad="7"/>
+<connect gate="A" pin="GND" pad="11"/>
+<connect gate="A" pin="HYS" pad="8"/>
+<connect gate="A" pin="PG" pad="5"/>
+<connect gate="A" pin="SS" pad="6"/>
+<connect gate="A" pin="SW@1" pad="1"/>
+<connect gate="A" pin="SW@2" pad="2"/>
+<connect gate="A" pin="VIN" pad="10"/>
+<connect gate="A" pin="VOUT@1" pad="3"/>
+<connect gate="A" pin="VOUT@2" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/boost_approved/tps61232.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="TPS61232DRCR" constant="no"/>
+<attribute name="VALUE" value="TPS61232" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="296-44498-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_BAK" package="DRC0010G_BAK">
+<connects>
+<connect gate="A" pin="EN" pad="9"/>
+<connect gate="A" pin="FB" pad="7"/>
+<connect gate="A" pin="GND" pad="11"/>
+<connect gate="A" pin="HYS" pad="8"/>
+<connect gate="A" pin="PG" pad="5"/>
+<connect gate="A" pin="SS" pad="6"/>
+<connect gate="A" pin="SW@1" pad="1"/>
+<connect gate="A" pin="SW@2" pad="2"/>
+<connect gate="A" pin="VIN" pad="10"/>
+<connect gate="A" pin="VOUT@1" pad="3"/>
+<connect gate="A" pin="VOUT@2" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SM" package="DRC0010G_SM">
 <connects>
 <connect gate="A" pin="EN" pad="9"/>
 <connect gate="A" pin="FB" pad="7"/>
@@ -42891,7 +43098,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="OUTLINE601" library="daqcs" deviceset="RASPI_ZERO_OUTLINE" device="_3S0C_ONLY"/>
 <part name="LOGO602" library="daqcs" deviceset="SQUAD_LOGO" device=""/>
 <part name="LOGO601" library="daqcs" deviceset="CMS_LOGO" device=""/>
-<part name="U402" library="daqcs" deviceset="TPS61232" device="" value="TPS61232"/>
+<part name="U402" library="daqcs" deviceset="TPS61232" device="_SM" value="TPS61232"/>
 <part name="U501" library="daqcs" deviceset="PCT2075D" device="SOIC8" technology="D,118" value="PCT2075D,118"/>
 <part name="U502" library="daqcs" deviceset="PCT2075D" device="SOIC8" technology="D,118" value="PCT2075D,118"/>
 </parts>
@@ -45229,6 +45436,8 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <approved hash="104,3,116.84,144.78,U301,VDD,PP5V0_CHG_IN,,,"/>
 <approved hash="104,4,281.94,208.28,U402,VOUT,PP5V0_BST,,,"/>
 <approved hash="104,4,281.94,203.2,U402,VOUT,PP5V0_BST,,,"/>
+<approved hash="104,5,48.26,241.3,U501,VCC,PP3V3_HAT,,,"/>
+<approved hash="104,5,48.26,162.56,U502,VCC,PP3V3_HAT,,,"/>
 <approved hash="105,5,340.36,213.36,N$3,,,,,"/>
 <approved hash="105,6,92.71,83.82,N$5,,,,,"/>
 <approved hash="105,3,226.06,127,N$15,,,,,"/>
@@ -45239,6 +45448,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <approved hash="113,6,212.541,91.44,TP605,,,,,"/>
 <approved hash="113,6,212.541,86.36,TP606,,,,,"/>
 <approved hash="113,1,123.19,170.561,TOC101,,,,,"/>
+<approved hash="113,6,393.7,99.5468,TP609,,,,,"/>
+<approved hash="113,6,403.86,99.5468,TP611,,,,,"/>
+<approved hash="113,6,350.52,236.707,TP607,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME101,,,,,"/>
 <approved hash="113,2,215.796,139.596,FRAME201,,,,,"/>
 <approved hash="113,3,215.796,139.596,FRAME301,,,,,"/>
@@ -45251,6 +45463,9 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <approved hash="113,5,288.474,68.9398,TP510,,,,,"/>
 <approved hash="113,5,288.474,63.8598,TP511,,,,,"/>
 <approved hash="113,5,288.474,58.7798,TP512,,,,,"/>
+<approved hash="113,6,415.474,56.2398,TP612,,,,,"/>
+<approved hash="113,6,404.044,134.98,TP610,,,,,"/>
+<approved hash="113,6,372.294,261.98,TP608,,,,,"/>
 <approved hash="113,5,23.9462,42.8202,TP501,,,,,"/>
 <approved hash="113,5,23.9462,37.7402,TP502,,,,,"/>
 <approved hash="113,5,23.9462,32.6602,TP503,,,,,"/>
