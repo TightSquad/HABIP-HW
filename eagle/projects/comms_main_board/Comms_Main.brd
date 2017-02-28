@@ -83,6 +83,7 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="Outline" color="34" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -156,6 +157,10 @@ MATT ZACHARY
 P17104: HABIP
 SPRING 2017
 PN: 02-10-01</text>
+<wire x1="0" y1="95.25" x2="0" y2="0" width="0" layer="117"/>
+<wire x1="100.6" y1="95.25" x2="0" y2="95.25" width="0" layer="117"/>
+<wire x1="100.6" y1="0" x2="100.6" y2="95.25" width="0" layer="117"/>
+<wire x1="0" y1="0" x2="100.6" y2="0" width="0" layer="117"/>
 </plain>
 <libraries>
 <library name="comms">
