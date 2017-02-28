@@ -83,6 +83,7 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="117" name="Outline" color="13" fill="1" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -316,6 +317,14 @@ SPRING 2017
 <wire x1="24.6" y1="16.3" x2="24.7" y2="16.1" width="0.15" layer="22"/>
 <text x="6.6" y="19.1" size="0.7" layer="22" ratio="22" rot="MR90">3V3_HAT</text>
 <wire x1="8.4" y1="16.9" x2="8.1" y2="16.9" width="0.15" layer="22"/>
+<wire x1="3.5" y1="0" x2="0" y2="3.5" width="0" layer="117" curve="-90"/>
+<wire x1="65" y1="3.5" x2="61.5" y2="0" width="0" layer="117" curve="-90"/>
+<wire x1="61.5" y1="30" x2="65" y2="26.5" width="0" layer="117" curve="-90"/>
+<wire x1="0" y1="26.5" x2="3.5" y2="30" width="0" layer="117" curve="-90"/>
+<wire x1="3.5" y1="30" x2="61.5" y2="30" width="0" layer="117"/>
+<wire x1="65" y1="26.5" x2="65" y2="3.5" width="0" layer="117"/>
+<wire x1="61.5" y1="0" x2="3.5" y2="0" width="0" layer="117"/>
+<wire x1="0" y1="3.5" x2="0" y2="26.5" width="0" layer="117"/>
 </plain>
 <libraries>
 <library name="daqcs">
