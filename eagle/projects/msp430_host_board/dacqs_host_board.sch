@@ -26748,6 +26748,24 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="P10.0KHCT-ND" constant="no"/>
 </technology>
+<technology name="_10R2">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF10R2V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="10.2k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P10.2HCT-ND" constant="no"/>
+</technology>
+<technology name="_10R7">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1072V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="10.7k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P10.7KHCT-ND" constant="no"/>
+</technology>
 <technology name="_12R0">
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF1202V" constant="no"/>
@@ -26765,6 +26783,42 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <attribute name="VALUE" value="15k" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="P15.0KHCT-ND" constant="no"/>
+</technology>
+<technology name="_1R02">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1021V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="1.02k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P1.02KHCT-ND" constant="no"/>
+</technology>
+<technology name="_1R37">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1371V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="1.37k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P1.37KHCT-ND" constant="no"/>
+</technology>
+<technology name="_1R5">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1501V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="1.5k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P1.50KHCT-ND" constant="no"/>
+</technology>
+<technology name="_1R87">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1871V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="1.87k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P1.87KHCT-ND" constant="no"/>
 </technology>
 <technology name="_240R0">
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
@@ -26847,6 +26901,24 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="311-.4QCT-ND" constant="no"/>
 </technology>
+<technology name="_4R12">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF4121V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="4.12k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P4.12KHCT-ND" constant="no"/>
+</technology>
+<technology name="_4R32">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF4321V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="4.32k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P4.32KHCT-ND" constant="no"/>
+</technology>
 <technology name="_60R4">
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF6042V" constant="no"/>
@@ -26855,6 +26927,15 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <attribute name="VALUE" value="60.4k" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="P60.4KHCT-ND" constant="no"/>
+</technology>
+<technology name="_68R1">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF6812V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="68.1k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P68.1KHCT-ND" constant="no"/>
 </technology>
 <technology name="_68R8">
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
@@ -26882,6 +26963,15 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <attribute name="VALUE" value="7.15k" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="P7.15KHCT-ND" constant="no"/>
+</technology>
+<technology name="_7R5">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF7501V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="7.5k" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P7.50KHCT-ND" constant="no"/>
 </technology>
 <technology name="_820R0">
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
@@ -29154,18 +29244,18 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="H3" library="daqcs_host" deviceset="MOUNT-HOLE" device="_2.75"/>
 <part name="H4" library="daqcs_host" deviceset="MOUNT-HOLE" device="_2.75"/>
 <part name="FRAME7" library="frames" deviceset="A3L-LOC" device=""/>
-<part name="R30" library="daqcs_host" deviceset="RES" device="_0603" technology="_60R4" value="60.4k"/>
-<part name="R31" library="daqcs_host" deviceset="RES" device="_0603" technology="_68R8" value="69.8k"/>
-<part name="R32" library="daqcs_host" deviceset="RES" device="_0603" technology="_49R9" value="49.9k"/>
-<part name="R33" library="daqcs_host" deviceset="RES" device="_0603" technology="_49R9" value="49.9k"/>
-<part name="R34" library="daqcs_host" deviceset="RES" device="_0603" technology="_12R0" value="12k"/>
-<part name="R35" library="daqcs_host" deviceset="RES" device="_0603" technology="_49R9" value="49.9k"/>
-<part name="R36" library="daqcs_host" deviceset="RES" device="_0603" technology="_7R15" value="7.15k"/>
-<part name="R37" library="daqcs_host" deviceset="RES" device="_0603" technology="_10R0" value="10k"/>
-<part name="R38" library="daqcs_host" deviceset="RES" device="_0603" technology="_15R0" value="15k"/>
-<part name="R39" library="daqcs_host" deviceset="RES" device="_0603" technology="_15R0" value="15k"/>
-<part name="R40" library="daqcs_host" deviceset="RES" device="_0603" technology="_30R0" value="30k"/>
-<part name="R41" library="daqcs_host" deviceset="RES" device="_0603" technology="_30R0" value="30k"/>
+<part name="R30" library="daqcs_host" deviceset="RES" device="_0603" technology="_10R2" value="10.2k"/>
+<part name="R31" library="daqcs_host" deviceset="RES" device="_0603" technology="_10R7" value="10.7k"/>
+<part name="R32" library="daqcs_host" deviceset="RES" device="_0603" technology="_4R12" value="4.12k"/>
+<part name="R33" library="daqcs_host" deviceset="RES" device="_0603" technology="_10R2" value="10.2k"/>
+<part name="R34" library="daqcs_host" deviceset="RES" device="_0603" technology="_1R02" value="1.02k"/>
+<part name="R35" library="daqcs_host" deviceset="RES" device="_0603" technology="_68R1" value="68.1k"/>
+<part name="R36" library="daqcs_host" deviceset="RES" device="_0603" technology="_7R5" value="7.5k"/>
+<part name="R37" library="daqcs_host" deviceset="RES" device="_0603" technology="_1R37" value="1.37k"/>
+<part name="R38" library="daqcs_host" deviceset="RES" device="_0603" technology="_1R87" value="1.87k"/>
+<part name="R39" library="daqcs_host" deviceset="RES" device="_0603" technology="_1R02" value="1.02k"/>
+<part name="R40" library="daqcs_host" deviceset="RES" device="_0603" technology="_4R32" value="4.32k"/>
+<part name="R41" library="daqcs_host" deviceset="RES" device="_0603" technology="_1R5" value="1.5k"/>
 <part name="J9" library="daqcs_host" deviceset="MOLSL_4PIN" device="_RA" technology="_SL4RA" value="MOL-SL-4-RA"/>
 <part name="C27" library="daqcs_host" deviceset="CAP" device="_0603" technology="_100NF0" value="100nF"/>
 <part name="J18" library="daqcs_host" deviceset="MOLSL_7PIN" device="_RA" value="MOLSL-7-RA"/>
@@ -29318,7 +29408,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U$6" library="daqcs_host" deviceset="TCLD1000" device=""/>
 <part name="U$7" library="daqcs_host" deviceset="NTD2955T4G" device=""/>
 <part name="R51" library="daqcs_host" deviceset="RES" device="_0603" technology="_47R0" value="47k"/>
-<part name="R28" library="daqcs_host" deviceset="RES" device="_0603" technology="_49R9" value="49.9k"/>
+<part name="R28" library="daqcs_host" deviceset="RES" device="_0603" technology="_2R0" value="2k"/>
 <part name="SUPPLY37" library="supply2" deviceset="GND" device=""/>
 <part name="NC54" library="daqcs_host" deviceset="NO_CONNECT" device="" value="NC"/>
 <part name="J11" library="daqcs_host" deviceset="MOLSL_2PIN" device="_V" technology="_SL2V" value="MOL-SL-2-V"/>
@@ -29415,6 +29505,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R69" library="daqcs_host" deviceset="RES" device="_0603" technology="_0R23S2" value="23.2"/>
 <part name="R70" library="daqcs_host" deviceset="RES" device="_0603" technology="_0R23S2" value="23.2"/>
 <part name="R71" library="daqcs_host" deviceset="RES" device="_0603" technology="_0R23S2" value="23.2"/>
+<part name="R72" library="daqcs_host" deviceset="RES" device="_0603" technology="_49R9" value="49.9k"/>
+<part name="SUPPLY48" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -31220,6 +31312,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="R51" gate="G$1" x="254" y="93.98" rot="R90"/>
 <instance part="R28" gate="G$1" x="187.96" y="76.2"/>
 <instance part="SUPPLY37" gate="GND" x="180.34" y="68.58"/>
+<instance part="R72" gate="G$1" x="193.04" y="99.06" rot="R90"/>
+<instance part="SUPPLY48" gate="GND" x="180.34" y="101.6"/>
 </instances>
 <busses>
 </busses>
@@ -31279,6 +31373,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="SUPPLY37" gate="GND" pin="GND"/>
 <wire x1="182.88" y1="76.2" x2="180.34" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="76.2" x2="180.34" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R72" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="104.14" x2="193.04" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="SUPPLY48" gate="GND" pin="GND"/>
+<wire x1="193.04" y1="106.68" x2="180.34" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="106.68" x2="180.34" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART_1_RX" class="0">
@@ -31502,10 +31603,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="CUTDOWN_EN" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="86.36" x2="175.26" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="86.36" x2="193.04" y2="86.36" width="0.1524" layer="91"/>
 <label x="180.34" y="86.36" size="1.778" layer="95"/>
 <pinref part="TP17" gate="G$1" pin="TP"/>
 <junction x="175.26" y="86.36"/>
+<pinref part="R72" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="86.36" x2="175.26" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="93.98" x2="193.04" y2="86.36" width="0.1524" layer="91"/>
+<junction x="193.04" y="86.36"/>
 </segment>
 </net>
 <net name="CUTDOWN_SWITCH_CONNECTOR" class="0">
@@ -33125,6 +33230,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="345" y="21" size="1.778" layer="91">RW BATTERY VOLTAGE SENSE</text>
 <text x="99.06" y="53.34" size="5.08" layer="91">HOST MSP430 HEADER</text>
 <text x="208.28" y="53.34" size="5.08" layer="91">MOTOR MSP430 HEADER</text>
+<text x="104.14" y="198.12" size="1.778" layer="91">MAX: 25.2V</text>
+<text x="162.56" y="198.12" size="1.778" layer="91">MAX: 21V</text>
+<text x="213.36" y="198.12" size="1.778" layer="91">MAX: 16.8V</text>
+<text x="106.68" y="132.08" size="1.778" layer="91">MAX: 12.6V</text>
+<text x="162.56" y="129.54" size="1.778" layer="91">MAX: 8.4V</text>
+<text x="213.36" y="129.54" size="1.778" layer="91">MAX: 4.2V</text>
 </plain>
 <instances>
 <instance part="FRAME7" gate="G$1" x="0" y="0"/>
@@ -33233,7 +33344,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="R31" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="195.58" x2="205.74" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="203.2" x2="228.6" y2="203.2" width="0.1524" layer="91"/>
-<label x="210.82" y="200.66" size="1.778" layer="95"/>
+<label x="210.82" y="203.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J18" gate="G$1" pin="3"/>

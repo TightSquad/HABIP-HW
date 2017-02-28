@@ -158,6 +158,7 @@
 <wire x1="127" y1="1" x2="127" y2="101" width="0" layer="117"/>
 <wire x1="127" y1="101" x2="0" y2="101" width="0" layer="117"/>
 <wire x1="0" y1="101" x2="0" y2="1" width="0" layer="117"/>
+<text x="110.1" y="66.5" size="1.778" layer="21">25.2V</text>
 </plain>
 <libraries>
 <library name="daqcs_host">
@@ -6411,105 +6412,105 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="NAME" x="14.25" y="75.7" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="16.15" y="75" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
-<element name="R30" library="daqcs_host" package="R0603" value="60.4k" x="109.01" y="60.72" smashed="yes">
+<element name="R30" library="daqcs_host" package="R0603" value="10.2k" x="109.01" y="60.72" smashed="yes">
 <attribute name="MANUFACTURER" value="Panasonic" x="109.01" y="60.72" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-3EKF6042V" x="109.01" y="60.72" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF10R2V" x="109.01" y="60.72" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="109.01" y="60.72" size="1.778" layer="27" display="off"/>
 <attribute name="POWER" value="1/10W" x="109.01" y="60.72" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR_PN" value="P60.4KHCT-ND" x="109.01" y="60.72" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="P10.2HCT-ND" x="109.01" y="60.72" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="109.01" y="60.72" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="109.01" y="61.87" size="0.8128" layer="25" ratio="15" align="center"/>
-<attribute name="VALUE" x="109.01" y="59.97" size="0.254" layer="27" ratio="6" align="center"/>
+<attribute name="VALUE" value="10.2k" x="109.01" y="59.97" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
-<element name="R31" library="daqcs_host" package="R0603" value="69.8k" x="109" y="58.18" smashed="yes">
+<element name="R31" library="daqcs_host" package="R0603" value="10.7k" x="109" y="58.18" smashed="yes">
 <attribute name="MANUFACTURER" value="Panasonic" x="109" y="58.18" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-3EKF6982V" x="109" y="58.18" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1072V" x="109" y="58.18" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="109" y="58.18" size="1.778" layer="27" display="off"/>
 <attribute name="POWER" value="1/10W" x="109" y="58.18" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR_PN" value="P69.8KHCT-ND" x="109" y="58.18" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="P10.7KHCT-ND" x="109" y="58.18" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="109" y="58.18" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="109" y="59.33" size="0.8128" layer="25" ratio="15" align="center"/>
-<attribute name="VALUE" x="109" y="57.43" size="0.254" layer="27" ratio="6" align="center"/>
+<attribute name="VALUE" value="10.7k" x="109" y="57.43" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
-<element name="R32" library="daqcs_host" package="R0603" value="49.9k" x="108.86" y="55.73" smashed="yes">
+<element name="R32" library="daqcs_host" package="R0603" value="4.12k" x="108.86" y="55.73" smashed="yes">
 <attribute name="MANUFACTURER" value="Panasonic" x="108.86" y="55.73" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-3EKF4992V" x="108.86" y="55.73" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF4121V" x="108.86" y="55.73" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="108.86" y="55.73" size="1.778" layer="27" display="off"/>
 <attribute name="POWER" value="1/10W" x="108.86" y="55.73" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR_PN" value="P49.9KHCT-ND" x="108.86" y="55.73" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="P4.12KHCT-ND" x="108.86" y="55.73" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="108.86" y="55.73" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="108.86" y="56.88" size="0.8128" layer="25" ratio="15" align="center"/>
-<attribute name="VALUE" x="108.86" y="54.98" size="0.254" layer="27" ratio="6" align="center"/>
+<attribute name="VALUE" value="4.12k" x="108.86" y="54.98" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
-<element name="R33" library="daqcs_host" package="R0603" value="49.9k" x="109.2" y="53.1" smashed="yes">
+<element name="R33" library="daqcs_host" package="R0603" value="10.2k" x="109.2" y="53.1" smashed="yes">
 <attribute name="MANUFACTURER" value="Panasonic" x="109.2" y="53.1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-3EKF4992V" x="109.2" y="53.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF10R2V" x="109.2" y="53.1" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="109.2" y="53.1" size="1.778" layer="27" display="off"/>
 <attribute name="POWER" value="1/10W" x="109.2" y="53.1" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR_PN" value="P49.9KHCT-ND" x="109.2" y="53.1" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="P10.2HCT-ND" x="109.2" y="53.1" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="109.2" y="53.1" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="109.2" y="54.25" size="0.8128" layer="25" ratio="15" align="center"/>
-<attribute name="VALUE" x="109.2" y="52.35" size="0.254" layer="27" ratio="6" align="center"/>
+<attribute name="VALUE" value="10.2k" x="109.2" y="52.35" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
-<element name="R34" library="daqcs_host" package="R0603" value="12k" x="109.2" y="50.6" smashed="yes">
+<element name="R34" library="daqcs_host" package="R0603" value="1.02k" x="109.2" y="50.6" smashed="yes">
 <attribute name="MANUFACTURER" value="Panasonic" x="109.2" y="50.6" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1202V" x="109.2" y="50.6" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1021V" x="109.2" y="50.6" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="109.2" y="50.6" size="1.778" layer="27" display="off"/>
 <attribute name="POWER" value="1/10W" x="109.2" y="50.6" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR_PN" value="P12.0KHCT-ND" x="109.2" y="50.6" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="P1.02KHCT-ND" x="109.2" y="50.6" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="109.2" y="50.6" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="109.2" y="51.65" size="0.8128" layer="25" ratio="15" align="center"/>
-<attribute name="VALUE" x="109.2" y="49.85" size="0.254" layer="27" ratio="6" align="center"/>
+<attribute name="VALUE" value="1.02k" x="109.2" y="49.85" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
-<element name="R35" library="daqcs_host" package="R0603" value="49.9k" x="109.07" y="63.27" smashed="yes" rot="R180">
+<element name="R35" library="daqcs_host" package="R0603" value="68.1k" x="109.07" y="63.27" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Panasonic" x="109.07" y="63.27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-3EKF4992V" x="109.07" y="63.27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF6812V" x="109.07" y="63.27" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="109.07" y="63.27" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POWER" value="1/10W" x="109.07" y="63.27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR_PN" value="P49.9KHCT-ND" x="109.07" y="63.27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR_PN" value="P68.1KHCT-ND" x="109.07" y="63.27" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="109.07" y="63.27" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="109.07" y="64.72" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE" x="109.07" y="64.02" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
+<attribute name="VALUE" value="68.1k" x="109.07" y="64.02" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
 </element>
-<element name="R36" library="daqcs_host" package="R0603" value="7.15k" x="105.28" y="63.27" smashed="yes" rot="R180">
+<element name="R36" library="daqcs_host" package="R0603" value="7.5k" x="105.28" y="63.27" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Panasonic" x="105.28" y="63.27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-3EKF7151V" x="105.28" y="63.27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF7501V" x="105.28" y="63.27" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="105.28" y="63.27" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POWER" value="1/10W" x="105.28" y="63.27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR_PN" value="P7.15KHCT-ND" x="105.28" y="63.27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR_PN" value="P7.50KHCT-ND" x="105.28" y="63.27" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="105.28" y="63.27" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="106.18" y="64.72" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE" x="105.28" y="64.02" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
+<attribute name="VALUE" value="7.5k" x="105.28" y="64.02" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
 </element>
-<element name="R37" library="daqcs_host" package="R0603" value="10k" x="105.29" y="60.77" smashed="yes" rot="R180">
+<element name="R37" library="daqcs_host" package="R0603" value="1.37k" x="105.29" y="60.77" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Panasonic" x="105.29" y="60.77" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1002V" x="105.29" y="60.77" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1371V" x="105.29" y="60.77" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="105.29" y="60.77" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POWER" value="1/10W" x="105.29" y="60.77" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR_PN" value="P10.0KHCT-ND" x="105.29" y="60.77" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR_PN" value="P1.37KHCT-ND" x="105.29" y="60.77" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="105.29" y="60.77" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="105.29" y="62.12" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE" x="105.29" y="61.52" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
+<attribute name="VALUE" value="1.37k" x="105.29" y="61.52" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
 </element>
-<element name="R38" library="daqcs_host" package="R0603" value="15k" x="105.3" y="58.17" smashed="yes" rot="R180">
+<element name="R38" library="daqcs_host" package="R0603" value="1.87k" x="105.3" y="58.17" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Panasonic" x="105.3" y="58.17" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1502V" x="105.3" y="58.17" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1871V" x="105.3" y="58.17" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="105.3" y="58.17" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POWER" value="1/10W" x="105.3" y="58.17" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR_PN" value="P15.0KHCT-ND" x="105.3" y="58.17" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR_PN" value="P1.87KHCT-ND" x="105.3" y="58.17" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="105.3" y="58.17" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="105.3" y="59.52" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE" x="105.3" y="58.92" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
+<attribute name="VALUE" value="1.87k" x="105.3" y="58.92" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
 </element>
-<element name="R39" library="daqcs_host" package="R0603" value="15k" x="105.41" y="55.77" smashed="yes" rot="R180">
+<element name="R39" library="daqcs_host" package="R0603" value="1.02k" x="105.41" y="55.77" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Panasonic" x="105.41" y="55.77" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1502V" x="105.41" y="55.77" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1021V" x="105.41" y="55.77" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="105.41" y="55.77" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POWER" value="1/10W" x="105.41" y="55.77" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR_PN" value="P15.0KHCT-ND" x="105.41" y="55.77" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR_PN" value="P1.02KHCT-ND" x="105.41" y="55.77" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="105.41" y="55.77" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="105.41" y="57.02" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE" x="105.41" y="56.52" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
+<attribute name="VALUE" value="1.02k" x="105.41" y="56.52" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
 </element>
 <element name="R4" library="daqcs_host" package="R0603" value="2.61k" x="63.8" y="69.6" smashed="yes">
 <attribute name="MANUFACTURER" value="Panasonic" x="63.8" y="69.6" size="1.778" layer="27" display="off"/>
@@ -6521,25 +6522,25 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="NAME" x="64.8" y="70.85" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="63.8" y="68.85" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
-<element name="R40" library="daqcs_host" package="R0603" value="30k" x="105.32" y="53.07" smashed="yes" rot="R180">
+<element name="R40" library="daqcs_host" package="R0603" value="4.32k" x="105.32" y="53.07" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Panasonic" x="105.32" y="53.07" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-3EKF3002V" x="105.32" y="53.07" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF4321V" x="105.32" y="53.07" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="105.32" y="53.07" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POWER" value="1/10W" x="105.32" y="53.07" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR_PN" value="P30.0KHCT-ND" x="105.32" y="53.07" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR_PN" value="P4.32KHCT-ND" x="105.32" y="53.07" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="105.32" y="53.07" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="105.32" y="54.42" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE" x="105.32" y="53.82" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
+<attribute name="VALUE" value="4.32k" x="105.32" y="53.82" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
 </element>
-<element name="R41" library="daqcs_host" package="R0603" value="30k" x="105.33" y="50.57" smashed="yes" rot="R180">
+<element name="R41" library="daqcs_host" package="R0603" value="1.5k" x="105.33" y="50.57" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Panasonic" x="105.33" y="50.57" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-3EKF3002V" x="105.33" y="50.57" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF1501V" x="105.33" y="50.57" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="105.33" y="50.57" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POWER" value="1/10W" x="105.33" y="50.57" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR_PN" value="P30.0KHCT-ND" x="105.33" y="50.57" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR_PN" value="P1.50KHCT-ND" x="105.33" y="50.57" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="105.33" y="50.57" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="105.33" y="51.82" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE" x="105.33" y="51.32" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
+<attribute name="VALUE" value="1.5k" x="105.33" y="51.32" size="0.254" layer="27" ratio="6" rot="R180" align="center"/>
 </element>
 <element name="R42" library="daqcs_host" package="R0603" value="2k" x="33.7" y="75.2" smashed="yes">
 <attribute name="MANUFACTURER" value="Panasonic" x="33.7" y="75.2" size="1.778" layer="27" display="off"/>
@@ -7119,15 +7120,15 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="NAME" x="109" y="83.85" size="0.8128" layer="25" ratio="15" align="center"/>
 <attribute name="VALUE" x="109" y="81.95" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
-<element name="R28" library="daqcs_host" package="R0603" value="49.9k" x="83" y="74.3" smashed="yes">
+<element name="R28" library="daqcs_host" package="R0603" value="2k" x="83" y="74.3" smashed="yes">
 <attribute name="MANUFACTURER" value="Panasonic" x="83" y="74.3" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="83" y="74.3" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR_PN" value="P49.9KHCT-ND" x="83" y="74.3" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="P2.00KHCT-ND" x="83" y="74.3" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="83" y="74.3" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-3EKF4992V" x="83" y="74.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF2001V" x="83" y="74.3" size="1.778" layer="27" display="off"/>
 <attribute name="POWER" value="1/10W" x="83" y="74.3" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="80.3" y="74.35" size="0.8128" layer="25" ratio="15" align="center"/>
-<attribute name="VALUE" x="83" y="73.55" size="0.254" layer="27" ratio="6" align="center"/>
+<attribute name="VALUE" value="2k" x="83" y="73.55" size="0.254" layer="27" ratio="6" align="center"/>
 </element>
 <element name="J11" library="daqcs_host" package="MOLSL-2-V" value="MOL-SL-2-V" x="5.2" y="46.9" smashed="yes" rot="R270">
 <attribute name="LOCKING" value="YES" x="5.2" y="46.9" size="1.778" layer="27" rot="R270" display="off"/>
@@ -7792,6 +7793,14 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="MANUFACTURER" value="Panasonic" x="47.8" y="39.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3EKF23R2V" x="47.8" y="39.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="1/10W" x="47.8" y="39.9" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R72" library="daqcs_host" package="R0603" value="49.9k" x="82.7" y="79.4" rot="R180">
+<attribute name="VENDOR" value="Digi-key" x="82.7" y="79.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR_PN" value="P49.9KHCT-ND" x="82.7" y="79.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="1/10W" x="82.7" y="79.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic" x="82.7" y="79.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF4992V" x="82.7" y="79.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="82.7" y="79.4" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 </elements>
 <signals>
@@ -8911,6 +8920,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="18.85" y1="82.95" x2="19.2" y2="83.3" width="0.254" layer="1"/>
 <wire x1="82.2" y1="72.1" x2="82.2" y2="74.25" width="0.254" layer="1"/>
 <wire x1="82.2" y1="74.25" x2="82.15" y2="74.3" width="0.254" layer="1"/>
+<contactref element="R72" pad="2"/>
 </signal>
 <signal name="AVCC_HOST">
 <contactref element="R1" pad="2"/>
@@ -9160,8 +9170,12 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="82.8" y1="76.7" x2="77.6" y2="76.7" width="0.254" layer="16"/>
 <wire x1="77.63" y1="78.76" x2="77.63" y2="76.83" width="0.254" layer="1"/>
 <wire x1="77.63" y1="76.83" x2="77.6" y2="76.7" width="0.254" layer="1"/>
-<wire x1="87.65" y1="76.77" x2="82.87" y2="76.77" width="0.254" layer="1"/>
+<wire x1="87.65" y1="76.77" x2="84.6" y2="76.77" width="0.254" layer="1"/>
+<wire x1="84.6" y1="76.77" x2="82.87" y2="76.77" width="0.254" layer="1"/>
 <wire x1="82.87" y1="76.77" x2="82.8" y2="76.7" width="0.254" layer="1"/>
+<contactref element="R72" pad="1"/>
+<wire x1="83.55" y1="79.4" x2="83.55" y2="77.82" width="0.254" layer="1"/>
+<wire x1="83.55" y1="77.82" x2="84.6" y2="76.77" width="0.254" layer="1"/>
 </signal>
 <signal name="VBAT_MOD_CELL_1">
 <contactref element="U1" pad="4"/>
