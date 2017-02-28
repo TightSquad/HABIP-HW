@@ -10,9 +10,9 @@
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -83,6 +83,7 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="Outline" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
@@ -153,6 +154,10 @@
 <text x="125.8" y="76.4" size="1.778" layer="22" rot="MR0">STEVEN GIEWONT</text>
 <text x="125.6" y="73.3" size="1.778" layer="22" rot="MR0">P17105 HABIP</text>
 <text x="125.6" y="70.3" size="1.778" layer="22" rot="MR0">PN: 02-02-01</text>
+<wire x1="0" y1="1" x2="127" y2="1" width="0" layer="117"/>
+<wire x1="127" y1="1" x2="127" y2="101" width="0" layer="117"/>
+<wire x1="127" y1="101" x2="0" y2="101" width="0" layer="117"/>
+<wire x1="0" y1="101" x2="0" y2="1" width="0" layer="117"/>
 </plain>
 <libraries>
 <library name="daqcs_host">
@@ -9099,11 +9104,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="57.7" y1="55.2" x2="57.7" y2="57.6" width="0.254" layer="16"/>
 <wire x1="70.8" y1="47.7" x2="64.9" y2="47.7" width="0.254" layer="16"/>
 <wire x1="71.6" y1="46.9" x2="70.8" y2="47.7" width="0.254" layer="16"/>
-<wire x1="72.3" y1="46.9" x2="71.6" y2="46.9" width="0.254" layer="1"/>
-<wire x1="72.6" y1="47.2" x2="72.3" y2="46.9" width="0.254" layer="1"/>
-<wire x1="73.2" y1="47.2" x2="72.6" y2="47.2" width="0.254" layer="1"/>
 <wire x1="52.2" y1="67.4" x2="52.245" y2="67.37" width="0.1524" layer="1"/>
-<wire x1="73.2" y1="47.2" x2="73.225" y2="47.27" width="0.1524" layer="1"/>
+<wire x1="73.2" y1="47.3" x2="73.225" y2="47.27" width="0.1524" layer="1"/>
 <via x="57.7" y="57.6" extent="1-16" drill="0.381"/>
 <via x="71.6" y="46.9" extent="1-16" drill="0.381"/>
 <wire x1="52.2" y1="67.4" x2="51" y2="67.4" width="0.254" layer="1"/>
@@ -9113,6 +9115,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="62.6" y1="51.4" x2="60.8" y2="53.2" width="0.254" layer="16"/>
 <wire x1="60.8" y1="53.2" x2="59.7" y2="53.2" width="0.254" layer="16"/>
 <wire x1="59.7" y1="53.2" x2="57.7" y2="55.2" width="0.254" layer="16"/>
+<wire x1="73.2" y1="47.3" x2="71.9" y2="47.3" width="0.254" layer="1"/>
+<wire x1="71.9" y1="47.3" x2="71.6" y2="46.9" width="0.254" layer="1"/>
 </signal>
 <signal name="MSP_GPIO_4">
 <contactref element="U1" pad="46"/>
@@ -9493,8 +9497,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <signal name="P7.2">
 <contactref element="U1" pad="25"/>
 <contactref element="J12" pad="4"/>
-<wire x1="63.7" y1="42.4" x2="63.7" y2="43.2" width="0.254" layer="1"/>
-<wire x1="63.3" y1="41.8" x2="63.7" y2="42.4" width="0.254" layer="1"/>
 <wire x1="68.7" y1="41.8" x2="63.3" y2="41.8" width="0.254" layer="16"/>
 <wire x1="73" y1="37.4" x2="68.7" y2="41.8" width="0.254" layer="16"/>
 <wire x1="79.1" y1="37.4" x2="73" y2="37.4" width="0.254" layer="16"/>
@@ -9513,6 +9515,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="80.4" y1="37.4" x2="92.2" y2="25.6" width="0.254" layer="1"/>
 <wire x1="105.51" y1="7.27" x2="105.51" y2="8.62485" width="0.254" layer="16"/>
 <wire x1="105.51" y1="8.62485" x2="105.882128125" y2="8.996978125" width="0.254" layer="16"/>
+<wire x1="63.7" y1="43.2" x2="63.7" y2="42.2" width="0.254" layer="1"/>
+<wire x1="63.7" y1="42.2" x2="63.3" y2="41.8" width="0.254" layer="1"/>
 </signal>
 <signal name="P7.3">
 <contactref element="U1" pad="26"/>
