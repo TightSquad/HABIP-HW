@@ -5505,15 +5505,15 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="NAME" x="44.5" y="18.1" size="1.016" layer="25" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="42.1" y="18.1" size="0.254" layer="27" ratio="6" rot="R270" align="center"/>
 </element>
-<element name="R2" library="grss" package="R0805" value="470k" x="44.9" y="27.6" smashed="yes" rot="R90">
+<element name="R2" library="grss" package="R0805" value="100k" x="44.9" y="27.6" smashed="yes" rot="R90">
 <attribute name="POWER" value="1/2W" x="44.9" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VENDOR_PN" value="P470KADCT-ND" x="44.9" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR_PN" value="P16060CT-ND" x="44.9" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="44.9" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="44.9" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-P06J474V" x="44.9" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLERANCE" value="5%" x="44.9" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-P06F1003V" x="44.9" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="44.9" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="43.5" y="27.6" size="1.016" layer="25" ratio="15" rot="R90" align="center"/>
-<attribute name="VALUE" x="45.9" y="27.6" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
+<attribute name="VALUE" value="100k" x="45.9" y="27.6" size="0.254" layer="27" ratio="6" rot="R90" align="center"/>
 </element>
 <element name="U2" library="grss" package="M08A" value="LMC555CMX/NOPB" x="34.4" y="28.9" smashed="yes">
 <attribute name="VENDOR_PN" value="LMC555CMX/NOPBCT-ND" x="34.4" y="28.9" size="1.778" layer="27" display="off"/>

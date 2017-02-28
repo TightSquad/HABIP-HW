@@ -14569,7 +14569,6 @@
 <rectangle x1="13.751559375" y1="92.056965625" x2="203.962" y2="92.12935625" layer="200"/>
 <rectangle x1="13.751559375" y1="92.12935625" x2="203.962" y2="92.202" layer="200"/>
 <rectangle x1="13.751559375" y1="92.202" x2="203.962" y2="92.27464375" layer="200"/>
-<text x="0" y="-0.36321875" size="0.14478125" layer="200" font="vector">C:/Users/Lincster/Google Drive/College/1-MSD/Lincster-HW/docs/projects/GRSS/docs/GRSS_BD.bmp</text>
 </symbol>
 <symbol name="SQUAD_LOGO-1">
 <text x="0" y="0" size="2.54" layer="94">SQUAD
@@ -14800,12 +14799,12 @@ LOGO</text>
 </technology>
 <technology name="_100R0">
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="ERJ-P06F1000V" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-P06F1003V" constant="no"/>
 <attribute name="POWER" value="1/2W" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
-<attribute name="VALUE" value="100" constant="no"/>
+<attribute name="VALUE" value="100k" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="P16057CT-ND" constant="no"/>
+<attribute name="VENDOR_PN" value="P16060CT-ND" constant="no"/>
 </technology>
 <technology name="_1K0">
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
@@ -15366,7 +15365,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="R4" library="grss" deviceset="RES" device="_0805" technology="_200R0" value="200"/>
 <part name="R5" library="grss" deviceset="RES" device="_0805" technology="_200R0" value="200"/>
 <part name="R6" library="grss" deviceset="RES" device="_0805" technology="_200R0" value="200"/>
-<part name="R2" library="grss" deviceset="RES" device="_0805" technology="_470K0" value="470k"/>
+<part name="R2" library="grss" deviceset="RES" device="_0805" technology="_100R0" value="100k"/>
 <part name="C2" library="grss" deviceset="CAP" device="_0805" technology="_100NF0" value="0.1uF"/>
 <part name="C4" library="grss" deviceset="CAP" device="_0805" technology="_10UF0" value="10uF"/>
 <part name="C6" library="grss" deviceset="CAP" device="_0805" technology="_3UF3" value="3.3uF"/>
@@ -15456,10 +15455,10 @@ DIN A4, landscape with location and doc. field</description>
 <text x="10.16" y="157.48" size="1.778" layer="97">LED8</text>
 <text x="10.16" y="137.16" size="1.778" layer="97">LED9</text>
 <text x="40.64" y="167.64" size="1.778" layer="97">BUZZER</text>
-<text x="-134.62" y="127" size="1.778" layer="97">555 Timer - ~6s Period
- - ~50%DC - Cycles from
-1.5V(off) to 3V(on)</text>
-<text x="-124.46" y="170.18" size="1.778" layer="97">LDO 9V -&gt; 4.5V</text>
+<text x="-120.96" y="130.1" size="1.778" layer="97" align="center">555 Timer
+6s Period
+50%DC</text>
+<text x="-127.56" y="169.88" size="1.778" layer="97">LDO 9V -&gt; 4.5V</text>
 <text x="21.59" y="68.58" size="2.54" layer="95">SCHEMATIC</text>
 <text x="-130.556" y="82.042" size="1.778" layer="91">MOUNTING HOLES</text>
 <text x="54.864" y="53.34" size="2.54" layer="91">B</text>
