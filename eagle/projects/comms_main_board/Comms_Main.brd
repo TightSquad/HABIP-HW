@@ -35744,6 +35744,9 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <via x="9.61" y="71.23" extent="1-16" drill="0.381"/>
 <via x="10.44" y="26.14" extent="1-16" drill="0.381"/>
 <via x="10.79" y="38.61" extent="1-16" drill="0.381"/>
+<via x="14.34" y="62.37" extent="1-16" drill="0.381"/>
+<via x="15.56" y="63.54" extent="1-16" drill="0.381"/>
+<via x="13.64" y="63.61" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="7P4V_IN">
 <contactref element="C402" pad="1"/>
@@ -38205,9 +38208,8 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <vertex x="86.07" y="26.47"/>
 <vertex x="88.98" y="26.47"/>
 <vertex x="88.98" y="19.21"/>
-<vertex x="96.8" y="19.21"/>
-<vertex x="96.8" y="19.5"/>
-<vertex x="96.21" y="19.49"/>
+<vertex x="92.63" y="19.21"/>
+<vertex x="92.63" y="19.49"/>
 <vertex x="89.27" y="19.49"/>
 <vertex x="89.27" y="26.77"/>
 <vertex x="86.29" y="26.77"/>
