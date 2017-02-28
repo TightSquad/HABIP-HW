@@ -1530,12 +1530,12 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="0" y1="-12.3" x2="0" y2="0" width="0.127" layer="21"/>
 </package>
 <package name="SON65P200X200X80-7N">
-<smd name="1" x="-1.0414" y="0.6604" dx="0.6096" dy="0.3556" layer="1"/>
-<smd name="2" x="-1.0414" y="0" dx="0.6096" dy="0.3556" layer="1"/>
-<smd name="3" x="-1.0414" y="-0.6604" dx="0.6096" dy="0.3556" layer="1"/>
-<smd name="4" x="1.0414" y="-0.6604" dx="0.6096" dy="0.3556" layer="1"/>
-<smd name="5" x="1.0414" y="0" dx="0.6096" dy="0.3556" layer="1"/>
-<smd name="6" x="1.0414" y="0.6604" dx="0.6096" dy="0.3556" layer="1"/>
+<smd name="1" x="-1.025" y="0.65" dx="0.65" dy="0.3556" layer="1"/>
+<smd name="2" x="-1.025" y="0" dx="0.65" dy="0.3556" layer="1"/>
+<smd name="3" x="-1.025" y="-0.65" dx="0.65" dy="0.3556" layer="1"/>
+<smd name="4" x="1.025" y="-0.65" dx="0.65" dy="0.3556" layer="1"/>
+<smd name="5" x="1.025" y="0" dx="0.65" dy="0.3556" layer="1"/>
+<smd name="6" x="1.025" y="0.65" dx="0.65" dy="0.3556" layer="1"/>
 <smd name="7" x="0" y="0" dx="0.9906" dy="1.6002" layer="1"/>
 <wire x1="-1.0414" y1="-1.0414" x2="1.0414" y2="-1.0414" width="0" layer="51"/>
 <wire x1="1.0414" y1="-1.0414" x2="1.0414" y2="1.0414" width="0" layer="51"/>
@@ -1549,11 +1549,11 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <circle x="-0.65" y="1.15" radius="0.111803125" width="0.127" layer="21"/>
 </package>
 <package name="DBV5">
-<smd name="1" x="-1.1176" y="0.95" dx="1.016" dy="0.5588" layer="1"/>
-<smd name="2" x="-1.1176" y="0" dx="1.016" dy="0.5588" layer="1"/>
-<smd name="3" x="-1.1176" y="-0.95" dx="1.016" dy="0.5588" layer="1"/>
-<smd name="4" x="1.1176" y="-0.95" dx="1.016" dy="0.5588" layer="1"/>
-<smd name="5" x="1.1176" y="0.95" dx="1.016" dy="0.5588" layer="1"/>
+<smd name="1" x="-1.35" y="0.95" dx="1.016" dy="0.5588" layer="1"/>
+<smd name="2" x="-1.35" y="0" dx="1.016" dy="0.5588" layer="1"/>
+<smd name="3" x="-1.35" y="-0.95" dx="1.016" dy="0.5588" layer="1"/>
+<smd name="4" x="1.35" y="-0.95" dx="1.016" dy="0.5588" layer="1"/>
+<smd name="5" x="1.35" y="0.95" dx="1.016" dy="0.5588" layer="1"/>
 <wire x1="0.8636" y1="1.45" x2="0.8636" y2="1.524" width="0.1524" layer="21"/>
 <wire x1="0.8636" y1="-0.45" x2="0.8636" y2="0.45" width="0.1524" layer="21"/>
 <wire x1="-0.8636" y1="-1.45" x2="-0.8636" y2="-1.524" width="0.1524" layer="21"/>
@@ -3128,7 +3128,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <package name="NTD2955T4G">
 <smd name="P$1" x="2.79" y="-2.285" dx="3" dy="1.6" layer="1"/>
 <smd name="P$2" x="2.79" y="2.285" dx="3" dy="1.6" layer="1"/>
-<smd name="P$3" x="-4.39" y="0" dx="5.8" dy="6.2" layer="1"/>
+<smd name="P$3" x="-4.39" y="0" dx="6.2" dy="5.8" layer="1"/>
 <wire x1="-6" y1="4" x2="2" y2="4" width="0.127" layer="51"/>
 <wire x1="2" y1="4" x2="2" y2="-4" width="0.127" layer="51"/>
 <wire x1="2" y1="-4" x2="-6" y2="-4" width="0.127" layer="51"/>
@@ -26703,6 +26703,24 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="P23.2HCT-ND" constant="no"/>
 </technology>
+<technology name="_0R47">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF47R0V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="47" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P47.0HCT-ND" constant="no"/>
+</technology>
+<technology name="_0R499">
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="ERJ-3EKF49R9V" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="49.9" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="P49.9HCT-ND" constant="no"/>
+</technology>
 <technology name="_0RS075">
 <attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3BWFR075V" constant="no"/>
@@ -29289,8 +29307,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R46" library="daqcs_host" deviceset="RES" device="_0603" technology="_0R0" value="0"/>
 <part name="R47" library="daqcs_host" deviceset="RES" device="_0603" technology="_0R0" value="0"/>
 <part name="R48" library="daqcs_host" deviceset="RES" device="_0603" technology="_0R0" value="0"/>
-<part name="R49" library="daqcs_host" deviceset="RES" device="_0603" technology="_47R0" value="47k"/>
-<part name="R50" library="daqcs_host" deviceset="RES" device="_0603" technology="_47R0" value="47k"/>
+<part name="R49" library="daqcs_host" deviceset="RES" device="_0603" technology="_0R499" value="49.9"/>
+<part name="R50" library="daqcs_host" deviceset="RES" device="_0603" technology="_0R499" value="49.9"/>
 <part name="TP39" library="daqcs_host" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP40" library="daqcs_host" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
 <part name="TP41" library="daqcs_host" deviceset="TEST_POINT" device="_10R_SMD" technology="_TP10R_SMD"/>
@@ -29943,7 +29961,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="R26" gate="G$1" pin="1"/>
 <pinref part="DS4" gate="G$1" pin="A"/>
 <wire x1="-2.54" y1="160.02" x2="-12.7" y2="160.02" width="0.1524" layer="91"/>
-<label x="12.7" y="160.02" size="1.778" layer="95"/>
+<label x="-15.24" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
