@@ -160,14 +160,14 @@
 <text x="40.6" y="0.9" size="0.7" layer="21" ratio="22" rot="R90">3V3</text>
 <text x="46.2" y="0.9" size="0.7" layer="21" ratio="22" rot="R90">GND</text>
 <text x="40" y="5.9" size="0.7" layer="21" ratio="22">I2C HEADER</text>
-<text x="57.8" y="8" size="0.7" layer="21" ratio="22" rot="R90">SOFT RESET</text>
+<text x="57.8" y="7.5" size="0.7" layer="21" ratio="22" rot="R90">SOFT RESET</text>
 <text x="1.3" y="22.2" size="0.7" layer="21" ratio="22">5V0_BST</text>
 <text x="33.9" y="24.8" size="0.7" layer="21" ratio="22" rot="R90">EXT TEMP</text>
 <text x="24.2" y="27.6" size="0.7" layer="21" ratio="22">MCU HEADER</text>
 <text x="45.4" y="27.1" size="0.7" layer="21" ratio="22">DBG LEDS</text>
 <text x="49.5" y="5.7" size="0.7" layer="21" ratio="22">PRESSURE</text>
 <text x="43.3" y="12.1" size="0.7" layer="21" ratio="22">TEMP</text>
-<text x="34.2" y="14.3" size="0.7" layer="21" ratio="22">TEMP</text>
+<text x="34.4" y="14.8" size="0.7" layer="21" ratio="22">TEMP</text>
 <text x="43.8" y="17.9" size="0.7" layer="21" ratio="22" rot="R90">HUMID</text>
 <wire x1="40.1" y1="5.7" x2="46" y2="5.7" width="0.15" layer="21"/>
 <text x="38.05" y="3" size="0.7" layer="21" ratio="22" rot="R90">PRESSURE</text>
@@ -6743,14 +6743,10 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <via x="4" y="21.4" extent="1-16" drill="0.381"/>
 <wire x1="2.65" y1="21.4" x2="4" y2="21.4" width="0.381" layer="16"/>
 <polygon width="0.254" layer="2" isolate="0.3048">
-<vertex x="0.6" y="26.6"/>
-<vertex x="0.6" y="3.4"/>
-<vertex x="3.5" y="0.6"/>
-<vertex x="61.5" y="0.6"/>
-<vertex x="64.4" y="3.5"/>
-<vertex x="64.4" y="26.5"/>
-<vertex x="61.7" y="29.4"/>
-<vertex x="3.4" y="29.4"/>
+<vertex x="0.6" y="29.3"/>
+<vertex x="0.6" y="0.6"/>
+<vertex x="64.4" y="0.6"/>
+<vertex x="64.4" y="29.4"/>
 </polygon>
 <contactref element="U501" pad="4"/>
 <contactref element="U501" pad="6"/>
@@ -7912,14 +7908,10 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <wire x1="54.8" y1="8.5" x2="55.25" y2="8.05" width="0.254" layer="1"/>
 <wire x1="55.25" y1="8.05" x2="56.2" y2="8.05" width="0.254" layer="1"/>
 <polygon width="0.254" layer="15" isolate="0.3048" rank="2">
-<vertex x="0.6" y="26.6"/>
-<vertex x="0.6" y="3.4"/>
-<vertex x="3.5" y="0.6"/>
-<vertex x="61.5" y="0.6"/>
-<vertex x="64.4" y="3.5"/>
-<vertex x="64.4" y="26.5"/>
-<vertex x="61.7" y="29.4"/>
-<vertex x="3.4" y="29.4"/>
+<vertex x="0.6" y="29.4"/>
+<vertex x="0.6" y="0.6"/>
+<vertex x="64.4" y="0.6"/>
+<vertex x="64.4" y="29.4"/>
 </polygon>
 <contactref element="U501" pad="8"/>
 <contactref element="U502" pad="8"/>

@@ -4743,6 +4743,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <attributes>
 </attributes>
 <variantdefs>
+<variantdef name="POR" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0.381">
@@ -4781,8 +4782,13 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <part name="GND203" library="daqcs" deviceset="GND" device=""/>
 <part name="TP201" library="daqcs" deviceset="TEST_POINT_SMT" device="_15R_SMD"/>
 <part name="PP3V3202" library="daqcs" deviceset="PP3V3" device=""/>
-<part name="R205" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
-<part name="R203" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
+<part name="R205" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0">
+<variant name="POR" populate="no"/>
+</part>
+<part name="R203" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0">
+<variant name="POR" populate="no"/>
+</part>
+<part name="R1" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
 </parts>
 <sheets>
 <sheet>
@@ -4827,15 +4833,15 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="J201" gate="G$1" x="33.02" y="137.16"/>
 <instance part="R201" gate="G$1" x="86.36" y="139.7"/>
 <instance part="R202" gate="G$1" x="106.68" y="134.62"/>
-<instance part="GND201" gate="1" x="53.34" y="114.3"/>
-<instance part="PP3V3201" gate="G$1" x="53.34" y="170.18"/>
-<instance part="C201" gate="G$1" x="68.58" y="160.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="64.516" y="164.719" size="2.0828" layer="95" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="70.739" y="161.544" size="1.778" layer="96" ratio="10" rot="R90"/>
-<attribute name="TOLERANCE" x="73.279" y="161.544" size="1.778" layer="95" ratio="10" rot="R90"/>
-<attribute name="VOLTAGE" x="75.819" y="161.544" size="1.778" layer="95" ratio="10" rot="R90"/>
+<instance part="GND201" gate="1" x="68.58" y="116.84"/>
+<instance part="PP3V3201" gate="G$1" x="68.58" y="175.26"/>
+<instance part="C201" gate="G$1" x="83.82" y="165.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="79.756" y="169.799" size="2.0828" layer="95" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="85.979" y="166.624" size="1.778" layer="96" ratio="10" rot="R90"/>
+<attribute name="TOLERANCE" x="88.519" y="166.624" size="1.778" layer="95" ratio="10" rot="R90"/>
+<attribute name="VOLTAGE" x="91.059" y="166.624" size="1.778" layer="95" ratio="10" rot="R90"/>
 </instance>
-<instance part="GND202" gate="1" x="81.28" y="154.94"/>
+<instance part="GND202" gate="1" x="88.9" y="160.02"/>
 <instance part="U202" gate="G$1" x="251.46" y="78.74"/>
 <instance part="R204" gate="G$1" x="215.9" y="53.34" rot="R90"/>
 <instance part="C203" gate="G$1" x="218.44" y="99.06" smashed="yes" rot="R90">
@@ -4878,20 +4884,20 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <instance part="PP3V3202" gate="G$1" x="104.14" y="177.8"/>
 <instance part="R205" gate="G$1" x="223.52" y="180.34" rot="R90"/>
 <instance part="R203" gate="G$1" x="215.9" y="83.82" rot="R90"/>
+<instance part="R1" gate="G$1" x="68.58" y="154.94" rot="R90"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="PP3V3" class="0">
 <segment>
-<pinref part="J201" gate="G$1" pin="1"/>
 <pinref part="PP3V3201" gate="G$1" pin="PP3V3"/>
-<wire x1="45.72" y1="144.78" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="144.78" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="C201" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="160.02" x2="53.34" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="160.02" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
-<junction x="53.34" y="160.02"/>
+<wire x1="68.58" y1="165.1" x2="68.58" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="165.1" x2="68.58" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="160.02" x2="68.58" y2="165.1" width="0.1524" layer="91"/>
+<junction x="68.58" y="165.1"/>
 </segment>
 <segment>
 <pinref part="C202" gate="G$1" pin="2"/>
@@ -4936,14 +4942,14 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <segment>
 <pinref part="J201" gate="G$1" pin="4"/>
 <pinref part="GND201" gate="1" pin="GND"/>
-<wire x1="45.72" y1="129.54" x2="53.34" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="129.54" x2="53.34" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="129.54" x2="68.58" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="129.54" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C201" gate="G$1" pin="2"/>
 <pinref part="GND202" gate="1" pin="GND"/>
-<wire x1="71.12" y1="160.02" x2="81.28" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="160.02" x2="81.28" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="165.1" x2="88.9" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="165.1" x2="88.9" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND205" gate="1" pin="GND"/>
@@ -5078,6 +5084,15 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <wire x1="223.52" y1="170.18" x2="223.52" y2="165.1" width="0.1524" layer="91"/>
 <junction x="223.52" y="170.18"/>
 <label x="220.98" y="170.18" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="PP3V3_R" class="0">
+<segment>
+<pinref part="J201" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="144.78" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="149.86" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
+<label x="50.8" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
