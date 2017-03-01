@@ -59,7 +59,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -141,8 +141,8 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -15405,22 +15405,23 @@ DIN A4, landscape with location and doc. field</description>
 <part name="H2" library="grss" deviceset="MOUNT-HOLE" device="_2.75"/>
 <part name="H3" library="grss" deviceset="MOUNT-HOLE" device="_2.75"/>
 <part name="H4" library="grss" deviceset="MOUNT-HOLE" device="_2.75"/>
+<part name="FRAME4" library="frames" deviceset="A4L-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
 <description>Title_TOC</description>
 <plain>
-<text x="65.786" y="90.17" size="2.54" layer="95">TITLE_TOC</text>
-<text x="65.786" y="85.09" size="2.54" layer="95">BLOCK_DIAGRAM</text>
-<text x="65.786" y="80.01" size="2.54" layer="95">SCHEMATIC</text>
-<text x="-2.54" y="149.86" size="6.4516" layer="95">Global Recovery Signalling System (GRSS)</text>
-<text x="191.262" y="12.7" size="2.54" layer="95">TITLE_TOC</text>
-<text x="224.79" y="-2.54" size="2.54" layer="91">B</text>
+<text x="91.186" y="97.79" size="2.54" layer="95">TITLE_TOC</text>
+<text x="91.186" y="92.71" size="2.54" layer="95">BLOCK_DIAGRAM</text>
+<text x="91.186" y="87.63" size="2.54" layer="95">SCHEMATIC</text>
+<text x="22.86" y="157.48" size="6.4516" layer="95">Global Recovery Signalling System (GRSS)</text>
+<text x="216.662" y="20.32" size="2.54" layer="95">TITLE_TOC</text>
+<text x="250.19" y="5.08" size="2.54" layer="91">B</text>
 </plain>
 <instances>
-<instance part="FRAME2" gate="G$1" x="-25.4" y="-7.62"/>
-<instance part="U$1" gate="G$1" x="66.04" y="93.98"/>
-<instance part="LOGO1" gate="G$1" x="138.938" y="-0.762"/>
+<instance part="FRAME2" gate="G$1" x="0" y="0"/>
+<instance part="U$1" gate="G$1" x="91.44" y="101.6"/>
+<instance part="LOGO1" gate="G$1" x="164.338" y="6.858"/>
 </instances>
 <busses>
 </busses>
@@ -15814,6 +15815,18 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="-20.32" y1="102.87" x2="-20.32" y2="103.124" width="0.1524" layer="91"/>
 </segment>
 </net>
+</nets>
+</sheet>
+<sheet>
+<description>Assembly Components</description>
+<plain>
+</plain>
+<instances>
+<instance part="FRAME4" gate="G$1" x="0" y="0"/>
+</instances>
+<busses>
+</busses>
+<nets>
 </nets>
 </sheet>
 </sheets>

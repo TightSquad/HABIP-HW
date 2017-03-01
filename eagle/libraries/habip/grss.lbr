@@ -17441,100 +17441,46 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <device name="" package="BLANK">
 <technologies>
 <technology name="_BLI0">
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/raspi_header/M20-998.pdf" constant="no"/>
-<attribute name="MANUFACTURER" value="Harwin" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="M20-9980645" constant="no"/>
-<attribute name="VALUE" value="HEADER-RECT-MALE-2X6" constant="no"/>
+<attribute name="MANUFACTURER" value="Energizer" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="L522" constant="no"/>
+<attribute name="VALUE" value="Lithium 9V Battery" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="952-2125-ND" constant="no"/>
+<attribute name="VENDOR_PN" value="N723-ND" constant="no"/>
 </technology>
 <technology name="_BLI1">
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/raspi_header/M20-998.pdf" constant="no"/>
-<attribute name="MANUFACTURER" value="Harwin" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="M20-9980345" constant="no"/>
-<attribute name="VALUE" value="HEADER-RECT-MALE-2X3" constant="no"/>
-<attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="952-2120-ND" constant="no"/>
-</technology>
-<technology name="_BLI10">
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/raspi_header/M20-998.pdf" constant="no"/>
-<attribute name="MANUFACTURER" value="Harwin" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="M20-9980545" constant="no"/>
-<attribute name="VALUE" value="HEADER-RECT-MALE-2X5" constant="no"/>
-<attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="952-2380-ND" constant="no"/>
-</technology>
-<technology name="_BLI11">
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/battery/785060-2500mAh_specification_sheet.pdf" constant="no"/>
-<attribute name="MANUFACTURER" value="Adafruit" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="328" constant="no"/>
-<attribute name="VALUE" value="1-Cell 2500mAh Li-Ion Battery" constant="no"/>
-<attribute name="VENDOR" value="Adafruit" constant="no"/>
-<attribute name="VENDOR_PN" value="328" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="" constant="no"/>
+<attribute name="VALUE" value="5mm Red LED 8000mcd" constant="no"/>
+<attribute name="VENDOR" value="superbrightleds.com" constant="no"/>
+<attribute name="VENDOR_PN" value="RL5-R8030" constant="no"/>
 </technology>
 <technology name="_BLI2">
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/050579402_sd.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="" constant="no"/>
+<attribute name="VALUE" value="5mm Green LED 7500mcd" constant="no"/>
+<attribute name="VENDOR" value="superbrightleds.com" constant="no"/>
+<attribute name="VENDOR_PN" value="RL5-G7532" constant="no"/>
+</technology>
+<technology name="_BLI3">
+<attribute name="MANUFACTURER" value="PUI Audio" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="AI-3135-TF-LW100-R" constant="no"/>
+<attribute name="VALUE" value="105dB Buzzer" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="668-1350-ND" constant="no"/>
+</technology>
+<technology name="_BLI4">
 <attribute name="MANUFACTURER" value="Molex" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="50-57-9402" constant="no"/>
-<attribute name="VALUE" value="SL 70066 2PIN HOUSING" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="50579402" constant="no"/>
+<attribute name="VALUE" value="SL 2PIN HOUSING" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="WM2900-ND" constant="no"/>
 </technology>
-<technology name="_BLI3">
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/050579402_sd.pdf" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="50-57-9403" constant="no"/>
-<attribute name="VALUE" value="SL 70066 3PIN HOUSING" constant="no"/>
-<attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="WM2901-ND" constant="no"/>
-</technology>
-<technology name="_BLI4">
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/050579402_sd.pdf" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="0050579404" constant="no"/>
-<attribute name="VALUE" value="SL 70066 4PIN HOUSING" constant="no"/>
-<attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="WM2902-ND" constant="no"/>
-</technology>
 <technology name="_BLI5">
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/050579402_sd.pdf" constant="no"/>
-<attribute name="MANUFACTURER" value="Molex" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="0050579405" constant="no"/>
-<attribute name="VALUE" value="SL 70066 5PIN HOUSING" constant="no"/>
-<attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="WM2903-ND" constant="no"/>
-</technology>
-<technology name="_BLI6">
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/016020087_sd.pdf" constant="no"/>
 <attribute name="MANUFACTURER" value="Molex" constant="no"/>
 <attribute name="MANUFACTURER_PN" value="0016020087" constant="no"/>
 <attribute name="VALUE" value="SL 70058 GOLD CRIMP" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="WM2512CT-ND" constant="no"/>
-</technology>
-<technology name="_BLI7">
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/sensors/DS18B20.pdf" constant="no"/>
-<attribute name="MANUFACTURER" value="Maxim" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="DS18B20+" constant="no"/>
-<attribute name="VALUE" value="1-Wire Temperature Sensor" constant="no"/>
-<attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="DS18B20+-ND" constant="no"/>
-</technology>
-<technology name="_BLI8">
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/power_jumper/xRxCzzzSxxN-RC_ST_11635-B.pdf" constant="no"/>
-<attribute name="MANUFACTURER" value="Sullins" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="PRPC004SAAN-RC" constant="no"/>
-<attribute name="VALUE" value="HEADER-RECT-MALE-1X4" constant="no"/>
-<attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="S1011EC-04-ND" constant="no"/>
-</technology>
-<technology name="_BLI9">
-<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/battery/LiIon2000mAh37V.pdf" constant="no"/>
-<attribute name="MANUFACTURER" value="Adafruit" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="2011" constant="no"/>
-<attribute name="VALUE" value="1-Cell 2000mAh Li-Ion Battery" constant="no"/>
-<attribute name="VENDOR" value="Adafruit" constant="no"/>
-<attribute name="VENDOR_PN" value="2011" constant="no"/>
 </technology>
 </technologies>
 </device>
