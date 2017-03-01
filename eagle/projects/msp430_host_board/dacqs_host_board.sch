@@ -3128,26 +3128,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <package name="BLANK">
 <text x="0" y="0" size="0.4064" layer="51" font="vector" ratio="20">&gt;NAME</text>
 </package>
-<package name="MM3Z3V3B">
-<smd name="P$1" x="1.125" y="0" dx="0.8" dy="0.8" layer="1"/>
-<smd name="P$2" x="-1.125" y="0" dx="0.8" dy="0.8" layer="1"/>
-<wire x1="0.85" y1="0.65" x2="-0.85" y2="0.65" width="0.127" layer="51"/>
-<wire x1="-0.85" y1="-0.65" x2="-0.85" y2="0.65" width="0.127" layer="51"/>
-<wire x1="-0.85" y1="-0.65" x2="0.85" y2="-0.65" width="0.127" layer="51"/>
-<wire x1="0.85" y1="0.65" x2="0.85" y2="-0.65" width="0.127" layer="51"/>
-<wire x1="-0.4" y1="0.6" x2="-0.4" y2="-0.6" width="0.127" layer="51"/>
-<wire x1="-0.9" y1="0.7" x2="-0.4" y2="0.7" width="0.127" layer="21"/>
-<wire x1="-0.4" y1="0.7" x2="0.9" y2="0.7" width="0.127" layer="21"/>
-<wire x1="0.9" y1="0.7" x2="0.9" y2="0.6" width="0.127" layer="21"/>
-<wire x1="-0.9" y1="0.7" x2="-0.9" y2="0.6" width="0.127" layer="21"/>
-<wire x1="-0.9" y1="-0.6" x2="-0.9" y2="-0.7" width="0.127" layer="21"/>
-<wire x1="-0.9" y1="-0.7" x2="-0.4" y2="-0.7" width="0.127" layer="21"/>
-<wire x1="-0.4" y1="-0.7" x2="0.9" y2="-0.7" width="0.127" layer="21"/>
-<wire x1="0.9" y1="-0.7" x2="0.9" y2="-0.6" width="0.127" layer="21"/>
-<wire x1="-0.4" y1="0.7" x2="-0.4" y2="-0.7" width="0.127" layer="21"/>
-<text x="-1.47" y="0.87" size="0.8128" layer="21" ratio="15">&gt;VALUE</text>
-<text x="-1.57" y="-1.67" size="0.8128" layer="21" ratio="15">&gt;NAME</text>
-</package>
 <package name="NTD2955T4G">
 <smd name="P$1" x="2.79" y="-2.285" dx="3" dy="1.6" layer="1"/>
 <smd name="P$2" x="2.79" y="2.285" dx="3" dy="1.6" layer="1"/>
@@ -3164,6 +3144,23 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <text x="5.08" y="-3.81" size="1.27" layer="21">G</text>
 <text x="-8.89" y="0" size="1.27" layer="21">D</text>
 <text x="5.08" y="2.54" size="1.27" layer="21">S</text>
+</package>
+<package name="MMSZ5225BT1G">
+<smd name="P$1" x="-1.635" y="0" dx="0.91" dy="1.22" layer="1"/>
+<smd name="P$2" x="1.635" y="0" dx="0.91" dy="1.22" layer="1"/>
+<wire x1="-0.7" y1="0.7" x2="-0.7" y2="-0.7" width="0.254" layer="21"/>
+<wire x1="1.345" y1="0.8" x2="1.345" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-1.345" y1="-0.8" x2="1.345" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-1.345" y1="-0.8" x2="-1.345" y2="0.8" width="0.127" layer="51"/>
+<wire x1="1.345" y1="0.8" x2="-1.345" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="0.9" x2="1.4" y2="0.9" width="0.127" layer="21"/>
+<wire x1="1.4" y1="0.9" x2="1.4" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="1.4" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.9" x2="-1.4" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-0.9" x2="-1.4" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="0.9" x2="-1.4" y2="0.8" width="0.127" layer="21"/>
+<text x="-2.6" y="1.1" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3" y="-2.3" size="1.27" layer="21">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -26524,19 +26521,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="85.852" y1="2.54" x2="85.852" y2="0" width="0.254" layer="94" style="shortdash"/>
 <wire x1="12.192" y1="2.54" x2="12.192" y2="0" width="0.254" layer="94" style="shortdash"/>
 </symbol>
-<symbol name="MM3Z3V3B">
-<pin name="P$1" x="0" y="-7.62" length="middle" rot="R90"/>
-<pin name="P$2" x="0" y="7.62" length="middle" rot="R270"/>
-<wire x1="0" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-5.08" y2="0" width="0.254" layer="94"/>
-<text x="5.08" y="0" size="1.27" layer="94">&gt;VALUE</text>
-<text x="5.08" y="-2.54" size="1.27" layer="94">&gt;NAME</text>
-</symbol>
 <symbol name="NTD2955T4G">
 <wire x1="-1.778" y1="0.762" x2="-1.778" y2="0" width="0.254" layer="94"/>
 <wire x1="-1.778" y1="0" x2="-1.778" y2="-0.762" width="0.254" layer="94"/>
@@ -26576,6 +26560,19 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <text x="2.54" y="5.08" size="1.27" layer="94">S</text>
 <text x="2.54" y="-5.08" size="1.27" layer="94">D</text>
 <wire x1="0" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MMSZ5225BT1G">
+<pin name="P$1" x="0" y="7.62" length="middle" rot="R270"/>
+<pin name="P$2" x="0" y="-7.62" length="middle" rot="R90"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<text x="5.08" y="2.54" size="1.27" layer="94">&gt;NAME</text>
+<text x="5.08" y="0" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -28766,28 +28763,6 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
-<deviceset name="MM3Z3V3B" prefix="Z" uservalue="yes">
-<gates>
-<gate name="Z$1" symbol="MM3Z3V3B" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MM3Z3V3B">
-<connects>
-<connect gate="Z$1" pin="P$1" pad="P$1"/>
-<connect gate="Z$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="Farichild/ON Semiconductor" constant="no"/>
-<attribute name="MANUFACTURER_PN" value="MM3Z3V3B" constant="no"/>
-<attribute name="VALUE" value="MM3Z3V3B" constant="no"/>
-<attribute name="VENDOR" value="Digi-key" constant="no"/>
-<attribute name="VENDOR_PN" value="MM3Z3V3BCT-ND" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="NTD2955T4G" prefix="Z" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="NTD2955T4G" x="0" y="0"/>
@@ -28805,6 +28780,28 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <attribute name="MANUFACTURER_PN" value="NTD2955T4G" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="NTD2955T4GOSCT-ND " constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MMSZ5225BT1G" prefix="Z" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="MMSZ5225BT1G" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MMSZ5225BT1G">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="ON Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="MMSZ5225BT1G" constant="no"/>
+<attribute name="VALUE" value="MMSZ5225BT1G" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="MMSZ5225BT1GOSCT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -29483,12 +29480,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="BOM61" library="daqcs_host" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
 <part name="BOM62" library="daqcs_host" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
 <part name="BOM63" library="daqcs_host" deviceset="BOM_LINE_ITEM" device="" technology="_BLI11" value="1-Cell 2500mAh Li-Ion Battery"/>
-<part name="Z1" library="daqcs_host" deviceset="MM3Z3V3B" device="" value="MM3Z3V3B"/>
-<part name="Z2" library="daqcs_host" deviceset="MM3Z3V3B" device="" value="MM3Z3V3B"/>
-<part name="Z3" library="daqcs_host" deviceset="MM3Z3V3B" device="" value="MM3Z3V3B"/>
-<part name="Z4" library="daqcs_host" deviceset="MM3Z3V3B" device="" value="MM3Z3V3B"/>
-<part name="Z5" library="daqcs_host" deviceset="MM3Z3V3B" device="" value="MM3Z3V3B"/>
-<part name="Z6" library="daqcs_host" deviceset="MM3Z3V3B" device="" value="MM3Z3V3B"/>
 <part name="R52" library="daqcs_host" deviceset="RES" device="_0603" technology="_0R23S2" value="23.2"/>
 <part name="R53" library="daqcs_host" deviceset="RES" device="_0603" technology="_0R23S2" value="23.2"/>
 <part name="R54" library="daqcs_host" deviceset="RES" device="_0603" technology="_0R23S2" value="23.2"/>
@@ -29512,6 +29503,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R72" library="daqcs_host" deviceset="RES" device="_0603" technology="_49R9" value="49.9k"/>
 <part name="SUPPLY48" library="supply2" deviceset="GND" device=""/>
 <part name="Z7" library="daqcs_host" deviceset="NTD2955T4G" device=""/>
+<part name="Z1" library="daqcs_host" deviceset="MMSZ5225BT1G" device="" value="MMSZ5225BT1G"/>
+<part name="Z2" library="daqcs_host" deviceset="MMSZ5225BT1G" device="" value="MMSZ5225BT1G"/>
+<part name="Z3" library="daqcs_host" deviceset="MMSZ5225BT1G" device="" value="MMSZ5225BT1G"/>
+<part name="Z4" library="daqcs_host" deviceset="MMSZ5225BT1G" device="" value="MMSZ5225BT1G"/>
+<part name="Z5" library="daqcs_host" deviceset="MMSZ5225BT1G" device="" value="MMSZ5225BT1G"/>
+<part name="Z6" library="daqcs_host" deviceset="MMSZ5225BT1G" device="" value="MMSZ5225BT1G"/>
 </parts>
 <sheets>
 <sheet>
@@ -33262,12 +33259,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="SUPPLY44" gate="GND" x="99.06" y="157.48"/>
 <instance part="SUPPLY45" gate="GND" x="99.06" y="86.36"/>
 <instance part="SUPPLY46" gate="GND" x="154.94" y="86.36"/>
-<instance part="Z1" gate="Z$1" x="111.76" y="170.18"/>
-<instance part="Z2" gate="Z$1" x="167.64" y="170.18"/>
-<instance part="Z3" gate="Z$1" x="218.44" y="170.18"/>
-<instance part="Z4" gate="Z$1" x="220.98" y="99.06"/>
-<instance part="Z5" gate="Z$1" x="167.64" y="99.06"/>
-<instance part="Z6" gate="Z$1" x="111.76" y="99.06"/>
+<instance part="Z1" gate="G$1" x="111.76" y="170.18"/>
+<instance part="Z2" gate="G$1" x="167.64" y="170.18"/>
+<instance part="Z3" gate="G$1" x="218.44" y="170.18"/>
+<instance part="Z4" gate="G$1" x="111.76" y="99.06"/>
+<instance part="Z5" gate="G$1" x="167.64" y="99.06"/>
+<instance part="Z6" gate="G$1" x="220.98" y="99.06"/>
 </instances>
 <busses>
 </busses>
@@ -33296,7 +33293,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="99.06" y="180.34"/>
 <wire x1="99.06" y1="180.34" x2="111.76" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="180.34" x2="111.76" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="Z1" gate="Z$1" pin="P$2"/>
+<pinref part="Z1" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="VBAT_CELL_2" class="0">
@@ -33323,7 +33320,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="127" y="180.34" size="1.778" layer="95"/>
 <wire x1="154.94" y1="180.34" x2="167.64" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="180.34" x2="167.64" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="Z2" gate="Z$1" pin="P$2"/>
+<pinref part="Z2" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="VBAT_MOD_CELL_3" class="0">
@@ -33337,7 +33334,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="177.8" y="180.34" size="1.778" layer="95"/>
 <wire x1="205.74" y1="180.34" x2="218.44" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="180.34" x2="218.44" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="Z3" gate="Z$1" pin="P$2"/>
+<pinref part="Z3" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="VBAT_CELL_3" class="0">
@@ -33377,7 +33374,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="73.66" y="111.76" size="1.778" layer="95"/>
 <wire x1="99.06" y1="111.76" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="111.76" x2="111.76" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="Z6" gate="Z$1" pin="P$2"/>
+<pinref part="Z4" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="VBAT_CELL_5" class="0">
@@ -33404,7 +33401,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="127" y="111.76" size="1.778" layer="95"/>
 <wire x1="154.94" y1="111.76" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="111.76" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="Z5" gate="Z$1" pin="P$2"/>
+<pinref part="Z5" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="VBAT_CELL_6" class="0">
@@ -33431,7 +33428,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="177.8" y="109.22" size="1.778" layer="95"/>
 <wire x1="205.74" y1="109.22" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="109.22" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="Z4" gate="Z$1" pin="P$2"/>
+<pinref part="Z6" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="REACTIO_WHEEL_BATTERY_VOLTAGE_SENSE" class="0">
@@ -33680,7 +33677,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="218.44" y1="162.56" x2="218.44" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="160.02" x2="205.74" y2="160.02" width="0.1524" layer="91"/>
 <junction x="205.74" y="160.02"/>
-<pinref part="Z3" gate="Z$1" pin="P$1"/>
+<pinref part="Z3" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY40" gate="GND" pin="GND"/>
@@ -33689,7 +33686,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="220.98" y1="91.44" x2="220.98" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="88.9" x2="205.74" y2="88.9" width="0.1524" layer="91"/>
 <junction x="205.74" y="88.9"/>
-<pinref part="Z4" gate="Z$1" pin="P$1"/>
+<pinref part="Z6" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY46" gate="GND" pin="GND"/>
@@ -33698,7 +33695,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="167.64" y1="91.44" x2="167.64" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="88.9" x2="154.94" y2="88.9" width="0.1524" layer="91"/>
 <junction x="154.94" y="88.9"/>
-<pinref part="Z5" gate="Z$1" pin="P$1"/>
+<pinref part="Z5" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY45" gate="GND" pin="GND"/>
@@ -33707,7 +33704,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="111.76" y1="91.44" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="88.9" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
 <junction x="99.06" y="88.9"/>
-<pinref part="Z6" gate="Z$1" pin="P$1"/>
+<pinref part="Z4" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="J12" gate="G$1" pin="20"/>
@@ -33721,7 +33718,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="111.76" y1="162.56" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="160.02" x2="99.06" y2="160.02" width="0.1524" layer="91"/>
 <junction x="99.06" y="160.02"/>
-<pinref part="Z1" gate="Z$1" pin="P$1"/>
+<pinref part="Z1" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="R37" gate="G$1" pin="2"/>
@@ -33730,7 +33727,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="167.64" y1="162.56" x2="167.64" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="160.02" x2="154.94" y2="160.02" width="0.1524" layer="91"/>
 <junction x="154.94" y="160.02"/>
-<pinref part="Z2" gate="Z$1" pin="P$1"/>
+<pinref part="Z2" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
