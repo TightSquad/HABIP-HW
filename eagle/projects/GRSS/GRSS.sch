@@ -3874,6 +3874,9 @@
 <circle x="0" y="0" radius="1.5" width="3" layer="29"/>
 <circle x="0" y="0" radius="1.5" width="3" layer="30"/>
 </package>
+<package name="BLANK">
+<text x="0" y="0" size="0.4064" layer="51" font="vector" ratio="20">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="BC9VPC">
@@ -14588,6 +14591,25 @@ LOGO</text>
 <text x="2.032" y="0.5842" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.032" y="-2.4638" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="BOM_LINE_ITEM">
+<text x="12.7" y="0.3175" size="1.9304" layer="96" ratio="10">&gt;VALUE</text>
+<text x="0.508" y="0.3175" size="1.9304" layer="96">&gt;NAME</text>
+<text x="58.42" y="0.3175" size="1.9304" layer="96" ratio="10">&gt;VENDOR</text>
+<text x="91.44" y="0.3175" size="1.9304" layer="96" ratio="10">&gt;VENDOR_PN</text>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="12.192" y2="2.54" width="0.254" layer="94"/>
+<wire x1="12.192" y1="2.54" x2="57.912" y2="2.54" width="0.254" layer="94"/>
+<wire x1="57.912" y1="2.54" x2="90.932" y2="2.54" width="0.254" layer="94"/>
+<wire x1="90.932" y1="2.54" x2="116.84" y2="2.54" width="0.254" layer="94"/>
+<wire x1="116.84" y1="2.54" x2="116.84" y2="0" width="0.254" layer="94"/>
+<wire x1="116.84" y1="0" x2="90.932" y2="0" width="0.254" layer="94"/>
+<wire x1="90.932" y1="0" x2="57.912" y2="0" width="0.254" layer="94"/>
+<wire x1="57.912" y1="0" x2="12.192" y2="0" width="0.254" layer="94"/>
+<wire x1="12.192" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="57.912" y1="2.54" x2="57.912" y2="0" width="0.254" layer="94" style="shortdash"/>
+<wire x1="90.932" y1="2.54" x2="90.932" y2="0" width="0.254" layer="94" style="shortdash"/>
+<wire x1="12.192" y1="2.54" x2="12.192" y2="0" width="0.254" layer="94" style="shortdash"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BH9VPC" prefix="BAT" uservalue="yes">
@@ -15303,6 +15325,59 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
+<deviceset name="BOM_LINE_ITEM" prefix="BOM" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="BOM_LINE_ITEM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BLANK">
+<technologies>
+<technology name="_BLI0">
+<attribute name="MANUFACTURER" value="Energizer" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="L522" constant="no"/>
+<attribute name="VALUE" value="Lithium 9V Battery" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="N723-ND" constant="no"/>
+</technology>
+<technology name="_BLI1">
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="" constant="no"/>
+<attribute name="VALUE" value="5mm Red LED 8000mcd" constant="no"/>
+<attribute name="VENDOR" value="superbrightleds.com" constant="no"/>
+<attribute name="VENDOR_PN" value="RL5-R8030" constant="no"/>
+</technology>
+<technology name="_BLI2">
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="" constant="no"/>
+<attribute name="VALUE" value="5mm Green LED 7500mcd" constant="no"/>
+<attribute name="VENDOR" value="superbrightleds.com" constant="no"/>
+<attribute name="VENDOR_PN" value="RL5-G7532" constant="no"/>
+</technology>
+<technology name="_BLI3">
+<attribute name="MANUFACTURER" value="PUI Audio" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="AI-3135-TF-LW100-R" constant="no"/>
+<attribute name="VALUE" value="105dB Buzzer" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="668-1350-ND" constant="no"/>
+</technology>
+<technology name="_BLI4">
+<attribute name="MANUFACTURER" value="Molex" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="50579402" constant="no"/>
+<attribute name="VALUE" value="SL 2PIN HOUSING" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="WM2900-ND" constant="no"/>
+</technology>
+<technology name="_BLI5">
+<attribute name="MANUFACTURER" value="Molex" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" constant="no"/>
+<attribute name="VALUE" value="SL 70058 GOLD CRIMP" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="frames">
@@ -15406,6 +15481,50 @@ DIN A4, landscape with location and doc. field</description>
 <part name="H3" library="grss" deviceset="MOUNT-HOLE" device="_2.75"/>
 <part name="H4" library="grss" deviceset="MOUNT-HOLE" device="_2.75"/>
 <part name="FRAME4" library="frames" deviceset="A4L-LOC" device=""/>
+<part name="BOM1" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI0" value="Lithium 9V Battery"/>
+<part name="BOM2" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI1" value="5mm Red LED 8000mcd"/>
+<part name="BOM3" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI4" value="SL 2PIN HOUSING"/>
+<part name="BOM4" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM5" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM6" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI1" value="5mm Red LED 8000mcd"/>
+<part name="BOM7" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI4" value="SL 2PIN HOUSING"/>
+<part name="BOM8" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM9" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM10" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI1" value="5mm Red LED 8000mcd"/>
+<part name="BOM11" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI4" value="SL 2PIN HOUSING"/>
+<part name="BOM12" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM13" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM14" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI1" value="5mm Red LED 8000mcd"/>
+<part name="BOM15" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI4" value="SL 2PIN HOUSING"/>
+<part name="BOM16" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM17" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM18" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI2" value="5mm Green LED 7500mcd"/>
+<part name="BOM19" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI4" value="SL 2PIN HOUSING"/>
+<part name="BOM20" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM21" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM22" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI2" value="5mm Green LED 7500mcd"/>
+<part name="BOM23" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI4" value="SL 2PIN HOUSING"/>
+<part name="BOM24" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM25" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM26" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI2" value="5mm Green LED 7500mcd"/>
+<part name="BOM27" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI4" value="SL 2PIN HOUSING"/>
+<part name="BOM28" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM29" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM30" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI2" value="5mm Green LED 7500mcd"/>
+<part name="BOM31" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI4" value="SL 2PIN HOUSING"/>
+<part name="BOM32" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM33" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM34" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI2" value="5mm Green LED 7500mcd"/>
+<part name="BOM35" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI4" value="SL 2PIN HOUSING"/>
+<part name="BOM36" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM37" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM39" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI4" value="SL 2PIN HOUSING"/>
+<part name="BOM40" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM41" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM42" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI4" value="SL 2PIN HOUSING"/>
+<part name="BOM43" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM44" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI5" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM38" library="grss" deviceset="BOM_LINE_ITEM" device="" technology="_BLI3" value="105dB Buzzer"/>
 </parts>
 <sheets>
 <sheet>
@@ -15416,7 +15535,7 @@ DIN A4, landscape with location and doc. field</description>
 <text x="91.186" y="87.63" size="2.54" layer="95">SCHEMATIC</text>
 <text x="22.86" y="157.48" size="6.4516" layer="95">Global Recovery Signalling System (GRSS)</text>
 <text x="216.662" y="20.32" size="2.54" layer="95">TITLE_TOC</text>
-<text x="250.19" y="5.08" size="2.54" layer="91">B</text>
+<text x="250.19" y="5.08" size="2.54" layer="91">1</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -15432,7 +15551,7 @@ DIN A4, landscape with location and doc. field</description>
 <description>Block Diagram</description>
 <plain>
 <text x="196.85" y="25.4" size="2.54" layer="91">BLOCK_DIAGRAM</text>
-<text x="230.124" y="10.16" size="2.54" layer="91">B</text>
+<text x="230.124" y="10.16" size="2.54" layer="91">1</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="-20.32" y="5.08"/>
@@ -15462,7 +15581,7 @@ DIN A4, landscape with location and doc. field</description>
 <text x="-127.56" y="169.88" size="1.778" layer="97">LDO 9V -&gt; 4.5V</text>
 <text x="21.59" y="68.58" size="2.54" layer="95">SCHEMATIC</text>
 <text x="-130.556" y="82.042" size="1.778" layer="91">MOUNTING HOLES</text>
-<text x="54.864" y="53.34" size="2.54" layer="91">B</text>
+<text x="54.864" y="53.34" size="2.54" layer="91">1</text>
 </plain>
 <instances>
 <instance part="BATT" gate="G$1" x="-172.72" y="132.08"/>
@@ -15820,9 +15939,67 @@ DIN A4, landscape with location and doc. field</description>
 <sheet>
 <description>Assembly Components</description>
 <plain>
+<text x="7.62" y="146.05" size="2.54" layer="91">BATT: </text>
+<text x="7.62" y="135.89" size="2.54" layer="91">J1: LED1</text>
+<text x="7.62" y="118.11" size="2.54" layer="91">J2: LED2</text>
+<text x="7.62" y="100.33" size="2.54" layer="91">J3: LED3</text>
+<text x="7.62" y="82.55" size="2.54" layer="91">J4: LED4</text>
+<text x="7.62" y="64.77" size="2.54" layer="91">J5: LED5</text>
+<text x="134.62" y="146.05" size="2.54" layer="91">J6: LED6</text>
+<text x="134.62" y="128.27" size="2.54" layer="91">J7: LED7</text>
+<text x="134.62" y="110.49" size="2.54" layer="91">J8: LED8</text>
+<text x="134.62" y="92.71" size="2.54" layer="91">J9: LED9</text>
+<text x="134.62" y="74.93" size="2.54" layer="91">J10: Buzzer</text>
+<text x="134.62" y="57.15" size="2.54" layer="91">J11: GRSS Power Jumper</text>
+<text x="215.9" y="20.32" size="2.1844" layer="91">ASSEMBLY_COMPONENTS</text>
+<text x="250.444" y="5.08" size="2.54" layer="91">1</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
+<instance part="BOM1" gate="G$1" x="7.62" y="142.24"/>
+<instance part="BOM2" gate="G$1" x="7.62" y="132.08"/>
+<instance part="BOM3" gate="G$1" x="7.62" y="129.54"/>
+<instance part="BOM4" gate="G$1" x="7.62" y="127"/>
+<instance part="BOM5" gate="G$1" x="7.62" y="124.46"/>
+<instance part="BOM6" gate="G$1" x="7.62" y="114.3"/>
+<instance part="BOM7" gate="G$1" x="7.62" y="111.76"/>
+<instance part="BOM8" gate="G$1" x="7.62" y="109.22"/>
+<instance part="BOM9" gate="G$1" x="7.62" y="106.68"/>
+<instance part="BOM10" gate="G$1" x="7.62" y="96.52"/>
+<instance part="BOM11" gate="G$1" x="7.62" y="93.98"/>
+<instance part="BOM12" gate="G$1" x="7.62" y="91.44"/>
+<instance part="BOM13" gate="G$1" x="7.62" y="88.9"/>
+<instance part="BOM14" gate="G$1" x="7.62" y="78.74"/>
+<instance part="BOM15" gate="G$1" x="7.62" y="76.2"/>
+<instance part="BOM16" gate="G$1" x="7.62" y="73.66"/>
+<instance part="BOM17" gate="G$1" x="7.62" y="71.12"/>
+<instance part="BOM18" gate="G$1" x="7.62" y="60.96"/>
+<instance part="BOM19" gate="G$1" x="7.62" y="58.42"/>
+<instance part="BOM20" gate="G$1" x="7.62" y="55.88"/>
+<instance part="BOM21" gate="G$1" x="7.62" y="53.34"/>
+<instance part="BOM22" gate="G$1" x="134.62" y="142.24"/>
+<instance part="BOM23" gate="G$1" x="134.62" y="139.7"/>
+<instance part="BOM24" gate="G$1" x="134.62" y="137.16"/>
+<instance part="BOM25" gate="G$1" x="134.62" y="134.62"/>
+<instance part="BOM26" gate="G$1" x="134.62" y="124.46"/>
+<instance part="BOM27" gate="G$1" x="134.62" y="121.92"/>
+<instance part="BOM28" gate="G$1" x="134.62" y="119.38"/>
+<instance part="BOM29" gate="G$1" x="134.62" y="116.84"/>
+<instance part="BOM30" gate="G$1" x="134.62" y="106.68"/>
+<instance part="BOM31" gate="G$1" x="134.62" y="104.14"/>
+<instance part="BOM32" gate="G$1" x="134.62" y="101.6"/>
+<instance part="BOM33" gate="G$1" x="134.62" y="99.06"/>
+<instance part="BOM34" gate="G$1" x="134.62" y="88.9"/>
+<instance part="BOM35" gate="G$1" x="134.62" y="86.36"/>
+<instance part="BOM36" gate="G$1" x="134.62" y="83.82"/>
+<instance part="BOM37" gate="G$1" x="134.62" y="81.28"/>
+<instance part="BOM39" gate="G$1" x="134.62" y="68.58"/>
+<instance part="BOM40" gate="G$1" x="134.62" y="66.04"/>
+<instance part="BOM41" gate="G$1" x="134.62" y="63.5"/>
+<instance part="BOM42" gate="G$1" x="134.62" y="53.34"/>
+<instance part="BOM43" gate="G$1" x="134.62" y="50.8"/>
+<instance part="BOM44" gate="G$1" x="134.62" y="48.26"/>
+<instance part="BOM38" gate="G$1" x="134.62" y="71.12"/>
 </instances>
 <busses>
 </busses>
