@@ -26543,19 +26543,18 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="-1.778" y1="3.175" x2="-1.778" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-1.778" y1="2.54" x2="-1.778" y2="1.905" width="0.254" layer="94"/>
 <wire x1="-1.778" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-1.778" y1="-1.905" x2="-1.778" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-3.175" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.778" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="1.27" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-0.508" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="2.54" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-0.762" x2="0.762" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-0.508" x2="1.27" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-0.508" x2="1.778" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-0.508" x2="2.032" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="-1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="0.492" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.492" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0.708" y1="0.138" x2="0.962" y2="0.492" width="0.1524" layer="94"/>
+<wire x1="0.962" y1="0.492" x2="1.27" y2="0.492" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.492" x2="1.678" y2="0.492" width="0.1524" layer="94"/>
+<wire x1="1.678" y1="0.492" x2="1.832" y2="0.646" width="0.1524" layer="94"/>
 <circle x="0" y="-2.54" radius="0.3592" width="0" layer="94"/>
 <circle x="0" y="2.54" radius="0.3592" width="0" layer="94"/>
 <text x="-13.97" y="3.81" size="1.778" layer="96" rot="MR180">&gt;VALUE</text>
@@ -26564,9 +26563,9 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
 <pin name="S" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <polygon width="0.1524" layer="94">
-<vertex x="1.27" y="-0.508"/>
-<vertex x="1.778" y="0.254"/>
-<vertex x="0.762" y="0.254"/>
+<vertex x="1.27" y="0.392"/>
+<vertex x="1.778" y="-0.446"/>
+<vertex x="0.762" y="-0.446"/>
 </polygon>
 <polygon width="0.1524" layer="94">
 <vertex x="0" y="0"/>
@@ -26576,6 +26575,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <text x="-5.08" y="-5.08" size="1.27" layer="94">G</text>
 <text x="2.54" y="5.08" size="1.27" layer="94">S</text>
 <text x="2.54" y="-5.08" size="1.27" layer="94">D</text>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -29369,7 +29369,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="NC34" library="daqcs_host" deviceset="NO_CONNECT" device="" value="NC"/>
 <part name="NC35" library="daqcs_host" deviceset="NO_CONNECT" device="" value="NC"/>
 <part name="NC36" library="daqcs_host" deviceset="NO_CONNECT" device="" value="NC"/>
-<part name="NC37" library="daqcs_host" deviceset="NO_CONNECT" device="" value="NC"/>
 <part name="NC38" library="daqcs_host" deviceset="NO_CONNECT" device="" value="NC"/>
 <part name="NC39" library="daqcs_host" deviceset="NO_CONNECT" device="" value="NC"/>
 <part name="NC40" library="daqcs_host" deviceset="NO_CONNECT" device="" value="NC"/>
@@ -32798,7 +32797,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="TP36" gate="G$1" x="246.38" y="195.58"/>
 <instance part="TP37" gate="G$1" x="317.5" y="190.5"/>
 <instance part="TP38" gate="G$1" x="142.24" y="76.2"/>
-<instance part="NC37" gate="G$1" x="172.72" y="170.18"/>
 <instance part="NC38" gate="G$1" x="269.24" y="177.8"/>
 <instance part="NC39" gate="G$1" x="76.2" y="78.74" rot="R180"/>
 <instance part="NC40" gate="G$1" x="76.2" y="73.66" rot="R180"/>
@@ -32824,11 +32822,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="132.08" y="157.48"/>
 <pinref part="U5" gate="A" pin="GND"/>
 <wire x1="177.8" y1="172.72" x2="144.78" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="172.72" x2="144.78" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="172.72" x2="144.78" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="170.18" x2="144.78" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="157.48" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
 <junction x="137.16" y="157.48"/>
 <pinref part="J13" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="182.88" x2="73.66" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="U5" gate="A" pin="EP"/>
+<wire x1="177.8" y1="170.18" x2="144.78" y2="170.18" width="0.1524" layer="91"/>
+<junction x="144.78" y="170.18"/>
 </segment>
 <segment>
 <pinref part="C22" gate="G$1" pin="2"/>
@@ -33191,13 +33193,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="353.06" y1="215.9" x2="353.06" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="137.16" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="137.16" x2="45.72" y2="215.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$42" class="0">
-<segment>
-<pinref part="NC37" gate="G$1" pin="NC"/>
-<pinref part="U5" gate="A" pin="EP"/>
-<wire x1="172.72" y1="170.18" x2="177.8" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$43" class="0">
