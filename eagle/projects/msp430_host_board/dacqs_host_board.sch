@@ -33635,13 +33635,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="256.54" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="P6.4_2" class="0">
-<segment>
-<pinref part="J19" gate="G$1" pin="14"/>
-<wire x1="264.16" y1="30.48" x2="251.46" y2="30.48" width="0.1524" layer="91"/>
-<label x="256.54" y="30.48" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="P6.5_2" class="0">
 <segment>
 <pinref part="J19" gate="G$1" pin="16"/>
@@ -33728,6 +33721,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="167.64" y1="160.02" x2="154.94" y2="160.02" width="0.1524" layer="91"/>
 <junction x="154.94" y="160.02"/>
 <pinref part="Z2" gate="G$1" pin="P$2"/>
+</segment>
+<segment>
+<pinref part="J19" gate="G$1" pin="14"/>
+<wire x1="264.16" y1="30.48" x2="251.46" y2="30.48" width="0.1524" layer="91"/>
+<label x="256.54" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
