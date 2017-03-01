@@ -7,7 +7,7 @@ Row {
     Proj2
   }
   Col {
-    Proj3 Rotate
+    Proj3
     Proj1
   }
 }  
