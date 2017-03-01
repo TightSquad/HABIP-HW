@@ -1689,13 +1689,13 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 </package>
 <package name="MICROUSB-RIGHT">
 <description>&lt;b&gt;Description:&lt;/b&gt; Package for Micro USB Type B connector. Based on FCI 10118193-0001LF.&lt;br&gt;</description>
-<smd name="3" x="0" y="2.675" dx="0.4" dy="1.35" layer="1" rot="R180" stop="no"/>
-<smd name="4" x="0.65" y="2.675" dx="0.4" dy="1.35" layer="1" rot="R180" stop="no"/>
-<smd name="2" x="-0.65" y="2.675" dx="0.4" dy="1.35" layer="1" rot="R180" stop="no"/>
-<smd name="1" x="-1.3" y="2.675" dx="0.4" dy="1.35" layer="1" rot="R180" stop="no"/>
-<smd name="5" x="1.3" y="2.675" dx="0.4" dy="1.35" layer="1" rot="R180" stop="no"/>
-<smd name="S3" x="-3.2" y="2.425" dx="1.4" dy="1.6" layer="1" rot="R90" stop="no"/>
-<smd name="S4" x="3.2" y="2.425" dx="1.4" dy="1.6" layer="1" rot="R90" stop="no"/>
+<smd name="3" x="0" y="2.675" dx="0.4" dy="1.35" layer="1" rot="R180"/>
+<smd name="4" x="0.65" y="2.675" dx="0.4" dy="1.35" layer="1" rot="R180"/>
+<smd name="2" x="-0.65" y="2.675" dx="0.4" dy="1.35" layer="1" rot="R180"/>
+<smd name="1" x="-1.3" y="2.675" dx="0.4" dy="1.35" layer="1" rot="R180"/>
+<smd name="5" x="1.3" y="2.675" dx="0.4" dy="1.35" layer="1" rot="R180"/>
+<smd name="S3" x="-3.2" y="2.425" dx="1.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="S4" x="3.2" y="2.425" dx="1.4" dy="1.6" layer="1" rot="R90"/>
 <text x="-3.92" y="3.9" size="0.4064" layer="25" font="vector" ratio="6">&gt;NAME</text>
 <wire x1="-4.5" y1="-1.45" x2="4.5" y2="-1.45" width="0.15" layer="21"/>
 <wire x1="-4.5" y1="-1.45" x2="-4.5" y2="3.2" width="0.15" layer="21"/>
@@ -1703,8 +1703,8 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="-4.08" y1="3.6" x2="4.08" y2="3.6" width="0.15" layer="21"/>
 <wire x1="4.08" y1="3.6" x2="4.5" y2="3.2" width="0.15" layer="21"/>
 <wire x1="4.5" y1="3.2" x2="4.5" y2="-1.45" width="0.15" layer="21"/>
-<smd name="S5" x="-1.2" y="0" dx="1.9" dy="1.9" layer="1" stop="no"/>
-<smd name="S6" x="1.2" y="0" dx="1.9" dy="1.9" layer="1" stop="no"/>
+<smd name="S5" x="-1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
+<smd name="S6" x="1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
 <text x="-4.08" y="-1.91" size="0.254" layer="27" ratio="6">&gt;VALUE</text>
 <pad name="S1" x="-3.3" y="0" drill="1.2" diameter="1.6" rot="R90"/>
 <pad name="S2" x="3.3" y="0" drill="1.2" diameter="1.6" rot="R90"/>
