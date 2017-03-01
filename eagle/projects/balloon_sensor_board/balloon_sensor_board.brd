@@ -3735,13 +3735,16 @@ SPRING 2017
 <wire x1="0.8" y1="2.07" x2="0.8" y2="1.67" width="0.15" layer="21" curve="180"/>
 <wire x1="0.8" y1="1.67" x2="0.6" y2="-0.23" width="0.15" layer="21" curve="-192.017996"/>
 </package>
+<package name="BLANK">
+<text x="0" y="0" size="0.4064" layer="51" font="vector" ratio="20">&gt;NAME</text>
+</package>
 </packages>
 </library>
 </libraries>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="POR" current="yes"/>
+<variantdef name="POR"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0.381">
@@ -4042,7 +4045,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="TP_SIGNAL_NAME" value="" x="16.6" y="11.095" size="0.4064" layer="37" ratio="6"/>
 <attribute name="VALUE" x="17.119" y="11.692" size="0.254" layer="27" ratio="6"/>
 </element>
-<element name="R205" library="daqcs" package="R0603" value="0.0" x="9" y="11.9" populate="no" smashed="yes">
+<element name="R205" library="daqcs" package="R0603" value="0.0" x="9" y="11.9" smashed="yes">
 <attribute name="MANUFACTURER" value="Panasonic" x="9" y="11.9" size="1.778" layer="27" display="off"/>
 <attribute name="POWER" value="1/10W" x="9" y="11.9" size="1.778" layer="27" display="off"/>
 <attribute name="RATED_CURRENT" value="1.0A" x="9" y="11.9" size="1.778" layer="27" display="off"/>
@@ -4052,7 +4055,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="TOLERANCE" value="Jmp" x="9" y="11.9" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Digi-key" x="9" y="11.9" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R203" library="daqcs" package="R0603" value="0.0" x="9" y="1.7" populate="no" smashed="yes">
+<element name="R203" library="daqcs" package="R0603" value="0.0" x="9" y="1.7" smashed="yes">
 <attribute name="MANUFACTURER" value="Panasonic" x="9" y="1.7" size="1.778" layer="27" display="off"/>
 <attribute name="POWER" value="1/10W" x="9" y="1.7" size="1.778" layer="27" display="off"/>
 <attribute name="RATED_CURRENT" value="1.0A" x="9" y="1.7" size="1.778" layer="27" display="off"/>
@@ -4071,6 +4074,41 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/passives/AOA0000C281.pdf" x="13.8" y="12.8" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR_PN" value="P0.0GCT-ND" x="13.8" y="12.8" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PN" value="ERJ-3GEY0R00V" x="13.8" y="12.8" size="1.778" layer="27" display="off"/>
+</element>
+<element name="BOM1" library="daqcs" package="BLANK" value="SL 70066 4PIN HOUSING" x="18.8" y="13.7">
+<attribute name="MANUFACTURER_PN" value="0050579404" x="18.8" y="13.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="18.8" y="13.7" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/050579402_sd.pdf" x="18.8" y="13.7" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2902-ND" x="18.8" y="13.7" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="18.8" y="13.7" size="1.778" layer="27" display="off"/>
+</element>
+<element name="BOM2" library="daqcs" package="BLANK" value="SL 70058 GOLD CRIMP" x="18.9" y="12.7">
+<attribute name="MANUFACTURER_PN" value="0016020087" x="18.9" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="18.9" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/016020087_sd.pdf" x="18.9" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="18.9" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="18.9" y="12.7" size="1.778" layer="27" display="off"/>
+</element>
+<element name="BOM3" library="daqcs" package="BLANK" value="SL 70058 GOLD CRIMP" x="19" y="12">
+<attribute name="MANUFACTURER_PN" value="0016020087" x="19" y="12" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="19" y="12" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/016020087_sd.pdf" x="19" y="12" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="19" y="12" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="19" y="12" size="1.778" layer="27" display="off"/>
+</element>
+<element name="BOM4" library="daqcs" package="BLANK" value="SL 70058 GOLD CRIMP" x="19.1" y="11.3">
+<attribute name="MANUFACTURER_PN" value="0016020087" x="19.1" y="11.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="19.1" y="11.3" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/016020087_sd.pdf" x="19.1" y="11.3" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="19.1" y="11.3" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="19.1" y="11.3" size="1.778" layer="27" display="off"/>
+</element>
+<element name="BOM5" library="daqcs" package="BLANK" value="SL 70058 GOLD CRIMP" x="19.2" y="10.6">
+<attribute name="MANUFACTURER_PN" value="0016020087" x="19.2" y="10.6" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="19.2" y="10.6" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/016020087_sd.pdf" x="19.2" y="10.6" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" x="19.2" y="10.6" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digi-key" x="19.2" y="10.6" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>

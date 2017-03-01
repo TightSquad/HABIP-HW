@@ -3878,6 +3878,9 @@
 <vertex x="-4.7625" y="5.1"/>
 </polygon>
 </package>
+<package name="BLANK">
+<text x="0" y="0" size="0.4064" layer="51" font="vector" ratio="20">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME_B_L">
@@ -4068,6 +4071,25 @@ LOGO</text>
 <wire x1="12.7" y1="-2.54" x2="12.7" y2="7.62" width="0.762" layer="94"/>
 <wire x1="12.7" y1="7.62" x2="-2.54" y2="7.62" width="0.762" layer="94"/>
 <wire x1="-2.54" y1="7.62" x2="-2.54" y2="-2.54" width="0.762" layer="94"/>
+</symbol>
+<symbol name="BOM_LINE_ITEM">
+<text x="12.7" y="0.3175" size="1.9304" layer="96" ratio="10">&gt;VALUE</text>
+<text x="0" y="0.3175" size="1.9304" layer="96">&gt;NAME</text>
+<text x="58.42" y="0.3175" size="1.9304" layer="96" ratio="10">&gt;VENDOR</text>
+<text x="86.36" y="0.3175" size="1.9304" layer="96" ratio="10">&gt;VENDOR_PN</text>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="12.192" y2="2.54" width="0.254" layer="94"/>
+<wire x1="12.192" y1="2.54" x2="57.912" y2="2.54" width="0.254" layer="94"/>
+<wire x1="57.912" y1="2.54" x2="85.852" y2="2.54" width="0.254" layer="94"/>
+<wire x1="85.852" y1="2.54" x2="111.76" y2="2.54" width="0.254" layer="94"/>
+<wire x1="111.76" y1="2.54" x2="111.76" y2="0" width="0.254" layer="94"/>
+<wire x1="111.76" y1="0" x2="85.852" y2="0" width="0.254" layer="94"/>
+<wire x1="85.852" y1="0" x2="57.912" y2="0" width="0.254" layer="94"/>
+<wire x1="57.912" y1="0" x2="12.192" y2="0" width="0.254" layer="94"/>
+<wire x1="12.192" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="57.912" y1="2.54" x2="57.912" y2="0" width="0.254" layer="94" style="shortdash"/>
+<wire x1="85.852" y1="2.54" x2="85.852" y2="0" width="0.254" layer="94" style="shortdash"/>
+<wire x1="12.192" y1="2.54" x2="12.192" y2="0" width="0.254" layer="94" style="shortdash"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4737,13 +4759,120 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </device>
 </devices>
 </deviceset>
+<deviceset name="BOM_LINE_ITEM" prefix="BOM" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="BOM_LINE_ITEM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BLANK">
+<technologies>
+<technology name="_BLI0">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/raspi_header/M20-998.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Harwin" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="M20-9980645" constant="no"/>
+<attribute name="VALUE" value="HEADER-RECT-MALE-2X6" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="952-2125-ND" constant="no"/>
+</technology>
+<technology name="_BLI1">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/raspi_header/M20-998.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Harwin" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="M20-9980345" constant="no"/>
+<attribute name="VALUE" value="HEADER-RECT-MALE-2X3" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="952-2120-ND" constant="no"/>
+</technology>
+<technology name="_BLI10">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/raspi_header/M20-998.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Harwin" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="M20-9980545" constant="no"/>
+<attribute name="VALUE" value="HEADER-RECT-MALE-2X5" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="952-2380-ND" constant="no"/>
+</technology>
+<technology name="_BLI11">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/battery/785060-2500mAh_specification_sheet.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Adafruit" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="328" constant="no"/>
+<attribute name="VALUE" value="1-Cell 2500mAh Li-Ion Battery" constant="no"/>
+<attribute name="VENDOR" value="Adafruit" constant="no"/>
+<attribute name="VENDOR_PN" value="328" constant="no"/>
+</technology>
+<technology name="_BLI2">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/050579402_sd.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="50-57-9402" constant="no"/>
+<attribute name="VALUE" value="SL 70066 2PIN HOUSING" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="WM2900-ND" constant="no"/>
+</technology>
+<technology name="_BLI3">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/050579402_sd.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="50-57-9403" constant="no"/>
+<attribute name="VALUE" value="SL 70066 3PIN HOUSING" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="WM2901-ND" constant="no"/>
+</technology>
+<technology name="_BLI4">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/050579402_sd.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="0050579404" constant="no"/>
+<attribute name="VALUE" value="SL 70066 4PIN HOUSING" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="WM2902-ND" constant="no"/>
+</technology>
+<technology name="_BLI5">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/050579402_sd.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="0050579405" constant="no"/>
+<attribute name="VALUE" value="SL 70066 5PIN HOUSING" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="WM2903-ND" constant="no"/>
+</technology>
+<technology name="_BLI6">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/uart_1wire_power_battery/016020087_sd.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Molex" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="0016020087" constant="no"/>
+<attribute name="VALUE" value="SL 70058 GOLD CRIMP" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="WM2512CT-ND" constant="no"/>
+</technology>
+<technology name="_BLI7">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/sensors/DS18B20.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Maxim" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="DS18B20+" constant="no"/>
+<attribute name="VALUE" value="1-Wire Temperature Sensor" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="DS18B20+-ND" constant="no"/>
+</technology>
+<technology name="_BLI8">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/power_jumper/xRxCzzzSxxN-RC_ST_11635-B.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Sullins" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="PRPC004SAAN-RC" constant="no"/>
+<attribute name="VALUE" value="HEADER-RECT-MALE-1X4" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="S1011EC-04-ND" constant="no"/>
+</technology>
+<technology name="_BLI9">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/battery/LiIon2000mAh37V.pdf" constant="no"/>
+<attribute name="MANUFACTURER" value="Adafruit" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="2011" constant="no"/>
+<attribute name="VALUE" value="1-Cell 2000mAh Li-Ion Battery" constant="no"/>
+<attribute name="VENDOR" value="Adafruit" constant="no"/>
+<attribute name="VENDOR_PN" value="2011" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="POR" current="yes"/>
+<variantdef name="POR"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0.381">
@@ -4789,6 +4918,12 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <variant name="POR" populate="no"/>
 </part>
 <part name="R1" library="daqcs" deviceset="RES" device="_0603" technology="_0R0" value="0.0"/>
+<part name="FRAME1" library="daqcs" deviceset="FRAME_B_L" device=""/>
+<part name="BOM1" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI4" value="SL 70066 4PIN HOUSING"/>
+<part name="BOM2" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM3" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM4" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
+<part name="BOM5" library="daqcs" deviceset="BOM_LINE_ITEM" device="" technology="_BLI6" value="SL 70058 GOLD CRIMP"/>
 </parts>
 <sheets>
 <sheet>
@@ -4802,6 +4937,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <text x="327.66" y="60.96" size="3.81" layer="91">ENGINEER: CHRIS SCHWAB</text>
 <text x="340.36" y="68.58" size="3.81" layer="91">TEAM: P17105</text>
 <text x="335.28" y="76.2" size="3.81" layer="91">DESIGN: 001-004-01</text>
+<text x="81.28" y="175.26" size="3.81" layer="91">ASSEMBLY_COMPONENTS</text>
 </plain>
 <instances>
 <instance part="FRAME101" gate="G$1" x="0" y="0"/>
@@ -5097,6 +5233,28 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 </net>
 </nets>
 </sheet>
+<sheet>
+<description>ASSEMBLY_COMPONENTS</description>
+<plain>
+<text x="330.2" y="27.94" size="3.81" layer="91">ASSEMBLY_COMPONENTS</text>
+<text x="421.64" y="7.62" size="3.81" layer="91">1</text>
+<text x="127" y="251.46" size="11.43" layer="91">Connector Assembly</text>
+<text x="182.88" y="228.6" size="3.81" layer="91">J201 4-pin SL Connector:</text>
+</plain>
+<instances>
+<instance part="FRAME1" gate="G$1" x="0" y="0"/>
+<instance part="FRAME1" gate="G$2" x="325.12" y="0"/>
+<instance part="BOM1" gate="G$1" x="167.64" y="213.36"/>
+<instance part="BOM2" gate="G$1" x="167.64" y="210.82"/>
+<instance part="BOM3" gate="G$1" x="167.64" y="208.28"/>
+<instance part="BOM4" gate="G$1" x="167.64" y="205.74"/>
+<instance part="BOM5" gate="G$1" x="167.64" y="203.2"/>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
 </sheets>
 <errors>
 <approved hash="104,2,233.68,86.36,U202,VDD,PP3V3,,,"/>
@@ -5111,6 +5269,7 @@ Wire to board 2.54 mm (.1 inch) pitch header (right-angle or vertical)
 <approved hash="113,2,101.6,50.8,LOGO202,,,,,"/>
 <approved hash="113,2,118.294,162.92,TP202,,,,,"/>
 <approved hash="113,2,118.294,170.54,TP201,,,,,"/>
+<approved hash="113,3,215.796,139.596,FRAME1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
