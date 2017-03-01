@@ -8016,10 +8016,10 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <contactref element="C26" pad="2"/>
 <contactref element="U8" pad="4"/>
 <polygon width="0.4064" layer="15">
-<vertex x="0" y="102"/>
-<vertex x="127" y="102"/>
-<vertex x="127" y="0"/>
-<vertex x="0" y="0"/>
+<vertex x="-0.1" y="101"/>
+<vertex x="126.9" y="101"/>
+<vertex x="127" y="1"/>
+<vertex x="0" y="1"/>
 </polygon>
 <contactref element="C36" pad="1"/>
 <contactref element="C35" pad="1"/>

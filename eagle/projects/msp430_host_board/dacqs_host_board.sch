@@ -3745,6 +3745,12 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <text x="-10.668" y="-33.782" size="1.778" layer="94">7</text>
 <text x="-10.668" y="-38.862" size="1.778" layer="94">8</text>
 <text x="-10.668" y="-44.196" size="1.778" layer="94">9</text>
+<wire x1="-17.78" y1="-45.72" x2="-17.78" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-50.8" x2="-2.54" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-50.8" x2="91.44" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="91.44" y1="-50.8" x2="91.44" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-45.72" x2="-2.54" y2="-50.8" width="0.254" layer="94"/>
+<text x="-10.668" y="-49.276" size="1.778" layer="94">10</text>
 </symbol>
 <symbol name="DAQCS_BLOCK_DIAGRAM">
 <rectangle x1="240.665" y1="2.267965625" x2="241.754659375" y2="2.449321875" layer="200"/>
@@ -29525,6 +29531,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="147" y="106" size="1.778" layer="91">POWER MANAGEMENT SCHEMATIC</text>
 <text x="147" y="101" size="1.778" layer="91">REACTION WHEEL BATTERY VOLTAGE SENSE SCHEMATIC</text>
 <text x="299.72" y="12.7" size="2.54" layer="91">PN: 01-02-01 </text>
+<text x="147" y="95.92" size="1.778" layer="91">HOUSING, CRIMPS AND ACCESSORIES</text>
 </plain>
 <instances>
 <instance part="FRAME8" gate="G$1" x="0" y="0"/>
@@ -33796,6 +33803,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="35.56" y="60.96" size="1.778" layer="91">BOARD BATTERY JUMPER SWITCH CONNECTION</text>
 <text x="157.48" y="93.98" size="1.778" layer="91">MOTOR BATTERY VOLTAGE SENSE</text>
 <text x="157.48" y="60.96" size="1.778" layer="91">BOARD BATTERY</text>
+<text x="342.9" y="20.32" size="1.778" layer="91">HOUSING AND CRIMPS</text>
 </plain>
 <instances>
 <instance part="FRAME10" gate="G$1" x="0" y="0"/>
