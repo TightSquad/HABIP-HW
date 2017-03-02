@@ -46082,7 +46082,7 @@ The output of the device is an open drain and can be connected to other open-dra
 <gate name="G$1" symbol="FFC-FPC-15POS" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="FFC-FPC-100P060X200-15N">
+<device name="_SMT" package="FFC-FPC-100P060X200-15N">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -46104,6 +46104,7 @@ The output of the device is an open drain and can be connected to other open-dra
 </connects>
 <technologies>
 <technology name="_FFC15">
+<attribute name="CONTACT_LOCATION" value="TOP" constant="no"/>
 <attribute name="DATASHEET" value="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/ffc_fpc/sfw12lf.pdf" constant="no"/>
 <attribute name="FINISH" value="TIN" constant="no"/>
 <attribute name="FLEX_TYPE" value="FFC,FPC" constant="no"/>
@@ -46115,9 +46116,26 @@ The output of the device is an open drain and can be connected to other open-dra
 <attribute name="MOUNT_TYPE" value="SMT" constant="no"/>
 <attribute name="PITCH" value="1.0mm" constant="no"/>
 <attribute name="POSITIONS" value="15" constant="no"/>
-<attribute name="VALUE" value="FFC-FPC-15POS" constant="no"/>
+<attribute name="VALUE" value="FFC-FPC-15POS-TOP" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="609-1906-1-ND" constant="no"/>
+</technology>
+<technology name="_FFC15_BOT">
+<attribute name="CONTACT_LOCATION" value="BOTTOM" constant="no"/>
+<attribute name="DATASHEET" value="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/ffc_fpc/sfw12lf.pdf" constant="no"/>
+<attribute name="FINISH" value="TIN" constant="no"/>
+<attribute name="FLEX_TYPE" value="FFC,FPC" constant="no"/>
+<attribute name="LOCKING" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Amphenol" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="SFW15R-1STE1LF" constant="no"/>
+<attribute name="MAX_CURRENT" value="1.0A" constant="no"/>
+<attribute name="MOUNT_ANGLE" value="RIGHT" constant="no"/>
+<attribute name="MOUNT_TYPE" value="SMT" constant="no"/>
+<attribute name="PITCH" value="1.0mm" constant="no"/>
+<attribute name="POSITIONS" value="15" constant="no"/>
+<attribute name="VALUE" value="FFC-FPC-15POS-BOT" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="609-1905-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>

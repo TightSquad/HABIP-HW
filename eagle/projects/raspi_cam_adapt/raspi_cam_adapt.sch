@@ -205,6 +205,34 @@
 <wire x1="0.8" y1="2.07" x2="0.8" y2="1.67" width="0.15" layer="21" curve="180"/>
 <wire x1="0.8" y1="1.67" x2="0.6" y2="-0.23" width="0.15" layer="21" curve="-192.017996"/>
 </package>
+<package name="2,75_3,0_HOLE_RASPI">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.75mm diameter drill center, 3mm keep-out radius. For Raspberry Pi Zero four corner standoffs</description>
+<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3" width="0" layer="40"/>
+<circle x="0" y="0" radius="3" width="0" layer="39"/>
+<circle x="0" y="0" radius="3" width="0" layer="41"/>
+<circle x="0" y="0" radius="3" width="0" layer="42"/>
+<circle x="0" y="0" radius="3" width="0" layer="43"/>
+<hole x="0" y="0" drill="2.75"/>
+<circle x="0" y="0" radius="3" width="0" layer="29"/>
+<circle x="0" y="0" radius="3" width="0" layer="30"/>
+</package>
+<package name="2,2_2,0_HOLE_RASPI_CAM">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.2mm diameter drill center, 2mm keep-out radius. For Raspberry Pi Camera v2.1 four standoffs</description>
+<wire x1="-1.4" y1="0" x2="0" y2="-1.4" width="1.2" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.4" x2="1.4" y2="0" width="1.2" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2" width="0" layer="40"/>
+<circle x="0" y="0" radius="2" width="0" layer="39"/>
+<circle x="0" y="0" radius="2" width="0" layer="41"/>
+<circle x="0" y="0" radius="2" width="0" layer="42"/>
+<circle x="0" y="0" radius="2" width="0" layer="43"/>
+<hole x="0" y="0" drill="2.2"/>
+<circle x="0" y="0" radius="2" width="0" layer="29"/>
+<circle x="0" y="0" radius="2" width="0" layer="30"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME_B_L">
@@ -325,6 +353,16 @@ LOGO</text>
 <wire x1="12.7" y1="7.62" x2="-2.54" y2="7.62" width="0.762" layer="94"/>
 <wire x1="-2.54" y1="7.62" x2="-2.54" y2="-2.54" width="0.762" layer="94"/>
 </symbol>
+<symbol name="MOUNT-HOLE">
+<wire x1="0" y1="1.27" x2="1.27" y2="0" width="1.524" layer="94" curve="-90" cap="flat"/>
+<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="1.524" layer="94" curve="90" cap="flat"/>
+<wire x1="-0.508" y1="0" x2="0.508" y2="0" width="0.0508" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.0508" layer="94"/>
+<circle x="0" y="0" radius="2.032" width="0.0508" layer="94"/>
+<circle x="0" y="0" radius="0.508" width="0.0508" layer="94"/>
+<text x="2.032" y="0.5842" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.032" y="-2.4638" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME_B_L" prefix="FRAME" uservalue="yes">
@@ -349,7 +387,7 @@ LOGO</text>
 <gate name="G$1" symbol="FFC-FPC-15POS" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="FFC-FPC-100P060X200-15N">
+<device name="_SMT" package="FFC-FPC-100P060X200-15N">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -371,6 +409,7 @@ LOGO</text>
 </connects>
 <technologies>
 <technology name="_FFC15">
+<attribute name="CONTACT_LOCATION" value="TOP" constant="no"/>
 <attribute name="DATASHEET" value="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/ffc_fpc/sfw12lf.pdf" constant="no"/>
 <attribute name="FINISH" value="TIN" constant="no"/>
 <attribute name="FLEX_TYPE" value="FFC,FPC" constant="no"/>
@@ -382,9 +421,26 @@ LOGO</text>
 <attribute name="MOUNT_TYPE" value="SMT" constant="no"/>
 <attribute name="PITCH" value="1.0mm" constant="no"/>
 <attribute name="POSITIONS" value="15" constant="no"/>
-<attribute name="VALUE" value="FFC-FPC-15POS" constant="no"/>
+<attribute name="VALUE" value="FFC-FPC-15POS-TOP" constant="no"/>
 <attribute name="VENDOR" value="Digi-key" constant="no"/>
 <attribute name="VENDOR_PN" value="609-1906-1-ND" constant="no"/>
+</technology>
+<technology name="_FFC15_BOT">
+<attribute name="CONTACT_LOCATION" value="BOTTOM" constant="no"/>
+<attribute name="DATASHEET" value="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/ffc_fpc/sfw12lf.pdf" constant="no"/>
+<attribute name="FINISH" value="TIN" constant="no"/>
+<attribute name="FLEX_TYPE" value="FFC,FPC" constant="no"/>
+<attribute name="LOCKING" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Amphenol" constant="no"/>
+<attribute name="MANUFACTURER_PN" value="SFW15R-1STE1LF" constant="no"/>
+<attribute name="MAX_CURRENT" value="1.0A" constant="no"/>
+<attribute name="MOUNT_ANGLE" value="RIGHT" constant="no"/>
+<attribute name="MOUNT_TYPE" value="SMT" constant="no"/>
+<attribute name="PITCH" value="1.0mm" constant="no"/>
+<attribute name="POSITIONS" value="15" constant="no"/>
+<attribute name="VALUE" value="FFC-FPC-15POS-BOT" constant="no"/>
+<attribute name="VENDOR" value="Digi-key" constant="no"/>
+<attribute name="VENDOR_PN" value="609-1905-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -416,12 +472,37 @@ LOGO</text>
 </device>
 </devices>
 </deviceset>
+<deviceset name="MOUNT-HOLE" prefix="H" uservalue="yes">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; with drill center marker</description>
+<gates>
+<gate name="G$1" symbol="MOUNT-HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_2.75_3.0" package="2,75_3,0_HOLE_RASPI">
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-zero-v1_2_dimensions.pdf" constant="no"/>
+<attribute name="VALUE" value="2.75mm_drill_3.00mm_radius" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2.2_2.0" package="2,2_2,0_HOLE_RASPI_CAM">
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-cam-v2_1-dimensions.pdf" constant="no"/>
+<attribute name="VALUE" value="2.2mm_drill_2.0mm_radius" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
 <attributes>
 </attributes>
 <variantdefs>
+<variantdef name="POR"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -430,11 +511,15 @@ LOGO</text>
 <parts>
 <part name="FRAME101" library="daqcs" deviceset="FRAME_B_L" device=""/>
 <part name="FRAME201" library="daqcs" deviceset="FRAME_B_L" device=""/>
-<part name="J201" library="daqcs" deviceset="FFC-FPC-15POS" device="" technology="_FFC15" value="FFC-FPC-15POS"/>
-<part name="J203" library="daqcs" deviceset="FFC-FPC-15POS" device="" technology="_FFC15" value="FFC-FPC-15POS"/>
+<part name="J201" library="daqcs" deviceset="FFC-FPC-15POS" device="_SMT" technology="_FFC15_BOT" value="FFC-FPC-15POS-BOT"/>
+<part name="J203" library="daqcs" deviceset="FFC-FPC-15POS" device="_SMT" technology="_FFC15" value="FFC-FPC-15POS-TOP">
+<variant name="POR" populate="no"/>
+</part>
 <part name="TOC101" library="daqcs" deviceset="TOC-10" device=""/>
-<part name="J202" library="daqcs" deviceset="FFC-FPC-15POS" device="" technology="_FFC15" value="FFC-FPC-15POS"/>
-<part name="LOGO1" library="daqcs" deviceset="CMS_LOGO" device=""/>
+<part name="J202" library="daqcs" deviceset="FFC-FPC-15POS" device="_SMT" technology="_FFC15" value="FFC-FPC-15POS-TOP"/>
+<part name="LOGO201" library="daqcs" deviceset="CMS_LOGO" device=""/>
+<part name="H201" library="daqcs" deviceset="MOUNT-HOLE" device="_2.75_3.0" value="2.75mm_drill_3.00mm_radius"/>
+<part name="H202" library="daqcs" deviceset="MOUNT-HOLE" device="_2.75_3.0" value="2.75mm_drill_3.00mm_radius"/>
 </parts>
 <sheets>
 <sheet>
@@ -463,28 +548,37 @@ LOGO</text>
 <description>CONNECTORS</description>
 <plain>
 <text x="124.46" y="251.46" size="11.43" layer="91">FFC-FPC CONNECTORS</text>
-<text x="22.86" y="68.58" size="3.81" layer="91" rot="R90">TOP LEFT</text>
-<text x="213.36" y="63.5" size="3.81" layer="91" rot="R90">BOTTOM RIGHT</text>
-<text x="210.82" y="170.18" size="3.81" layer="91" rot="R90">TOP RIGHT</text>
+<text x="15.24" y="81.28" size="3.81" layer="91" rot="R90" align="center">TOP LEFT
+(BOTTOM CONTACTS)</text>
+<text x="213.36" y="81.28" size="3.81" layer="91" rot="R90" align="center">BOTTOM RIGHT
+(TOP CONTACTS)</text>
+<text x="210.82" y="182.88" size="3.81" layer="91" rot="R90" align="center">TOP RIGHT
+(TOP CONTACTS)</text>
 <text x="233.68" y="215.9" size="6.35" layer="91">Connection Options:</text>
-<text x="236.22" y="106.68" size="3.81" layer="91">Option 1:
+<text x="238.76" y="76.2" size="3.81" layer="91">Option 1:
 - Use a Type 1 FFC/FPC cable (opposite side conductors)
 - Connect RasPi Zero to J201
-- Connect Type 1 cable to J203
+- Connect Type 1 cable to J202
 
 Option 2:
 - Use a Type 2 FFC/FPC cable (same side conductors)
 - Connect RasPi Zero to J201
-- Connect Type 1 cable to J202
+- Connect Type 1 cable to J203
 
 *Note that FFC/FPC cable contacts face towards the RasPi
 Zero board and Camera Module when connecting.
 
-FFC-FPC 15PIN 1MM PITCH CONNECTOR (J201, J202, J203)
-Manufacturer: Amphenol FCI
-Manufacturer PN: SFW15R-2STE1LF 
-Vendor: Digi-Key
-Vendor PN: 609-1906-1-ND </text>
+FFC-FPC 15PIN 1MM PITCH CONNECTOR
+  Bottom Cotacts (J201)
+    Manufacturer: Amphenol FCI
+    Manufacturer PN: SFW15R-1STE1LF
+    Vendor: Digi-Key
+    Vendor PN: 609-1905-1-ND
+  Top Cotacts (J202,J203)
+    Manufacturer: Amphenol FCI
+    Manufacturer PN: SFW15R-2STE1LF 
+    Vendor: Digi-Key
+    Vendor PN: 609-1906-1-ND </text>
 <text x="330.2" y="27.94" size="3.81" layer="91">CONNECTORS</text>
 <text x="421.64" y="7.62" size="3.81" layer="91">1</text>
 </plain>
@@ -494,7 +588,9 @@ Vendor PN: 609-1906-1-ND </text>
 <instance part="J201" gate="G$1" x="33.02" y="78.74"/>
 <instance part="J203" gate="G$1" x="198.12" y="78.74" rot="MR0"/>
 <instance part="J202" gate="G$1" x="198.12" y="182.88" rot="MR0"/>
-<instance part="LOGO1" gate="G$1" x="276.86" y="60.96"/>
+<instance part="LOGO201" gate="G$1" x="238.76" y="20.32"/>
+<instance part="H201" gate="G$1" x="274.32" y="30.48"/>
+<instance part="H202" gate="G$1" x="274.32" y="20.32"/>
 </instances>
 <busses>
 </busses>
