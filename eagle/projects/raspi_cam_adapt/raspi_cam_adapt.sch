@@ -502,7 +502,7 @@ LOGO</text>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="POR"/>
+<variantdef name="POR" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -512,9 +512,6 @@ LOGO</text>
 <part name="FRAME101" library="daqcs" deviceset="FRAME_B_L" device=""/>
 <part name="FRAME201" library="daqcs" deviceset="FRAME_B_L" device=""/>
 <part name="J201" library="daqcs" deviceset="FFC-FPC-15POS" device="_SMT" technology="_FFC15_BOT" value="FFC-FPC-15POS-BOT"/>
-<part name="J203" library="daqcs" deviceset="FFC-FPC-15POS" device="_SMT" technology="_FFC15" value="FFC-FPC-15POS-TOP">
-<variant name="POR" populate="no"/>
-</part>
 <part name="TOC101" library="daqcs" deviceset="TOC-10" device=""/>
 <part name="J202" library="daqcs" deviceset="FFC-FPC-15POS" device="_SMT" technology="_FFC15" value="FFC-FPC-15POS-TOP"/>
 <part name="LOGO201" library="daqcs" deviceset="CMS_LOGO" device=""/>
@@ -548,22 +545,18 @@ LOGO</text>
 <description>CONNECTORS</description>
 <plain>
 <text x="124.46" y="251.46" size="11.43" layer="91">FFC-FPC CONNECTORS</text>
-<text x="15.24" y="81.28" size="3.81" layer="91" rot="R90" align="center">TOP LEFT
-(BOTTOM CONTACTS)</text>
-<text x="213.36" y="81.28" size="3.81" layer="91" rot="R90" align="center">BOTTOM RIGHT
-(TOP CONTACTS)</text>
-<text x="210.82" y="182.88" size="3.81" layer="91" rot="R90" align="center">TOP RIGHT
-(TOP CONTACTS)</text>
+<text x="15.24" y="81.28" size="3.81" layer="91" rot="R90" align="center">TOP LEFT</text>
+<text x="210.82" y="182.88" size="3.81" layer="91" rot="R90" align="center">TOP RIGHT</text>
 <text x="233.68" y="215.9" size="6.35" layer="91">Connection Options:</text>
 <text x="238.76" y="76.2" size="3.81" layer="91">Option 1:
 - Use a Type 1 FFC/FPC cable (opposite side conductors)
 - Connect RasPi Zero to J201
-- Connect Type 1 cable to J202
+- Connect Type 1 cable to J202 (which is a top-side contact connector)
 
 Option 2:
 - Use a Type 2 FFC/FPC cable (same side conductors)
 - Connect RasPi Zero to J201
-- Connect Type 1 cable to J203
+- Connect Type 1 cable to J202 (which is a bottom-side contact connector)
 
 *Note that FFC/FPC cable contacts face towards the RasPi
 Zero board and Camera Module when connecting.
@@ -586,7 +579,6 @@ FFC-FPC 15PIN 1MM PITCH CONNECTOR
 <instance part="FRAME201" gate="G$1" x="0" y="0"/>
 <instance part="FRAME201" gate="G$2" x="325.12" y="0"/>
 <instance part="J201" gate="G$1" x="33.02" y="78.74"/>
-<instance part="J203" gate="G$1" x="198.12" y="78.74" rot="MR0"/>
 <instance part="J202" gate="G$1" x="198.12" y="182.88" rot="MR0"/>
 <instance part="LOGO201" gate="G$1" x="238.76" y="20.32"/>
 <instance part="H201" gate="G$1" x="274.32" y="30.48"/>
@@ -595,43 +587,9 @@ FFC-FPC 15PIN 1MM PITCH CONNECTOR
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
-<segment>
-<pinref part="J201" gate="G$1" pin="1"/>
-<pinref part="J203" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="119.38" x2="180.34" y2="119.38" width="0.1524" layer="91"/>
-<label x="71.12" y="119.38" size="1.778" layer="95"/>
-<wire x1="180.34" y1="119.38" x2="185.42" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="119.38" x2="180.34" y2="152.4" width="0.1524" layer="91"/>
-<junction x="180.34" y="119.38"/>
-<pinref part="J202" gate="G$1" pin="15"/>
-<wire x1="180.34" y1="152.4" x2="185.42" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J201" gate="G$1" pin="4"/>
-<pinref part="J203" gate="G$1" pin="4"/>
-<wire x1="45.72" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
-<label x="71.12" y="104.14" size="1.778" layer="95"/>
-<pinref part="J202" gate="G$1" pin="12"/>
-<wire x1="165.1" y1="104.14" x2="185.42" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="104.14" x2="165.1" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="167.64" x2="185.42" y2="167.64" width="0.1524" layer="91"/>
-<junction x="165.1" y="104.14"/>
-</segment>
-<segment>
-<pinref part="J201" gate="G$1" pin="7"/>
-<pinref part="J203" gate="G$1" pin="7"/>
-<wire x1="45.72" y1="88.9" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
-<label x="71.12" y="88.9" size="1.778" layer="95"/>
-<pinref part="J202" gate="G$1" pin="9"/>
-<wire x1="149.86" y1="88.9" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="88.9" x2="149.86" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="182.88" x2="185.42" y2="182.88" width="0.1524" layer="91"/>
-<junction x="149.86" y="88.9"/>
-</segment>
+<net name="GND_4" class="0">
 <segment>
 <pinref part="J201" gate="G$1" pin="10"/>
-<pinref part="J203" gate="G$1" pin="10"/>
 <wire x1="45.72" y1="73.66" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
 <label x="71.12" y="73.66" size="1.778" layer="95"/>
 <pinref part="J202" gate="G$1" pin="6"/>
@@ -644,7 +602,6 @@ FFC-FPC 15PIN 1MM PITCH CONNECTOR
 <net name="CAM1_DN0" class="0">
 <segment>
 <pinref part="J201" gate="G$1" pin="2"/>
-<pinref part="J203" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="114.3" x2="175.26" y2="114.3" width="0.1524" layer="91"/>
 <label x="71.12" y="114.3" size="1.778" layer="95"/>
 <pinref part="J202" gate="G$1" pin="14"/>
@@ -657,7 +614,6 @@ FFC-FPC 15PIN 1MM PITCH CONNECTOR
 <net name="CAM1_DP0" class="0">
 <segment>
 <pinref part="J201" gate="G$1" pin="3"/>
-<pinref part="J203" gate="G$1" pin="3"/>
 <wire x1="45.72" y1="109.22" x2="170.18" y2="109.22" width="0.1524" layer="91"/>
 <label x="71.12" y="109.22" size="1.778" layer="95"/>
 <pinref part="J202" gate="G$1" pin="13"/>
@@ -670,7 +626,6 @@ FFC-FPC 15PIN 1MM PITCH CONNECTOR
 <net name="CAM1_DP1" class="0">
 <segment>
 <pinref part="J201" gate="G$1" pin="6"/>
-<pinref part="J203" gate="G$1" pin="6"/>
 <wire x1="45.72" y1="93.98" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
 <label x="71.12" y="93.98" size="1.778" layer="95"/>
 <pinref part="J202" gate="G$1" pin="10"/>
@@ -683,7 +638,6 @@ FFC-FPC 15PIN 1MM PITCH CONNECTOR
 <net name="CAM1_CN" class="0">
 <segment>
 <pinref part="J201" gate="G$1" pin="8"/>
-<pinref part="J203" gate="G$1" pin="8"/>
 <wire x1="45.72" y1="83.82" x2="144.78" y2="83.82" width="0.1524" layer="91"/>
 <label x="71.12" y="83.82" size="1.778" layer="95"/>
 <pinref part="J202" gate="G$1" pin="8"/>
@@ -696,7 +650,6 @@ FFC-FPC 15PIN 1MM PITCH CONNECTOR
 <net name="CAM1_CP" class="0">
 <segment>
 <pinref part="J201" gate="G$1" pin="9"/>
-<pinref part="J203" gate="G$1" pin="9"/>
 <wire x1="45.72" y1="78.74" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
 <label x="71.12" y="78.74" size="1.778" layer="95"/>
 <pinref part="J202" gate="G$1" pin="7"/>
@@ -709,7 +662,6 @@ FFC-FPC 15PIN 1MM PITCH CONNECTOR
 <net name="SCL0" class="0">
 <segment>
 <pinref part="J201" gate="G$1" pin="13"/>
-<pinref part="J203" gate="G$1" pin="13"/>
 <wire x1="45.72" y1="58.42" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
 <label x="71.12" y="58.42" size="1.778" layer="95"/>
 <pinref part="J202" gate="G$1" pin="3"/>
@@ -722,7 +674,6 @@ FFC-FPC 15PIN 1MM PITCH CONNECTOR
 <net name="SDA0" class="0">
 <segment>
 <pinref part="J201" gate="G$1" pin="14"/>
-<pinref part="J203" gate="G$1" pin="14"/>
 <wire x1="45.72" y1="53.34" x2="114.3" y2="53.34" width="0.1524" layer="91"/>
 <label x="71.12" y="53.34" size="1.778" layer="95"/>
 <pinref part="J202" gate="G$1" pin="2"/>
@@ -735,7 +686,6 @@ FFC-FPC 15PIN 1MM PITCH CONNECTOR
 <net name="3V3" class="0">
 <segment>
 <pinref part="J201" gate="G$1" pin="15"/>
-<pinref part="J203" gate="G$1" pin="15"/>
 <wire x1="45.72" y1="48.26" x2="109.22" y2="48.26" width="0.1524" layer="91"/>
 <label x="71.12" y="48.26" size="1.778" layer="95"/>
 <pinref part="J202" gate="G$1" pin="1"/>
@@ -751,7 +701,6 @@ FFC-FPC 15PIN 1MM PITCH CONNECTOR
 <wire x1="160.02" y1="172.72" x2="185.42" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="172.72" x2="160.02" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="J201" gate="G$1" pin="5"/>
-<pinref part="J203" gate="G$1" pin="5"/>
 <wire x1="45.72" y1="99.06" x2="160.02" y2="99.06" width="0.1524" layer="91"/>
 <label x="71.12" y="99.06" size="1.778" layer="95"/>
 <wire x1="160.02" y1="99.06" x2="185.42" y2="99.06" width="0.1524" layer="91"/>
@@ -761,7 +710,6 @@ FFC-FPC 15PIN 1MM PITCH CONNECTOR
 <net name="CAM_GPIO1" class="0">
 <segment>
 <pinref part="J201" gate="G$1" pin="12"/>
-<pinref part="J203" gate="G$1" pin="12"/>
 <wire x1="45.72" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
 <label x="71.12" y="63.5" size="1.778" layer="95"/>
 <pinref part="J202" gate="G$1" pin="4"/>
@@ -774,7 +722,6 @@ FFC-FPC 15PIN 1MM PITCH CONNECTOR
 <net name="CAM_GPIO0" class="0">
 <segment>
 <pinref part="J201" gate="G$1" pin="11"/>
-<pinref part="J203" gate="G$1" pin="11"/>
 <wire x1="45.72" y1="68.58" x2="129.54" y2="68.58" width="0.1524" layer="91"/>
 <label x="71.12" y="68.58" size="1.778" layer="95"/>
 <pinref part="J202" gate="G$1" pin="5"/>
@@ -782,6 +729,42 @@ FFC-FPC 15PIN 1MM PITCH CONNECTOR
 <wire x1="129.54" y1="68.58" x2="129.54" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="203.2" x2="185.42" y2="203.2" width="0.1524" layer="91"/>
 <junction x="129.54" y="68.58"/>
+</segment>
+</net>
+<net name="GND_1" class="0">
+<segment>
+<pinref part="J201" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="119.38" x2="180.34" y2="119.38" width="0.1524" layer="91"/>
+<label x="71.12" y="119.38" size="1.778" layer="95"/>
+<wire x1="180.34" y1="119.38" x2="185.42" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="119.38" x2="180.34" y2="152.4" width="0.1524" layer="91"/>
+<junction x="180.34" y="119.38"/>
+<pinref part="J202" gate="G$1" pin="15"/>
+<wire x1="180.34" y1="152.4" x2="185.42" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GND_2" class="0">
+<segment>
+<pinref part="J201" gate="G$1" pin="4"/>
+<wire x1="45.72" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
+<label x="71.12" y="104.14" size="1.778" layer="95"/>
+<pinref part="J202" gate="G$1" pin="12"/>
+<wire x1="165.1" y1="104.14" x2="185.42" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="104.14" x2="165.1" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="167.64" x2="185.42" y2="167.64" width="0.1524" layer="91"/>
+<junction x="165.1" y="104.14"/>
+</segment>
+</net>
+<net name="GND_3" class="0">
+<segment>
+<pinref part="J201" gate="G$1" pin="7"/>
+<wire x1="45.72" y1="88.9" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
+<label x="71.12" y="88.9" size="1.778" layer="95"/>
+<pinref part="J202" gate="G$1" pin="9"/>
+<wire x1="149.86" y1="88.9" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="88.9" x2="149.86" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="182.88" x2="185.42" y2="182.88" width="0.1524" layer="91"/>
+<junction x="149.86" y="88.9"/>
 </segment>
 </net>
 </nets>

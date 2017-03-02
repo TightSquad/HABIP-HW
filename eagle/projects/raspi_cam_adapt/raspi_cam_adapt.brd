@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND" color="10" fill="1" visible="no" active="yes"/>
@@ -151,21 +151,24 @@
 <wire x1="21" y1="0" x2="21" y2="29" width="0" layer="20"/>
 <wire x1="21" y1="29" x2="0" y2="29" width="0" layer="20"/>
 <wire x1="0" y1="29" x2="0" y2="0" width="0" layer="20"/>
-<text x="0.9" y="27.9" size="0.7" layer="22" font="vector" ratio="22" rot="MR180">CHRIS SCHWAB
+<text x="11.6" y="7.4" size="0.7" layer="22" font="vector" ratio="22" rot="MR180">CHRIS SCHWAB
 P17105: HABIP
 SPRING 2017
 002-005-01</text>
-<text x="3.1" y="22.2" size="1.1" layer="22" font="vector" ratio="20" rot="MR270">CAMERA ADAPTER BOARD</text>
+<text x="10" y="19.7" size="1.27" layer="22" font="vector" ratio="15" rot="MR180" align="center">CAMERA ADAPTER
+BOARD</text>
 <wire x1="0" y1="0" x2="21" y2="0" width="0" layer="117"/>
 <wire x1="21" y1="0" x2="21" y2="29" width="0" layer="117"/>
 <wire x1="21" y1="29" x2="0" y2="29" width="0" layer="117"/>
 <wire x1="0" y1="29" x2="0" y2="0" width="0" layer="117"/>
-<text x="0.9" y="0.8" size="1.016" layer="21" font="vector" ratio="20">FROM
+<text x="3" y="2.1" size="1.016" layer="21" font="vector" ratio="20" align="center">FROM
 RASPI</text>
-<text x="17" y="25.8" size="1.016" layer="21" font="vector" ratio="20">TO
+<text x="18.3" y="26.9" size="1.016" layer="21" font="vector" ratio="20" align="center">TO
 CAM</text>
-<text x="18.1" y="2" size="1.016" layer="22" font="vector" ratio="20" rot="MR180" align="center">TO
-CAM</text>
+<text x="2.6" y="14.5" size="1.016" layer="21" font="vector" ratio="20" rot="R90" align="center">BOTTOM
+CONTACTS</text>
+<text x="18.4" y="14.5" size="1.016" layer="21" font="vector" ratio="20" rot="R90" align="center">TOP
+CONTACTS</text>
 </plain>
 <libraries>
 <library name="daqcs">
@@ -247,7 +250,7 @@ CAM</text>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="POR"/>
+<variantdef name="POR" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -446,23 +449,6 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="NAME" x="0.87" y="25.8" size="1.016" layer="25" font="vector" ratio="20"/>
 <attribute name="CONTACT_LOCATION" value="BOTTOM" x="0" y="14.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J203" library="daqcs" package="FFC-FPC-100P060X200-15N" value="FFC-FPC-15POS-TOP" x="21" y="14.5" smashed="yes" rot="MR270">
-<attribute name="LOCKING" value="YES" x="21" y="14.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MAX_CURRENT" value="1.0A" x="21" y="14.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER" value="Amphenol" x="21" y="14.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="FLEX_TYPE" value="FFC,FPC" x="21" y="14.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="POSITIONS" value="15" x="21" y="14.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUNT_ANGLE" value="RIGHT" x="21" y="14.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VENDOR" value="Digi-key" x="21" y="14.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PN" value="SFW15R-2STE1LF" x="21" y="14.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="FINISH" value="TIN" x="21" y="14.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="PITCH" value="1.0mm" x="21" y="14.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DATASHEET" value="/Users/cschwab/Documents/School_Work/RIT_5/Fall_2016/MSD/git_repo/HW/docs/projects/raspi_zero_power_sensor_hat/datasheets/connectors/ffc_fpc/sfw12lf.pdf" x="21" y="14.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUNT_TYPE" value="SMT" x="21" y="14.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VENDOR_PN" value="609-1906-1-ND" x="21" y="14.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="20.03" y="26" size="1.016" layer="26" font="vector" ratio="20" rot="MR0"/>
-<attribute name="CONTACT_LOCATION" value="TOP" x="21" y="14.5" size="1.778" layer="28" rot="MR270" display="off"/>
-</element>
 <element name="J202" library="daqcs" package="FFC-FPC-100P060X200-15N" value="FFC-FPC-15POS-TOP" x="21" y="14.5" smashed="yes" rot="R90">
 <attribute name="LOCKING" value="YES" x="21" y="14.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MAX_CURRENT" value="1.0A" x="21" y="14.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -480,7 +466,7 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 <attribute name="NAME" x="19.83" y="3.1" size="1.016" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="CONTACT_LOCATION" value="TOP" x="21" y="14.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="LOGO201" library="daqcs" package="CMS_LOGO" value="" x="7.94" y="21.04" rot="MR0"/>
+<element name="LOGO201" library="daqcs" package="CMS_LOGO" value="" x="18.44" y="8.44" rot="MR0"/>
 <element name="H201" library="daqcs" package="2,75_3,0_HOLE_RASPI" value="2.75mm_drill_3.00mm_radius" x="12" y="25.9">
 <attribute name="DATASHEET" value="HW/docs/projects/raspi_zero_power_sensor_hat/mechanicals/rpi-zero-v1_2_dimensions.pdf" x="12" y="25.9" size="1.778" layer="27" display="off"/>
 </element>
@@ -489,146 +475,80 @@ Modified for $66 4-layer student special from Advanced Circuits as of 02/07/2017
 </element>
 </elements>
 <signals>
-<signal name="GND">
-<contactref element="J201" pad="1"/>
-<contactref element="J203" pad="1"/>
-<contactref element="J202" pad="15"/>
-<contactref element="J201" pad="4"/>
-<contactref element="J203" pad="4"/>
-<contactref element="J202" pad="12"/>
-<contactref element="J201" pad="7"/>
-<contactref element="J203" pad="7"/>
-<contactref element="J202" pad="9"/>
+<signal name="GND_4">
 <contactref element="J201" pad="10"/>
-<contactref element="J203" pad="10"/>
 <contactref element="J202" pad="6"/>
-<via x="10" y="21.5" extent="1-16" drill="0.381"/>
-<wire x1="6" y1="21.5" x2="10" y2="21.5" width="0.6" layer="1"/>
-<wire x1="10" y1="21.5" x2="15" y2="21.5" width="0.6" layer="1"/>
-<via x="11" y="18.5" extent="1-16" drill="0.381"/>
-<wire x1="6" y1="18.5" x2="11" y2="18.5" width="0.6" layer="1"/>
-<wire x1="15" y1="18.5" x2="11" y2="18.5" width="0.6" layer="1"/>
-<via x="10" y="15.5" extent="1-16" drill="0.381"/>
-<via x="11" y="12.5" extent="1-16" drill="0.381"/>
-<wire x1="6" y1="15.5" x2="10" y2="15.5" width="0.6" layer="1"/>
-<wire x1="15" y1="15.5" x2="10" y2="15.5" width="0.6" layer="1"/>
-<wire x1="6" y1="12.5" x2="11" y2="12.5" width="0.6" layer="1"/>
-<wire x1="15" y1="12.5" x2="11" y2="12.5" width="0.6" layer="1"/>
-<wire x1="15" y1="21.5" x2="10" y2="21.5" width="0.6" layer="16"/>
-<wire x1="15" y1="18.5" x2="11" y2="18.5" width="0.6" layer="16"/>
-<wire x1="15" y1="15.5" x2="10" y2="15.5" width="0.6" layer="16"/>
-<wire x1="15" y1="12.5" x2="11" y2="12.5" width="0.6" layer="16"/>
-<polygon width="0.1524" layer="2" isolate="0.3048">
-<vertex x="-1" y="29.4"/>
-<vertex x="-1" y="-0.4"/>
-<vertex x="22.2" y="-0.5"/>
-<vertex x="22.3" y="29.4"/>
-</polygon>
-<polygon width="0.1524" layer="15" isolate="0.3048">
-<vertex x="-0.6" y="29.6"/>
-<vertex x="-0.5" y="-0.2"/>
-<vertex x="22.7" y="-0.3"/>
-<vertex x="22.7" y="29.6"/>
-</polygon>
+<wire x1="6" y1="12.5" x2="15" y2="12.5" width="0.6" layer="1"/>
 </signal>
 <signal name="CAM1_DN0">
 <contactref element="J201" pad="2"/>
-<contactref element="J203" pad="2"/>
 <contactref element="J202" pad="14"/>
-<via x="11" y="20.5" extent="1-16" drill="0.381"/>
-<wire x1="6" y1="20.5" x2="11" y2="20.5" width="0.6" layer="1"/>
-<wire x1="11" y1="20.5" x2="15" y2="20.5" width="0.6" layer="1"/>
-<wire x1="15" y1="20.5" x2="11" y2="20.5" width="0.6" layer="16"/>
+<wire x1="6" y1="20.5" x2="15" y2="20.5" width="0.6" layer="1"/>
 </signal>
 <signal name="CAM1_DP0">
 <contactref element="J201" pad="3"/>
-<contactref element="J203" pad="3"/>
 <contactref element="J202" pad="13"/>
-<via x="10" y="19.5" extent="1-16" drill="0.381"/>
-<wire x1="6" y1="19.5" x2="10" y2="19.5" width="0.6" layer="1"/>
-<wire x1="10" y1="19.5" x2="15" y2="19.5" width="0.6" layer="1"/>
-<wire x1="15" y1="19.5" x2="10" y2="19.5" width="0.6" layer="16"/>
+<wire x1="6" y1="19.5" x2="15" y2="19.5" width="0.6" layer="1"/>
 </signal>
 <signal name="CAM1_DP1">
 <contactref element="J201" pad="6"/>
-<contactref element="J203" pad="6"/>
 <contactref element="J202" pad="10"/>
-<via x="11" y="16.5" extent="1-16" drill="0.381"/>
-<wire x1="6" y1="16.5" x2="11" y2="16.5" width="0.6" layer="1"/>
-<wire x1="11" y1="16.5" x2="15" y2="16.5" width="0.6" layer="1"/>
-<wire x1="15" y1="16.5" x2="11" y2="16.5" width="0.6" layer="16"/>
+<wire x1="6" y1="16.5" x2="15" y2="16.5" width="0.6" layer="1"/>
 </signal>
 <signal name="CAM1_CN">
 <contactref element="J201" pad="8"/>
-<contactref element="J203" pad="8"/>
 <contactref element="J202" pad="8"/>
-<via x="11" y="14.5" extent="1-16" drill="0.381"/>
-<wire x1="6" y1="14.5" x2="11" y2="14.5" width="0.6" layer="1"/>
-<wire x1="15" y1="14.5" x2="11" y2="14.5" width="0.6" layer="1"/>
-<wire x1="15" y1="14.5" x2="11" y2="14.5" width="0.6" layer="16"/>
+<wire x1="6" y1="14.5" x2="15" y2="14.5" width="0.6" layer="1"/>
 </signal>
 <signal name="CAM1_CP">
 <contactref element="J201" pad="9"/>
-<contactref element="J203" pad="9"/>
 <contactref element="J202" pad="7"/>
-<via x="10" y="13.5" extent="1-16" drill="0.381"/>
-<wire x1="6" y1="13.5" x2="10" y2="13.5" width="0.6" layer="1"/>
-<wire x1="15" y1="13.5" x2="10" y2="13.5" width="0.6" layer="1"/>
-<wire x1="15" y1="13.5" x2="10" y2="13.5" width="0.6" layer="16"/>
+<wire x1="15" y1="13.5" x2="6" y2="13.5" width="0.6" layer="1"/>
 </signal>
 <signal name="SCL0">
 <contactref element="J201" pad="13"/>
-<contactref element="J203" pad="13"/>
 <contactref element="J202" pad="3"/>
-<via x="10" y="9.5" extent="1-16" drill="0.381"/>
-<wire x1="6" y1="9.5" x2="10" y2="9.5" width="0.6" layer="1"/>
-<wire x1="15" y1="9.5" x2="10" y2="9.5" width="0.6" layer="1"/>
-<wire x1="15" y1="9.5" x2="10" y2="9.5" width="0.6" layer="16"/>
+<wire x1="15" y1="9.5" x2="6" y2="9.5" width="0.6" layer="1"/>
 </signal>
 <signal name="SDA0">
 <contactref element="J201" pad="14"/>
-<contactref element="J203" pad="14"/>
 <contactref element="J202" pad="2"/>
-<via x="11" y="8.5" extent="1-16" drill="0.381"/>
-<wire x1="6" y1="8.5" x2="11" y2="8.5" width="0.6" layer="1"/>
-<wire x1="15" y1="8.5" x2="11" y2="8.5" width="0.6" layer="1"/>
-<wire x1="15" y1="8.5" x2="11" y2="8.5" width="0.6" layer="16"/>
+<wire x1="6" y1="8.5" x2="15" y2="8.5" width="0.6" layer="1"/>
 </signal>
 <signal name="3V3">
 <contactref element="J201" pad="15"/>
-<contactref element="J203" pad="15"/>
 <contactref element="J202" pad="1"/>
-<via x="10" y="7.5" extent="1-16" drill="0.381"/>
-<wire x1="6" y1="7.5" x2="10" y2="7.5" width="0.6" layer="1"/>
-<wire x1="15" y1="7.5" x2="10" y2="7.5" width="0.6" layer="1"/>
-<wire x1="15" y1="7.5" x2="10" y2="7.5" width="0.6" layer="16"/>
+<wire x1="15" y1="7.5" x2="6" y2="7.5" width="0.6" layer="1"/>
 </signal>
 <signal name="CAM1_DN1">
 <contactref element="J202" pad="11"/>
 <contactref element="J201" pad="5"/>
-<contactref element="J203" pad="5"/>
-<via x="10" y="17.5" extent="1-16" drill="0.381"/>
-<wire x1="6" y1="17.5" x2="10" y2="17.5" width="0.6" layer="1"/>
-<wire x1="10" y1="17.5" x2="15" y2="17.5" width="0.6" layer="1"/>
-<wire x1="15" y1="17.5" x2="10" y2="17.5" width="0.6" layer="16"/>
+<wire x1="6" y1="17.5" x2="15" y2="17.5" width="0.6" layer="1"/>
 </signal>
 <signal name="CAM_GPIO1">
 <contactref element="J201" pad="12"/>
-<contactref element="J203" pad="12"/>
 <contactref element="J202" pad="4"/>
-<via x="11" y="10.5" extent="1-16" drill="0.381"/>
-<wire x1="6" y1="10.5" x2="11" y2="10.5" width="0.6" layer="1"/>
-<wire x1="15" y1="10.5" x2="11" y2="10.5" width="0.6" layer="1"/>
-<wire x1="15" y1="10.5" x2="11" y2="10.5" width="0.6" layer="16"/>
+<wire x1="6" y1="10.5" x2="15" y2="10.5" width="0.6" layer="1"/>
 </signal>
 <signal name="CAM_GPIO0">
 <contactref element="J201" pad="11"/>
-<contactref element="J203" pad="11"/>
 <contactref element="J202" pad="5"/>
-<via x="10" y="11.5" extent="1-16" drill="0.381"/>
-<wire x1="6" y1="11.5" x2="10" y2="11.5" width="0.6" layer="1"/>
-<wire x1="15" y1="11.5" x2="10" y2="11.5" width="0.6" layer="1"/>
-<wire x1="15" y1="11.5" x2="10" y2="11.5" width="0.6" layer="16"/>
+<wire x1="15" y1="11.5" x2="6" y2="11.5" width="0.6" layer="1"/>
+</signal>
+<signal name="GND_1">
+<contactref element="J201" pad="1"/>
+<contactref element="J202" pad="15"/>
+<wire x1="6" y1="21.5" x2="15" y2="21.5" width="0.6" layer="1"/>
+</signal>
+<signal name="GND_2">
+<contactref element="J201" pad="4"/>
+<contactref element="J202" pad="12"/>
+<wire x1="6" y1="18.5" x2="15" y2="18.5" width="0.6" layer="1"/>
+</signal>
+<signal name="GND_3">
+<contactref element="J201" pad="7"/>
+<contactref element="J202" pad="9"/>
+<wire x1="15" y1="15.5" x2="6" y2="15.5" width="0.6" layer="1"/>
 </signal>
 </signals>
 </board>
