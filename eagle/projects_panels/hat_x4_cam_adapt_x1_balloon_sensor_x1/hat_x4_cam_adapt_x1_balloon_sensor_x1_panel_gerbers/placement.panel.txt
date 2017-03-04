@@ -1,0 +1,9 @@
+Proj1*rotated90 0.003 0.003
+Proj1*rotated90 1.262 0.003
+Proj1*rotated90 2.521 0.003
+Proj2 0.003 2.640
+Proj2 0.908 2.640
+Proj3 1.813 2.640
+Proj3 1.813 3.269
+Proj3 2.599 2.640
+Proj3 2.599 3.269
